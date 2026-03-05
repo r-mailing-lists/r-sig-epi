@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2015-11",
+  "messages": [
+    {
+      "id": "msg-02c7dc69d2df",
+      "message_id": "<CANkV+29SFX4AMrhdWOwu1y4EU2SV8+OhqHPw=wwUNyBDg+bQFw@mail.gmail.com>",
+      "from_name": "Josh Rosen",
+      "from_email_hash": "24ae85d7d54b1aa302005d1ae4d9943eb220ab21cc64fb9f6b5585552c98007f",
+      "date": "2015-11-06T08:15:05-05:00",
+      "subject": "[R-sig-Epi] Relative Survival in R - Getting 5 year and Median Survival",
+      "subject_clean": "Relative Survival in R - Getting 5 year and Median Survival",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello,\n\nI am trying to compute the relative survival curves for a cohort of cancer\npatients that I have data on. I have been trying to use some of the\nelements of the relsurv package and have gotten to the point where I have\nbuilt my US Life Table, and have my data set in the proper form and am able\nto run rs.surv rs.add and rs.surv.add. I also think I have been able to\nplot the appropriate survival curve using some code found online. However,\nwhat I am wondering is how to best extract the 5-year (and 3-year) and\nmedian relative survivals for my cohort.\n\nI am also trying to figure out the best way to then go about validating my\nchoices of method for relative survival computation as well.\n\nI am fairly new to R (usually use SAS) so any help that you can provide\nwould be greatly appreciated.\n\nThank you!\n-JR\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello,\n\nI am trying to compute the relative survival curves for a cohort of cancer\npatients that I have data on. I have been trying to use some of the\nelements of the relsurv package and have gotten t",
+      "thread_id": "thread-02c7dc69d2df",
+      "thread_depth": 0,
+      "month": "2015-11"
+    },
+    {
+      "id": "msg-20d6aed2e5cf",
+      "message_id": "<563DA9BC.5030203@gmail.com>",
+      "from_name": "Joonas Miettinen",
+      "from_email_hash": "04d0a3fa1983e8571faae587f59e580b2186ce69325eac5dbdbac1b77dae1cf2",
+      "date": "2015-11-07T09:35:24+02:00",
+      "subject": "[R-sig-Epi] Relative Survival in R - Getting 5 year and Median Survival",
+      "subject_clean": "Relative Survival in R - Getting 5 year and Median Survival",
+      "in_reply_to": "<CANkV+29SFX4AMrhdWOwu1y4EU2SV8+OhqHPw=wwUNyBDg+bQFw@mail.gmail.com>",
+      "references": [
+        "<CANkV+29SFX4AMrhdWOwu1y4EU2SV8+OhqHPw=wwUNyBDg+bQFw@mail.gmail.com>"
+      ],
+      "body_plain": "Hey Josh,\n\nuse |summary| to get estimates for specific times. E.g.:\n\n|data(slopop) data(rdata) #calculate the relative survival curve #note \nthat the variable year is given in days since 01.01.1960 and that #age \nmust be multiplied by 365 in order to be expressed in days. rs <- \nrs.surv(Surv(time,cens)~sex+ratetable(age=age*365,sex=sex, \nyear=year),ratetable=slopop,data=rdata) summary(rs, times = c(3, \n5)*365.25) |\n\n?\nNot sure what you mean about the validation part, but you might try \nestimating both EdererII and Pohar-Perme curves and see if they're similar.\n\nBR: Joonas\n\n2015-11-06, 15:15, Josh Rosen kirjoitti:\n> Hello,\n>\n> I am trying to compute the relative survival curves for a cohort of cancer\n> patients that I have data on. I have been trying to use some of the\n> elements of the relsurv package and have gotten to the point where I have\n> built my US Life Table, and have my data set in the proper form and am able\n> to run rs.surv rs.add and rs.surv.add. I also think I have been able to\n> plot the appropriate survival curve using some code found online. However,\n> what I am wondering is how to best extract the 5-year (and 3-year) and\n> median relative survivals for my cohort.\n>\n> I am also trying to figure out the best way to then go about validating my\n> choices of method for relative survival computation as well.\n>\n> I am fairly new to R (usually use SAS) so any help that you can provide\n> would be greatly appreciated.\n>\n> Thank you!\n> -JR\n>\n> \t[[alternative HTML version deleted]]\n>\n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hey Josh,\n\nuse |summary| to get estimates for specific times. E.g.:\n\n|data(slopop) data(rdata) #calculate the relative survival curve #note \nthat the variable year is given in days since 01.01.1960 an",
+      "thread_id": "thread-02c7dc69d2df",
+      "thread_depth": 1,
+      "month": "2015-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-02c7dc69d2df",
+      "subject": "Relative Survival in R - Getting 5 year and Median Survival",
+      "message_count": 2,
+      "participants": [
+        "Joonas Miettinen",
+        "Josh Rosen"
+      ],
+      "started": "2015-11-06T08:15:05-05:00",
+      "last_reply": "2015-11-07T09:35:24+02:00",
+      "root_message_id": "msg-02c7dc69d2df"
+    }
+  ]
+}

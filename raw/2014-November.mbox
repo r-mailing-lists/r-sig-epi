@@ -1,0 +1,37 @@
+From userzht at 163.com  Fri Nov 21 00:54:08 2014
+From: userzht at 163.com (Ting Zhang)
+Date: Fri, 21 Nov 2014 07:54:08 +0800
+Subject: [R-sig-Epi] propensity score code
+Message-ID: <D0282BD4-123E-4CC6-B86E-7350F4BC8107@163.com>
+
+Hi, this is the first time I send a mail, and thanks in advance.
+
+I am eager to obtain the R code for propensity score analysis. Previously, I used SAS for this, but I converted to R these days since I found R is more flexible. However, no mature R code for propensity score exists right now as far as I know. Please help me with it. Thanks again.
+
+Best,
+
+Ting
+
+From dwinsemius at comcast.net  Thu Nov 27 07:22:41 2014
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Wed, 26 Nov 2014 22:22:41 -0800
+Subject: [R-sig-Epi] propensity score code
+In-Reply-To: <D0282BD4-123E-4CC6-B86E-7350F4BC8107@163.com>
+References: <D0282BD4-123E-4CC6-B86E-7350F4BC8107@163.com>
+Message-ID: <7267E09F-3404-4FD2-ADEF-82D8631E0E5D@comcast.net>
+
+
+On Nov 20, 2014, at 3:54 PM, Ting Zhang wrote:
+
+> Hi, this is the first time I send a mail, and thanks in advance.
+> 
+> I am eager to obtain the R code for propensity score analysis. Previously, I used SAS for this, but I converted to R these days since I found R is more flexible. However, no mature R code for propensity score exists right now as far as I know. Please help me with it. Thanks again.
+
+Can you explain why ordinary logistic regression is not being used as the first step?
+
+-- 
+
+David Winsemius
+Alameda, CA, USA
+
+

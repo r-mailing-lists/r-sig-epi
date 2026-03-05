@@ -1,0 +1,213 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2007-07",
+  "messages": [
+    {
+      "id": "msg-efbb8d7298d7",
+      "message_id": "<1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>",
+      "from_name": "Lynn Disney",
+      "from_email_hash": "a949b5c88d24be733132147631c7850bf6fcafbd6519d59885a4579a1432521d",
+      "date": "2007-07-17T15:11:34-04:00",
+      "subject": "[R-sig-Epi] question about selecting observations",
+      "subject_clean": "question about selecting observations",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070717/ed68599c/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070717/ed68599c/attachment.pl",
+      "thread_id": "thread-efbb8d7298d7",
+      "thread_depth": 0,
+      "month": "2007-07"
+    },
+    {
+      "id": "msg-c4c7f0f7f814",
+      "message_id": "<469D19F5.60703@hotmail.com>",
+      "from_name": "FZ",
+      "from_email_hash": "e809e7003031b289f014fa3452fbb038c2e07d17f897c97f892648b9b6e3c35f",
+      "date": "2007-07-17T13:35:17-06:00",
+      "subject": "[R-sig-Epi] question about selecting observations",
+      "subject_clean": "question about selecting observations",
+      "in_reply_to": "<1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>",
+      "references": [
+        "<1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>"
+      ],
+      "body_plain": "This is not really an epi question.  Also, please read the posting guide \nwhich tells you to provide a reproducible example.\n\nAnyhow, I think this may do what you want:\n\ndatasorted <- data[order(data$ID, data$date, decreasing=TRUE),]\n\nfirstobs<- data[!duplicated(data$Date),]\n\nThis assumes that by first observation you mean the first record for \neach Date. You can easily extend this to select the first observation by ID.\n\nI hope this helps,\n\nFrancisco\n\nLynn Disney wrote:\n> I have a large dataset and I need to sort by ID and date, then select\n> the first observation...I have seen how to do this and delete the first\n> obs. Not sure how to extend the concept...\n> \n>  \n> \n> Can anyone help?\n> \n>  \n> \n> Lynn D. Disney, Ph.D., J.D., M.P.H.\n> \n> Research Analyst\n> \n> SEIU 1199\n> \n> 1771 E. 30th Street\n> \n> Cleveland, Ohio 44114\n> \n> Telephone: (216) 566-0117\n> \n> Email: ldisney at seiu1199.org <mailto:ldisney at seiu1199.org> \n> \n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> \n> \n> \n>",
+      "body_snippet": "This is not really an epi question.  Also, please read the posting guide \nwhich tells you to provide a reproducible example.\n\nAnyhow, I think this may do what you want:\n\ndatasorted <- data[order(data$",
+      "thread_id": "thread-efbb8d7298d7",
+      "thread_depth": 1,
+      "month": "2007-07"
+    },
+    {
+      "id": "msg-c9126643c090",
+      "message_id": "<469D1A7C.20501@hotmail.com>",
+      "from_name": "FZ",
+      "from_email_hash": "e809e7003031b289f014fa3452fbb038c2e07d17f897c97f892648b9b6e3c35f",
+      "date": "2007-07-17T13:37:32-06:00",
+      "subject": "[R-sig-Epi] question about selecting observations",
+      "subject_clean": "question about selecting observations",
+      "in_reply_to": "<1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>",
+      "references": [
+        "<1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>"
+      ],
+      "body_plain": "oeps, I found a typo in my previous email just after hitting the send \nbutton :-(\n\nSee update below:\n\ndatasorted <- data[order(data$ID, data$date, decreasing=TRUE),]\n\nfirstobs<- datasorted[!duplicated(datasorted$date),]\n\nFrancisco\n\nLynn Disney wrote:\n> I have a large dataset and I need to sort by ID and date, then select\n> the first observation...I have seen how to do this and delete the first\n> obs. Not sure how to extend the concept...\n> \n>  \n> \n> Can anyone help?\n> \n>  \n> \n> Lynn D. Disney, Ph.D., J.D., M.P.H.\n> \n> Research Analyst\n> \n> SEIU 1199\n> \n> 1771 E. 30th Street\n> \n> Cleveland, Ohio 44114\n> \n> Telephone: (216) 566-0117\n> \n> Email: ldisney at seiu1199.org <mailto:ldisney at seiu1199.org> \n> \n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> \n> \n> \n>",
+      "body_snippet": "oeps, I found a typo in my previous email just after hitting the send \nbutton :-(\n\nSee update below:\n\ndatasorted <- data[order(data$ID, data$date, decreasing=TRUE),]\n\nfirstobs<- datasorted[!duplicated",
+      "thread_id": "thread-efbb8d7298d7",
+      "thread_depth": 1,
+      "month": "2007-07"
+    },
+    {
+      "id": "msg-4737fd1b3f97",
+      "message_id": "<6BEABCD5CA640A44A848448A42A03B7304A5D5EE@ilrikeadx1.ILRI.CGIARAD.ORG>",
+      "from_name": "Matere, Crispin (ILRI - ICRAF)",
+      "from_email_hash": "b66f5a96e0c19e8aa678af1d87d926fd1bc61ffe092364ce842033f67212fdee",
+      "date": "2007-07-18T16:54:37+03:00",
+      "subject": "[R-sig-Epi] AMOVA",
+      "subject_clean": "AMOVA",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070718/0e9752d8/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070718/0e9752d8/attachment.pl",
+      "thread_id": "thread-4737fd1b3f97",
+      "thread_depth": 0,
+      "month": "2007-07"
+    },
+    {
+      "id": "msg-f3b1010b232e",
+      "message_id": "<1185011311.26915.22.camel@R3-Thux>",
+      "from_name": "Bernardo Rangel Tura",
+      "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
+      "date": "2007-07-21T06:48:31-03:00",
+      "subject": "[R-sig-Epi] AMOVA",
+      "subject_clean": "AMOVA",
+      "in_reply_to": "<6BEABCD5CA640A44A848448A42A03B7304A5D5EE@ilrikeadx1.ILRI.CGIARAD.ORG>",
+      "references": [
+        "<6BEABCD5CA640A44A848448A42A03B7304A5D5EE@ilrikeadx1.ILRI.CGIARAD.ORG>"
+      ],
+      "body_plain": "On Wed, 2007-07-18 at 16:54 +0300, Matere, Crispin (ILRI - ICRAF) wrote:\n> I am requesting any one to show me how to do an analysis of molecular\n> variance in R suing haplotype data through an example.\n> \n>  \n> \n> Thank you in advance\n> \n>  \n> \n> Matere, C.N. \n\nHi Matere,\n\nIn ADE4 package have AMOVA function if you want more information go: \n\nhttp://bg9.imslab.co.jp/Rhelp/R-2.4.0/src/library/ade4/man/amova.html\n\nSorry but I don't have haplotype data for example to you, but if you\npost a little example I help you\n\n\n-- \nBernardo Rangel Tura, M.D,Ph.D\nNational Institute of Cardiology\nBrazil",
+      "body_snippet": "On Wed, 2007-07-18 at 16:54 +0300, Matere, Crispin (ILRI - ICRAF) wrote:\n> I am requesting any one to show me how to do an analysis of molecular\n> variance in R suing haplotype data through an example",
+      "thread_id": "thread-4737fd1b3f97",
+      "thread_depth": 1,
+      "month": "2007-07"
+    },
+    {
+      "id": "msg-a17d458f3f85",
+      "message_id": "<1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>",
+      "from_name": "Lynn Disney",
+      "from_email_hash": "a949b5c88d24be733132147631c7850bf6fcafbd6519d59885a4579a1432521d",
+      "date": "2007-07-25T15:34:53-04:00",
+      "subject": "[R-sig-Epi] question re: recoding in R",
+      "subject_clean": "question re: recoding in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070725/2210d5b2/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070725/2210d5b2/attachment.pl",
+      "thread_id": "thread-a17d458f3f85",
+      "thread_depth": 0,
+      "month": "2007-07"
+    },
+    {
+      "id": "msg-d159f14830aa",
+      "message_id": "<200707251837.02125@spsconsultoria.com>",
+      "from_name": "Alexandre Aguiar",
+      "from_email_hash": "613a87f85d0f07f27af5280f0eb256d1588c660e7343e32890e26a13f3932574",
+      "date": "2007-07-25T18:37:01-03:00",
+      "subject": "[R-sig-Epi] question re: recoding in R",
+      "subject_clean": "question re: recoding in R",
+      "in_reply_to": "<1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>",
+      "references": [
+        "<1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>"
+      ],
+      "body_plain": "Em Qua 25 Jul 2007, Lynn Disney escreveu:\n> I need to create dummy variables, for an ID when 3 conditions exist. I\n> am having problems figuring out how to do this. For example, I want\n> variablea=1 and variableb=1 hand variablec=1 and then have variableD\n> turned into a 1 when these conditions are true and 0 when any one of\n> them are false.\n\nOoops! This one even I know.\n\nd <- 0\nif( a & b & c ) d <- 1\n\nDepending on the expected proportions of d==1 and d==0 and how many tests you \nare going to do, starting with d <- 1 and then testing for !( a & b & c ) \ncould be faster. However, the code above should be good enough in 99.9% of \napplications.\n\nMaybe you would like to check out [http://finzi.psych.upenn.edu/nmz.html]. It \nhas answsered 100% of my questions so far.\n\nBest wishes.\n\nAlexandre\n\n-- \nAlexandre Santos Aguiar, MD\n--\nwebsite: http://spsconsultoria.com/\nVoicemail: +55-11-3717-4866 (SP)\nVoicemail: +55-21-3717-4866 (RJ)\nVoicemail: +55-11-2157-6891 (SP)\nFax: +55-11-5549-8760 (SP)\n--",
+      "body_snippet": "Em Qua 25 Jul 2007, Lynn Disney escreveu:\n> I need to create dummy variables, for an ID when 3 conditions exist. I\n> am having problems figuring out how to do this. For example, I want\n> variablea=1 a",
+      "thread_id": "thread-a17d458f3f85",
+      "thread_depth": 1,
+      "month": "2007-07"
+    },
+    {
+      "id": "msg-55b1aa2a27c4",
+      "message_id": "<200707260846.12884.griera@gmail.com>",
+      "from_name": "griera at gmail.com",
+      "from_email_hash": "46ddaf20e50a78ed092c7cf1771883abf91989f49c2c0d7035755c352543fb6a",
+      "date": "2007-07-26T08:46:12+02:00",
+      "subject": "[R-sig-Epi] question re: recoding in R",
+      "subject_clean": "question re: recoding in R",
+      "in_reply_to": "<1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>",
+      "references": [
+        "<1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>"
+      ],
+      "body_plain": "A Dimecres 25 Juliol 2007 21:34, Lynn Disney va escriure:\n> I need to create dummy variables, for an ID when 3 conditions exist. I\n> am having problems figuring out how to do this. For example, I want\n> variablea=1 and variableb=1 and variablec=1 and then have variableD\n> turned into a 1 when these conditions are true and 0 when any one of\n> them are false.\n\nMy easy way with a variable (YEAR) with 5 values (2002-2006):\n\nany2002 <- ifelse(YEAR==2002,1,0)\nany2003 <- ifelse(YEAR==2003,1,0)\nany2004 <- ifelse(YEAR==2004,1,0)\nany2005 <- ifelse(YEAR==2005,1,0)\nany2006 <- ifelse(YEAR==2006,1,0)\n\nRegards\n\n\n\n>\n>\n>\n> Suggestions?\n>\n>\n>\n> Lynn D. Disney, Ph.D., J.D., M.P.H.\n>\n>\n>\n>\n> \t[[alternative HTML version deleted]]\n>\n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n-- \n\n\n\"Coda vez m?s el periodismo es un invertario de obviedades y de chismes\"\nJos? Vidal-Beneyto, La derechizaci?n del mundo / 4, El Pais 21-04-07 pag 8",
+      "body_snippet": "A Dimecres 25 Juliol 2007 21:34, Lynn Disney va escriure:\n> I need to create dummy variables, for an ID when 3 conditions exist. I\n> am having problems figuring out how to do this. For example, I want",
+      "thread_id": "thread-a17d458f3f85",
+      "thread_depth": 1,
+      "month": "2007-07"
+    },
+    {
+      "id": "msg-7ca5c7cd2149",
+      "message_id": "<46A8ADD2.2080706@wanadoo.fr>",
+      "from_name": "Denis Teysseyre",
+      "from_email_hash": "31ae4bc04132e0d16f6d2011fd458aef9dac8b0dd1addef8ed5cc293abba9f90",
+      "date": "2007-07-26T16:21:06+02:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 15, Issue 4",
+      "subject_clean": "R-sig-Epi Digest, Vol 15, Issue 4",
+      "in_reply_to": "<mailman.13.1185444014.21813.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.13.1185444014.21813.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "Un texte encapsul? et encod? dans un jeu de caract?res inconnu a ?t? nettoy?...\nNom : non disponible\nUrl : https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070726/d5d42d76/attachment.pl",
+      "body_snippet": "Un texte encapsul? et encod? dans un jeu de caract?res inconnu a ?t? nettoy?...\nNom : non disponible\nUrl : https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070726/d5d42d76/attachment.pl",
+      "thread_id": "thread-7ca5c7cd2149",
+      "thread_depth": 0,
+      "month": "2007-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-efbb8d7298d7",
+      "subject": "question about selecting observations",
+      "message_count": 3,
+      "participants": [
+        "FZ",
+        "Lynn Disney"
+      ],
+      "started": "2007-07-17T15:11:34-04:00",
+      "last_reply": "2007-07-17T13:37:32-06:00",
+      "root_message_id": "msg-efbb8d7298d7"
+    },
+    {
+      "id": "thread-4737fd1b3f97",
+      "subject": "AMOVA",
+      "message_count": 2,
+      "participants": [
+        "Bernardo Rangel Tura",
+        "Matere, Crispin (ILRI - ICRAF)"
+      ],
+      "started": "2007-07-18T16:54:37+03:00",
+      "last_reply": "2007-07-21T06:48:31-03:00",
+      "root_message_id": "msg-4737fd1b3f97"
+    },
+    {
+      "id": "thread-a17d458f3f85",
+      "subject": "question re: recoding in R",
+      "message_count": 3,
+      "participants": [
+        "Alexandre Aguiar",
+        "Lynn Disney",
+        "griera at gmail.com"
+      ],
+      "started": "2007-07-25T15:34:53-04:00",
+      "last_reply": "2007-07-26T08:46:12+02:00",
+      "root_message_id": "msg-a17d458f3f85"
+    },
+    {
+      "id": "thread-7ca5c7cd2149",
+      "subject": "R-sig-Epi Digest, Vol 15, Issue 4",
+      "message_count": 1,
+      "participants": [
+        "Denis Teysseyre"
+      ],
+      "started": "2007-07-26T16:21:06+02:00",
+      "last_reply": "2007-07-26T16:21:06+02:00",
+      "root_message_id": "msg-7ca5c7cd2149"
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2025-01",
+  "messages": [
+    {
+      "id": "msg-bde4ab5d70a8",
+      "message_id": "<SMTZeTn-QSqWrEa7vHzb6w@geopod-ismtpd-7>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-02T11:50:00Z",
+      "subject": "[R-sig-Epi] Spatial and Spatio-Temporal Health Modeling - Last Chance",
+      "subject_clean": "Spatial and Spatio-Temporal Health Modeling - Last Chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance to register for the new 4-day workshop on Bayesian Spatial and Spatio-Temporal Health Modeling in R <https://instats.org/seminar/bayesian-spatial-and-spatio-temporal-mod2>, running Jan 7 - 10 with professor Andrew Lawson. This workshop provides a comprehensive introduction to techniques for analyzing spatial and spatio-temporal data. While the examples used will be primarily from the health sciences, this hands-on workshop is designed to equip PhD students, academics, and professional researchers with the skills to conduct cutting-edge research across a broad range of fields using spatial data. Leveraging the power of R and OpenBugs software, the examples used will come from health research, including professor Lawson's extensive work in the field, but the methods and code are applicable to problems encountered in the health sciences and beyond.\n\nSign up today <https://instats.org/seminar/bayesian-spatial-and-spatio-temporal-mod2> to secure your spot in this exciting 4-day event, and please feel free to tell your colleagues and students.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance to register for the new 4-day workshop on Bayesian Spatial and Spatio-Temporal Health Modeling in R <https://instats.org/seminar/bayesian-spatial-and-spatio-temporal-mod2>, ru",
+      "thread_id": "thread-bde4ab5d70a8",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-653450525da1",
+      "message_id": "<INMcwNFFRzCUFqmfL8QZfg@geopod-ismtpd-3>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-08T08:50:00Z",
+      "subject": "[R-sig-Epi] Online Course: Meta-Analysis: Introductory and Advance",
+      "subject_clean": "Online Course: Meta-Analysis: Introductory and Advance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance to register for our new 4-day seminars on Meta-Analysis: Introductory and Advanced <https://instats.org/structuredcourse/meta-analysis-introductory-and-advanced2>, running Jan 13 - 16 and January 27 - 30, with renowned meta-analytic expert Michael Borenstein (who is also the author of the Comprehensive Meta-Analysis program). The introductory seminar <https://instats.org/seminar/meta-analysis-an-introductory-course2> provides the knowledge and skills needed to start conducting and reporting the results of meta-analyses. An emphasis is placed on the two primary types of meta-analysis: fixed-effects versus random-effects models. All sessions include time for an extensive discussion. The advanced seminar <https://instats.org/seminar/meta-analysis-an-advanced-course2> covers a variety of additional topics, including how to quantify and explain heterogeneity in effects across studies. Participants will learn how to use subgroups analysis and meta-regression while covering publication bias, complex data sets, limitations of the random-effects model, and more. In both seminars, each topic will be introduced at the conceptual level, followed by worked examples and exercises so that participants will feel comfortable performing these analyses on their own.\n\nYou can sign up for either seminar individually, but by signing up for both seminars <https://instats.org/structuredcourse/meta-analysis-introductory-and-advanced2> an automatic 10% discount is applied to both. We hope to see you at these unique events with one of the world's leading experts in meta-analysis.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance to register for our new 4-day seminars on Meta-Analysis: Introductory and Advanced <https://instats.org/structuredcourse/meta-analysis-introductory-and-advanced2>, running Jan",
+      "thread_id": "thread-653450525da1",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-2b48a846f38f",
+      "message_id": "<f66pobEkQEGnaIz0jxGz1w@geopod-ismtpd-6>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-09T11:35:00Z",
+      "subject": "[R-sig-Epi] Online Course: Nonlinear Dynamical Systems and Analysis",
+      "subject_clean": "Online Course: Nonlinear Dynamical Systems and Analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance to register for our 2-day seminar Introduction to Nonlinear Dynamical Systems and Analysis <https://instats.org/seminar/introduction-to-nonlinear-dynamical-syst2>, running Jan 13 - 14 with professor Bernard Ricca. This seminar introduces nonlinear dynamical systems analyses tailored for researchers across the social, health, and physical sciences, providing a framework to model complex behavior and interactions. Participants will gain hands-on expertise in using R for nonlinear dynamical systems modeling, exploring concepts such as fixed points, stability, and attractors, with practical applications to enhance their research across a broad range of fields.\n\nSign up today <https://instats.org/seminar/introduction-to-nonlinear-dynamical-syst2> to secure your place in this unique seminar, and make sure to tell your colleagues and students who have an interest in conceptualizing and analyzing complex systems!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance to register for our 2-day seminar Introduction to Nonlinear Dynamical Systems and Analysis <https://instats.org/seminar/introduction-to-nonlinear-dynamical-syst2>, running Jan",
+      "thread_id": "thread-2b48a846f38f",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-4e94069583ea",
+      "message_id": "<8NrP3hJqSTGyo50vJuDaJw@geopod-ismtpd-10>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-10T02:05:00Z",
+      "subject": "[R-sig-Epi] Online course: Introduction to R for Data Analysis",
+      "subject_clean": "Online course: Introduction to R for Data Analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance to register for our 2-day seminar Introduction to R for Data Analysis <https://instats.org/seminar/introduction-to-r-for-data-analysis-2014>, running on January 15 and 16 with professor. This seminar is ideal for anyone looking to get started with R, one of the most widely used programming languages for data analysis and visualization. Participants will learn the basics of R programming, including data manipulation, visualization, and statistical analysis. The course is designed with hands-on exercises, ensuring attendees gain practical experience working with real-world datasets. Whether you?re a beginner or looking to refresh your skills, this seminar will provide you with the tools needed to confidently use R for your research and data analysis projects. Don?t miss this opportunity to build your data analysis skills.\n\nSign up today <https://instats.org/seminar/introduction-to-r-for-data-analysis-2014> to secure your spot, and please feel free to share this with colleagues and students who might benefit from this foundational course.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance to register for our 2-day seminar Introduction to R for Data Analysis <https://instats.org/seminar/introduction-to-r-for-data-analysis-2014>, running on January 15 and 16 with",
+      "thread_id": "thread-4e94069583ea",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-fec6d4858b91",
+      "message_id": "<a48_o-g4SJK9RVgs0DtbFw@geopod-ismtpd-13>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-13T09:20:00Z",
+      "subject": "[R-sig-Epi] Online Course: Introduction to Bayesian Statistical Modelling",
+      "subject_clean": "Online Course: Introduction to Bayesian Statistical Modelling",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance to register for our 3-day seminar Introduction to Bayesian Statistical Modelling <https://instats.org/seminar/introduction-to-statistical-modelling-in2>, running on January 15, 22, and 29. This seminar is an excellent opportunity to dive into the fundamentals of Bayesian statistics, a powerful and flexible approach to statistical modeling that is increasingly used across a wide range of disciplines. Participants will learn the core principles of Bayesian inference, how to construct and evaluate Bayesian models, and practical implementation using modern computational tools. The course emphasizes hands-on learning, equipping attendees with the skills to apply Bayesian methods to their own research questions. Whether you're new to Bayesian statistics or looking to deepen your understanding, this seminar provides a comprehensive introduction to this essential framework for data analysis.\n\nSign up today <https://instats.org/seminar/introduction-to-statistical-modelling-in2> to secure your spot, and please feel free to share this opportunity with colleagues and students who might benefit from this engaging and practical course.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance to register for our 3-day seminar Introduction to Bayesian Statistical Modelling <https://instats.org/seminar/introduction-to-statistical-modelling-in2>, running on January 15",
+      "thread_id": "thread-fec6d4858b91",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-61ea1ca5794c",
+      "message_id": "<b4CRsfPDT1yVbis2EU1unw@geopod-ismtpd-14>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-14T10:14:39Z",
+      "subject": "[R-sig-Epi] Online Course: Deep Learning for the Life Sciences",
+      "subject_clean": "Online Course: Deep Learning for the Life Sciences",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is pleased to be offering a 1-day seminar on Deep Learning for the Life Sciences <https://instats.org/seminar/deep-learning-for-the-life-sciences2>, running on Jan 27. Led by Dr. Nikolay Oskolkov, this seminar provides an excellent opportunity to explore how deep learning techniques can be applied to solve complex problems in the life sciences. Whether you are new to deep learning or looking to expand your expertise, this course will equip you with the knowledge and tools needed to integrate these cutting-edge methods into your research. Participants will delve into key topics such as neural network architectures, data preprocessing for biological datasets, and practical applications of deep learning in genomics, proteomics, and other areas of the life sciences. With a focus on hands-on learning, the seminar ensures attendees gain practical experience with tools and frameworks commonly used in the field. \n\nDon?t miss this chance to learn from a leading expert?sign up today <https://instats.org/seminar/deep-learning-for-the-life-sciences2> to secure your spot!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is pleased to be offering a 1-day seminar on Deep Learning for the Life Sciences <https://instats.org/seminar/deep-learning-for-the-life-sciences2>, running on Jan 27. Led by Dr. ",
+      "thread_id": "thread-61ea1ca5794c",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-65dbbf890122",
+      "message_id": "<2uLL06sHQ0i7O7VpOLrnrA@geopod-ismtpd-4>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-15T07:20:00Z",
+      "subject": "[R-sig-Epi] Free Seminars: Machine Learning and Data Visualization",
+      "subject_clean": "Free Seminars: Machine Learning and Data Visualization",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is pleased to be offering free introductions to Advanced Data Visualization and Machine Learning in February -- we hope to see you there:\n\nAdvanced Data Visualizations in R: <https://instats.org/seminar/advanced-data-visualizations-in-r-free->\nOffered by the Statistical Society of Canada (Biostatistics Section) and McGill University, this 2-hour seminar running February 21st is perfect for anyone interested in learning more about creating publication-ready graphics and exploring interactive visualizations. Ideal for experienced R users looking to take their skills to the next level. \n\nMachine Learning Essentials: <https://instats.org/seminar/machine-learning-essentials-free-semina2>\nJoin Dr. Kimberly Fessel on February 5th for a concise introduction to machine learning fundamentals, including supervised and unsupervised learning, model evaluation, and real-world applications. This 1-hour seminar is perfect for beginners or anyone seeking a quick refresher on machine learning methods.\n\nSign up today to secure your spot and please feel free to share with colleagues and students who might benefit.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is pleased to be offering free introductions to Advanced Data Visualization and Machine Learning in February -- we hope to see you there:\n\nAdvanced Data Visualizations in R: <http",
+      "thread_id": "thread-65dbbf890122",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-9c8f2ba8e49e",
+      "message_id": "<86JOUH1qTr-D0vW5lpdrSg@geopod-ismtpd-6>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-16T06:20:58Z",
+      "subject": "[R-sig-Epi] Developing R Packages and CRAN Publishing - Livestream Seminar",
+      "subject_clean": "Developing R Packages and CRAN Publishing - Livestream Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is pleased to be offering a 1-day seminar on Developing R Packages and CRAN Publishing <https://instats.org/seminar/developing-r-packages-and-cran-publishin2>, running Jan 23 by Dr Fodil Ihaddaden, an expert in this area with significant experience writing and publishing R packages on CRAN. This seminar is an excellent opportunity for R users to learn how to create, document, and publish their own R packages on CRAN. Whether you are new to package development or looking to refine your skills, this course will provide the foundational knowledge needed to confidently share your work with the R community. Participants will cover essential topics such as structuring R packages, writing effective documentation, managing dependencies, and navigating the CRAN submission process. With a focus on practical applications, the seminar equips attendees with the tools necessary to develop high-quality, reusable R packages. \n\nDon?t miss this chance to learn from an expert?sign up today <https://instats.org/seminar/developing-r-packages-and-cran-publishin2> to secure your spot!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is pleased to be offering a 1-day seminar on Developing R Packages and CRAN Publishing <https://instats.org/seminar/developing-r-packages-and-cran-publishin2>, running Jan 23 by D",
+      "thread_id": "thread-9c8f2ba8e49e",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-62f8faabf5fe",
+      "message_id": "<CAKe6t21Ed-jbvT7sG+p_BRSzWJNt_skaFMqYEe-3rF0aunK1sg@mail.gmail.com>",
+      "from_name": "Timothy Bates",
+      "from_email_hash": "ffb123f9baccaf6b74db0bf4d17706dacb07ea25d79b547c8886dc6864d3054d",
+      "date": "2025-01-16T21:48:22Z",
+      "subject": "[R-sig-Epi]  Developing R Packages and CRAN Publishing - Livestream Seminar",
+      "subject_clean": "Developing R Packages and CRAN Publishing - Livestream Seminar",
+      "in_reply_to": "<86JOUH1qTr-D0vW5lpdrSg@geopod-ismtpd-6>",
+      "references": [
+        "<86JOUH1qTr-D0vW5lpdrSg@geopod-ismtpd-6>"
+      ],
+      "body_plain": "Please stop using these lists for your advertising.\n\nOn Thu, Jan 16, 2025 at 6:21?AM Michael Zyphur via R-sig-Epi <\nr-sig-epi at r-project.org> wrote:\n\n> Hi everyone\n>\n> Instats is pleased to be offering a 1-day seminar on Developing R Packages\n> and CRAN Publishing <\n> https://instats.org/seminar/developing-r-packages-and-cran-publishin2>,\n> running Jan 23 by Dr Fodil Ihaddaden, an expert in this area with\n> significant experience writing and publishing R packages on CRAN. This\n> seminar is an excellent opportunity for R users to learn how to create,\n> document, and publish their own R packages on CRAN. Whether you are new to\n> package development or looking to refine your skills, this course will\n> provide the foundational knowledge needed to confidently share your work\n> with the R community. Participants will cover essential topics such as\n> structuring R packages, writing effective documentation, managing\n> dependencies, and navigating the CRAN submission process. With a focus on\n> practical applications, the seminar equips attendees with the tools\n> necessary to develop high-quality, reusable R packages.\n>\n> Don?t miss this chance to learn from an expert?sign up today <\n> https://instats.org/seminar/developing-r-packages-and-cran-publishin2> to\n> secure your spot!\n>\n>\n> Best wishes\n>\n> Michael Zyphur\n> Director\n> Institute for Statistical and Data Science\n> instats.org <http://instats.org>\n>         [[alternative HTML version deleted]]\n>\n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Please stop using these lists for your advertising.\n\nOn Thu, Jan 16, 2025 at 6:21?AM Michael Zyphur via R-sig-Epi <\nr-sig-epi at r-project.org> wrote:\n\n> Hi everyone\n>\n> Instats is pleased to be offer",
+      "thread_id": "thread-9c8f2ba8e49e",
+      "thread_depth": 1,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-671a79f31358",
+      "message_id": "<ZBHd0maLTTyWQ7eJ7YJXKQ@geopod-ismtpd-12>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-21T05:54:03Z",
+      "subject": "[R-sig-Epi] Online Course: Deep Learning for Scientific Research",
+      "subject_clean": "Online Course: Deep Learning for Scientific Research",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance to register for our 1-day seminar on Deep Learning for Scientific Research <https://instats.org/seminar/deep-learning-for-the-life-sciences2>, running on Jan 27. Led by Dr. Nikolay Oskolkov, this seminar provides an excellent opportunity to explore how deep learning techniques can be applied to solve complex problems across the sciences. Whether you are new to deep learning or looking to expand your expertise, this course will equip you with the knowledge and tools needed to integrate these cutting-edge methods into your research. Participants will delve into key topics such as neural network architectures, data preprocessing, and practical applications of deep learning across the sciences, with examples including genomics, proteomics, and other areas. With a focus on hands-on learning, the seminar ensures attendees gain practical experience with tools and frameworks commonly used in the field.\n\nDon?t miss this chance to learn from a leading expert?sign up today <https://instats.org/seminar/deep-learning-for-the-life-sciences2> to secure your spot!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance to register for our 1-day seminar on Deep Learning for Scientific Research <https://instats.org/seminar/deep-learning-for-the-life-sciences2>, running on Jan 27. Led by Dr. Ni",
+      "thread_id": "thread-671a79f31358",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-a28887d32ae2",
+      "message_id": "<QRECbi2JTqSFoDA53Y9j8w@geopod-ismtpd-6>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-22T11:04:39Z",
+      "subject": "[R-sig-Epi] Online course: Meta-Analysis - An Advanced Course",
+      "subject_clean": "Online course: Meta-Analysis - An Advanced Course",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is pleased to be offering a 4-day seminar on Meta-Analysis: An Advanced Course <https://instats.org/seminar/meta-analysis-an-advanced-course2>, running Jan 27 - 30. Led by Michael Borenstein, a leading biostatistician and the author of the Comprehensive Meta-Analysis software, this seminar provides an unparalleled opportunity to deepen your expertise in meta-analysis. Ideal for researchers and professionals with prior experience in meta-analysis, this advanced course offers cutting-edge techniques and insights for synthesizing research findings across studies. Participants will explore advanced topics such as handling complex data structures, addressing heterogeneity, conducting subgroup analyses, and performing meta-regression. With a strong emphasis on practical applications, the seminar equips attendees with the tools needed to conduct rigorous and sophisticated meta-analyses in their own work. \n\nSign up today <https://instats.org/seminar/meta-analysis-an-advanced-course2> to secure your spot and please feel free to share this opportunity with colleagues and students who might benefit.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is pleased to be offering a 4-day seminar on Meta-Analysis: An Advanced Course <https://instats.org/seminar/meta-analysis-an-advanced-course2>, running Jan 27 - 30. Led by Michael",
+      "thread_id": "thread-a28887d32ae2",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-885ee94a4281",
+      "message_id": "<Enhcmk2gSuSjJ0M5lhGdLw@geopod-ismtpd-5>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-23T11:50:00Z",
+      "subject": "[R-sig-Epi] Statistical Methods for Adaptive Treatment Strategies - Livestream Seminar",
+      "subject_clean": "Statistical Methods for Adaptive Treatment Strategies - Livestream Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is pleased to be offering a new seminar on Statistical Methods for Adaptive Treatment Strategies <https://instats.org/seminar/statistical-methods-for-adaptive-treatme>, running on February 24. Led by Professor Erica Moodie, President of the Statistical Society of Canada, this seminar provides an excellent opportunity to learn cutting-edge statistical methods for designing and analyzing adaptive treatment strategies, which are increasingly used in personalized medicine and dynamic decision-making. Participants will explore key topics such as dynamic treatment regimes, sequential multiple assignment randomized trials (SMART), and statistical modeling techniques tailored for adaptive interventions. With a focus on practical applications, the seminar equips attendees with the tools needed to implement these methods in their research or clinical practice. \n\nSign up today <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> to secure your spot and please feel free to share this opportunity with colleagues and students who might benefit.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>?Linkedin <https://linkedin.com/company/instats1>?Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is pleased to be offering a new seminar on Statistical Methods for Adaptive Treatment Strategies <https://instats.org/seminar/statistical-methods-for-adaptive-treatme>, running on",
+      "thread_id": "thread-885ee94a4281",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-b2e51ecf18e9",
+      "message_id": "<2lNh-eg4S_WFFmJ7cIQXWA@geopod-ismtpd-13>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-27T11:50:00Z",
+      "subject": "[R-sig-Epi] Machine Learning Essentials - Free Seminar",
+      "subject_clean": "Machine Learning Essentials - Free Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is pleased to be offering a free 1-hour seminar on Machine Learning Essentials <https://instats.org/seminar/machine-learning-essentials-free-semina2>, running February 5. Led by Dr. Kimberley Fessel, this seminar provides an excellent introduction to the fundamentals of machine learning, making it ideal for graduate students, academics, and professional researchers looking to explore this transformative field. Participants will gain insights into key concepts such as supervised and unsupervised learning, model evaluation, and practical applications of machine learning techniques. With a focus on accessibility and real-world relevance, this seminar is perfect for those new to machine learning or seeking a quick refresher on its core principles.\n\nSign up today <https://instats.org/seminar/machine-learning-essentials-free-semina2> to secure your spot and please feel free to share this opportunity with colleagues and students who might benefit.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is pleased to be offering a free 1-hour seminar on Machine Learning Essentials <https://instats.org/seminar/machine-learning-essentials-free-semina2>, running February 5. Led by D",
+      "thread_id": "thread-b2e51ecf18e9",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-e60d1cb331ea",
+      "message_id": "<bTFCFJLcSAm9IVwg7cC8Gg@geopod-ismtpd-5>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-01-30T06:05:00Z",
+      "subject": "[R-sig-Epi] Online Course: Vector Generalized Linear and Additive Models",
+      "subject_clean": "Online Course: Vector Generalized Linear and Additive Models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is pleased to be offering a 3-day workshop, Vector Generalized Linear and Additive Models <https://instats.org/seminar/vector-generalized-linear-and-additive-m3>, running Feb 12 - 14 by professor Thomas Yee -- author of the VGAM package for R. This workshop explores the cutting-edge VGLM/VGAM framework, which extends traditional GLMs and GAMs to model multivariate responses and complex nonlinear relationships. Participants will learn how to handle count and categorical data, address overdispersion and excess zeros, and apply advanced techniques like GAITD regression and reduced-rank VGLMs in an intuitive R framework. The seminar combines theoretical insights with hands-on applications in R, equipping researchers with flexible tools for complex data analysis across social, health, and natural sciences.\n\nSign up today <https://instats.org/seminar/vector-generalized-linear-and-additive-m3> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is pleased to be offering a 3-day workshop, Vector Generalized Linear and Additive Models <https://instats.org/seminar/vector-generalized-linear-and-additive-m3>, running Feb 12 -",
+      "thread_id": "thread-e60d1cb331ea",
+      "thread_depth": 0,
+      "month": "2025-01"
+    },
+    {
+      "id": "msg-97698e2a0403",
+      "message_id": "<CAOpVJ=N97v6j0k3FN6uB--4eVdzvy6zqu9p1mzGFM3tH2pkcRg@mail.gmail.com>",
+      "from_name": "MAJID OMARI",
+      "from_email_hash": "bbdd2059e2eb9e975353d27adc67a92532c5ece9cfc2e1f439d7fe7c904487ca",
+      "date": "2025-01-31T22:25:13+01:00",
+      "subject": "[R-sig-Epi] new member in this great R GIS EPI",
+      "subject_clean": "new member in this great R GIS EPI",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all\nHappy to be one of this R SIG EPI. as a PhD in epidemiology, I need to\nexcel my skills on R.\nCordially\n\n-- \nOmari Majid\nPhD\nhttps://www.researchgate.net/profile/Omari-Majid\nLaboratory of Epidemiology and Research in Health Sciences, Faculty of\nMedicine, Pharmacy and Dental Medicine,\nSidi Mohamed Ben Abdallah University, Fez, Morocco\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all\nHappy to be one of this R SIG EPI. as a PhD in epidemiology, I need to\nexcel my skills on R.\nCordially\n\n-- \nOmari Majid\nPhD\nhttps://www.researchgate.net/profile/Omari-Majid\nLaboratory of Epidem",
+      "thread_id": "thread-97698e2a0403",
+      "thread_depth": 0,
+      "month": "2025-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-bde4ab5d70a8",
+      "subject": "Spatial and Spatio-Temporal Health Modeling - Last Chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-02T11:50:00+00:00",
+      "last_reply": "2025-01-02T11:50:00+00:00",
+      "root_message_id": "msg-bde4ab5d70a8"
+    },
+    {
+      "id": "thread-653450525da1",
+      "subject": "Online Course: Meta-Analysis: Introductory and Advance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-08T08:50:00+00:00",
+      "last_reply": "2025-01-08T08:50:00+00:00",
+      "root_message_id": "msg-653450525da1"
+    },
+    {
+      "id": "thread-2b48a846f38f",
+      "subject": "Online Course: Nonlinear Dynamical Systems and Analysis",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-09T11:35:00+00:00",
+      "last_reply": "2025-01-09T11:35:00+00:00",
+      "root_message_id": "msg-2b48a846f38f"
+    },
+    {
+      "id": "thread-4e94069583ea",
+      "subject": "Online course: Introduction to R for Data Analysis",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-10T02:05:00+00:00",
+      "last_reply": "2025-01-10T02:05:00+00:00",
+      "root_message_id": "msg-4e94069583ea"
+    },
+    {
+      "id": "thread-fec6d4858b91",
+      "subject": "Online Course: Introduction to Bayesian Statistical Modelling",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-13T09:20:00+00:00",
+      "last_reply": "2025-01-13T09:20:00+00:00",
+      "root_message_id": "msg-fec6d4858b91"
+    },
+    {
+      "id": "thread-61ea1ca5794c",
+      "subject": "Online Course: Deep Learning for the Life Sciences",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-14T10:14:39+00:00",
+      "last_reply": "2025-01-14T10:14:39+00:00",
+      "root_message_id": "msg-61ea1ca5794c"
+    },
+    {
+      "id": "thread-65dbbf890122",
+      "subject": "Free Seminars: Machine Learning and Data Visualization",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-15T07:20:00+00:00",
+      "last_reply": "2025-01-15T07:20:00+00:00",
+      "root_message_id": "msg-65dbbf890122"
+    },
+    {
+      "id": "thread-9c8f2ba8e49e",
+      "subject": "Developing R Packages and CRAN Publishing - Livestream Seminar",
+      "message_count": 2,
+      "participants": [
+        "Timothy Bates",
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-16T06:20:58+00:00",
+      "last_reply": "2025-01-16T21:48:22+00:00",
+      "root_message_id": "msg-9c8f2ba8e49e"
+    },
+    {
+      "id": "thread-671a79f31358",
+      "subject": "Online Course: Deep Learning for Scientific Research",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-21T05:54:03+00:00",
+      "last_reply": "2025-01-21T05:54:03+00:00",
+      "root_message_id": "msg-671a79f31358"
+    },
+    {
+      "id": "thread-a28887d32ae2",
+      "subject": "Online course: Meta-Analysis - An Advanced Course",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-22T11:04:39+00:00",
+      "last_reply": "2025-01-22T11:04:39+00:00",
+      "root_message_id": "msg-a28887d32ae2"
+    },
+    {
+      "id": "thread-885ee94a4281",
+      "subject": "Statistical Methods for Adaptive Treatment Strategies - Livestream Seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-23T11:50:00+00:00",
+      "last_reply": "2025-01-23T11:50:00+00:00",
+      "root_message_id": "msg-885ee94a4281"
+    },
+    {
+      "id": "thread-b2e51ecf18e9",
+      "subject": "Machine Learning Essentials - Free Seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-27T11:50:00+00:00",
+      "last_reply": "2025-01-27T11:50:00+00:00",
+      "root_message_id": "msg-b2e51ecf18e9"
+    },
+    {
+      "id": "thread-e60d1cb331ea",
+      "subject": "Online Course: Vector Generalized Linear and Additive Models",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-01-30T06:05:00+00:00",
+      "last_reply": "2025-01-30T06:05:00+00:00",
+      "root_message_id": "msg-e60d1cb331ea"
+    },
+    {
+      "id": "thread-97698e2a0403",
+      "subject": "new member in this great R GIS EPI",
+      "message_count": 1,
+      "participants": [
+        "MAJID OMARI"
+      ],
+      "started": "2025-01-31T22:25:13+01:00",
+      "last_reply": "2025-01-31T22:25:13+01:00",
+      "root_message_id": "msg-97698e2a0403"
+    }
+  ]
+}

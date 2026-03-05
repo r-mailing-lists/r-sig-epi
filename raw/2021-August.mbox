@@ -1,0 +1,136 @@
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Thu Aug 26 16:52:46 2021
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Thu, 26 Aug 2021 15:52:46 +0100
+Subject: [R-sig-Epi] Species Distribution Modeling using R (SDMR04)
+Message-ID: <CAEsSYzxZkFgfRC1Hj2KqAEyeuqe7_ZzOO78aqDrj_V3zSe5nNA@mail.gmail.com>
+
+Species Distribution Modeling using R (SDMR04)
+
+
+
+https://www.prstatistics.com/course/species-distribution-modeling-using-r-sdmr04/
+
+
+
+If you are interested in gaining the introductory knowledge required to
+work with SDMs, whether you be a student, postdoc, or practicing scientist,
+this course is for you. This 8 half day course will provide participants
+with the background knowledge and skills needed to get started in the use
+of species distribution models (SDMs) for applied and basic research. The
+course will focus on (1) the preparation of required spatial datasets
+(biological observations and environmental predictors); (2) practical
+considerations in the development, application, and interpretation of SDMs;
+and (3) fitting and evaluating SDMs using different statistical approaches
+? all using R.
+
+
+
+Using a combination of lectures, coding exercises in R, and case studies,
+participants will learn to:
+
+Understand background theory and model assumptions
+
+Identify, manipulate and prepare spatial datasets for SDMs
+
+Fit, interpret, and evaluate SDMs using several statistical methods (e.g.,
+Maxent, Mahalanobis distance, generalized linear models, boosted regression
+trees)
+
+Project SDMs to predict climate change impacts, etc.
+
+
+
+The course is entirely R-based and while techniques of working with spatial
+data in R will be covered in detail, prior experience with R is highly
+recommended. If you are new to R, this course will be of most use to you if
+you work through a few tutorials to understand the basics of R programming
+before the start of the course. Students are highly encouraged to bring
+their own data sets, but this is not required for participation.
+
+
+
+Course material will be presented by Matt Fitzpatrick who has published
+broadly in the use of SDMs for applied and basic science.
+
+
+
+This is a ?LIVE COURSE? ? the instructor will be delivering lectures and
+coaching attendees through the accompanying computer practical?s via video
+link, a good internet connection is essential.
+
+
+
+TIME ZONE ? Eastern Daylight Time ? however all sessions will be recorded
+and made available allowing attendees from different time zones to follow a
+day behind with an additional 1/2 days support after the official course
+finish date (please email oliverhooker at prstatistics.com for full details or
+to discuss how we can accommodate you).
+
+-- 
+Oliver Hooker PhD.
+PR statistics
+
+Missing Data Analytics (MDAR01)
+www.prstatistics.com/course/online-course-missing-data-analytics-mdar01
+8 September 2021 - 10 September 2021
+
+Functional ecology from organism to ecosystem: theory and computation
+(FEER02)
+www.prstatistics.com/course/functional-ecology-from-organism-to-ecosystem-theory-and-computation-feer02/
+13 September 2021 - 17 September 2021
+
+Meta-analysis in ecology, evolution and environmental sciences (METR02)
+www.prstatistics.com/course/meta-analysis-in-ecology-evolution-and-environmental-sciences-metr02/
+13 September 2021 - 17 September 2021
+
+Species Distribution Modeling using R (SDMR04)
+www.prstatistics.com/course/species-distribution-modeling-using-r-sdmr04/
+21 September 2021 - 30 September 2021
+
+Phylogenetic comparative methods (PGCM01)
+https://www.prstatistics.com/course/phylogenetic-comparative-methods-pgcm01/
+22 September 2021 - 28 September 2021
+
+Multivariate analysis of ecological communities in R with the VEGAN package
+(VGNR03)
+www.prstatistics.com/course/multivariate-analysis-of-ecological-communities-in-r-with-the-vegan-package-vgnr03/
+4 October 2021 - 8 October
+
+Introduction to Data Wrangling and Data Visualization using R (DWDV01)
+www.prstatistics.com/course/introduction-to-data-wrangling-and-data-visualization-using-r-dwdv01/
+4 October 2021 - 8 October 2021
+
+Introduction to Bayesian modelling with INLA (BMIN02)
+https://www.prstatistics.com/course/introduction-to-bayesian-modelling-with-inla-bmin02/
+4 October 2021 - 8 October 2021
+
+Landscape genetic data analysis using R (LNDG05)
+https://www.prstatistics.com/course/landscape-genetic-data-analysis-using-r-lndg05/
+18 October 2021 - 27 October 2021
+
+Species distribution modelling with Bayesian statistics in R (SDMB03)
+www.prstatistics.com/course/species-distribution-modelling-with-bayesian-statistics-in-r-sdmb03/
+6 December 2021 - 10 December 2021
+
+Time Series Data Analysis (TSDA01)
+https://www.prstatistics.com/course/time-series-data-analysis-tsda01/
+14 December 2021 - 17 December 2021
+
+Bayesian Data Analysis (BADA01)
+https://www.prstatistics.com/course/bayesian-data-analysis-bada01/
+10th January 2022 - 14th January 2022
+
+Stable Isotope Mixing Models using SIBER, SIAR, MixSIAR (SIMM08)
+https://www.prstatistics.com/course/stable-isotope-mixing-models-using-r-simm08/
+1st February 2022 - 4th February 2022
+
+www.PRstatistics.com
+
+53 Morrison Street
+Glasgow
+G5 8LB
++44 (0) 7966500340
+
+	[[alternative HTML version deleted]]
+
+

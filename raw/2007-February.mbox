@@ -1,0 +1,57 @@
+From upsattar at yahoo.com  Fri Feb  2 07:19:13 2007
+From: upsattar at yahoo.com (Abdus Sattar)
+Date: Thu, 1 Feb 2007 22:19:13 -0800 (PST)
+Subject: [R-sig-Epi] Fitting Weighted Estimating Equations
+Message-ID: <833839.87360.qm@web58109.mail.re3.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070201/c30dc2d1/attachment.pl 
+
+From tura at centroin.com.br  Sat Feb  3 13:09:11 2007
+From: tura at centroin.com.br (Bernardo Rangel tura)
+Date: Sat, 03 Feb 2007 10:09:11 -0200
+Subject: [R-sig-Epi] Fitting Weighted Estimating Equations
+Message-ID: <7.0.0.16.2.20070203100905.0480c1a0@centroin.com.br>
+
+At 04:19 AM 2/2/2007, you wrote:
+>Content-Disposition: inline
+>Content-Type: text/plain
+>Content-length: 1125
+>
+>Hello Everybody:
+>
+>I am searching for an R package for fitting Generalized Estimating 
+>Equations (GEE) with weights (i.e. Weighted Estimating Equations). 
+> From the R documentation I found "geese(geepack)" for fitting 
+>Generalized Estimating Equations. In this documentation, under the 
+>paragraph "weights" it has been written, "an optional vector of 
+>weights to be used in the fitting process. The length of weights 
+>should be the same as the number of observations. This weights is 
+>not (yet) the weight as in sas proc genmod, and hence is not 
+>recommended to use." Now my question is, is there any other package 
+>you know that might allow me to fit GEE with weight option and the 
+>results would be same as SAS PROC GENMOD with weights? Any help 
+>would be sincerely appreciated.
+>
+>Thank you very much.
+>
+>Sincerely,
+>
+>Abdus Sattar
+>University of Pittsburgh
+>Email: mas196 at pitt.edu
+
+
+Hi Abdus
+
+You need use geeglm in pacake: geepack
+
+
+
+
+Bernardo Rangel Tura, MD,PhD
+National Institute of Cardiology
+Rio de Janeiro Brazil
+
+

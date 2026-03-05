@@ -1,0 +1,105 @@
+From @@p|@|n1 @end|ng |rom umbc@edu  Thu Mar  3 03:22:05 2022
+From: @@p|@|n1 @end|ng |rom umbc@edu (Ashley Splain)
+Date: Wed, 2 Mar 2022 21:22:05 -0500
+Subject: [R-sig-Epi] R Survey Package - Confidence Intervals and Odds ratios
+Message-ID: <CAPgModA+h0NZTXEpcEem+dmuA8k_EBjWgE0LWe1HWuJj_8S8=Q@mail.gmail.com>
+
+I hope that this email finds everyone well.  I am a new R user and I am
+writing to ask if anyone may be able to provide some statistical expertise:
+
+I am running logistic regression models using the Survey Package in R (my
+dataset requires the incorporation of survey weights). The calculation for
+the odds ratios and confidence intervals is from the basic stats package.
+However, the confidence intervals don't seem to match up with the
+significance levels - the confidence intervals suggest something is
+significant but the p level is not significant.  For example, b = -0.81, p
+= .094, OR = 0.45, CI = 0.26-0.75.
+
+Here is the syntax for the design of the overall analysis and an example of
+one model:
+nhanesDesigni<-
+svydesign(id=~PSU,Strata=~STRA,weights=~WTMEC6YR,nest=TRUE,survey.lonely.psu="adjust",
+data=nhanesAnalysis)
+
+actimeR1_i <-
+(svyglm(riskaccuracy~AcTime4+Age+Gender+educationR+Race5R+Insuranced+smokingdR+alcdR+Waistc,family="binomial",
+design=nhanesDesigni))
+summary(actimeR1_i,df=degf(nhanesDesigni))
+exp(coef(actimeR1_i))
+exp(confint(actimeR1_i))
+
+Would anyone by chance know where I might be going wrong and how to rectify
+the code to obtain accurate CIs? I would appreciate any input you can
+provide!
+
+Best,
+Ashley
+
+	[[alternative HTML version deleted]]
+
+
+From pd@|gd @end|ng |rom gm@||@com  Thu Mar  3 12:09:30 2022
+From: pd@|gd @end|ng |rom gm@||@com (peter dalgaard)
+Date: Thu, 3 Mar 2022 12:09:30 +0100
+Subject: [R-sig-Epi] 
+ R Survey Package - Confidence Intervals and Odds ratios
+In-Reply-To: <CAPgModA+h0NZTXEpcEem+dmuA8k_EBjWgE0LWe1HWuJj_8S8=Q@mail.gmail.com>
+References: <CAPgModA+h0NZTXEpcEem+dmuA8k_EBjWgE0LWe1HWuJj_8S8=Q@mail.gmail.com>
+Message-ID: <D336561A-770A-4B6C-A54E-B7AFF35A4FE6@gmail.com>
+
+Not my area of expertise really, but offhand: If summary.svyglm wants a df argument, so probably does confint.svyglm. 
+
+Quick check says that it has one, except that it is called ddf=...
+
+It takes quite a low df (2 or so) to get a discrepancy that large, though, so maybe you should share the output of summary() and degf()?
+
+- pd
+
+> On 3 Mar 2022, at 03:22 , Ashley Splain <asplain1 at umbc.edu> wrote:
+> 
+> I hope that this email finds everyone well.  I am a new R user and I am
+> writing to ask if anyone may be able to provide some statistical expertise:
+> 
+> I am running logistic regression models using the Survey Package in R (my
+> dataset requires the incorporation of survey weights). The calculation for
+> the odds ratios and confidence intervals is from the basic stats package.
+> However, the confidence intervals don't seem to match up with the
+> significance levels - the confidence intervals suggest something is
+> significant but the p level is not significant.  For example, b = -0.81, p
+> = .094, OR = 0.45, CI = 0.26-0.75.
+> 
+> Here is the syntax for the design of the overall analysis and an example of
+> one model:
+> nhanesDesigni<-
+> svydesign(id=~PSU,Strata=~STRA,weights=~WTMEC6YR,nest=TRUE,survey.lonely.psu="adjust",
+> data=nhanesAnalysis)
+> 
+> actimeR1_i <-
+> (svyglm(riskaccuracy~AcTime4+Age+Gender+educationR+Race5R+Insuranced+smokingdR+alcdR+Waistc,family="binomial",
+> design=nhanesDesigni))
+> summary(actimeR1_i,df=degf(nhanesDesigni))
+> exp(coef(actimeR1_i))
+> exp(confint(actimeR1_i))
+> 
+> Would anyone by chance know where I might be going wrong and how to rectify
+> the code to obtain accurate CIs? I would appreciate any input you can
+> provide!
+> 
+> Best,
+> Ashley
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+-- 
+Peter Dalgaard, Professor,
+Center for Statistics, Copenhagen Business School
+Solbjerg Plads 3, 2000 Frederiksberg, Denmark
+Phone: (+45)38153501
+Office: A 4.23
+Email: pd.mes at cbs.dk  Priv: PDalgd at gmail.com
+
+

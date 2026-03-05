@@ -1,0 +1,72 @@
+From bxc at steno.dk  Fri Jan 13 14:35:07 2006
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Fri, 13 Jan 2006 14:35:07 +0100
+Subject: [R-sig-Epi] Course in Statistical Pracise in Epidemiology using R
+Message-ID: <40D3930AC1C8EA469E39536E5BC80835018E798C@EXDKBA021.corp.novocorp.net>
+
+Course in
+STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R
+============================================
+Tartu, Estonia, Thursday 8  - Tuesday 13 June 2006
+
+The course is aimed at epidemiologists and statisticians who wish to
+use R for statistical modelling and analysis of epidemiological data.
+The course requires basic knowledge of epidemiological concepts and
+study types. These will only be briefly reviewed, whereas the more
+advanced epidemiological and statistical concepts will be treated in
+depth.
+
+Contents:
+---------
+History of R. Language. Objects. Functions. 
+Interface to other dataformats. Dataframes. 
+Classical methods: Mantel-Haenszel etc.
+Tabulation of data. 
+Logistic regression for case-control-studies. 
+Poisson regression for follow-up studies. 
+Parametrization of models. 
+Causal inference.
+Graphics in R. 
+Graphical reporting of results. 
+Time-splitting & SMR. 
+Survival analysis in continuous time. 
+Parametric survival models. 
+Interval censoring. 
+Nested and matched case-control studies. 
+Case-cohort studies. 
+Competing risk models. 
+Multistage models. 
+Bootstrap and simulation.
+
+The methods will be illustrated using R in practical exercises.  
+
+The Epi package for epidemiological analysis in R will be introduced.
+
+Participants are required to have a fairly good understanding of
+statistical principles and some familiarity with epidemiological
+concepts. The course will be mainly practically oriented with more
+than half the time at the computer.
+
+Price: 500 EUR. (250 EUR for cuntries outside EU-2003 and the like).
+
+Application deadline: 15 April 2006.
+
+Further information at: www.biostat.ku.dk/~bxc/SPE
+
+------------------------------------------------------
+Krista Fischer, University of Tartu, Estonia
+Esa L??r?, University of Oulu, Finland
+Bendix Carstensen, Steno Diabetes Center, Denmark 
+
+Organizers
+
+
+From lorenzoni at ifc.cnr.it  Fri Jan 20 13:39:15 2006
+From: lorenzoni at ifc.cnr.it (lorenzoni@ifc.cnr.it)
+Date: Fri, 20 Jan 2006 13:39:15 +0100
+Subject: [R-sig-Epi] bayesian model
+Message-ID: <20060120133915.9zsf1r5sg8w4k84c@webmail.ifc.cnr.it>
+
+informazioni su metodi non classici di identificazione di clustering bayesiani
+
+

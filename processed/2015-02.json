@@ -1,0 +1,233 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2015-02",
+  "messages": [
+    {
+      "id": "msg-ca1a6f63a21a",
+      "message_id": "<6DFDCBA5-C94A-48A7-9B9A-FE0E0B834909@gmail.com>",
+      "from_name": "Steve Bellan",
+      "from_email_hash": "18d5d5a9a142c229265c06627d05bb896938c03b1b9ac1716cb7838bc756bf57",
+      "date": "2015-02-12T19:50:29-06:00",
+      "subject": "[R-sig-Epi] coxphf with frailty, Firth's correction",
+      "subject_clean": "coxphf with frailty, Firth's correction",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all, I'm fitting a coxph gamma frailty model to simulated survival data and running into situations where I have 0 events in one covariate class and the model won't converge. I'd still like a p-value in those cases as this is part of a power analysis. With enough person-time observed 20 events in one group and 0 in another is likely significant, but I want a p-value to be sure. Firth's correction in ?coxphf? seems appropriate but coxphf doesn't seem to deal with random effects. Any suggestions would be much appreciated!\n\nThanks,\n\nSteve\n\nSteve Bellan, PhD, MPH\nPost-doctoral Researcher\nLauren Ancel Meyers Research Group\nCenter for Computational Biology and Bioinformatics\nUniversity of Texas at Austin\nhttp://www.bio.utexas.edu/research/meyers/steve_bellan/",
+      "body_snippet": "Hi all, I'm fitting a coxph gamma frailty model to simulated survival data and running into situations where I have 0 events in one covariate class and the model won't converge. I'd still like a p-val",
+      "thread_id": "thread-ca1a6f63a21a",
+      "thread_depth": 0,
+      "month": "2015-02"
+    },
+    {
+      "id": "msg-d2229b095d42",
+      "message_id": "<255A230F-2E78-4E83-8972-0CEBA86DCC65@comcast.net>",
+      "from_name": "David Winsemius",
+      "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
+      "date": "2015-02-12T20:52:43-08:00",
+      "subject": "[R-sig-Epi] coxphf with frailty, Firth's correction",
+      "subject_clean": "coxphf with frailty, Firth's correction",
+      "in_reply_to": "<6DFDCBA5-C94A-48A7-9B9A-FE0E0B834909@gmail.com>",
+      "references": [
+        "<6DFDCBA5-C94A-48A7-9B9A-FE0E0B834909@gmail.com>"
+      ],
+      "body_plain": "On Feb 12, 2015, at 5:50 PM, Steve Bellan wrote:\n\n> Hi all, I'm fitting a coxph gamma frailty model to simulated survival data and running into situations where I have 0 events in one covariate class and the model won't converge. I'd still like a p-value in those cases as this is part of a power analysis. With enough person-time observed 20 events in one group and 0 in another is likely significant, but I want a p-value to be sure. Firth's correction in ?coxphf? seems appropriate but coxphf doesn't seem to deal with random effects. Any suggestions would be much appreciated!\n> \n\nI would have expected power analyses in mixed model situations to be conducted with bootstrap methods. In that setting you could just collect the zero event cases in one category and use then as part of the denominator.\n\n-- \n\nDavid Winsemius\nAlameda, CA, USA",
+      "body_snippet": "On Feb 12, 2015, at 5:50 PM, Steve Bellan wrote:\n\n> Hi all, I'm fitting a coxph gamma frailty model to simulated survival data and running into situations where I have 0 events in one covariate class ",
+      "thread_id": "thread-ca1a6f63a21a",
+      "thread_depth": 1,
+      "month": "2015-02"
+    },
+    {
+      "id": "msg-5dfcf6b96859",
+      "message_id": "<456685B6-F538-4050-BF07-AC4CBF5E653A@gmail.com>",
+      "from_name": "Steve Bellan",
+      "from_email_hash": "18d5d5a9a142c229265c06627d05bb896938c03b1b9ac1716cb7838bc756bf57",
+      "date": "2015-02-13T09:49:50-06:00",
+      "subject": "[R-sig-Epi] coxphf with frailty, Firth's correction",
+      "subject_clean": "coxphf with frailty, Firth's correction",
+      "in_reply_to": "<255A230F-2E78-4E83-8972-0CEBA86DCC65@comcast.net>",
+      "references": [
+        "<6DFDCBA5-C94A-48A7-9B9A-FE0E0B834909@gmail.com>",
+        "<255A230F-2E78-4E83-8972-0CEBA86DCC65@comcast.net>"
+      ],
+      "body_plain": "Thanks David. I?m not sure I completely follow. Are you referring to sandwich type estimators like that implemented by using cluster() instead of a frailty term?\nCould you please also clarify your last sentence? \n\nOn Feb 12, 2015, at 10:52 PM, David Winsemius <dwinsemius at comcast.net> wrote:\n\n> \n> On Feb 12, 2015, at 5:50 PM, Steve Bellan wrote:\n> \n>> Hi all, I'm fitting a coxph gamma frailty model to simulated survival data and running into situations where I have 0 events in one covariate class and the model won't converge. I'd still like a p-value in those cases as this is part of a power analysis. With enough person-time observed 20 events in one group and 0 in another is likely significant, but I want a p-value to be sure. Firth's correction in ?coxphf? seems appropriate but coxphf doesn't seem to deal with random effects. Any suggestions would be much appreciated!\n>> \n> \n> I would have expected power analyses in mixed model situations to be conducted with bootstrap methods. In that setting you could just collect the zero event cases in one category and use then as part of the denominator.\n> \n> -- \n> \n> David Winsemius\n> Alameda, CA, USA\n>",
+      "body_snippet": "Thanks David. I?m not sure I completely follow. Are you referring to sandwich type estimators like that implemented by using cluster() instead of a frailty term?\nCould you please also clarify your las",
+      "thread_id": "thread-ca1a6f63a21a",
+      "thread_depth": 2,
+      "month": "2015-02"
+    },
+    {
+      "id": "msg-d825095d8405",
+      "message_id": "<B5DF7F73-4B3C-48FE-BDE7-48103A08F631@comcast.net>",
+      "from_name": "David Winsemius",
+      "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
+      "date": "2015-02-13T22:21:32-08:00",
+      "subject": "[R-sig-Epi] coxphf with frailty, Firth's correction",
+      "subject_clean": "coxphf with frailty, Firth's correction",
+      "in_reply_to": "<456685B6-F538-4050-BF07-AC4CBF5E653A@gmail.com>",
+      "references": [
+        "<6DFDCBA5-C94A-48A7-9B9A-FE0E0B834909@gmail.com>",
+        "<255A230F-2E78-4E83-8972-0CEBA86DCC65@comcast.net>",
+        "<456685B6-F538-4050-BF07-AC4CBF5E653A@gmail.com>"
+      ],
+      "body_plain": "On Feb 13, 2015, at 7:49 AM, Steve Bellan wrote:\n\n> Thanks David. I?m not sure I completely follow. Are you referring to sandwich type estimators like that implemented by using cluster() instead of a frailty term?\n> Could you please also clarify your last sentence? \n\nI wasn't suggesting a sandwich estimator. I was imagining you would sample from a population and that some of your sample strata would have zero elements. I would expect that your boot function would trap that event and return an appropriate indicator. The bootstrap in my imagination wouldn't use p-values as the result but rather would report a high log hazard.\n\n-- \nDavid.\n\n> \n> On Feb 12, 2015, at 10:52 PM, David Winsemius <dwinsemius at comcast.net> wrote:\n> \n>> \n>> On Feb 12, 2015, at 5:50 PM, Steve Bellan wrote:\n>> \n>>> Hi all, I'm fitting a coxph gamma frailty model to simulated survival data and running into situations where I have 0 events in one covariate class and the model won't converge. I'd still like a p-value in those cases as this is part of a power analysis. With enough person-time observed 20 events in one group and 0 in another is likely significant, but I want a p-value to be sure. Firth's correction in ?coxphf? seems appropriate but coxphf doesn't seem to deal with random effects. Any suggestions would be much appreciated!\n>>> \n>> \n>> I would have expected power analyses in mixed model situations to be conducted with bootstrap methods. In that setting you could just collect the zero event cases in one category and use then as part of the denominator.\n>> \n>> -- \n>> \n>> David Winsemius\n>> Alameda, CA, USA\n>> \n> \n\nDavid Winsemius\nAlameda, CA, USA",
+      "body_snippet": "On Feb 13, 2015, at 7:49 AM, Steve Bellan wrote:\n\n> Thanks David. I?m not sure I completely follow. Are you referring to sandwich type estimators like that implemented by using cluster() instead of a ",
+      "thread_id": "thread-ca1a6f63a21a",
+      "thread_depth": 3,
+      "month": "2015-02"
+    },
+    {
+      "id": "msg-8e2e6987cc45",
+      "message_id": "<A536BC28-CE91-4197-BAC3-430536F69167@gmail.com>",
+      "from_name": "Steve Bellan",
+      "from_email_hash": "18d5d5a9a142c229265c06627d05bb896938c03b1b9ac1716cb7838bc756bf57",
+      "date": "2015-02-15T11:28:38-06:00",
+      "subject": "[R-sig-Epi] coxphf with frailty, Firth's correction",
+      "subject_clean": "coxphf with frailty, Firth's correction",
+      "in_reply_to": "<B5DF7F73-4B3C-48FE-BDE7-48103A08F631@comcast.net>",
+      "references": [
+        "<6DFDCBA5-C94A-48A7-9B9A-FE0E0B834909@gmail.com>",
+        "<255A230F-2E78-4E83-8972-0CEBA86DCC65@comcast.net>",
+        "<456685B6-F538-4050-BF07-AC4CBF5E653A@gmail.com>",
+        "<B5DF7F73-4B3C-48FE-BDE7-48103A08F631@comcast.net>"
+      ],
+      "body_plain": "I don?t quite see how bootstrapping would help.\n\nSay I have 20 clusters, with 10 receiving a treatment and 10 control. Say I have 0 events in the treatment cluster and 22 events distributed amongst a handful of the control clusters. If I bootstrap, resampling at the cluster level with replacement, then no matter what I will always have 0 events in the bootstrapped treatment clusters. One can?t resample 0 events to get more than 0 events. And coxph models are divergent when one treatment class has 0 events. Furthermore the effect size estimate for a relative hazard between 0 events and >0 events will always be -Inf (on a log-hazard scale). So I won?t be able to estimate variation in the effect size from a bootstrap. Am I missing something?\n\nI could see how a reshuffling algorithm could work to get a P value?i.e. randomly relabeling 10 clusters to be treatment and 10 to be control, then estimating the effect size from a coxph frailty model, and using this to create a null distribution of effect sizes. But I still wouldn?t be able to get a confidence interval. This seems like the best approach unless Firth?s correction for monotonic likelihoods could be applied here. \n\nOn Feb 14, 2015, at 12:21 AM, David Winsemius <dwinsemius at comcast.net> wrote:\n\n> \n> On Feb 13, 2015, at 7:49 AM, Steve Bellan wrote:\n> \n>> Thanks David. I?m not sure I completely follow. Are you referring to sandwich type estimators like that implemented by using cluster() instead of a frailty term?\n>> Could you please also clarify your last sentence? \n> \n> I wasn't suggesting a sandwich estimator. I was imagining you would sample from a population and that some of your sample strata would have zero elements. I would expect that your boot function would trap that event and return an appropriate indicator. The bootstrap in my imagination wouldn't use p-values as the result but rather would report a high log hazard.\n> \n> -- \n> David.\n> \n>> \n>> On Feb 12, 2015, at 10:52 PM, David Winsemius <dwinsemius at comcast.net> wrote:\n>> \n>>> \n>>> On Feb 12, 2015, at 5:50 PM, Steve Bellan wrote:\n>>> \n>>>> Hi all, I'm fitting a coxph gamma frailty model to simulated survival data and running into situations where I have 0 events in one covariate class and the model won't converge. I'd still like a p-value in those cases as this is part of a power analysis. With enough person-time observed 20 events in one group and 0 in another is likely significant, but I want a p-value to be sure. Firth's correction in ?coxphf? seems appropriate but coxphf doesn't seem to deal with random effects. Any suggestions would be much appreciated!\n>>>> \n>>> \n>>> I would have expected power analyses in mixed model situations to be conducted with bootstrap methods. In that setting you could just collect the zero event cases in one category and use then as part of the denominator.\n>>> \n>>> -- \n>>> \n>>> David Winsemius\n>>> Alameda, CA, USA\n>>> \n>> \n> \n> David Winsemius\n> Alameda, CA, USA\n>",
+      "body_snippet": "I don?t quite see how bootstrapping would help.\n\nSay I have 20 clusters, with 10 receiving a treatment and 10 control. Say I have 0 events in the treatment cluster and 22 events distributed amongst a ",
+      "thread_id": "thread-ca1a6f63a21a",
+      "thread_depth": 4,
+      "month": "2015-02"
+    },
+    {
+      "id": "msg-9e63b08af7a7",
+      "message_id": "<4633829E615E2E4D8CF24ABFBC86B75B26F5A853@EMBX-CLFT1.cdc.gov>",
+      "from_name": "Rose, Charles E. (CDC/OID/NCHHSTP)",
+      "from_email_hash": "95a4f7a75176043b51b8b445220bd1ae3f953c6388f3bd92dcb5fa0a1294e8da",
+      "date": "2015-02-15T17:34:01Z",
+      "subject": "[R-sig-Epi] coxphf with frailty, Firth's correction",
+      "subject_clean": "coxphf with frailty, Firth's correction",
+      "in_reply_to": "<A536BC28-CE91-4197-BAC3-430536F69167@gmail.com>",
+      "references": [
+        "<6DFDCBA5-C94A-48A7-9B9A-FE0E0B834909@gmail.com>",
+        "<255A230F-2E78-4E83-8972-0CEBA86DCC65@comcast.net>",
+        "<456685B6-F538-4050-BF07-AC4CBF5E653A@gmail.com>",
+        "<B5DF7F73-4B3C-48FE-BDE7-48103A08F631@comcast.net>",
+        "<A536BC28-CE91-4197-BAC3-430536F69167@gmail.com>"
+      ],
+      "body_plain": "I may be missing part of the conversation but it seems like Bayesian is a viable alternative, chuck\n\n\n-----Original Message-----\nFrom: R-sig-Epi [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Steve Bellan\nSent: Sunday, February 15, 2015 12:29 PM\nTo: David Winsemius\nCc: r-sig-epi at r-project.org\nSubject: Re: [R-sig-Epi] coxphf with frailty, Firth's correction\n\nI don't quite see how bootstrapping would help.\n\nSay I have 20 clusters, with 10 receiving a treatment and 10 control. Say I have 0 events in the treatment cluster and 22 events distributed amongst a handful of the control clusters. If I bootstrap, resampling at the cluster level with replacement, then no matter what I will always have 0 events in the bootstrapped treatment clusters. One can't resample 0 events to get more than 0 events. And coxph models are divergent when one treatment class has 0 events. Furthermore the effect size estimate for a relative hazard between 0 events and >0 events will always be -Inf (on a log-hazard scale). So I won't be able to estimate variation in the effect size from a bootstrap. Am I missing something?\n\nI could see how a reshuffling algorithm could work to get a P value-i.e. randomly relabeling 10 clusters to be treatment and 10 to be control, then estimating the effect size from a coxph frailty model, and using this to create a null distribution of effect sizes. But I still wouldn't be able to get a confidence interval. This seems like the best approach unless Firth's correction for monotonic likelihoods could be applied here. \n\nOn Feb 14, 2015, at 12:21 AM, David Winsemius <dwinsemius at comcast.net> wrote:\n\n> \n> On Feb 13, 2015, at 7:49 AM, Steve Bellan wrote:\n> \n>> Thanks David. I'm not sure I completely follow. Are you referring to sandwich type estimators like that implemented by using cluster() instead of a frailty term?\n>> Could you please also clarify your last sentence? \n> \n> I wasn't suggesting a sandwich estimator. I was imagining you would sample from a population and that some of your sample strata would have zero elements. I would expect that your boot function would trap that event and return an appropriate indicator. The bootstrap in my imagination wouldn't use p-values as the result but rather would report a high log hazard.\n> \n> -- \n> David.\n> \n>> \n>> On Feb 12, 2015, at 10:52 PM, David Winsemius <dwinsemius at comcast.net> wrote:\n>> \n>>> \n>>> On Feb 12, 2015, at 5:50 PM, Steve Bellan wrote:\n>>> \n>>>> Hi all, I'm fitting a coxph gamma frailty model to simulated survival data and running into situations where I have 0 events in one covariate class and the model won't converge. I'd still like a p-value in those cases as this is part of a power analysis. With enough person-time observed 20 events in one group and 0 in another is likely significant, but I want a p-value to be sure. Firth's correction in 'coxphf' seems appropriate but coxphf doesn't seem to deal with random effects. Any suggestions would be much appreciated!\n>>>> \n>>> \n>>> I would have expected power analyses in mixed model situations to be conducted with bootstrap methods. In that setting you could just collect the zero event cases in one category and use then as part of the denominator.\n>>> \n>>> -- \n>>> \n>>> David Winsemius\n>>> Alameda, CA, USA\n>>> \n>> \n> \n> David Winsemius\n> Alameda, CA, USA\n> \n\n_______________________________________________\nR-sig-Epi at r-project.org mailing list\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-epi",
+      "body_snippet": "I may be missing part of the conversation but it seems like Bayesian is a viable alternative, chuck\n\n\n-----Original Message-----\nFrom: R-sig-Epi [mailto:r-sig-epi-bounces at r-project.org] On Behalf O",
+      "thread_id": "thread-ca1a6f63a21a",
+      "thread_depth": 5,
+      "month": "2015-02"
+    },
+    {
+      "id": "msg-6410d929e055",
+      "message_id": "<6F82B5F7-EA99-4A5B-A1BF-7FDAB396406A@gmail.com>",
+      "from_name": "Steve Bellan",
+      "from_email_hash": "18d5d5a9a142c229265c06627d05bb896938c03b1b9ac1716cb7838bc756bf57",
+      "date": "2015-02-15T11:40:46-06:00",
+      "subject": "[R-sig-Epi] coxphf with frailty, Firth's correction",
+      "subject_clean": "coxphf with frailty, Firth's correction",
+      "in_reply_to": "<4633829E615E2E4D8CF24ABFBC86B75B26F5A853@EMBX-CLFT1.cdc.gov>",
+      "references": [
+        "<6DFDCBA5-C94A-48A7-9B9A-FE0E0B834909@gmail.com>",
+        "<255A230F-2E78-4E83-8972-0CEBA86DCC65@comcast.net>",
+        "<456685B6-F538-4050-BF07-AC4CBF5E653A@gmail.com>",
+        "<B5DF7F73-4B3C-48FE-BDE7-48103A08F631@comcast.net>",
+        "<A536BC28-CE91-4197-BAC3-430536F69167@gmail.com>",
+        "<4633829E615E2E4D8CF24ABFBC86B75B26F5A853@EMBX-CLFT1.cdc.gov>"
+      ],
+      "body_plain": "Thanks Chuck. I agree that?s a good idea but I?m not too familiar with the Bayesian coxph survival packages and on first scan of\n\nhttp://cran.r-project.org/web/views/Survival.html\n\nI didn't see any that handle frailties except for survBayes (http://ftp.auckland.ac.nz/software/CRAN/src/contrib/Descriptions/survBayes.html) which has been removed from CRAN for undocumented reasons. I couldn?t get it to work either.\n\nRecommendations on packages would be much appreciated.\n\nSteve\n\n\n\nOn Feb 15, 2015, at 11:34 AM, Rose, Charles E. (CDC/OID/NCHHSTP) <cvr7 at cdc.gov> wrote:\n\n> I may be missing part of the conversation but it seems like Bayesian is a viable alternative, chuck\n> \n> \n> -----Original Message-----\n> From: R-sig-Epi [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Steve Bellan\n> Sent: Sunday, February 15, 2015 12:29 PM\n> To: David Winsemius\n> Cc: r-sig-epi at r-project.org\n> Subject: Re: [R-sig-Epi] coxphf with frailty, Firth's correction\n> \n> I don't quite see how bootstrapping would help.\n> \n> Say I have 20 clusters, with 10 receiving a treatment and 10 control. Say I have 0 events in the treatment cluster and 22 events distributed amongst a handful of the control clusters. If I bootstrap, resampling at the cluster level with replacement, then no matter what I will always have 0 events in the bootstrapped treatment clusters. One can't resample 0 events to get more than 0 events. And coxph models are divergent when one treatment class has 0 events. Furthermore the effect size estimate for a relative hazard between 0 events and >0 events will always be -Inf (on a log-hazard scale). So I won't be able to estimate variation in the effect size from a bootstrap. Am I missing something?\n> \n> I could see how a reshuffling algorithm could work to get a P value-i.e. randomly relabeling 10 clusters to be treatment and 10 to be control, then estimating the effect size from a coxph frailty model, and using this to create a null distribution of effect sizes. But I still wouldn't be able to get a confidence interval. This seems like the best approach unless Firth's correction for monotonic likelihoods could be applied here. \n> \n> On Feb 14, 2015, at 12:21 AM, David Winsemius <dwinsemius at comcast.net> wrote:\n> \n>> \n>> On Feb 13, 2015, at 7:49 AM, Steve Bellan wrote:\n>> \n>>> Thanks David. I'm not sure I completely follow. Are you referring to sandwich type estimators like that implemented by using cluster() instead of a frailty term?\n>>> Could you please also clarify your last sentence? \n>> \n>> I wasn't suggesting a sandwich estimator. I was imagining you would sample from a population and that some of your sample strata would have zero elements. I would expect that your boot function would trap that event and return an appropriate indicator. The bootstrap in my imagination wouldn't use p-values as the result but rather would report a high log hazard.\n>> \n>> -- \n>> David.\n>> \n>>> \n>>> On Feb 12, 2015, at 10:52 PM, David Winsemius <dwinsemius at comcast.net> wrote:\n>>> \n>>>> \n>>>> On Feb 12, 2015, at 5:50 PM, Steve Bellan wrote:\n>>>> \n>>>>> Hi all, I'm fitting a coxph gamma frailty model to simulated survival data and running into situations where I have 0 events in one covariate class and the model won't converge. I'd still like a p-value in those cases as this is part of a power analysis. With enough person-time observed 20 events in one group and 0 in another is likely significant, but I want a p-value to be sure. Firth's correction in 'coxphf' seems appropriate but coxphf doesn't seem to deal with random effects. Any suggestions would be much appreciated!\n>>>>> \n>>>> \n>>>> I would have expected power analyses in mixed model situations to be conducted with bootstrap methods. In that setting you could just collect the zero event cases in one category and use then as part of the denominator.\n>>>> \n>>>> -- \n>>>> \n>>>> David Winsemius\n>>>> Alameda, CA, USA\n>>>> \n>>> \n>> \n>> David Winsemius\n>> Alameda, CA, USA\n>> \n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Thanks Chuck. I agree that?s a good idea but I?m not too familiar with the Bayesian coxph survival packages and on first scan of\n\nhttp://cran.r-project.org/web/views/Survival.html\n\nI didn't see any th",
+      "thread_id": "thread-ca1a6f63a21a",
+      "thread_depth": 6,
+      "month": "2015-02"
+    },
+    {
+      "id": "msg-5af04505722b",
+      "message_id": "<CC3935A0-FCF3-4387-83CD-AB3EF24AF363@comcast.net>",
+      "from_name": "David Winsemius",
+      "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
+      "date": "2015-02-15T13:50:16-08:00",
+      "subject": "[R-sig-Epi] coxphf with frailty, Firth's correction",
+      "subject_clean": "coxphf with frailty, Firth's correction",
+      "in_reply_to": "<A536BC28-CE91-4197-BAC3-430536F69167@gmail.com>",
+      "references": [
+        "<6DFDCBA5-C94A-48A7-9B9A-FE0E0B834909@gmail.com>",
+        "<255A230F-2E78-4E83-8972-0CEBA86DCC65@comcast.net>",
+        "<456685B6-F538-4050-BF07-AC4CBF5E653A@gmail.com>",
+        "<B5DF7F73-4B3C-48FE-BDE7-48103A08F631@comcast.net>",
+        "<A536BC28-CE91-4197-BAC3-430536F69167@gmail.com>"
+      ],
+      "body_plain": "I thought you said you were proposing doing power analyses, but here you are positing analysis of a particular result, and for a result which seems fairly extreme for a clinical study. Unless there were an extreme disproportion of observation time I would think the results should speak for themselves and be obviously statistically significant. This is more extreme than the classic initial studies of the effect of penicillin on pneumococcal meningitis. I do not see that a slavish reliance on p-values or confidence intervals is needed.  The \"classical\" analysis of confidence intervals for zero-event outcomes are with \"exact\" methods.\n\nIt would seem that the only remaining question might be whether there were any heterogeneity in the event rates for the untreated groups and here (assuming a Poisson distribution weighted by the log observation time) I very much doubt the you should be able to show an effect unless one site had more than say 5 events? \n\n-- \n\nDavid Winsemius, MD, MPH\n\n\nOn Feb 15, 2015, at 9:28 AM, Steve Bellan wrote:\n\n> I don?t quite see how bootstrapping would help.\n> \n> Say I have 20 clusters, with 10 receiving a treatment and 10 control. Say I have 0 events in the treatment cluster and 22 events distributed amongst a handful of the control clusters. If I bootstrap, resampling at the cluster level with replacement, then no matter what I will always have 0 events in the bootstrapped treatment clusters. One can?t resample 0 events to get more than 0 events. And coxph models are divergent when one treatment class has 0 events. Furthermore the effect size estimate for a relative hazard between 0 events and >0 events will always be -Inf (on a log-hazard scale). So I won?t be able to estimate variation in the effect size from a bootstrap. Am I missing something?\n> \n> I could see how a reshuffling algorithm could work to get a P value?i.e. randomly relabeling 10 clusters to be treatment and 10 to be control, then estimating the effect size from a coxph frailty model, and using this to create a null distribution of effect sizes. But I still wouldn?t be able to get a confidence interval. This seems like the best approach unless Firth?s correction for monotonic likelihoods could be applied here. \n> \n> On Feb 14, 2015, at 12:21 AM, David Winsemius <dwinsemius at comcast.net> wrote:\n> \n>> \n>> On Feb 13, 2015, at 7:49 AM, Steve Bellan wrote:\n>> \n>>> Thanks David. I?m not sure I completely follow. Are you referring to sandwich type estimators like that implemented by using cluster() instead of a frailty term?\n>>> Could you please also clarify your last sentence? \n>> \n>> I wasn't suggesting a sandwich estimator. I was imagining you would sample from a population and that some of your sample strata would have zero elements. I would expect that your boot function would trap that event and return an appropriate indicator. The bootstrap in my imagination wouldn't use p-values as the result but rather would report a high log hazard.\n>> \n>> -- \n>> David.\n>> \n>>> \n>>> On Feb 12, 2015, at 10:52 PM, David Winsemius <dwinsemius at comcast.net> wrote:\n>>> \n>>>> \n>>>> On Feb 12, 2015, at 5:50 PM, Steve Bellan wrote:\n>>>> \n>>>>> Hi all, I'm fitting a coxph gamma frailty model to simulated survival data and running into situations where I have 0 events in one covariate class and the model won't converge. I'd still like a p-value in those cases as this is part of a power analysis. With enough person-time observed 20 events in one group and 0 in another is likely significant, but I want a p-value to be sure. Firth's correction in ?coxphf? seems appropriate but coxphf doesn't seem to deal with random effects. Any suggestions would be much appreciated!\n>>>>> \n>>>> \n>>>> I would have expected power analyses in mixed model situations to be conducted with bootstrap methods. In that setting you could just collect the zero event cases in one category and use then as part of the denominator.\n>>>> \n>>>> -- \n>>>> \n>>>> David Winsemius\n>>>> Alameda, CA, USA\n>>>> \n>>> \n>> \n>> David Winsemius\n>> Alameda, CA, USA\n>> \n> \n\nDavid Winsemius\nAlameda, CA, USA",
+      "body_snippet": "I thought you said you were proposing doing power analyses, but here you are positing analysis of a particular result, and for a result which seems fairly extreme for a clinical study. Unless there we",
+      "thread_id": "thread-ca1a6f63a21a",
+      "thread_depth": 5,
+      "month": "2015-02"
+    },
+    {
+      "id": "msg-dc7f4a64ca74",
+      "message_id": "<CALy04uZfwvs3raLWi2-57zFZi=uEzJPGOsZ+aiugJUKG5TAS-g@mail.gmail.com>",
+      "from_name": "Steve Bellan",
+      "from_email_hash": "18d5d5a9a142c229265c06627d05bb896938c03b1b9ac1716cb7838bc756bf57",
+      "date": "2015-02-15T22:35:40-06:00",
+      "subject": "[R-sig-Epi] coxphf with frailty, Firth's correction",
+      "subject_clean": "coxphf with frailty, Firth's correction",
+      "in_reply_to": "<CC3935A0-FCF3-4387-83CD-AB3EF24AF363@comcast.net>",
+      "references": [
+        "<6DFDCBA5-C94A-48A7-9B9A-FE0E0B834909@gmail.com>",
+        "<255A230F-2E78-4E83-8972-0CEBA86DCC65@comcast.net>",
+        "<456685B6-F538-4050-BF07-AC4CBF5E653A@gmail.com>",
+        "<B5DF7F73-4B3C-48FE-BDE7-48103A08F631@comcast.net>",
+        "<A536BC28-CE91-4197-BAC3-430536F69167@gmail.com>",
+        "<CC3935A0-FCF3-4387-83CD-AB3EF24AF363@comcast.net>"
+      ],
+      "body_plain": "This is for a power analysis using simulated data and analyses. A power\nanalysis should use the same methods and criteria as the study which will\nbe eventually carried out, and since DSMB criteria are often firm and based\non p-values or confidence intervals acquired via a specified method, it\nseems like rigorous power analyses should do the same.\n\nIn my example, the person-time does differ between clusters. The risk is\nalso variable between clusters. I agree that the small number of events is\nproblematic but I guess I'm concerned with how to have rigorous criteria to\ndecide when the effect is significant, i.e. 12 vs 0, 15 vs 0, 30 vs 0, 100\nvs 0? And with the cluster-level heterogeneity I think resolving this\ncutoff becomes trickier.\n\n\nOn Sun, Feb 15, 2015 at 3:50 PM, David Winsemius <dwinsemius at comcast.net>\nwrote:\n\n> I thought you said you were proposing doing power analyses, but here you\n> are positing analysis of a particular result, and for a result which seems\n> fairly extreme for a clinical study. Unless there were an extreme\n> disproportion of observation time I would think the results should speak\n> for themselves and be obviously statistically significant. This is more\n> extreme than the classic initial studies of the effect of penicillin on\n> pneumococcal meningitis. I do not see that a slavish reliance on p-values\n> or confidence intervals is needed.  The \"classical\" analysis of confidence\n> intervals for zero-event outcomes are with \"exact\" methods.\n>\n> It would seem that the only remaining question might be whether there were\n> any heterogeneity in the event rates for the untreated groups and here\n> (assuming a Poisson distribution weighted by the log observation time) I\n> very much doubt the you should be able to show an effect unless one site\n> had more than say 5 events?\n>\n> --\n>\n> David Winsemius, MD, MPH\n>\n>\n> On Feb 15, 2015, at 9:28 AM, Steve Bellan wrote:\n>\n> > I don?t quite see how bootstrapping would help.\n> >\n> > Say I have 20 clusters, with 10 receiving a treatment and 10 control.\n> Say I have 0 events in the treatment cluster and 22 events distributed\n> amongst a handful of the control clusters. If I bootstrap, resampling at\n> the cluster level with replacement, then no matter what I will always have\n> 0 events in the bootstrapped treatment clusters. One can?t resample 0\n> events to get more than 0 events. And coxph models are divergent when one\n> treatment class has 0 events. Furthermore the effect size estimate for a\n> relative hazard between 0 events and >0 events will always be -Inf (on a\n> log-hazard scale). So I won?t be able to estimate variation in the effect\n> size from a bootstrap. Am I missing something?\n> >\n> > I could see how a reshuffling algorithm could work to get a P value?i.e.\n> randomly relabeling 10 clusters to be treatment and 10 to be control, then\n> estimating the effect size from a coxph frailty model, and using this to\n> create a null distribution of effect sizes. But I still wouldn?t be able to\n> get a confidence interval. This seems like the best approach unless Firth?s\n> correction for monotonic likelihoods could be applied here.\n> >\n> > On Feb 14, 2015, at 12:21 AM, David Winsemius <dwinsemius at comcast.net>\n> wrote:\n> >\n> >>\n> >> On Feb 13, 2015, at 7:49 AM, Steve Bellan wrote:\n> >>\n> >>> Thanks David. I?m not sure I completely follow. Are you referring to\n> sandwich type estimators like that implemented by using cluster() instead\n> of a frailty term?\n> >>> Could you please also clarify your last sentence?\n> >>\n> >> I wasn't suggesting a sandwich estimator. I was imagining you would\n> sample from a population and that some of your sample strata would have\n> zero elements. I would expect that your boot function would trap that event\n> and return an appropriate indicator. The bootstrap in my imagination\n> wouldn't use p-values as the result but rather would report a high log\n> hazard.\n> >>\n> >> --\n> >> David.\n> >>\n> >>>\n> >>> On Feb 12, 2015, at 10:52 PM, David Winsemius <dwinsemius at comcast.net>\n> wrote:\n> >>>\n> >>>>\n> >>>> On Feb 12, 2015, at 5:50 PM, Steve Bellan wrote:\n> >>>>\n> >>>>> Hi all, I'm fitting a coxph gamma frailty model to simulated\n> survival data and running into situations where I have 0 events in one\n> covariate class and the model won't converge. I'd still like a p-value in\n> those cases as this is part of a power analysis. With enough person-time\n> observed 20 events in one group and 0 in another is likely significant, but\n> I want a p-value to be sure. Firth's correction in ?coxphf? seems\n> appropriate but coxphf doesn't seem to deal with random effects. Any\n> suggestions would be much appreciated!\n> >>>>>\n> >>>>\n> >>>> I would have expected power analyses in mixed model situations to be\n> conducted with bootstrap methods. In that setting you could just collect\n> the zero event cases in one category and use then as part of the\n> denominator.\n> >>>>\n> >>>> --\n> >>>>\n> >>>> David Winsemius\n> >>>> Alameda, CA, USA\n> >>>>\n> >>>\n> >>\n> >> David Winsemius\n> >> Alameda, CA, USA\n> >>\n> >\n>\n> David Winsemius\n> Alameda, CA, USA\n>\n>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "This is for a power analysis using simulated data and analyses. A power\nanalysis should use the same methods and criteria as the study which will\nbe eventually carried out, and since DSMB criteria are",
+      "thread_id": "thread-ca1a6f63a21a",
+      "thread_depth": 6,
+      "month": "2015-02"
+    },
+    {
+      "id": "msg-90986e46bf8a",
+      "message_id": "<2DCDE2D1-7EB6-4FCE-AD05-3CFBCF14E63D@163.com>",
+      "from_name": "Ting Zhang",
+      "from_email_hash": "64c2ab74f387d78752a69aded152009c9afb171061d8d372276085a9de57ea45",
+      "date": "2015-02-24T12:24:47+08:00",
+      "subject": "[R-sig-Epi] multifactor dimensionality reduction usage",
+      "subject_clean": "multifactor dimensionality reduction usage",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi, everyone! \nI heard that multifactor dimensionality reduction (MDR) is used to analyze gene-gene interaction and gene-environment interaction, I want to know whether MDR can be used to analyze environment-environment interaction.\nThanks!\nTing",
+      "body_snippet": "Hi, everyone! \nI heard that multifactor dimensionality reduction (MDR) is used to analyze gene-gene interaction and gene-environment interaction, I want to know whether MDR can be used to analyze envi",
+      "thread_id": "thread-90986e46bf8a",
+      "thread_depth": 0,
+      "month": "2015-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-ca1a6f63a21a",
+      "subject": "coxphf with frailty, Firth's correction",
+      "message_count": 9,
+      "participants": [
+        "David Winsemius",
+        "Rose, Charles E. (CDC/OID/NCHHSTP)",
+        "Steve Bellan"
+      ],
+      "started": "2015-02-12T19:50:29-06:00",
+      "last_reply": "2015-02-15T22:35:40-06:00",
+      "root_message_id": "msg-ca1a6f63a21a"
+    },
+    {
+      "id": "thread-90986e46bf8a",
+      "subject": "multifactor dimensionality reduction usage",
+      "message_count": 1,
+      "participants": [
+        "Ting Zhang"
+      ],
+      "started": "2015-02-24T12:24:47+08:00",
+      "last_reply": "2015-02-24T12:24:47+08:00",
+      "root_message_id": "msg-90986e46bf8a"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2012-02",
+  "messages": [
+    {
+      "id": "msg-482e31030610",
+      "message_id": "<CADkfwotSB+p=aVEMfZUvwajoDMZmCTFH5xGWwY0R2VfMkj2oqw@mail.gmail.com>",
+      "from_name": "Muhammad Arshad",
+      "from_email_hash": "8d96fecdb2baf9dea4339e93b40a793a63e690365617361c1894e08e0bc7b5d2",
+      "date": "2012-02-27T05:12:52+07:00",
+      "subject": "[R-sig-Epi] Fwd: Need help to find multifactors influence‏",
+      "subject_clean": "Need help to find multifactors influence‏",
+      "in_reply_to": "<CADkfwos-nCV8yCExF_NhAfgpqBfi-5h8TrbNyCYxFRpG5AppEg@mail.gmail.com>",
+      "references": [
+        "<CADkfwos-nCV8yCExF_NhAfgpqBfi-5h8TrbNyCYxFRpG5AppEg@mail.gmail.com>"
+      ],
+      "body_plain": "Dear friends,\n\n1-I have B.I value (Dependent variable).\n2-I have land cover types in the form of % area against each B.I (that was\nclipped through buffer for each B.I ). Buffer was put by considering B.I\nbehavior that can be influence by land type.\n3- I want to see the influence of land type on B.I.\n4- Suppose B.I value varies with the change in (area) one or more types of\nland cover. This change may be linear up to some extent but can also\nincrease with the combination of land types. Land types can also differ\nfrom one buffer to other buffer.\n5- I want to develop a Predication Model\\Regression Equation to predict B.I\nvalue with the combined influence of different land use types.\n6- I am confused which Regression model (Linear, Logistic, and Poisson,\nExponential etc...)  Should be adopted to develop this type of relationship\nwhere factors are varying.\n7- Total study map consists of 77 land cover types and each buffer gets\nsome land type.\n\nPlease see the attached data having values extracted for each land type\n(a1~a77 are land type names against each BI).\n\nI already tried to solve it with different methods. Even I made groups in\nterm of B.I & also in term of land cover types. But still failed to\nfind correlation with reasonable factors.\n\nI will happy for your informative response to solve my this problem. Please\nlet me know if my question is not clear.\n\nWarm Regards,\nMalik\\Arshad\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120227/f2c93671/attachment-0001.html>\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: MALIK'S DATA.xlsx\nType: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\nSize: 49168 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120227/f2c93671/attachment-0001.bin>",
+      "body_snippet": "Dear friends,\n\n1-I have B.I value (Dependent variable).\n2-I have land cover types in the form of % area against each B.I (that was\nclipped through buffer for each B.I ). Buffer was put by considering ",
+      "thread_id": "thread-482e31030610",
+      "thread_depth": 0,
+      "month": "2012-02"
+    },
+    {
+      "id": "msg-913add6ecd3e",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC33031B818FAF@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2012-02-27T00:22:33+01:00",
+      "subject": "[R-sig-Epi] Fwd: Need help to find multifactors influence‏",
+      "subject_clean": "Need help to find multifactors influence‏",
+      "in_reply_to": "<CADkfwotSB+p=aVEMfZUvwajoDMZmCTFH5xGWwY0R2VfMkj2oqw@mail.gmail.com>",
+      "references": [
+        "<CADkfwos-nCV8yCExF_NhAfgpqBfi-5h8TrbNyCYxFRpG5AppEg@mail.gmail.com>",
+        "<CADkfwotSB+p=aVEMfZUvwajoDMZmCTFH5xGWwY0R2VfMkj2oqw@mail.gmail.com>"
+      ],
+      "body_plain": "Dear Malik Arshad,\nthis list is a list for asking questions and advice relating to the Epi-package and  broader epidemiological questions related to that.\n\nIt is NOT for asking help to solve assignments, so please do not post this type of requests any more. If you are confused between different regression models, you should not ask questions here, but acquire the relevant qualifications first.\nAnd this list cannot help with that.\n\nBest regards,\nBendix Carstensen\n\n________________________________\n\n\tFrom: r-sig-epi-bounces at r-project.org [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Muhammad Arshad\n\tSent: 26. februar 2012 23:13\n\tTo: r-sig-epi at r-project.org\n\tSubject: [R-sig-Epi] Fwd: Need help to find multifactors influence?\n\t\n\t\n\tDear friends,\n\n\t1-I have B.I value (Dependent variable). \n\t2-I have land cover types in the form of % area against each B.I (that was clipped through buffer for each B.I ). Buffer was put by considering B.I behavior that can be influence by land type.  \n\t3- I want to see the influence of land type on B.I. \n\t4- Suppose B.I value varies with the change in (area) one or more types of land cover. This change may be linear up to some extent but can also increase with the combination of land types. Land types can also differ from one buffer to other buffer.\n\t5- I want to develop a Predication Model\\Regression Equation to predict B.I value with the combined influence of different land use types.\n\t6- I am confused which Regression model (Linear, Logistic, and Poisson, Exponential etc...)  Should be adopted to develop this type of relationship where factors are varying. \n\t7- Total study map consists of 77 land cover types and each buffer gets some land type.\n\n\tPlease see the attached data having values extracted for each land type (a1~a77 are land type names against each BI).\n\n\tI already tried to solve it with different methods. Even I made groups in term of B.I & also in term of land cover types. But still failed to find correlation with reasonable factors.\n\n\tI will happy for your informative response to solve my this problem. Please let me know if my question is not clear.\n\n\tWarm Regards,\n\tMalik\\Arshad",
+      "body_snippet": "Dear Malik Arshad,\nthis list is a list for asking questions and advice relating to the Epi-package and  broader epidemiological questions related to that.\n\nIt is NOT for asking help to solve assignmen",
+      "thread_id": "thread-482e31030610",
+      "thread_depth": 1,
+      "month": "2012-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-482e31030610",
+      "subject": "Need help to find multifactors influence‏",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Muhammad Arshad"
+      ],
+      "started": "2012-02-27T05:12:52+07:00",
+      "last_reply": "2012-02-27T00:22:33+01:00",
+      "root_message_id": "msg-482e31030610"
+    }
+  ]
+}

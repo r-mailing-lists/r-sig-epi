@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2013-03",
+  "messages": [
+    {
+      "id": "msg-f4479af1af42",
+      "message_id": "<2732C804E2DBB04AA90A678D76FAF2CC19BD3D6698@DFW1MBX02.mex07a.mlsrvr.com>",
+      "from_name": "Lisa Solomon",
+      "from_email_hash": "375f0ace505fbda9906f09938aec4d544cea2804675c7fc389f42f5ebed96592",
+      "date": "2013-03-20T15:04:15-05:00",
+      "subject": "[R-sig-Epi] Hands-on Webinar: Advances in Regression: Modern Ensemble and Data Mining Approaches (no charge)",
+      "subject_clean": "Hands-on Webinar: Advances in Regression: Modern Ensemble and Data Mining Approaches (no charge)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130320/31bd176c/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130320/31bd176c/attachment.pl>",
+      "thread_id": "thread-f4479af1af42",
+      "thread_depth": 0,
+      "month": "2013-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f4479af1af42",
+      "subject": "Hands-on Webinar: Advances in Regression: Modern Ensemble and Data Mining Approaches (no charge)",
+      "message_count": 1,
+      "participants": [
+        "Lisa Solomon"
+      ],
+      "started": "2013-03-20T15:04:15-05:00",
+      "last_reply": "2013-03-20T15:04:15-05:00",
+      "root_message_id": "msg-f4479af1af42"
+    }
+  ]
+}

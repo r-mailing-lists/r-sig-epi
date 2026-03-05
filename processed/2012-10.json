@@ -1,0 +1,38 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2012-10",
+  "messages": [
+    {
+      "id": "msg-c220f6710605",
+      "message_id": "<DUB108-W46A4E4B9614D279139CC5EBE630@phx.gbl>",
+      "from_name": "Roberta Carriero",
+      "from_email_hash": "3d7faa7abcadfc8e70ad4ae1451dbaea833d6fc98d7a169266728d7c312ba3ce",
+      "date": "2012-10-29T19:10:47+01:00",
+      "subject": "[R-sig-Epi] replace repeated id in a pedigree list",
+      "subject_clean": "replace repeated id in a pedigree list",
+      "in_reply_to": "<DUB108-W16051D5FB83FBA2A40A220BE630@phx.gbl>",
+      "references": [
+        "<DUB108-W16051D5FB83FBA2A40A220BE630@phx.gbl>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121029/2ac78ec6/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121029/2ac78ec6/attachment.pl>",
+      "thread_id": "thread-c220f6710605",
+      "thread_depth": 0,
+      "month": "2012-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-c220f6710605",
+      "subject": "replace repeated id in a pedigree list",
+      "message_count": 1,
+      "participants": [
+        "Roberta Carriero"
+      ],
+      "started": "2012-10-29T19:10:47+01:00",
+      "last_reply": "2012-10-29T19:10:47+01:00",
+      "root_message_id": "msg-c220f6710605"
+    }
+  ]
+}

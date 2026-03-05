@@ -1,0 +1,109 @@
+From enzo.coviello at tin.it  Wed Mar 11 18:04:56 2009
+From: enzo.coviello at tin.it (Enzo Coviello)
+Date: Wed, 11 Mar 2009 18:04:56 +0100
+Subject: [R-sig-Epi] APC models
+Message-ID: <49B7EF38.4090807@tin.it>
+
+Dear listers,
+
+I was very impressed by the paper of prof. Carstensen on Stat in Med.
+2007; 26:3018-3045 about Age-period-cohort models.
+In the paper (p. 3036) the annotated R file with Danish testis data used
+for an example are said available at
+http://www.biostat.ku.dk/~bxc/APC/Sim-ex.
+
+Unfortunately R file and data are no more available at this site.
+I am looking for this code and data for reproducing the results
+illustrated in the paper and trying to adapt them to a project.
+
+Can you tell me if and where R-file and data cited in StatMed paper are
+actually available for download?
+
+Thanks
+
+Enzo
+
+-- 
+Enzo Coviello
+Unit? di Epidemiologia e Statistica ASL Bari
+Piazza V. Emanuele, 14 - 70054 GIOVINAZZO (BA)
+Italy
+tel +39 080 3357883 - fax +39 080 3357867
+mobile 347 5016016
+^^^^
+Home
+via Imbriani, 186 - 70055 MINERVINO MURGE (BA)
+tel +39 0883 695055
+
+
+From bxc at steno.dk  Wed Mar 11 18:46:02 2009
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Wed, 11 Mar 2009 18:46:02 +0100
+Subject: [R-sig-Epi] APC models
+In-Reply-To: <49B7EF38.4090807@tin.it>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC33020161F974@exdkmbx002.corp.novocorp.net>
+
+Dear Enzo,
+there have been some problems with the Biostat homepage redirecting to another url while converting everything to lower case, so that things were unavailable.
+
+I have fixed things now, so the link http://www.biostat.ku.dk/~bxc/APC/SiM-ex now gives a file with working R-code, including a link to the datafile.
+
+I would be happy if you would drop me a mail if (when!) you have successfuly have found the R-program and made it run.
+
+Best wishes,
+Bendix Carstensen
+_______________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+www.steno.dk
+
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> Enzo Coviello
+> Sent: 11. marts 2009 18:05
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] APC models
+> 
+> Dear listers,
+> 
+> I was very impressed by the paper of prof. Carstensen on Stat in Med.
+> 2007; 26:3018-3045 about Age-period-cohort models.
+> In the paper (p. 3036) the annotated R file with Danish 
+> testis data used for an example are said available at 
+> http://www.biostat.ku.dk/~bxc/APC/Sim-ex.
+> 
+> Unfortunately R file and data are no more available at this site.
+> I am looking for this code and data for reproducing the 
+> results illustrated in the paper and trying to adapt them to 
+> a project.
+> 
+> Can you tell me if and where R-file and data cited in StatMed 
+> paper are actually available for download?
+> 
+> Thanks
+> 
+> Enzo
+> 
+> --
+> Enzo Coviello
+> Unit? di Epidemiologia e Statistica ASL Bari Piazza V. 
+> Emanuele, 14 - 70054 GIOVINAZZO (BA) Italy tel +39 080 
+> 3357883 - fax +39 080 3357867 mobile 347 5016016 ^^^^ Home 
+> via Imbriani, 186 - 70055 MINERVINO MURGE (BA) tel +39 0883 695055
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+

@@ -1,0 +1,43 @@
+From Henrik.Kallberg at imm.ki.se  Thu Mar  2 11:34:51 2006
+From: Henrik.Kallberg at imm.ki.se (Henrik Kallberg)
+Date: Thu, 02 Mar 2006 11:34:51 +0100
+Subject: [R-sig-Epi] function and glm
+Message-ID: <f9b0d0e67585.7585f9b0d0e6@ki.se>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060302/12d5da0b/attachment.pl
+
+From plummer at iarc.fr  Thu Mar  2 13:00:11 2006
+From: plummer at iarc.fr (Martyn Plummer)
+Date: Thu, 02 Mar 2006 13:00:11 +0100
+Subject: [R-sig-Epi] function and glm
+In-Reply-To: <f9b0d0e67585.7585f9b0d0e6@ki.se>
+References: <f9b0d0e67585.7585f9b0d0e6@ki.se>
+Message-ID: <1141300812.3659.8.camel@seurat.iarc.fr>
+
+On Thu, 2006-03-02 at 11:34 +0100, Henrik Kallberg wrote:
+> Hi all!
+> I've a question for which I have found no answer. I want to create a function that contains the glm function as a kind of subfunction within the larger function. I want to be able to  chose how many predictor variables will be included in the glm function based on the "larger" function. Example:
+> function(ab#=dataset#,case#response variable#, exp#exposure variable#, confounders#list of confounder variables#){
+> Glmf<-glm(case~exp + confounders, family=binomial(link="logit"), data=inter, na.action=na.fail)
+> summary(Glmf)
+> return(summary(Glmf))
+> }
+> I want to be able to put in different numbers of confounding variables. I would be very GRATEFUL for suggestions how to solve the problem.
+> Best Regards Henrik Kllberg
+> henrik.kallberg at ki.se
+
+A dot on the right hand side of the formula means "regress on
+everything". So you can create a data frame with only the variables you
+want and pass this to glm inside your function
+
+mydata <- cbind("case"=case, "exp"=exp, as.data.frame(confounders))
+glm(case ~ ., data=mydata)
+
+Martyn
+
+-----------------------------------------------------------------------
+This message and its attachments are strictly confidential. ...{{dropped}}
+
+

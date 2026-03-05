@@ -1,0 +1,226 @@
+From leonardof at leonardof.med.br  Tue Apr 26 21:17:56 2016
+From: leonardof at leonardof.med.br (Leonardo Ferreira Fontenelle)
+Date: Tue, 26 Apr 2016 16:17:56 -0300
+Subject: [R-sig-Epi] How to interpret the results of PCA with sampling
+	weights
+Message-ID: <1461698276.2768336.590257281.1FDFCEAE@webmail.messagingengine.com>
+
+Hello everyone,
+ 
+I have a dataset from a household survey, with sampling weights, and I
+wanted to create an assets-based indicator of economic level for the
+households. The idea was to run PCA (with sampling weights), and the
+first principal component would be the economic level indicator. In
+this email, I am calling "surveydesignobj" the object returned by
+svydesign(), and "svyprcompobj" the object returned by
+svyprcomp(formula, surveydesignobj, center = TRUE, scale. = TRUE,
+scores = TRUE).
+ 
+What I can't understand is why the first principal component stored in
+svyprcompobj$x is so different from what I get from
+predict(svyprcompobj, surveydesignobject). By "different" I mean
+different distributions and only moderate correlation (~ 0.5) between
+them. I also tried recreating the first principal component "by hand",
+by summing the (centered or not) variables after multiplying them by the
+loadings (svyprcompobj$rotation) and dividing them by their scales (from
+svyprcompobj$scale); the resulting vector was highly correlated (> 0.99)
+with the first principal component obtained from predict().
+ 
+Peaking in the svyprcomp() code I saw that the function runs PCA in the
+data after multiplying it by
+sqrt(samplingweights/mean(samplingweights)), and latter divides
+svyprcompobj$x by?sqrt(samplingweights/mean(samplingweights)) before
+returning it. I also noticed that there is no predict.svyprcomp(), only
+predict.prcomp().
+ 
+Given that different methods provide different values, I'd like to know
+if there is only one correct method (which?), or if it's a matter of
+interpreting differently the results of each method.
+ 
+Thanks in advance,
+ 
+Leonardo Ferreira Fontenelle[1]
+ 
+
+Links:
+
+  1. http://lattes.cnpq.br/9234772336296638
+
+	[[alternative HTML version deleted]]
+
+
+From leonardof at leonardof.med.br  Wed Apr 27 03:51:20 2016
+From: leonardof at leonardof.med.br (Leonardo Ferreira Fontenelle)
+Date: Tue, 26 Apr 2016 22:51:20 -0300
+Subject: [R-sig-Epi] How to interpret the results of PCA with sampling
+ weights
+In-Reply-To: <1461698276.2768336.590257281.1FDFCEAE@webmail.messagingengine.com>
+References: <1461698276.2768336.590257281.1FDFCEAE@webmail.messagingengine.com>
+Message-ID: <1461721880.3242994.590671161.2B19EB59@webmail.messagingengine.com>
+
+Em Ter 26 abr. 2016, ?s 16:17, Leonardo Ferreira Fontenelle escreveu:
+> Hello everyone,
+>  
+> I have a dataset from a household survey, with sampling weights, and I
+> wanted to create an assets-based indicator of economic level for the
+> households. The idea was to run PCA (with sampling weights), and the
+> first principal component would be the economic level indicator. In
+> this email, I am calling "surveydesignobj" the object returned by
+> svydesign(), and "svyprcompobj" the object returned by
+> svyprcomp(formula, surveydesignobj, center = TRUE, scale. = TRUE,
+> scores = TRUE).
+>  
+> What I can't understand is why the first principal component stored in
+> svyprcompobj$x is so different from what I get from
+> predict(svyprcompobj, surveydesignobject). By "different" I mean
+> different distributions and only moderate correlation (~ 0.5) between
+> them. I also tried recreating the first principal component "by hand",
+> by summing the (centered or not) variables after multiplying them by the
+> loadings (svyprcompobj$rotation) and dividing them by their scales (from
+> svyprcompobj$scale); the resulting vector was highly correlated (> 0.99)
+> with the first principal component obtained from predict().
+>  
+> Peaking in the svyprcomp() code I saw that the function runs PCA in the
+> data after multiplying it by
+> sqrt(samplingweights/mean(samplingweights)), and latter divides
+> svyprcompobj$x by?sqrt(samplingweights/mean(samplingweights)) before
+> returning it. I also noticed that there is no predict.svyprcomp(), only
+> predict.prcomp().
+>  
+> Given that different methods provide different values, I'd like to know
+> if there is only one correct method (which?), or if it's a matter of
+> interpreting differently the results of each method.
+>  
+> Thanks in advance,
+>  
+
+When I sent my previous email I was away from my computer, and couldn't
+provide some code in R to exemplify what I meant. The following code
+illustrates the point with more accessibled data:
+
+library("survey")
+data(api)
+dclus2 <- svydesign(ids = ~ dnum + snum, fpc = ~ fpc1 + fpc2, data =
+apiclus2)
+pc <- svyprcomp(~ api99 + api00 + ell + hsg + meals + emer, design =
+dclus2, scale. = TRUE, scores = TRUE)
+dclus2$variables$pc1 <- pc$x[, "PC1"]
+dclus2$variables$pc2 <- predict(pc, apiclus2)[, "PC1"]
+mycoef <- pc$rotation[, "PC1"] / pc$scale
+dclus2$variables$pc3 <- with(apiclus2, api99 * mycoef["api99"] + api00 *
+mycoef["api00"] + ell * mycoef["ell"] + 
+              hsg * mycoef["hsg"] + meals * mycoef["hsg"] + emer *
+              mycoef["emer"])
+cov.wt(dclus2$variables[, paste0("pc", 1:3)], wt = weights(dclus2), cor
+= TRUE)$cor  # correlation matrix
+summary(dclus2$variables[, paste0("pc", 1:3)])
+bw1 <- sqrt(coef(svyvar(~ pc1, dclus2))) / 3
+bw2 <- sqrt(coef(svyvar(~ pc2, dclus2))) / 3
+bw3 <- sqrt(coef(svyvar(~ pc3, dclus2))) / 3
+plot(svysmooth(~ pc1, dclus2, bandwidth = bw1), xlim = c(-2.5, 7.5),
+ylim = c(0, 0.75))
+lines(svysmooth(~ pc2, dclus2, bandwidth = bw2), col = 2)
+lines(svysmooth(~ pc3, dclus2, bandwidth = bw3), col = 3)
+legend("topright", legend = c("pc$x[, \"PC1\"]", "predict(pc,
+apiclus2)[, \"PC1\"]", "sum(variables * loadings / scale)"), col = 1:3,
+lty = 1)
+
+Thanks,
+
+Leonardo Ferreira Fontenelle
+http://lattes.cnpq.br/9234772336296638
+
+
+From leonardof at leonardof.med.br  Sat Apr 30 04:41:06 2016
+From: leonardof at leonardof.med.br (Leonardo Ferreira Fontenelle)
+Date: Fri, 29 Apr 2016 23:41:06 -0300
+Subject: [R-sig-Epi] How to interpret the results of PCA with sampling
+ weights
+In-Reply-To: <1461721880.3242994.590671161.2B19EB59@webmail.messagingengine.com>
+References: <1461698276.2768336.590257281.1FDFCEAE@webmail.messagingengine.com>
+	<1461721880.3242994.590671161.2B19EB59@webmail.messagingengine.com>
+Message-ID: <1461984066.3963382.593975905.6BB61723@webmail.messagingengine.com>
+
+Cross-posting to r-help after three days without a reply.
+
+Leonardo Ferreira Fontenelle
+http://lattes.cnpq.br/9234772336296638
+
+Em Ter 26 abr. 2016, ?s 22:51, Leonardo Ferreira Fontenelle escreveu:
+> Em Ter 26 abr. 2016, ?s 16:17, Leonardo Ferreira Fontenelle escreveu:
+> > Hello everyone,
+> >  
+> > I have a dataset from a household survey, with sampling weights, and I
+> > wanted to create an assets-based indicator of economic level for the
+> > households. The idea was to run PCA (with sampling weights), and the
+> > first principal component would be the economic level indicator. In
+> > this email, I am calling "surveydesignobj" the object returned by
+> > svydesign(), and "svyprcompobj" the object returned by
+> > svyprcomp(formula, surveydesignobj, center = TRUE, scale. = TRUE,
+> > scores = TRUE).
+> >  
+> > What I can't understand is why the first principal component stored in
+> > svyprcompobj$x is so different from what I get from
+> > predict(svyprcompobj, surveydesignobject). By "different" I mean
+> > different distributions and only moderate correlation (~ 0.5) between
+> > them. I also tried recreating the first principal component "by hand",
+> > by summing the (centered or not) variables after multiplying them by the
+> > loadings (svyprcompobj$rotation) and dividing them by their scales (from
+> > svyprcompobj$scale); the resulting vector was highly correlated (> 0.99)
+> > with the first principal component obtained from predict().
+> >  
+> > Peaking in the svyprcomp() code I saw that the function runs PCA in the
+> > data after multiplying it by
+> > sqrt(samplingweights/mean(samplingweights)), and latter divides
+> > svyprcompobj$x by?sqrt(samplingweights/mean(samplingweights)) before
+> > returning it. I also noticed that there is no predict.svyprcomp(), only
+> > predict.prcomp().
+> >  
+> > Given that different methods provide different values, I'd like to know
+> > if there is only one correct method (which?), or if it's a matter of
+> > interpreting differently the results of each method.
+> >  
+> > Thanks in advance,
+> >  
+> 
+> When I sent my previous email I was away from my computer, and couldn't
+> provide some code in R to exemplify what I meant. The following code
+> illustrates the point with more accessibled data:
+> 
+> library("survey")
+> data(api)
+> dclus2 <- svydesign(ids = ~ dnum + snum, fpc = ~ fpc1 + fpc2, data =
+> apiclus2)
+> pc <- svyprcomp(~ api99 + api00 + ell + hsg + meals + emer, design =
+> dclus2, scale. = TRUE, scores = TRUE)
+> dclus2$variables$pc1 <- pc$x[, "PC1"]
+> dclus2$variables$pc2 <- predict(pc, apiclus2)[, "PC1"]
+> mycoef <- pc$rotation[, "PC1"] / pc$scale
+> dclus2$variables$pc3 <- with(apiclus2, api99 * mycoef["api99"] + api00 *
+> mycoef["api00"] + ell * mycoef["ell"] + 
+>               hsg * mycoef["hsg"] + meals * mycoef["hsg"] + emer *
+>               mycoef["emer"])
+> cov.wt(dclus2$variables[, paste0("pc", 1:3)], wt = weights(dclus2), cor
+> = TRUE)$cor  # correlation matrix
+> summary(dclus2$variables[, paste0("pc", 1:3)])
+> bw1 <- sqrt(coef(svyvar(~ pc1, dclus2))) / 3
+> bw2 <- sqrt(coef(svyvar(~ pc2, dclus2))) / 3
+> bw3 <- sqrt(coef(svyvar(~ pc3, dclus2))) / 3
+> plot(svysmooth(~ pc1, dclus2, bandwidth = bw1), xlim = c(-2.5, 7.5),
+> ylim = c(0, 0.75))
+> lines(svysmooth(~ pc2, dclus2, bandwidth = bw2), col = 2)
+> lines(svysmooth(~ pc3, dclus2, bandwidth = bw3), col = 3)
+> legend("topright", legend = c("pc$x[, \"PC1\"]", "predict(pc,
+> apiclus2)[, \"PC1\"]", "sum(variables * loadings / scale)"), col = 1:3,
+> lty = 1)
+> 
+> Thanks,
+> 
+> Leonardo Ferreira Fontenelle
+> http://lattes.cnpq.br/9234772336296638
+> 
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+

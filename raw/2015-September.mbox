@@ -1,0 +1,92 @@
+From bxc at steno.dk  Sat Sep 19 17:16:41 2015
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Sat, 19 Sep 2015 15:16:41 +0000
+Subject: [R-sig-Epi] Epi 1.1.71 is now out
+Message-ID: <D48624DDDF1E874FBD20BC5C1FE08FA43FB65B5E@NNEXMRDK010.corp.novocorp.net>
+
+Dear all,
+the latest version of Epi, version 1.1.71 is now avialble on CRAN.
+best regards,
+Bendix Carstesen,
+maintainer
+
+The changes since 1.1.60 (the previous version on CRAN was 1.1.67) are:
+
+Changes in 1.1.71
+
+o Bug from calling lme4::vcov from within ci.lin fixed
+
+Changes in 1.1.70
+
+o Bug in calling lme4::fixef from within ci.lin fixed
+
+o ci.lin with sample=TRUE now samples from the posterior of the
+  parameter vector and then transforms this by the contrast matrix
+  (earlier the sampling was from the posterior of the ctr.mat
+  transformed parameters). 
+
+Changes in 1.1.69
+
+o ci.cum now has an argument ci.Exp (defaults to FALSE) that computes
+  the ci of the cum.haz on the log-scale. This is useful if you want to
+  transform c.i.s to the survival scale and want the c.i.s for the
+  survival function to stay inside [0,1].
+
+o ci.pred updated to automatically use the inverse link for
+  transformation of results. Also now only accepts glm objects.
+  
+o Ns now have arguents ref= and detrend=. ref= allows a reference
+  value to be specified (where the Ns is 0); this is independent of
+  the supplied data. detrend= projects the columns of Ns() on the
+  orthogonal of the variable supplied; this is strongly dependent on
+  the data.
+
+Changes in 1.1.68
+
+o ci.lin has been groomed to use internally (newly, from 1.1.68)
+  defined methods COEF and VCOV to extract coefficients and
+  variance-covariances of these from different types of objects.
+
+Changes in 1.1.67
+
+o The simLexis vignette has been groomed a bit
+
+o The function ci.pred (a wrapper for predict.glm) added
+
+Changes in 1.1.66
+
+o A crr.Lexis method has been added to simplify the use of the
+  Fine-Gray model when data are set up in a Lexis object.
+
+o ci.lin and ci.exp now recognises crr objects.
+
+o A wrapper, ci.pred, for predict.glm has been added, it returns
+  predictions with confidence intervals.
+
+Changes in 1.1.65
+
+o Despite the note, dropped rows from construction of a Lexis objects
+  were not put in the "dropped" attribute.
+
+Changes in 1.1.64
+
+o Fixed the sim-Lexis vignette
+
+Changes in 1.1.64
+
+o Added function ZArray, which generates an array of 0s just as NArray
+  generates an array of NAs.
+
+o Updated code to avoid "::" and ":::" as far as possible, as well as
+  "<<-". Hence excluded records from construction of a Lexis object is
+  now put in an attribute "dropped" of the Lexis object.
+
+Changes in 1.1.62
+
+o Bug fix in the example code for boxes.Lexis
+
+Changes in 1.1.61
+
+o ci.lin updated to recognize objects of class "lmerMod" from lmer.
+
+

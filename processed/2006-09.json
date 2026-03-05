@@ -1,0 +1,117 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2006-09",
+  "messages": [
+    {
+      "id": "msg-e97936cdd479",
+      "message_id": "<f6eceb9063c3.63c3f6eceb90@ki.se>",
+      "from_name": "Henrik Kallberg",
+      "from_email_hash": "fed1ed22a5f8f4a7d27e83bad22b95f3f8887d92145fc9dfdf66410c3aaa4990",
+      "date": "2006-09-12T16:02:07+02:00",
+      "subject": "[R-sig-Epi] Genome wide association packages?",
+      "subject_clean": "Genome wide association packages?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060912/640ced59/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060912/640ced59/attachment.pl",
+      "thread_id": "thread-e97936cdd479",
+      "thread_depth": 0,
+      "month": "2006-09"
+    },
+    {
+      "id": "msg-7b747c047345",
+      "message_id": "<20060913143026.51652.qmail@web54712.mail.yahoo.com>",
+      "from_name": "Mathuros Tipayamongkholgul",
+      "from_email_hash": "cdcf2b1ba9f24e50c272d5327d94322346b37c768c28519f9c7e19b5062f1401",
+      "date": "2006-09-13T07:30:25-07:00",
+      "subject": "[R-sig-Epi] mail list",
+      "subject_clean": "mail list",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060913/f3345ca1/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060913/f3345ca1/attachment.pl",
+      "thread_id": "thread-7b747c047345",
+      "thread_depth": 0,
+      "month": "2006-09"
+    },
+    {
+      "id": "msg-db3bbffc1a74",
+      "message_id": "<20060914173748.18375.qmail@web54712.mail.yahoo.com>",
+      "from_name": "Mathuros Tipayamongkholgul",
+      "from_email_hash": "cdcf2b1ba9f24e50c272d5327d94322346b37c768c28519f9c7e19b5062f1401",
+      "date": "2006-09-14T10:37:48-07:00",
+      "subject": "[R-sig-Epi] Mailing list submission",
+      "subject_clean": "Mailing list submission",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060914/d58c5b11/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060914/d58c5b11/attachment.pl",
+      "thread_id": "thread-db3bbffc1a74",
+      "thread_depth": 0,
+      "month": "2006-09"
+    },
+    {
+      "id": "msg-5fbe6a9fd5e8",
+      "message_id": "<E1FC3DC46F01DA4586D23EFAF959073E0304EA@qmlexch.qml.com.au>",
+      "from_name": "Dr Nigel Brown",
+      "from_email_hash": "37611bdeb0be75993c865b90059e5440499b7dbffdd5349274a6102125516a6a",
+      "date": "2006-09-28T08:48:16+10:00",
+      "subject": "[R-sig-Epi] quantile fail in epi package",
+      "subject_clean": "quantile fail in epi package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060928/a04a4ff4/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060928/a04a4ff4/attachment.pl",
+      "thread_id": "thread-5fbe6a9fd5e8",
+      "thread_depth": 0,
+      "month": "2006-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e97936cdd479",
+      "subject": "Genome wide association packages?",
+      "message_count": 1,
+      "participants": [
+        "Henrik Kallberg"
+      ],
+      "started": "2006-09-12T16:02:07+02:00",
+      "last_reply": "2006-09-12T16:02:07+02:00",
+      "root_message_id": "msg-e97936cdd479"
+    },
+    {
+      "id": "thread-7b747c047345",
+      "subject": "mail list",
+      "message_count": 1,
+      "participants": [
+        "Mathuros Tipayamongkholgul"
+      ],
+      "started": "2006-09-13T07:30:25-07:00",
+      "last_reply": "2006-09-13T07:30:25-07:00",
+      "root_message_id": "msg-7b747c047345"
+    },
+    {
+      "id": "thread-db3bbffc1a74",
+      "subject": "Mailing list submission",
+      "message_count": 1,
+      "participants": [
+        "Mathuros Tipayamongkholgul"
+      ],
+      "started": "2006-09-14T10:37:48-07:00",
+      "last_reply": "2006-09-14T10:37:48-07:00",
+      "root_message_id": "msg-db3bbffc1a74"
+    },
+    {
+      "id": "thread-5fbe6a9fd5e8",
+      "subject": "quantile fail in epi package",
+      "message_count": 1,
+      "participants": [
+        "Dr Nigel Brown"
+      ],
+      "started": "2006-09-28T08:48:16+10:00",
+      "last_reply": "2006-09-28T08:48:16+10:00",
+      "root_message_id": "msg-5fbe6a9fd5e8"
+    }
+  ]
+}

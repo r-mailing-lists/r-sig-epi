@@ -1,0 +1,46 @@
+From bookshlf at hotmail.com  Fri Apr  6 20:01:35 2007
+From: bookshlf at hotmail.com (Bonn K. Shalf)
+Date: Fri, 06 Apr 2007 18:01:35 +0000
+Subject: [R-sig-Epi] seeking helpful suggestions from R-users, please
+Message-ID: <BAY119-F32D49A8B683AE7F8B5DA69D7640@phx.gbl>
+
+Hi all,
+
+New to R and this list and hoping to get some helpful suggestions from 
+R-users.
+
+Wondered if users have experience with time series analysis methods for 
+irregular (in time) data?  I have access to normalized data for seizure 
+studies of patients from four groups and want to examine correlations (or 
+degrees of less than 100% correlation) between these irregular, asynchronous 
+time series.  The hope is to see what subset of signals might possibly be 
+triggers to other signals.  Possibly R-users may have experience with 
+appropriate methods?  Maybe someone could suggest a method I might use which 
+is more appropriate than a Wald-Granger-type causality test, which doesn't 
+require interpolation to a regular-in-time time structure, and examine raw, 
+irregular data?
+
+I'm in an awkward situation (advisor has been denied tenure, leaving the 
+department on quite difficult terms in May, and me without funding - TA or 
+RA - since Dec. 2006), and I hoped it wouldn't come to asking for help from 
+scientists outside my department.  Was hoping to make this masters a 
+springboard to a PhD in biostatistics or epidemiological science but my 
+current focus is just to get my degree.
+
+Thank you for considering this posting, and my apologies if some of you find 
+this posting inappropriate, along the lines of, "Help me Obi Wan Kenobi, 
+you're my only hope..."
+
+B. Shalf
+
+
+From wkpbenny at gmail.com  Wed Apr 11 21:19:48 2007
+From: wkpbenny at gmail.com (Benny Wong)
+Date: Wed, 11 Apr 2007 15:19:48 -0400
+Subject: [R-sig-Epi] Question on ridge regression with R
+Message-ID: <2d11366b0704111219o2e8e40f0sab3bd6ae82e56be7@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070411/06f74be7/attachment.pl 
+

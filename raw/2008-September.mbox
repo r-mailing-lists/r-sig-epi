@@ -1,0 +1,107 @@
+From emmanuel.brasil at gmail.com  Fri Sep  5 15:55:23 2008
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Fri, 5 Sep 2008 10:55:23 -0300
+Subject: [R-sig-Epi] Paired by exposure
+Message-ID: <a37cfb5a0809050655m48e50907g2702e2a701de94e7@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/f6afc1fe/attachment.pl>
+
+From emmanuel.brasil at gmail.com  Fri Sep  5 16:01:13 2008
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Fri, 5 Sep 2008 11:01:13 -0300
+Subject: [R-sig-Epi] Paired by exposure
+In-Reply-To: <a37cfb5a0809050655m48e50907g2702e2a701de94e7@mail.gmail.com>
+References: <a37cfb5a0809050655m48e50907g2702e2a701de94e7@mail.gmail.com>
+Message-ID: <a37cfb5a0809050701t7bbdf235m4a3844791fd6c765@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/4b93628d/attachment.pl>
+
+From bxc at steno.dk  Fri Sep  5 16:26:27 2008
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Fri, 5 Sep 2008 16:26:27 +0200
+Subject: [R-sig-Epi] Paired by exposure
+In-Reply-To: <a37cfb5a0809050701t7bbdf235m4a3844791fd6c765@mail.gmail.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3301A9DCD912@exdkmbx002.corp.novocorp.net>
+
+This is not what we would call a paired design, because you are not pairing the OUTCOME, but the EXPOSURE.
+
+You are merely taking a sample of the exposed and a sample of the non-exposed, and making sure that they have the same distribution of age at entry / date of birth / date of entry --- which one(s)?
+
+Estimating mortality (morbidity?) in each of the two groups and the rate-ratio between them is just a straight-forward cohort analysis, either using a Poisson-model or a Cox-model. You will have to consider what time-scale you use for the description, though. And you must be sure that you are not using any of the follow-up information in your selection of persons to enter the study.
+
+Best regards,
+Bendix Carstensen
+______________________________________________
+
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of
+> Pedro Emmanuel Alvarenga Americano do Brasil
+> Sent: 5. september 2008 16:01
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: Re: [R-sig-Epi] Paired by exposure
+>
+> >
+> > Dear R friens,
+> >
+> > I will start a project this month wiht a partner which is
+> disigned as
+> > a quasi-experiment. We are interrested in estimate risk
+> raios and rate
+> > ratios, possibly survival analysis. Everything is registered at
+> > medical charts form the last 22 yaers. So everythig is
+> retorspective.
+> > However, due to a efficiency matters, we dicided to select the
+> > non-exposed matching to the exposed. So for every paciente
+> that took
+> > this paticular medicine, we intend ot match one that did
+> not take, and
+> > start the follow-up in the same year and has no more than
+> 10 years older than the exposed.
+> >
+> > I have looked up for more recent things than those I have
+> in Klienbaum
+> > and Rothman but it seems that the very good old friend
+> ajusted MH for
+> > the pair is the recomended.
+> >
+> > Does anyone have other sugestions? Does any knows a package or
+> > functions to run paired risk or rate analysis?
+> >
+>
+>    Best regards
+>
+> >
+> > --
+> > Abra?o forte e que a for?a esteja com voc?, Pedro Emmanuel
+> >
+>
+>         [[alternative HTML version deleted]]
+>
+>
+
+
+From emmanuel.brasil at gmail.com  Wed Sep 17 19:02:04 2008
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Wed, 17 Sep 2008 14:02:04 -0300
+Subject: [R-sig-Epi] Turning off the next button for grpahic devices
+Message-ID: <a37cfb5a0809171002q6d09577aq500f2316c05f95dd@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080917/c5f17b42/attachment.pl>
+

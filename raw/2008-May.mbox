@@ -1,0 +1,418 @@
+From tjanstad at gmail.com  Sun May  4 23:16:18 2008
+From: tjanstad at gmail.com (Tobias Janstad)
+Date: Sun, 04 May 2008 23:16:18 +0200
+Subject: [R-sig-Epi] Arjas plot
+Message-ID: <481E27A2.60906@gmail.com>
+
+#goal: Do Arjas plot. In particular, reproduce figure 11.15 in Klein 
+Moeschberger survival analysis (1997).
+library(survival);
+library(KMsurv);
+data(bmt)
+#143 bone marrow patients
+#goal: reproduce figure 11.15 in Klein Moeschberger survival analysis 
+(1997).
+
+#(i) divide the data material into two subgroups
+MTX<-subset(bmt,z8==1)#MTX used as an GVHD prophylactit.
+noMTX<-subset(bmt,z8==0)#
+
+#(ii) sort with respect to survival time within each group
+#allready done
+
+#(iii)
+#N_g(t_i), following notation from page 370 in K.M. 1997
+#d3 is the event variable.
+MTXcumdelta<-cumsum(MTX$d3)
+noMTXcumdelta<-cumsum(noMTX$d3)
+coxMTX=coxph(Surv(MTX$t1,MTX$d3)~z1+z2+z3+z4+z5+z6+z7,data=MTX,method="breslow")
+print("Cox-model fitted for MTX-grupp.")
+coxnoMTX=coxph(Surv(noMTX$t1,noMTX$d3)~z1+z2+z3+z4+z5+z6+z7,data=noMTX,method="breslow")
+print("Cox-model fitted for noMTX-grupp.")
+
+MTXbase<-basehaz(coxMTX,centered=TRUE)#estimate the cumulative baseline 
+hazard (I guess)
+noMTXbase<-basehaz(coxnoMTX,centered=TRUE)
+
+MTXcumbase<-cumsum(MTXbase$hazard)
+noMTXcumbase<-cumsum(noMTXbase$hazard)
+
+plot(stepfun(MTXcumdelta[1:length(MTXcumbase)],c(0,MTXcumbase)))
+lines(stepfun(noMTXcumdelta[1:length(noMTXcumbase)],c(0,noMTXcumbase)))
+lines(c(0,20),c(0,20))
+#Why do length of cumulative hazard and events differ?
+#The plot does not look like figure 11.15. Can someone help me correct it?
+
+Best regards, Tobias Janstad
+
+
+From bxc at steno.dk  Tue May  6 13:54:59 2008
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Tue, 6 May 2008 13:54:59 +0200
+Subject: [R-sig-Epi] Updated verison of Epi package: 1.0.8
+Message-ID: <40D3930AC1C8EA469E39536E5BC8083505C3917F@EXDKBA021.corp.novocorp.net>
+
+The Epi package has been updated to version 1.0.8, and is now avilable
+on CRAN.
+
+Best regards,
+Bendix Carstensen
+package maintainer.
+______________________________________________
+
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+
+
+From riccardo.rasera at unipd.it  Wed May  7 17:48:56 2008
+From: riccardo.rasera at unipd.it (Riccardo Rasera)
+Date: Wed, 07 May 2008 17:48:56 +0200
+Subject: [R-sig-Epi] Most probable number
+Message-ID: <4821CF68.80600@unipd.it>
+
+Goodmorning,
+I'm looking for a package that can help me to calculate the most
+probable number for a series of diluition.
+Can you help me?
+That you
+Riccardo Rasera
+
+---------------------------------------------------------------------------------------
+Dott.Agr.Rasera Riccardo
+Dipartimento Territorio e Sistemi Agro-Forestali
+Sezione Patologia Vegetale
+Agripolis - Viale dell'Universit?, 16 - 35020 Legnaro (PD), Italia
+e-mail: riccardo.rasera at unipd.it
+tel +39.049.8272887
+fax +39.049.8272890
+----------------------------------------------------------------------------------------------------------------------------------------------
+AVVERTENZE AI SENSI DEL D.Lgs. 196/2003 Le informazioni contenute in
+questo messaggio di posta elettronica e/o nel/i file/s allegato/i sono
+da considerarsi strettamente riservate. Il loro utilizzo ? consentito
+esclusivamente al destinatario del messaggio, per le finalit? indicate
+nel messaggio stesso. Qualora riceviate questo messaggio senza esserne
+il destinatario, Vi preghiamo cortesemente di darcene notizia via e-mail
+e di procedere alla distruzione del messaggio stesso, cancellandolo dal
+Vostro sistema. Conservare il messaggio stesso, divulgarlo anche in
+parte, distribuirlo ad altri  soggetti, copiarlo, od utilizzarlo per
+finalit? diverse, costituisce  comportamento contrario ai principi
+dettati dal D.Lgs. 196/2003.
+*******
+This electronic mail message and its contents are intended only for the
+use of the addressed recipient and may contain information that is
+privileged, confidential and exempt form disclosure under applicable
+law.  If you are not an intended recipient, or the agent responsible for
+delivering this email to the intended recipient, you are hereby notified
+that any use, dissemination, distribution, or copying of this
+communication is strictly prohibited and may be unlawful. If you
+received this email in error, please notify the sender immediately by
+replying to this email or by telephone, and delete the email sent in error.
+*******
+
+
+-----------------------
+
+Messaggio istituzionale dell'Universita' di Padova:
+
+Destina il tuo 5 per mille alla ricerca dell'Universita'
+di Padova (codice fiscale 80006480281).
+
+Farlo e' facile, non costa nulla e non e' alternativo
+all'8 per mille. 
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: riccardo_rasera.vcf
+Type: text/x-vcard
+Size: 1201 bytes
+Desc: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080507/c31cc3ae/attachment.vcf>
+
+From riccardo.rasera at unipd.it  Thu May  8 08:34:06 2008
+From: riccardo.rasera at unipd.it (Riccardo Rasera)
+Date: Thu, 08 May 2008 08:34:06 +0200
+Subject: [R-sig-Epi] Most probable number
+Message-ID: <48229EDE.30208@unipd.it>
+
+Goodmorning,
+I'm looking for a package that can help me to calculate the most
+probable number for a series of diluition.
+Can you help me?
+Thank's you
+Riccardo Rasera
+
+---------------------------------------------------------------------------------------
+Dott.Agr.Rasera Riccardo
+Dipartimento Territorio e Sistemi Agro-Forestali
+Sezione Patologia Vegetale
+Agripolis - Viale dell'Universit?, 16 - 35020 Legnaro (PD), Italia
+e-mail: riccardo.rasera at unipd.it
+tel +39.049.8272887
+fax +39.049.8272890
+----------------------------------------------------------------------------------------------------------------------------------------------
+AVVERTENZE AI SENSI DEL D.Lgs. 196/2003 Le informazioni contenute in
+questo messaggio di posta elettronica e/o nel/i file/s allegato/i sono
+da considerarsi strettamente riservate. Il loro utilizzo ? consentito
+esclusivamente al destinatario del messaggio, per le finalit? indicate
+nel messaggio stesso. Qualora riceviate questo messaggio senza esserne
+il destinatario, Vi preghiamo cortesemente di darcene notizia via e-mail
+e di procedere alla distruzione del messaggio stesso, cancellandolo dal
+Vostro sistema. Conservare il messaggio stesso, divulgarlo anche in
+parte, distribuirlo ad altri  soggetti, copiarlo, od utilizzarlo per
+finalit? diverse, costituisce  comportamento contrario ai principi
+dettati dal D.Lgs. 196/2003.
+*******
+This electronic mail message and its contents are intended only for the
+use of the addressed recipient and may contain information that is
+privileged, confidential and exempt form disclosure under applicable
+law.  If you are not an intended recipient, or the agent responsible for
+delivering this email to the intended recipient, you are hereby notified
+that any use, dissemination, distribution, or copying of this
+communication is strictly prohibited and may be unlawful. If you
+received this email in error, please notify the sender immediately by
+replying to this email or by telephone, and delete the email sent in error.
+*******
+
+
+
+-----------------------
+
+Messaggio istituzionale dell'Universita' di Padova:
+
+Destina il tuo 5 per mille alla ricerca dell'Universita'
+di Padova (codice fiscale 80006480281).
+
+Farlo e' facile, non costa nulla e non e' alternativo
+all'8 per mille. 
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: riccardo_rasera.vcf
+Type: text/x-vcard
+Size: 1201 bytes
+Desc: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080508/88268eda/attachment.vcf>
+
+From wim.bertels at khleuven.be  Tue May 20 20:23:24 2008
+From: wim.bertels at khleuven.be (Wim Bertels)
+Date: Tue, 20 May 2008 20:23:24 +0200
+Subject: [R-sig-Epi] Reference Guide / Howto
+Message-ID: <1211307805.9346.4.camel@localhost>
+
+Hi,
+
+does anyone know a good reference guide/book/howto on how to study
+in a proper way:
+"characterize variability in local epidemics using data such as age,
+gender, country of birth, country of infection, viral load, .."
+
+And a guide or book 
+with good practices in epidemilogy is also interesting.
+
+Using R
+
+tnx,
+
+
+From anacarol.nunes at gmail.com  Wed May 21 19:32:20 2008
+From: anacarol.nunes at gmail.com (Ana Carol Nunes)
+Date: Wed, 21 May 2008 14:32:20 -0300
+Subject: [R-sig-Epi] CURSO DE R NA UNICAMP
+Message-ID: <5306c9950805211032j7db03b19x70430fd81c855ed8@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080521/abce766b/attachment.pl>
+
+From Henrik.Kallberg at ki.se  Thu May 22 12:44:32 2008
+From: Henrik.Kallberg at ki.se (Henrik Kallberg)
+Date: Thu, 22 May 2008 12:44:32 +0200
+Subject: [R-sig-Epi] lists and data frame
+Message-ID: <fe92f6ee179c.179cfe92f6ee@ki.se>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/c0f9bf20/attachment.pl>
+
+From Henrik.Kallberg at ki.se  Thu May 22 14:15:06 2008
+From: Henrik.Kallberg at ki.se (Henrik Kallberg)
+Date: Thu, 22 May 2008 14:15:06 +0200
+Subject: [R-sig-Epi] I solved the problem
+Message-ID: <fa5e8aaf3392.3392fa5e8aaf@ki.se>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/51c6f656/attachment.pl>
+
+From emmanuel.brasil at gmail.com  Sun May 25 03:25:54 2008
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Sat, 24 May 2008 22:25:54 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 25, Issue 6
+In-Reply-To: <mailman.5.1211536802.15949.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.5.1211536802.15949.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <a37cfb5a0805241825k31cb6acbsd45a1e171f2c288@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080524/3dc34da4/attachment.pl>
+
+From emmanuel.brasil at gmail.com  Tue May 27 21:52:10 2008
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Tue, 27 May 2008 16:52:10 -0300
+Subject: [R-sig-Epi] Help os test accuracy design!
+Message-ID: <a37cfb5a0805271252k6fbe04f1q885386ecd197602b@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080527/7702cb40/attachment.pl>
+
+From lauri.nikkinen at iki.fi  Fri May 30 08:46:57 2008
+From: lauri.nikkinen at iki.fi (Lauri Nikkinen)
+Date: Fri, 30 May 2008 09:46:57 +0300
+Subject: [R-sig-Epi] stat.table object into latex
+Message-ID: <ba8c09910805292346m1a00d61drc0b10a0b512091ca@mail.gmail.com>
+
+R users,
+
+Is there a way to convert stat.table (library(Epi)) object into latex
+table? I have tried xtable from (xtable package) and latex (Hmisc
+package) with no success.
+
+Example code:
+
+install.packages("Epi")
+library(Epi)
+install.packages("Hmisc")
+library(Hmisc)
+install.packages("xtable")
+library(xtable)
+
+a <- stat.table(index=list(wool,tension),
+                contents=list(count(),mean(breaks),percent (wool)),
+                data=warpbreaks)
+a
+a.latex <- xtable(a)
+Error in UseMethod("xtable") : no applicable method for "xtable"
+a.latex <- latex(a)
+Error in x[, j] : incorrect number of dimensions
+
+Best,
+Lauri
+
+
+From albynew at hotmail.com  Fri May 30 14:15:44 2008
+From: albynew at hotmail.com (albert sanchez niubo)
+Date: Fri, 30 May 2008 14:15:44 +0200
+Subject: [R-sig-Epi] stat.table object into latex
+In-Reply-To: <ba8c09910805292346m1a00d61drc0b10a0b512091ca@mail.gmail.com>
+References: <ba8c09910805292346m1a00d61drc0b10a0b512091ca@mail.gmail.com>
+Message-ID: <BLU124-W256F9876B4D61DEA222259A5BE0@phx.gbl>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: no disponible
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080530/8a1ab431/attachment.pl>
+
+From plummer at iarc.fr  Fri May 30 21:17:27 2008
+From: plummer at iarc.fr (plummer at iarc.fr)
+Date: Fri, 30 May 2008 21:17:27 +0200
+Subject: [R-sig-Epi] stat.table object into latex
+In-Reply-To: <BLU124-W256F9876B4D61DEA222259A5BE0@phx.gbl>
+References: <ba8c09910805292346m1a00d61drc0b10a0b512091ca@mail.gmail.com>
+	<BLU124-W256F9876B4D61DEA222259A5BE0@phx.gbl>
+Message-ID: <1212175047.484052c77f991@webmail.iarc.fr>
+
+I haven't thought about this before, but you are quite right: there
+should be an xtable method for stat.table objects. I will make one
+and hopefully this will be in the next release of Epi.
+
+Martyn
+
+Quoting albert sanchez niubo <albynew at hotmail.com>:
+
+>
+> Hello Lauri,
+>
+> If you write "> methods(xtable)", xtable.stat.table is not included, thus it
+> must be included but I have not found howto...
+>
+> But, if you use:
+> > a.latex <- latexVerbatim(a)
+>
+> Function latexVerbatim "executes the object's print method, capturing the
+> output for a file inside a LaTeX verbatim environment" (as says in the help).
+>
+> While someone finds a better solution, I hope it can help you.
+>
+> Cheers,
+> Albert
+>
+>
+>
+> Albert Sanchez-Niubo
+> Drug abuse epidemiology
+> IMIM-Hospital del Mar
+> Parc de Recerca Biom?dica de Barcelona
+> c/ Doctor Aiguader, 88 | 08003 Barcelona
+> asanchez at imim.es
+> www.imim.es
+>
+>
+>
+> > Date: Fri, 30 May 2008 09:46:57 +0300
+> > From: lauri.nikkinen at iki.fi
+> > To: r-sig-epi at stat.math.ethz.ch
+> > Subject: [R-sig-Epi] stat.table object into latex
+> >
+> > R users,
+> >
+> > Is there a way to convert stat.table (library(Epi)) object into latex
+> > table? I have tried xtable from (xtable package) and latex (Hmisc
+> > package) with no success.
+> >
+> > Example code:
+> >
+> > install.packages("Epi")
+> > library(Epi)
+> > install.packages("Hmisc")
+> > library(Hmisc)
+> > install.packages("xtable")
+> > library(xtable)
+> >
+> > a <- stat.table(index=list(wool,tension),
+> >                 contents=list(count(),mean(breaks),percent (wool)),
+> >                 data=warpbreaks)
+> > a
+> > a.latex <- xtable(a)
+> > Error in UseMethod("xtable") : no applicable method for "xtable"
+> > a.latex <- latex(a)
+> > Error in x[, j] : incorrect number of dimensions
+> >
+> > Best,
+> > Lauri
+> >
+> > _______________________________________________
+> > R-sig-Epi at stat.math.ethz.ch mailing list
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+> _________________________________________________________________
+> La vida de los famosos al desnudo en MSN Entretenimiento
+>
+> 	[[alternative HTML version deleted]]
+>
+>
+
+
+
+-----------------------------------------------------------------------
+This message and its attachments are strictly confidenti...{{dropped:8}}
+
+

@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2022-03",
+  "messages": [
+    {
+      "id": "msg-e830296c53b4",
+      "message_id": "<CAPgModA+h0NZTXEpcEem+dmuA8k_EBjWgE0LWe1HWuJj_8S8=Q@mail.gmail.com>",
+      "from_name": "Ashley Splain",
+      "from_email_hash": "b2d33da343c6c9702dba5e1b590b7e2bbefacffd28a99157bc8d811ce64f9e0a",
+      "date": "2022-03-02T21:22:05-05:00",
+      "subject": "[R-sig-Epi] R Survey Package - Confidence Intervals and Odds ratios",
+      "subject_clean": "R Survey Package - Confidence Intervals and Odds ratios",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I hope that this email finds everyone well.  I am a new R user and I am\nwriting to ask if anyone may be able to provide some statistical expertise:\n\nI am running logistic regression models using the Survey Package in R (my\ndataset requires the incorporation of survey weights). The calculation for\nthe odds ratios and confidence intervals is from the basic stats package.\nHowever, the confidence intervals don't seem to match up with the\nsignificance levels - the confidence intervals suggest something is\nsignificant but the p level is not significant.  For example, b = -0.81, p\n= .094, OR = 0.45, CI = 0.26-0.75.\n\nHere is the syntax for the design of the overall analysis and an example of\none model:\nnhanesDesigni<-\nsvydesign(id=~PSU,Strata=~STRA,weights=~WTMEC6YR,nest=TRUE,survey.lonely.psu=\"adjust\",\ndata=nhanesAnalysis)\n\nactimeR1_i <-\n(svyglm(riskaccuracy~AcTime4+Age+Gender+educationR+Race5R+Insuranced+smokingdR+alcdR+Waistc,family=\"binomial\",\ndesign=nhanesDesigni))\nsummary(actimeR1_i,df=degf(nhanesDesigni))\nexp(coef(actimeR1_i))\nexp(confint(actimeR1_i))\n\nWould anyone by chance know where I might be going wrong and how to rectify\nthe code to obtain accurate CIs? I would appreciate any input you can\nprovide!\n\nBest,\nAshley\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I hope that this email finds everyone well.  I am a new R user and I am\nwriting to ask if anyone may be able to provide some statistical expertise:\n\nI am running logistic regression models using the S",
+      "thread_id": "thread-e830296c53b4",
+      "thread_depth": 0,
+      "month": "2022-03"
+    },
+    {
+      "id": "msg-9af5be5aa289",
+      "message_id": "<D336561A-770A-4B6C-A54E-B7AFF35A4FE6@gmail.com>",
+      "from_name": "peter dalgaard",
+      "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
+      "date": "2022-03-03T12:09:30+01:00",
+      "subject": "[R-sig-Epi]  R Survey Package - Confidence Intervals and Odds ratios",
+      "subject_clean": "R Survey Package - Confidence Intervals and Odds ratios",
+      "in_reply_to": "<CAPgModA+h0NZTXEpcEem+dmuA8k_EBjWgE0LWe1HWuJj_8S8=Q@mail.gmail.com>",
+      "references": [
+        "<CAPgModA+h0NZTXEpcEem+dmuA8k_EBjWgE0LWe1HWuJj_8S8=Q@mail.gmail.com>"
+      ],
+      "body_plain": "Not my area of expertise really, but offhand: If summary.svyglm wants a df argument, so probably does confint.svyglm. \n\nQuick check says that it has one, except that it is called ddf=...\n\nIt takes quite a low df (2 or so) to get a discrepancy that large, though, so maybe you should share the output of summary() and degf()?\n\n- pd\n\n> On 3 Mar 2022, at 03:22 , Ashley Splain <asplain1 at umbc.edu> wrote:\n> \n> I hope that this email finds everyone well.  I am a new R user and I am\n> writing to ask if anyone may be able to provide some statistical expertise:\n> \n> I am running logistic regression models using the Survey Package in R (my\n> dataset requires the incorporation of survey weights). The calculation for\n> the odds ratios and confidence intervals is from the basic stats package.\n> However, the confidence intervals don't seem to match up with the\n> significance levels - the confidence intervals suggest something is\n> significant but the p level is not significant.  For example, b = -0.81, p\n> = .094, OR = 0.45, CI = 0.26-0.75.\n> \n> Here is the syntax for the design of the overall analysis and an example of\n> one model:\n> nhanesDesigni<-\n> svydesign(id=~PSU,Strata=~STRA,weights=~WTMEC6YR,nest=TRUE,survey.lonely.psu=\"adjust\",\n> data=nhanesAnalysis)\n> \n> actimeR1_i <-\n> (svyglm(riskaccuracy~AcTime4+Age+Gender+educationR+Race5R+Insuranced+smokingdR+alcdR+Waistc,family=\"binomial\",\n> design=nhanesDesigni))\n> summary(actimeR1_i,df=degf(nhanesDesigni))\n> exp(coef(actimeR1_i))\n> exp(confint(actimeR1_i))\n> \n> Would anyone by chance know where I might be going wrong and how to rectify\n> the code to obtain accurate CIs? I would appreciate any input you can\n> provide!\n> \n> Best,\n> Ashley\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "Not my area of expertise really, but offhand: If summary.svyglm wants a df argument, so probably does confint.svyglm. \n\nQuick check says that it has one, except that it is called ddf=...\n\nIt takes qui",
+      "thread_id": "thread-e830296c53b4",
+      "thread_depth": 1,
+      "month": "2022-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e830296c53b4",
+      "subject": "R Survey Package - Confidence Intervals and Odds ratios",
+      "message_count": 2,
+      "participants": [
+        "Ashley Splain",
+        "peter dalgaard"
+      ],
+      "started": "2022-03-02T21:22:05-05:00",
+      "last_reply": "2022-03-03T12:09:30+01:00",
+      "root_message_id": "msg-e830296c53b4"
+    }
+  ]
+}

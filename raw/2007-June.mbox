@@ -1,0 +1,170 @@
+From Ralf.Finne at syh.fi  Sun Jun 10 22:05:45 2007
+From: Ralf.Finne at syh.fi (Ralf Finne)
+Date: Sun, 10 Jun 2007 23:05:45 +0300
+Subject: [R-sig-Epi] Transform function
+Message-ID: <466C83C9020000EE00003BA5@valhall.syh.fi>
+
+Hi all epidemiologist.
+
+I visited the exellent course SPE in Tartu in May.
+One small detail created a question.  From www.pubhealth.ku.dk/~bxc/SPE/
+I found "A short introduction to R" by Michael Hills, Martyn Plummer and
+Bendix
+Carstensen.
+On page 6 there is an example of the function "transform":
+
+births<- transform(births,hyp=factor(hyp,labels(c("normal","hyper"))))
+
+Running the program:
+
+> library(Epi)
+> data(births)
+> str(births)
+'data.frame':   500 obs. of  8 variables:
+ $ id     : num  1 2 3 4 5 6 7 8 9 10 ...
+ $ bweight: num  2974 3270 2620 3751 3200 ...
+ $ lowbw  : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ gestwks: num  38.5   NA 38.2 39.8 38.9 ...
+ $ preterm: num  0 NA 0 0 0 0 0 0 0 0 ...
+ $ matage : num  34 30 35 31 33 33 29 37 36 39 ...
+ $ hyp    : num  0 0 0 0 1 0 0 0 0 0 ...
+ $ sex    : num  2 1 2 1 1 2 2 1 2 1 ...
+
+> births<- transform(births,hyp=factor(hyp,labels(c("normal","hyper")))
+)
+> str(births)
+gives:
+
+'data.frame':   500 obs. of  8 variables:
+ $ id     : num  1 2 3 4 5 6 7 8 9 10 ...
+ $ bweight: num  2974 3270 2620 3751 3200 ...
+ $ lowbw  : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ gestwks: num  38.5   NA 38.2 39.8 38.9 ...
+ $ preterm: num  0 NA 0 0 0 0 0 0 0 0 ...
+ $ matage : num  34 30 35 31 33 33 29 37 36 39 ...
+ $ hyp    : Factor w/ 2 levels "1","2": NA NA NA NA 1 NA NA NA NA NA ...
+ $ sex    : num  2 1 2 1 1 2 2 1 2 1 ...
+
+The item births$hyp is transformed from numeric into a factor in a wrong
+way.
+
+The worst thing is that in the beginning in Tartu the transformation was
+sometimes
+correct and sometimes wrong.  Am I doing a mistake or is there a memory
+collision in the R system. I have tested on two PC:s with XP on R
+versions 2.4.1 and 2.5.0
+and Epi package on two versions the newest and an older one.
+
+By the way how do I find the data files included in the Epi-package? 
+The functions I
+find by.
+search()
+ls(2)
+
+Thank you and good luck with the great work you are doing.
+
+Ralf Finne.
+Svenska Yrkesh?gskolan
+Vasa Finland.
++358 505 539643
+
+
+From bxc at steno.dk  Sun Jun 10 22:21:51 2007
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Sun, 10 Jun 2007 22:21:51 +0200
+Subject: [R-sig-Epi] Transform function
+In-Reply-To: <466C83C9020000EE00003BA5@valhall.syh.fi>
+Message-ID: <40D3930AC1C8EA469E39536E5BC80835044EAF7E@EXDKBA021.corp.novocorp.net>
+
+Ralf,
+there is a typo in the notes; it should read:
+ 
+births<- transform(births,hyp=factor(hyp,labels=c("normal","hyper")))
+
+"labels" is the argument to factor() specifying the text labels associated with the levels.
+Since the levels per default are the ordered values, 0 of the original corrsponds to "normal"
+and 1 to "hyper", try:
+
+data(births)
+with( births, table(hyp,factor(hyp,labels=c("normal","hyper")) )
+ 
+Best,
+Bendix
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne
+> Sent: Sunday, June 10, 2007 10:06 PM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Transform function
+> 
+> Hi all epidemiologist.
+> 
+> I visited the exellent course SPE in Tartu in May.
+> One small detail created a question.  From 
+> www.pubhealth.ku.dk/~bxc/SPE/ I found "A short introduction 
+> to R" by Michael Hills, Martyn Plummer and Bendix Carstensen.
+> On page 6 there is an example of the function "transform":
+> 
+> births<- transform(births,hyp=factor(hyp,labels(c("normal","hyper"))))
+> 
+> Running the program:
+> 
+> > library(Epi)
+> > data(births)
+> > str(births)
+> 'data.frame':   500 obs. of  8 variables:
+>  $ id     : num  1 2 3 4 5 6 7 8 9 10 ...
+>  $ bweight: num  2974 3270 2620 3751 3200 ...
+>  $ lowbw  : num  0 0 0 0 0 0 0 0 0 0 ...
+>  $ gestwks: num  38.5   NA 38.2 39.8 38.9 ...
+>  $ preterm: num  0 NA 0 0 0 0 0 0 0 0 ...
+>  $ matage : num  34 30 35 31 33 33 29 37 36 39 ...
+>  $ hyp    : num  0 0 0 0 1 0 0 0 0 0 ...
+>  $ sex    : num  2 1 2 1 1 2 2 1 2 1 ...
+> 
+> > births<- 
+> transform(births,hyp=factor(hyp,labels(c("normal","hyper")))
+> )
+> > str(births)
+> gives:
+> 
+> 'data.frame':   500 obs. of  8 variables:
+>  $ id     : num  1 2 3 4 5 6 7 8 9 10 ...
+>  $ bweight: num  2974 3270 2620 3751 3200 ...
+>  $ lowbw  : num  0 0 0 0 0 0 0 0 0 0 ...
+>  $ gestwks: num  38.5   NA 38.2 39.8 38.9 ...
+>  $ preterm: num  0 NA 0 0 0 0 0 0 0 0 ...
+>  $ matage : num  34 30 35 31 33 33 29 37 36 39 ...
+>  $ hyp    : Factor w/ 2 levels "1","2": NA NA NA NA 1 NA NA 
+> NA NA NA ...
+>  $ sex    : num  2 1 2 1 1 2 2 1 2 1 ...
+> 
+> The item births$hyp is transformed from numeric into a factor 
+> in a wrong way.
+> 
+> The worst thing is that in the beginning in Tartu the 
+> transformation was sometimes correct and sometimes wrong.  Am 
+> I doing a mistake or is there a memory collision in the R 
+> system. I have tested on two PC:s with XP on R versions 2.4.1 
+> and 2.5.0 and Epi package on two versions the newest and an older one.
+> 
+> By the way how do I find the data files included in the Epi-package? 
+> The functions I
+> find by.
+> search()
+> ls(2)
+> 
+> Thank you and good luck with the great work you are doing.
+> 
+> Ralf Finne.
+> Svenska Yrkesh?gskolan
+> Vasa Finland.
+> +358 505 539643
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+
+

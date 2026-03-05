@@ -1,0 +1,113 @@
+From jenslevy at gmail.com  Tue Nov 10 05:15:17 2009
+From: jenslevy at gmail.com (Jens Levy)
+Date: Tue, 10 Nov 2009 11:15:17 +0700
+Subject: [R-sig-Epi] The Common risk difference and effect modification on
+	the additive scale
+Message-ID: <8a1e4d2d0911092015g67b1457brebd70b2afc2c0ee9@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/8e1b86ae/attachment.pl>
+
+From agdesilva at gmail.com  Tue Nov 10 15:20:09 2009
+From: agdesilva at gmail.com (Ajit de Silva)
+Date: Tue, 10 Nov 2009 06:20:09 -0800
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 37, Issue 1
+In-Reply-To: <mailman.2.1257850801.27032.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.2.1257850801.27032.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <d5b814ab0911100620y7ae51dbap9f31d703b58ff2d9@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/805f1315/attachment.pl>
+
+From dwinsemius at comcast.net  Tue Nov 10 16:28:46 2009
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Tue, 10 Nov 2009 10:28:46 -0500
+Subject: [R-sig-Epi] The Common risk difference and effect modification
+	on the additive scale
+In-Reply-To: <8a1e4d2d0911092015g67b1457brebd70b2afc2c0ee9@mail.gmail.com>
+References: <8a1e4d2d0911092015g67b1457brebd70b2afc2c0ee9@mail.gmail.com>
+Message-ID: <7F247F24-A93B-4644-96E4-B3CCCE54DC16@comcast.net>
+
+
+On Nov 9, 2009, at 11:15 PM, Jens Levy wrote:
+
+> I am interested in evaluating whether or not the joint effect of two
+> independent variables on an outcome are additive. I want to be able  
+> to give
+> something analogous to the Breslow-Day test of homogeneity, which  
+> evaluates
+> effect modification on the multiplicative scale, but on the additive  
+> scale.
+> I would also like to calculate the common Risk Difference across two  
+> strata.
+> Does anyone know of any R package that has these functions, which  
+> focus on
+> additive relationships in stratified analyses?
+
+It would be possible to use glm with a quasi() family argument with  
+link="identity" and variance="mu". This would make the effect  
+relationships linear in their untransformed scales but allow the  
+variance to be Poisson.
+
+The mgcv package is the one suggested by Simon Wood for what might be  
+called "basic" generalized additive models described in his book in  
+chapter 5, but there are a large number of other packages that handle  
+generalized additive models of various sorts.
+
+http://search.r-project.org/cgi-bin/namazu.cgi?query=%22additive+models%22&max=100&result=normal&sort=score&idxname=functions&idxname=Rhelp08&idxname=views
+
+-- 
+David Winsemius, MD
+Heritage Laboratories
+West Hartford, CT
+
+
+From dagan.a.wright at state.or.us  Wed Nov 18 19:18:39 2009
+From: dagan.a.wright at state.or.us (Dagan A WRIGHT)
+Date: Wed, 18 Nov 2009 10:18:39 -0800
+Subject: [R-sig-Epi] R functions for probabilistic linkage
+Message-ID: <4B03CA03020000D90006D985@STATE.OR.US>
+
+I am somewhat new to R although using and liking already.  I am curious if there are any probabilistic packages similar in function to others such and Link King (http://www.the-link-king.com/).  I am looking for functions in SSN, First/Last name, date of birth, and a couple other indicators for matching.
+
+Thanks
+
+Dagan Wright, Ph.D., M.S.P.H.
+Lead Addictions Research Analyst, Analysis & Evaluation Unit
+Addictions & Mental Health Division (AMH)
+500 Summer St. NE E86
+Salem, Oregon 97301-1118
+
+Office number: 503-945-5726
+Fax number:     503-378-8467
+dagan.a.wright at state.or.us
+
+
+From tura at centroin.com.br  Wed Nov 18 21:05:35 2009
+From: tura at centroin.com.br (Bernardo Rangel Tura)
+Date: Wed, 18 Nov 2009 18:05:35 -0200
+Subject: [R-sig-Epi] R functions for probabilistic linkage
+In-Reply-To: <4B03CA03020000D90006D985@STATE.OR.US>
+References: <4B03CA03020000D90006D985@STATE.OR.US>
+Message-ID: <1258574735.13793.3.camel@R3-thux>
+
+On Wed, 2009-11-18 at 10:18 -0800, Dagan A WRIGHT wrote:
+> I am somewhat new to R although using and liking already.  I am curious if there are any probabilistic packages similar in function to others such and Link King (http://www.the-link-king.com/).  I am looking for functions in SSN, First/Last name, date of birth, and a couple other indicators for matching.
+> 
+> Thanks
+Hi Dagan,
+
+I don't know any package in R for probabilistic linkage, but I and my
+team have using this in one research and I have development 3 or 4
+scripts about this.
+
+What you need in this topic? 
+
+-- 
+Bernardo Rangel Tura, M.D,MPH,Ph.D
+National Institute of Cardiology
+Brazil
+
+

@@ -1,0 +1,96 @@
+From bxc at steno.dk  Wed Apr  5 15:27:40 2006
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Wed, 5 Apr 2006 15:27:40 +0200
+Subject: [R-sig-Epi] Version 0.6 of Epi
+Message-ID: <40D3930AC1C8EA469E39536E5BC80835018E8517@EXDKBA021.corp.novocorp.net>
+
+I have uploaded version 0.6 of the Epi package to CRAN, where it 
+will be available soon. 
+
+The package homepage is:
+http://www.pubhealth.ku.dk/~bxc/Epi/
+
+A few bugs have been corrected.
+Below is a list of changes.
+Any comments are welcome.
+
+Best,
+Bendix Carsensen
+Epi-package maintainer
+----------------------
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2
+DK-2820 Gentofte
+Denmark
+tel: +45 44 43 87 38
+mob: +45 30 75 87 38
+fax: +45 44 43 07 06
+bxc at steno.dk
+www.biostat.ku.dk/~bxc
+----------------------
+
+Changes from 0.4 to 0.6
+
+o ci.pd() amended to support the Agresti-Caffo method for confidence
+  intervals for difference between proportions. Newcombes method 10
+  is still used in twoby2.
+
+o apc.fit() added. Fits age-period-cohort models with a range of
+  possibilities for parametrizations.
+
+o Functions for time-splitting at arbitrary times and at recurrent 
+  failures have been added: isec(), icut(), fcut1(), fcut() and
+  ex1(). Eventually they will be superseded by new facilities in Lexis.
+
+o Function apc.plot() to make a plot of an apc fit is added. It is just
+  a wrapper for apc.frame() and apc.lines(), with suitable computation
+of
+  the paramters supplied to apc.frame.
+
+o Lexis.lines(): pch.fail and col.fail expands to vectors of length two
+  if only one value is given. 
+
+o ci.cum() aimed at computing cumulative hazard functions from
+  parametric functions for hazards.
+
+o Problem in print.floated() with printing of objects of class
+  "floated" fixed.
+
+o Problem in ci.lin when subset did not match any factor names and
+  diff=T was given the function crashed. Fixed, and documentation
+updated.
+
+o cal.yr produces objects of class c("cal.yr","numeric"). Functions
+  as.Date.numeric and as.Date.cal.yr added.
+
+
+From yair.levy at ulb.ac.be  Fri Apr 21 17:20:11 2006
+From: yair.levy at ulb.ac.be (Yair Levy)
+Date: Fri, 21 Apr 2006 17:20:11 +0200 (CEST)
+Subject: [R-sig-Epi] =?iso-8859-1?q?Comparaison_de_tableaux_de_fr=E9quence?=
+	=?iso-8859-1?q?s?=
+Message-ID: <20060421152011.A85688D16@mach.vub.ac.be>
+
+Bonjour ? tous,
+
+J'?ssaye de comparer des tables de fr?quences, d?duites de la fonction "table", ne repr?sentant pas les fr?quences des m?mes classes. Quelqu'un connaitrais-t-il une fonction existante pour ce traitment, ma foi, r?alisable.
+
+Personnellement j'explore la piste consistant ? incorporer les classes manquantes des diff?rentes tables avec des valeurs de fr?quences nulles.
+
+
+Bien ? vous,
+
+
+Y.
+
+
+    
+Levy Ya?r
+Tel: 0476/75.47.25
+yairlbe at yahoo.com
+Rue Gretry 1
+2018 Anvers
+
+

@@ -1,0 +1,342 @@
+From emmanuel.brasil at gmail.com  Mon Mar  3 12:53:05 2008
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Mon, 3 Mar 2008 08:53:05 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 23,
+	Issue 1 - Estimating CI for sensitivity and specificity
+Message-ID: <a37cfb5a0803030353v384c7da8w6043ce678b176235@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080303/d95b317d/attachment.pl 
+
+From Greg.Snow at imail.org  Mon Mar  3 22:07:29 2008
+From: Greg.Snow at imail.org (Greg Snow)
+Date: Mon, 3 Mar 2008 14:07:29 -0700
+Subject: [R-sig-Epi] need help in calculating confidence intervals
+ forsensitivity, specificity, PPV & NPV
+In-Reply-To: <708592.65199.qm@web52104.mail.re2.yahoo.com>
+References: <708592.65199.qm@web52104.mail.re2.yahoo.com>
+Message-ID: <07E228A5BE53C24CAD490193A7381BBBF2AD02@LP-EXCHVS07.CO.IHC.COM>
+
+I am not a physician, but most of the people who ask me for confidence
+intervals on sensitivity and specificity are.
+
+My prefered approach (not the only one), is to use the Bayesian interval
+using a uniform prior (beta(1,1) distribution) with the binomial (it is
+easier to do than it looks).
+
+Basically find the HPD interval from a beta distribution with parameters
+s+1 and f+1, where s and f are successes (correct test results) and
+failures (incorrect test results).
+
+I use the hpd function from the TeachingDemos package, but there are
+others as well (I'm a bit biased towards that package).
+
+For example, to calculate the 95% confidence interval for sensitivity
+when you have 95 true positives and 5 false negatives you would just
+type (after installing and loading the package):
+
+> hpd(qbeta, shape1=96, shape2=6)
+
+And the 2 numbers are limits of a 95% confidence interval.
+
+I like this approach because it still gives sensible results when you
+have no false negatives (or false positives for specificity).
+
+Hope this helps,
+
+-- 
+Gregory (Greg) L. Snow Ph.D.
+Statistical Data Center
+Intermountain Healthcare
+greg.snow at imail.org
+(801) 408-8111
+ 
+ 
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> Smita Pakhale
+> Sent: Friday, February 29, 2008 12:34 PM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] need help in calculating confidence 
+> intervals forsensitivity, specificity, PPV & NPV
+> 
+> Hello,
+> 
+> I am a physician and a novice in R.
+> 
+> I am trying to calculate sensitivity, specificity, positive 
+> predictive and negative predictive values. I could do that 
+> using the package caret. However, I need to get confidence 
+> intervals around these estimates and I do not know how to do that.
+> 
+> Please help me find a way to calculate confidence intervals 
+> for these parameters.
+> 
+> thank you.
+> Sincerely,
+> Dr. Smita Pakhale
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+
+From M.Stevenson at massey.ac.nz  Tue Mar  4 00:39:04 2008
+From: M.Stevenson at massey.ac.nz (Mark Stevenson)
+Date: Tue, 4 Mar 2008 12:39:04 +1300
+Subject: [R-sig-Epi] Estimating CI for sensitivity and specificity
+Message-ID: <002101c87d87$c4057c90$b5ac7b82@massey.ac.nz>
+
+The 'epicentre' package (see the link on http://epicentre.massey.ac.nz/) has
+a function (epi.tests) that returns point estimates and confidence intervals
+on true and apparent prevalence, sensitivity, specificity, positive and
+negative predictive values, and positive and negative likelihood ratios from
+count data provided in a 2 by 2 table.
+
+The following is the example from the function documentation:
+
+## A new diagnostic test was trialled on 2000 patients. Of 1000 patients
+## that were disease positive, 750 tested positive. Of 1000 patients that 
+## were disease negative, 550 tested negative. What is the likeliood
+## ratio of a positive test?
+
+epi.tests(750, 450, 250, 550, alpha = 0.05, verbose = FALSE)
+
+          Disease +    Disease -      Total
+Test +          750          450       1200
+Test -          250          550        800
+Total          1000         1000       2000
+
+Point estimates and 95 % CIs:
+---------------------------------------------------------
+Apparent prevalence:                    0.6 (0.58, 0.62)
+True prevalence:                        0.5 (0.48, 0.52)
+Sensitivity:                            0.75 (0.72, 0.78)
+Specificity:                            0.55 (0.52, 0.58)
+Positive predictive value:              0.62 (0.6, 0.65)
+Negative predictive value:              0.69 (0.65, 0.72)
+Likelihood ratio positive:              1.67 (1.54, 1.8)
+Likelihood ratio negative:              0.45 (0.4, 0.51)
+---------------------------------------------------------
+
+## The likelihood ratio of a positive test was 1.67 (95% CI 1.54 to 1.8).
+
+Hope this is useful. 
+
+Regards,
+
+Mark Stevenson
+
+************************************************* 
+Mark Stevenson 
+Associate Professor, Veterinary Epidemiology 
+IVABS, Massey University 
+Private Bag 11-222 
+Palmerston North New Zealand 
+Ph: + 64 (06) 350 5915 
+Fx: + 64 (06) 350 5716 
+M.Stevenson at massey.ac.nz
+
+
+From mhills at blueyonder.co.uk  Wed Mar  5 13:12:51 2008
+From: mhills at blueyonder.co.uk (Michael Hills)
+Date: Wed, 05 Mar 2008 12:12:51 +0000
+Subject: [R-sig-Epi] [R-sig-epi] Sensitivity, specificity,
+	and predictive values
+Message-ID: <1204719171.5701.25.camel@mhills-desktop>
+
+All of the examples cited in this discussion assume that a single sample
+of subjects is taken from a population and then classified as disease
+positive or negative, using the reference test. When this is the case
+the true prevalence can also be obtained from the sample, but in many
+situations separate samples are taken to estimate sensitivity and
+specificity, so that the proportion of subjects who are disease positive
+depends on the sample sizes chosen, and no estimate of prevalence is
+possible. 
+
+In this case the sensitivity and specificity can be estimated as before
+and then applied to a population in which the true prevalence of the
+disease is p to give the predictive odds of a positive test in that
+population, namely
+
+p/(1-p) x Sens/(1-Spec) = p/(1-p) x LR
+
+so the CI for the predictive odds of a positive test is directly related
+to the CI for the LR.
+
+The epicentre package does provide an interval for the LR but it seems
+likely that this is based on a single sample not two separate samples.
+For two separate samples a method for finding the CI for the ratio of
+two independent proportions (Sens and 1-Spec) is required. Any
+suggestions for doing this in R?
+
+Michael Hills
+
+
+From dcm2104 at columbia.edu  Wed Mar  5 14:04:35 2008
+From: dcm2104 at columbia.edu (dcm2104 at columbia.edu)
+Date: Wed, 05 Mar 2008 08:04:35 -0500
+Subject: [R-sig-Epi] [R-sig-epi] Sensitivity, specificity,
+	and	predictive values
+In-Reply-To: <1204719171.5701.25.camel@mhills-desktop>
+References: <1204719171.5701.25.camel@mhills-desktop>
+Message-ID: <20080305080435.ky5wmahmk4kwoggs@cubmail.cc.columbia.edu>
+
+Hi,
+
+A good way to circumvent many of the aforementioned limitations is to  
+resort to non-parametrical ordinary boostrapping whereby you re-sample  
+your dataset B times (B is typically greater than 5000 but rarely  
+smaller than 1000 unless your original data-set is very small or  
+computational time is too expensive). You can then calculate the  
+sensitivity, specificity, PPV, and NPV for each re-sampled dataset.  
+Finally, you estimate the mean and confidence interval for  
+bootstrap-generated sensitivity, specificity, PPV, and NPV  
+distributions.
+
+If applicable, you can use these distributions to comapre two or more  
+test diagnositic. For example, you can sample the sensitivity  
+distribution of two test diagnostic (via, e.g., bootstrap again or  
+permutation), computing their differences, and then testing (t-test)  
+whether the final distribution has a zero-mean.
+
+The same procedure applies to other estimates (e.g., specificity, PPV,  
+etc) and other tests along the same line may be constructed. You can  
+load library(boot) and type "?boot" in the terminal for further  
+information.
+
+If neither test is a "gold standard," the estimation of  
+prevalence-dependent PPV and NPV is considerably more complicated.
+
+Daniel
+
+
+From agdesilva at gmail.com  Wed Mar 26 19:18:32 2008
+From: agdesilva at gmail.com (Ajit de Silva)
+Date: Wed, 26 Mar 2008 11:18:32 -0700
+Subject: [R-sig-Epi] R group forming on Linked In
+Message-ID: <d5b814ab0803261118o706625eqc572fab4a3d1cf4b@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080326/788bfa3c/attachment.pl 
+
+From Henrik.Kallberg at ki.se  Fri Mar 28 08:08:21 2008
+From: Henrik.Kallberg at ki.se (Henrik Kallberg)
+Date: Fri, 28 Mar 2008 08:08:21 +0100
+Subject: [R-sig-Epi] import data repeadeatly
+Message-ID: <fe88e5391aab.1aabfe88e539@ki.se>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080328/1b99b9f4/attachment.pl 
+
+From bxc at steno.dk  Fri Mar 28 08:32:52 2008
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Fri, 28 Mar 2008 08:32:52 +0100
+Subject: [R-sig-Epi] import data repeadeatly
+In-Reply-To: <fe88e5391aab.1aabfe88e539@ki.se>
+Message-ID: <40D3930AC1C8EA469E39536E5BC8083505983783@EXDKBA021.corp.novocorp.net>
+
+It's not entirely clear to me what goes on, but insert some commands that tells you what kind of structures you get and the dimension of them under way. str() is a good bet.
+
+Otherwise you must tell us in mor detail what goes wrong.
+
+regards,
+Bendix Carstensen 
+______________________________________________
+
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> Henrik Kallberg
+> Sent: 28. marts 2008 08:08
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] import data repeadeatly
+> 
+> Repeadeately
+> Dear All!
+> I'm an unexperienced user of R. I'm trying to import 
+> varaibles in a stepwise manner from a huge data set (whole 
+> genome scan data from a case control study). I'm not sure 
+> that my code will work and I know that the current code is 
+> not working the way I want it to work. I would like to import 
+> data and do some calculations and then store the results and 
+> then import a new variable and do the same calculations again 
+> for the latter variable and so on. In the code below there is 
+> no calculations yet (i'm just trying to solve the import 
+> problem). Please.Can anyone give me som suggestions.
+> snpSelect<<- function(data, KIND, i){
+> rsp<<-cbind(subset(read.table(data, header = TRUE), 
+> select=KIND+i)) rsp } datan<-matrix(0, nrow=1574, ncol=5) 
+> for(i in 1:(length(q))){
+> datan[,i]<<-snpSelect("c:/program/R/test.txt",KIND,i)
+> }
+> Best regards Henrik K?llberg
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> 
+
+
+From randy.n.julie at gmail.com  Fri Mar 28 13:02:32 2008
+From: randy.n.julie at gmail.com (Randy Johnson)
+Date: Fri, 28 Mar 2008 08:02:32 -0400
+Subject: [R-sig-Epi] import data repeadeatly
+In-Reply-To: <fe88e5391aab.1aabfe88e539@ki.se>
+References: <fe88e5391aab.1aabfe88e539@ki.se>
+Message-ID: <74F6D513-A4D7-4BBF-8020-57653644B80F@gmail.com>
+
+See ?read.table for some helpful options. Also, you probably don't  
+want to use <<- so much. <- should (almost) always be sufficient and  
+is less likely to be the cause of strange bugs.
+
+On Mar 28, 2008, at 3:08 AM, Henrik Kallberg wrote:
+> Repeadeately
+> Dear All!
+> I'm an unexperienced user of R. I'm trying to import varaibles in a  
+> stepwise manner from a huge data set (whole genome scan data from a  
+> case control study). I'm not sure that my code will work and I know  
+> that the current code is not working the way I want it to work. I  
+> would like to import data and do some calculations and then store  
+> the results and then import a new variable and do the same  
+> calculations again for the latter variable and so on. In the code  
+> below there is no calculations yet (i'm just trying to solve the  
+> import problem). Please.Can anyone give me som suggestions.
+> snpSelect<<- function(data, KIND, i){
+> rsp<<-cbind(subset(read.table(data, header = TRUE), select=KIND+i))
+> rsp
+> }
+> datan<-matrix(0, nrow=1574, ncol=5)
+> for(i in 1:(length(q))){
+> datan[,i]<<-snpSelect("c:/program/R/test.txt",KIND,i)
+> }
+> Best regards Henrik K?llberg
+>
+> 	[[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+
+                        |\
+_____TTT_____/|   |\  ()
+  (___|||___) \|  ()
+
+

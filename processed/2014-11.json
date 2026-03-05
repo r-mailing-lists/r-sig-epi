@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2014-11",
+  "messages": [
+    {
+      "id": "msg-b8768bb09c97",
+      "message_id": "<D0282BD4-123E-4CC6-B86E-7350F4BC8107@163.com>",
+      "from_name": "Ting Zhang",
+      "from_email_hash": "64c2ab74f387d78752a69aded152009c9afb171061d8d372276085a9de57ea45",
+      "date": "2014-11-21T07:54:08+08:00",
+      "subject": "[R-sig-Epi] propensity score code",
+      "subject_clean": "propensity score code",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi, this is the first time I send a mail, and thanks in advance.\n\nI am eager to obtain the R code for propensity score analysis. Previously, I used SAS for this, but I converted to R these days since I found R is more flexible. However, no mature R code for propensity score exists right now as far as I know. Please help me with it. Thanks again.\n\nBest,\n\nTing",
+      "body_snippet": "Hi, this is the first time I send a mail, and thanks in advance.\n\nI am eager to obtain the R code for propensity score analysis. Previously, I used SAS for this, but I converted to R these days since ",
+      "thread_id": "thread-b8768bb09c97",
+      "thread_depth": 0,
+      "month": "2014-11"
+    },
+    {
+      "id": "msg-ba45fdf32aaf",
+      "message_id": "<7267E09F-3404-4FD2-ADEF-82D8631E0E5D@comcast.net>",
+      "from_name": "David Winsemius",
+      "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
+      "date": "2014-11-26T22:22:41-08:00",
+      "subject": "[R-sig-Epi] propensity score code",
+      "subject_clean": "propensity score code",
+      "in_reply_to": "<D0282BD4-123E-4CC6-B86E-7350F4BC8107@163.com>",
+      "references": [
+        "<D0282BD4-123E-4CC6-B86E-7350F4BC8107@163.com>"
+      ],
+      "body_plain": "On Nov 20, 2014, at 3:54 PM, Ting Zhang wrote:\n\n> Hi, this is the first time I send a mail, and thanks in advance.\n> \n> I am eager to obtain the R code for propensity score analysis. Previously, I used SAS for this, but I converted to R these days since I found R is more flexible. However, no mature R code for propensity score exists right now as far as I know. Please help me with it. Thanks again.\n\nCan you explain why ordinary logistic regression is not being used as the first step?\n\n-- \n\nDavid Winsemius\nAlameda, CA, USA",
+      "body_snippet": "On Nov 20, 2014, at 3:54 PM, Ting Zhang wrote:\n\n> Hi, this is the first time I send a mail, and thanks in advance.\n> \n> I am eager to obtain the R code for propensity score analysis. Previously, I use",
+      "thread_id": "thread-b8768bb09c97",
+      "thread_depth": 1,
+      "month": "2014-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b8768bb09c97",
+      "subject": "propensity score code",
+      "message_count": 2,
+      "participants": [
+        "David Winsemius",
+        "Ting Zhang"
+      ],
+      "started": "2014-11-21T07:54:08+08:00",
+      "last_reply": "2014-11-26T22:22:41-08:00",
+      "root_message_id": "msg-b8768bb09c97"
+    }
+  ]
+}

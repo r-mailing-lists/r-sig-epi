@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2012-09",
+  "messages": [
+    {
+      "id": "msg-f64da6522436",
+      "message_id": "<CAFfGvyJXOHR_ZWtu+tibeuC1FWGGmnSpTHfowq3=ogHJLQWtgg@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2012-09-06T10:17:00-03:00",
+      "subject": "[R-sig-Epi] Testing causal diagrams",
+      "subject_clean": "Testing causal diagrams",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120906/f9ce2f32/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120906/f9ce2f32/attachment.pl>",
+      "thread_id": "thread-f64da6522436",
+      "thread_depth": 0,
+      "month": "2012-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f64da6522436",
+      "subject": "Testing causal diagrams",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2012-09-06T10:17:00-03:00",
+      "last_reply": "2012-09-06T10:17:00-03:00",
+      "root_message_id": "msg-f64da6522436"
+    }
+  ]
+}

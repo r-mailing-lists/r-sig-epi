@@ -1,0 +1,36 @@
+From Stephen.Wade at nswcc.org.au  Tue Apr 18 08:56:11 2017
+From: Stephen.Wade at nswcc.org.au (Stephen Wade)
+Date: Tue, 18 Apr 2017 06:56:11 +0000
+Subject: [R-sig-Epi] Ns(..., detrend=T)
+Message-ID: <ME1PR01MB0803F73F5434C92F63410F93B6190@ME1PR01MB0803.ausprd01.prod.outlook.com>
+
+When detrend=T I would have expected that Epi::Ns(?)would more or less project the basis given by splines::ns(?) onto the orthogonal complement of the column space of [1 t] and finally extract the set of linearly independent columns (to give a basis).
+
+However, this doesn?t appear to be the _exactly_ the case; I tried
+
+x=seq(-0.75, 0.75, length.out=5)
+Ns(x, knots=c(-0.5,0,0.5), Boundary.knots=c(-1,1), detrend=T)
+
+and
+
+detrend(ns(x, knots=c(-0.5,0,0.5), Boundary.knots=c(-1,1)), x)
+
+The matrices produced by the above code are not the same, however, they do have the same column space in this example suggesting that if plugged in to a linear model, the fitted coefficients will be different but the fit (itself) will be the same. I haven?t yet checked/proved that the column spaces should be the same ?in general?.
+
+The call to Ns above gives a warning about fixsl being ignored. It turns out that the value of const in ns.ld() is not the same compared to the same variable in the call to splines::ns() above. This is because the fixsl argument in ns.ld() will have value c(NA,NA) when passed via Ns(?, detrend=T).
+
+Does anyone have an explanation for why fixsl=c(NA,NA) is used instead of fixsl=c(F,F)? Or for why the two matrices in the above example should/would have the same column space?
+
+Kind regards,
+
+Stephen Wade | Post-Doc Research Fellow
+Cancer Council NSW
+153 Dowling Street
+Woolloomooloo NSW 2021
+? : (02) 9334 1431 | ? : Stephen.Wade at nswcc.org.au
+WEB<http://www.cancercouncil.com.au/> | FAN<http://www.facebook.com/pages/Cancer-Council-NSW/453750595056> | TWEET<http://twitter.com/CancerCouncil> | TUBE<http://www.youtube.com/user/CancerCouncilNSW1> | HELPLINE<http://www.cancercouncil.com.au/editorial.asp?pageid=228>
+
+
+	[[alternative HTML version deleted]]
+
+

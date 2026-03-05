@@ -1,0 +1,284 @@
+From alejo2 at uclv.edu.cu  Tue Sep  4 23:46:52 2007
+From: alejo2 at uclv.edu.cu (=?iso-8859-1?Q?Alejandro__Garc=EDa_Rodr=EDguez?=)
+Date: Tue, 4 Sep 2007 16:46:52 -0500
+Subject: [R-sig-Epi] lognormal distribution STD.error
+Message-ID: <ABD4B7281978174EB054798E5C2C5432544E70@mail-02.uclv.edu.cu>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070904/eb8f4359/attachment.pl 
+
+From Tom.Willems at var.fgov.be  Tue Sep 25 14:51:23 2007
+From: Tom.Willems at var.fgov.be (Tom Willems)
+Date: Tue, 25 Sep 2007 14:51:23 +0200
+Subject: [R-sig-Epi] Q: Transmission rate by martingale methode (dejong.R)
+Message-ID: <OF99B7A90A.9FD066D8-ONC1257361.004507EC-C1257361.00469F90@var.fgov.be>
+
+Een ingesloten tekst met niet-gespecificeerde tekenset is
+van het bericht gescrubt ...
+Naam: niet beschikbaar
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070925/5b2d0630/attachment.pl 
+
+From nshephard at gmail.com  Wed Sep 26 12:23:29 2007
+From: nshephard at gmail.com (Neil Shephard)
+Date: Wed, 26 Sep 2007 11:23:29 +0100
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 17, Issue 2
+In-Reply-To: <mailman.3.1190800802.20454.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.3.1190800802.20454.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <31b34fca0709260323u5238c107ucfa98930e64b0cd9@mail.gmail.com>
+
+On 9/26/07 Tom Willems <Tom.Willems at var.fgov.be> wrote:
+
+> Subject: [R-sig-Epi] Q: Transmission rate by martingale methode
+>         (dejong.R)
+> To: r-sig-epi at stat.math.ethz.ch
+> Message-ID:
+>         <OF99B7A90A.9FD066D8-ONC1257361.004507EC-C1257361.00469F90 at var.fgov.be>
+>
+> Content-Type: text/plain
+>
+> good afternoon R-ussers,
+>
+> I am looking for means to calculate the transmission rate of a virus.
+> Reading trough many articles, i found the martingale methode to be the
+> most commen ussed.
+
+When giving citations it is useful to give complete details.
+
+
+> An article even points me to the exisrence of an R file, that handles
+> these estimations.
+> It would be the file named :  <  dejong.R  >.
+> Now since i could not find this file i hoped it would be implemented in
+> the Epi library,
+> Yet I did not find anything on calculating Transmission Rates (R0) or
+> infection rates.
+> Can someone pleas point me to where the dejong.R file may be found, or a
+> file handeling this estimations?
+
+A search for the terms 'dejong.R martingale'
+(http://www.google.co.uk/search?num=100&hl=en&safe=off&q=dejong.R+martingale&btnG=Search&meta=)
+points to five documents, the first of which is the most appropriate
+(the remainder are about an author Dejong R).
+
+Reading thought the first pdf it indicates that the dejong.R file that
+you are interested in does the calculations.  This pdf is hosted as
+part of the homepage for Ass Prof Michael H?hle at University of
+Munich.  If you traverse to a slightly higher level of his homepage
+(http://www.stat.uni-muenchen.de/~hoehle/) you'll see a link to
+"Statistical Software". Follow this and you get to what you are after,
+which is the fourth item under the Epidemic Modelling.  This is a zip
+file that contains the dejong.R file that you are seeking.
+
+
+Regards
+
+Neil
+-- 
+"In mathematics you don't understand things. You just get used to
+them."  - Johann von Neumann
+
+Email - nshephard at gmail.com / n.shephard at sheffield.ac.uk
+Website - http://slack.ser.man.ac.uk/
+Photos - http://www.flickr.com/photos/slackline/
+
+
+From gandini at calvino.polito.it  Wed Sep 26 15:20:06 2007
+From: gandini at calvino.polito.it (Martina Gandini)
+Date: Wed, 26 Sep 2007 15:20:06 +0200 (CEST)
+Subject: [R-sig-Epi] About parametric survival analysis
+Message-ID: <2478.130.192.54.2.1190812806.squirrel@matmail.polito.it>
+
+Good afternoon R-users!
+I have a question about survival analysis.
+I have a set of data for which I calculate non parametric survival
+function using the classical Kaplan-Meier estimation.
+
+Data are in the following form
+
+date of birth, date of exit, censor
+
+
+Now I want to compare the "Kaplan-Meier" curve with a parametric survival
+curve (a Weibull seems to be a reasonable choice in my example). Is there
+a function in R to do this?
+Thanks a lot!
+
+Martina Gandini
+
+
+From johan.lindback at ucr.uu.se  Thu Sep 27 08:31:53 2007
+From: johan.lindback at ucr.uu.se (=?ISO-8859-1?Q?Johan_Lindb=E4ck?=)
+Date: Thu, 27 Sep 2007 08:31:53 +0200
+Subject: [R-sig-Epi] Q: Transmission rate by martingale methode
+	(dejong.R)
+In-Reply-To: <OF99B7A90A.9FD066D8-ONC1257361.004507EC-C1257361.00469F90@var.fgov.be>
+References: <OF99B7A90A.9FD066D8-ONC1257361.004507EC-C1257361.00469F90@var.fgov.be>
+Message-ID: <46FB4E59.2070307@ucr.uu.se>
+
+Hi Tom!
+Googling
+
+dejong.R martingale transmission rate
+
+pointed me to the pdf-file:
+http://www.stat.uni-muenchen.de/~hoehle/pubs/r0moment.pdf. Browsing
+Michael H?hle's web page: http://www.stat.uni-muenchen.de/~hoehle I
+found the 'dejong.R' file on his "Statistical Software page":
+
+http://www.stat.uni-muenchen.de/~hoehle/software/epi/DeJong.zip
+
+HTH
+/Johan
+
+
+
+
+Tom Willems skrev:
+> good afternoon R-ussers,
+> 
+> I am looking for means to calculate the transmission rate of a virus.
+> Reading trough many articles, i found the martingale methode to be the 
+> most commen ussed.
+> An article even points me to the exisrence of an R file, that handles 
+> these estimations.
+> It would be the file named :  <  dejong.R  >.
+> Now since i could not find this file i hoped it would be implemented in 
+> the Epi library,
+> Yet I did not find anything on calculating Transmission Rates (R0) or 
+> infection rates.
+> Can someone pleas point me to where the dejong.R file may be found, or a 
+> file handeling this estimations?
+> 
+> thank you very much,
+> Tom.
+> 
+> 
+> Disclaimer: click here
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+-- 
+  O    |>  Johan Lindb?ck,  Biostatistician
+ /\    |   Uppsala Clinical Research Center
+ | \_.     SE-751 85  UPPSALA
+~~~~~~~~~~ <http://www.ucr.uu.se> ----------
+
+
+From patricia.geli at gmail.com  Thu Sep 27 14:42:21 2007
+From: patricia.geli at gmail.com (Patricia Geli)
+Date: Thu, 27 Sep 2007 14:42:21 +0200
+Subject: [R-sig-Epi] How to calculate the nth derivative of a function
+Message-ID: <604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070927/81fe61d3/attachment.pl 
+
+From bxc at steno.dk  Thu Sep 27 18:10:58 2007
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Thu, 27 Sep 2007 18:10:58 +0200
+Subject: [R-sig-Epi] How to calculate the nth derivative of a function
+In-Reply-To: <604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>
+Message-ID: <40D3930AC1C8EA469E39536E5BC8083504C03D39@EXDKBA021.corp.novocorp.net>
+
+Are you referring to numerical derivatives?
+Best,
+Bendix Carstensen
+______________________________________________
+
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
++45 44 43 73 13 (fax)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc 
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> Patricia Geli
+> Sent: Thursday, September 27, 2007 2:42 PM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] How to calculate the nth derivative of a function
+> 
+> Hi,
+> 
+> I have a short question regarding derivatives of functions in 
+> R. The problem is that I need the nth derivative of the 
+> function, where n is around 100, and the packages I have 
+> managed to find which deals with derivatives in R will only 
+> take the first derivative of the function. Repeating these 
+> methods a 100 times won't solve the problem either, since the 
+> first derivative of a numerical function gives me a scalar as 
+> output. Does anyone know how to solve this problem? I'm 
+> grateful for any advice!
+> 
+> Patricia
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+
+From Greg.Snow at intermountainmail.org  Thu Sep 27 19:19:20 2007
+From: Greg.Snow at intermountainmail.org (Greg Snow)
+Date: Thu, 27 Sep 2007 11:19:20 -0600
+Subject: [R-sig-Epi] How to calculate the nth derivative of a function
+In-Reply-To: <604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>
+References: <604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>
+Message-ID: <07E228A5BE53C24CAD490193A7381BBBC38D66@LP-EXCHVS07.CO.IHC.COM>
+
+You may want to look at the Ryacas package.  This uses and outside
+toolset to do the work, but in this case I think that is the better
+approach.
+
+-- 
+Gregory (Greg) L. Snow Ph.D.
+Statistical Data Center
+Intermountain Healthcare
+greg.snow at intermountainmail.org
+(801) 408-8111
+ 
+ 
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> Patricia Geli
+> Sent: Thursday, September 27, 2007 6:42 AM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] How to calculate the nth derivative of a function
+> 
+> Hi,
+> 
+> I have a short question regarding derivatives of functions in 
+> R. The problem is that I need the nth derivative of the 
+> function, where n is around 100, and the packages I have 
+> managed to find which deals with derivatives in R will only 
+> take the first derivative of the function. Repeating these 
+> methods a 100 times won't solve the problem either, since the 
+> first derivative of a numerical function gives me a scalar as 
+> output. Does anyone know how to solve this problem? I'm 
+> grateful for any advice!
+> 
+> Patricia
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+

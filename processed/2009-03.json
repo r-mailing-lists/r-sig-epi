@@ -1,0 +1,53 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2009-03",
+  "messages": [
+    {
+      "id": "msg-82281cc769cb",
+      "message_id": "<49B7EF38.4090807@tin.it>",
+      "from_name": "Enzo Coviello",
+      "from_email_hash": "806df419f1a06a4cd666f12f4aa08c7ac2c67e93479d39031cc61b0936210bfe",
+      "date": "2009-03-11T18:04:56+01:00",
+      "subject": "[R-sig-Epi] APC models",
+      "subject_clean": "APC models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear listers,\n\nI was very impressed by the paper of prof. Carstensen on Stat in Med.\n2007; 26:3018-3045 about Age-period-cohort models.\nIn the paper (p. 3036) the annotated R file with Danish testis data used\nfor an example are said available at\nhttp://www.biostat.ku.dk/~bxc/APC/Sim-ex.\n\nUnfortunately R file and data are no more available at this site.\nI am looking for this code and data for reproducing the results\nillustrated in the paper and trying to adapt them to a project.\n\nCan you tell me if and where R-file and data cited in StatMed paper are\nactually available for download?\n\nThanks\n\nEnzo\n\n-- \nEnzo Coviello\nUnit? di Epidemiologia e Statistica ASL Bari\nPiazza V. Emanuele, 14 - 70054 GIOVINAZZO (BA)\nItaly\ntel +39 080 3357883 - fax +39 080 3357867\nmobile 347 5016016\n^^^^\nHome\nvia Imbriani, 186 - 70055 MINERVINO MURGE (BA)\ntel +39 0883 695055",
+      "body_snippet": "Dear listers,\n\nI was very impressed by the paper of prof. Carstensen on Stat in Med.\n2007; 26:3018-3045 about Age-period-cohort models.\nIn the paper (p. 3036) the annotated R file with Danish testis d",
+      "thread_id": "thread-82281cc769cb",
+      "thread_depth": 0,
+      "month": "2009-03"
+    },
+    {
+      "id": "msg-6dca99109e65",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC33020161F974@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2009-03-11T18:46:02+01:00",
+      "subject": "[R-sig-Epi] APC models",
+      "subject_clean": "APC models",
+      "in_reply_to": "<49B7EF38.4090807@tin.it>",
+      "references": [],
+      "body_plain": "Dear Enzo,\nthere have been some problems with the Biostat homepage redirecting to another url while converting everything to lower case, so that things were unavailable.\n\nI have fixed things now, so the link http://www.biostat.ku.dk/~bxc/APC/SiM-ex now gives a file with working R-code, including a link to the datafile.\n\nI would be happy if you would drop me a mail if (when!) you have successfuly have found the R-program and made it run.\n\nBest wishes,\nBendix Carstensen\n_______________________________________________\n\nBendix Carstensen \nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc\nwww.steno.dk\n\n\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Enzo Coviello\n> Sent: 11. marts 2009 18:05\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] APC models\n> \n> Dear listers,\n> \n> I was very impressed by the paper of prof. Carstensen on Stat in Med.\n> 2007; 26:3018-3045 about Age-period-cohort models.\n> In the paper (p. 3036) the annotated R file with Danish \n> testis data used for an example are said available at \n> http://www.biostat.ku.dk/~bxc/APC/Sim-ex.\n> \n> Unfortunately R file and data are no more available at this site.\n> I am looking for this code and data for reproducing the \n> results illustrated in the paper and trying to adapt them to \n> a project.\n> \n> Can you tell me if and where R-file and data cited in StatMed \n> paper are actually available for download?\n> \n> Thanks\n> \n> Enzo\n> \n> --\n> Enzo Coviello\n> Unit? di Epidemiologia e Statistica ASL Bari Piazza V. \n> Emanuele, 14 - 70054 GIOVINAZZO (BA) Italy tel +39 080 \n> 3357883 - fax +39 080 3357867 mobile 347 5016016 ^^^^ Home \n> via Imbriani, 186 - 70055 MINERVINO MURGE (BA) tel +39 0883 695055\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "Dear Enzo,\nthere have been some problems with the Biostat homepage redirecting to another url while converting everything to lower case, so that things were unavailable.\n\nI have fixed things now, so t",
+      "thread_id": "thread-82281cc769cb",
+      "thread_depth": 1,
+      "month": "2009-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-82281cc769cb",
+      "subject": "APC models",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Enzo Coviello"
+      ],
+      "started": "2009-03-11T18:04:56+01:00",
+      "last_reply": "2009-03-11T18:46:02+01:00",
+      "root_message_id": "msg-82281cc769cb"
+    }
+  ]
+}

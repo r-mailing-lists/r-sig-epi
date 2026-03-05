@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2015-05",
+  "messages": [
+    {
+      "id": "msg-63157a8514ea",
+      "message_id": "<CALho=DajWbaP2pk7wo0vj0uHitAqZsScfvkqz+4+OxpwSH-zfw@mail.gmail.com>",
+      "from_name": "Mohd Masood",
+      "from_email_hash": "95b8ba0ed8988c99a0980c7317a961b9bd8480a9b606ff8c2ae52e09cab289a0",
+      "date": "2015-05-21T22:25:31+08:00",
+      "subject": "[R-sig-Epi] Zero-inflated poisson regression models with sampling weights.",
+      "subject_clean": "Zero-inflated poisson regression models with sampling weights.",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All\nI am using survey package in R for my design based analysis.\nI want to do zero inflated analysis for my count data with many zero\nvalues.\nPlease advice how can I run Zero inflated Poisson regression in \"survey\npackage\".\nIf survey package cant do this, is there any other package or software that\ncan do Zero Inflated Poisson regression for complex survey data?\nWill be really thankful for reply.\n\n?Kindest Regards?\n\n-- \n\n*Dr. Mohd Masood *\n\n*Senior Lecturer, Centre of Population Oral Health & Clinical Prevention\nStudiesFaculty of Dentistry, Universiti Teknologi MARA, Malaysia*\n\n*masood at salam.uitm.edu.my <masood at salam.uitm.edu.my>*\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All\nI am using survey package in R for my design based analysis.\nI want to do zero inflated analysis for my count data with many zero\nvalues.\nPlease advice how can I run Zero inflated Poisson reg",
+      "thread_id": "thread-63157a8514ea",
+      "thread_depth": 0,
+      "month": "2015-05"
+    },
+    {
+      "id": "msg-c841aa4b6a79",
+      "message_id": "<955500986.6008244.1432221177028.JavaMail.yahoo@mail.yahoo.com>",
+      "from_name": "anna freni sterrantino",
+      "from_email_hash": "5fbc47d2caac4880dd21ed15a1640afdd068ea169b06c98d307b828e76b8507c",
+      "date": "2015-05-21T15:12:56Z",
+      "subject": "[R-sig-Epi] Zero-inflated poisson regression models with sampling\tweights.",
+      "subject_clean": "Zero-inflated poisson regression models with sampling\tweights.",
+      "in_reply_to": "<CALho=DajWbaP2pk7wo0vj0uHitAqZsScfvkqz+4+OxpwSH-zfw@mail.gmail.com>",
+      "references": [
+        "<CALho=DajWbaP2pk7wo0vj0uHitAqZsScfvkqz+4+OxpwSH-zfw@mail.gmail.com>"
+      ],
+      "body_plain": "Dear Mohd,check this help pageR Data Analysis Examples: Zero-Inflated Poisson Regression\n\n| ? |\n| ? |  | ? | ? | ? | ? | ? |\n| R Data Analysis Examples: Zero-Inflated Poisson Regressi...R Data Analysis Examples: Zero-Inflated Poisson Regression Zero-inflated poisson regression is used to model count data that has an excess of zero counts.  |\n|  |\n| Visualizza su www.ats.ucla.edu | Anteprima per Yahoo |\n|  |\n| ? |\n\n ?if can help. I do think that survey package has this model.\n\nCheers\nAnna\n\n?Anna Freni Sterrantino\nDepartment of Statistics\nUniversity of Bologna, Italy\nvia Belle Arti 41, 40124 BO. \n\n\n     Il Gioved? 21 Maggio 2015 16:28, Mohd Masood <drmasoodmohd at gmail.com> ha scritto:\n   \n\n Dear All\nI am using survey package in R for my design based analysis.\nI want to do zero inflated analysis for my count data with many zero\nvalues.\nPlease advice how can I run Zero inflated Poisson regression in \"survey\npackage\".\nIf survey package cant do this, is there any other package or software that\ncan do Zero Inflated Poisson regression for complex survey data?\nWill be really thankful for reply.\n\n?Kindest Regards?\n\n-- \n\n*Dr. Mohd Masood *\n\n*Senior Lecturer, Centre of Population Oral Health & Clinical Prevention\nStudiesFaculty of Dentistry, Universiti Teknologi MARA, Malaysia*\n\n*masood at salam.uitm.edu.my <masood at salam.uitm.edu.my>*\n\n??? [[alternative HTML version deleted]]\n\n_______________________________________________\nR-sig-Epi at r-project.org mailing list\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n  \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear Mohd,check this help pageR Data Analysis Examples: Zero-Inflated Poisson Regression\n\n| ? |\n| ? |  | ? | ? | ? | ? | ? |\n| R Data Analysis Examples: Zero-Inflated Poisson Regressi...R Data Analysi",
+      "thread_id": "thread-63157a8514ea",
+      "thread_depth": 1,
+      "month": "2015-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-63157a8514ea",
+      "subject": "Zero-inflated poisson regression models with sampling weights.",
+      "message_count": 2,
+      "participants": [
+        "Mohd Masood",
+        "anna freni sterrantino"
+      ],
+      "started": "2015-05-21T22:25:31+08:00",
+      "last_reply": "2015-05-21T15:12:56+00:00",
+      "root_message_id": "msg-63157a8514ea"
+    }
+  ]
+}

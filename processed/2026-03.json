@@ -1,0 +1,90 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2026-03",
+  "messages": [
+    {
+      "id": "msg-2646cb3dc805",
+      "message_id": "<lvr8IoTXRYa4XsRzaVuMMw@geopod-ismtpd-17>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-03-02T09:05:46Z",
+      "subject": "[R-sig-Epi] Deep Learning for Complex Datasets with AI 3.0 – last chance",
+      "subject_clean": "Deep Learning for Complex Datasets with AI 3.0 – last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Deep Learning for Complex Datasets with AI 3.0 livestreaming March 2 with Nikolay Oskolkov (Group Leader (PI) at LIOS). This seminar explores deep learning techniques that are highly applicable for analyzing the complex, often time-series or sequential, datasets common in epidemiological research. Participants will gain practical skills in R and Python, using tools like TensorFlow and Keras, and leverage ChatGPT to develop and fine-tune neural network architectures for tasks such as disease outbreak prediction or risk factor identification. These advanced methods will enable researchers to uncover intricate patterns, perform sophisticated dimensionality reduction, and quantify uncertainties in their epidemiological models, thereby enhancing the rigor and insight of their studies.\n\nSign up today (https://instats.org/seminar/deep-learning-for-complex-datasets-with-4) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Deep Learning for Complex Datasets with AI 3.0 livestreaming March 2 with Nikolay Oskolkov (Group Leader (PI) at LIOS). This seminar expl",
+      "thread_id": "thread-2646cb3dc805",
+      "thread_depth": 0,
+      "month": "2026-03"
+    },
+    {
+      "id": "msg-863bcbe269da",
+      "message_id": "<CAEsSYzxA0hENgK+QEMOiRk5TpvBum3EiEZY2+6pYRipzp20skA@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2026-03-03T20:27:44Z",
+      "subject": "[R-sig-Epi] Bayesian Modelling Using R & INLA - Dr Virgilio Gómez-Rubio",
+      "subject_clean": "Bayesian Modelling Using R & INLA - Dr Virgilio Gómez-Rubio",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Advance your statistical modelling skills with our live online course *Bayesian\nModelling Using R & INLA (BMIN04)*.\n\nhttps://prstats.org/course/bayesian-modelling-using-r-inla-bmin04/\n\nInstructor - Dr Virgilio G?mez-Rubio, a lead expert in the application of\nINLA and the author of 'Bayesian Inference with INLA'.\n\nThis applied training provides a practical introduction to Bayesian\ninference using the Integrated Nested Laplace Approximation (INLA)\nframework in R. Participants will learn both conceptual foundations and\nhands-on implementation of Bayesian models for complex data structures,\nwith workflows suitable for spatial, temporal, and hierarchical analyses.\n\nThe course covers:\n\n   -\n\n   Bayesian fundamentals and interpretation\n   -\n\n   Specification and fitting of Bayesian models in R using INLA\n   -\n\n   Model selection, comparison, and diagnostics\n   -\n\n   Handling spatial, temporal, and spatio-temporal data\n   -\n\n   Hierarchical and mixed-effects modelling in a Bayesian framework\n   -\n\n   Practical strategies for reproducible Bayesian workflows\n\nDelivered live online, this course offers direct interaction with the\ninstructor, opportunities to ask questions about your own data, and\nstructured guidance through practical examples. All participants receive\ncourse materials, example code, and post-course support.\n\n*Course details*\nDates: 4-8 May 2026\nDuration: 5 days (approximately 7 hours per day)\nFormat: Live online\nFee: ?500\n\nThis course is suitable for postgraduate students, researchers, analysts,\nand professionals interested in applying Bayesian methods to real data\nusing R and INLA.\n\nFull details and registration:\nhttps://prstats.org/course/bayesian-modelling-using-r-inla-bmin04/\nEmail oliver at prstats.org with any questions\n\n-- \nOliver Hooker PhD.\nPR stats\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Advance your statistical modelling skills with our live online course *Bayesian\nModelling Using R & INLA (BMIN04)*.\n\nhttps://prstats.org/course/bayesian-modelling-using-r-inla-bmin04/\n\nInstructor - Dr",
+      "thread_id": "thread-863bcbe269da",
+      "thread_depth": 0,
+      "month": "2026-03"
+    },
+    {
+      "id": "msg-36ce8144b755",
+      "message_id": "<nnyKN0GaQFStrhIxxDYzcg@geopod-ismtpd-1>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-03-04T11:53:26Z",
+      "subject": "[R-sig-Epi] Deep Learning for Complex Datasets with AI 3.0 – livestream seminar",
+      "subject_clean": "Deep Learning for Complex Datasets with AI 3.0 – livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nInstats is offering a new 1-day seminar Deep Learning for Complex Datasets with AI 3.0 livestreaming March 25, led by Nikolay Oskolkov (Group Leader (PI) at LIOS). This seminar explores deep learning techniques for analyzing complex datasets, offering powerful methods to uncover intricate patterns in large-scale epidemiological information. Participants will learn to apply convolutional and recurrent neural networks to sequential or time-series epidemiological data, and utilize autoencoders for dimensionality reduction or clustering of complex health outcomes. The practical skills gained in R, Python, TensorFlow, and Keras, enhanced by AI assistance, can be directly integrated into your existing research workflows to develop more sophisticated predictive and analytical models.\n\nSign up today (https://instats.org/seminar/deep-learning-for-complex-datasets-with-4) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nInstats is offering a new 1-day seminar Deep Learning for Complex Datasets with AI 3.0 livestreaming March 25, led by Nikolay Oskolkov (Group Leader (PI) at LIOS). This semina",
+      "thread_id": "thread-36ce8144b755",
+      "thread_depth": 0,
+      "month": "2026-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2646cb3dc805",
+      "subject": "Deep Learning for Complex Datasets with AI 3.0 – last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-03-02T09:05:46+00:00",
+      "last_reply": "2026-03-02T09:05:46+00:00",
+      "root_message_id": "msg-2646cb3dc805"
+    },
+    {
+      "id": "thread-863bcbe269da",
+      "subject": "Bayesian Modelling Using R & INLA - Dr Virgilio Gómez-Rubio",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2026-03-03T20:27:44+00:00",
+      "last_reply": "2026-03-03T20:27:44+00:00",
+      "root_message_id": "msg-863bcbe269da"
+    },
+    {
+      "id": "thread-36ce8144b755",
+      "subject": "Deep Learning for Complex Datasets with AI 3.0 – livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-03-04T11:53:26+00:00",
+      "last_reply": "2026-03-04T11:53:26+00:00",
+      "root_message_id": "msg-36ce8144b755"
+    }
+  ]
+}

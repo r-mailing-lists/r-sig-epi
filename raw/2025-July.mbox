@@ -1,0 +1,953 @@
+From mzyphur m@iii@g oii i@st@ts@org  Tue Jul  1 10:20:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Tue, 01 Jul 2025 08:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Longitudinal Data Analysis in Biostatistics - free
+ seminar
+Message-ID: <qDHmfDQ4Q_S6ujFXaE4TGA@geopod-ismtpd-1>
+
+Hi everyone
+
+Instats is excited to offer a free seminar, Longitudinal Data Analysis in Biostatistics <https://instats.org/seminar/longitudinal-data-analysis-in-biostatist>, livestreaming August 5 and led by Dr Tuhin Sheikh from the Biostatistics Department at Arizona State University. Designed for PhD students, academics, and applied researchers, this hands-on workshop shows you how to harness R to track and interpret within-subject change over time?skills that are crucial for producing rigorous, high-impact health and social science research. Across a full day of immersive instruction, you?ll explore the rationale behind longitudinal study designs, learn best practices for preparing and visualizing repeated-measures data, and gain confidence fitting and interpreting linear mixed-effects models. Diagnostic techniques for assessing model assumptions, strategies for communicating findings in clinical contexts, and a capstone analysis of the pbcseq dataset ensure you finish with both theoretical insight and practical code you can immediately adapt to your own projects.
+
+Sign up today <https://instats.org/seminar/longitudinal-data-analysis-in-biostatist> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Tue Jul  1 11:18:49 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Tue, 1 Jul 2025 11:18:49 +0200 (CEST)
+Subject: [R-sig-Epi] =?utf-8?q?Online_Course_=E2=80=93_Latent_Class=2C_Ma?=
+ =?utf-8?q?rkov_=26_Hidden_Markov_Models_in_R_=282=E2=80=935_Sept=29?=
+In-Reply-To: <1751037836.310631204@webmail.jimdo.com>
+References: <1751037836.310631204@webmail.jimdo.com>
+Message-ID: <1751361529.662219571@webmail.jimdo.com>
+
+
+Dear all,
+
+
+We?re pleased to announce our upcoming online course: Latent Class, Markov and Hidden Markov Models with Applications in R
+ 
+ 
+Dates: 2?5 September
+Time: 2?5 PM Berlin time daily
+ 
+Instructor: Prof. Fulvia Pennoni (University of Milano-Bicocca, Italy) 
+ Course website: [ https://www.physalia-courses.org/courses-workshops/latent-class-markov-and-hidden-markov-models-with-applications-in-r/ ]( https://www.physalia-courses.org/courses-workshops/latent-class-markov-and-hidden-markov-models-with-applications-in-r/ ) 
+
+
+This course will introduce the theory and practical applications of latent class, Markov, and hidden Markov models, particularly for the analysis of longitudinal data. It includes interactive hands-on sessions using R (MultiLCIRT and LMest libraries), and is suitable for researchers, students, and practitioners?even without a background in probability.
+ 
+ Topics covered include:
+
+Discrete latent variable models
+
+Latent class models with covariates
+
+Markov and hidden Markov models (with missing data handling)
+
+Model selection and uncertainty estimation
+
+Real-world case studies and exercises
+Best regards,
+ 
+Carlo
+ 
+ 
+ 
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+
+
+ 
+ 
+
+
+
+ 
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Thu Jul  3 11:20:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Thu, 03 Jul 2025 09:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Statistical Science for a Data-Driven World - free
+ conference
+Message-ID: <R9QGblk-TZOQIvQ_oA7qFA@geopod-ismtpd-5>
+
+Hi everyone
+
+Instats is excited to offer a 2-day conference on Advancing Statistical Science for a Data-Driven World <https://instats.org/seminar/nsfa75-advancing-statistical-science-for>, streaming live July 15?16 and presented in collaboration with the American Statistical Association. Celebrating seventy-five years of the U.S. National Science Foundation, this focused two-day conference brings together award-winning researchers and disciplinary leaders to showcase breakthrough advances in statistical science, illuminate emerging research priorities, and demonstrate how sustained federal support fuels both methodological innovation and real-world impact. With five separate conference streams running each day, there's something for everyone.
+
+Sign up today <https://instats.org/seminar/nsfa75-advancing-statistical-science-for> and share this unique opportunity with colleagues and students who care about the future of data-driven research!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Mon Jul  7 11:50:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Mon, 07 Jul 2025 09:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] Using ChatGPT to Teach and Learn Statistics -
+ livestream seminar
+Message-ID: <hTM-NcooT-aMED0U87d_Ng@geopod-ismtpd-canary-0>
+
+Hi everyone
+
+Instats is excited to offer a 3-day seminar, Using ChatGPT for Teaching and Learning Statistics 4.0 <https://instats.org/seminar/using-chatgpt-for-teaching-and-learning>, livestreaming August 4?7 and led by professor Peter Gruber. Generative AI is reshaping statistical education, and this workshop equips instructors to redesign their courses for the ChatGPT era. Drawing on nearly two years of classroom experience, professor Gruber will present the P.R.O.P.E.R. framework for crafting effective prompts, demonstrate how to build interactive probability and statistics lessons, and share specialized software, didactic strategies, and ready-to-use teaching materials. Participants will learn to mitigate hallucinations and biases, reimagine exercises and exams, teach students to critically assess AI output, and navigate the ethical and professional implications of generative AI for their graduates.
+
+Sign up today <https://instats.org/seminar/using-chatgpt-for-teaching-and-learning> and feel free to pass this opportunity along to colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Mon Jul  7 19:04:56 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Mon, 7 Jul 2025 19:04:56 +0200 (CEST)
+Subject: [R-sig-Epi] =?utf-8?q?Master_Quarto_CLI_=E2=80=93_New_Online_Cou?=
+ =?utf-8?q?rse_This_September!?=
+Message-ID: <1751907896.30064516@webmail.jimdo.com>
+
+
+Dear all,
+We?re excited to announce our upcoming online course: Mastering Quarto CLI: From Authoring to Publishing 18?19 September | 2?5 PM Berlin time
+ 
+This hands-on workshop will guide you through the Quarto ecosystem, helping you create reproducible documents and interactive publications. You?ll learn essential authoring skills, how to embed code, customize output formats, and publish professional reports and websites.
+ 
+ 
+Full details and registration: [ https://www.physalia-courses.org/courses-workshops/intro-to-quarto/ ]( https://www.physalia-courses.org/courses-workshops/intro-to-quarto/ ) 
+Best regards,
+ 
+Carlo
+ 
+ 
+ Carlo
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Wed Jul  9 07:37:51 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Wed, 9 Jul 2025 07:37:51 +0200 (CEST)
+Subject: [R-sig-Epi] =?utf-8?q?Species_Distribution_Modeling_with_Bayesia?=
+ =?utf-8?q?n_Additive_Regression_Tree_=28BART=29_Methods?=
+Message-ID: <1752039471.807830368@webmail.jimdo.com>
+
+
+Dear all,
+We?re excited to announce our new online course: Species Distribution Modeling with Bayesian Additive Regression Tree (BART) Methods
+
+Dates: 22?24 September 2025 - Live sessions: 15:00?18:00 (Berlin time) + guided self-practice
+ 
+This course introduces the use of BART models for species distribution modeling (SDM), highlighting their advantages over traditional machine learning approaches. Through a combination of lectures and hands-on exercises in R, participants will:
+
+Learn how BARTs work and why they excel in SDM
+
+Use the embarcadero and dbarts packages for model training, evaluation, and projection
+
+Explore predictor effects and project species presence across time or regions
+ 
+Registration and details: [ https://www.physalia-courses.org/courses-workshops/barts/ ]( https://www.physalia-courses.org/courses-workshops/barts/ )
+ 
+ 
+Best regards, Carlo
+ 
+ 
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Tue Jul 15 17:37:20 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Tue, 15 Jul 2025 16:37:20 +0100
+Subject: [R-sig-Epi] Introduction to Generalised Linear Models (GLME01)
+Message-ID: <CAEsSYzwyP=+B3mqbMNgKNXzSux94=AXH=Ay_-W0pU6XeWwT82A@mail.gmail.com>
+
+Introduction to Generalised Linear Models (GLME01)
+
+Are you working with disease counts, incidence rates, or binary health
+outcomes? Generalised Linear Models (GLMs) are a powerful and flexible
+statistical framework ideal for epidemiologists analysing real-world
+data?from infection presence to risk factor modelling.
+Who should attend?
+
+   -
+
+   Public health researchers modelling disease occurrence, prevalence, or
+   exposure data
+   -
+
+   Epidemiologists working with count or binary outcome data (e.g. cases
+   vs. controls, infected vs. uninfected)
+   -
+
+   Data analysts in health agencies or NGOs needing interpretable,
+   reproducible models
+   -
+
+   Postgraduate students or early-career professionals looking to
+   strengthen their statistical modelling in R
+
+What you'll learn
+
+   -
+
+   The theory and practical application of GLMs, including logistic
+   regression for binary outcomes and Poisson/negative binomial models for
+   counts
+   -
+
+   How to handle common epidemiological challenges like overdispersion,
+   zero-inflated data, and non-normal error structures
+   -
+
+   R implementation using the glm() function, with a strong focus on
+   interpretation, diagnostics, and communication of results
+
+ Course format
+
+   -
+
+   Live, online sessions, 10 days, 4 hours per day, with real-time
+   instruction and hands-on coding in R
+   -
+
+   All sessions recorded for flexible learning across time zones
+   -
+
+   Next session: September 8-12 & 15-19, 2025
+   -
+
+   Course fee: *First 10 places ?400* - Normal price ?450
+
+Prerequisites
+
+   -
+
+   Basic knowledge of R and RStudio (e.g., importing data, working with
+   data frames, and basic plotting)
+   -
+
+   Understanding of core statistical concepts like means, variance and
+   correlation.
+   -
+
+   No prior experience with GLMs required?all methods are taught from first
+   principles, focusing on application over theory
+
+------------------------------
+Apply statistical modelling with confidence in your epidemiological research
+
+Register or find out more on the PR stats course page or email
+oliverhooker at prstatistics.com.
+
+
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Wed Jul 16 19:06:44 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Wed, 16 Jul 2025 18:06:44 +0100
+Subject: [R-sig-Epi] Spatial Data Visualisation using TMAP
+Message-ID: <CAEsSYzy5257HSbJxU5H4qqHA7NfWJsMxp1hAPYbWJXCwchJQZA@mail.gmail.com>
+
+Spatial Data Visualisation using TMAP
+
+Visualise spatial data in R using the tmap package. Learn to create static
+and interactive maps, customise layouts, and publish high-quality
+visualisations.
+
+https://www.prstats.org/course/spatial-data-visualisation-using-tmap-tmap02/
+
+Duration:
+5 Days, 5 hours per day
+
+Next Date:
+September 8 ? 12, 2025
+
+Format:
+Live Online Format
+
+Course Description
+R statistical software is becoming increasingly popular for spatial
+analysis and visualization?and for good reason. It is reproducible,
+flexible, and supported by a vast ecosystem of R packages dedicated to
+spatial data. An essential part of working with spatial data is
+visualization, not only for communication but also for exploration and
+analysis. This in-depth course focuses on the R package tmap, one of the
+most widely used packages for spatial data visualization. The course covers
+all key steps, from reading spatial data to publishing high-resolution
+static maps or interactive maps that can be embedded in web articles and
+dashboards. Participants will work with essential spatial data packages in
+particular sf, terra, and stars. The course also addresses key
+methodological aspects of spatial data visualization, including map
+projections, selecting the most appropriate visualization method for a
+given task, and choosing color schemes that account for accessibility and
+cultural considerations. Innovative spatial visualization techniques are
+also explored via several tmap extension packages, including cartograms,
+glyph-based visualizations, and 3d maps.
+
+During the course will cover the following:
+
+   - Know how to use the core packages sf, terra, and stars to read and
+   process spatial data in R, including joining data sources and performing
+   geospatial data manipulations.
+   - Be able to use tmap for exploring, analysing, and presenting spatial
+   data.
+   - Create various types of thematic maps.
+   - Understand the methodological advantages and limitations of different
+   map types, enabling informed decisions based on data characteristics and
+   target users.
+   - Recognize key considerations when selecting a suitable colour palette.
+   - Be able to fine-tune map layouts in tmap, including adding map
+   components, customizing legends, and incorporating map insets.
+   - Know how to export maps in various static and interactive formats.
+   - Learn how to use tmap extension packages.
+
+Please email oliverhooker at prstatistics.com with any questions.
+
+Please book at this link
+https://www.prstats.org/course/spatial-data-visualisation-using-tmap-tmap02/
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Thu Jul 17 09:50:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Thu, 17 Jul 2025 07:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] Causality in Cross-Sectional and Panel Data -
+ livestream course
+Message-ID: <djGg0hqMSZ2RMwTb_SvumQ@geopod-ismtpd-3>
+
+Hi everyone
+
+Instats is pleased to present a comprehensive four?part course on Causality in Cross-Sectional and Panel Data <https://instats.org/course/panel-data-modeling-from-static-models-4924>, taught in collaboration with professors Jeffrey Wooldridge and Malvina Marchese. The series opens with Marchese?s two hands?on workshops: 'Panel Data Models and Methods' on July?21?22 and 'Advanced Panel Data Modeling' on August?4?5, where you?ll gain practical mastery of fixed? and random?effects estimation, nonlinear panel specifications, and strategies to address bias in longitudinal data. Later this summer, Professor Wooldridge will guide you through 'Causal Inference with Cross?Sectional Data', covering potential?outcomes notation, unconfoundedness and overlap, propensity?score and doubly?robust estimation, and advanced designs (instrumental variables, control?function, regression?discontinuity), followed by 'Difference?in?Differences Methods with Panel Data', which synthesizes causal?inference techniques with longitudinal analysis to estimate treatment effects when experiments aren?t possible. You may register for any seminar individually or enroll in the full four?part course to save 10%, with live streaming, 30 days of recordings, and dedicated instructor support included. 
+
+Sign up today <https://instats.org/course/panel-data-modeling-from-static-models-4924> to secure your spot, and please feel free to share this announcement with colleagues and students who would benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Fri Jul 18 12:25:13 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Fri, 18 Jul 2025 12:25:13 +0200 (CEST)
+Subject: [R-sig-Epi] =?utf-8?q?Online_Course_=E2=80=93_LLM-based_tools_fo?=
+ =?utf-8?q?r_R_=2828_=26_31_October_2025=29?=
+Message-ID: <1752834313.343542@webmail.jimdo.com>
+
+
+Dear all,
+We are pleased to announce our upcoming online course: INTEGRATING LARGE LANGUAGE MODEL TOOLS INTO OUR R WORKFLOWS
+ 
+Dates: 28 & 31 OctoberCourse website:[ https://www.physalia-courses.org/courses-workshops/llms-4-r/ ]( https://www.physalia-courses.org/courses-workshops/llms-4-r/ )
+ 
+ 
+This hands-on workshop will introduce participants to the fast-evolving ecosystem of LLM-based tools for R. You?ll learn how to incorporate AI assistants into your R workflows for more productive coding, data processing, and visualisation.
+ 
+ 
+By the end of the course, you will be able to:
+-  Integrate LLMs into your R workflow- Use AI tools to generate, document, and troubleshoot code-  Extract structured data from PDFs- Work with LLM-powered assistants inside your IDE
+ 
+Best regards,Carlo
+ 
+ 
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Sun Jul 20 16:08:50 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Sun, 20 Jul 2025 16:08:50 +0200 (CEST)
+Subject: [R-sig-Epi] Physalia upcoming online course: Analysing Biodiversity
+ Through Time and Space Using R
+Message-ID: <1753020530.094324643@webmail.jimdo.com>
+
+
+Dear all,
+there are only a few seats available for the Physalia upcoming online course: Analysing Biodiversity Through Time and Space Using R
+Dates: 18?22 August
+ 
+Course website: [ https://www.physalia-courses.org/courses-workshops/biodiversity-in-r/ ]( https://www.physalia-courses.org/courses-workshops/biodiversity-in-r/ )
+ 
+This hands-on course offers a comprehensive introduction to reproducible workflows for biodiversity data analysis in R. Participants will learn how to acquire, clean, and analyse palaeontological and neontological datasets to explore biodiversity across spatial and temporal scales.
+ 
+LEARNING OUTCOMES
+
+- Understanding of occurrence data for fossil and modern biodiversity: data structure, key databases and limitations.
+- Working knowledge of geographic information systems (GIS), chronostratigraphy, and palaeogeographic models in R
+- An overview of structuring of taxonomic diversity across space and through time, diversity/diversification rate metrics and the diversification process.
+- Understanding of sampling variation, the practical problems these pose for biodiversity analysis, and tools which can help alleviate these issues.
+- Appreciation for empirical patterns of diversity across geographic space and through geological time, and how to test hypotheses for these phenomena.
+Format:
+Each day includes live lectures and discussions from 15:00?18:00 (Berlin time), followed by self-paced practical exercises (~4 hrs/day). A pre-course R refresher will also be available.
+ 
+Best regards,
+Carlo
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Mon Jul 21 17:11:31 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Mon, 21 Jul 2025 17:11:31 +0200 (CEST)
+Subject: [R-sig-Epi] =?utf-8?q?Spatial_Statistics_with_R_=E2=80=93_Online?=
+ =?utf-8?q?_Course_=2817=E2=80=9321_November=29?=
+Message-ID: <1753110691.657716982@webmail.jimdo.com>
+
+
+Dear all,
+Registration is open for the Physalia online course: Spatial Statistics with R
+ 
+Dates: 17?21 NovemberCourse website: [ https://www.physalia-courses.org/courses-workshops/course62/ ]( https://www.physalia-courses.org/courses-workshops/course62/ )
+ 
+ 
+This course provides a practical introduction to spatial statistical methods using R, including:
+
+Point pattern and geostatistical analysis
+
+Spatial regression and mixed models
+
+Machine learning for spatial data
+
+Working with large spatial datasets and satellite imagery
+The course combines lectures with hands-on exercises using real-world data.
+ 
+ Full details and registration: [ https://www.physalia-courses.org/courses-workshops/spatial-statistics/ ]( https://www.physalia-courses.org/courses-workshops/spatial-statistics/ )
+
+ 
+Best regards,
+Carlo
+ 
+ 
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Tue Jul 22 14:35:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Tue, 22 Jul 2025 12:35:00 +0000 (UTC)
+Subject: [R-sig-Epi] AI Powered Web Apps with R Shiny - livestream seminar
+Message-ID: <S4S47YLzRYWKeWLjEU9y9Q@geopod-ismtpd-8>
+
+Hi everyone
+
+Instats is offering a 1-day seminar, AI Powered Web Apps with R Shiny <https://instats.org/seminar/ai-powered-web-apps-with-r-shiny>, livestreaming August 13th and led by Instats Research Fellow, Dr Fodil Ihaddaden. In an era where interactive, AI-driven tools are reshaping scholarly communication, this workshop equips PhD students, academics, and professional researchers with the skills to harness R Shiny alongside cutting-edge Large Language Models. Dr Ihaddaden will guide you through building and deploying dynamic web applications, configuring and integrating LLMs via the ellmer package, and creating AI-enhanced interfaces that streamline workflows, boost collaboration, and elevate the reach of your research. By the end of the day, participants with a basic grasp of Shiny and RStudio will have hands-on experience constructing an AI-powered app and publishing it on shinyapps.io?opening new avenues for data collection, dissemination, and audience engagement across disciplines.
+
+Sign up today <https://instats.org/seminar/ai-powered-web-apps-with-r-shiny> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Fri Jul 25 12:20:41 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Fri, 25 Jul 2025 12:20:41 +0200 (CEST)
+Subject: [R-sig-Epi] =?utf-8?q?Online_Course_=E2=80=93_Agent-Based_and_In?=
+ =?utf-8?q?dividual-Based_Modelling_Using_NetLogo_=2827_Oct=E2=80=937_Nov?=
+ =?utf-8?q?=29?=
+Message-ID: <1753438841.499116410@webmail.jimdo.com>
+
+
+Dear all,
+After two successful in-person editions, we are excited to announce that our popular course ?Agent-Based and Individual-Based Modelling Using NetLogo? will return in an online format, running from 27 October to 7 November.
+ 
+Course website: [ https://www.physalia-courses.org/courses-workshops/course52/ ]( https://www.physalia-courses.org/courses-workshops/course52/ ) 
+ 
+To foster broader international participation, this 10-day course will be held online, with daily live sessions from 15:00?18:00 (Europe) / 9:00?12:00 (EST). The format allows ample time each day for self-paced work on practical exercises, with support and guidance from the instructors throughout the course.
+ 
+This course is organised in collaboration with the NetLogo team and will be led by Prof. Volker Grimm and Prof. Steve Railsback, internationally recognised experts and authors in the field of agent-based modelling.
+Individual-based (or agent-based) models (IBMs/ABMs) are essential tools in understanding how complex system dynamics emerge from individual-level behaviour and interactions. They are widely used in ecological, social, and management sciences.
+This course will guide participants through the design, implementation, and evaluation of ABMs, with hands-on practice using NetLogo, a free, user-friendly platform developed specifically for ABMs.
+ 
+Participants will work on independent projects, culminating in presentations during the final days. No prior experience with NetLogo is required, but participants are encouraged to complete the built-in tutorials beforehand.
+ 
+Best regards,Carlo 
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Mon Jul 28 16:12:46 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Mon, 28 Jul 2025 15:12:46 +0100
+Subject: [R-sig-Epi] =?utf-8?q?Analyse_Ecological_Communities_with_Confid?=
+	=?utf-8?q?ence_=E2=80=93_Learn_VEGAN_in_R?=
+Message-ID: <CAEsSYzyUXVrDfBdNsh84iRLRV1WLzFxB_bV2FtQrQYguN6Yx0Q@mail.gmail.com>
+
+*Multivariate Tools for Ecologists ? Get to Grips with the Vegan Package*
+
+Want to analyse species composition, community structure, and ecological
+gradients?
+
+Join our in-depth course: *Multivariate Analysis Of Ecological Communities
+Using R With The VEGAN package (VGNR08)
+<https://www.prstats.org/course/multivariate-analysis-of-ecological-communities-using-r-with-the-vegan-package-vgnr08/>*
+
+*Course dates:* 15-19th September 2025
+
+*Location:* Live and Online
+Instructor: Dr. Antoine Becker-Scarpitta
+This course is designed for ecologists and environmental scientists who
+want to apply multivariate techniques using R?s*vegan* package. You?ll gain
+hands-on experience with the tools used to interpret species-environment
+relationships and community composition.
+
+Taught by expert instructors, you?ll learn to:
+
+   -
+
+   Understand the principles of multivariate analysis
+   -
+
+   Apply ordination methods (PCA, NMDS, CCA, RDA)
+   -
+
+   Work with dissimilarity matrices and ecological distance measures
+   -
+
+   Analyse species?environment relationships
+   -
+
+   Use vegan effectively for real-world datasets
+
+*Who should attend?*
+
+Field ecologists, biodiversity researchers, and community ecologists who
+already have some R experience and want to apply robust multivariate
+methods to ecological data.
+
+*Why join us?*
+
+Deepen your statistical toolkit, sharpen your interpretation of community
+data, and gain confidence in your analysis using vegan.
+
+*Spaces are limited ? reserve your place now.*
+
+ View full course details and register here
+<https://www.prstats.org/course/multivariate-analysis-of-ecological-communities-using-r-with-the-vegan-package-vgnr08/>
+
+Email oliverhooker at prstatitics.com with any questions
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Tue Jul 29 11:20:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Tue, 29 Jul 2025 09:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Robust Methods for Regression Modeling - livestream
+ seminar
+Message-ID: <TD18kBkITPix5VP_nNl5ng@geopod-ismtpd-12>
+
+Hi everyone
+
+Instats is excited to offer a 2-day seminar, Robust Methods for Regression Modeling <https://instats.org/seminar/robust-methods-for-regression-modeling>, running livestreaming August 13?15 and led by Professor Holmes Finch from the Department of Educational Psychology at Ball State University. Traditional regression techniques rest on assumptions?normality, linearity, homoscedasticity, and the absence of outliers?that real-world data rarely satisfy. This workshop equips you with cutting-edge robust and nonparametric approaches that safeguard your inferences when those assumptions crumble. Under Professor Finch?s expert guidance, you will explore the theory behind robust regression, learn to diagnose assumption violations, and implement state-of-the-art methods in R to handle outliers, heteroskedasticity, and non-linear relationships. Through a blend of concise lectures and hands-on coding with real datasets, you will compare robust and classical estimators, practice improving model fit and interpretation, and leave prepared to report rigorous, reproducible results in your publications. 
+
+Sign up today <https://instats.org/seminar/robust-methods-for-regression-modeling> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Tue Jul 29 19:44:08 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Tue, 29 Jul 2025 18:44:08 +0100
+Subject: [R-sig-Epi] Introduction to Generalised Linear Mixed Models for
+ Ecologists (MMIE01)
+Message-ID: <CAEsSYzxJNvNGB=6aed3MyYUqkCwvfaCYSMbtRvntWW-mmpJH7w@mail.gmail.com>
+
+*Course Title:* Introduction to Generalised Linear Mixed Models for
+Ecologists (MMIE01)
+https://www.prstats.org/course/introduction-to-generalised-linear-mixed-models-for-ecologists-mmie01/
+
+*Dates:* 22?26 September 2025
+*Format:* Live online (GMT+1) with recordings available for this who can't
+join live
+*Price:* ?400 early?bird (first 10 places), ?450 thereafter
+------------------------------
+Why Attend?
+
+Unlock powerful statistical tools tailored for ecological research:
+
+   -
+
+   Dive into *generalised linear mixed models (GLMMs)* to model complex
+   ecological datasets with hierarchical or grouped structure.
+   -
+
+   Learn to implement real-world analyses using *R packages including lme4
+   and brms*, including Bayesian methods.
+   -
+
+   Tackle count, binary, overdispersed, and zero-inflated data with ease.
+   -
+
+   Engage in *hands?on sessions*, workshops, and case studies?bring your
+   own data to practice.
+   -
+
+   Benefit from *post-course support* and 30-day access to session
+   recordings so you can catch up anytime.
+
+------------------------------
+Who Should Join?
+
+Designed for ecologists, early-career researchers, postgraduate students,
+and data analysts with basic R and statistical backgrounds:
+
+   -
+
+   Familiarity with R or RStudio basics, importing data, and simple linear
+   models is recommended.
+   -
+
+   Experience with exploratory data tools (e.g. dplyr, ggplot2) is
+   helpful?but not required.
+
+------------------------------
+What You'll Learn -
+
+Over five days (approx. 40 learning hours), you?ll explore:
+
+   1.
+
+   *The GLMM framework*: fixed vs. random effects, hierarchical structures
+   2.
+
+   *Practice in R*: fitting GLMMs via lme4, exploring Bayesian extensions
+   with brms
+   3.
+
+   *Model diagnostics*: checking assumptions, handling overdispersion,
+   understanding shrinkage and intraclass correlation
+   4.
+
+   *Advanced structures*: nested vs crossed random effects, group-level
+   predictors
+   5.
+
+   *Bayesian approaches*: how and when to use brms for complex ecological
+   data.
+
+
+   Please visit the course schedule
+   <https://www.prstats.org/course/introduction-to-generalised-linear-mixed-models-for-ecologists-mmie01/>
+   on the course webpage for a detailed outline of the topics covered.
+
+------------------------------
+Meet the Expert Instructors
+
+Led by seasoned ecologists-statisticians, *Dr Niamh?Mimnagh*, the course
+brings real-world experience at the intersection of ecology, epidemiology,
+and statistical methodology. Expect an engaging blend of theory,
+interactive workshops, and lively Q&A sessions.
+------------------------------
+Ready to Advance Your Analysis?
+
+Whether you're designing ecological field studies, managing wildlife
+monitoring data, or analyzing species distributions over space and
+time?this course equips you with practical expertise to unlock deeper
+insights from your data.
+
+Secure your place today and take your ecological modelling to the next
+level!
+
+
+Email oliverhooker at prstatistics.com with any questions
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Wed Jul 30 18:27:14 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Wed, 30 Jul 2025 17:27:14 +0100
+Subject: [R-sig-Epi] Advance Your Data Science Skills with Applied Spatial
+ and Spatial Temporal Modelling using R-INLA
+Message-ID: <CAEsSYzwyD=M+D=eBw9xO1Haaud_PDyVVSUzaJfsWZ-hLkNLqPg@mail.gmail.com>
+
+*Advance Your Data Science Skills with Applied Spatial and Spatial Temporal
+Modelling using R-INLA*
+
+Are you looking to take your spatial data analysis skills to the next level?
+
+Join our Spatial and Spatial-Temporal Modelling using R-INLA
+<https://www.prstats.org/course/spatial-and-spatial-temporal-modelling-using-r-inla-sstm02/>course,
+designed for researchers and data professionals working with spatial and
+spatiotemporal data in ecology, epidemiology, environmental science, and
+beyond.
+
+*Course dates:* 22-26 September 2025
+
+Led by *Prof. Virgilio G?mez Rubio*, a leading expert in Bayesian spatial
+modelling and author of *Bayesian Inference with INLA
+<https://www.routledge.com/Bayesian-inference-with-INLA/Gomez-Rubio/p/book/9781138039872>*,
+this 5-day course will give you hands-on experience with:
+
+   -
+
+   Building spatial and spatiotemporal models using the *INLA package in R*
+   -
+
+   Understanding model structures for real-world applications
+   -
+
+   Working with spatial datasets using real examples and guided exercises
+   -
+
+   Applying best practices for reproducible, interpretable analysis
+
+*Why attend?*
+
+Small group learning, direct access to an expert tutor, and practical
+sessions designed to build confidence in implementing these advanced
+methods.
+
+Whether you?re a PhD student, academic researcher, or industry analyst,
+this course will provide you with the skills and understanding to apply
+spatial modelling in your work immediately.
+
+*Places are limited ? book now to secure your spot.*
+
+Full course details and registration
+<https://www.prstats.org/course/spatial-and-spatial-temporal-modelling-using-r-inla-sstm02/>
+
+If you have any questions, contact Oliver Hooker at:
+*oliverhooker at prstatistics.com
+<oliverhooker at prstatistics.com>*
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Wed Jul 30 18:31:00 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Wed, 30 Jul 2025 17:31:00 +0100
+Subject: [R-sig-Epi] Model Species Distributions with Bayesian Statistics in
+ R | Online Course | 30 Sep - 2 Oc t
+Message-ID: <CAEsSYzytUj3j16EmK7br6JJLKCBdvzQ19-0GRc5SepXtkQN9OA@mail.gmail.com>
+
+*Master Bayesian Species Distribution Modelling ? Tailored for Ecologists*
+ONLINE COURSE ? Species Distribution Modelling With Bayesian Statistics
+Using R (SDMB07) This course will be delivered live
+<https://www.prstats.org/course/online-course-species-distribution-modelling-with-bayesian-statistics-using-r-sdmb07/>
+
+Ready to take your species distribution modelling to the next level?
+
+Join our advanced online course:
+
+*Species Distribution Modelling with Bayesian Statistics Using R*
+
+*Course dates:* 30th Sept to 2nd Oct 2025
+
+*Location:* Live and Online
+
+*Instructor: *Dr Marcia Barbosa
+
+This course introduces ecologists and environmental scientists to Bayesian
+approaches for species distribution modelling (SDM) using R. You?ll learn
+how to build, fit, and interpret SDMs using modern Bayesian tools and
+ecological datasets.
+
+Led by expert instructors, the course covers:
+
+   -
+
+   Bayesian model structure and thinking
+   -
+
+   Implementing SDMs in a Bayesian framework
+   -
+
+   Model fitting using R
+   -
+
+   Interpreting outputs and mapping predictions
+
+*Who should attend?*
+
+Ecologists, spatial analysts, and researchers with some experience in R and
+basic SDMs who want to build models using a Bayesian approach.
+
+*Why join us?*
+
+Gain cutting-edge tools for ecological modelling, strengthen your
+statistical understanding, and produce models that reflect the uncertainty
+and complexity of real-world systems.
+
+*Places are limited ? book early to secure your space.*
+
+View full course details and register here
+<https://www.prstats.org/course/online-course-species-distribution-modelling-with-bayesian-statistics-using-r-sdmb07/>
+
+Please email oliverhooker at prstatistics.com with any questions
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Thu Jul 31 13:50:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Thu, 31 Jul 2025 11:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] AI Powered Web Apps with Shiny - livestream seminar
+Message-ID: <Hk6kkoEKRAiYbGpveQvarQ@geopod-ismtpd-13>
+
+Hi everyone
+
+Learn how to use AI to display and collect data online: We still have a few spots left for this unique 1-day seminar, AI Powered Web Apps with R Shiny <https://instats.org/seminar/ai-powered-web-apps-with-r-shiny>, running livestreaming on Aug 13th and led by Dr Fodil Ihaddaden from the Institute for Statistical and Data Science. This hands-on workshop empowers PhD students, academics, and professional researchers to combine the flexibility of R Shiny with cutting-edge generative AI, demonstrating how Large Language Models can be configured with the ellmer package, integrated seamlessly into Shiny apps, and deployed to shinyapps.io. By the end of the day, participants will have the know-how to build interactive, AI-infused web applications that enhance research dissemination, collaboration, and data collection?extending the impact of their work across disciplines.
+
+Sign up today <https://instats.org/seminar/ai-powered-web-apps-with-r-shiny> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+

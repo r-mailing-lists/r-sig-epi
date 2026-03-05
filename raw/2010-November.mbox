@@ -1,0 +1,372 @@
+From khanamirmaroof at gmail.com  Sat Nov 27 06:30:44 2010
+From: khanamirmaroof at gmail.com (Dr Khan Amir Maroof)
+Date: Sat, 27 Nov 2010 11:00:44 +0530
+Subject: [R-sig-Epi] help
+Message-ID: <AANLkTinz+q80DEmBSqg+WJ0Ji+vUG=LhMMm8D1gZFWn_@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101127/a750e98c/attachment.pl>
+
+From bxc at steno.dk  Sun Nov 28 08:17:14 2010
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Sun, 28 Nov 2010 08:17:14 +0100
+Subject: [R-sig-Epi] help
+In-Reply-To: <AANLkTinz+q80DEmBSqg+WJ0Ji+vUG=LhMMm8D1gZFWn_@mail.gmail.com>
+References: <AANLkTinz+q80DEmBSqg+WJ0Ji+vUG=LhMMm8D1gZFWn_@mail.gmail.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3302B665CCCA@exdkmbx002.corp.novocorp.net>
+
+It sounds as if you are looking for something like
+
+newvar <- as.numeric(var1=="yes")
+
+or
+
+newvar <- as.numeric(var1==1)
+
+depending on whether var1 is numeric or character.
+
+Best regards,
+Bendix Carstensen
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at r-project.org 
+> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Dr Khan 
+> Amir Maroof
+> Sent: 27. november 2010 16:31
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] help
+> 
+> Sir,
+> 
+> Its wonderful to start using this software R. I am making 
+> full efforts to learn it on my own with the help of the free 
+> online manuals available. I am using epicalc package in R. I 
+> have a dataset where i want to apply conditions like... if 
+> var1 is yes or 1, assign 1 to it or else 0. Can you help me 
+> with this problem?
+> 
+> Thanking you,
+> 
+> --
+> Dr. Khan Amir Maroof,
+> Lecturer,
+> Department of Community Medicine,
+> University College of Medical Sciences & GTB Hospital, Delhi
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+From bxc at steno.dk  Mon Nov 29 08:26:08 2010
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Mon, 29 Nov 2010 08:26:08 +0100
+Subject: [R-sig-Epi] help
+In-Reply-To: <AANLkTin87TAbpjOhg=-=v7SSzTkJN+AFy=PZYvRb5JM4@mail.gmail.com>
+References: <AANLkTinz+q80DEmBSqg+WJ0Ji+vUG=LhMMm8D1gZFWn_@mail.gmail.com>
+	<2F73FA3AF524144C863B7C2C903DBC3302B665CCCA@exdkmbx002.corp.novocorp.net>
+	<AANLkTinos5tKE-DfaZU1xrXYdVssxGzDNvg1T1qfEfAM@mail.gmail.com>
+	<2F73FA3AF524144C863B7C2C903DBC3302B665CD11@exdkmbx002.corp.novocorp.net>
+	<AANLkTin87TAbpjOhg=-=v7SSzTkJN+AFy=PZYvRb5JM4@mail.gmail.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3302B665CD9E@exdkmbx002.corp.novocorp.net>
+
+Dear Khan,
+I am afraid that the help list is not an online-course.
+The questions you ask are too general for this forum, they would be suitable for a teacher at an appropriate course in epidemidological methods.
+
+For introduction to very basics of R in epidemiology you may benefit from the
+"Workbook introduction to R", see, http://www.mhills.pwp.blueyonder.co.uk/Rwork_book.html
+
+Best regards,
+Bendix Carstensen 
+
+> -----Original Message-----
+> From: Dr Khan Amir Maroof [mailto:khanamirmaroof at gmail.com] 
+> Sent: 29. november 2010 15:55
+> To: BXC (Bendix Carstensen)
+> Subject: Re: [R-sig-Epi] help
+> 
+> Sir,
+>  
+> I want to know how to write the command for this problem.
+>  
+> I have entered the data in epidata and the variables are: 
+> age, hadwateryesterday, hadthinporridgeyesterday.
+> age is a numeric variable containing numbers 0-23 months.
+> the other two variables are factor variables: having 0 for 
+> no, 1 for yes and 8 for don't know
+>  
+> how to write command if i want to get the following 
+> descriptive statistics:
+> proportion of children less than 6 months for whom 
+> hadwateryesterday and hadthinporridgeyesterday is 0.
+>  
+> I think in my last email, I was not able to explain my 
+> problem correctly.
+> Also I am a novice in using R, so my questions are very basic 
+> as I have to master first how to write correct commands.
+>  
+> Thanks for your help.
+> 
+> 
+>  
+> On Mon, Nov 29, 2010 at 1:42 AM, BXC (Bendix Carstensen) 
+> <bxc at steno.dk> wrote:
+> 
+> 
+> 	You make a three-way table to see how breastfeeding 
+> varies with the two others.
+> 	You could also analyse by logistic regression.
+> 	
+> 	Best regards,
+> 	Bendix
+> 	
+> 
+> 	> -----Original Message-----
+> 	> From: Dr Khan Amir Maroof [mailto:khanamirmaroof at gmail.com]
+> 	> Sent: 29. november 2010 03:57
+> 	> To: BXC (Bendix Carstensen)
+> 	> Subject: Re: [R-sig-Epi] help
+> 	>
+> 	> thanx for your reply.
+> 	>
+> 	> i m posting my original problem. i hv a variables: 'age' in
+> 	> completed months frm 0 to 23; 'took water yesterday' as 1 for
+> 	> yes, 2 for no and 8 for don't know; 'took thin porridge
+> 	> yesterday' as 1 for yes, 2 for no and 8 for don't know. now i
+> 	> hv to find out this: if took water yesterday or took thin
+> 	> porridge yesterday by children less than 6 months of age,
+> 	> then they are not exclusively breastfed, whereas if not taken
+> 	> any of these yesterday then they are exclusively breastfed.
+> 	>
+> 	> kindly let me know how to do this in R or epicalc.
+> 	>
+> 	> thanking you.
+> 	>
+> 	>
+> 	> On Sun, Nov 28, 2010 at 12:47 PM, BXC (Bendix Carstensen)
+> 	> <bxc at steno.dk> wrote:
+> 	>
+> 	>
+> 	>       It sounds as if you are looking for something like
+> 	>
+> 	>       newvar <- as.numeric(var1=="yes")
+> 	>
+> 	>       or
+> 	>
+> 	>       newvar <- as.numeric(var1==1)
+> 	>
+> 	>       depending on whether var1 is numeric or character.
+> 	>
+> 	>       Best regards,
+> 	>       Bendix Carstensen
+> 	>
+> 	>
+> 	>       > -----Original Message-----
+> 	>       > From: r-sig-epi-bounces at r-project.org
+> 	>       > [mailto:r-sig-epi-bounces at r-project.org] On 
+> Behalf Of Dr Khan
+> 	>       > Amir Maroof
+> 	>       > Sent: 27. november 2010 16:31
+> 	>       > To: r-sig-epi at stat.math.ethz.ch
+> 	>       > Subject: [R-sig-Epi] help
+> 	>       >
+> 	>       > Sir,
+> 	>       >
+> 	>       > Its wonderful to start using this software R. 
+> I am making
+> 	>       > full efforts to learn it on my own with the 
+> help of the free
+> 	>       > online manuals available. I am using epicalc 
+> package in R. I
+> 	>       > have a dataset where i want to apply 
+> conditions like... if
+> 	>       > var1 is yes or 1, assign 1 to it or else 0. 
+> Can you help me
+> 	>       > with this problem?
+> 	>       >
+> 	>       > Thanking you,
+> 	>       >
+> 	>       > --
+> 	>       > Dr. Khan Amir Maroof,
+> 	>       > Lecturer,
+> 	>       > Department of Community Medicine,
+> 	>       > University College of Medical Sciences & GTB 
+> Hospital, Delhi
+> 	>       >
+> 	>
+> 	>       >       [[alternative HTML version deleted]]
+> 	>       >
+> 	>       > _______________________________________________
+> 	>       > R-sig-Epi at r-project.org mailing list
+> 	>       > https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 	>       >
+> 	>
+> 	>
+> 	>
+> 	>
+> 	> --
+> 	> Dr. Khan Amir Maroof,
+> 	> Lecturer,
+> 	> Department of Community Medicine,
+> 	> University College of Medical Sciences & GTB Hospital, Delhi
+> 	> www.teachingcommunitymedicine.blogspot.com 
+> <http://www.teachingcommunitymedicine.blogspot.com/> 
+> 	>
+> 	>
+> 	> 
+> 
+> 
+> 
+> 
+> --
+> Dr. Khan Amir Maroof,
+> Lecturer,
+> Department of Community Medicine,
+> University College of Medical Sciences & GTB Hospital, Delhi 
+> www.teachingcommunitymedicine.blogspot.com 
+> <http://www.teachingcommunitymedicine.blogspot.com/> 
+> 
+> 
+> 
+
+From diegogarcilazo at gigared.com  Mon Nov 29 22:36:21 2010
+From: diegogarcilazo at gigared.com (Diego Garcilazo)
+Date: Mon, 29 Nov 2010 18:36:21 -0300
+Subject: [R-sig-Epi] Frequencies like Epiinfo
+Message-ID: <000301cb900d$76f392c0$64dab840$@gigared.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101129/0ee90c61/attachment.pl>
+
+From diegogarcilazo at gigared.com  Mon Nov 29 22:36:21 2010
+From: diegogarcilazo at gigared.com (Diego Garcilazo)
+Date: Mon, 29 Nov 2010 18:36:21 -0300
+Subject: [R-sig-Epi] Frequencies like Epiinfo
+Message-ID: <000301cb900d$76f392c0$64dab840$@gigared.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101129/0ee90c61/attachment-0001.pl>
+
+From bxc at steno.dk  Mon Nov 29 23:55:04 2010
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Mon, 29 Nov 2010 23:55:04 +0100
+Subject: [R-sig-Epi] Frequencies like Epiinfo
+In-Reply-To: <000301cb900d$76f392c0$64dab840$@gigared.com>
+References: <000301cb900d$76f392c0$64dab840$@gigared.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3302B665D265@exdkmbx002.corp.novocorp.net>
+
+Inside the function twoby2 from the Epi-package you will find a small locally defined function that gives you confidence intervals for proportions that are better than those you compute, which occasionally will give limits outside (0,1). 
+This one is based on the logit approximation, and is what you get if you used a logistic regression to estimate the proportions:
+
+bin.ci <- 
+function(x, n) 
+{
+  ef <- exp(qnorm(1 - alpha/2)/sqrt(x * (n - x)/n))
+  p <- x/n
+  c( p, p/(p + (1 - p) * ef), p/(p + (1 - p)/ef))
+}
+
+Best regards,
+Bendix Carstensen
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at r-project.org 
+> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Diego Garcilazo
+> Sent: 30. november 2010 08:36
+> To: r-sig-epi at stat.math.ethz.ch; r-sig-epi at r-project.org
+> Subject: [R-sig-Epi] Frequencies like Epiinfo
+> 
+> 
+>  
+> 
+> I am trying to make a function that works like the command 
+> Frequencies of Epiinfo. I am a beginner user and I make 
+> something like this:
+> 
+>  
+> 
+> freq<-function(x){
+> 
+> Frecuencia<-table(x,exclude=NULL);
+> 
+> Porcentaje<-as.vector(round(prop.table(table(x,exclude=NULL)),2));
+> 
+> Porc<-as.vector(round(prop.table(table(x,exclude=NULL))*100,1));
+> 
+> Acumulado<-cumsum(Porc);
+> 
+> IC95.Sup<-round(as.vector(Porc+196*sqrt(Porcentaje*(1-Porcenta
+je)/sum(Frecue
+> ncia))),1);
+> 
+> IC95.Inf<-round(as.vector(Porc-196*sqrt(Porcentaje*(1-Porcenta
+je)/sum(Frecue
+> ncia))),1);
+> 
+> matrix(
+> 
+> c(Frecuencia,sum(Frecuencia),Porc,round(sum(Porc),1),
+> 
+> Acumulado,NA,IC95.Inf,NA,IC95.Sup,NA),length(Frecuencia)+1,5,
+> 
+> dimnames=list(c(labels(Frecuencia)[[1]],"Total"),c("Frecuencia
+> ","Porcentaje"
+> ,"Acumulado","[IC--","--95%]"))
+> 
+> );
+> 
+> }
+> 
+>  
+> 
+> There is a way more efficient to create a function like this?
+> 
+> there is a way to make it more visually - friendly adding 
+> something like
+> -------------- that stat.table does?
+> 
+> How can I add an argument like missing=T that show NA's and 
+> missing=F that exclude Na's??
+> 
+>  
+> 
+> Thanks in advance. 
+> 
+>  
+> 
+> Diego. 
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+

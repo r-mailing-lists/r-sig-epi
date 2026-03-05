@@ -1,0 +1,184 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2010-10",
+  "messages": [
+    {
+      "id": "msg-40890bad76c1",
+      "message_id": "<7D546519E38F5D49ABAA8D75B4195282E4ED6076F4@ESTES.ucdenver.pvt>",
+      "from_name": "Rosenberg, Steven",
+      "from_email_hash": "4ef57272704e99289c54fae4687cb86e91bab30a88199df95605e1ca6c672334",
+      "date": "2010-10-08T12:21:18-06:00",
+      "subject": "[R-sig-Epi] mvtnorm -- rates of occurence",
+      "subject_clean": "mvtnorm -- rates of occurence",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101008/82c7bd2e/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101008/82c7bd2e/attachment.pl>",
+      "thread_id": "thread-40890bad76c1",
+      "thread_depth": 0,
+      "month": "2010-10"
+    },
+    {
+      "id": "msg-a89032dc6a3c",
+      "message_id": "<AANLkTik2H-u-VnojG+tmgT4S9H1S3G7Ax3KbE0qx7zq3@mail.gmail.com>",
+      "from_name": "Erik Lampa",
+      "from_email_hash": "76c82077492c40ca5d6c514edbade1a8afd2fef0621cce19048b30cef93d087e",
+      "date": "2010-10-13T11:10:46+02:00",
+      "subject": "[R-sig-Epi] Competing risks with time-varying covariates",
+      "subject_clean": "Competing risks with time-varying covariates",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear list,\n\nThis is a somewhat off-topic question as I don't have a specific issue\nwith an R-function, but rather seek advice on how to proceed with my\nanalyses.\n\nI have survival data on approximately 2000 subjects followed for about\n35 years. The subjects had their first medical examination at the age\nof 50 and were examined almost every 10th year after that, so the data\nis in long form with multiple records per subject.\n\nThe event of interest now is cardiovascular mortality with mortality\nfrom other causes being a competing event. I consider myself a novice\nwhen it comes to analysis of these kinds of data, so as far as I\nunderstand estimating the survival function is not of much use as I\nhave time-varying covariates. I therefore turned my attention to the\nPoisson representation of the Cox model. I have created a dataset with\nyearly increments of time (with age as the time-scale) using the Lexis\nand splitLexis functions in the Epi package v. 1.1.17. Additionaly the\ndataset has been duplicated and the status variable changed according\nto type of event. The main issue for me now is the interpretation of\nthe effects. My model looks like this:\n\nmymodel <- glm(status ~ type*( bs(age, 3)*( ... covariates\n...))+offset(log(duration)), family=poisson(), data = mydata)\n\nwhere status is a dummy for event / no event and type =  the type of\nevent. My intention is to model the effect of the covariates and age\non the type of event (the type * rest interaction) and allow for\npossible time-dependent effects of the (time-varying) covariates (the\nage * covariates interaction).\n\nMy question is whether one can estimate age-specific incidence rates\nfor some values of the covariates this way? (for example. the\nincidence rates for cardiovascular mortality among males aged 50 are\nx% y% and z% and among males aged 60 a% b% and c% for bmi values of\n25, 30 and 35 ...)\n\nThank you for your time. /Erik",
+      "body_snippet": "Dear list,\n\nThis is a somewhat off-topic question as I don't have a specific issue\nwith an R-function, but rather seek advice on how to proceed with my\nanalyses.\n\nI have survival data on approximately",
+      "thread_id": "thread-a89032dc6a3c",
+      "thread_depth": 0,
+      "month": "2010-10"
+    },
+    {
+      "id": "msg-2a39b019a0db",
+      "message_id": "<874660.52882.qm@web112515.mail.gq1.yahoo.com>",
+      "from_name": "Suman Kundu",
+      "from_email_hash": "32844e374bd47eaa1bbcd8f36015fbe68c923664b5cdfcef112ebb8c6298e80d",
+      "date": "2010-10-27T01:48:52-07:00",
+      "subject": "[R-sig-Epi] Kindly help me of applicability of PLSR method for binary outcome variable",
+      "subject_clean": "Kindly help me of applicability of PLSR method for binary outcome variable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/b219e746/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/b219e746/attachment.pl>",
+      "thread_id": "thread-2a39b019a0db",
+      "thread_depth": 0,
+      "month": "2010-10"
+    },
+    {
+      "id": "msg-1910ee1ac0c4",
+      "message_id": "<AANLkTikrCroSksSPiGEoeLQLjR1kWuNfsg88b2LHRx=U@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2010-10-27T08:35:59-03:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 46, Issue 3",
+      "subject_clean": "R-sig-Epi Digest, Vol 46, Issue 3",
+      "in_reply_to": "<mailman.5.1288173602.27526.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.5.1288173602.27526.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/1d1b1b84/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/1d1b1b84/attachment.pl>",
+      "thread_id": "thread-1910ee1ac0c4",
+      "thread_depth": 0,
+      "month": "2010-10"
+    },
+    {
+      "id": "msg-33804c21bfb5",
+      "message_id": "<4CC92CC5.4010804@ngs.ru>",
+      "from_name": "Екатерина Кудрявцева",
+      "from_email_hash": "44aa69bf5dbce6e77f541465bb7fc6d255875a6f3dce23c696b178138c8f0468",
+      "date": "2010-10-28T14:56:53+07:00",
+      "subject": "[R-sig-Epi] Reference group in logistic regression analysis",
+      "subject_clean": "Reference group in logistic regression analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "To someone who could help me:\n\nI am a PhD student, working in the Novosibirsk University, Russia. I\nam now using glm() function to do logistic regression analysis.\nI cannot understand how the chosen reference group. For example, for the\nthree genotypes of GG, GC, CC I want to be risk assessed in relation to\nthe genotype CC, but the program selects the genotype GG. How do I\nchange the reference group?\n\n\nThanks for your time.\nBest wishes,\nEkaterina Kudryavtseva\nPhD student,\nDepartment of Molecular Biology\nNovosibirsk University\nTel: +7-923-185-82-47",
+      "body_snippet": "To someone who could help me:\n\nI am a PhD student, working in the Novosibirsk University, Russia. I\nam now using glm() function to do logistic regression analysis.\nI cannot understand how the chosen r",
+      "thread_id": "thread-33804c21bfb5",
+      "thread_depth": 0,
+      "month": "2010-10"
+    },
+    {
+      "id": "msg-773ece0c3b65",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B648DAF5@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2010-10-28T11:07:11+02:00",
+      "subject": "[R-sig-Epi] Reference group in logistic regression analysis",
+      "subject_clean": "Reference group in logistic regression analysis",
+      "in_reply_to": "<4CC92CC5.4010804@ngs.ru>",
+      "references": [
+        "<4CC92CC5.4010804@ngs.ru>"
+      ],
+      "body_plain": "You presumably have your genotype variable coded as a factor; check by saying:\n\n> str( gentp )\n\n(or whatever your variable is called)\n \nThe default in glm is to use the first level as reference. But you can reorder the levels usuing the relevel() command, so you just do:\n\n> glm( y ~ relevel(gentp,3) + ...., familily=binomial )\n\nYou can explore furtehr by trying:\n\n> str( relevel(gento,3) )\n\nIn Epi there is slightly more versatile function called Relevel, which also allows\n\n > str( Relevel(gento,c(3,2)) )\n\nwhich in some sence would be more natural.\n\n\nBest regards,\nBendix\n_________________________________________\n\nBendix Carstensen \nSenior Statistician\nSteno Diabetes Center A/S\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk    www.biostat.ku.dk/~bxc\nwww.steno.dk\n\n\n-----Original Message-----\nFrom: r-sig-epi-bounces at stat.math.ethz.ch [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of ????????? ??????????\nSent: 28. oktober 2010 09:57\nTo: r-sig-epi at stat.math.ethz.ch\nSubject: [R-sig-Epi] Reference group in logistic regression analysis\n\nTo someone who could help me:\n\nI am a PhD student, working in the Novosibirsk University, Russia. I am now using glm() function to do logistic regression analysis.\nI cannot understand how the chosen reference group. For example, for the three genotypes of GG, GC, CC I want to be risk assessed in relation to the genotype CC, but the program selects the genotype GG. How do I change the reference group?\n\n\nThanks for your time.\nBest wishes,\nEkaterina Kudryavtseva\nPhD student,\nDepartment of Molecular Biology\nNovosibirsk University\nTel: +7-923-185-82-47\n\n_______________________________________________\nR-sig-Epi at stat.math.ethz.ch mailing list https://stat.ethz.ch/mailman/listinfo/r-sig-epi",
+      "body_snippet": "You presumably have your genotype variable coded as a factor; check by saying:\n\n> str( gentp )\n\n(or whatever your variable is called)\n \nThe default in glm is to use the first level as reference. But y",
+      "thread_id": "thread-33804c21bfb5",
+      "thread_depth": 1,
+      "month": "2010-10"
+    },
+    {
+      "id": "msg-67be78c735d9",
+      "message_id": "<AANLkTikS3Ot-VArzXiZJpf_7X1fJ=c=Ot_31RA3vKR-S@mail.gmail.com>",
+      "from_name": "Jeremy Hetzel",
+      "from_email_hash": "ac69309e6ea2899c25c53dc06bc64e0bb40dbfe012dc044c9d1440a11b7071b0",
+      "date": "2010-10-28T08:44:48-04:00",
+      "subject": "[R-sig-Epi] Reference group in logistic regression analysis",
+      "subject_clean": "Reference group in logistic regression analysis",
+      "in_reply_to": "<4CC92CC5.4010804@ngs.ru>",
+      "references": [
+        "<4CC92CC5.4010804@ngs.ru>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101028/c8259810/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101028/c8259810/attachment.pl>",
+      "thread_id": "thread-33804c21bfb5",
+      "thread_depth": 1,
+      "month": "2010-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-40890bad76c1",
+      "subject": "mvtnorm -- rates of occurence",
+      "message_count": 1,
+      "participants": [
+        "Rosenberg, Steven"
+      ],
+      "started": "2010-10-08T12:21:18-06:00",
+      "last_reply": "2010-10-08T12:21:18-06:00",
+      "root_message_id": "msg-40890bad76c1"
+    },
+    {
+      "id": "thread-a89032dc6a3c",
+      "subject": "Competing risks with time-varying covariates",
+      "message_count": 1,
+      "participants": [
+        "Erik Lampa"
+      ],
+      "started": "2010-10-13T11:10:46+02:00",
+      "last_reply": "2010-10-13T11:10:46+02:00",
+      "root_message_id": "msg-a89032dc6a3c"
+    },
+    {
+      "id": "thread-2a39b019a0db",
+      "subject": "Kindly help me of applicability of PLSR method for binary outcome variable",
+      "message_count": 1,
+      "participants": [
+        "Suman Kundu"
+      ],
+      "started": "2010-10-27T01:48:52-07:00",
+      "last_reply": "2010-10-27T01:48:52-07:00",
+      "root_message_id": "msg-2a39b019a0db"
+    },
+    {
+      "id": "thread-1910ee1ac0c4",
+      "subject": "R-sig-Epi Digest, Vol 46, Issue 3",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2010-10-27T08:35:59-03:00",
+      "last_reply": "2010-10-27T08:35:59-03:00",
+      "root_message_id": "msg-1910ee1ac0c4"
+    },
+    {
+      "id": "thread-33804c21bfb5",
+      "subject": "Reference group in logistic regression analysis",
+      "message_count": 3,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Jeremy Hetzel",
+        "Екатерина Кудрявцева"
+      ],
+      "started": "2010-10-28T14:56:53+07:00",
+      "last_reply": "2010-10-28T08:44:48-04:00",
+      "root_message_id": "msg-33804c21bfb5"
+    }
+  ]
+}

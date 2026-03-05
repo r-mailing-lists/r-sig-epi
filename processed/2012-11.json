@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2012-11",
+  "messages": [
+    {
+      "id": "msg-24d03176fc98",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3303203711DF@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2012-11-06T08:24:33+01:00",
+      "subject": "[R-sig-Epi] Epi version 1.1.40 is now available",
+      "subject_clean": "Epi version 1.1.40 is now available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nAn updated version, 1.1.40, of Epi is now available on CRAN.\n\nA number of small bugs have been fixed; the main amendments are:\n\neffx now allows RR for binary data (via the log-link for binomial outcome) and RD for follow-up date (via the identity link for Poisson data). Existing code will work exactly as before.\n\nRelevel.Lexis now facilitates merging of states in a multistate Lexis object.\n\nb.r.\nBendix Carstensen\nPackage maintainer\n\n______________________________________________\n\nBendix Carstensen \nSenior Statistician\nEpidemiology\nSteno Diabetes Center A/S\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk    http://BendixCarstensen.com\nwww.steno.dk",
+      "body_snippet": "Dear all,\nAn updated version, 1.1.40, of Epi is now available on CRAN.\n\nA number of small bugs have been fixed; the main amendments are:\n\neffx now allows RR for binary data (via the log-link for binom",
+      "thread_id": "thread-24d03176fc98",
+      "thread_depth": 0,
+      "month": "2012-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-24d03176fc98",
+      "subject": "Epi version 1.1.40 is now available",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2012-11-06T08:24:33+01:00",
+      "last_reply": "2012-11-06T08:24:33+01:00",
+      "root_message_id": "msg-24d03176fc98"
+    }
+  ]
+}

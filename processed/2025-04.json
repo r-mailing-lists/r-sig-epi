@@ -1,0 +1,333 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2025-04",
+  "messages": [
+    {
+      "id": "msg-bc126879a27c",
+      "message_id": "<xijAH83bSC2vYjSfGT6b5A@geopod-ismtpd-canary-0>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-04-01T05:35:00Z",
+      "subject": "[R-sig-Epi] Nonlinear Time Series Analyses (Part II) - Livestream Seminar",
+      "subject_clean": "Nonlinear Time Series Analyses (Part II) - Livestream Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer the advanced seminar, Nonlinear Time Series Analyses (Part II) <https://instats.org/seminar/nonlinear-time-series-analyses-part-ii>, running April 21?24 withpProfessor Bernard Ricca. This 4-day workshop dives into cutting-edge methodologies for analyzing time-dependent data using R. Designed for PhD students, academics, and professional researchers, the seminar covers advanced topics such as sparse identification of nonlinear dynamics (SINDy), dynamic mode decomposition, hidden Markov models, multilevel modeling, and dynamical systems analysis. Participants will also explore introductory machine learning techniques for nonlinear time series, engage with real-world case studies, and learn best practices for modeling and interpreting complex systems under a nonlinear state space framework.\n\nSign up today <https://instats.org/seminar/nonlinear-time-series-analyses-part-ii> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer the advanced seminar, Nonlinear Time Series Analyses (Part II) <https://instats.org/seminar/nonlinear-time-series-analyses-part-ii>, running April 21?24 withpP",
+      "thread_id": "thread-bc126879a27c",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-6bc390b9e41b",
+      "message_id": "<b1c2aHSRT12R6gHTdk6bXg@geopod-ismtpd-8>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-04-02T16:20:00Z",
+      "subject": "[R-sig-Epi] Exploratory Data Analysis in R with Tidyverse - Livestream Seminar",
+      "subject_clean": "Exploratory Data Analysis in R with Tidyverse - Livestream Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 2-day seminar, Exploratory Data Analysis in R with Tidyverse <https://instats.org/seminar/exploratory-data-analysis-in-r-with-tidy3>, running April 22 and 24 with Professor Chester Ismay from Portland State University. In today's data-driven world, mastering EDA is essential for uncovering patterns, identifying trends, and detecting anomalies within your datasets. In this workshop, you?ll learn to harness the power of R and the Tidyverse suite?dplyr, tidyr, ggplot2, stringr, forcats, lubridate, purrr, and plotly?to clean, organize, and visualize data in a reproducible and impactful way. Designed for PhD students, academics, and professional researchers, the seminar combines theory with hands-on practice using real-world datasets, empowering you to transform raw data into actionable insights and create publication-ready visualizations.\n\nSign up today <https://instats.org/seminar/exploratory-data-analysis-in-r-with-tidy3> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 2-day seminar, Exploratory Data Analysis in R with Tidyverse <https://instats.org/seminar/exploratory-data-analysis-in-r-with-tidy3>, running April 22 and 24",
+      "thread_id": "thread-6bc390b9e41b",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-3aa914adae47",
+      "message_id": "<-C6xufUzSdWYN55X-W1LDg@geopod-ismtpd-11>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-04-08T17:20:00Z",
+      "subject": "[R-sig-Epi] Machine Learning for Complex Datasets with ChatGPT - Livestream Seminar",
+      "subject_clean": "Machine Learning for Complex Datasets with ChatGPT - Livestream Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Machine Learning for Complex Datasets with ChatGPT <https://instats.org/seminar/machine-learning-for-complex-datasets-wi>, running April 30 and led by Professor Nikolay Oskolkov from Molecular Biosciences, Lund University. In this cutting-edge workshop, you'll discover how to leverage machine learning techniques in R and Python alongside AI tools like ChatGPT to analyze and interpret complex datasets. Designed for PhD students, academics, and professional researchers, this seminar combines theoretical insights with hands-on coding sessions to help you build and optimize models?from neural networks and random forests to clustering algorithms and MCMC methods. Enhance your analytical capabilities with practical exercises and real-world case studies that demonstrate how to troubleshoot, fine-tune, and ethically apply machine learning models to your research.\n\nSign up today <https://instats.org/seminar/machine-learning-for-complex-datasets-wi> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Machine Learning for Complex Datasets with ChatGPT <https://instats.org/seminar/machine-learning-for-complex-datasets-wi>, running April 30 an",
+      "thread_id": "thread-3aa914adae47",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-b60352e5ce79",
+      "message_id": "<iWb1fQSMRkeb_eOqEKjb2w@geopod-ismtpd-15>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-04-13T04:50:00Z",
+      "subject": "[R-sig-Epi] Analysis of RNA-Seq Data - Livestream Seminar",
+      "subject_clean": "Analysis of RNA-Seq Data - Livestream Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance to sign up for the new 6-day seminar, Analysis of RNA-Seq Data <https://instats.org/seminar/analysis-of-rna-seq-data>, running once per week from April 17 to May 22, being led by senior biostatistician Dr. Rosina Savisaar. This comprehensive workshop demystifies the RNA-seq analysis pipeline by focusing on data analysis and interpretation, fostering an intuitive practical understanding of key concepts. You?ll gain hands-on experience with data visualization in genome browsers and R, learn descriptive statistics (such as RPKM, FPKM, TPM, and L2FC), and explore advanced techniques including hierarchical clustering with heatmaps, Principal Component Analysis, differential gene expression analysis using DESeq2, and functional enrichment methods like over-representation analysis and Gene Set Enrichment Analysis. Ideal for researchers new to gene expression analysis or those seeking deeper insights into RNA-seq methodologies, this seminar uses real-world datasets (including a reanalysis of a schizophrenia study) to reinforce learning through interactive weekly Zoom sessions.\n\nSign up today <https://instats.org/seminar/foundations-of-statistical-analysis-in-r> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance to sign up for the new 6-day seminar, Analysis of RNA-Seq Data <https://instats.org/seminar/analysis-of-rna-seq-data>, running once per week from April 17 to May 22, being led",
+      "thread_id": "thread-b60352e5ce79",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-aef52e7db2e7",
+      "message_id": "<ROpYcO3OS8KAuvHxHBl-XQ@geopod-ismtpd-12>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-04-16T19:20:00Z",
+      "subject": "[R-sig-Epi] Machine Learning with ChatGPT - Livestream Seminar",
+      "subject_clean": "Machine Learning with ChatGPT - Livestream Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Machine Learning for Complex Datasets with ChatGPT <https://instats.org/seminar/machine-learning-for-complex-datasets-wi>, running April 30 with professor Nikolay Oskolkov. In today?s era of exponential data growth, this workshop equips PhD students, academics, and professional researchers with both theoretical insights and hands-on skills to apply powerful machine learning techniques using R and Python?with the added assistance of ChatGPT for coding, interpretation, and optimization. You?ll explore critical methods including neural networks, random forests, clustering, and MCMC to tackle complex datasets in fields ranging from biology and environmental science to health, social sciences, statistics, and engineering, ensuring you can confidently integrate these advanced tools into your research.\n\nSign up today <https://instats.org/seminar/machine-learning-for-complex-datasets-wi> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Machine Learning for Complex Datasets with ChatGPT <https://instats.org/seminar/machine-learning-for-complex-datasets-wi>, running April 30 wi",
+      "thread_id": "thread-aef52e7db2e7",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-92c422fd6488",
+      "message_id": "<mYQuoZ6aQ2qHChJutXpQ-w@geopod-ismtpd-10>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-04-22T09:50:00Z",
+      "subject": "[R-sig-Epi] Exploratory Data Analysis in R with Tidyverse - Livestream Seminar",
+      "subject_clean": "Exploratory Data Analysis in R with Tidyverse - Livestream Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 2-day seminar, Exploratory Data Analysis in R with Tidyverse <https://instats.org/seminar/exploratory-data-analysis-in-r-with-tidy3>, running April 22 and 24 and led by Professor Chester Ismay from Portland State University. In today?s data-driven world, mastering EDA is essential for uncovering patterns, trends, and anomalies that pave the way for more in-depth research. In this workshop, you?ll learn to harness the comprehensive power of the tidyverse?leveraging tools such as dplyr, tidyr, ggplot2, stringr, forcats, lubridate, purrr, and plotly?to transform raw data into actionable insights and create publication-ready visualizations. Professor Ismay?s engaging approach combines theory with hands-on practice, ensuring that you not only understand the fundamental role of EDA but also gain practical skills to streamline your data analysis process across varied research disciplines.\n\nSign up today <https://instats.org/seminar/exploratory-data-analysis-in-r-with-tidy3> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 2-day seminar, Exploratory Data Analysis in R with Tidyverse <https://instats.org/seminar/exploratory-data-analysis-in-r-with-tidy3>, running April 22 and 24",
+      "thread_id": "thread-92c422fd6488",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-46380ac9b4ff",
+      "message_id": "<XFADY1weQo2hUH16O11Kpw@geopod-ismtpd-4>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-04-25T02:50:00Z",
+      "subject": "[R-sig-Epi] Simulation-Based Inference: Bootstrapping and Randomization - Free Seminar",
+      "subject_clean": "Simulation-Based Inference: Bootstrapping and Randomization - Free Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a free seminar, Simulation-Based Inference: Bootstrapping and Randomization <https://instats.org/seminar/simulation-based-inference-bootstrappin>, running May 1 and led by professors Patti Frazer Lock and Robin Lock. In today?s complex data environment, simulation-based inference methods offer a flexible and robust alternative to traditional parametric approaches, and this workshop is designed to equip you with these essential techniques. You?ll explore bootstrap methods and randomization tests through a blend of theoretical insights and hands-on applications, learning how to construct confidence intervals, perform hypothesis testing, and compare these simulation techniques to conventional methods. Ideal for PhD students, academics, and professional researchers, this seminar will enhance your analytical capabilities and enable you to tackle challenging datasets with confidence.\n\nSign up today <https://instats.org/seminar/simulation-based-inference-bootstrappin> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a free seminar, Simulation-Based Inference: Bootstrapping and Randomization <https://instats.org/seminar/simulation-based-inference-bootstrappin>, running May ",
+      "thread_id": "thread-46380ac9b4ff",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-1e579de406ca",
+      "message_id": "<sAD9_ZPkSf2JpPc9iKW8ZA@geopod-ismtpd-canary-0>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-04-28T08:20:00Z",
+      "subject": "[R-sig-Epi] Introduction to R for Beginners - Livestream Seminar",
+      "subject_clean": "Introduction to R for Beginners - Livestream Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 2-day seminar, Introduction to R for Beginners <https://instats.org/seminar/introduction-to-r-for-beginners>, running May 6th - 7th, led by the University of Pennsylvania's Dr Subham Mridha from the Perelman School of Medicine. Proficiency in statistics and data science is indispensable for academics and professional researchers across a vast range of fields and disciplines. The ability to analyze and visualize large datasets efficiently in R can unlock new insights and drive research innovations. This workshop is specifically designed for PhD students, postdocs, academics, and professional researchers who are embarking on their data science journey and are seeking to leverage R, a powerful statistical programming language, to enhance their research capabilities. The workshop will provide participants with a robust foundation in R and R Studio, empowering them to handle, analyze, and visualize data with confidence. Participants will gain invaluable skills in introducing to data science concepts, understanding the R interface, importing datasets, data processing, and creating high-quality visualizations. By mastering these tools, attendees will enhance their research efficiency and effectiveness.\n\nSign up today <https://instats.org/seminar/introduction-to-r-for-beginners> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 2-day seminar, Introduction to R for Beginners <https://instats.org/seminar/introduction-to-r-for-beginners>, running May 6th - 7th, led by the University of",
+      "thread_id": "thread-1e579de406ca",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-00cb4e99227e",
+      "message_id": "<CAEsSYzyffWGxX_E2HtiPrc3-keamWrXkGjJ=Ow8+aetsm+vxRw@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2025-04-29T17:28:36+01:00",
+      "subject": "[R-sig-Epi] Introduction to generalised linear models using R and Rstudio (IGLM08)",
+      "subject_clean": "Introduction to generalised linear models using R and Rstudio (IGLM08)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "ONLINE COURSE ? Introduction to generalised linear models using R and\nRstudio (IGLM08)\n\nhttps://www.prstats.org/course/introduction-to-generalised-linear-models-using-r-and-rstudio-iglm08/\n\n21st - 23rd May 2025\n\nThis course provides a comprehensive practical and theoretical introduction\nto generalized linear models using R. Generalized linear models are\ngeneralizations of linear regression models for situations where the\noutcome variable is, for example, a binary, or ordinal, or count variable,\netc. The specific models we cover include binary, binomial, and categorical\nlogistic regression, Poisson and negative binomial regression for count\nvariables, as well as extensions for overdispersed and zero-inflated data.\nWe begin by providing a brief overview of the normal general linear model.\nUnderstanding this model is vital for the proper understanding of how it is\ngeneralized in generalized linear models. Next, we introduce the widely\nused binary logistic regression model, which is is a regression model for\nwhen the outcome variable is binary. Next, we cover the binomial logistic\nregression, and the multinomial case, which is for modelling outcomes\nvariables that are polychotomous, i.e., have more than two categorically\ndistinct values. We will then cover Poisson regression, which is widely\nused for modelling outcome variables that are counts (i.e the number of\ntimes something has happened). We then cover extensions to accommodate\noverdispersion, starting with the quasi-likelihood approach, then covering\nthe negative binomial and beta-binomial models for counts and discrete\nproportions, respectively. Finally, we will cover zero-inflated Poisson and\nnegative binomial models, which are for count data with excessive numbers\nof zero observations.\nDay 1\n\nTopic 1: The general linear model. We begin by providing an overview of the\nnormal, as in normal distribution, general linear model, including using\ncategorical predictor variables. Although this model is not the focus of\nthe course, it is the foundation on which generalized linear models are\nbased and so must be understood to understand generalized linear models.\n\nTopic 2: Binary logistic regression. Our first generalized linear model is\nthe binary logistic regression model, for use when modelling binary outcome\ndata. We will present the assumed theoretical model behind logistic\nregression, implement it using R?s glm, and then show how to interpret its\nresults, perform predictions, and (nested) model comparisons.\n\nTopic 3: Binomial logistic regression. Here, we show how the binary\nlogistic regresion can be extended to deal with data on discrete\nproportions. We will also present alternative link functions to the logit,\nsuch as the probit and complementary log-log links.\n\nDay 2\n\nTopic 4: Categorical logistic regression. Categorical logistic regression,\nalso known as multinomial logistic regression, is for modelling\npolychotomous data, i.e. data taking more than two categorically distinct\nvalues. Like ordinal logistic regression, categorical logistic regression\nis also based on an extension of the binary logistic regression case.\n\nTopic 5: Poisson regression. Poisson regression is a widely used technique\nfor modelling count data, i.e., data where the variable denotes the number\nof times an event has occurred.\n\nDay 3\n\nTopic 6: Overdispersion models. The quasi-likelihood approach for both the\nPoisson and binomial models. Negative binomial regression. The negative\nbinomial model is, like the Poisson regression model, used for unbounded\ncount data, but it is less restrictive than Poisson regression,\nspecifically by dealing with overdispersed data. Beta-binomial regression.\nThe beta-binomial model is an overdispersed alternative to the binomial.\n\nTopic 7: Zero inflated models. Zero inflated count data is where there are\nexcessive numbers of zero counts that can be modelled using either a\nPoisson or negative binomial model. Zero inflated Poisson or negative\nbinomial models are types of latent variable models.\n\nPlease email oliverhooker at prstatistics.com with any questions.\n\nPlease feel free to share among colleagues and friends\n\n-- \nOliver Hooker PhD.\nPR stats\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "ONLINE COURSE ? Introduction to generalised linear models using R and\nRstudio (IGLM08)\n\nhttps://www.prstats.org/course/introduction-to-generalised-linear-models-using-r-and-rstudio-iglm08/\n\n21st - 23r",
+      "thread_id": "thread-00cb4e99227e",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-e15f56c8cb94",
+      "message_id": "<CAEsSYzy-LL3fr7smOQrH5Wu44+E6OG4RZgrTWGp25sTcXXxNZg@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2025-04-29T17:29:20+01:00",
+      "subject": "[R-sig-Epi] Introduction To Mixed Models Using R And Rstudio (IMMR09)",
+      "subject_clean": "Introduction To Mixed Models Using R And Rstudio (IMMR09)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "ONLINE COURSE ? Introduction To Mixed Models Using R And Rstudio (IMMR09)\nhttps://www.prstats.org/course/introduction-to-mixed-models-using-r-and-rstudio-immr09/\n\n27th - 29th May 2025\n\nThis course provides a comprehensive practical and theoretical\nintroduction to multilevel models, also known as hierarchical or mixed\neffects models. We will focus primarily on multilevel linear models,\nbut also cover multilevel generalized linear models. Likewise, we will\nalso describe Bayesian approaches to multilevel modelling. We will\nbegin by focusing on random effects multilevel models. These models\nmake it clear how multilevel models are in fact models of models. In\naddition, random effects models serve as a solid basis for\nunderstanding mixed effects, i.e. fixed and random effects, models. In\nthis coverage of random effects, we will also cover the important\nconcepts of statistical shrinkage in the estimation of effects, as\nwell as intraclass correlation. We then proceed to cover linear mixed\neffects models, particularly focusing on varying intercept and/or\nvarying slopes regression models. We will then cover further aspects\nof linear mixed effects models, including multilevel models for nested\nand crossed data data, and group level predictor variables. Towards\nthe end of the course we also cover generalized linear mixed models\n(GLMMs), how to accommodate overdispersion through individual-level\nrandom effects, as well as Bayesian approaches to multilevel levels\nusing the brms R package.\n\n*Day 1*\n\nTopic 1: Random effects models. The defining feature of multilevel models\nis that they are models of models. We begin by using a binomial random\neffects model to illustrate this. Specifically, we show how multilevel\nmodels are models of the variability in models of different clusters or\ngroups of data.\n\nTopic 2: Normal random effects models. Normal, as in normal distribution,\nrandom effects models are the key to understanding the more general and\nwidely used linear mixed effects models. Here, we also cover the key\nconcepts of statistical shrinkage and intraclass correlation.\n\n*Day 2*\n\nTopic 3: Linear mixed effects models. Next, we turn to multilevel linear\nmodels, also known as linear mixed effects models. We specifically deal\nwith the cases of varying intercept and/or varying slope linear regression\nmodels.\n\nTopic 4: Multilevel models for nested data. Here, we will consider\nmultilevel linear models for nested, as in groups of groups, data. As an\nexample, we will look at multilevel linear models applied to data from\nstudents within classes that are themselves within different schools, and\nwhere we model the variability of effects across the classes and across the\nschools.\n\nTopic 5: Multilevel models for crossed data. In some multilevel models,\neach observation occurs in multiple groups, but these groups are not\nnested. For example, animals may be members of different species and in\ndifferent locations, but the species are not subsets of locations, nor vice\nversa. These are known as crossed or multiclass data structures.\n\n*Day 3*\n\nTopic 6: Group level predictors. In some multilevel regression models,\npredictor variable are sometimes associated with individuals, and sometimes\nassociated with their groups. In this section, we consider how to handle\nthese two situations.\n\nTopic 7: Generalized linear mixed models (GLMMs). Here, we extend the\nlinear mixed model to the exponential family of distributions and showcase\nan example using the Poisson GLMM. We also cover how to accommodate\noverdispersion through individual-level random effects.\n\nTopic 8: Bayesian multilevel models. All of the models that we have\nconsidered can be handled, often more easily, using Bayesian models. Here,\nwe provide an brief introduction to Bayesian models and how to perform\nexamples of the models that we have considered using Bayesian methods and\nthe brms R package.\n\nPlease email oliverhooker at prstatistics.com with any questions.\n\nPlease feel free to share among colleagues and friends\n\n\n-- \nOliver Hooker PhD.\nPR stats\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "ONLINE COURSE ? Introduction To Mixed Models Using R And Rstudio (IMMR09)\nhttps://www.prstats.org/course/introduction-to-mixed-models-using-r-and-rstudio-immr09/\n\n27th - 29th May 2025\n\nThis course pro",
+      "thread_id": "thread-e15f56c8cb94",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-a76ef3c992cc",
+      "message_id": "<CAEsSYzya66aK82tKLxDkKBZCwes4BYghY54_eAZzUVHe_BP9ig@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2025-04-30T01:58:37+01:00",
+      "subject": "[R-sig-Epi] Visual Exploration, Analysis, and Presentation of Spatial Data using the ‘tmap’ Package (TMAP01)",
+      "subject_clean": "Visual Exploration, Analysis, and Presentation of Spatial Data using the ‘tmap’ Package (TMAP01)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "ONLINE COURSE - Visual Exploration, Analysis, and Presentation of Spatial\nData using the ?tmap? Package (TMAP01)\n\n<https://www.prstats.org/course/online-course-stable-isotope-mixing-models-using-siber-siar-mixsiar-simm11/>\nhttps://www.prstats.org/course/visual-exploration-analysis-and-presentation-of-spatial-data-using-the-tmap-package-tmap01/\n\n3rd - 6th June 2025\n\nInstructor - Dr Martijn Tennekes (author of the tmap package)\n\n*This course will include the recent updates to the tmap extension\npackages:*\ntmap.mapgl: two new tmap modes: ?mapbox? and ?maplibre\"\ntmap.cartogram: new w.r.t the current CRAN version are the animations (from\nnormal polygons to distorted polygons)\ntmap.glyphs: donut and flower glyphs implemented\n\nCOURSE OVERVIEW: R statistical software is becoming increasingly popular\nfor spatial analysis and visualization?and for good reason. It is\nreproducible, flexible, and supported by a vast ecosystem of R packages\ndedicated to spatial data. An essential part of working with spatial data\nis visualization, not only for communication but also for exploration and\nanalysis. This in-depth course focuses on the R package *tmap*, one of the\nmost widely used packages for spatial data visualization. The course covers\nall key steps, from reading spatial data to publishing high-resolution\nstatic maps or interactive maps that can be embedded in web articles and\ndashboards. Participants will work with essential spatial data packages in\nparticular *sf*, *terra*, and *stars*. The course also addresses key\nmethodological aspects of spatial data visualization, including map\nprojections, selecting the most appropriate visualization method for a\ngiven task, and choosing color schemes that account for accessibility and\ncultural considerations. Innovative spatial visualization techniques are\nalso explored, including cartograms, grid maps (also known as\norigin-destination maps), and glyph-based visualizations.\n\nBy the end of the course, participants will:\n\n   - Know how to use the core packages *sf*, *terra*, and *stars* to read\n   and process spatial data in R, including joining data sources and\n   performing geospatial data manipulations.\n   - Be able to use *tmap* for exploring, analysing, and presenting spatial\n   data.\n   - Create various types of thematic maps.\n   - Understand the methodological advantages and limitations of different\n   map types, enabling informed decisions based on data characteristics and\n   target users.\n   - Recognize key considerations when selecting a suitable colour palette.\n   - Be able to fine-tune map layouts in *tmap*, including adding map\n   components, customizing legends, and incorporating map insets.\n   - Know how to export maps in various static and interactive formats.\n\n\nDAY 1 - *Classes from 12:00 ? 20:00 UK local time*\n\n*Getting started *\n\n   - Overview of the core R packages for spatial data analysis and\n   visualisation.\n   - Overview of resources: online books, Stack Overflow, GitHub, etc.\n   - Methodology of spatial data visualisation.\n   - Creating common thematic map types using the R package *tmap*.\n   - Exploring colour palettes with the R package *cols4all*.\n\n\n*DAY 2 - **Classes from 12:00 ? 20:00 **UK local time*\n\n*Visualisation of spatial vector data in R*\n\n   - Introduction to map projections (coordinate reference systems).\n   - Working with vector data in R using the *sf* package.\n   - Reading and writing spatial vector data in various formats.\n   - Joining spatial and non-spatial data.\n   - Geospatial data manipulations.\n   - Visualisation of vector data with *tmap*.\n   - Using basemaps in *tmap*.\n   - Creating cartograms with the R package *tmap.cartogram*.\n\n\n*DAY 3 - **Classes from 12:00 ? 20:00 **UK local time*\n\n*Visualisation of spatial raster data in R*\n\n   - Working with raster data in R using the *terra* package.\n   - Working with spatiotemporal data cubes in R using the *stars* package.\n   - Reading and writing spatial raster data in various formats.\n   - Downsampling, warping, and transforming raster data.\n   - Converting spatial vector data to raster data and vice versa.\n   - Visualisation of raster data with *tmap*.\n\n\n*DAY 4 - **Classes from 12:00 ? 20:00 **UK local time*\n\n*Finalising and exporting maps*\n\n   - Exporting static maps to various formats, including bitmap (JPG, PNG)\n   and vector formats (SVG, PDF).\n   - Exporting interactive maps to HTML.\n   - Integrating *tmap* with the R package *shiny* for dashboards.\n   - Fine-tuning map layouts for high-quality publications.\n   - Extensibility of *tmap*\n\n\nPlease email oliverhooker at prstatistics.com with any questions.\n\n-- \nOliver Hooker PhD.\nPR stats\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "ONLINE COURSE - Visual Exploration, Analysis, and Presentation of Spatial\nData using the ?tmap? Package (TMAP01)\n\n<https://www.prstats.org/course/online-course-stable-isotope-mixing-models-using-siber",
+      "thread_id": "thread-a76ef3c992cc",
+      "thread_depth": 0,
+      "month": "2025-04"
+    },
+    {
+      "id": "msg-e67bcfab2042",
+      "message_id": "<CAEsSYzwamFj=Nue3RWpmYWRVF74z+h02+aK+Uxdf0k_J+d55PQ@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2025-04-30T01:59:28+01:00",
+      "subject": "[R-sig-Epi] Tidyverse for Ecologists (TIDY01)",
+      "subject_clean": "Tidyverse for Ecologists (TIDY01)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "ONLINE COURSE ? Tidyverse for Ecologists (TIDY01)\n\nhttps://www.prstats.org/course/tidyverse-for-ecologists-tidy01/\n\n16th - 20th June\n\nPlease feel free to share!\n\nCOURSE OVERVIEW - This course comprehensively introduces the Tidyverse and\nfocuses on its use in data science projects. It is designed to give\nparticipants a strong foundation in R programming, core Tidyverse packages,\nand the Tidymodels framework. The course emphasises hands-on projects to\napply learned concepts to real-world data analysis and modelling tasks\napplied to biology. By the end of the course, participants should:\n? Understand the fundamentals of R programming for data analysis.\n? Be proficient in using core Tidyverse packages to clean, transform, and\nvisualise data.\n? Gain an introduction to basic machine learning concepts through the\nTidymodels framework.\n? Learn to preprocess, build, evaluate, and interpret models using\nTidymodels.\n? Apply Tidyverse and Tidymodels tools to solve real-world problems\nthrough hands-on\nprojects.\n\nPlease email oliverhooker at prstatistics.com with any questions\n\nDay 1: A Short Course in R Basics (9:30 - 17:30)\nThis day provides participants with the foundational R skills required for\nworking with Tidyverse and\nTidymodels. It is designed for beginners or those needing a refresher in R\nprogramming.\n? Section 1 (R Essentials): This section focuses on R syntax, variables,\ndata types, conditionals (`if`,\n`else`, `elif`), loops (`for`, `while`), and writing reusable code using\nfunctions.\n? Section 2 (Data Structures and File Handling in R): This section\nemphasises understanding data\nstructures (e.g., vectors, data frames, lists) and handling files by\nreading/writing data (e.g., CSVs)\nfor manipulation and analysis.\n\nDay 2: Fundamentals of Tidyverse I (9:30 - 17:30)\nThis day introduces participants to the foundational concepts of Tidyverse\npackages and their\napplications to data science projects.\n? Section 3 (Data Manipulation I): This section covers the basics of data\nmanipulation using `dplyr`\nfunctions such as `filter()`, `select()`, `mutate()`, `arrange()`, and\n`summarise ()`. Participants will\nlearn how to clean, transform, and prepare datasets for analysis.\n? Section 4 (Data Visualisation I): This section introduces the principles\nof data visualisation using\n`ggplot2`. Participants will learn how to create basic plots such as\nscatterplots, bar charts, and\nline graphs while exploring the grammar of graphics.\n\nDay 3: Fundamentals of Tidyverse II (9:30 - 17:30)\nThis day builds on the foundations established in Day 2 and dives deeper\ninto advanced data\nmanipulation and visualisation techniques.\n? Section 5 (Data Manipulation II): This section extends the use of `dplyr`\nby introducing more\ncomplex operations such as joins, grouping with `group_by()`, and working\nwith pipelines using\n`%&gt;%`. Finally, additional packages will be presented to enhance data\nmanipulation\nprogramming.\n? Section 6 (Data Visualisation II): Participants will explore advanced\nvisualisation techniques\nusing extensions of `ggplot2`, such as creating animated plots with the\n`gganimate` package and\ninteractive visualisations with additional tools.\n\nDay 4: Applying Tidyverse Fundamentals to Data Modelling (9:30 - 17:30)\nThis day introduces participants to machine learning concepts using core\nlibraries for statistical modelling\nand deep learning.\n? Section 7 (Introduction to regression): This section focuses on\nregression modelling using\nTidymodels. Participants will learn to implement linear regression models,\nevaluate model\nperformance, and interpret results.\n? Section 8 (Introduction to Classification): This section introduces\ntechniques such as support\nvector machines and neural networks using Tidymodels. Participants will\nalso explore methods\nfor assessing the performance of classification models.\n\nDay 5: Data Science Workflow with Tidyverse (9:30 - 17:30)\nOn the final day, participants will apply all their newly acquired skills\nto solve real-world problems\ninspired by ecological datasets.\n? Section 9 (The data science workflow): The workflow will be illustrated\nbased on the core\npackages introduced. The book &quot;R for Data Science&quot; will serve as\na base literature for this day\n? Section 10 (Hands-on project): Participants will work through a complete\ndata science workflow,\nincluding data cleaning, transformation, visualisation, modelling, and\ncommunication of results.\n\n-- \nOliver Hooker PhD.\nPR stats\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "ONLINE COURSE ? Tidyverse for Ecologists (TIDY01)\n\nhttps://www.prstats.org/course/tidyverse-for-ecologists-tidy01/\n\n16th - 20th June\n\nPlease feel free to share!\n\nCOURSE OVERVIEW - This course comprehe",
+      "thread_id": "thread-e67bcfab2042",
+      "thread_depth": 0,
+      "month": "2025-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-bc126879a27c",
+      "subject": "Nonlinear Time Series Analyses (Part II) - Livestream Seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-04-01T05:35:00+00:00",
+      "last_reply": "2025-04-01T05:35:00+00:00",
+      "root_message_id": "msg-bc126879a27c"
+    },
+    {
+      "id": "thread-6bc390b9e41b",
+      "subject": "Exploratory Data Analysis in R with Tidyverse - Livestream Seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-04-02T16:20:00+00:00",
+      "last_reply": "2025-04-02T16:20:00+00:00",
+      "root_message_id": "msg-6bc390b9e41b"
+    },
+    {
+      "id": "thread-3aa914adae47",
+      "subject": "Machine Learning for Complex Datasets with ChatGPT - Livestream Seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-04-08T17:20:00+00:00",
+      "last_reply": "2025-04-08T17:20:00+00:00",
+      "root_message_id": "msg-3aa914adae47"
+    },
+    {
+      "id": "thread-b60352e5ce79",
+      "subject": "Analysis of RNA-Seq Data - Livestream Seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-04-13T04:50:00+00:00",
+      "last_reply": "2025-04-13T04:50:00+00:00",
+      "root_message_id": "msg-b60352e5ce79"
+    },
+    {
+      "id": "thread-aef52e7db2e7",
+      "subject": "Machine Learning with ChatGPT - Livestream Seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-04-16T19:20:00+00:00",
+      "last_reply": "2025-04-16T19:20:00+00:00",
+      "root_message_id": "msg-aef52e7db2e7"
+    },
+    {
+      "id": "thread-92c422fd6488",
+      "subject": "Exploratory Data Analysis in R with Tidyverse - Livestream Seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-04-22T09:50:00+00:00",
+      "last_reply": "2025-04-22T09:50:00+00:00",
+      "root_message_id": "msg-92c422fd6488"
+    },
+    {
+      "id": "thread-46380ac9b4ff",
+      "subject": "Simulation-Based Inference: Bootstrapping and Randomization - Free Seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-04-25T02:50:00+00:00",
+      "last_reply": "2025-04-25T02:50:00+00:00",
+      "root_message_id": "msg-46380ac9b4ff"
+    },
+    {
+      "id": "thread-1e579de406ca",
+      "subject": "Introduction to R for Beginners - Livestream Seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-04-28T08:20:00+00:00",
+      "last_reply": "2025-04-28T08:20:00+00:00",
+      "root_message_id": "msg-1e579de406ca"
+    },
+    {
+      "id": "thread-00cb4e99227e",
+      "subject": "Introduction to generalised linear models using R and Rstudio (IGLM08)",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2025-04-29T17:28:36+01:00",
+      "last_reply": "2025-04-29T17:28:36+01:00",
+      "root_message_id": "msg-00cb4e99227e"
+    },
+    {
+      "id": "thread-e15f56c8cb94",
+      "subject": "Introduction To Mixed Models Using R And Rstudio (IMMR09)",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2025-04-29T17:29:20+01:00",
+      "last_reply": "2025-04-29T17:29:20+01:00",
+      "root_message_id": "msg-e15f56c8cb94"
+    },
+    {
+      "id": "thread-a76ef3c992cc",
+      "subject": "Visual Exploration, Analysis, and Presentation of Spatial Data using the ‘tmap’ Package (TMAP01)",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2025-04-30T01:58:37+01:00",
+      "last_reply": "2025-04-30T01:58:37+01:00",
+      "root_message_id": "msg-a76ef3c992cc"
+    },
+    {
+      "id": "thread-e67bcfab2042",
+      "subject": "Tidyverse for Ecologists (TIDY01)",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2025-04-30T01:59:28+01:00",
+      "last_reply": "2025-04-30T01:59:28+01:00",
+      "root_message_id": "msg-e67bcfab2042"
+    }
+  ]
+}

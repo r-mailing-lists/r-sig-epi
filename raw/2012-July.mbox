@@ -1,0 +1,225 @@
+From jeffrey.r.miller+r-sig-epi at gmail.com  Tue Jul 24 21:32:49 2012
+From: jeffrey.r.miller+r-sig-epi at gmail.com (Jeffrey Miller)
+Date: Tue, 24 Jul 2012 15:32:49 -0400
+Subject: [R-sig-Epi] workflow for creating large tabular reports and sharing
+ editable tables with colleagues who don't use LaTeX
+Message-ID: <CALCWFWmGzqK_3EQTc6g+YTX8aQZ6EtMres9hrgDEtAkWspzvuw@mail.gmail.com>
+
+Colleagues,
+
+Question:
+How do YOU create multi-page publication ready tables that can still
+be shared and potentially edited by coworkers who don't use LaTeX? I'm
+specifically looking for a solution that accomodates grouped column
+headers and grouped row specifications and can be imported, WITH
+styling (e.g., lower border below each set of grouped rows), into MS
+Word or Excel.
+
+Background:
+I am working on a report with other analysts. They use SAS. I use R.
+The tables for the report get incorporated into a giant Microsoft Word
+Document. Their tables are relatively simple without row or column
+groupings. One of my tables for this report is 762 rows and
+approximately a dozen columns and needs to have column and row
+groupings. I drank the kool-aid regarding reproducible research and
+don't want to post-process the table in MS Word or Excel either.
+
+Am I missing something obvious?
+
+Things I've tried:
+I am familiar with the xtable, tables, R2HTML, hwriter, Hmisc::latex
+and Hmisc:html functions/packages.
+
+- xtable doesn't support row or column grouping as far as I can tell.
+
+- Hmisc::latex, using longtable generates a nice table with grouped
+columns and headers (except that the cgroup is not included as part of
+the header on each subsequent page, unless the tex file is hand edited
+--- I have e-mailed the package mantainer). If my colleagues could
+work with the pdf or .tex file, this would be addequate.
+Unfortunately, conversion is required. I can't get Hmisc::html to work
+directly with the table. Hevea, used by Hmisc::html, will convert the
+.tex file outputed by Hmisc::latex after hand-editing the .tex file
+(e.g.: adding \documentclass{article}, \begin{document},
+\providecommand{\tabularnewline}{\\}) but the resulting html file
+loses the rgroup border formatting when imported into MS Word and
+LibreOffice. LibreOffice also doesn't seem to know how to handle the
+A0;A0 encoding which indents the cell contents after the rgroup.
+
+- OdfWeave::odfTable might work but I'm having issues (e.g. extremely
+long processing times and inability to resize the rgroup column). I
+have e-mailed the package mantainer directly.
+
+- Ideally, I would like to generate HTML code for an HTML table and
+css. This would allow more than one cgroup or rgrouping. I mocked up a
+proof-of-concept table and it looks good in modern browser but the
+formatting isn't reflected in recent versions of MS Excel, MS Word or
+LibreOffice when imported.
+
+While my question is really about workflow, I have included
+sessionInfo, an analagous data set and sample code for odfWeave'ing a
+LibreOffice file.  I am not posting the html file so as not to
+aggravate the spam filters.
+
+-----------------
+sessionInfo()
+-----------------
+R version 2.15.1 (2012-06-22)
+Platform: x86_64-apple-darwin11.4.0 (64-bit)
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base
+
+other attached packages:
+[1] odfWeave_0.8.1 XML_3.9-4      lattice_0.20-6
+
+loaded via a namespace (and not attached):
+[1] grid_2.15.1  tools_2.15.1
+
+-----------------
+LibreOffice Info:
+-----------------
+LibreOffice 3.5.5.3
+Build ID: 7122e39-92ed229-498d286-15e43b4-d70da21
+
+-----------------
+test.odt
+-----------------
+
+<<table, results=xml, echo=FALSE>>=
+
+require(odfWeave)
+
+odfSetPageStyle(?RlandscapePage?)
+
+rGen <- function(n, length, frame = c(LETTERS, letters, 0:9)){
+  i = 0
+  x = NULL
+  while (i < n) {
+    x <- c(x,paste(sample(frame, length, replace = TRUE), collapse = ""))
+    i <- i + 1
+  }
+  return (x)
+}
+
+# create index and provider name
+df <- data.frame(NHSN = rGen(254, 6, 0:9), providerName = rGen(254,
+30, LETTERS)) # for each index/provider name pair there are three rows
+for Employees, STVs, and LIPs # I'm sure there is a more elegant way
+of doing this but I couldn't get expand.grid to work for me in this
+circumstance
+df1 <- cbind(df, group = rep("Employees", 254))
+df2 <- cbind(df, group = rep("STVs", 254))
+df3 <- cbind(df, group = rep("LIPs", 254)) # make one long table with
+each nhsn/provider listed 3 times, once for each personnel group
+df4 <- rbind(df1, df2, df3)
+# create random data for body of table
+df.body <- data.frame(d = sample(c(0:100,NA), 762, replace = TRUE),
+vaccinated_value = sample(c(0:100,NA), 762, replace = TRUE),
+vaccinated_pct = sample(c(0:100,NA), 762, replace = TRUE),
+contraindicated_value = sample(c(0:100,NA), 762, replace = TRUE),
+contraindicated_pct = sample(c(0:100,NA), 762, replace = TRUE),
+declined_value = sample(c(0:100,NA), 762, replace = TRUE),
+declined_pct = sample(c(0:100,NA), 762, replace = TRUE), unknown_value
+= sample(c(0:100,NA), 762, replace = TRUE), unknown_pct =
+sample(c(0:100,NA), 762, replace = TRUE)) # add random data from body
+to row headers
+df5 <- cbind(df4, df.body)
+# order rows by nhsn/provider
+df5 <- df5[order(df5$NHSN),]
+
+df5[is.na(df5)] <- "."
+
+df5 <- head(df5, 60)
+
+df5$nameNHSN <- paste(df5$providerName, ' (', df5$NHSN, ')', sep = '')
+
+colnames <- c("Group","Total",rep(c("n","pct"),4))
+
+cgroup = data.frame(colGroupNames =
+c("","","Vaccinated","Contraindicated","Declined","Unknown"), colSpecs
+= c(1,1,2,2,2,2))
+
+rgroup = data.frame(rowGroupNames = unique(df5$nameNHSN), rowSpecs =
+rep(3, length(df5$nameNHSN)/3))
+
+df5Styles <- tableStyles(df5[,3:12], header = colnames, rgroup =
+rgroup, cgroup = cgroup, useRowNames = FALSE)
+
+df5Styles$cgroupCell <-
+c("noBorder","noBorder","lowerBorder","lowerBorder","lowerBorder","lowerBorder")
+
+df5Styles$cell[seq(3,length(df5Styles$cell[,1]),3),] <-
+rep("lowerBorder", length(df5Styles$cell[1,]))
+
+df5Styles$rgroupCell <- rep("lowerBorder", length(df5Styles$rgroupCell))
+
+odfTable(df5[,3:12], styles = df5Styles, colnames = colnames,
+useRowNames = FALSE, rgroup = rgroup, cgroup=cgroup)
+
+@
+
+-----------------
+> odfWeave("~/test.odt","~/test_out.odt")
+-----------------
+  Creating  /var/folders/yc/bd663fhj6_bclc7mp0mqlvl80000gn/T//Rtmpn9zzx6/odfWeave24125717262
+  Copying  ~/test.odt
+  Setting wd to
+/private/var/folders/yc/bd663fhj6_bclc7mp0mqlvl80000gn/T/Rtmpn9zzx6/odfWeave24125717262
+  Unzipping ODF file using unzip -o test.odt
+Archive:  test.odt
+ extracting: mimetype
+ extracting: meta.xml
+  inflating: settings.xml
+  inflating: content.xml
+ extracting: Thumbnails/thumbnail.png
+  inflating: manifest.rdf
+   creating: Configurations2/popupmenu/
+   creating: Configurations2/images/Bitmaps/
+   creating: Configurations2/toolpanel/
+   creating: Configurations2/statusbar/
+   creating: Configurations2/toolbar/
+   creating: Configurations2/progressbar/
+   creating: Configurations2/menubar/
+   creating: Configurations2/floater/
+  inflating: Configurations2/accelerator/current.xml
+  inflating: styles.xml
+  inflating: META-INF/manifest.xml
+
+  Removing  test.odt
+  Creating a Pictures directory
+
+  Pre-processing the contents
+  Sweaving  content.Rnw
+
+  Writing to file content_1.xml
+  Processing code chunks ...
+    1 : term xml(label=table)
+
+  'content_1.xml' has been Sweaved
+
+  Removing content.xml
+
+  Post-processing the contents
+
+--- and here it sits for 10 or more minutes ---
+
+
+Thanks,
+
+Jeff
+
+
+From emmanuel.brasil at gmail.com  Mon Jul 30 19:04:04 2012
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Mon, 30 Jul 2012 14:04:04 -0300
+Subject: [R-sig-Epi] Importing XML new EpiData files
+Message-ID: <CAFfGvyK-fWs6zpPJ419uQGOdz9ACDCCLv-4u703XxXLCMBRdLQ@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120730/eb8babe8/attachment.pl>
+

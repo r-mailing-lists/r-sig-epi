@@ -1,0 +1,102 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2005-11",
+  "messages": [
+    {
+      "id": "msg-51be6708ad3a",
+      "message_id": "<1050.212.171.164.228.1131707771.squirrel@212.171.164.228>",
+      "from_name": "Martina Gandini",
+      "from_email_hash": "39e004bf151c6c78e70f3f17f368d939b267f6e9bce310d9dcb5396df063aee5",
+      "date": "2005-11-11T12:16:11+01:00",
+      "subject": "[R-sig-Epi] Left truncated and right censored data",
+      "subject_clean": "Left truncated and right censored data",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have a question concerning a non parametric estimator for left truncated\nand right censored data. I see that the function\n\n\nsurvfit(Surv(time1, time2, status) ~ group, data=mydata)\n\n  (where time1= left truncation time\n   time2= follow=up time\n   status= 0:censored 1:not censored)\n\ndo this, but what's the method used? Is it a Lynden-Bell (Woodroofe)\nestimator or something else?\nRegards\nMartina Gandini",
+      "body_snippet": "I have a question concerning a non parametric estimator for left truncated\nand right censored data. I see that the function\n\n\nsurvfit(Surv(time1, time2, status) ~ group, data=mydata)\n\n  (where time1= ",
+      "thread_id": "thread-51be6708ad3a",
+      "thread_depth": 0,
+      "month": "2005-11"
+    },
+    {
+      "id": "msg-6203c5c9c90c",
+      "message_id": "<Pine.LNX.4.63a.0511110926490.21453@homer22.u.washington.edu>",
+      "from_name": "Thomas Lumley",
+      "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
+      "date": "2005-11-11T09:28:40-08:00",
+      "subject": "[R-sig-Epi] Left truncated and right censored data",
+      "subject_clean": "Left truncated and right censored data",
+      "in_reply_to": "<1050.212.171.164.228.1131707771.squirrel@212.171.164.228>",
+      "references": [
+        "<1050.212.171.164.228.1131707771.squirrel@212.171.164.228>"
+      ],
+      "body_plain": "On Fri, 11 Nov 2005, Martina Gandini wrote:\n\n> I have a question concerning a non parametric estimator for left truncated\n> and right censored data. I see that the function\n>\n>\n> survfit(Surv(time1, time2, status) ~ group, data=mydata)\n>\n>  (where time1= left truncation time\n>   time2= follow=up time\n>   status= 0:censored 1:not censored)\n>\n> do this, but what's the method used? Is it a Lynden-Bell (Woodroofe)\n> estimator or something else?\n\nI don't know what names it is called, but it is the cumulative product of\n    1 - number of events/number at risk\nover time points.  This is the nonparametric MLE, and reduces to the \nKaplan-Meier estimator in the absence of truncation.\n\n \t-thomas",
+      "body_snippet": "On Fri, 11 Nov 2005, Martina Gandini wrote:\n\n> I have a question concerning a non parametric estimator for left truncated\n> and right censored data. I see that the function\n>\n>\n> survfit(Surv(time1, t",
+      "thread_id": "thread-51be6708ad3a",
+      "thread_depth": 1,
+      "month": "2005-11"
+    },
+    {
+      "id": "msg-489be85a1ae4",
+      "message_id": "<WorldClient-F200511291540.AA40400063@finlay.edu.cu>",
+      "from_name": "Mayelin Mirabal",
+      "from_email_hash": "45c6240020e2193497a8cac614ed6ace132cee7eed4888578717f9955554c2b9",
+      "date": "2005-11-29T15:40:40-05:00",
+      "subject": "[R-sig-Epi]  multiple \"stairs steps\" plots",
+      "subject_clean": "multiple \"stairs steps\" plots",
+      "in_reply_to": "<Pine.LNX.4.63a.0511110926490.21453@homer22.u.washington.edu>",
+      "references": [
+        "<1050.212.171.164.228.1131707771.squirrel@212.171.164.228>",
+        "<Pine.LNX.4.63a.0511110926490.21453@homer22.u.washington.edu>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20051129/c9c1099e/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20051129/c9c1099e/attachment.pl",
+      "thread_id": "thread-51be6708ad3a",
+      "thread_depth": 2,
+      "month": "2005-11"
+    },
+    {
+      "id": "msg-f4ffcd18c993",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC80835011AB647@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2005-11-30T09:23:33+01:00",
+      "subject": "[R-sig-Epi] multiple \"stairs steps\" plots",
+      "subject_clean": "multiple \"stairs steps\" plots",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "You are looking for plot types \"s\" and \"S\", try for example:\n\nx<-1:10 \ny<-rnorm(10)\n\nplot( x, y, pch=16 )\nlines(x,y,type=\"s\")\n\nplot( x, y, pch=16 )\nlines(x,y,type=\"S\")\n\n----------------------\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2\nDK-2820 Gentofte\nDenmark\ntel: +45 44 43 87 38\nmob: +45 30 75 87 38\nfax: +45 44 43 07 06\nbxc at steno.dk\nwww.biostat.ku.dk/~bxc\n----------------------\n\n\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Mayelin Mirabal\n> Sent: Tuesday, November 29, 2005 9:41 PM\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] multiple \"stairs steps\" plots\n> \n> \n> \n> \n> I need to show a graphic with multiple \"stairs steps\" plots. \n> Can I do that?. I'll also appreciate, if any of you have done \n> such a specific thing, an \n> example.\n> Thanks, Mayelin Mirabal.\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-> epi\n>",
+      "body_snippet": "You are looking for plot types \"s\" and \"S\", try for example:\n\nx<-1:10 \ny<-rnorm(10)\n\nplot( x, y, pch=16 )\nlines(x,y,type=\"s\")\n\nplot( x, y, pch=16 )\nlines(x,y,type=\"S\")\n\n----------------------\nBendix C",
+      "thread_id": "thread-f4ffcd18c993",
+      "thread_depth": 0,
+      "month": "2005-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-51be6708ad3a",
+      "subject": "Left truncated and right censored data",
+      "message_count": 3,
+      "participants": [
+        "Martina Gandini",
+        "Mayelin Mirabal",
+        "Thomas Lumley"
+      ],
+      "started": "2005-11-11T12:16:11+01:00",
+      "last_reply": "2005-11-29T15:40:40-05:00",
+      "root_message_id": "msg-51be6708ad3a"
+    },
+    {
+      "id": "thread-f4ffcd18c993",
+      "subject": "multiple \"stairs steps\" plots",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2005-11-30T09:23:33+01:00",
+      "last_reply": "2005-11-30T09:23:33+01:00",
+      "root_message_id": "msg-f4ffcd18c993"
+    }
+  ]
+}

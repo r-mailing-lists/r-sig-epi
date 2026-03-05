@@ -1,0 +1,88 @@
+From lisas at salford-systems.com  Thu Dec 13 20:16:28 2012
+From: lisas at salford-systems.com (Lisa Solomon)
+Date: Thu, 13 Dec 2012 13:16:28 -0600
+Subject: [R-sig-Epi] Webinar: Advances in Gradient Boosting: the Power of
+ Post-Processing. TOMORROW, 10-11 a.m., PST
+Message-ID: <2732C804E2DBB04AA90A678D76FAF2CC047E0D5987@DFW1MBX02.mex07a.mlsrvr.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121213/5d228c37/attachment.pl>
+
+From lisasolomon at alum.mit.edu  Thu Dec 13 21:21:19 2012
+From: lisasolomon at alum.mit.edu (Lisa Solomon)
+Date: Thu, 13 Dec 2012 15:21:19 -0500
+Subject: [R-sig-Epi] Webinar: Advances in Gradient Boosting: the Power of
+ Post-Processing. TOMORROW, 10-11 a.m., PST
+Message-ID: <650388255.6064.1355430079677.JavaMail.help@alum.mit.edu>
+
+Webinar: Advances in Gradient Boosting: the Power of Post-Processing
+TOMORROW: December 14, 10-11 a.m., PST
+
+Webinar Registration: http://2.salford-systems.com/gradientboosting-and-post-processing/ 
+ 
+Course Outline: 
+I. Gradient Boosting and Post-Processing: 
+o What is missing from Gradient Boosting? 
+o Why post-processing techniques are used? 
+
+II. Applications Benefiting from Post-Processing: Examples from a variety of industries. 
+o Financial Services 
+o Biomedical 
+o Environmental 
+o Manufacturing 
+o Adserving 
+
+III. Typical Post-Processing Steps 
+
+IV. Techniques: 
+o Generalized Path Seeker (GPS): modern high-speed LASSO-style regularized regression. 
+o Importance Sampled Learning Ensembles (ISLE): identify and reweight the most influential trees. 
+o Rulefit: ISLE on ?steroids.? Identify the most influential nodes and rules. 
+
+V. Case Study Example: 
+o Output/Results without Post-Processing 
+o Output/Results with Post-Processing 
+o Demo
+
+From beiranvand83 at yahoo.com  Mon Dec 17 09:25:12 2012
+From: beiranvand83 at yahoo.com (Beiranvand)
+Date: Mon, 17 Dec 2012 00:25:12 -0800 (PST)
+Subject: [R-sig-Epi] (no subject)
+Message-ID: <1355732712.94686.YahooMailNeo@web160302.mail.bf1.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121217/d1b9cbce/attachment.pl>
+
+From bh1 at me.com  Fri Dec 21 01:30:57 2012
+From: bh1 at me.com (bh1 at me.com)
+Date: Fri, 21 Dec 2012 00:30:57 +0000 (GMT)
+Subject: [R-sig-Epi] Optmatch Package Question
+In-Reply-To: <b23c701b-2b10-406b-b706-42b55de61f15@me.com>
+Message-ID: <6724bdc3-1706-48a7-a9b2-f721493c6d5c@me.com>
+
+Hello ,?
+
+My optmatch package is loaded on R and otherwise running fine.?
+I get an error after lcds successfully completes a logistic regression and?
+I then try to obtain a propensity score:?
+
+pdist <- pscore.dist(lcds)?
+Error: could not find function "pscore.dist"?
+
+Since pscore.dist is part of the optmatch package,?
+does anyone know why this command would fail to run
+pscore.dist ??
+I searched the help files, other online sources, could find no answer for?
+this. Any advice would be greatly appreciated!?
+
+Thank you ,?
+Michael Adolph MD MPH?
+Cancer Pain & Palliative Medicine Service?
+Ohio State University?
+Columbus, Ohio, USA
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121221/e99e0a20/attachment.html>
+

@@ -1,0 +1,130 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2009-11",
+  "messages": [
+    {
+      "id": "msg-70bfc6cb36ef",
+      "message_id": "<8a1e4d2d0911092015g67b1457brebd70b2afc2c0ee9@mail.gmail.com>",
+      "from_name": "Jens Levy",
+      "from_email_hash": "477f9fcbdad404bc0007f47a65365a73d6221eed82f5c025866f860d9707e6e8",
+      "date": "2009-11-10T11:15:17+07:00",
+      "subject": "[R-sig-Epi] The Common risk difference and effect modification on the additive scale",
+      "subject_clean": "The Common risk difference and effect modification on the additive scale",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/8e1b86ae/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/8e1b86ae/attachment.pl>",
+      "thread_id": "thread-70bfc6cb36ef",
+      "thread_depth": 0,
+      "month": "2009-11"
+    },
+    {
+      "id": "msg-dbd287b1fcca",
+      "message_id": "<d5b814ab0911100620y7ae51dbap9f31d703b58ff2d9@mail.gmail.com>",
+      "from_name": "Ajit de Silva",
+      "from_email_hash": "53038f7a5972a999f462bd75f998969982838b69e3faa8dcf26d2edbbc9c8ab6",
+      "date": "2009-11-10T06:20:09-08:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 37, Issue 1",
+      "subject_clean": "R-sig-Epi Digest, Vol 37, Issue 1",
+      "in_reply_to": "<mailman.2.1257850801.27032.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.2.1257850801.27032.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/805f1315/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/805f1315/attachment.pl>",
+      "thread_id": "thread-dbd287b1fcca",
+      "thread_depth": 0,
+      "month": "2009-11"
+    },
+    {
+      "id": "msg-be704a34d68b",
+      "message_id": "<7F247F24-A93B-4644-96E4-B3CCCE54DC16@comcast.net>",
+      "from_name": "David Winsemius",
+      "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
+      "date": "2009-11-10T10:28:46-05:00",
+      "subject": "[R-sig-Epi] The Common risk difference and effect modification on the additive scale",
+      "subject_clean": "The Common risk difference and effect modification on the additive scale",
+      "in_reply_to": "<8a1e4d2d0911092015g67b1457brebd70b2afc2c0ee9@mail.gmail.com>",
+      "references": [
+        "<8a1e4d2d0911092015g67b1457brebd70b2afc2c0ee9@mail.gmail.com>"
+      ],
+      "body_plain": "On Nov 9, 2009, at 11:15 PM, Jens Levy wrote:\n\n> I am interested in evaluating whether or not the joint effect of two\n> independent variables on an outcome are additive. I want to be able  \n> to give\n> something analogous to the Breslow-Day test of homogeneity, which  \n> evaluates\n> effect modification on the multiplicative scale, but on the additive  \n> scale.\n> I would also like to calculate the common Risk Difference across two  \n> strata.\n> Does anyone know of any R package that has these functions, which  \n> focus on\n> additive relationships in stratified analyses?\n\nIt would be possible to use glm with a quasi() family argument with  \nlink=\"identity\" and variance=\"mu\". This would make the effect  \nrelationships linear in their untransformed scales but allow the  \nvariance to be Poisson.\n\nThe mgcv package is the one suggested by Simon Wood for what might be  \ncalled \"basic\" generalized additive models described in his book in  \nchapter 5, but there are a large number of other packages that handle  \ngeneralized additive models of various sorts.\n\nhttp://search.r-project.org/cgi-bin/namazu.cgi?query=%22additive+models%22&max=100&result=normal&sort=score&idxname=functions&idxname=Rhelp08&idxname=views\n\n-- \nDavid Winsemius, MD\nHeritage Laboratories\nWest Hartford, CT",
+      "body_snippet": "On Nov 9, 2009, at 11:15 PM, Jens Levy wrote:\n\n> I am interested in evaluating whether or not the joint effect of two\n> independent variables on an outcome are additive. I want to be able  \n> to give\n",
+      "thread_id": "thread-70bfc6cb36ef",
+      "thread_depth": 1,
+      "month": "2009-11"
+    },
+    {
+      "id": "msg-cb95908cdb99",
+      "message_id": "<4B03CA03020000D90006D985@STATE.OR.US>",
+      "from_name": "Dagan A WRIGHT",
+      "from_email_hash": "1b1e9e6109bebb24dd6f2b8ed0d227052ba838ffe097c24013d772d5d95a98a9",
+      "date": "2009-11-18T10:18:39-08:00",
+      "subject": "[R-sig-Epi] R functions for probabilistic linkage",
+      "subject_clean": "R functions for probabilistic linkage",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I am somewhat new to R although using and liking already.  I am curious if there are any probabilistic packages similar in function to others such and Link King (http://www.the-link-king.com/).  I am looking for functions in SSN, First/Last name, date of birth, and a couple other indicators for matching.\n\nThanks\n\nDagan Wright, Ph.D., M.S.P.H.\nLead Addictions Research Analyst, Analysis & Evaluation Unit\nAddictions & Mental Health Division (AMH)\n500 Summer St. NE E86\nSalem, Oregon 97301-1118\n\nOffice number: 503-945-5726\nFax number:     503-378-8467\ndagan.a.wright at state.or.us",
+      "body_snippet": "I am somewhat new to R although using and liking already.  I am curious if there are any probabilistic packages similar in function to others such and Link King (http://www.the-link-king.com/).  I am ",
+      "thread_id": "thread-cb95908cdb99",
+      "thread_depth": 0,
+      "month": "2009-11"
+    },
+    {
+      "id": "msg-34f81d2490ab",
+      "message_id": "<1258574735.13793.3.camel@R3-thux>",
+      "from_name": "Bernardo Rangel Tura",
+      "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
+      "date": "2009-11-18T18:05:35-02:00",
+      "subject": "[R-sig-Epi] R functions for probabilistic linkage",
+      "subject_clean": "R functions for probabilistic linkage",
+      "in_reply_to": "<4B03CA03020000D90006D985@STATE.OR.US>",
+      "references": [
+        "<4B03CA03020000D90006D985@STATE.OR.US>"
+      ],
+      "body_plain": "On Wed, 2009-11-18 at 10:18 -0800, Dagan A WRIGHT wrote:\n> I am somewhat new to R although using and liking already.  I am curious if there are any probabilistic packages similar in function to others such and Link King (http://www.the-link-king.com/).  I am looking for functions in SSN, First/Last name, date of birth, and a couple other indicators for matching.\n> \n> Thanks\nHi Dagan,\n\nI don't know any package in R for probabilistic linkage, but I and my\nteam have using this in one research and I have development 3 or 4\nscripts about this.\n\nWhat you need in this topic? \n\n-- \nBernardo Rangel Tura, M.D,MPH,Ph.D\nNational Institute of Cardiology\nBrazil",
+      "body_snippet": "On Wed, 2009-11-18 at 10:18 -0800, Dagan A WRIGHT wrote:\n> I am somewhat new to R although using and liking already.  I am curious if there are any probabilistic packages similar in function to others",
+      "thread_id": "thread-cb95908cdb99",
+      "thread_depth": 1,
+      "month": "2009-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-dbd287b1fcca",
+      "subject": "R-sig-Epi Digest, Vol 37, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Ajit de Silva"
+      ],
+      "started": "2009-11-10T06:20:09-08:00",
+      "last_reply": "2009-11-10T06:20:09-08:00",
+      "root_message_id": "msg-dbd287b1fcca"
+    },
+    {
+      "id": "thread-70bfc6cb36ef",
+      "subject": "The Common risk difference and effect modification on the additive scale",
+      "message_count": 2,
+      "participants": [
+        "David Winsemius",
+        "Jens Levy"
+      ],
+      "started": "2009-11-10T11:15:17+07:00",
+      "last_reply": "2009-11-10T10:28:46-05:00",
+      "root_message_id": "msg-70bfc6cb36ef"
+    },
+    {
+      "id": "thread-cb95908cdb99",
+      "subject": "R functions for probabilistic linkage",
+      "message_count": 2,
+      "participants": [
+        "Bernardo Rangel Tura",
+        "Dagan A WRIGHT"
+      ],
+      "started": "2009-11-18T10:18:39-08:00",
+      "last_reply": "2009-11-18T18:05:35-02:00",
+      "root_message_id": "msg-cb95908cdb99"
+    }
+  ]
+}

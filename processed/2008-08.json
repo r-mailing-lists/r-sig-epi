@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2008-08",
+  "messages": [
+    {
+      "id": "msg-e7d9d8e13842",
+      "message_id": "<BAY110-W52C2562FD824E472AB32BBA36D0@phx.gbl>",
+      "from_name": "Vumani Dlamini",
+      "from_email_hash": "2322e67175562b621f07e7005c16043d54eb661ed66ad2e6307a9c9812ea578e",
+      "date": "2008-08-15T12:11:23Z",
+      "subject": "[R-sig-Epi] estimating the proportion without recurring ailment based on the nelson-aalen estimator",
+      "subject_clean": "estimating the proportion without recurring ailment based on the nelson-aalen estimator",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080815/f83f1a36/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080815/f83f1a36/attachment.pl>",
+      "thread_id": "thread-e7d9d8e13842",
+      "thread_depth": 0,
+      "month": "2008-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e7d9d8e13842",
+      "subject": "estimating the proportion without recurring ailment based on the nelson-aalen estimator",
+      "message_count": 1,
+      "participants": [
+        "Vumani Dlamini"
+      ],
+      "started": "2008-08-15T12:11:23+00:00",
+      "last_reply": "2008-08-15T12:11:23+00:00",
+      "root_message_id": "msg-e7d9d8e13842"
+    }
+  ]
+}

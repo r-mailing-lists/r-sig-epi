@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2006-04",
+  "messages": [
+    {
+      "id": "msg-d1b2ccd62b8c",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC80835018E8517@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2006-04-05T15:27:40+02:00",
+      "subject": "[R-sig-Epi] Version 0.6 of Epi",
+      "subject_clean": "Version 0.6 of Epi",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have uploaded version 0.6 of the Epi package to CRAN, where it \nwill be available soon. \n\nThe package homepage is:\nhttp://www.pubhealth.ku.dk/~bxc/Epi/\n\nA few bugs have been corrected.\nBelow is a list of changes.\nAny comments are welcome.\n\nBest,\nBendix Carsensen\nEpi-package maintainer\n----------------------\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2\nDK-2820 Gentofte\nDenmark\ntel: +45 44 43 87 38\nmob: +45 30 75 87 38\nfax: +45 44 43 07 06\nbxc at steno.dk\nwww.biostat.ku.dk/~bxc\n----------------------\n\nChanges from 0.4 to 0.6\n\no ci.pd() amended to support the Agresti-Caffo method for confidence\n  intervals for difference between proportions. Newcombes method 10\n  is still used in twoby2.\n\no apc.fit() added. Fits age-period-cohort models with a range of\n  possibilities for parametrizations.\n\no Functions for time-splitting at arbitrary times and at recurrent \n  failures have been added: isec(), icut(), fcut1(), fcut() and\n  ex1(). Eventually they will be superseded by new facilities in Lexis.\n\no Function apc.plot() to make a plot of an apc fit is added. It is just\n  a wrapper for apc.frame() and apc.lines(), with suitable computation\nof\n  the paramters supplied to apc.frame.\n\no Lexis.lines(): pch.fail and col.fail expands to vectors of length two\n  if only one value is given. \n\no ci.cum() aimed at computing cumulative hazard functions from\n  parametric functions for hazards.\n\no Problem in print.floated() with printing of objects of class\n  \"floated\" fixed.\n\no Problem in ci.lin when subset did not match any factor names and\n  diff=T was given the function crashed. Fixed, and documentation\nupdated.\n\no cal.yr produces objects of class c(\"cal.yr\",\"numeric\"). Functions\n  as.Date.numeric and as.Date.cal.yr added.",
+      "body_snippet": "I have uploaded version 0.6 of the Epi package to CRAN, where it \nwill be available soon. \n\nThe package homepage is:\nhttp://www.pubhealth.ku.dk/~bxc/Epi/\n\nA few bugs have been corrected.\nBelow is a li",
+      "thread_id": "thread-d1b2ccd62b8c",
+      "thread_depth": 0,
+      "month": "2006-04"
+    },
+    {
+      "id": "msg-6c10e6ac49f7",
+      "message_id": "<20060421152011.A85688D16@mach.vub.ac.be>",
+      "from_name": "Yair Levy",
+      "from_email_hash": "1e5a1dd1c725f371924a25f19bbd38a685fda7d619becbca7f42db336d7f3b81",
+      "date": "2006-04-21T17:20:11+02:00",
+      "subject": "[R-sig-Epi] Comparaison de tableaux de fréquences",
+      "subject_clean": "Comparaison de tableaux de fréquences",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Bonjour ? tous,\n\nJ'?ssaye de comparer des tables de fr?quences, d?duites de la fonction \"table\", ne repr?sentant pas les fr?quences des m?mes classes. Quelqu'un connaitrais-t-il une fonction existante pour ce traitment, ma foi, r?alisable.\n\nPersonnellement j'explore la piste consistant ? incorporer les classes manquantes des diff?rentes tables avec des valeurs de fr?quences nulles.\n\n\nBien ? vous,\n\n\nY.\n\n\n    \nLevy Ya?r\nTel: 0476/75.47.25\nyairlbe at yahoo.com\nRue Gretry 1\n2018 Anvers",
+      "body_snippet": "Bonjour ? tous,\n\nJ'?ssaye de comparer des tables de fr?quences, d?duites de la fonction \"table\", ne repr?sentant pas les fr?quences des m?mes classes. Quelqu'un connaitrais-t-il une fonction existante",
+      "thread_id": "thread-6c10e6ac49f7",
+      "thread_depth": 0,
+      "month": "2006-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d1b2ccd62b8c",
+      "subject": "Version 0.6 of Epi",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2006-04-05T15:27:40+02:00",
+      "last_reply": "2006-04-05T15:27:40+02:00",
+      "root_message_id": "msg-d1b2ccd62b8c"
+    },
+    {
+      "id": "thread-6c10e6ac49f7",
+      "subject": "Comparaison de tableaux de fréquences",
+      "message_count": 1,
+      "participants": [
+        "Yair Levy"
+      ],
+      "started": "2006-04-21T17:20:11+02:00",
+      "last_reply": "2006-04-21T17:20:11+02:00",
+      "root_message_id": "msg-6c10e6ac49f7"
+    }
+  ]
+}

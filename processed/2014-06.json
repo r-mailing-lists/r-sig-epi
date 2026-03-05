@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2014-06",
+  "messages": [
+    {
+      "id": "msg-a6e3d687f026",
+      "message_id": "<FDB69C621DB6B7438F442CBD278F10F132DA2B8A@ORG-MB02.hs.uci.edu>",
+      "from_name": "Tjoa, Thomas",
+      "from_email_hash": "31893e04e91d441ed5c2b04ff0b9a0e0afae6571d729777a6400eaf12b7c50a1",
+      "date": "2014-06-24T21:57:21Z",
+      "subject": "[R-sig-Epi] increasing  memory allocation",
+      "subject_clean": "increasing  memory allocation",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140624/c26f12fe/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140624/c26f12fe/attachment.pl>",
+      "thread_id": "thread-a6e3d687f026",
+      "thread_depth": 0,
+      "month": "2014-06"
+    },
+    {
+      "id": "msg-cd32f58f96d2",
+      "message_id": "<D48624DDDF1E874FBD20BC5C1FE08FA41E43A020@NNEXMRDK005.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2014-06-25T08:10:29Z",
+      "subject": "[R-sig-Epi] Epi 1.1.65 released",
+      "subject_clean": "Epi 1.1.65 released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear list members,\n\nThere is now a new version of the Epi package on CRAN, version 1.1.65, replacing 1.1.49. There have been quite a bit of changes and fixed since last version on CRAN, see below. None however that will render previous uses of functions invalid.\n\nUpgrade recommended.\n\nBest regards,\nBendix\nEpi-package maintainer\n______________________________________________\n\nBendix Carstensen \nSenior Statistician\nClinical Epidemiology\nSteno Diabetes Center A/S\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk    http://BendixCarstensen.com\nwww.steno.dk\n\n___________________________________________________________________________\n\nList of changes since 1.1.45\n-----------------------------\n\nChanges in 1.1.65\n\no Despite the note, dropped rows from construction of a Lexis objects\n  were not put in the \"dropped\" attribute.\n\nChanges in 1.1.64\n\no Fixed the sim-Lexis vignette\n\nChanges in 1.1.64\n\no Added function ZArray, which generates an array of 0s just as NArray\n  generates an array of NAs.\n\no Updated code to avoid \"::\" and \":::\" as far as possible, as well as\n  \"<<-\". Hence excluded records from construction of a Lexis object is\n  now put in an attribute \"dropped\" of the Lexis object.\n\nChanges in 1.1.62\n\no Bug fix in the example code for boxes.Lexis\n\nChanges in 1.1.61\n\no ci.lin updated to recognize objects of class \"lmerMod\" from lmer.\n\nChanges in 1.1.60\n\no Documentation for DMlate updated.\n\nChanges in 1.1.59\n\no boxes.Lexis updated so that also no. of beginners and enders are\n  properly formatted if larger than 999\n\nChanges in 1.1.57\n\no boxes.Lexis updated with arguments show.BE and BE.pre, allowing\n  annotation of boxes by the *number* of persons starting and ending\n  in different states.\n\nChanges in 1.1.57\n\no simLexis substantially updated and groomed to accept Cox-models for\n  transitions too. Example in the documentation and vignette is\n  expanded accordingly.\n\nChanges in 1.1.56\n\no Typos in documentation corrected.\n\no When records with too short follow-up are encountered by Lexis, they\n  are dropped from the resulting object, but they will be availabe in\n  the object drop.sh in the global environment.\n\no The col and border arguments to plot.pState were not repeated\n  automatically, so needed fixing.\n\no More elaborate warning and error-messages if initiators in absorbing\n  states are handed to simLexis.\n\nChanges in 1.1.55\n\no Documentation of clogistic is clarified w.r.t. likelihood\n  contributions of matched sets.\n\nChanges in 1.1.54\n\no apc.fit updated to use the Ns wrapper, and automatically use knots\n  located so that the marginal number of events is the same between\n  knots.\n\no plot.apc and lines.apc defined as methods for apc objects. They are\n  just wrappers for apc.plot and apc.lines.\n\no gen.exp example slightly modified to give better output.\n\nChanges in 1.1.53\n\no Population figures in N.dk, M.dk and Y.dk updated\n\nChanges in 1.1.52\n\no col.txt argument to plotEst was not working properly. Fixed\n\no txt argument to plotEst can now be an expression vector allowing\n  sub- and superscripts and mathematical expressions.\n\no Relevel did not issue warning or error when a given level was being\n  specified as member of more than one new level. It now stops with an\n  error.\n\no The convenience wrappers Ns (for ns) and NArray (for array) have\n  been added\n\nChanges in 1.1.51\n\no boxes.Lexis fixed so that rates could be computed from matrix input\n  to.\n\nChanges in 1.1.50\n\no Calculation of p-values in ci.lin has been modified, thanks to\n  Krista Fischer.\n\nChanges in 1.1.49\n\no Default of \"border\" argument to plot.pState changed to \"transparent\"\n\nChanges in 1.1.48\n\no Slight tidying of code in apc.fit. Automatic determination of\n  reference points for period and cohort fixed to produce median\n  correctly.\n\nChanges in 1.1.47\n\no Bug in simLexis (specifically in Epi:::simX) where factor levels\n  were wrongly used, is now corrected. Versions earlier are likely to\n  produce wrong state allocation in simulated dataset and not crash.\n\nChanges in 1.1.46\n\no lex.id handling in simLexis changed, allows for easier simulation in\n  chunks which may be necessary to avoid memory problems.\n\nChanges in 1.1.45\n\no simLexis introduced. Allows simulation from multiple timescale\n  mulitste models. Accompanying utilities supplied too: pr.Lexis, prev\n  and plot.prev.",
+      "body_snippet": "Dear list members,\n\nThere is now a new version of the Epi package on CRAN, version 1.1.65, replacing 1.1.49. There have been quite a bit of changes and fixed since last version on CRAN, see below. Non",
+      "thread_id": "thread-cd32f58f96d2",
+      "thread_depth": 0,
+      "month": "2014-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-a6e3d687f026",
+      "subject": "increasing  memory allocation",
+      "message_count": 1,
+      "participants": [
+        "Tjoa, Thomas"
+      ],
+      "started": "2014-06-24T21:57:21+00:00",
+      "last_reply": "2014-06-24T21:57:21+00:00",
+      "root_message_id": "msg-a6e3d687f026"
+    },
+    {
+      "id": "thread-cd32f58f96d2",
+      "subject": "Epi 1.1.65 released",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2014-06-25T08:10:29+00:00",
+      "last_reply": "2014-06-25T08:10:29+00:00",
+      "root_message_id": "msg-cd32f58f96d2"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+From pm83 at me.com  Wed Feb  9 14:37:45 2011
+From: pm83 at me.com (=?utf-8?Q?Przemys=C5=82aw_Jura?=)
+Date: Wed, 09 Feb 2011 21:37:45 +0800
+Subject: [R-sig-Epi] Calculate local RR from GAM
+Message-ID: <9D3E9DFC-CE55-48D4-8A3B-DFB905B7DC03@me.com>
+
+Dear Group,
+I am just a beginner in Epidemiology, epi-statistics and this group hence, in advance
+I apologize if I ask trivial question.
+
+I would like to ask how is it possible to calculate from GAM (general
+additive model) Relative Risk
+the model has following formula:
+log(E[O_i]) ~ log(N_i) + someCovariates_i, where Oi is number of cases
+of some disease in i-th area, N is population at risk in i-th area,
+other covariates are i-th region specific.
+I one paper authors calculated RR for each i-th region out of this model, but I have no
+idea how can I do it myself.
+
+
+
+Kindest regards,
+
+pj
+
+
+From bxc at steno.dk  Wed Feb  9 17:41:16 2011
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Wed, 9 Feb 2011 17:41:16 +0100
+Subject: [R-sig-Epi] Calculate local RR from GAM
+In-Reply-To: <9D3E9DFC-CE55-48D4-8A3B-DFB905B7DC03@me.com>
+References: <9D3E9DFC-CE55-48D4-8A3B-DFB905B7DC03@me.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3302B6B23BBC@exdkmbx002.corp.novocorp.net>
+
+In the paper:
+
+@article{Carstensen:Plummer:2010:JSSOBK:v38i06,
+  author =	"Bendix Carstensen and Martyn Plummer",
+  title =	"Using Lexis Objects for Multi-State Models in R",
+  journal =	"Journal of Statistical Software",
+  volume =	"38",
+  number =	"6",
+  pages =	"1--18",
+  day =  	"4",
+  month =	"1",
+  year = 	"2011",
+  CODEN =	"JSSOBK",
+  ISSN = 	"1548-7660",
+  bibdate =	"2010-09-16",
+  URL =  	"http://www.jstatsoft.org/v38/i06",
+  accepted =	"2010-09-16",
+  acknowledgement = "",
+  keywords =	"",
+  submitted =	"2010-02-09",
+}
+
+there is a section which explains how to do this for parametric spline models which are not dramatically dissimilar from GAM models.
+
+Best regards,
+Bendix Carstensen
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at r-project.org 
+> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Przemyslaw Jura
+> Sent: 9. februar 2011 14:38
+> To: r-sig-epi at r-project.org
+> Subject: [R-sig-Epi] Calculate local RR from GAM
+> 
+> Dear Group,
+> I am just a beginner in Epidemiology, epi-statistics and this 
+> group hence, in advance I apologize if I ask trivial question.
+> 
+> I would like to ask how is it possible to calculate from GAM 
+> (general additive model) Relative Risk the model has 
+> following formula:
+> log(E[O_i]) ~ log(N_i) + someCovariates_i, where Oi is number 
+> of cases of some disease in i-th area, N is population at 
+> risk in i-th area, other covariates are i-th region specific.
+> I one paper authors calculated RR for each i-th region out of 
+> this model, but I have no idea how can I do it myself.
+> 
+> 
+> 
+> Kindest regards,
+> 
+> pj
+> 
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+From emmanuel.brasil at gmail.com  Thu Feb 10 12:50:31 2011
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Thu, 10 Feb 2011 08:50:31 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 50, Issue 1
+In-Reply-To: <mailman.5.1297335601.22737.r-sig-epi@r-project.org>
+References: <mailman.5.1297335601.22737.r-sig-epi@r-project.org>
+Message-ID: <AANLkTinqgDzrJHysbmAE9FhPH7QznpbWjUmp2=0QcWjd@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110210/d7675ac3/attachment.pl>
+
+From suman_math at yahoo.com  Wed Feb 16 15:54:26 2011
+From: suman_math at yahoo.com (Suman Kundu)
+Date: Wed, 16 Feb 2011 06:54:26 -0800 (PST)
+Subject: [R-sig-Epi] Compare calibration from two LR models
+Message-ID: <830070.74768.qm@web112509.mail.gq1.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110216/f3ea8e6f/attachment.pl>
+
+From emmanuel.brasil at gmail.com  Thu Feb 17 13:02:40 2011
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Thu, 17 Feb 2011 09:02:40 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 50, Issue 3
+In-Reply-To: <mailman.5.1297940402.32144.r-sig-epi@r-project.org>
+References: <mailman.5.1297940402.32144.r-sig-epi@r-project.org>
+Message-ID: <AANLkTin79=oqi7FiqJny-4ri-aAHA-NSMrTquTd+Si=c@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110217/f31f9f0b/attachment.pl>
+

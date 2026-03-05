@@ -1,0 +1,192 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2010-06",
+  "messages": [
+    {
+      "id": "msg-5efca06f1cb8",
+      "message_id": "<AANLkTim9bbGfw1PaiUN6eYbIJtmMeNpK3u587YxEv2Vt@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2010-06-15T14:13:04-03:00",
+      "subject": "[R-sig-Epi] Correlation coefficient epi.ccc error",
+      "subject_clean": "Correlation coefficient epi.ccc error",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100615/614895e2/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100615/614895e2/attachment.pl>",
+      "thread_id": "thread-5efca06f1cb8",
+      "thread_depth": 0,
+      "month": "2010-06"
+    },
+    {
+      "id": "msg-6ffa622668ce",
+      "message_id": "<OFE3B30037.39D3ADC8-ONC1257744.0053C040-C1257744.0054D77B@smr.arpa.emr.it>",
+      "from_name": "szauli at arpa.emr.it",
+      "from_email_hash": "576ee2ee32727ee7aa75587faafe22a8ebfb760842db9e0f0bd8b035eb190990",
+      "date": "2010-06-16T17:26:30+02:00",
+      "subject": "[R-sig-Epi] Multiple forest plot",
+      "subject_clean": "Multiple forest plot",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "? stato filtrato un testo allegato il cui set di caratteri non era\nindicato...\nNome: non disponibile\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100616/fad90863/attachment.pl>",
+      "body_snippet": "? stato filtrato un testo allegato il cui set di caratteri non era\nindicato...\nNome: non disponibile\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100616/fad90863/attachment.pl>",
+      "thread_id": "thread-6ffa622668ce",
+      "thread_depth": 0,
+      "month": "2010-06"
+    },
+    {
+      "id": "msg-60894b54043d",
+      "message_id": "<AANLkTilNHwGl7q5OGyve8tCFkUd2LhueX5ClyK5oErxG@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2010-06-17T09:51:12-03:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 42, Issue 2",
+      "subject_clean": "R-sig-Epi Digest, Vol 42, Issue 2",
+      "in_reply_to": "<mailman.3.1276768802.23477.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.3.1276768802.23477.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100617/6e5bfc4d/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100617/6e5bfc4d/attachment.pl>",
+      "thread_id": "thread-60894b54043d",
+      "thread_depth": 0,
+      "month": "2010-06"
+    },
+    {
+      "id": "msg-360cadf5f2cd",
+      "message_id": "<AANLkTilaBHnSCUwj-yq7tSzagQxhZDOufEzpbDCFfcty@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2010-06-23T18:58:21-03:00",
+      "subject": "[R-sig-Epi] epicalc::kap error",
+      "subject_clean": "epicalc::kap error",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100623/52328d64/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100623/52328d64/attachment.pl>",
+      "thread_id": "thread-360cadf5f2cd",
+      "thread_depth": 0,
+      "month": "2010-06"
+    },
+    {
+      "id": "msg-5c60e8c3d793",
+      "message_id": "<AANLkTikDKxeSMvV8l-dttY7pnVCedsgm953y0AcZlExk@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2010-06-24T16:17:33-03:00",
+      "subject": "[R-sig-Epi] Merging and updating data frames",
+      "subject_clean": "Merging and updating data frames",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100624/58d6a381/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100624/58d6a381/attachment.pl>",
+      "thread_id": "thread-5c60e8c3d793",
+      "thread_depth": 0,
+      "month": "2010-06"
+    },
+    {
+      "id": "msg-3b7f96b41eda",
+      "message_id": "<AANLkTinROMkKvCNQCOFlV1McomihVMKMUDQEQL5pr8Z4@mail.gmail.com>",
+      "from_name": "Aidan Findlater",
+      "from_email_hash": "60f5abdbe8642b907e5a1190a9971f418e54a71a8379cf613a987cec26d23cd4",
+      "date": "2010-06-24T16:10:28-04:00",
+      "subject": "[R-sig-Epi] Merging and updating data frames",
+      "subject_clean": "Merging and updating data frames",
+      "in_reply_to": "<AANLkTikDKxeSMvV8l-dttY7pnVCedsgm953y0AcZlExk@mail.gmail.com>",
+      "references": [
+        "<AANLkTikDKxeSMvV8l-dttY7pnVCedsgm953y0AcZlExk@mail.gmail.com>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100624/f02f37ef/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100624/f02f37ef/attachment.pl>",
+      "thread_id": "thread-5c60e8c3d793",
+      "thread_depth": 1,
+      "month": "2010-06"
+    },
+    {
+      "id": "msg-ee87fc1791a4",
+      "message_id": "<SNT128-W21E8DD8FD6DED6FFE4A531A6CA0@phx.gbl>",
+      "from_name": "Pryseley Assam",
+      "from_email_hash": "885d17f6da0b3ba3382635fb66bfb74339b24121f30483dc0731d77fd3cdeb57",
+      "date": "2010-06-28T17:48:20+08:00",
+      "subject": "[R-sig-Epi] Multiple Treatments Meta-analysis (MTM)",
+      "subject_clean": "Multiple Treatments Meta-analysis (MTM)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100628/acc62320/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100628/acc62320/attachment.pl>",
+      "thread_id": "thread-ee87fc1791a4",
+      "thread_depth": 0,
+      "month": "2010-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-5efca06f1cb8",
+      "subject": "Correlation coefficient epi.ccc error",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2010-06-15T14:13:04-03:00",
+      "last_reply": "2010-06-15T14:13:04-03:00",
+      "root_message_id": "msg-5efca06f1cb8"
+    },
+    {
+      "id": "thread-6ffa622668ce",
+      "subject": "Multiple forest plot",
+      "message_count": 1,
+      "participants": [
+        "szauli at arpa.emr.it"
+      ],
+      "started": "2010-06-16T17:26:30+02:00",
+      "last_reply": "2010-06-16T17:26:30+02:00",
+      "root_message_id": "msg-6ffa622668ce"
+    },
+    {
+      "id": "thread-60894b54043d",
+      "subject": "R-sig-Epi Digest, Vol 42, Issue 2",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2010-06-17T09:51:12-03:00",
+      "last_reply": "2010-06-17T09:51:12-03:00",
+      "root_message_id": "msg-60894b54043d"
+    },
+    {
+      "id": "thread-360cadf5f2cd",
+      "subject": "epicalc::kap error",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2010-06-23T18:58:21-03:00",
+      "last_reply": "2010-06-23T18:58:21-03:00",
+      "root_message_id": "msg-360cadf5f2cd"
+    },
+    {
+      "id": "thread-5c60e8c3d793",
+      "subject": "Merging and updating data frames",
+      "message_count": 2,
+      "participants": [
+        "Aidan Findlater",
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2010-06-24T16:17:33-03:00",
+      "last_reply": "2010-06-24T16:10:28-04:00",
+      "root_message_id": "msg-5c60e8c3d793"
+    },
+    {
+      "id": "thread-ee87fc1791a4",
+      "subject": "Multiple Treatments Meta-analysis (MTM)",
+      "message_count": 1,
+      "participants": [
+        "Pryseley Assam"
+      ],
+      "started": "2010-06-28T17:48:20+08:00",
+      "last_reply": "2010-06-28T17:48:20+08:00",
+      "root_message_id": "msg-ee87fc1791a4"
+    }
+  ]
+}

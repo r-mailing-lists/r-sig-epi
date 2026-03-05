@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2015-12",
+  "messages": [
+    {
+      "id": "msg-de6e86f42ed2",
+      "message_id": "<CANkV+2_7YsnMDD4JXdemBRMmxnC05TeWy7PMo4QextWXOoYWQg@mail.gmail.com>",
+      "from_name": "Josh Rosen",
+      "from_email_hash": "24ae85d7d54b1aa302005d1ae4d9943eb220ab21cc64fb9f6b5585552c98007f",
+      "date": "2015-12-08T17:38:54-05:00",
+      "subject": "[R-sig-Epi] Log-Rank Test on Relative Survival",
+      "subject_clean": "Log-Rank Test on Relative Survival",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello All,\n\nI have another question regarding using the relsurv package. I am trying to\nrun a log-rank test to compare across the strata in my relative survival\nplots. So far I am able to compute relative and non-relative survival:\n\nrelative.surv <-\nrs.surv(Surv(time,tens)~treatment+ratetable(age=age*365.24, sex=sex,\nyear=year), data=patient_data_all_frame, ratetable=life_table_03_15)\n\nnonrel.surv <- survfit(Surv(time,cens) ~ treatment, data =\npatient_data_frame)\n\nFor a log-rank on the non-relative survival, I simply use the survdiff\nfunction in the survival package:\nsurvdiff(Surv(time,cens) ~ treatment, data=patient_data_all_frame)\n\nI am trying to figure out how to run a log-rank on the relative survival\ndata as well, but can't seem to find a way to pass the survival object I\ncreated (relative.surv) into the survdiff function.\n\nAny help that you can provide would be greatly appreciated.\n\nThank you\n-Josh\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello All,\n\nI have another question regarding using the relsurv package. I am trying to\nrun a log-rank test to compare across the strata in my relative survival\nplots. So far I am able to compute rela",
+      "thread_id": "thread-de6e86f42ed2",
+      "thread_depth": 0,
+      "month": "2015-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-de6e86f42ed2",
+      "subject": "Log-Rank Test on Relative Survival",
+      "message_count": 1,
+      "participants": [
+        "Josh Rosen"
+      ],
+      "started": "2015-12-08T17:38:54-05:00",
+      "last_reply": "2015-12-08T17:38:54-05:00",
+      "root_message_id": "msg-de6e86f42ed2"
+    }
+  ]
+}

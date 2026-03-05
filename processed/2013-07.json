@@ -1,0 +1,38 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2013-07",
+  "messages": [
+    {
+      "id": "msg-11e788a8fc3f",
+      "message_id": "<51DB2440.60902@ugent.be>",
+      "from_name": "Brecht Devleesschauwer",
+      "from_email_hash": "65665ef466b108a98f2bbec1749a59b144a0ed1fdef3d27e78c950e0b78465b7",
+      "date": "2013-07-08T22:42:40+02:00",
+      "subject": "[R-sig-Epi] new package 'prevalence'",
+      "subject_clean": "new package 'prevalence'",
+      "in_reply_to": "<51D83B88.30903@ugent.be>",
+      "references": [
+        "<51D83B88.30903@ugent.be>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130708/c83c5036/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130708/c83c5036/attachment.pl>",
+      "thread_id": "thread-11e788a8fc3f",
+      "thread_depth": 0,
+      "month": "2013-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-11e788a8fc3f",
+      "subject": "new package 'prevalence'",
+      "message_count": 1,
+      "participants": [
+        "Brecht Devleesschauwer"
+      ],
+      "started": "2013-07-08T22:42:40+02:00",
+      "last_reply": "2013-07-08T22:42:40+02:00",
+      "root_message_id": "msg-11e788a8fc3f"
+    }
+  ]
+}

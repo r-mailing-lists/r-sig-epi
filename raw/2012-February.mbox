@@ -1,0 +1,99 @@
+From arshad4uonly at gmail.com  Sun Feb 26 23:12:52 2012
+From: arshad4uonly at gmail.com (Muhammad Arshad)
+Date: Mon, 27 Feb 2012 05:12:52 +0700
+Subject: [R-sig-Epi] =?utf-8?q?Fwd=3A_Need_help_to_find_multifactors_influ?=
+	=?utf-8?b?ZW5jZeKAjw==?=
+In-Reply-To: <CADkfwos-nCV8yCExF_NhAfgpqBfi-5h8TrbNyCYxFRpG5AppEg@mail.gmail.com>
+References: <CADkfwos-nCV8yCExF_NhAfgpqBfi-5h8TrbNyCYxFRpG5AppEg@mail.gmail.com>
+Message-ID: <CADkfwotSB+p=aVEMfZUvwajoDMZmCTFH5xGWwY0R2VfMkj2oqw@mail.gmail.com>
+
+Dear friends,
+
+1-I have B.I value (Dependent variable).
+2-I have land cover types in the form of % area against each B.I (that was
+clipped through buffer for each B.I ). Buffer was put by considering B.I
+behavior that can be influence by land type.
+3- I want to see the influence of land type on B.I.
+4- Suppose B.I value varies with the change in (area) one or more types of
+land cover. This change may be linear up to some extent but can also
+increase with the combination of land types. Land types can also differ
+from one buffer to other buffer.
+5- I want to develop a Predication Model\Regression Equation to predict B.I
+value with the combined influence of different land use types.
+6- I am confused which Regression model (Linear, Logistic, and Poisson,
+Exponential etc...)  Should be adopted to develop this type of relationship
+where factors are varying.
+7- Total study map consists of 77 land cover types and each buffer gets
+some land type.
+
+Please see the attached data having values extracted for each land type
+(a1~a77 are land type names against each BI).
+
+I already tried to solve it with different methods. Even I made groups in
+term of B.I & also in term of land cover types. But still failed to
+find correlation with reasonable factors.
+
+I will happy for your informative response to solve my this problem. Please
+let me know if my question is not clear.
+
+Warm Regards,
+Malik\Arshad
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120227/f2c93671/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: MALIK'S DATA.xlsx
+Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Size: 49168 bytes
+Desc: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120227/f2c93671/attachment-0001.bin>
+
+From bxc at steno.dk  Mon Feb 27 00:22:33 2012
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Mon, 27 Feb 2012 00:22:33 +0100
+Subject: [R-sig-Epi]
+ =?windows-1255?q?Fwd=3A_Need_help_to_find_multifactor?=
+ =?windows-1255?q?s_influence=FE?=
+In-Reply-To: <CADkfwotSB+p=aVEMfZUvwajoDMZmCTFH5xGWwY0R2VfMkj2oqw@mail.gmail.com>
+References: <CADkfwos-nCV8yCExF_NhAfgpqBfi-5h8TrbNyCYxFRpG5AppEg@mail.gmail.com>
+	<CADkfwotSB+p=aVEMfZUvwajoDMZmCTFH5xGWwY0R2VfMkj2oqw@mail.gmail.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC33031B818FAF@exdkmbx002.corp.novocorp.net>
+
+Dear Malik Arshad,
+this list is a list for asking questions and advice relating to the Epi-package and  broader epidemiological questions related to that.
+
+It is NOT for asking help to solve assignments, so please do not post this type of requests any more. If you are confused between different regression models, you should not ask questions here, but acquire the relevant qualifications first.
+And this list cannot help with that.
+
+Best regards,
+Bendix Carstensen
+
+________________________________
+
+	From: r-sig-epi-bounces at r-project.org [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Muhammad Arshad
+	Sent: 26. februar 2012 23:13
+	To: r-sig-epi at r-project.org
+	Subject: [R-sig-Epi] Fwd: Need help to find multifactors influence?
+	
+	
+	Dear friends,
+
+	1-I have B.I value (Dependent variable). 
+	2-I have land cover types in the form of % area against each B.I (that was clipped through buffer for each B.I ). Buffer was put by considering B.I behavior that can be influence by land type.  
+	3- I want to see the influence of land type on B.I. 
+	4- Suppose B.I value varies with the change in (area) one or more types of land cover. This change may be linear up to some extent but can also increase with the combination of land types. Land types can also differ from one buffer to other buffer.
+	5- I want to develop a Predication Model\Regression Equation to predict B.I value with the combined influence of different land use types.
+	6- I am confused which Regression model (Linear, Logistic, and Poisson, Exponential etc...)  Should be adopted to develop this type of relationship where factors are varying. 
+	7- Total study map consists of 77 land cover types and each buffer gets some land type.
+
+	Please see the attached data having values extracted for each land type (a1~a77 are land type names against each BI).
+
+	I already tried to solve it with different methods. Even I made groups in term of B.I & also in term of land cover types. But still failed to find correlation with reasonable factors.
+
+	I will happy for your informative response to solve my this problem. Please let me know if my question is not clear.
+
+	Warm Regards,
+	Malik\Arshad
+
+

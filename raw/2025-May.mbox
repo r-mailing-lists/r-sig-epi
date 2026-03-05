@@ -1,0 +1,484 @@
+From mzyphur m@iii@g oii i@st@ts@org  Thu May  1 18:20:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Thu, 01 May 2025 16:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Using LLMs for R coding and package development -
+ livestream seminar
+Message-ID: <-rDVO7b2S9in8fiJ4pNkMg@geopod-ismtpd-16>
+
+Hi everyone
+
+Instats is thrilled to offer a 3-day seminar, Using LLMs for R Coding and Package Development <https://instats.org/seminar/using-llms-for-r-coding-and-package-deve>, running May 20 - 22 by professors Seth Flaxman from the University of Oxford and Leonid Chindelevitch from Imperial College London. This seminar is designed to equip researchers and PhD students with the skills necessary to efficiently integrate Large Language Models (LLMs) into their research workflows using R. By mastering tools such as ChatGPT and Claude, participants will gain a competitive edge in R coding and package development. The seminar allows participants to explore practical applications, engage in real-world coding scenarios, and learn techniques for optimizing R code. Harness the synergy of traditional coding and AI-powered tools to transform your research methodologies, while enhancing your coding efficiency and staying at the forefront of technological advances in data science and quantitative research.
+
+Sign up today <https://instats.org/seminar/using-llms-for-r-coding-and-package-deve> to secure your spot, and please share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+instats.org <http://instats.org>
+
+Follow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Fri May  2 14:45:52 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Fri, 2 May 2025 13:45:52 +0100
+Subject: [R-sig-Epi] Advance Your Data Science Skills with Applied Spatial
+ and Spatial Temporal Modelling using R-INLA
+Message-ID: <CAEsSYzxb0XzhiCS8pE6=g6t193kE0NddBguy2wL1iWbWbHo6Lg@mail.gmail.com>
+
+*Advance Your Data Science Skills with Applied Spatial and Spatial Temporal
+Modelling using R-INLA*
+
+Are you looking to take your spatial data analysis skills to the next level?
+
+Join our Spatial and Spatial-Temporal Modelling using R-INLA
+<https://www.prstats.org/course/spatial-and-spatial-temporal-modelling-using-r-inla-sstm02/>course,
+designed for researchers and data professionals working with spatial and
+spatiotemporal data in ecology, epidemiology, environmental science, and
+beyond.
+
+*Course dates:* 23?27 June 2025
+
+Led by *Prof. Virgilio G?mez Rubio*, a leading expert in Bayesian spatial
+modelling and author of *Bayesian Inference with INLA
+<https://www.routledge.com/Bayesian-inference-with-INLA/Gomez-Rubio/p/book/9781138039872>*,
+this 5-day course will give you hands-on experience with:
+
+   -
+
+   Building spatial and spatiotemporal models using the *INLA package in R*
+   -
+
+   Understanding model structures for real-world applications
+   -
+
+   Working with spatial datasets using real examples and guided exercises
+   -
+
+   Applying best practices for reproducible, interpretable analysis
+
+*Why attend?*
+
+Small group learning, direct access to an expert tutor, and practical
+sessions designed to build confidence in implementing these advanced
+methods.
+
+Whether you?re a PhD student, academic researcher, or industry analyst,
+this course will provide you with the skills and understanding to apply
+spatial modelling in your work immediately.
+
+*Places are limited ? book now to secure your spot.*
+
+Full course details and registration
+<https://www.prstats.org/course/spatial-and-spatial-temporal-modelling-using-r-inla-sstm02/>
+
+If you have any questions, contact Oliver Hooker at:
+*oliverhooker at prstatistics.com
+<oliverhooker at prstatistics.com>*
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Fri May  2 21:36:21 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Fri, 2 May 2025 20:36:21 +0100
+Subject: [R-sig-Epi] =?utf-8?q?Master_Mixed_Models_=E2=80=93_Essential_To?=
+	=?utf-8?q?ols_for_Complex_Biological_Data?=
+Message-ID: <CAEsSYzxk2kgvvfEJmhLqcV+XL=aeY-t2AyAPQ_d0Fi6vDtt8_w@mail.gmail.com>
+
+Working with repeated or hierarchical data? This course is for you.
+
+Join our practical course: *Introduction to Mixed Models Using R and
+RStudio
+<https://www.prstats.org/course/introduction-to-mixed-models-using-r-and-rstudio-immr09/>*
+
+*Course dates:* 27th May 2025
+
+*Location:* Online Live Course
+
+Biological and ecological data often involve nested or repeated
+measurements that require more flexible statistical approaches. This course
+gives you the tools to analyse such data using linear mixed-effects models
+in R.
+
+Led by experienced instructors, you?ll learn:
+
+   -
+
+   How and when to use mixed models
+   -
+
+   The structure and interpretation of random effects
+   -
+
+   Fitting models using lme4 and other R packages
+   -
+
+   Dealing with nested, grouped, and repeated measures
+   -
+
+   Visualising and reporting mixed model results
+
+*Who should attend?*
+
+Researchers in biology, ecology, and related fields who already use R and
+need to handle complex or hierarchical data.
+
+*Why join us?*
+
+Get a strong grounding in mixed model theory and its real-world
+application?backed by hands-on coding, small group sessions, and biological
+datasets.
+
+*Spaces are limited ? reserve your spot today.*
+
+? View full course details and register now
+<https://www.prstats.org/course/introduction-to-mixed-models-using-r-and-rstudio-immr09/>
+
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Wed May  7 07:20:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Wed, 07 May 2025 05:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Data Visualization with ggplot2 - livestream seminar
+Message-ID: <BdSZSIj1QACHejb71wvE6g@geopod-ismtpd-7>
+
+Hi everyone
+
+Instats is excited to offer a 1-day seminar, Data Visualization with ggplot2 <https://instats.org/seminar/data-visualization-with-ggplot2>, livestreaming on May 19 and led by the Statistical Methodology and Consultancy Service (SMCS) of UC Louvain. Effective visuals are indispensable for exploring data, uncovering patterns, and communicating results, and ggplot2?the gold-standard R package?lets you turn complex datasets into clear, publication-ready graphics. Tailored to PhD candidates, faculty, and applied researchers, this intensive workshop moves from visualization fundamentals through advanced customization, layering, annotation, and best practices, equipping you to transform raw numbers into persuasive narratives and to streamline your exploratory analysis workflow across disciplines. A basic familiarity with R is recommended, and those needing a refresher can join Instats? free Introduction to R seminar to get up to speed beforehand. 
+
+Sign up today <https://instats.org/seminar/data-visualization-with-ggplot2> to secure your spot, and please share this opportunity with colleagues and students who might benefit!
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Fri May  9 04:20:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Fri, 09 May 2025 02:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Practical Research Consultancy for Academics -
+ livestream seminar
+Message-ID: <MHvqSKrDTs64OMJ-iGdydg@geopod-ismtpd-13>
+
+Hi everyone
+
+Instats is excited to offer a 2-day seminar, Practical Research Consultancy for Academics <https://instats.org/seminar/practical-research-consultancy-for-acade>, livestreaming May 20?21 and led by Dr Fran Harkness from Kohlrabi Consulting (Epidemiology and Public Health PhD from UCL). As more scholars seek impact beyond traditional institutions, this hands-on workshop shows you how to turn your research expertise into a thriving consultancy practice. You?ll walk through the full project cycle, articulate your values and niche, locate and cultivate clients, craft winning proposals under real-world constraints, collaborate seamlessly with stakeholders, communicate complex findings for lasting influence, manage resources efficiently, harness remote-work technologies, and navigate the essential 'fine print' of contracts and professional standards. Through case studies, group activities, and scenario-based exercises, Dr. Harkness will provide actionable guidance so you can confidently secure, run, and deliver consulting projects that broaden your career horizons and create immediate societal impact.
+
+Sign up today <https://instats.org/seminar/practical-research-consultancy-for-acade> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Mon May 12 18:50:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Mon, 12 May 2025 16:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] Introduction to Experimental Design - livestream seminar
+Message-ID: <tVNnno_rSlGspw-SrLzq6w@geopod-ismtpd-canary-0>
+
+Hi everyone
+
+Instats is thrilled to offer a 1-day seminar, Introduction to Experimental Design: Concepts and Applications <https://instats.org/seminar/introduction-to-experimental-design-conc>, livestreaming on May 22 and led by Dr Byran Smucker from the Department of Public Health Sciences, Division of Biostatistics, Henry Ford Health. Experimental design underpins credible, reproducible research across psychology, medicine, engineering, and beyond; this intensive workshop equips academics, graduate students, and industry practitioners with the practical philosophy of experimentation?highlighting randomization, replication, and blocking?while walking through power analysis, one-factor studies, and more advanced designs. Through real-world examples and R-based demonstrations (no prior R experience required), participants will learn to distinguish exploratory from confirmatory studies, avoid common pitfalls, and implement simple yet powerful confirmatory experiments that stand up to rigorous scrutiny.
+
+Sign up today <https://instats.org/seminar/introduction-to-experimental-design-conc> to secure your spot, and please share with colleagues and students who may benefit!
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Fri May 16 06:50:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Fri, 16 May 2025 04:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] Using LLMs for R Coding/Package Dev - livestream seminar
+Message-ID: <Or6QmERxTna5LeBJt1I2iw@geopod-ismtpd-2>
+
+Hi everyone
+
+Instats is excited to offer a 3-day seminar, Using LLMs for R Coding and Package Development <https://instats.org/seminar/using-llms-for-r-coding-and-package-deve>, livestreaming May 20?22 and led by professors Seth Flaxman from the University of Oxford and Leonid Chindelevitch from Imperial College London. Designed for academics and PhD students, this hands-on workshop shows you how to integrate cutting-edge large language models such as ChatGPT and Claude into your R workflow to accelerate coding, debugging, optimization, and package creation. Over three intensive days you?ll master clean-code principles, learn best practices for software development and version control, and see real-world demonstrations that illustrate how AI can dramatically boost productivity while ensuring rigorous, reproducible research.
+
+Sign up today <https://instats.org/seminar/using-llms-for-r-coding-and-package-deve> to secure your place, and feel free to share this opportunity with colleagues eager to elevate their R capabilities with the power of LLMs!
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Tue May 20 16:57:57 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Tue, 20 May 2025 15:57:57 +0100
+Subject: [R-sig-Epi] Unlock the Power of Spatial Data Visualisation in R
+ using TMAP
+Message-ID: <CAEsSYzxpBU1R4Lm8+M070iAR18y4vjfFzrpqk5+6JDnL-zz_gQ@mail.gmail.com>
+
+*Unlock the Power of Spatial Data Visualisation in R using TMAP*
+
+Join our focused online course: *?Visual Exploration, Analysis and
+Presentation of Spatial Data Using the Tmap Package?
+<https://www.prstats.org/course/visual-exploration-analysis-and-presentation-of-spatial-data-using-the-tmap-package-tmap01/>*
+
+*Course dates:* 3-6 June 2025
+
+*Location:* Online Live Course
+
+Whether you?re a researcher, analyst, or data scientist, this course equips
+you with the practical skills to:
+
+   -
+
+   Build and customise layered maps using the *Tmap* package in R
+   -
+
+   Combine spatial data with analytical results for compelling
+   visualisations
+   -
+
+   Integrate thematic maps into presentations and publications
+   -
+
+   Work confidently with spatial objects and geospatial data sets
+
+*Course Highlights:*
+
+   -
+
+   Hands-on exercises with real data
+   -
+
+   Taught by experienced spatial data scientists
+   -
+
+   Lifetime access to course materials and recordings
+   -
+
+   Suitable for both intermediate R users and those new to spatial analysis
+
+*Next session starts soon ? spaces are limited.*
+
+Secure your place here:
+
+https://www.prstats.org/course/visual-exploration-analysis-and-presentation-of-spatial-data-using-the-tmap-package-tmap01/
+
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Wed May 21 21:00:26 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Wed, 21 May 2025 20:00:26 +0100
+Subject: [R-sig-Epi] =?utf-8?q?ONLINE_COURSE_=E2=80=93_Tidyverse_for_Ecol?=
+ =?utf-8?q?ogists_=28TIDY01=29?=
+Message-ID: <CAEsSYzwF2kXrkbJYYpxghw5ST8J56ok9kFG1_+B4NiOe5nAX0Q@mail.gmail.com>
+
+ONLINE COURSE ? Tidyverse for Ecologists (TIDY01)
+
+https://www.prstats.org/course/tidyverse-for-ecologists-tidy01/
+
+16th - 20th June
+
+Please feel free to share!
+
+COURSE OVERVIEW - This course comprehensively introduces the Tidyverse and
+focuses on its use in data science projects. It is designed to give
+participants a strong foundation in R programming, core Tidyverse packages,
+and the Tidymodels framework. The course emphasises hands-on projects to
+apply learned concepts to real-world data analysis and modelling tasks
+applied to biology. By the end of the course, participants should:
+? Understand the fundamentals of R programming for data analysis.
+? Be proficient in using core Tidyverse packages to clean, transform, and
+visualise data.
+? Gain an introduction to basic machine learning concepts through the
+Tidymodels framework.
+? Learn to preprocess, build, evaluate, and interpret models using
+Tidymodels.
+? Apply Tidyverse and Tidymodels tools to solve real-world problems
+through hands-on
+projects.
+
+Please email oliverhooker at prstatistics.com with any questions
+
+Day 1: A Short Course in R Basics (9:30 - 17:30)
+This day provides participants with the foundational R skills required for
+working with Tidyverse and
+Tidymodels. It is designed for beginners or those needing a refresher in R
+programming.
+? Section 1 (R Essentials): This section focuses on R syntax, variables,
+data types, conditionals (`if`,
+`else`, `elif`), loops (`for`, `while`), and writing reusable code using
+functions.
+? Section 2 (Data Structures and File Handling in R): This section
+emphasises understanding data
+structures (e.g., vectors, data frames, lists) and handling files by
+reading/writing data (e.g., CSVs)
+for manipulation and analysis.
+
+Day 2: Fundamentals of Tidyverse I (9:30 - 17:30)
+This day introduces participants to the foundational concepts of Tidyverse
+packages and their
+applications to data science projects.
+? Section 3 (Data Manipulation I): This section covers the basics of data
+manipulation using `dplyr`
+functions such as `filter()`, `select()`, `mutate()`, `arrange()`, and
+`summarise ()`. Participants will
+learn how to clean, transform, and prepare datasets for analysis.
+? Section 4 (Data Visualisation I): This section introduces the principles
+of data visualisation using
+`ggplot2`. Participants will learn how to create basic plots such as
+scatterplots, bar charts, and
+line graphs while exploring the grammar of graphics.
+
+Day 3: Fundamentals of Tidyverse II (9:30 - 17:30)
+This day builds on the foundations established in Day 2 and dives deeper
+into advanced data
+manipulation and visualisation techniques.
+? Section 5 (Data Manipulation II): This section extends the use of `dplyr`
+by introducing more
+complex operations such as joins, grouping with `group_by()`, and working
+with pipelines using
+`%&gt;%`. Finally, additional packages will be presented to enhance data
+manipulation
+programming.
+? Section 6 (Data Visualisation II): Participants will explore advanced
+visualisation techniques
+using extensions of `ggplot2`, such as creating animated plots with the
+`gganimate` package and
+interactive visualisations with additional tools.
+
+Day 4: Applying Tidyverse Fundamentals to Data Modelling (9:30 - 17:30)
+This day introduces participants to machine learning concepts using core
+libraries for statistical modelling
+and deep learning.
+? Section 7 (Introduction to regression): This section focuses on
+regression modelling using
+Tidymodels. Participants will learn to implement linear regression models,
+evaluate model
+performance, and interpret results.
+? Section 8 (Introduction to Classification): This section introduces
+techniques such as support
+vector machines and neural networks using Tidymodels. Participants will
+also explore methods
+for assessing the performance of classification models.
+
+Day 5: Data Science Workflow with Tidyverse (9:30 - 17:30)
+On the final day, participants will apply all their newly acquired skills
+to solve real-world problems
+inspired by ecological datasets.
+? Section 9 (The data science workflow): The workflow will be illustrated
+based on the core
+packages introduced. The book &quot;R for Data Science&quot; will serve as
+a base literature for this day
+? Section 10 (Hands-on project): Participants will work through a complete
+data science workflow,
+including data cleaning, transformation, visualisation, modelling, and
+communication of results.
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Tue May 27 12:31:23 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Tue, 27 May 2025 10:31:23 +0000 (UTC)
+Subject: [R-sig-Epi] Efficient Data Wrangling with R data.table - livestream
+ seminar
+Message-ID: <jt6CZNzHRwmEjiaU9a7a-w@geopod-ismtpd-9>
+
+Hi everyone
+
+Instats is excited to offer a 1-day seminar, Efficient Data Wrangling with R data.table <https://instats.org/seminar/efficient-data-wrangling-with-r-datatabl>, livestreaming on June 4 and led by Dr Fodil Ihaddaden from the Institute for Statistical and Data Science. Designed for PhD students, academics, and professional researchers who grapple with large datasets, this workshop showcases how the data.table package can radically improve speed and efficiency over base R and dplyr. Participants will explore core syntax, keys and indexing, rapid filtering and mutating, advanced aggregation, memory-conscious handling of big data, grouped operations, and strategies for integrating data.table with other R tools, all through hands-on exercises that translate directly to real research challenges.
+
+Sign up today <https://instats.org/seminar/efficient-data-wrangling-with-r-datatabl> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Thu May 29 10:50:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Thu, 29 May 2025 08:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] R for Beginners: A Complete Course - livestream seminars
+Message-ID: <_Y9sLnYYSWe3fFguXCSY9A@geopod-ismtpd-15>
+
+Hi everyone
+
+Unlock the power of statistis and data science in R with the 5-part seminar series R for Beginners: A Complete Course <https://instats.org/structuredcourse/r-for-beginners-a-complete-course2>, starting June 11th and being offered by the SMCS group from UC Louvain?five expertly guided seminars that take you from R?s fundamentals through data manipulation, visualization, exploratory analysis, hypothesis testing, and advanced modeling (ANOVA, regression, logistic regression) using real-world research examples. Whether you join a single seminar to sharpen a specific skill or enroll in all five to build a comprehensive toolkit, you?ll gain hands-on practice, personalized feedback, and the confidence to tackle complex datasets in your PhD work, academic projects, or professional research. 
+
+Sign up today <https://instats.org/structuredcourse/r-for-beginners-a-complete-course2> for any individual session at your convenience?or commit to the full series and enjoy a 10% discount on the complete package. Reserve your spot today and elevate your research with R!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Fri May 30 02:59:11 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Fri, 30 May 2025 00:59:11 +0000 (UTC)
+Subject: [R-sig-Epi] Deep Learning with ChatGPT - livestream seminar
+Message-ID: <LsGd1iafR0-Diw_2uw4YUg@geopod-ismtpd-15>
+
+Hi everyone
+
+Instats is excited to offer a 1-day seminar, Deep Learning for Complex Datasets with ChatGPT <https://instats.org/seminar/deep-learning-for-complex-datasets-with>, running June 6th and led by professor Nikolay Oskolkov from at Lund University. This intensive workshop equips PhD students, academics, and professional researchers with the practical skills needed to harness cutting-edge deep learning approaches for complex, real-world data. Through hands-on exercises in R, Python, TensorFlow, and Keras?guided by ChatGPT as an interactive coding consultant?you will learn foundational principles of machine and deep learning, build neural networks from scratch, explore convolutional and recurrent architectures for sequential and genomic data, apply autoencoders for dimensionality reduction, and examine case studies spanning multi-omics integration, single-cell biology, and personalized medicine. By the end of the day, participants will be able to design, train, evaluate, and refine their own models, integrate Large Language Models into existing analytical workflows, and take away actionable insights that immediately translate to their research.
+
+Sign up today <https://instats.org/seminar/deep-learning-for-complex-datasets-with> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+

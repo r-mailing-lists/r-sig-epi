@@ -1,0 +1,78 @@
+From 06dongsheng at 163.com  Wed Sep  4 15:10:04 2013
+From: 06dongsheng at 163.com (=?GBK?B?tq3W0tDF?=)
+Date: Wed, 4 Sep 2013 21:10:04 +0800 (CST)
+Subject: [R-sig-Epi] help
+Message-ID: <2b682ecc.208da.140e91815c7.Coremail.06dongsheng@163.com>
+
+
+
+
+
+
+
+
+
+hi, dear friend , i am dealing with a survival data for cancer. a variable progression doesn't satisfy PH assumption, i have tried the paramatric survival models, but they did not fit very well. at last ,i tried the extension of Cox model with time-dependent variable, finding that the model fit well with the smallest AIC, and the average or weight  HR is 1.6. when progression occured in the first follow-up year, the HR was biggest ,and HR gone down in the second year, like the picture showed. after having reading over the examples in R help documents, i am not sure if i can plot  nomogram for 5 year survival prediction. and cph may did not work well when applied to  the Cox model with time-dependent variable,  i can use coxph, set  " tt=function(x,t,...) {x *log(t)}"  as a alternative. but most important, how can i complete the nomogram ,validate and calibrate.ie.setup may help,but not show in detail.
+       can you help me to plot a nomogram?  thanks for  reading.    
+                                                                                                                                         Dong           
+| |
+| |
+| |
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130904/7c6d0cf8/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: coxnomogram.jpg
+Type: image/jpeg
+Size: 48758 bytes
+Desc: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130904/7c6d0cf8/attachment-0002.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: ??.JPG
+Type: image/jpeg
+Size: 28650 bytes
+Desc: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130904/7c6d0cf8/attachment-0002.jpe>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: coxnomogram.jpg
+Type: image/jpeg
+Size: 48758 bytes
+Desc: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130904/7c6d0cf8/attachment-0003.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: ??.JPG
+Type: image/jpeg
+Size: 28650 bytes
+Desc: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130904/7c6d0cf8/attachment-0003.jpe>
+
+From emmanuel.brasil at gmail.com  Mon Sep  9 14:32:37 2013
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Mon, 9 Sep 2013 09:32:37 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 68, Issue 1
+In-Reply-To: <mailman.2438.1378300631.4516.r-sig-epi@r-project.org>
+References: <mailman.2438.1378300631.4516.r-sig-epi@r-project.org>
+Message-ID: <CAFfGvyLTUX=dU+nrpdqxEttFN63eVZPenHL9HxCEC0SK2DVc6w@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130909/6c7e299c/attachment.pl>
+
+From 06dongsheng at 163.com  Tue Sep 10 16:11:12 2013
+From: 06dongsheng at 163.com (=?UTF-8?B?6JGj5b+g5L+h?=)
+Date: Tue, 10 Sep 2013 22:11:12 +0800 (CST)
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 68, Issue 2
+In-Reply-To: <mailman.5.1378807202.6201.r-sig-epi@r-project.org>
+References: <mailman.5.1378807202.6201.r-sig-epi@r-project.org>
+Message-ID: <34d4e36a.29e26.14108363570.Coremail.06dongsheng@163.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130910/b9ea9bec/attachment.pl>
+

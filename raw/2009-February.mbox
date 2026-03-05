@@ -1,0 +1,49 @@
+From bxc at steno.dk  Sun Feb  1 17:04:25 2009
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Sun, 1 Feb 2009 17:04:25 +0100
+Subject: [R-sig-Epi] New verions of the Epi package
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3301FBEB9CBF@exdkmbx002.corp.novocorp.net>
+
+Since 1.0.7, the pervious version on CRAN, the following changes has appeared:
+
+Changes in 1.0.10
+
+o Fixed parse errors in documentation.
+
+Changes in 1.0.9
+
+o Thanks to Mike Murphy, Professor of Demography, Department of Social Policy,
+  London School of Economics, a bug causing a crash of apc.fit if only
+  one row in the model matrix correponds to the reference level.
+
+o Also thanks to Mike Murphy, a much more efficient calculation of
+  median period and cohort is now used.
+
+o apc.fit expanded with an argument allowing logistic regression model
+  instead of a Poisson model only.
+
+Changes in 1.0.8
+
+o tab.Lexis removed and replaced by summary.Lexis which gives a better
+  summary of the transitions and transition rates.
+
+o A bug in ci.pd (confidence interval for probability difference) has
+  been fixed.
+
+Best regards,
+Bendix Carstensen
+Package maintainer
+_______________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+www.steno.dk
+
+

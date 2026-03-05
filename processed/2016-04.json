@@ -1,0 +1,73 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2016-04",
+  "messages": [
+    {
+      "id": "msg-60ade4ed3d1a",
+      "message_id": "<1461698276.2768336.590257281.1FDFCEAE@webmail.messagingengine.com>",
+      "from_name": "Leonardo Ferreira Fontenelle",
+      "from_email_hash": "3c8f4170314211283da13fd96dd607a1b18b03fc67698f44cb27aac9b79f8acd",
+      "date": "2016-04-26T16:17:56-03:00",
+      "subject": "[R-sig-Epi] How to interpret the results of PCA with sampling weights",
+      "subject_clean": "How to interpret the results of PCA with sampling weights",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello everyone,\n \nI have a dataset from a household survey, with sampling weights, and I\nwanted to create an assets-based indicator of economic level for the\nhouseholds. The idea was to run PCA (with sampling weights), and the\nfirst principal component would be the economic level indicator. In\nthis email, I am calling \"surveydesignobj\" the object returned by\nsvydesign(), and \"svyprcompobj\" the object returned by\nsvyprcomp(formula, surveydesignobj, center = TRUE, scale. = TRUE,\nscores = TRUE).\n \nWhat I can't understand is why the first principal component stored in\nsvyprcompobj$x is so different from what I get from\npredict(svyprcompobj, surveydesignobject). By \"different\" I mean\ndifferent distributions and only moderate correlation (~ 0.5) between\nthem. I also tried recreating the first principal component \"by hand\",\nby summing the (centered or not) variables after multiplying them by the\nloadings (svyprcompobj$rotation) and dividing them by their scales (from\nsvyprcompobj$scale); the resulting vector was highly correlated (> 0.99)\nwith the first principal component obtained from predict().\n \nPeaking in the svyprcomp() code I saw that the function runs PCA in the\ndata after multiplying it by\nsqrt(samplingweights/mean(samplingweights)), and latter divides\nsvyprcompobj$x by?sqrt(samplingweights/mean(samplingweights)) before\nreturning it. I also noticed that there is no predict.svyprcomp(), only\npredict.prcomp().\n \nGiven that different methods provide different values, I'd like to know\nif there is only one correct method (which?), or if it's a matter of\ninterpreting differently the results of each method.\n \nThanks in advance,\n \nLeonardo Ferreira Fontenelle[1]\n \n\nLinks:\n\n  1. http://lattes.cnpq.br/9234772336296638\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello everyone,\n \nI have a dataset from a household survey, with sampling weights, and I\nwanted to create an assets-based indicator of economic level for the\nhouseholds. The idea was to run PCA (with ",
+      "thread_id": "thread-60ade4ed3d1a",
+      "thread_depth": 0,
+      "month": "2016-04"
+    },
+    {
+      "id": "msg-90f81e9554b0",
+      "message_id": "<1461721880.3242994.590671161.2B19EB59@webmail.messagingengine.com>",
+      "from_name": "Leonardo Ferreira Fontenelle",
+      "from_email_hash": "3c8f4170314211283da13fd96dd607a1b18b03fc67698f44cb27aac9b79f8acd",
+      "date": "2016-04-26T22:51:20-03:00",
+      "subject": "[R-sig-Epi] How to interpret the results of PCA with sampling weights",
+      "subject_clean": "How to interpret the results of PCA with sampling weights",
+      "in_reply_to": "<1461698276.2768336.590257281.1FDFCEAE@webmail.messagingengine.com>",
+      "references": [
+        "<1461698276.2768336.590257281.1FDFCEAE@webmail.messagingengine.com>"
+      ],
+      "body_plain": "Em Ter 26 abr. 2016, ?s 16:17, Leonardo Ferreira Fontenelle escreveu:\n> Hello everyone,\n>  \n> I have a dataset from a household survey, with sampling weights, and I\n> wanted to create an assets-based indicator of economic level for the\n> households. The idea was to run PCA (with sampling weights), and the\n> first principal component would be the economic level indicator. In\n> this email, I am calling \"surveydesignobj\" the object returned by\n> svydesign(), and \"svyprcompobj\" the object returned by\n> svyprcomp(formula, surveydesignobj, center = TRUE, scale. = TRUE,\n> scores = TRUE).\n>  \n> What I can't understand is why the first principal component stored in\n> svyprcompobj$x is so different from what I get from\n> predict(svyprcompobj, surveydesignobject). By \"different\" I mean\n> different distributions and only moderate correlation (~ 0.5) between\n> them. I also tried recreating the first principal component \"by hand\",\n> by summing the (centered or not) variables after multiplying them by the\n> loadings (svyprcompobj$rotation) and dividing them by their scales (from\n> svyprcompobj$scale); the resulting vector was highly correlated (> 0.99)\n> with the first principal component obtained from predict().\n>  \n> Peaking in the svyprcomp() code I saw that the function runs PCA in the\n> data after multiplying it by\n> sqrt(samplingweights/mean(samplingweights)), and latter divides\n> svyprcompobj$x by?sqrt(samplingweights/mean(samplingweights)) before\n> returning it. I also noticed that there is no predict.svyprcomp(), only\n> predict.prcomp().\n>  \n> Given that different methods provide different values, I'd like to know\n> if there is only one correct method (which?), or if it's a matter of\n> interpreting differently the results of each method.\n>  \n> Thanks in advance,\n>  \n\nWhen I sent my previous email I was away from my computer, and couldn't\nprovide some code in R to exemplify what I meant. The following code\nillustrates the point with more accessibled data:\n\nlibrary(\"survey\")\ndata(api)\ndclus2 <- svydesign(ids = ~ dnum + snum, fpc = ~ fpc1 + fpc2, data =\napiclus2)\npc <- svyprcomp(~ api99 + api00 + ell + hsg + meals + emer, design =\ndclus2, scale. = TRUE, scores = TRUE)\ndclus2$variables$pc1 <- pc$x[, \"PC1\"]\ndclus2$variables$pc2 <- predict(pc, apiclus2)[, \"PC1\"]\nmycoef <- pc$rotation[, \"PC1\"] / pc$scale\ndclus2$variables$pc3 <- with(apiclus2, api99 * mycoef[\"api99\"] + api00 *\nmycoef[\"api00\"] + ell * mycoef[\"ell\"] + \n              hsg * mycoef[\"hsg\"] + meals * mycoef[\"hsg\"] + emer *\n              mycoef[\"emer\"])\ncov.wt(dclus2$variables[, paste0(\"pc\", 1:3)], wt = weights(dclus2), cor\n= TRUE)$cor  # correlation matrix\nsummary(dclus2$variables[, paste0(\"pc\", 1:3)])\nbw1 <- sqrt(coef(svyvar(~ pc1, dclus2))) / 3\nbw2 <- sqrt(coef(svyvar(~ pc2, dclus2))) / 3\nbw3 <- sqrt(coef(svyvar(~ pc3, dclus2))) / 3\nplot(svysmooth(~ pc1, dclus2, bandwidth = bw1), xlim = c(-2.5, 7.5),\nylim = c(0, 0.75))\nlines(svysmooth(~ pc2, dclus2, bandwidth = bw2), col = 2)\nlines(svysmooth(~ pc3, dclus2, bandwidth = bw3), col = 3)\nlegend(\"topright\", legend = c(\"pc$x[, \\\"PC1\\\"]\", \"predict(pc,\napiclus2)[, \\\"PC1\\\"]\", \"sum(variables * loadings / scale)\"), col = 1:3,\nlty = 1)\n\nThanks,\n\nLeonardo Ferreira Fontenelle\nhttp://lattes.cnpq.br/9234772336296638",
+      "body_snippet": "Em Ter 26 abr. 2016, ?s 16:17, Leonardo Ferreira Fontenelle escreveu:\n> Hello everyone,\n>  \n> I have a dataset from a household survey, with sampling weights, and I\n> wanted to create an assets-based ",
+      "thread_id": "thread-60ade4ed3d1a",
+      "thread_depth": 1,
+      "month": "2016-04"
+    },
+    {
+      "id": "msg-015ef98a3461",
+      "message_id": "<1461984066.3963382.593975905.6BB61723@webmail.messagingengine.com>",
+      "from_name": "Leonardo Ferreira Fontenelle",
+      "from_email_hash": "3c8f4170314211283da13fd96dd607a1b18b03fc67698f44cb27aac9b79f8acd",
+      "date": "2016-04-29T23:41:06-03:00",
+      "subject": "[R-sig-Epi] How to interpret the results of PCA with sampling weights",
+      "subject_clean": "How to interpret the results of PCA with sampling weights",
+      "in_reply_to": "<1461721880.3242994.590671161.2B19EB59@webmail.messagingengine.com>",
+      "references": [
+        "<1461698276.2768336.590257281.1FDFCEAE@webmail.messagingengine.com>",
+        "<1461721880.3242994.590671161.2B19EB59@webmail.messagingengine.com>"
+      ],
+      "body_plain": "Cross-posting to r-help after three days without a reply.\n\nLeonardo Ferreira Fontenelle\nhttp://lattes.cnpq.br/9234772336296638\n\nEm Ter 26 abr. 2016, ?s 22:51, Leonardo Ferreira Fontenelle escreveu:\n> Em Ter 26 abr. 2016, ?s 16:17, Leonardo Ferreira Fontenelle escreveu:\n> > Hello everyone,\n> >  \n> > I have a dataset from a household survey, with sampling weights, and I\n> > wanted to create an assets-based indicator of economic level for the\n> > households. The idea was to run PCA (with sampling weights), and the\n> > first principal component would be the economic level indicator. In\n> > this email, I am calling \"surveydesignobj\" the object returned by\n> > svydesign(), and \"svyprcompobj\" the object returned by\n> > svyprcomp(formula, surveydesignobj, center = TRUE, scale. = TRUE,\n> > scores = TRUE).\n> >  \n> > What I can't understand is why the first principal component stored in\n> > svyprcompobj$x is so different from what I get from\n> > predict(svyprcompobj, surveydesignobject). By \"different\" I mean\n> > different distributions and only moderate correlation (~ 0.5) between\n> > them. I also tried recreating the first principal component \"by hand\",\n> > by summing the (centered or not) variables after multiplying them by the\n> > loadings (svyprcompobj$rotation) and dividing them by their scales (from\n> > svyprcompobj$scale); the resulting vector was highly correlated (> 0.99)\n> > with the first principal component obtained from predict().\n> >  \n> > Peaking in the svyprcomp() code I saw that the function runs PCA in the\n> > data after multiplying it by\n> > sqrt(samplingweights/mean(samplingweights)), and latter divides\n> > svyprcompobj$x by?sqrt(samplingweights/mean(samplingweights)) before\n> > returning it. I also noticed that there is no predict.svyprcomp(), only\n> > predict.prcomp().\n> >  \n> > Given that different methods provide different values, I'd like to know\n> > if there is only one correct method (which?), or if it's a matter of\n> > interpreting differently the results of each method.\n> >  \n> > Thanks in advance,\n> >  \n> \n> When I sent my previous email I was away from my computer, and couldn't\n> provide some code in R to exemplify what I meant. The following code\n> illustrates the point with more accessibled data:\n> \n> library(\"survey\")\n> data(api)\n> dclus2 <- svydesign(ids = ~ dnum + snum, fpc = ~ fpc1 + fpc2, data =\n> apiclus2)\n> pc <- svyprcomp(~ api99 + api00 + ell + hsg + meals + emer, design =\n> dclus2, scale. = TRUE, scores = TRUE)\n> dclus2$variables$pc1 <- pc$x[, \"PC1\"]\n> dclus2$variables$pc2 <- predict(pc, apiclus2)[, \"PC1\"]\n> mycoef <- pc$rotation[, \"PC1\"] / pc$scale\n> dclus2$variables$pc3 <- with(apiclus2, api99 * mycoef[\"api99\"] + api00 *\n> mycoef[\"api00\"] + ell * mycoef[\"ell\"] + \n>               hsg * mycoef[\"hsg\"] + meals * mycoef[\"hsg\"] + emer *\n>               mycoef[\"emer\"])\n> cov.wt(dclus2$variables[, paste0(\"pc\", 1:3)], wt = weights(dclus2), cor\n> = TRUE)$cor  # correlation matrix\n> summary(dclus2$variables[, paste0(\"pc\", 1:3)])\n> bw1 <- sqrt(coef(svyvar(~ pc1, dclus2))) / 3\n> bw2 <- sqrt(coef(svyvar(~ pc2, dclus2))) / 3\n> bw3 <- sqrt(coef(svyvar(~ pc3, dclus2))) / 3\n> plot(svysmooth(~ pc1, dclus2, bandwidth = bw1), xlim = c(-2.5, 7.5),\n> ylim = c(0, 0.75))\n> lines(svysmooth(~ pc2, dclus2, bandwidth = bw2), col = 2)\n> lines(svysmooth(~ pc3, dclus2, bandwidth = bw3), col = 3)\n> legend(\"topright\", legend = c(\"pc$x[, \\\"PC1\\\"]\", \"predict(pc,\n> apiclus2)[, \\\"PC1\\\"]\", \"sum(variables * loadings / scale)\"), col = 1:3,\n> lty = 1)\n> \n> Thanks,\n> \n> Leonardo Ferreira Fontenelle\n> http://lattes.cnpq.br/9234772336296638\n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi",
+      "body_snippet": "Cross-posting to r-help after three days without a reply.\n\nLeonardo Ferreira Fontenelle\nhttp://lattes.cnpq.br/9234772336296638\n\nEm Ter 26 abr. 2016, ?s 22:51, Leonardo Ferreira Fontenelle escreveu:\n> ",
+      "thread_id": "thread-60ade4ed3d1a",
+      "thread_depth": 2,
+      "month": "2016-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-60ade4ed3d1a",
+      "subject": "How to interpret the results of PCA with sampling weights",
+      "message_count": 3,
+      "participants": [
+        "Leonardo Ferreira Fontenelle"
+      ],
+      "started": "2016-04-26T16:17:56-03:00",
+      "last_reply": "2016-04-29T23:41:06-03:00",
+      "root_message_id": "msg-60ade4ed3d1a"
+    }
+  ]
+}

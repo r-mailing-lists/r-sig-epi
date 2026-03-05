@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2023-02",
+  "messages": [
+    {
+      "id": "msg-70b8a5531f03",
+      "message_id": "<CAEsSYzzA-A9m8-_CJK0zbxCUVT-Z8cp9rcvrB46fgTtYeNAeTg@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2023-02-09T18:46:40Z",
+      "subject": "[R-sig-Epi] ONLINE COURSE – Movement Ecology (MOVE05)",
+      "subject_clean": "ONLINE COURSE – Movement Ecology (MOVE05)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "ONLINE COURSE ? Movement Ecology (MOVE05)\n\nhttps://www.prstatistics.com/course/online-course-movement-ecology-move05/\n\nPlease feel free to share!\n\n13th - 17th March 2023\n\nThe course will cover the concepts, technology and software tools that can\nbe used to analyse movement data (from ringing/CMR to VHF/GPS) in ecology\nand evolution. We will cover elementary and advanced analysis and modelling\ntechniques broadly applicable across taxa, from microorganisms to\nvertebrates, highlighting the advantages of a unified Movement Ecology\nframework. We will provide the necessary bases in ecology (especially\nbehavioural ecology), physics and mathematics/statistics, to be able to\nidentify for any specific research question the most appropriate study\nspecies, logging technology (incl. attachment methods), and\nstatistical/mathematical modelling approach. We will specifically address\nthe challenges and opportunities at each of the steps of the proposed\n?question-driven approach?, combining theory with computer-based practicals\nin R. We will also address the challenges of applying the results of the\nanalyses to applied management problems and communicate the findings to\nnon-experts.\n\nDay 1 - Movement Fundamentals\nConceptual component: Introduction to movement ecology, movement and\nbehaviour, spatial and movement path analysis.\nPractical component: Movement path analysis I ? from steps and turns to\nmovement path segmentation; Movement path analysis II ? movement modes\n(home rage, dispersal, migration, nomadism) and the squared displacement\nmethod.\n\nDay 2 - Home Range Analysis\nConceptual component: Ecological definitions and interpretations of home\nranges, home range estimation, comparisons between estimators and the\nquestion-driven approach.\nPractical component: Utilization distribution; comparison of contrasting\nkernel home range estimation methods, isopleth creation, core area & home\nrange overlap.\n\nDay 3 - Dynamic Interactions and Temporal Metrics of Movement\nConceptual component: Movements of interacting animals ? static and dynamic\ninteractions; scales of movement ? first-passage and residence time\nanalysis.\nPractical component: Static and dynamic interaction indices; estimation of\nfirst-passage and residence time metrics.\n\nDay 4 - Introduction to Resource Selection, and Effects of Scale\nConceptual component: Theories of resource and habitat selection, history\nof approaches, and current methodologies and caveats including definitions\nof availability and scale effects for RSF and other movement metrics\nPractical component: Data projections and R as a GIS; Scale-integrated\nmodels of movement, availability sampling, and RSF estimation and\ninterpretation.\n\nDay 5 - Step-Selection Functions and Instantaneous Availability\nConceptual component: Introduction to step selection, decision-making\nprocesses, null and alternative models for definitions of availability\nwithin SSF, movement-integrated step-selection analysis\nPractical component: Creation of available step data, estimation of SSF\nusing multiple packages and approaches, simulation of utilization and\noccurrence distributions.\n\nAttendees will be guided through practicals by both instructors to ensure\nyou get the most from their experience.\n\nPlease email any questions to oliverhooker at prstatistics.com\n\nUpcoming courses can be found here\n<https://www.prstatistics.com/live-courses/>\n\n-- \n\nOliver Hooker PhD.\nPR statistics\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "ONLINE COURSE ? Movement Ecology (MOVE05)\n\nhttps://www.prstatistics.com/course/online-course-movement-ecology-move05/\n\nPlease feel free to share!\n\n13th - 17th March 2023\n\nThe course will cover the con",
+      "thread_id": "thread-70b8a5531f03",
+      "thread_depth": 0,
+      "month": "2023-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-70b8a5531f03",
+      "subject": "ONLINE COURSE – Movement Ecology (MOVE05)",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2023-02-09T18:46:40+00:00",
+      "last_reply": "2023-02-09T18:46:40+00:00",
+      "root_message_id": "msg-70b8a5531f03"
+    }
+  ]
+}

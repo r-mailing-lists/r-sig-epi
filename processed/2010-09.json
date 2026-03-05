@@ -1,0 +1,114 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2010-09",
+  "messages": [
+    {
+      "id": "msg-2f2d029eb33d",
+      "message_id": "<30CCD2C98CF7EC46ABF4CD310179FD6501D6D32B5244@EXCHANGE11.Enterprise.emory.net>",
+      "from_name": "Sullivan, Kevin M",
+      "from_email_hash": "ba1e798886d6790a693f9cedd94ba299dda153641ee59bb60b000fbb4a8f7084",
+      "date": "2010-09-01T15:08:21-04:00",
+      "subject": "[R-sig-Epi] R and Epi Info",
+      "subject_clean": "R and Epi Info",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100901/e250cac6/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100901/e250cac6/attachment.pl>",
+      "thread_id": "thread-2f2d029eb33d",
+      "thread_depth": 0,
+      "month": "2010-09"
+    },
+    {
+      "id": "msg-03be28f26b22",
+      "message_id": "<AANLkTimxVhREY-50+pbWP8dkQLOzf0Qki6NDYHsMRtH+@mail.gmail.com>",
+      "from_name": "Myunghwa Hwang",
+      "from_email_hash": "1c688a920d189eb62c569d774b998d89db00cd625203eabdb7f5c551adc65fd9",
+      "date": "2010-09-03T16:43:50-07:00",
+      "subject": "[R-sig-Epi] Survey participants needed ($5 for 10-15 minutes)",
+      "subject_clean": "Survey participants needed ($5 for 10-15 minutes)",
+      "in_reply_to": "<AANLkTinECmUC_V8c6Z3oN9UGGNp6cutX2z4ma6LWhpat@mail.gmail.com>",
+      "references": [
+        "<AANLkTinECmUC_V8c6Z3oN9UGGNp6cutX2z4ma6LWhpat@mail.gmail.com>"
+      ],
+      "body_plain": "Hello, all!\n\nFirst of all, I am sorry for cross-posting.\n\nI am a PhD Student working at GeoDa Center at Arizona State University.\nFor my dissertation research, I am currently conducting an online survey on\nusability of a web-based spatial analysis tool.\nIn this survey you will test an online tool for spatial cluster analysis\nand evaluate its properties from a user perspective.\nTo thank you for your help, we offer you $5 Amazon Gift Certificate when you\ncomplete the survey.\n\nFor more information, please read the section below.\nBefore beginning the survey, please watch this linked video:\nhttp://www.youtube.com/watch?v=Wb-qmd1iDTI\nAfter watching the video, you can visit the following website to participate\nin the survey:\nhttp://ec2-184-72-164-144.compute-1.amazonaws.com/web_sa3/\n\nI really appreciate all your help!\nPlease do not hesitate to contact me if you have any questions.\n\nSincerely,\n\nMyunghwa Hwang\n\n\n====================================================================\n\n*Looking for Usability Evaluation Participants*\n\nAn exciting opportunity awaits you!\nMyunghwa Hwang and Elizabeth Wentz in School of Geographical Sciences and\nUrban Planning at Arizona State University (ASU) are looking for people to\nhelp evaluate and review a we-based software program for local cluster\nanalysis. As a participant in this software evaluation, *you will be given a\n$5 Amazon Gift Certificate*\nas well as have an opportunity to influence the direction, appearance, and\n?look and feel? of web-based spatial analysis software programs.\n\nWe are looking for potential candidates that represent general users of\nspatial analysis software programs.\n*Anyone who is over 18 years old and has the following characteristics can\nhelp our usability evaluation:*\n\n   - Casual computer users\n   - Some experiences with statistical tools (e.g., SPSS, SAS, GeoDa), GIS\n   packages (e.g., ArcGIS, MapInfo, QGIS), or other online geospatial tools\n   (e.g., Google Earth, Google or Yahoo Map)\n   - Some knowledge of spatial analysis techniques (e.g., exploratory data\n   analysis, spatial autocorrelation analysis, spatial regression)\n   - No involvement with any previous versions of this survey\n\nIn other words, we are looking for people who are interested in using\nsoftware programs to visualize and analyze map data. Will you help us?\n\nIf you would like to participate in our usability evaluation,\nplease check out this tutorial video\nstream<http://www.youtube.com/watch?v=Wb-qmd1iDTI>first and visit our\nonline survey site at the following location:\nhttp://ec2-184-72-164-144.compute-1.amazonaws.com/web_sa3/\n\nThe software evaluation generally takes no more than 15 minutes, and our\nsurvey system will guide you step-by-step.\nIf you are interested in participating in our evaluation and have any other\nquestions, please send an email to us (mhwang4 at gmail.com or mhwang3 at asu.edu\n).\n\nWe hope that you will take an active role in enhancing usability of spatial\nanalytical software programs.\nYour participation is greatly appreciated.\n\n-- \nMyunghwa Hwang\nGeoDa Center\nSchool of Geographical Sciences and Urban Planning\nArizona State University\nmhwang4 at gmail.com or Myunghwa.Hwang at asu.edu\n\n-- \nMyunghwa Hwang\nGeoDa Center\nSchool of Geographical Sciences and Urban Planning\nArizona State University\nmhwang4 at gmail.com or Myunghwa.Hwang at asu.edu\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100903/656b29eb/attachment-0001.html>\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: flyer2.pdf\nType: application/pdf\nSize: 57395 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100903/656b29eb/attachment-0001.pdf>",
+      "body_snippet": "Hello, all!\n\nFirst of all, I am sorry for cross-posting.\n\nI am a PhD Student working at GeoDa Center at Arizona State University.\nFor my dissertation research, I am currently conducting an online surv",
+      "thread_id": "thread-03be28f26b22",
+      "thread_depth": 0,
+      "month": "2010-09"
+    },
+    {
+      "id": "msg-991ee90de3a1",
+      "message_id": "<AANLkTinQs+nUnozUaQi-+fNQ=UYE_RCOey0pT4_N5i34@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2010-09-04T00:47:20-03:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 45, Issue 1",
+      "subject_clean": "R-sig-Epi Digest, Vol 45, Issue 1",
+      "in_reply_to": "<mailman.5.1283421602.16523.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.5.1283421602.16523.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100904/b7fe3f52/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100904/b7fe3f52/attachment.pl>",
+      "thread_id": "thread-991ee90de3a1",
+      "thread_depth": 0,
+      "month": "2010-09"
+    },
+    {
+      "id": "msg-2287585dce05",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B60EDE43@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2010-09-04T09:36:42+02:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 45, Issue 1",
+      "subject_clean": "R-sig-Epi Digest, Vol 45, Issue 1",
+      "in_reply_to": "<AANLkTinQs+nUnozUaQi-+fNQ=UYE_RCOey0pT4_N5i34@mail.gmail.com>",
+      "references": [
+        "<mailman.5.1283421602.16523.r-sig-epi@stat.math.ethz.ch>",
+        "<AANLkTinQs+nUnozUaQi-+fNQ=UYE_RCOey0pT4_N5i34@mail.gmail.com>"
+      ],
+      "body_plain": "Further to this thread:\n\nIt seems that the only shortcoming in R in relation to epidemiological practise is the data entry side. Which can be excellently handled by EpiData, which can output Stata data files (.dta) that are seamlessly imported to R via read.dta() from the foreign package.\n\nI doubt there are anything on the analysis side in EpiInfo which is not in R, so the only issue is really the accessibility where the learning curve for R (or any command driven package) is steep.\nBut this is really just a feature of science: You must be able to reproduce your results, so you have to generate code which will re-do your analyses. So the point-and-click systems should not be used in scientific reporting anyway. Some of these systems leave a trace, but the code left is normally largely impenetrable, so not really a documentation of anything but the time you spent operating the mouse.\n\nBest regards,\nBendix\nEpi maintainer\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Pedro Emmanuel Alvarenga Americano do Brasil\n> Sent: 4. september 2010 05:47\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: Re: [R-sig-Epi] R-sig-Epi Digest, Vol 45, Issue 1\n> \n> Kevin,\n> \n> Although I thought at first it sound like a nice idea it also \n> seems a tough task!!! Unfortunately Im a epidemiologist and I \n> do not fell able to develop complex stuff in R.\n> \n> I did use very few times EpiInfo long ago and in the last \n> four year I invested a lot of time in R due to my PhD project.\n> \n> I wondered about some points in this idea of yours.\n> R is a very powerful and complex tool, so what is epiinfo \n> able to do that R is not?\n> In the other way around, what is R is able to do that epiInfo is not?\n> \n> My guess is that R is able to do most, if not all, analysis \n> epiinfo can.\n> Thus what are the weak points? EpiInfo is directod to users (most\n> epidemiologist) which may have basics to moderate \n> understanding of statistics and like to freindly data entry \n> and dropdown menus and dialog boxes with more intuitive \n> interface and simple and friendly documentation, and many \n> options may be confusing, right?\n> \n> While R is command line software in nature. My own experience \n> was like banging my head all over for more than a year until \n> I felt myself familiar enough to not be scared and find ways \n> on my own.\n> \n> Thus it very very short it would be like... make a package \n> called EpiInfo that have the strong points of R and the \n> strong points of EpiInfo. This would include a GUI for R. \n> There are many GUIs for R around for multi and specific \n> plataform such as Rcommander, Rpad, JGR, VIM, RkWard, \n> SciViews etc http://www.sciviews.org/_rgui/\n> \n> So ... what would be the advantages for the end user (and also for\n> developers) worth of such effort?\n> \n> (1) developing a package would essentially concentrating \n> efforts in the analysis tool and very few, if any, effort in \n> the the software core. Core team already made a software \n> fully compatible with any OS. In very very short it would be \n> an Rcommander with menus for the epi packages already \n> avaliable (it couldnt be so simple) :)\n> \n> (2) make a friendly and yet powerfull tool for \n> epidemiologists not initiated in R.\n> \n> (3) As far as know R does not have a data entry tool. Very \n> few functions such as data.entry allow to type in data in a \n> spreadsheet layout. Nothing similar EpiInfo, EPi6 or EpiData.\n> \n> In this particular matter (point 3) this package would very \n> encouraging for the not initiated to use R.\n> \n> Of course, I can not speak for the core R team neither for \n> the four epi packages developers already available, but if I \n> was you I would consider make Rcommander plug-in or a GUI for \n> the epi packages as a first step.\n> \n> Kind regards and good luck,\n> \n> Abra?o forte e que a for?a esteja com voc?,\n> \n> Dr. Pedro Emmanuel A. A. do Brasil\n> Instituto de Pesquisa Cl?nica Evandro Chagas Funda??o Oswaldo \n> Cruz Rio de Janeiro - Brasil Av. Brasil 4365 Tel 55 21 3865-9648\n> email: pedro.brasil at ipec.fiocruz.br\n> email: emmanuel.brasil at gmail.com\n> \n> ---Apoio aos softwares livres\n> www.zotero.org - gerenciamento de refer?ncias bibliogr?ficas.\n> www.broffice.org ou www.openoffice.org - textos, planilhas ou \n> apresenta??es.\n> www.epidata.dk - entrada de dados.\n> www.r-project.org - an?lise de dados.\n> www.ubuntu.com - sistema operacional\n> \n> \t[[alternative HTML version deleted]]\n> \n>",
+      "body_snippet": "Further to this thread:\n\nIt seems that the only shortcoming in R in relation to epidemiological practise is the data entry side. Which can be excellently handled by EpiData, which can output Stata dat",
+      "thread_id": "thread-991ee90de3a1",
+      "thread_depth": 1,
+      "month": "2010-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2f2d029eb33d",
+      "subject": "R and Epi Info",
+      "message_count": 1,
+      "participants": [
+        "Sullivan, Kevin M"
+      ],
+      "started": "2010-09-01T15:08:21-04:00",
+      "last_reply": "2010-09-01T15:08:21-04:00",
+      "root_message_id": "msg-2f2d029eb33d"
+    },
+    {
+      "id": "thread-03be28f26b22",
+      "subject": "Survey participants needed ($5 for 10-15 minutes)",
+      "message_count": 1,
+      "participants": [
+        "Myunghwa Hwang"
+      ],
+      "started": "2010-09-03T16:43:50-07:00",
+      "last_reply": "2010-09-03T16:43:50-07:00",
+      "root_message_id": "msg-03be28f26b22"
+    },
+    {
+      "id": "thread-991ee90de3a1",
+      "subject": "R-sig-Epi Digest, Vol 45, Issue 1",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2010-09-04T00:47:20-03:00",
+      "last_reply": "2010-09-04T09:36:42+02:00",
+      "root_message_id": "msg-991ee90de3a1"
+    }
+  ]
+}

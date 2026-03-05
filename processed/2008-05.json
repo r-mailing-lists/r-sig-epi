@@ -1,0 +1,347 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2008-05",
+  "messages": [
+    {
+      "id": "msg-50b1db01ad66",
+      "message_id": "<481E27A2.60906@gmail.com>",
+      "from_name": "Tobias Janstad",
+      "from_email_hash": "b4f707bc7cd23b06c912380c1f0fb1e49913cdb5b7715cdf4dabe3c7ea0e1584",
+      "date": "2008-05-04T23:16:18+02:00",
+      "subject": "[R-sig-Epi] Arjas plot",
+      "subject_clean": "Arjas plot",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "#goal: Do Arjas plot. In particular, reproduce figure 11.15 in Klein \nMoeschberger survival analysis (1997).\nlibrary(survival);\nlibrary(KMsurv);\ndata(bmt)\n#143 bone marrow patients\n#goal: reproduce figure 11.15 in Klein Moeschberger survival analysis \n(1997).\n\n#(i) divide the data material into two subgroups\nMTX<-subset(bmt,z8==1)#MTX used as an GVHD prophylactit.\nnoMTX<-subset(bmt,z8==0)#\n\n#(ii) sort with respect to survival time within each group\n#allready done\n\n#(iii)\n#N_g(t_i), following notation from page 370 in K.M. 1997\n#d3 is the event variable.\nMTXcumdelta<-cumsum(MTX$d3)\nnoMTXcumdelta<-cumsum(noMTX$d3)\ncoxMTX=coxph(Surv(MTX$t1,MTX$d3)~z1+z2+z3+z4+z5+z6+z7,data=MTX,method=\"breslow\")\nprint(\"Cox-model fitted for MTX-grupp.\")\ncoxnoMTX=coxph(Surv(noMTX$t1,noMTX$d3)~z1+z2+z3+z4+z5+z6+z7,data=noMTX,method=\"breslow\")\nprint(\"Cox-model fitted for noMTX-grupp.\")\n\nMTXbase<-basehaz(coxMTX,centered=TRUE)#estimate the cumulative baseline \nhazard (I guess)\nnoMTXbase<-basehaz(coxnoMTX,centered=TRUE)\n\nMTXcumbase<-cumsum(MTXbase$hazard)\nnoMTXcumbase<-cumsum(noMTXbase$hazard)\n\nplot(stepfun(MTXcumdelta[1:length(MTXcumbase)],c(0,MTXcumbase)))\nlines(stepfun(noMTXcumdelta[1:length(noMTXcumbase)],c(0,noMTXcumbase)))\nlines(c(0,20),c(0,20))\n#Why do length of cumulative hazard and events differ?\n#The plot does not look like figure 11.15. Can someone help me correct it?\n\nBest regards, Tobias Janstad",
+      "body_snippet": "#goal: Do Arjas plot. In particular, reproduce figure 11.15 in Klein \nMoeschberger survival analysis (1997).\nlibrary(survival);\nlibrary(KMsurv);\ndata(bmt)\n#143 bone marrow patients\n#goal: reproduce fi",
+      "thread_id": "thread-50b1db01ad66",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-99e1e5df6bbc",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC8083505C3917F@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2008-05-06T13:54:59+02:00",
+      "subject": "[R-sig-Epi] Updated verison of Epi package: 1.0.8",
+      "subject_clean": "Updated verison of Epi package: 1.0.8",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The Epi package has been updated to version 1.0.8, and is now avilable\non CRAN.\n\nBest regards,\nBendix Carstensen\npackage maintainer.\n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc",
+      "body_snippet": "The Epi package has been updated to version 1.0.8, and is now avilable\non CRAN.\n\nBest regards,\nBendix Carstensen\npackage maintainer.\n______________________________________________\n\nBendix Carstensen\nS",
+      "thread_id": "thread-99e1e5df6bbc",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-9e376b2002b7",
+      "message_id": "<4821CF68.80600@unipd.it>",
+      "from_name": "Riccardo Rasera",
+      "from_email_hash": "56a47c5de0a926d15a775f0649d133eabab89d5e44f877d5650eb700bb2e5f84",
+      "date": "2008-05-07T17:48:56+02:00",
+      "subject": "[R-sig-Epi] Most probable number",
+      "subject_clean": "Most probable number",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Goodmorning,\nI'm looking for a package that can help me to calculate the most\nprobable number for a series of diluition.\nCan you help me?\nThat you\nRiccardo Rasera\n\n---------------------------------------------------------------------------------------\nDott.Agr.Rasera Riccardo\nDipartimento Territorio e Sistemi Agro-Forestali\nSezione Patologia Vegetale\nAgripolis - Viale dell'Universit?, 16 - 35020 Legnaro (PD), Italia\ne-mail: riccardo.rasera at unipd.it\ntel +39.049.8272887\nfax +39.049.8272890\n----------------------------------------------------------------------------------------------------------------------------------------------\nAVVERTENZE AI SENSI DEL D.Lgs. 196/2003 Le informazioni contenute in\nquesto messaggio di posta elettronica e/o nel/i file/s allegato/i sono\nda considerarsi strettamente riservate. Il loro utilizzo ? consentito\nesclusivamente al destinatario del messaggio, per le finalit? indicate\nnel messaggio stesso. Qualora riceviate questo messaggio senza esserne\nil destinatario, Vi preghiamo cortesemente di darcene notizia via e-mail\ne di procedere alla distruzione del messaggio stesso, cancellandolo dal\nVostro sistema. Conservare il messaggio stesso, divulgarlo anche in\nparte, distribuirlo ad altri  soggetti, copiarlo, od utilizzarlo per\nfinalit? diverse, costituisce  comportamento contrario ai principi\ndettati dal D.Lgs. 196/2003.\n*******\nThis electronic mail message and its contents are intended only for the\nuse of the addressed recipient and may contain information that is\nprivileged, confidential and exempt form disclosure under applicable\nlaw.  If you are not an intended recipient, or the agent responsible for\ndelivering this email to the intended recipient, you are hereby notified\nthat any use, dissemination, distribution, or copying of this\ncommunication is strictly prohibited and may be unlawful. If you\nreceived this email in error, please notify the sender immediately by\nreplying to this email or by telephone, and delete the email sent in error.\n*******\n\n\n-----------------------\n\nMessaggio istituzionale dell'Universita' di Padova:\n\nDestina il tuo 5 per mille alla ricerca dell'Universita'\ndi Padova (codice fiscale 80006480281).\n\nFarlo e' facile, non costa nulla e non e' alternativo\nall'8 per mille. \n\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: riccardo_rasera.vcf\nType: text/x-vcard\nSize: 1201 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080507/c31cc3ae/attachment.vcf>",
+      "body_snippet": "Goodmorning,\nI'm looking for a package that can help me to calculate the most\nprobable number for a series of diluition.\nCan you help me?\nThat you\nRiccardo Rasera\n\n------------------------------------",
+      "thread_id": "thread-9e376b2002b7",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-5c02bb6cb2ea",
+      "message_id": "<48229EDE.30208@unipd.it>",
+      "from_name": "Riccardo Rasera",
+      "from_email_hash": "56a47c5de0a926d15a775f0649d133eabab89d5e44f877d5650eb700bb2e5f84",
+      "date": "2008-05-08T08:34:06+02:00",
+      "subject": "[R-sig-Epi] Most probable number",
+      "subject_clean": "Most probable number",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Goodmorning,\nI'm looking for a package that can help me to calculate the most\nprobable number for a series of diluition.\nCan you help me?\nThank's you\nRiccardo Rasera\n\n---------------------------------------------------------------------------------------\nDott.Agr.Rasera Riccardo\nDipartimento Territorio e Sistemi Agro-Forestali\nSezione Patologia Vegetale\nAgripolis - Viale dell'Universit?, 16 - 35020 Legnaro (PD), Italia\ne-mail: riccardo.rasera at unipd.it\ntel +39.049.8272887\nfax +39.049.8272890\n----------------------------------------------------------------------------------------------------------------------------------------------\nAVVERTENZE AI SENSI DEL D.Lgs. 196/2003 Le informazioni contenute in\nquesto messaggio di posta elettronica e/o nel/i file/s allegato/i sono\nda considerarsi strettamente riservate. Il loro utilizzo ? consentito\nesclusivamente al destinatario del messaggio, per le finalit? indicate\nnel messaggio stesso. Qualora riceviate questo messaggio senza esserne\nil destinatario, Vi preghiamo cortesemente di darcene notizia via e-mail\ne di procedere alla distruzione del messaggio stesso, cancellandolo dal\nVostro sistema. Conservare il messaggio stesso, divulgarlo anche in\nparte, distribuirlo ad altri  soggetti, copiarlo, od utilizzarlo per\nfinalit? diverse, costituisce  comportamento contrario ai principi\ndettati dal D.Lgs. 196/2003.\n*******\nThis electronic mail message and its contents are intended only for the\nuse of the addressed recipient and may contain information that is\nprivileged, confidential and exempt form disclosure under applicable\nlaw.  If you are not an intended recipient, or the agent responsible for\ndelivering this email to the intended recipient, you are hereby notified\nthat any use, dissemination, distribution, or copying of this\ncommunication is strictly prohibited and may be unlawful. If you\nreceived this email in error, please notify the sender immediately by\nreplying to this email or by telephone, and delete the email sent in error.\n*******\n\n\n\n-----------------------\n\nMessaggio istituzionale dell'Universita' di Padova:\n\nDestina il tuo 5 per mille alla ricerca dell'Universita'\ndi Padova (codice fiscale 80006480281).\n\nFarlo e' facile, non costa nulla e non e' alternativo\nall'8 per mille. \n\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: riccardo_rasera.vcf\nType: text/x-vcard\nSize: 1201 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080508/88268eda/attachment.vcf>",
+      "body_snippet": "Goodmorning,\nI'm looking for a package that can help me to calculate the most\nprobable number for a series of diluition.\nCan you help me?\nThank's you\nRiccardo Rasera\n\n---------------------------------",
+      "thread_id": "thread-5c02bb6cb2ea",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-0dc7e8e333d3",
+      "message_id": "<1211307805.9346.4.camel@localhost>",
+      "from_name": "Wim Bertels",
+      "from_email_hash": "7a7fd52a7a5778b467c4fcc35f02f9507b6cecfb090f03f0e014d66b64db3e44",
+      "date": "2008-05-20T20:23:24+02:00",
+      "subject": "[R-sig-Epi] Reference Guide / Howto",
+      "subject_clean": "Reference Guide / Howto",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\ndoes anyone know a good reference guide/book/howto on how to study\nin a proper way:\n\"characterize variability in local epidemics using data such as age,\ngender, country of birth, country of infection, viral load, ..\"\n\nAnd a guide or book \nwith good practices in epidemilogy is also interesting.\n\nUsing R\n\ntnx,",
+      "body_snippet": "Hi,\n\ndoes anyone know a good reference guide/book/howto on how to study\nin a proper way:\n\"characterize variability in local epidemics using data such as age,\ngender, country of birth, country of infec",
+      "thread_id": "thread-0dc7e8e333d3",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-4433fa66cfe6",
+      "message_id": "<5306c9950805211032j7db03b19x70430fd81c855ed8@mail.gmail.com>",
+      "from_name": "Ana Carol Nunes",
+      "from_email_hash": "7135d99826465fbcd134937066d5eb1df00b278b5d276f51d042cbbcea4dc4f2",
+      "date": "2008-05-21T14:32:20-03:00",
+      "subject": "[R-sig-Epi] CURSO DE R NA UNICAMP",
+      "subject_clean": "CURSO DE R NA UNICAMP",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080521/abce766b/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080521/abce766b/attachment.pl>",
+      "thread_id": "thread-4433fa66cfe6",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-638b7ee45cd5",
+      "message_id": "<fe92f6ee179c.179cfe92f6ee@ki.se>",
+      "from_name": "Henrik Kallberg",
+      "from_email_hash": "fed1ed22a5f8f4a7d27e83bad22b95f3f8887d92145fc9dfdf66410c3aaa4990",
+      "date": "2008-05-22T12:44:32+02:00",
+      "subject": "[R-sig-Epi] lists and data frame",
+      "subject_clean": "lists and data frame",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/c0f9bf20/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/c0f9bf20/attachment.pl>",
+      "thread_id": "thread-638b7ee45cd5",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-aa1fd7f0a3b4",
+      "message_id": "<fa5e8aaf3392.3392fa5e8aaf@ki.se>",
+      "from_name": "Henrik Kallberg",
+      "from_email_hash": "fed1ed22a5f8f4a7d27e83bad22b95f3f8887d92145fc9dfdf66410c3aaa4990",
+      "date": "2008-05-22T14:15:06+02:00",
+      "subject": "[R-sig-Epi] I solved the problem",
+      "subject_clean": "I solved the problem",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/51c6f656/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/51c6f656/attachment.pl>",
+      "thread_id": "thread-aa1fd7f0a3b4",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-ce269de2b378",
+      "message_id": "<a37cfb5a0805241825k31cb6acbsd45a1e171f2c288@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2008-05-24T22:25:54-03:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 25, Issue 6",
+      "subject_clean": "R-sig-Epi Digest, Vol 25, Issue 6",
+      "in_reply_to": "<mailman.5.1211536802.15949.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.5.1211536802.15949.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080524/3dc34da4/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080524/3dc34da4/attachment.pl>",
+      "thread_id": "thread-ce269de2b378",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-1edacb419235",
+      "message_id": "<a37cfb5a0805271252k6fbe04f1q885386ecd197602b@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2008-05-27T16:52:10-03:00",
+      "subject": "[R-sig-Epi] Help os test accuracy design!",
+      "subject_clean": "Help os test accuracy design!",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080527/7702cb40/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080527/7702cb40/attachment.pl>",
+      "thread_id": "thread-1edacb419235",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-e50b20d6078c",
+      "message_id": "<ba8c09910805292346m1a00d61drc0b10a0b512091ca@mail.gmail.com>",
+      "from_name": "Lauri Nikkinen",
+      "from_email_hash": "19e8e73ea9e891cd07cf7672ecda97d1a3127662c92637d7bbf8a5c50aa27564",
+      "date": "2008-05-30T09:46:57+03:00",
+      "subject": "[R-sig-Epi] stat.table object into latex",
+      "subject_clean": "stat.table object into latex",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "R users,\n\nIs there a way to convert stat.table (library(Epi)) object into latex\ntable? I have tried xtable from (xtable package) and latex (Hmisc\npackage) with no success.\n\nExample code:\n\ninstall.packages(\"Epi\")\nlibrary(Epi)\ninstall.packages(\"Hmisc\")\nlibrary(Hmisc)\ninstall.packages(\"xtable\")\nlibrary(xtable)\n\na <- stat.table(index=list(wool,tension),\n                contents=list(count(),mean(breaks),percent (wool)),\n                data=warpbreaks)\na\na.latex <- xtable(a)\nError in UseMethod(\"xtable\") : no applicable method for \"xtable\"\na.latex <- latex(a)\nError in x[, j] : incorrect number of dimensions\n\nBest,\nLauri",
+      "body_snippet": "R users,\n\nIs there a way to convert stat.table (library(Epi)) object into latex\ntable? I have tried xtable from (xtable package) and latex (Hmisc\npackage) with no success.\n\nExample code:\n\ninstall.pack",
+      "thread_id": "thread-e50b20d6078c",
+      "thread_depth": 0,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-e0c47f2ee8e6",
+      "message_id": "<BLU124-W256F9876B4D61DEA222259A5BE0@phx.gbl>",
+      "from_name": "albert sanchez niubo",
+      "from_email_hash": "fa8d7319525e5a73ca6ca6f77595be1a33d4d7b86a29acb432ddb39dc2287956",
+      "date": "2008-05-30T14:15:44+02:00",
+      "subject": "[R-sig-Epi] stat.table object into latex",
+      "subject_clean": "stat.table object into latex",
+      "in_reply_to": "<ba8c09910805292346m1a00d61drc0b10a0b512091ca@mail.gmail.com>",
+      "references": [
+        "<ba8c09910805292346m1a00d61drc0b10a0b512091ca@mail.gmail.com>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: no disponible\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080530/8a1ab431/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: no disponible\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080530/8a1ab431/attachment.pl>",
+      "thread_id": "thread-e50b20d6078c",
+      "thread_depth": 1,
+      "month": "2008-05"
+    },
+    {
+      "id": "msg-c62192102e76",
+      "message_id": "<1212175047.484052c77f991@webmail.iarc.fr>",
+      "from_name": "plummer at iarc.fr",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "2008-05-30T21:17:27+02:00",
+      "subject": "[R-sig-Epi] stat.table object into latex",
+      "subject_clean": "stat.table object into latex",
+      "in_reply_to": "<BLU124-W256F9876B4D61DEA222259A5BE0@phx.gbl>",
+      "references": [
+        "<ba8c09910805292346m1a00d61drc0b10a0b512091ca@mail.gmail.com>",
+        "<BLU124-W256F9876B4D61DEA222259A5BE0@phx.gbl>"
+      ],
+      "body_plain": "I haven't thought about this before, but you are quite right: there\nshould be an xtable method for stat.table objects. I will make one\nand hopefully this will be in the next release of Epi.\n\nMartyn\n\nQuoting albert sanchez niubo <albynew at hotmail.com>:\n\n>\n> Hello Lauri,\n>\n> If you write \"> methods(xtable)\", xtable.stat.table is not included, thus it\n> must be included but I have not found howto...\n>\n> But, if you use:\n> > a.latex <- latexVerbatim(a)\n>\n> Function latexVerbatim \"executes the object's print method, capturing the\n> output for a file inside a LaTeX verbatim environment\" (as says in the help).\n>\n> While someone finds a better solution, I hope it can help you.\n>\n> Cheers,\n> Albert\n>\n>\n>\n> Albert Sanchez-Niubo\n> Drug abuse epidemiology\n> IMIM-Hospital del Mar\n> Parc de Recerca Biom?dica de Barcelona\n> c/ Doctor Aiguader, 88 | 08003 Barcelona\n> asanchez at imim.es\n> www.imim.es\n>\n>\n>\n> > Date: Fri, 30 May 2008 09:46:57 +0300\n> > From: lauri.nikkinen at iki.fi\n> > To: r-sig-epi at stat.math.ethz.ch\n> > Subject: [R-sig-Epi] stat.table object into latex\n> >\n> > R users,\n> >\n> > Is there a way to convert stat.table (library(Epi)) object into latex\n> > table? I have tried xtable from (xtable package) and latex (Hmisc\n> > package) with no success.\n> >\n> > Example code:\n> >\n> > install.packages(\"Epi\")\n> > library(Epi)\n> > install.packages(\"Hmisc\")\n> > library(Hmisc)\n> > install.packages(\"xtable\")\n> > library(xtable)\n> >\n> > a <- stat.table(index=list(wool,tension),\n> >                 contents=list(count(),mean(breaks),percent (wool)),\n> >                 data=warpbreaks)\n> > a\n> > a.latex <- xtable(a)\n> > Error in UseMethod(\"xtable\") : no applicable method for \"xtable\"\n> > a.latex <- latex(a)\n> > Error in x[, j] : incorrect number of dimensions\n> >\n> > Best,\n> > Lauri\n> >\n> > _______________________________________________\n> > R-sig-Epi at stat.math.ethz.ch mailing list\n> > https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n> _________________________________________________________________\n> La vida de los famosos al desnudo en MSN Entretenimiento\n>\n> \t[[alternative HTML version deleted]]\n>\n>\n\n\n\n-----------------------------------------------------------------------\nThis message and its attachments are strictly confidenti...{{dropped:8}}",
+      "body_snippet": "I haven't thought about this before, but you are quite right: there\nshould be an xtable method for stat.table objects. I will make one\nand hopefully this will be in the next release of Epi.\n\nMartyn\n\nQ",
+      "thread_id": "thread-e50b20d6078c",
+      "thread_depth": 2,
+      "month": "2008-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-50b1db01ad66",
+      "subject": "Arjas plot",
+      "message_count": 1,
+      "participants": [
+        "Tobias Janstad"
+      ],
+      "started": "2008-05-04T23:16:18+02:00",
+      "last_reply": "2008-05-04T23:16:18+02:00",
+      "root_message_id": "msg-50b1db01ad66"
+    },
+    {
+      "id": "thread-99e1e5df6bbc",
+      "subject": "Updated verison of Epi package: 1.0.8",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2008-05-06T13:54:59+02:00",
+      "last_reply": "2008-05-06T13:54:59+02:00",
+      "root_message_id": "msg-99e1e5df6bbc"
+    },
+    {
+      "id": "thread-9e376b2002b7",
+      "subject": "Most probable number",
+      "message_count": 1,
+      "participants": [
+        "Riccardo Rasera"
+      ],
+      "started": "2008-05-07T17:48:56+02:00",
+      "last_reply": "2008-05-07T17:48:56+02:00",
+      "root_message_id": "msg-9e376b2002b7"
+    },
+    {
+      "id": "thread-5c02bb6cb2ea",
+      "subject": "Most probable number",
+      "message_count": 1,
+      "participants": [
+        "Riccardo Rasera"
+      ],
+      "started": "2008-05-08T08:34:06+02:00",
+      "last_reply": "2008-05-08T08:34:06+02:00",
+      "root_message_id": "msg-5c02bb6cb2ea"
+    },
+    {
+      "id": "thread-0dc7e8e333d3",
+      "subject": "Reference Guide / Howto",
+      "message_count": 1,
+      "participants": [
+        "Wim Bertels"
+      ],
+      "started": "2008-05-20T20:23:24+02:00",
+      "last_reply": "2008-05-20T20:23:24+02:00",
+      "root_message_id": "msg-0dc7e8e333d3"
+    },
+    {
+      "id": "thread-4433fa66cfe6",
+      "subject": "CURSO DE R NA UNICAMP",
+      "message_count": 1,
+      "participants": [
+        "Ana Carol Nunes"
+      ],
+      "started": "2008-05-21T14:32:20-03:00",
+      "last_reply": "2008-05-21T14:32:20-03:00",
+      "root_message_id": "msg-4433fa66cfe6"
+    },
+    {
+      "id": "thread-638b7ee45cd5",
+      "subject": "lists and data frame",
+      "message_count": 1,
+      "participants": [
+        "Henrik Kallberg"
+      ],
+      "started": "2008-05-22T12:44:32+02:00",
+      "last_reply": "2008-05-22T12:44:32+02:00",
+      "root_message_id": "msg-638b7ee45cd5"
+    },
+    {
+      "id": "thread-aa1fd7f0a3b4",
+      "subject": "I solved the problem",
+      "message_count": 1,
+      "participants": [
+        "Henrik Kallberg"
+      ],
+      "started": "2008-05-22T14:15:06+02:00",
+      "last_reply": "2008-05-22T14:15:06+02:00",
+      "root_message_id": "msg-aa1fd7f0a3b4"
+    },
+    {
+      "id": "thread-ce269de2b378",
+      "subject": "R-sig-Epi Digest, Vol 25, Issue 6",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2008-05-24T22:25:54-03:00",
+      "last_reply": "2008-05-24T22:25:54-03:00",
+      "root_message_id": "msg-ce269de2b378"
+    },
+    {
+      "id": "thread-1edacb419235",
+      "subject": "Help os test accuracy design!",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2008-05-27T16:52:10-03:00",
+      "last_reply": "2008-05-27T16:52:10-03:00",
+      "root_message_id": "msg-1edacb419235"
+    },
+    {
+      "id": "thread-e50b20d6078c",
+      "subject": "stat.table object into latex",
+      "message_count": 3,
+      "participants": [
+        "Lauri Nikkinen",
+        "albert sanchez niubo",
+        "plummer at iarc.fr"
+      ],
+      "started": "2008-05-30T09:46:57+03:00",
+      "last_reply": "2008-05-30T21:17:27+02:00",
+      "root_message_id": "msg-e50b20d6078c"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+From mzyphur m@iii@g oii i@st@ts@org  Wed Mar  5 17:50:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Wed, 05 Mar 2025 16:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] Online Course: Clustering High-Dimensional Data with
+ ChatGPT
+Message-ID: <F13hT8NCTN-x4EpI7Q5gSw@geopod-ismtpd-1>
+
+Hi everyone
+
+Instats is excited to offer a one-day seminar, Clustering High-Dimensional Data with ChatGPT <https://instats.org/seminar/clustering-high-dimensional-data-with-ch>, on March 28 with Professor Nikolay Oskolkov from Lund University. In the era of big data, effectively analyzing high-dimensional datasets is critical. In this workshop, you'll learn to harness both classic and advanced clustering techniques using R and Python?with ChatGPT serving as your AI assistant to help write code, interpret results, and streamline your workflow. Dr. Oskolkov, an expert in bioinformatics, statistics, and machine learning, will guide you through methods to tackle the curse of dimensionality, apply dimensionality reduction (PCA, t-SNE, UMAP), and implement a range of clustering algorithms from basic (K-means, GMM, hierarchical) to advanced graph-based techniques (SNN, (H)DBSCAN, Louvain, Leiden). Designed for PhD students, academics, and professional researchers, this hands-on session will equip you with the skills to extract meaningful insights from complex, multi-dimensional data.
+
+Sign up today <https://instats.org/seminar/clustering-high-dimensional-data-with-ch> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Director
+Institute for Statistical and Data Science
+instats.org <http://instats.org>
+
+Follow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Sun Mar 16 09:23:04 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Sun, 16 Mar 2025 08:23:04 +0000 (UTC)
+Subject: [R-sig-Epi] Introduction to Bayesian Modelling using RStan - Free
+ Seminar
+Message-ID: <Xewytu20RkCuIeFjLl32bQ@geopod-ismtpd-13>
+
+Hi everyone
+
+Instats is excited to offer a free seminar, Introduction to Bayesian Modelling using RStan, on April 14th, led by Professor Justin Slater from the Department of Mathematics and Statistics at the University of Guelph. When tackling challenging statistical problems, understanding the data-generating process is essential, yet many researchers without advanced training struggle to know where to begin. This seminar fills that critical gap by introducing Bayesian statistics as a flexible, intuitive framework for building custom models tailored to your research context. You?ll explore key topics such as the fundamentals of Bayesian inference, the roles of prior and posterior distributions, and the basics of Markov Chain Monte Carlo (MCMC) methods as implemented in Stan. Through hands-on demonstrations, you?ll learn to express a simple custom statistical model in mathematical notation, convert it to Stan code, sample from its posterior distribution using MCMC, and diagnose common sampling issues. The workshop also includes applications to simple problems in biostatistics and epidemiology, providing you with a solid foundation to continue developing autonomous and rigorous data analytic practices.
+
+Sign up today to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Director
+Institute for Statistical and Data Science
+instats.org <http://instats.org>
+
+Follow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Sun Mar 16 09:35:19 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Sun, 16 Mar 2025 19:35:19 +1100
+Subject: [R-sig-Epi] 
+ Introduction to Bayesian Modelling using RStan - Free Seminar
+In-Reply-To: <Xewytu20RkCuIeFjLl32bQ@geopod-ismtpd-13>
+References: <Xewytu20RkCuIeFjLl32bQ@geopod-ismtpd-13>
+Message-ID: <CAFEsyOyQBdqBDBEtFR27PtYWjKBw=8EjzR2FR6ffpVxfKspbTw@mail.gmail.com>
+
+Hi everyone
+
+Apologies, the link was missing in my previous email. The free
+'Introduction to Bayesian Modelling using RStan' seminar can be found here:
+
+https://instats.org/seminar/introduction-to-bayesian-modelling-using
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+
+*instats.org* <http://instats.org>Follow Instats*:  *Bluesky
+<https://bsky.app/profile/instats.bsky.social>  Linkedin
+<https://linkedin.com/company/instats1>  Facebook
+<https://www.facebook.com/InstatsTraining/>
+
+
+On Sun, 16 Mar 2025 at 19:23, Michael Zyphur via R-sig-Epi <
+r-sig-epi at r-project.org> wrote:
+
+> Hi everyone
+>
+> Instats is excited to offer a free seminar, Introduction to Bayesian
+> Modelling using RStan, on April 14th, led by Professor Justin Slater from
+> the Department of Mathematics and Statistics at the University of Guelph.
+> When tackling challenging statistical problems, understanding the
+> data-generating process is essential, yet many researchers without advanced
+> training struggle to know where to begin. This seminar fills that critical
+> gap by introducing Bayesian statistics as a flexible, intuitive framework
+> for building custom models tailored to your research context. You?ll
+> explore key topics such as the fundamentals of Bayesian inference, the
+> roles of prior and posterior distributions, and the basics of Markov Chain
+> Monte Carlo (MCMC) methods as implemented in Stan. Through hands-on
+> demonstrations, you?ll learn to express a simple custom statistical model
+> in mathematical notation, convert it to Stan code, sample from its
+> posterior distribution using MCMC, and diagnose common sampling issues. The
+> workshop also includes applications to simple problems in biostatistics and
+> epidemiology, providing you with a solid foundation to continue developing
+> autonomous and rigorous data analytic practices.
+>
+> Sign up today to secure your spot, and feel free to share this opportunity
+> with colleagues and students who might benefit!
+>
+>
+> Best wishes
+>
+> Michael Zyphur
+> Director
+> Institute for Statistical and Data Science
+> instats.org <http://instats.org>
+>
+> Follow Instats: Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin
+> <https://linkedin.com/company/instats1>_Facebook <
+> https://www.facebook.com/InstatsTraining/>
+>         [[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Mon Mar 24 11:50:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Mon, 24 Mar 2025 10:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] Online Course: Clustering High-Dimensional Data with
+ ChatGPT
+Message-ID: <Y_hMCsO1RMm8fODUppCe7A@geopod-ismtpd-3>
+
+Hi everyone
+
+Last chance to register for the new one-day seminar, Clustering High-Dimensional Data with ChatGPT <https://instats.org/seminar/clustering-high-dimensional-data-with-ch>, running March 28 with Professor Nikolay Oskolkov from Lund University. In the era of big data, effectively analyzing high-dimensional datasets is critical in a variety of fields. In this workshop, you'll learn to harness both classic and advanced clustering techniques using R and Python?with ChatGPT serving as your AI assistant to help write code, interpret results, and streamline your workflow. Dr. Oskolkov, an expert in bioinformatics, statistics, and machine learning, will guide you through methods to tackle the curse of dimensionality, apply dimensionality reduction (PCA, t-SNE, UMAP), and implement a range of clustering algorithms from basic (K-means, GMM, hierarchical) to advanced graph-based techniques (SNN, (H)DBSCAN, Louvain, Leiden). Designed for PhD students, academics, and professional researchers, this hands-on session will equip you with the skills to extract meaningful insights from complex, multi-dimensional data.
+
+Sign up today <https://instats.org/seminar/clustering-high-dimensional-data-with-ch> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Director
+Institute for Statistical and Data Science
+instats.org <http://instats.org>
+
+Follow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Thu Mar 27 12:20:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Thu, 27 Mar 2025 11:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Online Course: Analysis of RNA-Seq Data
+Message-ID: <JS-gJznHTaukX3cgRg9s_w@geopod-ismtpd-6>
+
+Hi everyone
+
+Instats is excited to offer a 6-day seminar, Analysis of RNA-Seq Data <https://instats.org/seminar/analysis-of-rna-seq-data>, running once per week from April 17 to May 22, being led by senior biostatistician Dr. Rosina Savisaar. This comprehensive workshop demystifies the RNA-seq analysis pipeline by focusing on data analysis and interpretation, fostering an intuitive practical understanding of key concepts. You?ll gain hands-on experience with data visualization in genome browsers and R, learn descriptive statistics (such as RPKM, FPKM, TPM, and L2FC), and explore advanced techniques including hierarchical clustering with heatmaps, Principal Component Analysis, differential gene expression analysis using DESeq2, and functional enrichment methods like over-representation analysis and Gene Set Enrichment Analysis. Ideal for researchers new to gene expression analysis or those seeking deeper insights into RNA-seq methodologies, this seminar uses real-world datasets (including a reanalysis of a schizophrenia study) to reinforce learning through interactive weekly Zoom sessions.
+
+Sign up today <https://instats.org/seminar/foundations-of-statistical-analysis-in-r> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Director
+Institute for Statistical and Data Science
+instats.org <http://instats.org>
+
+Follow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Mon Mar 31 13:35:00 2025
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Mon, 31 Mar 2025 11:35:00 +0000 (UTC)
+Subject: [R-sig-Epi] Instats & ASA Launch Free Research Training for U.S.
+ Government Employees
+Message-ID: <eTcNXL2eQgOYalpreJ6ZeA@geopod-ismtpd-5>
+
+Hi everyone
+
+Today, Instats (instats.org <https://instats.org>) is proud to announce a new initiative in partnership with the American Statistical Association (ASA) to empower U.S. public servants. Starting immediately, all government employees with a .gov email address can freely access our premier streaming library of expert-led research training content?the entire library of over 200 courses, with thousands of hours of content streaming in 4K, free of charge. This includes all federal, state, and local government employees with a .gov email address.
+
+Our comprehensive library covers a range of topics from statistics and data science to advanced quantitative and qualitative research methods, designed to support the analytical skills essential for evidence-based decision making in government. By democratizing access to high-quality training, we?re investing in the continuous professional development of those who serve our communities.
+
+Eligible government professionals can sign up at instats.org using their official .gov email to unlock this resource. Join us in advancing public service and shaping a future where informed decisions lead to lasting impact.
+
+
+Best wishes
+
+Michael Zyphur
+Director
+Institute for Statistical and Data Science
+instats.org <http://instats.org>
+
+Follow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>
+	[[alternative HTML version deleted]]
+
+

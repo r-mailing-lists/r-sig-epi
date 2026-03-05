@@ -1,0 +1,74 @@
+From dost_uop at yahoo.com  Thu Apr 10 06:17:57 2008
+From: dost_uop at yahoo.com (Dost Muhammad)
+Date: Wed, 9 Apr 2008 21:17:57 -0700 (PDT)
+Subject: [R-sig-Epi] Sampling from regression data on the basis of smallest
+	absolute residuals
+Message-ID: <66166.78869.qm@web56902.mail.re3.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080409/979ea777/attachment.pl 
+
+From Henrik.Kallberg at ki.se  Fri Apr 11 10:51:59 2008
+From: Henrik.Kallberg at ki.se (Henrik Kallberg)
+Date: Fri, 11 Apr 2008 10:51:59 +0200
+Subject: [R-sig-Epi] mode of a character variable
+Message-ID: <f2fbfe281031.1031f2fbfe28@ki.se>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080411/184689c2/attachment.pl 
+
+From p.dalgaard at biostat.ku.dk  Fri Apr 11 11:00:06 2008
+From: p.dalgaard at biostat.ku.dk (Peter Dalgaard)
+Date: Fri, 11 Apr 2008 11:00:06 +0200
+Subject: [R-sig-Epi] mode of a character variable
+In-Reply-To: <f2fbfe281031.1031f2fbfe28@ki.se>
+References: <f2fbfe281031.1031f2fbfe28@ki.se>
+Message-ID: <47FF2896.7020304@biostat.ku.dk>
+
+Henrik Kallberg wrote:
+> Dear All!
+> I have tried to find a function for searching for the most common character set within a variable. I have not found a solution though. Maybe any smarthead out there could enlight me. To describe what i'm after the metacode looks like this:
+> var
+> A A
+> A A
+> C C
+> G G
+> cm<-FindModeChar(var)
+> cm
+> A A
+> Best regards Henrik
+>
+>
+>   
+How about which.max(table(var)) ?
+
+
+-- 
+   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B
+  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K
+ (*) \(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918
+~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907
+
+
+From summer.nitely at gmail.com  Tue Apr 15 19:55:00 2008
+From: summer.nitely at gmail.com (Summer Nitely)
+Date: Tue, 15 Apr 2008 11:55:00 -0600
+Subject: [R-sig-Epi] AIC values from Icens function
+Message-ID: <8a41df090804151055n722f5d30j28ac4dda58d53818@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080415/3d631a5b/attachment.pl 
+
+From Henrik.Kallberg at ki.se  Thu Apr 17 15:29:37 2008
+From: Henrik.Kallberg at ki.se (Henrik Kallberg)
+Date: Thu, 17 Apr 2008 15:29:37 +0200
+Subject: [R-sig-Epi] Help non-conformable array
+Message-ID: <f96bb97dd18.d18f96bb97d@ki.se>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080417/1a221067/attachment.pl 
+

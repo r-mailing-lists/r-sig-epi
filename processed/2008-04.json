@@ -1,0 +1,136 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2008-04",
+  "messages": [
+    {
+      "id": "msg-b8768c33ba2b",
+      "message_id": "<66166.78869.qm@web56902.mail.re3.yahoo.com>",
+      "from_name": "Dost Muhammad",
+      "from_email_hash": "7cf62360b53e1c37d483cf2c01793469a70bf187a93935c4c8c5417d59f540b5",
+      "date": "2008-04-09T21:17:57-07:00",
+      "subject": "[R-sig-Epi] Sampling from regression data on the basis of smallest absolute residuals",
+      "subject_clean": "Sampling from regression data on the basis of smallest absolute residuals",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080409/979ea777/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080409/979ea777/attachment.pl",
+      "thread_id": "thread-b8768c33ba2b",
+      "thread_depth": 0,
+      "month": "2008-04"
+    },
+    {
+      "id": "msg-92ac171c52a3",
+      "message_id": "<f2fbfe281031.1031f2fbfe28@ki.se>",
+      "from_name": "Henrik Kallberg",
+      "from_email_hash": "fed1ed22a5f8f4a7d27e83bad22b95f3f8887d92145fc9dfdf66410c3aaa4990",
+      "date": "2008-04-11T10:51:59+02:00",
+      "subject": "[R-sig-Epi] mode of a character variable",
+      "subject_clean": "mode of a character variable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080411/184689c2/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080411/184689c2/attachment.pl",
+      "thread_id": "thread-92ac171c52a3",
+      "thread_depth": 0,
+      "month": "2008-04"
+    },
+    {
+      "id": "msg-0103a06d4187",
+      "message_id": "<47FF2896.7020304@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2008-04-11T11:00:06+02:00",
+      "subject": "[R-sig-Epi] mode of a character variable",
+      "subject_clean": "mode of a character variable",
+      "in_reply_to": "<f2fbfe281031.1031f2fbfe28@ki.se>",
+      "references": [
+        "<f2fbfe281031.1031f2fbfe28@ki.se>"
+      ],
+      "body_plain": "Henrik Kallberg wrote:\n> Dear All!\n> I have tried to find a function for searching for the most common character set within a variable. I have not found a solution though. Maybe any smarthead out there could enlight me. To describe what i'm after the metacode looks like this:\n> var\n> A A\n> A A\n> C C\n> G G\n> cm<-FindModeChar(var)\n> cm\n> A A\n> Best regards Henrik\n>\n>\n>   \nHow about which.max(table(var)) ?\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "Henrik Kallberg wrote:\n> Dear All!\n> I have tried to find a function for searching for the most common character set within a variable. I have not found a solution though. Maybe any smarthead out ther",
+      "thread_id": "thread-92ac171c52a3",
+      "thread_depth": 1,
+      "month": "2008-04"
+    },
+    {
+      "id": "msg-d6a82200f6d2",
+      "message_id": "<8a41df090804151055n722f5d30j28ac4dda58d53818@mail.gmail.com>",
+      "from_name": "Summer Nitely",
+      "from_email_hash": "b8ad61d3ca3daec2e8633785f850e5c75a302dd7a5c98a306df28e1c9cda9a20",
+      "date": "2008-04-15T11:55:00-06:00",
+      "subject": "[R-sig-Epi] AIC values from Icens function",
+      "subject_clean": "AIC values from Icens function",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080415/3d631a5b/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080415/3d631a5b/attachment.pl",
+      "thread_id": "thread-d6a82200f6d2",
+      "thread_depth": 0,
+      "month": "2008-04"
+    },
+    {
+      "id": "msg-183279f76270",
+      "message_id": "<f96bb97dd18.d18f96bb97d@ki.se>",
+      "from_name": "Henrik Kallberg",
+      "from_email_hash": "fed1ed22a5f8f4a7d27e83bad22b95f3f8887d92145fc9dfdf66410c3aaa4990",
+      "date": "2008-04-17T15:29:37+02:00",
+      "subject": "[R-sig-Epi] Help non-conformable array",
+      "subject_clean": "Help non-conformable array",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080417/1a221067/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080417/1a221067/attachment.pl",
+      "thread_id": "thread-183279f76270",
+      "thread_depth": 0,
+      "month": "2008-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b8768c33ba2b",
+      "subject": "Sampling from regression data on the basis of smallest absolute residuals",
+      "message_count": 1,
+      "participants": [
+        "Dost Muhammad"
+      ],
+      "started": "2008-04-09T21:17:57-07:00",
+      "last_reply": "2008-04-09T21:17:57-07:00",
+      "root_message_id": "msg-b8768c33ba2b"
+    },
+    {
+      "id": "thread-92ac171c52a3",
+      "subject": "mode of a character variable",
+      "message_count": 2,
+      "participants": [
+        "Henrik Kallberg",
+        "Peter Dalgaard"
+      ],
+      "started": "2008-04-11T10:51:59+02:00",
+      "last_reply": "2008-04-11T11:00:06+02:00",
+      "root_message_id": "msg-92ac171c52a3"
+    },
+    {
+      "id": "thread-d6a82200f6d2",
+      "subject": "AIC values from Icens function",
+      "message_count": 1,
+      "participants": [
+        "Summer Nitely"
+      ],
+      "started": "2008-04-15T11:55:00-06:00",
+      "last_reply": "2008-04-15T11:55:00-06:00",
+      "root_message_id": "msg-d6a82200f6d2"
+    },
+    {
+      "id": "thread-183279f76270",
+      "subject": "Help non-conformable array",
+      "message_count": 1,
+      "participants": [
+        "Henrik Kallberg"
+      ],
+      "started": "2008-04-17T15:29:37+02:00",
+      "last_reply": "2008-04-17T15:29:37+02:00",
+      "root_message_id": "msg-183279f76270"
+    }
+  ]
+}

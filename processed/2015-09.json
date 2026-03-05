@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2015-09",
+  "messages": [
+    {
+      "id": "msg-491bc9f4f848",
+      "message_id": "<D48624DDDF1E874FBD20BC5C1FE08FA43FB65B5E@NNEXMRDK010.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2015-09-19T15:16:41Z",
+      "subject": "[R-sig-Epi] Epi 1.1.71 is now out",
+      "subject_clean": "Epi 1.1.71 is now out",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nthe latest version of Epi, version 1.1.71 is now avialble on CRAN.\nbest regards,\nBendix Carstesen,\nmaintainer\n\nThe changes since 1.1.60 (the previous version on CRAN was 1.1.67) are:\n\nChanges in 1.1.71\n\no Bug from calling lme4::vcov from within ci.lin fixed\n\nChanges in 1.1.70\n\no Bug in calling lme4::fixef from within ci.lin fixed\n\no ci.lin with sample=TRUE now samples from the posterior of the\n  parameter vector and then transforms this by the contrast matrix\n  (earlier the sampling was from the posterior of the ctr.mat\n  transformed parameters). \n\nChanges in 1.1.69\n\no ci.cum now has an argument ci.Exp (defaults to FALSE) that computes\n  the ci of the cum.haz on the log-scale. This is useful if you want to\n  transform c.i.s to the survival scale and want the c.i.s for the\n  survival function to stay inside [0,1].\n\no ci.pred updated to automatically use the inverse link for\n  transformation of results. Also now only accepts glm objects.\n  \no Ns now have arguents ref= and detrend=. ref= allows a reference\n  value to be specified (where the Ns is 0); this is independent of\n  the supplied data. detrend= projects the columns of Ns() on the\n  orthogonal of the variable supplied; this is strongly dependent on\n  the data.\n\nChanges in 1.1.68\n\no ci.lin has been groomed to use internally (newly, from 1.1.68)\n  defined methods COEF and VCOV to extract coefficients and\n  variance-covariances of these from different types of objects.\n\nChanges in 1.1.67\n\no The simLexis vignette has been groomed a bit\n\no The function ci.pred (a wrapper for predict.glm) added\n\nChanges in 1.1.66\n\no A crr.Lexis method has been added to simplify the use of the\n  Fine-Gray model when data are set up in a Lexis object.\n\no ci.lin and ci.exp now recognises crr objects.\n\no A wrapper, ci.pred, for predict.glm has been added, it returns\n  predictions with confidence intervals.\n\nChanges in 1.1.65\n\no Despite the note, dropped rows from construction of a Lexis objects\n  were not put in the \"dropped\" attribute.\n\nChanges in 1.1.64\n\no Fixed the sim-Lexis vignette\n\nChanges in 1.1.64\n\no Added function ZArray, which generates an array of 0s just as NArray\n  generates an array of NAs.\n\no Updated code to avoid \"::\" and \":::\" as far as possible, as well as\n  \"<<-\". Hence excluded records from construction of a Lexis object is\n  now put in an attribute \"dropped\" of the Lexis object.\n\nChanges in 1.1.62\n\no Bug fix in the example code for boxes.Lexis\n\nChanges in 1.1.61\n\no ci.lin updated to recognize objects of class \"lmerMod\" from lmer.",
+      "body_snippet": "Dear all,\nthe latest version of Epi, version 1.1.71 is now avialble on CRAN.\nbest regards,\nBendix Carstesen,\nmaintainer\n\nThe changes since 1.1.60 (the previous version on CRAN was 1.1.67) are:\n\nChange",
+      "thread_id": "thread-491bc9f4f848",
+      "thread_depth": 0,
+      "month": "2015-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-491bc9f4f848",
+      "subject": "Epi 1.1.71 is now out",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2015-09-19T15:16:41+00:00",
+      "last_reply": "2015-09-19T15:16:41+00:00",
+      "root_message_id": "msg-491bc9f4f848"
+    }
+  ]
+}

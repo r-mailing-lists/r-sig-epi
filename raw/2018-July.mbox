@@ -1,0 +1,310 @@
+From cohen@d@m @ending from gm@il@com  Sat Jul 14 13:28:30 2018
+From: cohen@d@m @ending from gm@il@com (Adam Cohen)
+Date: Sat, 14 Jul 2018 13:28:30 +0200
+Subject: [R-sig-Epi] Global prevalence
+Message-ID: <CANSBKeq+yAt8phnUVgguEvqoi_dY3SA9c7gubJh7RFzTQAM9ZA@mail.gmail.com>
+
+I am using the R package, but my question is towards method rather than
+application in R. I am a doctor with some programming experience but no
+worthy experience in epidemiology /  statistics. If this is inappropriate
+for this mailing list i apologize.
+
+I am looking for which overall statistical methods I should explore and try
+to utilize. So I am looking for key words if that is possible, not for
+someone to do the job for me.
+
+I am estimating a global prevalence estimate of a disease. I have x number
+of studies, each with a given prevalence proportion. The studies are from
+different countries, there is a continuous variable that is known for each
+country that affects disease prevalence.  Populations in the studies have
+different age means and intervals. Age is known to affect disease
+prevalence. Might also want to include categorical information as well as
+year the study was performed.
+
+I assume it is possible to create a mathematical model that, given the data
+from the studies, can estimate prevalence at any combination of the
+variable values mentioned, so that this model can be standardized to the
+ global situation today. Is there some subcategory in random effects
+analysis I should look into or something else entirely?
+
+Best regards
+Adam Cohen
+
+	[[alternative HTML version deleted]]
+
+
+From brechtdv @ending from gm@il@com  Sat Jul 14 17:46:45 2018
+From: brechtdv @ending from gm@il@com (Brecht Devleesschauwer)
+Date: Sat, 14 Jul 2018 17:46:45 +0200
+Subject: [R-sig-Epi] Global prevalence
+In-Reply-To: <CANSBKeq+yAt8phnUVgguEvqoi_dY3SA9c7gubJh7RFzTQAM9ZA@mail.gmail.com>
+References: <CANSBKeq+yAt8phnUVgguEvqoi_dY3SA9c7gubJh7RFzTQAM9ZA@mail.gmail.com>
+Message-ID: <5b4a1ae3.1c69fb81.3a4c9.ffc9@mx.google.com>
+
+You probably want to look into meta-analysis and meta-regression (ie, meta-analysis with covariates). A good starting point is the metafor package, and the tutorials you can find online.
+
+
+Van: Adam Cohen
+Verzonden: zaterdag 14 juli 2018 13:28
+Aan: r-sig-epi at r-project.org
+Onderwerp: [R-sig-Epi] Global prevalence
+
+I am using the R package, but my question is towards method rather than
+application in R. I am a doctor with some programming experience but no
+worthy experience in epidemiology /  statistics. If this is inappropriate
+for this mailing list i apologize.
+
+I am looking for which overall statistical methods I should explore and try
+to utilize. So I am looking for key words if that is possible, not for
+someone to do the job for me.
+
+I am estimating a global prevalence estimate of a disease. I have x number
+of studies, each with a given prevalence proportion. The studies are from
+different countries, there is a continuous variable that is known for each
+country that affects disease prevalence.  Populations in the studies have
+different age means and intervals. Age is known to affect disease
+prevalence. Might also want to include categorical information as well as
+year the study was performed.
+
+I assume it is possible to create a mathematical model that, given the data
+from the studies, can estimate prevalence at any combination of the
+variable values mentioned, so that this model can be standardized to the
+ global situation today. Is there some subcategory in random effects
+analysis I should look into or something else entirely?
+
+Best regards
+Adam Cohen
+
+	[[alternative HTML version deleted]]
+
+_______________________________________________
+R-sig-Epi at r-project.org mailing list
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+	[[alternative HTML version deleted]]
+
+
+From oliverhooker @ending from pr@t@ti@tic@@com  Thu Jul 26 16:25:57 2018
+From: oliverhooker @ending from pr@t@ti@tic@@com (Oliver Hooker)
+Date: Thu, 26 Jul 2018 15:25:57 +0100
+Subject: [R-sig-Epi] STATS COURSE Time series models for ecologists
+Message-ID: <ad4f5ba273316dc329e3bc45c95a2f90@prstatistics.com>
+
+Time series models for ecologists (TSME02)
+
+https://www.prstatistics.com/course/time-series-models-for-ecologists-tsme02/
+
+This course will be delivered by Dr. Andrew Parnell from the 1st - 5th 
+October 2018 in Glasgow.
+
+Course Overview:
+This course will cover time series analysis with a particular focus on 
+applications in ecology. All methods will be illustrated using the free, 
+open-source software package R. Time Series data are ubiquitous in the 
+physical sciences, and models for their behaviour enable scientists to 
+understand temporal dynamics and predict future values. Participants 
+will be taught a wide range of suitable time series models for both 
+discrete and continuous time systems. The course will cover a range of 
+techniques from simple exponential smoothing and ARIMA modelling 
+approaches up to complex Bayesian models. Participants will gain a 
+deeper understanding of the models being fitted, and be able interpret 
+the results appropriately. Participants are encouraged to bring their 
+own data sets for discussion with the course tutors.
+
+Monday 1st ? Classes from 09:30 to 17:30
+Class 1: Introduction, example data sets
+Class 2: Revision: likelihood and inference
+Class 3: Revision: linear regression, GLMs, and exponential smoothing
+
+Tutor-guided practical: Linear regression GLMs and exponential smoothing 
+for time series
+Self-guided practical: Analysing some example data sets
+Tuesday 2nd ? Classes from 09:30 to 17:30
+Class 1: Auto-regressive models and random walks
+Class 2: Moving averages and ARMA
+Class 3: Integrated models and ARIMA
+Tutor-guided practical: The forecast package in R
+Self-guided practical: Fitting ARIMA models with forecast
+
+Wednesday 3rd Classes from 09:30 to 17:30
+Class 1: Including covariates: ARIMAX models
+Class 2: Model choice and forecasting
+Class 3: Creating bespoke time series models using Bayes
+Tutor-guided practical: A walkthrough example time series analysis
+Self-guided practical: Finding the best time series model for your data 
+set
+
+Thursday 4th ? Classes from 09:30 to 17:30
+Class 1: Modelling with seasonality and the frequency domain
+Class 2: Stochastic volatility models and heteroskedasticity
+Class 3: Fitting Bayesian time series models
+Tutor-guided practical: Fitting time series models in Stan
+Self-guided practical: Start analysing your own data set
+
+Friday 4th ? Classes from 09:30 to 16:00
+Class 1: Models for continuous time series: Brownian Motion and Ornstien 
+Uhlenbeck processes
+Class 2: State-space and change point models
+Class 3: Multivariate time series models and co-integration
+Open session: analyse your own data
+
+Email oliverhooker at prstatistics.com
+
+Check out our sister sites,
+www.PRstatistics.com (Ecology and Life Sciences)
+www.PRinformatics.com (Bioinformatics and data science)
+www.PSstatsistics.com (Behaviour and cognition)
+
+1.	July 23rd ? 27th 2018
+EUKARYOTIC METABARCODING (EUKB01)
+Glasgow, Scotland, Dr. Owen Wangensteen
+http://www.prinformatics.com/course/eukaryotic-metabarcoding-eukb01/
+
+2.	October 1st ? 5th
+TIME SERIES MODELS FOR ECOLOGISTS (TSME02)
+Glasgow, Dr Andrew Parnell
+https://www.prstatistics.com/course/time-series-models-foe-ecologists-tsme02/
+
+3.	October 1st ? 5th 2018
+INTRODUCTION TO LINUX WORKFLOWS FOR BIOLOGISTS (IBUL03)
+Glasgow, Scotland, Dr. Martin Jones
+https://www.prinformatics.com/course/introduction-to-linux-workflows-for-biologists-ibul03/
+
+4.	October 8th ? 12th 2018
+INTRODUCTION TO FREQUENTIST AND BAYESIAN MIXED (HIERARCHICAL) MODELS 
+(IFBM01)
+Glasgow, Scotland, Dr Andrew Parnell
+https://www.psstatistics.com/course/introduction-to-frequentis-and-bayesian-mixed-models-ifbm01/
+
+5.	October 15th ? 19th 2018
+APPLIED BAYESIAN MODELLING FOR ECOLOGISTS AND EPIDEMIOLOGISTS (ABME04)
+Glasgow, Scotland, Dr. Matt Denwood, Emma Howard
+http://www.prstatistics.com/course/applied-bayesian-modelling-ecologists-epidemiologists-abme04/
+
+6.	October 23rd ? 25th 2018
+INTRODUCTIUON TO R (This is a private ?in-house? course)
+London, England, Dr William Hoppitt
+
+7.	October 29th ? November 2nd 2018
+INTRODCUTION TO R AND STATISTICS FOR BIOLOGISTS (IRFB02)
+Glasgow, Scotland, Dr. Olivier Gauthier
+https://www.prstatistics.com/course/introduction-to-statistics-and-r-for-biologists-irfb02/
+
+8.	October 29th ? November 2nd 2018
+INTRODUCTION TO BIOINFORMATICS FOR DNA AND RNA SEQUENCE ANALYSIS 
+(IBDR01)
+Glasgow, Scotland, Dr Malachi Griffith, Dr. Obi Griffith
+www.prinformatics.com/course/precision-medicine-bioinformatics-from-raw-genome-and-transcriptome-data-to-clinical-interpretation-pmbi01/
+
+9.	November 5th ? 8th  2018
+PHYLOGENETIC COMPARATIVE METHODS FOR STUDYING DIVERSIFICATION AND 
+PHENOTYPIC EVOLUTION (PCME01)
+Glasgow, Scotland, Dr. Antigoni Kaliontzopoulou
+https://www.prstatistics.com/course/phylogenetic-comparative-methods-for-studying-diversification-and-phenotypic-evolution-pcme01/
+
+10.	November 19th ? 23rd  2018
+STRUCTUAL EQUATION MODELLING FOR ECOLOGISTS AND EVOLUTIONARY BIOLOGISTS 
+(SEMR02)
+Glasgow, Scotland, Dr. Jonathan Lefcheck
+https://www.prstatistics.com/course/structural-equation-modelling-for-ecologists-and-evolutionary-biologists-semr02/
+
+11.	November 26th ? 30th 2018
+FUNCTIONAL ECOLOGY FROM ORGANISM TO ECOSYSTEM: THEORY AND COMPUTATION 
+(FEER01)
+Glasgow, Scotland, Dr. Francesco de Bello, Dr. Lars G?tzenberger, Dr. 
+Carlos Carmona
+http://www.prstatistics.com/course/functional-ecology-from-organism-to-ecosystem-theory-and-computation-feer01/
+
+12.	December 3rd ? 7th 2018
+INTRODUCTION TO BAYESIAN DATA ANALYSIS FOR SOCIAL AND BEHAVIOURAL 
+SCIENCES USING R AND STAN (BDRS01)
+Glasgow, Dr. Mark Andrews
+https://www.psstatistics.com/course/introduction-to-bayesian-data-analysis-for-social-and-behavioural-sciences-using-r-and-stan-bdrs01/
+
+13.	January 21st ? 25th 2019
+STATISTICAL MODELLING OF TIME-TO-EVENT DATA USING SURVIVAL ANALYSIS: AN 
+INTRODUCTION FOR ANIMAL BEHAVIOURISTS, ECOLOGISTS AND EVOLUTIONARY 
+BIOLOGISTS (TTED01)
+Glasgow, Scotland, Dr. Will Hoppitt
+https://www.psstatistics.com/course/statistical-modelling-of-time-to-event-data-using-survival-analysis-tted01/
+
+14.	January 21st ? 25th 2019
+ADVANCING IN STATISTICAL MODELLING USING R (ADVR08)
+Glasgow, Scotland, Dr. Luc Bussiere, Dr. Tom Houslay
+http://www.prstatistics.com/course/advancing-statistical-modelling-using-r-advr08/
+
+15.	January 28th?  February 1st 2019
+AQUATIC ACOUSTIC TELEMETRY DATA ANALYSIS AND SURVEY DESIGN
+Glasgow, Scotland, VEMCO staff and affiliates
+https://www.prstatistics.com/course/aquatic-acoustic-telemetry-data-analysis-atda01/
+
+16.	4th ? 8th February 2019
+DESIGNING RELIABLE AND EFFICIENT EXPERIMENTS FOR SOCIAL SCIENCES 
+(DRES01)
+Glasgow, Scotland, Dr. Daniel Lakens
+https://www.psstatistics.com/course/designing-reliable-and-effecient-experiments-for-social-sciences-dres01/
+
+17.	February 11th ? 15th 2019
+REPRODUCIBLE DATA SCIEDNCE FOR POPULATION GENETICS
+Glasgow, Scotland, Dr. Thibaut Jombart, Dr. Zhain Kamvar
+https://www.prstatistics.com/course/reproducible-data-science-for-population-genetics-rdpg02/
+
+18.	25th February ? 1st March 2019
+MOVEMENT ECOLOGY (MOVE02)
+Margam Discovery Centre, Wales, Dr. Luca Borger, Prof. Ronny Wilson, Dr 
+Jonathan Potts
+https://www.prstatistics.com/course/movement-ecology-move02/
+
+19.	March 4th ? 8th 2019
+BIOACUSTIC DATA ANALYSIS
+Glasgow, Scotland, Dr. Paul Howden-Leach
+https://www.prstatistics.com/course/bioacoustics-for-ecologists-hardware-survey-design-and-data-analysis-biac01/
+
+20.	March 18th ? 22nd 2019
+ECOLOGICAL NICHE MODELLING USING R (ENMR03)
+Glasgow, Scotland, Dr. Neftali Sillero
+http://www.prstatistics.com/course/ecological-niche-modelling-using-r-enmr03/
+
+21.	March 25th ? 29th 2019
+LANDSCAPE GENETIC/GENOMIC DATA ANALYSIS USING R (LNDG03)
+Glasgow, Scotland, Prof. Rodney Dyer
+http://www.prstatistics.com/course/landscape-genetic-data-analysis-using-r-lndg03/
+
+22.	A pril 1st ? 5th 2019
+INTRODUCTION TO STATISTICAL MODELLING FOR PSYCHOLOGISTS USING R (IPSY01)
+Glasgow, Scotland, Dr. Dale Barr, Dr Luc Bussierre
+http://www.psstatistics.com/course/introduction-to-statistics-using-r-for-psychologists-ipsy02/
+
+23.	April 8th ? 12th
+MACHINE LEARNING
+Glasgow Scotland, Dr Aristides (Aris) Moustakas
+https://www.prstatistics.com/course/machine-learning-using-r-mlur01/
+
+-- 
+Oliver Hooker PhD.
+PR statistics
+
+2018 publications -
+
+Alternative routes to piscivory: Contrasting growth trajectories in 
+brown trout (Salmo trutta) ecotypes exhibiting contrasting life history 
+strategies. Ecology of Freshwater Fish. DOI to follow
+
+Phenotypic and resource use partitioning amongst sympatric lacustrine 
+brown trout, Salmo trutta. Biological Journal of the Linnean Society. 
+DOI 10.1093/biolinnean/bly032
+
+prstatistics.com
+facebook.com/prstatistics/
+twitter.com/PRstatistics
+groups.google.com/d/forum/pr-statistics-post-course-forum
+prstatistics.com/organiser/oliver-hooker/
+
+6 Hope Park Crescent
+Edinburgh
+EH8 9NA
+
++44 (0) 7966500340
+
+

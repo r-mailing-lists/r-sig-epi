@@ -1,0 +1,201 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2007-09",
+  "messages": [
+    {
+      "id": "msg-7325e4e62726",
+      "message_id": "<ABD4B7281978174EB054798E5C2C5432544E70@mail-02.uclv.edu.cu>",
+      "from_name": "Alejandro  García Rodríguez",
+      "from_email_hash": "955a598930c79ffffb60b2259da43c605dbe73ed4e2d494e0e8bfa9192b61872",
+      "date": "2007-09-04T16:46:52-05:00",
+      "subject": "[R-sig-Epi] lognormal distribution STD.error",
+      "subject_clean": "lognormal distribution STD.error",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070904/eb8f4359/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070904/eb8f4359/attachment.pl",
+      "thread_id": "thread-7325e4e62726",
+      "thread_depth": 0,
+      "month": "2007-09"
+    },
+    {
+      "id": "msg-c36cfab963e5",
+      "message_id": "<OF99B7A90A.9FD066D8-ONC1257361.004507EC-C1257361.00469F90@var.fgov.be>",
+      "from_name": "Tom Willems",
+      "from_email_hash": "f97dfcbb011ef8f03ff2bad9f7594f7d644394ae0c450b975da8e99666b2c6e9",
+      "date": "2007-09-25T14:51:23+02:00",
+      "subject": "[R-sig-Epi] Q: Transmission rate by martingale methode (dejong.R)",
+      "subject_clean": "Q: Transmission rate by martingale methode (dejong.R)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Een ingesloten tekst met niet-gespecificeerde tekenset is\nvan het bericht gescrubt ...\nNaam: niet beschikbaar\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070925/5b2d0630/attachment.pl",
+      "body_snippet": "Een ingesloten tekst met niet-gespecificeerde tekenset is\nvan het bericht gescrubt ...\nNaam: niet beschikbaar\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070925/5b2d0630/attachment.pl",
+      "thread_id": "thread-c36cfab963e5",
+      "thread_depth": 0,
+      "month": "2007-09"
+    },
+    {
+      "id": "msg-cfdb03dd153b",
+      "message_id": "<31b34fca0709260323u5238c107ucfa98930e64b0cd9@mail.gmail.com>",
+      "from_name": "Neil Shephard",
+      "from_email_hash": "d313f9320200c56c058a6b0222ff357fccb1e4d431e34b4a4f0426413f67c6ad",
+      "date": "2007-09-26T11:23:29+01:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 17, Issue 2",
+      "subject_clean": "R-sig-Epi Digest, Vol 17, Issue 2",
+      "in_reply_to": "<mailman.3.1190800802.20454.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.3.1190800802.20454.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "On 9/26/07 Tom Willems <Tom.Willems at var.fgov.be> wrote:\n\n> Subject: [R-sig-Epi] Q: Transmission rate by martingale methode\n>         (dejong.R)\n> To: r-sig-epi at stat.math.ethz.ch\n> Message-ID:\n>         <OF99B7A90A.9FD066D8-ONC1257361.004507EC-C1257361.00469F90 at var.fgov.be>\n>\n> Content-Type: text/plain\n>\n> good afternoon R-ussers,\n>\n> I am looking for means to calculate the transmission rate of a virus.\n> Reading trough many articles, i found the martingale methode to be the\n> most commen ussed.\n\nWhen giving citations it is useful to give complete details.\n\n\n> An article even points me to the exisrence of an R file, that handles\n> these estimations.\n> It would be the file named :  <  dejong.R  >.\n> Now since i could not find this file i hoped it would be implemented in\n> the Epi library,\n> Yet I did not find anything on calculating Transmission Rates (R0) or\n> infection rates.\n> Can someone pleas point me to where the dejong.R file may be found, or a\n> file handeling this estimations?\n\nA search for the terms 'dejong.R martingale'\n(http://www.google.co.uk/search?num=100&hl=en&safe=off&q=dejong.R+martingale&btnG=Search&meta=)\npoints to five documents, the first of which is the most appropriate\n(the remainder are about an author Dejong R).\n\nReading thought the first pdf it indicates that the dejong.R file that\nyou are interested in does the calculations.  This pdf is hosted as\npart of the homepage for Ass Prof Michael H?hle at University of\nMunich.  If you traverse to a slightly higher level of his homepage\n(http://www.stat.uni-muenchen.de/~hoehle/) you'll see a link to\n\"Statistical Software\". Follow this and you get to what you are after,\nwhich is the fourth item under the Epidemic Modelling.  This is a zip\nfile that contains the dejong.R file that you are seeking.\n\n\nRegards\n\nNeil\n-- \n\"In mathematics you don't understand things. You just get used to\nthem.\"  - Johann von Neumann\n\nEmail - nshephard at gmail.com / n.shephard at sheffield.ac.uk\nWebsite - http://slack.ser.man.ac.uk/\nPhotos - http://www.flickr.com/photos/slackline/",
+      "body_snippet": "On 9/26/07 Tom Willems <Tom.Willems at var.fgov.be> wrote:\n\n> Subject: [R-sig-Epi] Q: Transmission rate by martingale methode\n>         (dejong.R)\n> To: r-sig-epi at stat.math.ethz.ch\n> Message-ID:\n> ",
+      "thread_id": "thread-cfdb03dd153b",
+      "thread_depth": 0,
+      "month": "2007-09"
+    },
+    {
+      "id": "msg-babca5a026b5",
+      "message_id": "<2478.130.192.54.2.1190812806.squirrel@matmail.polito.it>",
+      "from_name": "Martina Gandini",
+      "from_email_hash": "39e004bf151c6c78e70f3f17f368d939b267f6e9bce310d9dcb5396df063aee5",
+      "date": "2007-09-26T15:20:06+02:00",
+      "subject": "[R-sig-Epi] About parametric survival analysis",
+      "subject_clean": "About parametric survival analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Good afternoon R-users!\nI have a question about survival analysis.\nI have a set of data for which I calculate non parametric survival\nfunction using the classical Kaplan-Meier estimation.\n\nData are in the following form\n\ndate of birth, date of exit, censor\n\n\nNow I want to compare the \"Kaplan-Meier\" curve with a parametric survival\ncurve (a Weibull seems to be a reasonable choice in my example). Is there\na function in R to do this?\nThanks a lot!\n\nMartina Gandini",
+      "body_snippet": "Good afternoon R-users!\nI have a question about survival analysis.\nI have a set of data for which I calculate non parametric survival\nfunction using the classical Kaplan-Meier estimation.\n\nData are in",
+      "thread_id": "thread-babca5a026b5",
+      "thread_depth": 0,
+      "month": "2007-09"
+    },
+    {
+      "id": "msg-6586b44f2641",
+      "message_id": "<46FB4E59.2070307@ucr.uu.se>",
+      "from_name": "Johan Lindbäck",
+      "from_email_hash": "5dd16c56c8abf299b7d5b235e9900091a20c614ff2cd339e2e051160f102e2dc",
+      "date": "2007-09-27T08:31:53+02:00",
+      "subject": "[R-sig-Epi] Q: Transmission rate by martingale methode (dejong.R)",
+      "subject_clean": "Q: Transmission rate by martingale methode (dejong.R)",
+      "in_reply_to": "<OF99B7A90A.9FD066D8-ONC1257361.004507EC-C1257361.00469F90@var.fgov.be>",
+      "references": [
+        "<OF99B7A90A.9FD066D8-ONC1257361.004507EC-C1257361.00469F90@var.fgov.be>"
+      ],
+      "body_plain": "Hi Tom!\nGoogling\n\ndejong.R martingale transmission rate\n\npointed me to the pdf-file:\nhttp://www.stat.uni-muenchen.de/~hoehle/pubs/r0moment.pdf. Browsing\nMichael H?hle's web page: http://www.stat.uni-muenchen.de/~hoehle I\nfound the 'dejong.R' file on his \"Statistical Software page\":\n\nhttp://www.stat.uni-muenchen.de/~hoehle/software/epi/DeJong.zip\n\nHTH\n/Johan\n\n\n\n\nTom Willems skrev:\n> good afternoon R-ussers,\n> \n> I am looking for means to calculate the transmission rate of a virus.\n> Reading trough many articles, i found the martingale methode to be the \n> most commen ussed.\n> An article even points me to the exisrence of an R file, that handles \n> these estimations.\n> It would be the file named :  <  dejong.R  >.\n> Now since i could not find this file i hoped it would be implemented in \n> the Epi library,\n> Yet I did not find anything on calculating Transmission Rates (R0) or \n> infection rates.\n> Can someone pleas point me to where the dejong.R file may be found, or a \n> file handeling this estimations?\n> \n> thank you very much,\n> Tom.\n> \n> \n> Disclaimer: click here\n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n-- \n  O    |>  Johan Lindb?ck,  Biostatistician\n /\\    |   Uppsala Clinical Research Center\n | \\_.     SE-751 85  UPPSALA\n~~~~~~~~~~ <http://www.ucr.uu.se> ----------",
+      "body_snippet": "Hi Tom!\nGoogling\n\ndejong.R martingale transmission rate\n\npointed me to the pdf-file:\nhttp://www.stat.uni-muenchen.de/~hoehle/pubs/r0moment.pdf. Browsing\nMichael H?hle's web page: http://www.stat.uni-m",
+      "thread_id": "thread-c36cfab963e5",
+      "thread_depth": 1,
+      "month": "2007-09"
+    },
+    {
+      "id": "msg-54b1a6efdb45",
+      "message_id": "<604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>",
+      "from_name": "Patricia Geli",
+      "from_email_hash": "1bfdad8f2710bac0e8b6c2993b21775a60d7109b88520afaec8d45fdd4b2e989",
+      "date": "2007-09-27T14:42:21+02:00",
+      "subject": "[R-sig-Epi] How to calculate the nth derivative of a function",
+      "subject_clean": "How to calculate the nth derivative of a function",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070927/81fe61d3/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070927/81fe61d3/attachment.pl",
+      "thread_id": "thread-54b1a6efdb45",
+      "thread_depth": 0,
+      "month": "2007-09"
+    },
+    {
+      "id": "msg-921493370a9e",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC8083504C03D39@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2007-09-27T18:10:58+02:00",
+      "subject": "[R-sig-Epi] How to calculate the nth derivative of a function",
+      "subject_clean": "How to calculate the nth derivative of a function",
+      "in_reply_to": "<604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>",
+      "references": [],
+      "body_plain": "Are you referring to numerical derivatives?\nBest,\nBendix Carstensen\n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\n+45 44 43 73 13 (fax)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc \n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Patricia Geli\n> Sent: Thursday, September 27, 2007 2:42 PM\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] How to calculate the nth derivative of a function\n> \n> Hi,\n> \n> I have a short question regarding derivatives of functions in \n> R. The problem is that I need the nth derivative of the \n> function, where n is around 100, and the packages I have \n> managed to find which deals with derivatives in R will only \n> take the first derivative of the function. Repeating these \n> methods a 100 times won't solve the problem either, since the \n> first derivative of a numerical function gives me a scalar as \n> output. Does anyone know how to solve this problem? I'm \n> grateful for any advice!\n> \n> Patricia\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "Are you referring to numerical derivatives?\nBest,\nBendix Carstensen\n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\n",
+      "thread_id": "thread-54b1a6efdb45",
+      "thread_depth": 1,
+      "month": "2007-09"
+    },
+    {
+      "id": "msg-862cf2740a7b",
+      "message_id": "<07E228A5BE53C24CAD490193A7381BBBC38D66@LP-EXCHVS07.CO.IHC.COM>",
+      "from_name": "Greg Snow",
+      "from_email_hash": "e432b243d0660ee238e83f8aa2714b750d4574c97597be8ee6eb021bf26ebc5c",
+      "date": "2007-09-27T11:19:20-06:00",
+      "subject": "[R-sig-Epi] How to calculate the nth derivative of a function",
+      "subject_clean": "How to calculate the nth derivative of a function",
+      "in_reply_to": "<604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>",
+      "references": [
+        "<604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>"
+      ],
+      "body_plain": "You may want to look at the Ryacas package.  This uses and outside\ntoolset to do the work, but in this case I think that is the better\napproach.\n\n-- \nGregory (Greg) L. Snow Ph.D.\nStatistical Data Center\nIntermountain Healthcare\ngreg.snow at intermountainmail.org\n(801) 408-8111\n \n \n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Patricia Geli\n> Sent: Thursday, September 27, 2007 6:42 AM\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] How to calculate the nth derivative of a function\n> \n> Hi,\n> \n> I have a short question regarding derivatives of functions in \n> R. The problem is that I need the nth derivative of the \n> function, where n is around 100, and the packages I have \n> managed to find which deals with derivatives in R will only \n> take the first derivative of the function. Repeating these \n> methods a 100 times won't solve the problem either, since the \n> first derivative of a numerical function gives me a scalar as \n> output. Does anyone know how to solve this problem? I'm \n> grateful for any advice!\n> \n> Patricia\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "You may want to look at the Ryacas package.  This uses and outside\ntoolset to do the work, but in this case I think that is the better\napproach.\n\n-- \nGregory (Greg) L. Snow Ph.D.\nStatistical Data Cent",
+      "thread_id": "thread-54b1a6efdb45",
+      "thread_depth": 1,
+      "month": "2007-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7325e4e62726",
+      "subject": "lognormal distribution STD.error",
+      "message_count": 1,
+      "participants": [
+        "Alejandro  García Rodríguez"
+      ],
+      "started": "2007-09-04T16:46:52-05:00",
+      "last_reply": "2007-09-04T16:46:52-05:00",
+      "root_message_id": "msg-7325e4e62726"
+    },
+    {
+      "id": "thread-c36cfab963e5",
+      "subject": "Q: Transmission rate by martingale methode (dejong.R)",
+      "message_count": 2,
+      "participants": [
+        "Johan Lindbäck",
+        "Tom Willems"
+      ],
+      "started": "2007-09-25T14:51:23+02:00",
+      "last_reply": "2007-09-27T08:31:53+02:00",
+      "root_message_id": "msg-c36cfab963e5"
+    },
+    {
+      "id": "thread-cfdb03dd153b",
+      "subject": "R-sig-Epi Digest, Vol 17, Issue 2",
+      "message_count": 1,
+      "participants": [
+        "Neil Shephard"
+      ],
+      "started": "2007-09-26T11:23:29+01:00",
+      "last_reply": "2007-09-26T11:23:29+01:00",
+      "root_message_id": "msg-cfdb03dd153b"
+    },
+    {
+      "id": "thread-babca5a026b5",
+      "subject": "About parametric survival analysis",
+      "message_count": 1,
+      "participants": [
+        "Martina Gandini"
+      ],
+      "started": "2007-09-26T15:20:06+02:00",
+      "last_reply": "2007-09-26T15:20:06+02:00",
+      "root_message_id": "msg-babca5a026b5"
+    },
+    {
+      "id": "thread-54b1a6efdb45",
+      "subject": "How to calculate the nth derivative of a function",
+      "message_count": 3,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Greg Snow",
+        "Patricia Geli"
+      ],
+      "started": "2007-09-27T14:42:21+02:00",
+      "last_reply": "2007-09-27T11:19:20-06:00",
+      "root_message_id": "msg-54b1a6efdb45"
+    }
+  ]
+}

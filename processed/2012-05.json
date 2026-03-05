@@ -1,0 +1,84 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2012-05",
+  "messages": [
+    {
+      "id": "msg-3d004ff97482",
+      "message_id": "<2732C804E2DBB04AA90A678D76FAF2CC0465B00CD1@DFW1MBX02.mex07a.mlsrvr.com>",
+      "from_name": "Lisa Solomon",
+      "from_email_hash": "375f0ace505fbda9906f09938aec4d544cea2804675c7fc389f42f5ebed96592",
+      "date": "2012-05-02T15:23:41-05:00",
+      "subject": "[R-sig-Epi] Epidemiology/Biostat at Analytics & Data Mining Conference in San Diego, California, May 23-25",
+      "subject_clean": "Epidemiology/Biostat at Analytics & Data Mining Conference in San Diego, California, May 23-25",
+      "in_reply_to": "<2732C804E2DBB04AA90A678D76FAF2CC0465B00CCF@DFW1MBX02.mex07a.mlsrvr.com>",
+      "references": [
+        "<2732C804E2DBB04AA90A678D76FAF2CC0465B00CCF@DFW1MBX02.mex07a.mlsrvr.com>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120502/835b3fd3/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120502/835b3fd3/attachment.pl>",
+      "thread_id": "thread-3d004ff97482",
+      "thread_depth": 0,
+      "month": "2012-05"
+    },
+    {
+      "id": "msg-389f83601ae0",
+      "message_id": "<CAFfGvyKZX0fEWiytK-Wfh52YmE7Pu_fMtt9uRCjf3f7K37wZAg@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2012-05-03T14:58:17-03:00",
+      "subject": "[R-sig-Epi] Gwet's AC1 Interrater reliability",
+      "subject_clean": "Gwet's AC1 Interrater reliability",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120503/7c03297b/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120503/7c03297b/attachment.pl>",
+      "thread_id": "thread-389f83601ae0",
+      "thread_depth": 0,
+      "month": "2012-05"
+    },
+    {
+      "id": "msg-9f4d7e7b2b2a",
+      "message_id": "<20120504115857.3b09c08a@epigpbn01.ad-hugtip.local>",
+      "from_name": "Griera",
+      "from_email_hash": "46ddaf20e50a78ed092c7cf1771883abf91989f49c2c0d7035755c352543fb6a",
+      "date": "2012-05-04T11:58:57+02:00",
+      "subject": "[R-sig-Epi] Gwet's AC1 Interrater reliability",
+      "subject_clean": "Gwet's AC1 Interrater reliability",
+      "in_reply_to": "<CAFfGvyKZX0fEWiytK-Wfh52YmE7Pu_fMtt9uRCjf3f7K37wZAg@mail.gmail.com>",
+      "references": [
+        "<CAFfGvyKZX0fEWiytK-Wfh52YmE7Pu_fMtt9uRCjf3f7K37wZAg@mail.gmail.com>"
+      ],
+      "body_plain": "On Thu, 3 May 2012 14:58:17 -0300\nPedro Emmanuel Alvarenga Americano do Brasil <emmanuel.brasil at gmail.com> wrote:\n\n> R friends,\n> \n> with some help of a friend and the original author I turn available this\n> function which is helping me in some analysis. Perhaps it may be useful to\n> others... :-)\n\nThanks a lot!!! Very useful!!\n\n> \n>  1.\n> Gwet KL. Computing inter-rater reliability and its variance in the presence\n> of high agreement. Br J Math Stat Psychol. 2008 ;61(Pt 1):29?48.\n> \n> # AC1 statistic for 2 raters special case\n> # table = k x k table which represents table(rater1,rater2), must have\n> equal number of rows and columns\n> # N = population size which will be stick in standard error correction,\n> N=Inf is no correction.\n> # conflev = Confidence Level associated with the confidence interval (0.95\n> is the default value)\n> \n> AC1 <- function(table,conflev=0.95,N=Inf,print=TRUE){\n>   if(dim(table)[1] != dim(table)[2]){\n>   stop('The table should have the same number of rows and columns!')\n>   }\n>   n <- sum(table)\n>   f <- n/N\n>   pa <- sum(diag(table))/n # formula 18\n>   q <- ncol(table) # number of categories\n>   pkk <- diag(table)/n\n>   pak <- sapply(1:q,function(i)sum(table[i,]))/n\n>   pbk <- sapply(1:q,function(i)sum(table[,i]))/n\n>   pik <- (pak + pbk)/2\n>   pegama <- (sum(pik*(1-pik)))/(q-1)\n>   gama <- (pa - pegama)/(1 - pegama) # AC1 statistics\n>   # 2 raters special case variance\n>   pkl <- table/n\n>   soma <- 0;\n>   for(k in 1:q){\n> for(l in 1:q){\n> soma <- soma + (pkl[k,l]*((1-(pik[k]+pik[l])/2)^2))\n>  }\n>   }\n>   vgama <- ((1-f)/(n*(1-pegama)^2)) * (pa*(1-pa) -\n> 4*(1-gama)*((1/(q-1))*sum(pkk*(1-pik)) - pa*pegama) + 4*((1-gama)^2) *\n> ((1/((q-1)^2))*soma - pegama^2))\n>   epgama <- sqrt(vgama)# AC1 standard error\n>   lcb <- max(0,gama - epgama*qnorm(1-(1-conflev)/2,0,1)) # lower confidence\n> bound\n>   ucb <- min(1,gama + epgama*qnorm(1-(1-conflev)/2,0,1)) # upper confidence\n> bound\n>   if(print==TRUE){\n>     cat('Raw agreement:',pa,'Chance-independent agreement:',pegama,'\\n')\n>     cat('Agreement coeficient (AC1):',gama,'AC1 standard\n> error:',epgama,'\\n')\n>     cat(conflev*100,'% Confidence Interval (AC1): (',lcb,',',ucb,')\\n')\n>   }\n>   invisible(c(pa,pegama,gama,epgama,lcb,ucb))\n> }\n> \n> # table3 <- matrix(c(118,2,5,0),nrow=2,ncol=2)\n> # AC1(table3)\n> # x <- AC1(table3,print=F)\n> # print(x)\n> \n> Regards,\n> \n> Dr. Pedro Emmanuel A. A. do Brasil\n> Curriculum Lattes:  http://lattes.cnpq.br/6597654894290806\n> Instituto de Pesquisa Cl?nica Evandro Chagas\n> Funda??o Oswaldo Cruz\n> Rio de Janeiro - Brasil\n> Av. Brasil 4365,\n> CEP 21040-360,\n> Tel 55 21 3865-9648\n> email: pedro.brasil at ipec.fiocruz.br\n> email: emmanuel.brasil at gmail.com\n> \n> ---Apoio aos softwares livres\n> www.zotero.org - gerenciamento de refer?ncias bibliogr?ficas.\n> www.broffice.org ou www.libreoffice.org - textos, planilhas ou\n> apresenta??es.\n> www.epidata.dk - entrada de dados.\n> www.r-project.org - an?lise de dados.\n> www.ubuntu.com - sistema operacional\n> \n> \t[[alternative HTML version deleted]]\n>",
+      "body_snippet": "On Thu, 3 May 2012 14:58:17 -0300\nPedro Emmanuel Alvarenga Americano do Brasil <emmanuel.brasil at gmail.com> wrote:\n\n> R friends,\n> \n> with some help of a friend and the original author I turn availa",
+      "thread_id": "thread-389f83601ae0",
+      "thread_depth": 1,
+      "month": "2012-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-3d004ff97482",
+      "subject": "Epidemiology/Biostat at Analytics & Data Mining Conference in San Diego, California, May 23-25",
+      "message_count": 1,
+      "participants": [
+        "Lisa Solomon"
+      ],
+      "started": "2012-05-02T15:23:41-05:00",
+      "last_reply": "2012-05-02T15:23:41-05:00",
+      "root_message_id": "msg-3d004ff97482"
+    },
+    {
+      "id": "thread-389f83601ae0",
+      "subject": "Gwet's AC1 Interrater reliability",
+      "message_count": 2,
+      "participants": [
+        "Griera",
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2012-05-03T14:58:17-03:00",
+      "last_reply": "2012-05-04T11:58:57+02:00",
+      "root_message_id": "msg-389f83601ae0"
+    }
+  ]
+}

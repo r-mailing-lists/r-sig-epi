@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2007-02",
+  "messages": [
+    {
+      "id": "msg-7bfe90c2354a",
+      "message_id": "<833839.87360.qm@web58109.mail.re3.yahoo.com>",
+      "from_name": "Abdus Sattar",
+      "from_email_hash": "8298b2a14cebe82e6e94d100488f94bdab925930220e23bdfe11255d908527ad",
+      "date": "2007-02-01T22:19:13-08:00",
+      "subject": "[R-sig-Epi] Fitting Weighted Estimating Equations",
+      "subject_clean": "Fitting Weighted Estimating Equations",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070201/c30dc2d1/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070201/c30dc2d1/attachment.pl",
+      "thread_id": "thread-7bfe90c2354a",
+      "thread_depth": 0,
+      "month": "2007-02"
+    },
+    {
+      "id": "msg-8b588c30b100",
+      "message_id": "<7.0.0.16.2.20070203100905.0480c1a0@centroin.com.br>",
+      "from_name": "Bernardo Rangel tura",
+      "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
+      "date": "2007-02-03T10:09:11-02:00",
+      "subject": "[R-sig-Epi] Fitting Weighted Estimating Equations",
+      "subject_clean": "Fitting Weighted Estimating Equations",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "At 04:19 AM 2/2/2007, you wrote:\n>Content-Disposition: inline\n>Content-Type: text/plain\n>Content-length: 1125\n>\n>Hello Everybody:\n>\n>I am searching for an R package for fitting Generalized Estimating \n>Equations (GEE) with weights (i.e. Weighted Estimating Equations). \n> From the R documentation I found \"geese(geepack)\" for fitting \n>Generalized Estimating Equations. In this documentation, under the \n>paragraph \"weights\" it has been written, \"an optional vector of \n>weights to be used in the fitting process. The length of weights \n>should be the same as the number of observations. This weights is \n>not (yet) the weight as in sas proc genmod, and hence is not \n>recommended to use.\" Now my question is, is there any other package \n>you know that might allow me to fit GEE with weight option and the \n>results would be same as SAS PROC GENMOD with weights? Any help \n>would be sincerely appreciated.\n>\n>Thank you very much.\n>\n>Sincerely,\n>\n>Abdus Sattar\n>University of Pittsburgh\n>Email: mas196 at pitt.edu\n\n\nHi Abdus\n\nYou need use geeglm in pacake: geepack\n\n\n\n\nBernardo Rangel Tura, MD,PhD\nNational Institute of Cardiology\nRio de Janeiro Brazil",
+      "body_snippet": "At 04:19 AM 2/2/2007, you wrote:\n>Content-Disposition: inline\n>Content-Type: text/plain\n>Content-length: 1125\n>\n>Hello Everybody:\n>\n>I am searching for an R package for fitting Generalized Estimating ",
+      "thread_id": "thread-8b588c30b100",
+      "thread_depth": 0,
+      "month": "2007-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7bfe90c2354a",
+      "subject": "Fitting Weighted Estimating Equations",
+      "message_count": 1,
+      "participants": [
+        "Abdus Sattar"
+      ],
+      "started": "2007-02-01T22:19:13-08:00",
+      "last_reply": "2007-02-01T22:19:13-08:00",
+      "root_message_id": "msg-7bfe90c2354a"
+    },
+    {
+      "id": "thread-8b588c30b100",
+      "subject": "Fitting Weighted Estimating Equations",
+      "message_count": 1,
+      "participants": [
+        "Bernardo Rangel tura"
+      ],
+      "started": "2007-02-03T10:09:11-02:00",
+      "last_reply": "2007-02-03T10:09:11-02:00",
+      "root_message_id": "msg-8b588c30b100"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2011-01",
+  "messages": [
+    {
+      "id": "msg-0e3fc40d432e",
+      "message_id": "<AANLkTik-=jrZRaRFyhMcuMXTBOk2Z9h99SPUUq4znp-+@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2011-01-08T00:55:04-02:00",
+      "subject": "[R-sig-Epi] Risk Ratio tables",
+      "subject_clean": "Risk Ratio tables",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110108/570df1d2/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110108/570df1d2/attachment.pl>",
+      "thread_id": "thread-0e3fc40d432e",
+      "thread_depth": 0,
+      "month": "2011-01"
+    },
+    {
+      "id": "msg-b54c6a4c6016",
+      "message_id": "<62886.188.223.124.210.1295266967.squirrel@wwws.choisyclub.org>",
+      "from_name": "raphaëlle métras",
+      "from_email_hash": "b0da4843cb7d34988847f529248bb49e34c6fefb55ad2cefc87e2655d247b6dd",
+      "date": "2011-01-17T13:22:47+01:00",
+      "subject": "[R-sig-Epi] cox model with time-dependent covariates",
+      "subject_clean": "cox model with time-dependent covariates",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nI am planning to run a cox model with time-dependent covariates. I would\nlike to use the 'fold' function (Fox, 2002:\nhttp://cran.r-project.org/doc/contrib/Fox-Companion/appendix-cox-regression.pdf)\nto create the dataset, with one observation per subject & time-window, and\nthen  use the 'coxph' function of the survival package to run the model.\n\nHowever, I had a couple of questions, and I can't find the answer on the\ninternet:\n\n1. In the document writtent by Fox, the new dataset created for the\npurpose of the time-dependent covariates model (Rossi.2) numbers the\nobservations 1.1, 1.2, 1.3, 1.4, 1.5, etc. which corresponds to the\nmeasurements in the different time-windows for subject 1. My question is\nthe following: if I run a cox model on such a dataset, is the model\naccounting for the fact that 1.1, 1.2, 1.3, ... belongs to the same\nsubject?\n\n2. I will have a big dataset, i.e. 40,000 subjects and 36 time-windows,\ni.e. 1,440,000 lines, and about 20 covariates. I was wondering if I should\nexpect some big troubles to run my analysis, or can the software handle so\nmany rows?\n\nMany thanks for your help and your time,\n\nRegards,\n\nRaphaelle",
+      "body_snippet": "Dear all,\n\nI am planning to run a cox model with time-dependent covariates. I would\nlike to use the 'fold' function (Fox, 2002:\nhttp://cran.r-project.org/doc/contrib/Fox-Companion/appendix-cox-regress",
+      "thread_id": "thread-b54c6a4c6016",
+      "thread_depth": 0,
+      "month": "2011-01"
+    },
+    {
+      "id": "msg-99287f111de2",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B696DA9A@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2011-01-17T14:19:31+01:00",
+      "subject": "[R-sig-Epi] cox model with time-dependent covariates",
+      "subject_clean": "cox model with time-dependent covariates",
+      "in_reply_to": "<62886.188.223.124.210.1295266967.squirrel@wwws.choisyclub.org>",
+      "references": [
+        "<62886.188.223.124.210.1295266967.squirrel@wwws.choisyclub.org>"
+      ],
+      "body_plain": "You do not necessarily have to have one observation per time-window if you use a Cox mode, you just need a new record every time the time-dependent variable changes.\n\nYou would presumably get a better feel for you data and an easier access to the analyses if you used the Lexis facilities in the Epi package.\nTwo papers have recently appeared in Journal of Statistical Software \nhttp://www.jstatsoft.org/, describing this:\n\nLexis: An R Class for Epidemiological Studies with Long-Term Follow-Up\nVol. 38, Issue 5, Jan 2011\nAuthors: Martyn Plummer, Bendix Carstensen\n\nUsing Lexis Objects for Multi-State Models in R\nVol. 38, Issue 6, Jan 2011\nAuthors: Bendix Carstensen, Martyn Plummer\n \nBest regrads,\nBendix Carstensen\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at r-project.org \n> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of rapha?lle m?tras\n> Sent: 17. januar 2011 13:23\n> To: r-sig-epi at r-project.org\n> Subject: [R-sig-Epi] cox model with time-dependent covariates\n> \n> Dear all,\n> \n> I am planning to run a cox model with time-dependent \n> covariates. I would like to use the 'fold' function (Fox, 2002:\n> http://cran.r-project.org/doc/contrib/Fox-Companion/appendix-c\nox-regression.pdf)\n> to create the dataset, with one observation per subject & \n> time-window, and then  use the 'coxph' function of the \n> survival package to run the model.\n> \n> However, I had a couple of questions, and I can't find the \n> answer on the\n> internet:\n> \n> 1. In the document writtent by Fox, the new dataset created \n> for the purpose of the time-dependent covariates model \n> (Rossi.2) numbers the observations 1.1, 1.2, 1.3, 1.4, 1.5, \n> etc. which corresponds to the measurements in the different \n> time-windows for subject 1. My question is the following: if \n> I run a cox model on such a dataset, is the model accounting \n> for the fact that 1.1, 1.2, 1.3, ... belongs to the same subject?\n> \n> 2. I will have a big dataset, i.e. 40,000 subjects and 36 \n> time-windows, i.e. 1,440,000 lines, and about 20 covariates. \n> I was wondering if I should expect some big troubles to run \n> my analysis, or can the software handle so many rows?\n> \n> Many thanks for your help and your time,\n> \n> Regards,\n> \n> Raphaelle\n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "You do not necessarily have to have one observation per time-window if you use a Cox mode, you just need a new record every time the time-dependent variable changes.\n\nYou would presumably get a better",
+      "thread_id": "thread-b54c6a4c6016",
+      "thread_depth": 1,
+      "month": "2011-01"
+    },
+    {
+      "id": "msg-173bffeefbc3",
+      "message_id": "<4D3ECC88.5060401@ngs.ru>",
+      "from_name": "Екатерина Кудрявцева",
+      "from_email_hash": "44aa69bf5dbce6e77f541465bb7fc6d255875a6f3dce23c696b178138c8f0468",
+      "date": "2011-01-25T19:13:44+06:00",
+      "subject": "[R-sig-Epi] LD between diallelic and multiallelic loci",
+      "subject_clean": "LD between diallelic and multiallelic loci",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110125/86be4a90/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110125/86be4a90/attachment.pl>",
+      "thread_id": "thread-173bffeefbc3",
+      "thread_depth": 0,
+      "month": "2011-01"
+    },
+    {
+      "id": "msg-8afc341fde05",
+      "message_id": "<AANLkTim77omxm_64-vDnyOzUAB_+cYpt5+EHN5w1zDjg@mail.gmail.com>",
+      "from_name": "Neil Shephard",
+      "from_email_hash": "d313f9320200c56c058a6b0222ff357fccb1e4d431e34b4a4f0426413f67c6ad",
+      "date": "2011-01-26T11:33:24Z",
+      "subject": "[R-sig-Epi] LD between diallelic and multiallelic loci",
+      "subject_clean": "LD between diallelic and multiallelic loci",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "On Wed, Jan 26, 2011  ?<kudryavtseva_kathrin at ngs.ru> wrote:\n> To: r-sig-epi at r-project.org\n> Subject: [R-sig-Epi] LD between diallelic and multiallelic loci\n> Message-ID: <4D3ECC88.5060401 at ngs.ru>\n> Content-Type: text/plain\n>\n> Dear all,\n>\n> I am planning to analyse linkage between two loci( first - diallelic,\n> second - multiallelic (HLA-DRB1)). What function should i use?\n> Usually I use LD(data) function but it doesn't work if number of locus'\n> alleles more then 2.\n\nI don't know which package the LD() function comes from, but you could\ntry some of the packages listed at\nhttp://cran.r-project.org/web/views/Genetics.html\n\nNeil\n\n-- \n?Truth in science can be defined as the working hypothesis best suited\nto open the way to the next better one.? - Konrad Lorenz\n\nEmail - nshephard at gmail.com\nWebsite - http://kimura.no-ip.org/\nPhotos - http://www.flickr.com/photos/slackline/",
+      "body_snippet": "On Wed, Jan 26, 2011  ?<kudryavtseva_kathrin at ngs.ru> wrote:\n> To: r-sig-epi at r-project.org\n> Subject: [R-sig-Epi] LD between diallelic and multiallelic loci\n> Message-ID: <4D3ECC88.5060401 at ngs",
+      "thread_id": "thread-8afc341fde05",
+      "thread_depth": 0,
+      "month": "2011-01"
+    },
+    {
+      "id": "msg-cfc05a774dd8",
+      "message_id": "<1112e4e.5b30.12dca5d5360.Coremail.zzkpumc@163.com>",
+      "from_name": "Ethan Chang",
+      "from_email_hash": "60b451db641475b5356477c191d15c6901a20b5d1b83917e19c5183338a59265",
+      "date": "2011-01-28T10:04:29+08:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 49, Issue 4",
+      "subject_clean": "R-sig-Epi Digest, Vol 49, Issue 4",
+      "in_reply_to": "<mailman.5.1296126002.16993.r-sig-epi@r-project.org>",
+      "references": [
+        "<mailman.5.1296126002.16993.r-sig-epi@r-project.org>"
+      ],
+      "body_plain": "I think the package in Genetics would be the best choice for your project, but not the Epi.\nAnd Bioconductor' packages could also be a better candidate. \n\n\n\n\nAt 2011-01-27 19:00:02?r-sig-epi-request at r-project.org wrote:\n\n>Send R-sig-Epi mailing list submissions to\n>\tr-sig-epi at r-project.org\n>\n>To subscribe or unsubscribe via the World Wide Web, visit\n>\thttps://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>or, via email, send a message with subject or body 'help' to\n>\tr-sig-epi-request at r-project.org\n>\n>You can reach the person managing the list at\n>\tr-sig-epi-owner at r-project.org\n>\n>When replying, please edit your Subject line so it is more specific\n>than \"Re: Contents of R-sig-Epi digest...\"\n>\n>\n>Today's Topics:\n>\n>   1. Re: LD between diallelic and multiallelic loci (Neil Shephard)\n>\n>\n>----------------------------------------------------------------------\n>\n>Message: 1\n>Date: Wed, 26 Jan 2011 11:33:24 +0000\n>From: Neil Shephard <nshephard at gmail.com>\n>To: r-sig-epi at r-project.org\n>Subject: Re: [R-sig-Epi] LD between diallelic and multiallelic loci\n>Message-ID:\n>\t<AANLkTim77omxm_64-vDnyOzUAB_+cYpt5+EHN5w1zDjg at mail.gmail.com>\n>Content-Type: text/plain; charset=windows-1252\n>\n>On Wed, Jan 26, 2011  ?<kudryavtseva_kathrin at ngs.ru> wrote:\n>> To: r-sig-epi at r-project.org\n>> Subject: [R-sig-Epi] LD between diallelic and multiallelic loci\n>> Message-ID: <4D3ECC88.5060401 at ngs.ru>\n>> Content-Type: text/plain\n>>\n>> Dear all,\n>>\n>> I am planning to analyse linkage between two loci( first - diallelic,\n>> second - multiallelic (HLA-DRB1)). What function should i use?\n>> Usually I use LD(data) function but it doesn't work if number of locus'\n>> alleles more then 2.\n>\n>I don't know which package the LD() function comes from, but you could\n>try some of the packages listed at\n>http://cran.r-project.org/web/views/Genetics.html\n>\n>Neil\n>\n>-- \n>?Truth in science can be defined as the working hypothesis best suited\n>to open the way to the next better one.? - Konrad Lorenz\n>\n>Email - nshephard at gmail.com\n>Website - http://kimura.no-ip.org/\n>Photos - http://www.flickr.com/photos/slackline/\n>\n>\n>\n>------------------------------\n>\n>_______________________________________________\n>R-sig-Epi mailing list\n>R-sig-Epi at r-project.org\n>https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n>\n>End of R-sig-Epi Digest, Vol 49, Issue 4\n>****************************************\n\n\n\n\n????????\nzzkpumc at 163.com\n???????????\n???????52??063000\n0315-2726308\n13832873800\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110128/39ca42c7/attachment.html>\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: ??.vcf\nType: text/x-vcard\nSize: 259 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110128/39ca42c7/attachment.vcf>",
+      "body_snippet": "I think the package in Genetics would be the best choice for your project, but not the Epi.\nAnd Bioconductor' packages could also be a better candidate. \n\n\n\n\nAt 2011-01-27 19:00:02?r-sig-epi-request a",
+      "thread_id": "thread-cfc05a774dd8",
+      "thread_depth": 0,
+      "month": "2011-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0e3fc40d432e",
+      "subject": "Risk Ratio tables",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2011-01-08T00:55:04-02:00",
+      "last_reply": "2011-01-08T00:55:04-02:00",
+      "root_message_id": "msg-0e3fc40d432e"
+    },
+    {
+      "id": "thread-b54c6a4c6016",
+      "subject": "cox model with time-dependent covariates",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "raphaëlle métras"
+      ],
+      "started": "2011-01-17T13:22:47+01:00",
+      "last_reply": "2011-01-17T14:19:31+01:00",
+      "root_message_id": "msg-b54c6a4c6016"
+    },
+    {
+      "id": "thread-173bffeefbc3",
+      "subject": "LD between diallelic and multiallelic loci",
+      "message_count": 1,
+      "participants": [
+        "Екатерина Кудрявцева"
+      ],
+      "started": "2011-01-25T19:13:44+06:00",
+      "last_reply": "2011-01-25T19:13:44+06:00",
+      "root_message_id": "msg-173bffeefbc3"
+    },
+    {
+      "id": "thread-8afc341fde05",
+      "subject": "LD between diallelic and multiallelic loci",
+      "message_count": 1,
+      "participants": [
+        "Neil Shephard"
+      ],
+      "started": "2011-01-26T11:33:24+00:00",
+      "last_reply": "2011-01-26T11:33:24+00:00",
+      "root_message_id": "msg-8afc341fde05"
+    },
+    {
+      "id": "thread-cfc05a774dd8",
+      "subject": "R-sig-Epi Digest, Vol 49, Issue 4",
+      "message_count": 1,
+      "participants": [
+        "Ethan Chang"
+      ],
+      "started": "2011-01-28T10:04:29+08:00",
+      "last_reply": "2011-01-28T10:04:29+08:00",
+      "root_message_id": "msg-cfc05a774dd8"
+    }
+  ]
+}

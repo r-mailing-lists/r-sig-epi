@@ -1,0 +1,82 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2014-07",
+  "messages": [
+    {
+      "id": "msg-06ae47b1e0e8",
+      "message_id": "<1404469907.84106.YahooMailNeo@web161302.mail.bf1.yahoo.com>",
+      "from_name": "sugi jey",
+      "from_email_hash": "1ce4fd2e5b2315da4a4ea0f37fb27aedf2d9b2aac502e748b93f3a848b68b63b",
+      "date": "2014-07-04T03:31:47-07:00",
+      "subject": "[R-sig-Epi] block randomization",
+      "subject_clean": "block randomization",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140704/a6f874b2/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140704/a6f874b2/attachment.pl>",
+      "thread_id": "thread-06ae47b1e0e8",
+      "thread_depth": 0,
+      "month": "2014-07"
+    },
+    {
+      "id": "msg-88f0bb3d0fee",
+      "message_id": "<CAAOCNNYOQBXJBPJq4ENaf45pSEErm8X5ZTjpRkLmnOrBHbGDvg@mail.gmail.com>",
+      "from_name": "Gustaf Rydevik",
+      "from_email_hash": "807cf12599d2ac5f2143cf137873bee94f6e204231c8372fa2a653a64d8fccfe",
+      "date": "2014-07-24T16:29:14+01:00",
+      "subject": "[R-sig-Epi] APC models with covariates",
+      "subject_clean": "APC models with covariates",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nIs it possible to use the Epi package to fit APC models with\nadditional covariates? I've used other approaches, but really enjoy\nthe convenience functions for visualisation in Epi, and so it would be\ngreat if it was possible to stay in the same package.\n\nBest regards,\nGustaf\n\n-- \nGustaf Rydevik, M.Sci.\ntel: +44(0)74 253 760 42\naddress:25/6 Brunswick Road, EH7 5GY Edinburgh\nskype:gustaf_rydevik",
+      "body_snippet": "Dear all,\n\nIs it possible to use the Epi package to fit APC models with\nadditional covariates? I've used other approaches, but really enjoy\nthe convenience functions for visualisation in Epi, and so i",
+      "thread_id": "thread-88f0bb3d0fee",
+      "thread_depth": 0,
+      "month": "2014-07"
+    },
+    {
+      "id": "msg-1d579d10c2ce",
+      "message_id": "<D48624DDDF1E874FBD20BC5C1FE08FA41E43E208@NNEXMRDK005.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2014-07-24T17:25:47Z",
+      "subject": "[R-sig-Epi] APC models with covariates",
+      "subject_clean": "APC models with covariates",
+      "in_reply_to": "<CAAOCNNYOQBXJBPJq4ENaf45pSEErm8X5ZTjpRkLmnOrBHbGDvg@mail.gmail.com>",
+      "references": [
+        "<CAAOCNNYOQBXJBPJq4ENaf45pSEErm8X5ZTjpRkLmnOrBHbGDvg@mail.gmail.com>"
+      ],
+      "body_plain": "Unfortunately this is not implemented in the apc.fit function.\n\nThe whole machinery relies on a projection of the columns of model matrix:\n\nSuppose you have natural spline effects for A, P and C=P-A, all of length N, say, and you want to center around the reference cohort c0:\n\nmA <- Ns(  A,knots=a.kn)\nmP <- Ns(P  ,knots=p.kn)\nmC <- Ns(P-A,knots=c.kn)\nmr <- Ns(rep(c0,N),knots=c.kn)\n\nThe you would fit\n\nMod <-\nglm( D ~ ma + detrend( mP, P ),\n            + detrend( mC-mr, P-A )\n            + I(P-A-c0)\n            + <covariates>,\n     offset=log(Y), family=Poisson )\n\nthe \"detrend\" function (also from the Epi package) projects the columns of say mP on the orthogonal compliment to (1,P). You can supply you own inner product for the projection if you wish.\n\nThe effects of the two de-trended terms will be 0 on average with 0 average slope. But the detrend() is data dependent, so extracting the effects must be done using the original matrix:\n\nP.pt <- sort(unique(P))\ncP <- detrend(mP,P)[match(P.pt,P),]\nP.eff <- ci.exp( Mod, subset=\"mP\", ctr.mat=cP )\nmatplot( P.pt, P.eff, <etc> )\n\nA bit of wrangling...\nI would not know how to implement this fort of thing, but if someone writes the help-page for what you need, I'd happily write the code to do it.\nBut it must a specification of the function call AND of the output structures.\n\nAll the best,\nBendix\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at r-project.org [mailto:r-sig-epi-bounces at r-\n> project.org] On Behalf Of Gustaf Rydevik\n> Sent: 24. juli 2014 17:29\n> To: r-sig-epi at r-project.org\n> Subject: [R-sig-Epi] APC models with covariates\n> \n> Dear all,\n> \n> Is it possible to use the Epi package to fit APC models with additional\n> covariates? I've used other approaches, but really enjoy the convenience\n> functions for visualisation in Epi, and so it would be great if it was\n> possible to stay in the same package.\n> \n> Best regards,\n> Gustaf\n> \n> --\n> Gustaf Rydevik, M.Sci.\n> tel: +44(0)74 253 760 42\n> address:25/6 Brunswick Road, EH7 5GY Edinburgh skype:gustaf_rydevik\n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi",
+      "body_snippet": "Unfortunately this is not implemented in the apc.fit function.\n\nThe whole machinery relies on a projection of the columns of model matrix:\n\nSuppose you have natural spline effects for A, P and C=P-A, ",
+      "thread_id": "thread-88f0bb3d0fee",
+      "thread_depth": 1,
+      "month": "2014-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-06ae47b1e0e8",
+      "subject": "block randomization",
+      "message_count": 1,
+      "participants": [
+        "sugi jey"
+      ],
+      "started": "2014-07-04T03:31:47-07:00",
+      "last_reply": "2014-07-04T03:31:47-07:00",
+      "root_message_id": "msg-06ae47b1e0e8"
+    },
+    {
+      "id": "thread-88f0bb3d0fee",
+      "subject": "APC models with covariates",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Gustaf Rydevik"
+      ],
+      "started": "2014-07-24T16:29:14+01:00",
+      "last_reply": "2014-07-24T17:25:47+00:00",
+      "root_message_id": "msg-88f0bb3d0fee"
+    }
+  ]
+}

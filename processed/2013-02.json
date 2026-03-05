@@ -1,0 +1,171 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2013-02",
+  "messages": [
+    {
+      "id": "msg-4606f2348293",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3306399BDBD4@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2013-02-08T09:31:09+01:00",
+      "subject": "[R-sig-Epi] Epi 1.1.44",
+      "subject_clean": "Epi 1.1.44",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The Epi package have just been updated to 1.1.44, and is now on CRAN,\nhttp://cran.r-project.org/web/packages/Epi/index.html\n\n- a bug in ROC have been fixed. Now the AUC is computed correctly.\n- the functionality of boxes.Lexis have been\n- errors in computing residuals in one of the models in apc.fit now fixed\n\nAnd a number of other smaller updates.\n\nBest regards,\nBendix\nPackage maintainer, Epi\nhttp://BendixCarstensen.com/Epi\n______________________________________________\n\nBendix Carstensen \nSenior Statistician\nEpidemiology\nSteno Diabetes Center A/S\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk    \nhttp://BendixCarstensen.com\nwww.steno.dk",
+      "body_snippet": "The Epi package have just been updated to 1.1.44, and is now on CRAN,\nhttp://cran.r-project.org/web/packages/Epi/index.html\n\n- a bug in ROC have been fixed. Now the AUC is computed correctly.\n- the fu",
+      "thread_id": "thread-4606f2348293",
+      "thread_depth": 0,
+      "month": "2013-02"
+    },
+    {
+      "id": "msg-e351c6ad8785",
+      "message_id": "<E8597164-1DAB-4D22-8A84-BCEB70B88BEC@ed.ac.uk>",
+      "from_name": "SPRINT",
+      "from_email_hash": "2d5d599a20bb736f1cc38972fffd8124909a0c55e3a8787c663a209afc001bf6",
+      "date": "2013-02-18T14:22:20Z",
+      "subject": "[R-sig-Epi] High performance commuting and R analyses - request for help",
+      "subject_clean": "High performance commuting and R analyses - request for help",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear List Member,\nFirstly, apologies if you've received this request via multiple lists, this is just a brief announcement and request for help re. R and High Performance Computing.\n\nOver the past 3 years, the open-source SPRINT project has focussed on the parallelisation of R functions used by biostatisticians and other data analysts. \n\nOn the basis of feedback from the biostatistical community in 2010, the SPRINT team at the University of Edinburgh developed 7 parallelised functions of generic utility in the analysis of large data matrices. \n\nMore information can be found here: www.r-sprint.org .\n\nThe latest version of SPRINT (v1.0.4) is now available from CRAN and includes, for the first time, the ability to run the software on Apple OS X. SPRINT has always been scalable from desktop to cluster to HPC facility, however, it can now take advantage of multi-core hardware in both Linux and OS X environments.\n\nSPRINT v1.0.4 software and documentation is available here:\nhttp://cran.r-project.org/web/packages/sprint/index.html\n\nA request for help?\n\nThe SPRINT team would like to revise and refresh our understanding of  the needs and requirements of the R community for High Performance computing. To achieve this, we've written a brief questionnaire (no more than 15 mins) which we hope will allow us to capture needs and prioritise SPRINT development over the next 18 months.\n\nIt would be incredibly helpful if you could take a few moments to complete this questionnaire and tell us more about your R/HPC usage and/ or problems you may have with large and demanding data analyses.\n\nThe questionnaire can be found at the link below and will be open until 4th March. \n\nAfter the questionnaire has closed, we'll analyse the data, make the results available (most likely via r-sprint.org) and prioritise our development of new functionality for SPRINT.\n\nhttps://www.survey.ed.ac.uk/2013_sprint/\n\nThanks very much in advance for your help with our requirements analysis! Apologies again if you receive a similar request from us via mailing lists etc. to which you subscribe.\n\nIf you have any queries regarding the use of SPRINT (including installation), please feel free to contact us at: sprint at ed.ac.uk\n\nAll the best,\n\nKevin Robertson\n\n------------------------------------------------\nSPRINT - A parallel framework for R\nsprint at ed.ac.uk\nwww.r-sprint.org\n\n\n\n-- \nThe University of Edinburgh is a charitable body, registered in\nScotland, with registration number SC005336.",
+      "body_snippet": "Dear List Member,\nFirstly, apologies if you've received this request via multiple lists, this is just a brief announcement and request for help re. R and High Performance Computing.\n\nOver the past 3 y",
+      "thread_id": "thread-e351c6ad8785",
+      "thread_depth": 0,
+      "month": "2013-02"
+    },
+    {
+      "id": "msg-15cded38fdc5",
+      "message_id": "<1361533659.32051.18.camel@braque.iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bcc3467147417e7930b92295d6b6e1e40d825ba4817d5fd5066dc9d092f633fb",
+      "date": "2013-02-22T12:47:39+01:00",
+      "subject": "[R-sig-Epi] Course: Statistical Practice in Epidemiology Using R",
+      "subject_clean": "Course: Statistical Practice in Epidemiology Using R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Course in:\nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R  \n\nIARC, Lyon, Fance, Thursday 23 to Wednesday 29 May 2013.\n\nhttp://BendixCarstensen.com/SPE \n\nThe course is intended for epidemiologists and statisticians who wish\nto use R (www.r-project.org) for statistical modelling and analysis of\nepidemiological data. The aim of the course is to give participants\naccess to a set of tools in current use by statisticians in\nepidemiology. The course requires fairly good understanding of\nstatistical principles and some familiarity with epidemiological\nconcepts and study types.\n\nThe course will be mainly practically oriented with more than half the\ntime at the computer.\n\nContents:\n\n* History of R. Language. Objects. Functions.\n* Interface to other data formats. Data frames.\n* Tabulation of data.\n* Logistic regression for case-control-studies.\n* Poisson regression for follow-up studies.\n* Causal inference.\n* Parametrization of models.\n* Graphics in R.\n* Graphical reporting of results.\n* Time-splitting & Standardized Mortality Ratios.\n* Survival analysis and competing risks.\n* Multi-state models.\n* Nested and matched case-control studies.\n* Case-cohort studies.\n\nVenue: IARC, Lyon, France\n\nPrice: 600 EUR\n\nThe course is a self-supporting entity, and there are NO grants or\nstipends available for travel or participation. \n\nDeadline for application: 1st April 2013.\n\nInformation to applicants will be given by e-mail shortly after the\ndeadline.\n\nFurther information and application form at:\nhttp://BendixCarstensen.com/SPE\n\n\n-----------------------------------------------------------------------\nThis message and its attachments are strictly confidenti...{{dropped:8}}",
+      "body_snippet": "Course in:\nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R  \n\nIARC, Lyon, Fance, Thursday 23 to Wednesday 29 May 2013.\n\nhttp://BendixCarstensen.com/SPE \n\nThe course is intended for epidemiologists and st",
+      "thread_id": "thread-15cded38fdc5",
+      "thread_depth": 0,
+      "month": "2013-02"
+    },
+    {
+      "id": "msg-388d059d4535",
+      "message_id": "<DUB109-W1615579540BDE5C78E98E181F30@phx.gbl>",
+      "from_name": "dimitris m",
+      "from_email_hash": "3dabdadeeba5f3285cdc340b7ed8a1de91e2224321dceebc182f08d1e4818b40",
+      "date": "2013-02-25T17:52:21+02:00",
+      "subject": "[R-sig-Epi] (no subject)",
+      "subject_clean": "(no subject)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130225/2c9fc66b/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130225/2c9fc66b/attachment.pl>",
+      "thread_id": "thread-388d059d4535",
+      "thread_depth": 0,
+      "month": "2013-02"
+    },
+    {
+      "id": "msg-e74c5dd44b47",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC330663ACA716@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2013-02-25T21:13:00+01:00",
+      "subject": "[R-sig-Epi] splitLexis",
+      "subject_clean": "splitLexis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi Dimitis,\nYou have a typo in the definition of the cohR Lexis object:\n\nIt should be   \"age = doz-dob\" ,  that is doz instead of doe.\nNo need to call the timescale \"age1\" either, it just produces trouble when putting the tables together for analysis.\nI assume that doz is the date of screening.\n\nA more serious concern is however the setup with 5-year time bands,\nYou should use smaller time bands now you have the possibility. In studies where you (at least pre-1970) were limited by population statistics to 5-year bands you were restricted to the assumption that breast cancer incidence was the same for women aged 45.5 and 49.5 years. And dramatically different for those aged 50.5.\n\nUse instead 1-year time bands and assign each cell in the table the average age / date of follow-up, and analyze rates with some smooth function of these. When you actually have individual data you should exploit it.\n\nYou can of course replace \"1 year\" in the above by \"3 months\" (or even \"17 days\"); even if you have ages 30-95 and a 35 year period you are still only looking at 36400 cells, quite handy for analysis.\n\nSo use breaks=seq(35,95,1/4) instead.\n\nHere is a full account of such analyses underlying a paper in Diabetologia on cancer among diabetes patients:\nhttp://bendixcarstensen.com/DMCa/Diabetologia/Analyses.pdf\n(Data here are actually in 1-year Lexis triangles).\np. 70 is an example of the type of model used.\nThe paper and other stuff is in the same folder.\n\nb.r.\nBendix\n______________________________________________\n\nBendix Carstensen \nSenior Statistician\nEpidemiology\nSteno Diabetes Center A/S\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk    \nhttp://BendixCarstensen.com \nwww.steno.dk\n\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at r-project.org [mailto:r-sig-epi-bounces at r-\n> project.org] On Behalf Of dimitris m\n> Sent: 25. februar 2013 16:52\n> To: r-sig-epi at r-project.org\n> Subject: [R-sig-Epi] (no subject)\n> \n> Hello to all,\n> \n> I have a problem using the Epi package and I would like your help.\n> \n> my data set looks like this:\n> \n> id           date of born          date of entry         date of first\n> screen         date of exit\n> \n> the date of entry is fixed for all obs to be a specific date. Now, I want\n> to calculate person years of no screening, thus date first screen-date of\n> entry and person years of screening therefore, date of exit-date of first\n> screen.\n> \n> I have created two lexis objects, one for the non-screening period\n> calculating the age at entry (date of entry-date of birth) , and years of\n> no screening and one for the screening period calculating again the same\n> age and person years of screening.\n> \n> Then I want to create an age/time matrix with person years, so I split the\n> lexis object first on age and then on calendar year with splitLexis\n> function.\n> Finally, I tabulate in a matrix and all seems fine for the person years\n> for the non exposed period.\n> \n> However, for the screening period I got a warning message saying that I\n> have multiple time bands when I am trying to tabulate into the final\n> matrix.\n> \n> this is how my algorithm looks like\n> \n> \n> \n> ########################################\n> ####calculation of no-screening years###\n> ########################################\n> \n> \n> library(foreign)\n> \n> data1<-read.dta(\"T:\\\\person_no_screening_years.dta\")\n> \n> attach(data1)\n> names(data1)\n> \n> bbb<-data.frame(data1)\n> \n> # Convert the character dates into numerical variables (fractional years)#\n> library(Epi)\n> dobt <- cal.yr( bbb$date_born, format=\"%d/%m/%Y\" ) doet <- cal.yr(\n> bbb$date_entry, format=\"%d/%m/%Y\" ) doxt <- cal.yr( bbb$min_scr_date ,\n> format=\"%d/%m/%Y\" )\n> \n> \n> \n> # Set up the dataset as a Lexis object # # with age and calendar time as\n> time-scales #\n> \n> cohh <- Lexis( entry = list( per=doet,\n>                              age=doet-dobt ),\n>                 exit = list( per=doxt  ),\n>                      exit.status = cases,\n>                          data = bbb )\n> \n> # Split time along one time-axis #\n> La1  <-splitLexis( cohh, \"aget\",\n> breaks=c(30,35,40,45,50,55,60,65,70,75,80,85,90,95))\n> # Split time along the calendar time-axes #\n> Lap1 <-splitLexis( La1  , \"per\",\n> breaks=c(1975,1980,1985,1990,1995,2000,2005,2010))\n> \n> # Tabulate events and person-years #\n> PYtab2 <-\n> with( Lap1, xtabs( cbind( C=lex.Xst, Y=lex.dur ) ~\n>                   timeBand(Lap1,\"aget\",\"left\") +\n>                   timeBand(Lap1,\"per\",\"left\") ) )\n> names(dimnames(PYtab2)) <- c(\"\",\"Period\",\"Aget\") T<-round(ftable( PYtab2,\n> row.vars=c(3,1) )) T\n> \n> \n> \n> write.table(T,\"T:\\\\Years_no_screening.txt\")\n> #################################################################\n> #################################################################\n> \n> \n> ######################################\n> ####calculation of screening years####\n> ######################################\n> \n> \n> library(foreign)\n> \n> data2<-read.dta(\"T:\\\\person_screening_years_new.dta\")\n> \n> attach(data2)\n> names(data2)\n> \n> vvvv<-data.frame(data2)\n> \n> # Convert the character dates into numerical variables (fractional years)#\n> library(Epi)\n> dob <- cal.yr( vvvv$date_born, format=\"%d/%m/%Y\" ) doe <- cal.yr(\n> vvvv$date_entry, format=\"%d/%m/%Y\" ) dox <- cal.yr( vvvv$date_exit ,\n> format=\"%d/%m/%Y\" ) doz <- cal.yr( vvvv$min_scr_date, format=\"%d/%m/%Y\" )\n> \n> \n> # Set up the dataset as a Lexis object # # with age and calendar time as\n> time-scales #\n> \n> cohR <- Lexis( entry = list( per=doz,\n>                              age1=doe-dob ),\n>                 exit = list( per=dox ),\n>                      exit.status = cases,\n>                          data = vvvv )\n> \n> # Split time along one time-axis #\n> LaR  <-splitLexis( cohR, \"age1\",\n> breaks=c(30,35,40,45,50,55,60,65,70,75,80,85,90,95) )\n> \n> \n> # Split time along the calendar time-axes # LapR <-splitLexis( LaR  ,\n> \"per\", breaks=c(1975,1980,1985,1990,1995,2000,2005,2010))\n> \n> \n> \n> # Tabulate events and person-years #\n> PYtab3R <-\n> with( LapR, xtabs( cbind( C=lex.Xst, Y=lex.dur ) ~\n>                   timeBand(LapR,\"age1\",\"left\") +\n>                   timeBand(LapR,\"per\",\"left\") ) )\n> names(dimnames(PYtab3R)) <- c(\"\",\"Period\",\"Age\") FR<-round(ftable(\n> PYtab3R, row.vars=c(3,1) )) FR\n> \n> \n> \n> write.table(FR,\"T:\\\\Years_screening.txt\")\n> \n> tapply( status(LapR,\"exit\")==1, list( timeBand(LapR,\"age1\",\"left\"),\n>                                     timeBand(LapR,\"per\",\"left\") ), sum )\n> tapply( dur(LapR),  list( timeBand(LapR,\"age1\",\"left\"),\n>                         timeBand(LapR,\"per\",\"left\") ), sum )\n> \n> \n> \n> Could you please help me with that???\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi",
+      "body_snippet": "Hi Dimitis,\nYou have a typo in the definition of the cohR Lexis object:\n\nIt should be   \"age = doz-dob\" ,  that is doz instead of doe.\nNo need to call the timescale \"age1\" either, it just produces tro",
+      "thread_id": "thread-e74c5dd44b47",
+      "thread_depth": 0,
+      "month": "2013-02"
+    },
+    {
+      "id": "msg-6300e8f16337",
+      "message_id": "<57407184.13111.1361914181022.JavaMail.help@alum.mit.edu>",
+      "from_name": "Lisa Solomon",
+      "from_email_hash": "3b5f37573428031d0b37829ae63f3922f3346b89aa579ecc548938a78e7dc55b",
+      "date": "2013-02-26T16:29:41-05:00",
+      "subject": "[R-sig-Epi] Reminder: New Webinar Series, The Evolution of Regression From Classical Linear Regression to Modern Ensembles (Hands-on Component)",
+      "subject_clean": "Reminder: New Webinar Series, The Evolution of Regression From Classical Linear Regression to Modern Ensembles (Hands-on Component)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Begins Friday (no charge)\nThe Evolution of Regression: An Upcoming Webinar Series\n(Hands-on Component)\n\nRegistration: http://bit.ly/salford-systems-regression-webinar-series\n\nRegression is one of the most popular modeling methods, but the classical approach has significant problems. This webinar series address these problems. Are you are working with larger datasets? Is your data challenging? Does your data include missing values, nonlinear relationships, local patterns and interactions? This webinar series is for you! We will cover improvements to conventional and logistic regression, and will include a discussion of classical, regularized, and nonlinear regression, as well as modern ensemble and data mining approaches. This series will be of value to any classically trained statistician or modeler.\n\nOvercoming Linear Regression Limitations\n\nPart 1: March 1 - Regression methods discussed\n? Classical Regression\n? Logistic Regression\n? Regularized Regression: GPS Generalized Path Seeker\n? Nonlinear Regression: MARS Regression Splines\n\nPart 2: March 15 - Hands-on demonstration of concepts discussed in Part 1\n? Step-by-step demonstration\n? Datasets and software available for download\n? Instructions for reproducing demo at your leisure\n? For the dedicated student: apply these methods to your own data (optional)\n\nPart 3: March 29 - Regression methods discussed\n*Part 1 is a recommended pre-requisite\n? Nonlinear Ensemble Approaches: TreeNet Gradient Boosting; Random Forests; Gradient Boosting incorporating RF\n? Ensemble Post-Processing: ISLE; RuleLearner\n\nPart 4: April 12 - Hands-on demonstration of concepts discussed in Part 3\n? Step-by-step demonstration\n? Datasets and software available for download\n? Instructions for reproducing demo at your leisure\n? For the dedicated student: apply these methods to your own data (optional)",
+      "body_snippet": "Begins Friday (no charge)\nThe Evolution of Regression: An Upcoming Webinar Series\n(Hands-on Component)\n\nRegistration: http://bit.ly/salford-systems-regression-webinar-series\n\nRegression is one of the ",
+      "thread_id": "thread-6300e8f16337",
+      "thread_depth": 0,
+      "month": "2013-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-4606f2348293",
+      "subject": "Epi 1.1.44",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2013-02-08T09:31:09+01:00",
+      "last_reply": "2013-02-08T09:31:09+01:00",
+      "root_message_id": "msg-4606f2348293"
+    },
+    {
+      "id": "thread-e351c6ad8785",
+      "subject": "High performance commuting and R analyses - request for help",
+      "message_count": 1,
+      "participants": [
+        "SPRINT"
+      ],
+      "started": "2013-02-18T14:22:20+00:00",
+      "last_reply": "2013-02-18T14:22:20+00:00",
+      "root_message_id": "msg-e351c6ad8785"
+    },
+    {
+      "id": "thread-15cded38fdc5",
+      "subject": "Course: Statistical Practice in Epidemiology Using R",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2013-02-22T12:47:39+01:00",
+      "last_reply": "2013-02-22T12:47:39+01:00",
+      "root_message_id": "msg-15cded38fdc5"
+    },
+    {
+      "id": "thread-388d059d4535",
+      "subject": "(no subject)",
+      "message_count": 1,
+      "participants": [
+        "dimitris m"
+      ],
+      "started": "2013-02-25T17:52:21+02:00",
+      "last_reply": "2013-02-25T17:52:21+02:00",
+      "root_message_id": "msg-388d059d4535"
+    },
+    {
+      "id": "thread-e74c5dd44b47",
+      "subject": "splitLexis",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2013-02-25T21:13:00+01:00",
+      "last_reply": "2013-02-25T21:13:00+01:00",
+      "root_message_id": "msg-e74c5dd44b47"
+    },
+    {
+      "id": "thread-6300e8f16337",
+      "subject": "Reminder: New Webinar Series, The Evolution of Regression From Classical Linear Regression to Modern Ensembles (Hands-on Component)",
+      "message_count": 1,
+      "participants": [
+        "Lisa Solomon"
+      ],
+      "started": "2013-02-26T16:29:41-05:00",
+      "last_reply": "2013-02-26T16:29:41-05:00",
+      "root_message_id": "msg-6300e8f16337"
+    }
+  ]
+}

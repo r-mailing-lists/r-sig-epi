@@ -1,0 +1,136 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2025-02",
+  "messages": [
+    {
+      "id": "msg-f0dfca3775a9",
+      "message_id": "<aNGI_qGLQeaBfueh8Z450Q@geopod-ismtpd-1>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-02-03T01:20:00Z",
+      "subject": "[R-sig-Epi] Online Course: Using ChatGPT for Advanced Data Analysis 4.0",
+      "subject_clean": "Online Course: Using ChatGPT for Advanced Data Analysis 4.0",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is pleased to be offering the 3-day seminar Using ChatGPT for Advanced Data Analysis 4.0, running twice: February 10 - 12 (for Europe/Asia time zones) <https://instats.org/seminar/using-chatgpt-for-advanced-data-analysis13> and running February 24 - 26 (for the Americas) <https://instats.org/seminar/using-chatgpt-for-advanced-data-analysis13-1>. Led by Professor Peter Gruber, this seminar provides an excellent opportunity to explore how ChatGPT can be leveraged as a powerful tool for advanced data analysis, requiring only plain language statements rather than writing code or using a specific statistical software package. Ideal for academics and professional researchers, this seminar equips participants with practical techniques to enhance their analytical workflows using AI. Participants will delve into key topics such as automating data preparation, generating insights from complex datasets, and integrating ChatGPT into existing analysis pipelines. With a focus on hands-on applications, the seminar ensures attendees gain the skills needed to effectively use ChatGPT for cutting-edge data analysis tasks -- all without ever having to purchase statistical software or learn a new programming language.\n\nSign up today to secure your spot for the February 10 - 12 (for Europe/Asia time zones) <https://instats.org/seminar/using-chatgpt-for-advanced-data-analysis13> seminar or the February 24 - 26 (for the Americas) <https://instats.org/seminar/using-chatgpt-for-advanced-data-analysis13-1> seminar, and please feel free to share this opportunity with colleagues and students who might benefit.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is pleased to be offering the 3-day seminar Using ChatGPT for Advanced Data Analysis 4.0, running twice: February 10 - 12 (for Europe/Asia time zones) <https://instats.org/seminar",
+      "thread_id": "thread-f0dfca3775a9",
+      "thread_depth": 0,
+      "month": "2025-02"
+    },
+    {
+      "id": "msg-ad1a801d4365",
+      "message_id": "<66RngJYHRp2IFoeAsjLmTA@geopod-ismtpd-11>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-02-06T03:50:00Z",
+      "subject": "[R-sig-Epi] Online Course: Longitudinal Social Network Analysis",
+      "subject_clean": "Online Course: Longitudinal Social Network Analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance to register for the 3-day seminar by professor Tom Snijders on Longitudinal Social Network Analysis <https://instats.org/seminar/1732809540961x971352386278611700?accessoff=true>, running Feb 18 - 20. This three-day event by one of the world's leading social networks methodologists provides an introductory overview of longitudinal social network analysis using the RSiena package for R, focusing on the application of the Stochastic Actor-Oriented Model (SAOM) to study network dynamics and the co-evolution of networks and behavior. Participants will gain practical skills in modeling network panel data, as well as modeling the co-evolution of networks and behavior, for application of these techniques across various academic disciplines.\n\nSign up today <https://instats.org/seminar/1732809540961x971352386278611700?accessoff=true> to secure your spot, and please feel free to tell your colleagues and students about this unique opportunity!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance to register for the 3-day seminar by professor Tom Snijders on Longitudinal Social Network Analysis <https://instats.org/seminar/1732809540961x971352386278611700?accessoff=tru",
+      "thread_id": "thread-ad1a801d4365",
+      "thread_depth": 0,
+      "month": "2025-02"
+    },
+    {
+      "id": "msg-f76226f80847",
+      "message_id": "<gaBkVUWwRGu3RqEm6sSqQg@geopod-ismtpd-9>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-02-18T05:50:00Z",
+      "subject": "[R-sig-Epi] Online course: Machine Learning and AI for Researchers",
+      "subject_clean": "Online course: Machine Learning and AI for Researchers",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer two new seminars on machine learning and AI for researchers: Machine Learning and AI for Researchers in R <https://instats.org/seminar/machine-learning-and-ai-for-researchers-6> with Dr Giovanni Cerulli, running February 20?21, and Machine Learning and AI in Python <https://instats.org/seminar/machine-learning-in-practice-hands-on-w2> with Dr Kimberly Fessel, running February 27?28. These seminars provide comprehensive, hands-on training in state-of-the-art machine learning algorithms and AI applications using two of the most popular programming environments. Designed for academics, researchers, and professionals, the sessions combine theoretical insights with practical exercises to help you harness the power of data science in your research?whether you work in R or Python. The seminars are crucial for ecologists and others in the life sciences and natural sciences who are increasingly expected to understand and use machine learning and AI tools that allow valid prediction and explainability of results.\n\nSign up for both today <https://instats.org/structuredcourse/machine-learning-and-ai-for-researchers-2> and get an automatic 10% discount on these excellent seminars, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer two new seminars on machine learning and AI for researchers: Machine Learning and AI for Researchers in R <https://instats.org/seminar/machine-learning-and-ai-",
+      "thread_id": "thread-f76226f80847",
+      "thread_depth": 0,
+      "month": "2025-02"
+    },
+    {
+      "id": "msg-93f12f9bff23",
+      "message_id": "<deZirUHcROWdToIi6mFOLg@geopod-ismtpd-0>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2025-02-20T11:50:00Z",
+      "subject": "[R-sig-Epi] Statistical Methods for Adaptive Treatment - Livestream Seminar",
+      "subject_clean": "Statistical Methods for Adaptive Treatment - Livestream Seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance to register for the new seminar on Statistical Methods for Adaptive Treatment Strategies <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> using R, running on February 24. Led by Professor Erica Moodie, President of the Statistical Society of Canada, this seminar provides an excellent opportunity to learn cutting-edge statistical methods for designing and analyzing adaptive treatment strategies, which are increasingly used in personalized medicine and dynamic decision-making. Participants will explore key topics such as dynamic treatment regimes, sequential multiple assignment randomized trials (SMART), and statistical modeling techniques tailored for adaptive interventions - applicable in both human and animal populations. With a focus on practical applications, the seminar equips attendees with the tools needed to implement these methods in their research or clinical practice.\n\nSign up today <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> to secure your spot and please feel free to share this opportunity with colleagues and students who might benefit.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance to register for the new seminar on Statistical Methods for Adaptive Treatment Strategies <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> using R, runnin",
+      "thread_id": "thread-93f12f9bff23",
+      "thread_depth": 0,
+      "month": "2025-02"
+    },
+    {
+      "id": "msg-981933c1c9b0",
+      "message_id": "<F894E647-BB6D-4F6E-B4B1-3F26329AB3C1@sympatico.ca>",
+      "from_name": "François-Xavier H",
+      "from_email_hash": "3e3dac8045c96b379b7825b6ce6d9b7f9b97af6a84ee1740ee8f13a2fa1dda10",
+      "date": "2025-02-20T11:54:10-05:00",
+      "subject": "[R-sig-Epi]  Statistical Methods for Adaptive Treatment - Livestream Seminar",
+      "subject_clean": "Statistical Methods for Adaptive Treatment - Livestream Seminar",
+      "in_reply_to": "<deZirUHcROWdToIi6mFOLg@geopod-ismtpd-0>",
+      "references": [
+        "<deZirUHcROWdToIi6mFOLg@geopod-ismtpd-0>"
+      ],
+      "body_plain": "Hello,\n\nI would like to unsubscribe from this newsletter.\n\n> Le 20 f?vr. 2025 ? 06:50, Michael Zyphur via R-sig-Epi <r-sig-epi at r-project.org> a ?crit :\n> \n> ?Hi everyone\n> \n> Last chance to register for the new seminar on Statistical Methods for Adaptive Treatment Strategies <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> using R, running on February 24. Led by Professor Erica Moodie, President of the Statistical Society of Canada, this seminar provides an excellent opportunity to learn cutting-edge statistical methods for designing and analyzing adaptive treatment strategies, which are increasingly used in personalized medicine and dynamic decision-making. Participants will explore key topics such as dynamic treatment regimes, sequential multiple assignment randomized trials (SMART), and statistical modeling techniques tailored for adaptive interventions - applicable in both human and animal populations. With a focus on practical applications, the seminar equips attendees with the tools needed to implement these methods in their research or clinical practice.\n> \n> Sign up today <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> to secure your spot and please feel free to share this opportunity with colleagues and students who might benefit.\n> \n> \n> Best wishes\n> \n> Michael Zyphur\n> Director\n> Institute for Statistical and Data Science\n> instats.org <http://instats.org>\n> \n> Follow Instats: Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n>    [[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi",
+      "body_snippet": "Hello,\n\nI would like to unsubscribe from this newsletter.\n\n> Le 20 f?vr. 2025 ? 06:50, Michael Zyphur via R-sig-Epi <r-sig-epi at r-project.org> a ?crit :\n> \n> ?Hi everyone\n> \n> Last chance to registe",
+      "thread_id": "thread-93f12f9bff23",
+      "thread_depth": 1,
+      "month": "2025-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f0dfca3775a9",
+      "subject": "Online Course: Using ChatGPT for Advanced Data Analysis 4.0",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-02-03T01:20:00+00:00",
+      "last_reply": "2025-02-03T01:20:00+00:00",
+      "root_message_id": "msg-f0dfca3775a9"
+    },
+    {
+      "id": "thread-ad1a801d4365",
+      "subject": "Online Course: Longitudinal Social Network Analysis",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-02-06T03:50:00+00:00",
+      "last_reply": "2025-02-06T03:50:00+00:00",
+      "root_message_id": "msg-ad1a801d4365"
+    },
+    {
+      "id": "thread-f76226f80847",
+      "subject": "Online course: Machine Learning and AI for Researchers",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-02-18T05:50:00+00:00",
+      "last_reply": "2025-02-18T05:50:00+00:00",
+      "root_message_id": "msg-f76226f80847"
+    },
+    {
+      "id": "thread-93f12f9bff23",
+      "subject": "Statistical Methods for Adaptive Treatment - Livestream Seminar",
+      "message_count": 2,
+      "participants": [
+        "François-Xavier H",
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2025-02-20T11:50:00+00:00",
+      "last_reply": "2025-02-20T11:54:10-05:00",
+      "root_message_id": "msg-93f12f9bff23"
+    }
+  ]
+}

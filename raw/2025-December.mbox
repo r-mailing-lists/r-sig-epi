@@ -1,0 +1,458 @@
+From mzyphur @end|ng |rom |n@t@t@@org  Tue Dec  2 12:20:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Tue, 02 Dec 2025 11:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Fine-Tuning LLMs for Text Analysis - livestream seminar
+Message-ID: <sb5DBMOeQyeU56YtvxrvYg@geopod-ismtpd-25>
+
+Hi everyone
+
+Instats is excited to offer a 1-day seminar, Fine-Tuning LLMs for Text Analysis <https://instats.org/seminar/fine-tuning-llms-for-text-analysis>, livestreaming December 16 and led by Dr. Seraphine Maerz from the University of Melbourne. As large language models become indispensable across social science, health, and policy research, this workshop teaches you to adapt general-purpose transformers to domain-specific corpora, dramatically improving classification, entity extraction, sentiment, and topic analyses while reducing annotation costs. Blending concise theory with step-by-step Jupyter/Colab notebooks in both Python and R, you?ll master data preparation, evaluation metrics, LoRA and classification-head techniques, and know when fine-tuning or prompt engineering is the best methodological choice. Designed for those with no prior coding experience, the day concludes with you taking home fully reproducible pipelines, rigorous decision rules, and the confidence to deploy LLMs responsibly in your own projects. Register for the companion AI-Powered Qualitative Analysis in R <https://instats.org/seminar/ai-powered-qualitative-analysis-in-r> running December 12 and receive a 10% discount on both seminars.
+
+Sign up today <https://instats.org//seminar/fine-tuning-llms-for-text-analysis> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Wed Dec  3 17:01:40 2025
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Wed, 3 Dec 2025 16:01:40 +0000
+Subject: [R-sig-Epi] =?utf-8?q?Advanced_Bayesian_Modelling_with_R-INLA_?=
+	=?utf-8?q?=E2=80=94_5_Days_Intensive?=
+Message-ID: <CAEsSYzxnX+MTRs3xx10Ex6u2jJVKXf5+vKqP-=uui41zqyDmiw@mail.gmail.com>
+
+Advanced Bayesian Modelling with R-INLA ? 5 Days Intensive
+
+*Bayesian Modelling using R-INLA (BMIN03)* is a comprehensive, live-online
+course that equips you with the theory and practical skills to build, fit,
+and interpret Bayesian models using the power of the R-INLA package.
+Perfect for applied researchers, analysts, and data scientists working in
+R, this five-day course covers everything from foundational Bayesian
+inference to advanced latent-effect modelling.
+What You Will Learn
+
+   -
+
+   Core principles of *Bayesian inference* and how the INLA methodology
+   compares with classical MCMC-based approaches.
+   -
+
+   How to *fit generalized and mixed models in R-INLA*, including linear,
+   generalized, multilevel, time-series, and spatial models.
+   -
+
+   How to *define custom priors and latent effects*, even those not
+   provided out-of-the-box ? giving you flexibility for complex or novel
+   modelling tasks.
+   -
+
+   How to *interpret INLA output*, extract posterior summaries, and apply
+   Bayesian modelling with confidence.
+   -
+
+   Hands-on experience working with real data and the option to explore
+   your own datasets, under guidance.
+
+Course Format & Structure
+
+   -
+
+   *Duration:* 5 days ? 7 hours per day.
+   -
+
+   *Format:* Live online sessions, recorded for later access so you can
+   learn flexibly.
+   -
+
+   *Interactive:* Each day blends lectures with practical coding exercises
+   and Q&A ? including sessions for participants to work on their own data.
+   -
+
+   *Support:* Complete course materials (slides, code, datasets), and
+   30-day post-course support for follow-up questions or problems.
+
+Who Should Attend
+
+   -
+
+   Researchers, analysts, or data scientists already using R who want to
+   expand their toolkit with Bayesian methods and latent-effect modelling.
+   -
+
+   Those familiar with statistics and data analysis (e.g., linear or mixed
+   models) but new to Bayesian inference or INLA.
+   -
+
+   Anyone needing flexible, efficient Bayesian modelling for complex data
+   structures ? including hierarchical, time-series, and spatial data.
+
+*Next course date:* 23?27 February 2026 (live online)
+*Course fee:* ?500
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Thu Dec  4 08:57:07 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Thu, 4 Dec 2025 08:57:07 +0100 (CET)
+Subject: [R-sig-Epi] INTRODUCTION TO STATISTICS IN R course
+Message-ID: <1764835027.651828112@webmail.jimdo.com>
+
+
+Dear all,
+We are pleased to announce our upcoming online course: INTRODUCTION TO STATISTICS IN R
+ 
+Dates: 19?23 January 2026
+ 
+This beginner-friendly course is designed for early-career researchers and practitioners who want to build a solid foundation in statistics while learning to work confidently in R. Through a mix of lectures and hands-on exercises, participants will learn how to import, explore, visualize, and analyze data using tidyverse tools and core statistical methods.
+Across five days, we will cover descriptive statistics, inferential testing, linear models, generalized linear models, and mixed models?always with clear explanations and practical examples. No prior experience in R, programming, or statistics is required.
+ 
+Full program and registration:  [ https://www.physalia-courses.org/courses-workshops/fmc/ ]( https://www.physalia-courses.org/courses-workshops/fmc/ ) 
+ 
+Best regards,
+Carlo
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Tue Dec  9 12:32:57 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Tue, 09 Dec 2025 11:32:57 +0000 (UTC)
+Subject: [R-sig-Epi] AI-Powered Qualitative Analysis in R - livestream
+ seminar
+Message-ID: <pq3tCegWSIGb_hBaz1x_7g@geopod-ismtpd-24>
+
+Hi everyone
+
+Last chance to sign up for the 1-day seminar on AI-Powered Qualitative Analysis in R <https://instats.org/seminar/ai-powered-qualitative-analysis-in-r>, livestreaming on December 12 and led by professors Kenneth Benoit (Singapore Management University) and Dr Seraphine Maerz (University of Melbourne). As large language models transform qualitative research, this intensive workshop demonstrates how the new R packages quallmer and ellmer let you seamlessly annotate text, images, audio, video, PDFs, and tabular data, tap proprietary or open-source LLMs, and build reproducible, publication-ready pipelines?no prior R or machine-learning expertise required. Through guided RStudio demonstrations and hands-on exercises with real datasets, participants will practise ethical prompt design, validate AI outputs against human coders, and integrate algorithmic insights into reflexive qualitative traditions, gaining a transparent alternative to black-box CAQDAS tools. All code, data, and recordings remain available for 30 days after the seminar, ensuring flexible, comprehensive learning for researchers eager to harness AI in qualitative inquiry.
+
+Sign up today <https://instats.org//seminar/ai-powered-qualitative-analysis-in-r> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Wed Dec 10 16:50:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Wed, 10 Dec 2025 15:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] Tuning LLMs for Text Analysis - livestream seminar
+Message-ID: <eE1PssIASTG_hz_U03TAHA@geopod-ismtpd-5>
+
+Hi everyone
+
+Last chance for the upcoming 1-day seminar, Tuning LLMs for Text Analysis <https://instats.org/seminar/fine-tuning-llms-for-text-analysis>, livestreaming December 16 and led by professor Seraphine Maerz from the University of Melbourne. As large language models reshape scholarship across disciplines, this workshop equips researchers to fine-tune domain-specific LLMs for classification, sentiment, entity extraction, and topic modeling with higher accuracy and lower annotation cost. Blending concise conceptual overviews with step-by-step Jupyter/Colab notebooks in both Python and R, participants will gain hands-on experience preparing data, applying parameter-efficient methods like LoRA, evaluating performance, and implementing reproducibility best practices?no prior coding expertise required. You?ll finish the day with reusable code, clear decision rules for when to fine-tune versus prompt-engineer, and the methodological confidence to extract robust insights from your texts.
+
+Sign up today <https://instats.org//seminar/fine-tuning-llms-for-text-analysis> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Thu Dec 11 15:36:33 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Thu, 11 Dec 2025 15:36:33 +0100 (CET)
+Subject: [R-sig-Epi] Species Distribution and Ecological Niche Modelling in
+ R course
+Message-ID: <1765463793.37991168@webmail.jimdo.com>
+
+
+Hi everyone,
+We?re happy to announce our upcoming online course ?Species Distribution and Ecological Niche Modelling in R? running from 19?23 January 2026.
+ 
+This course will cover the key concepts behind SDM and ENM, along with hands-on practice in R. You?ll learn how to build, evaluate, and apply models using your own species occurrence data, while also understanding common challenges and how to avoid them. All scripts will be provided, and no advanced R skills are required?just basic familiarity.
+ 
+ 
+Course website: [ https://www.physalia-courses.org/courses-workshops/course45/ ]( https://www.physalia-courses.org/courses-workshops/course45/ )
+ 
+Best wishes,
+ 
+Carlo
+ 
+ 
+ 
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Tue Dec 16 17:20:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Tue, 16 Dec 2025 16:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] =?utf-8?q?Free_Instats_events_=E2=80=93_happy_holida?=
+ =?utf-8?q?ys?=
+Message-ID: <-LXif84RTwCd1Cu0E184cQ@geopod-ismtpd-0>
+
+Hello everyone
+
+Over the holidays Instats is pleased to be offering over 80 free research training events that you can access on-demand and livestreaming. Whether it's software introductions or modern AI methods for research, there's something for everyone in the lineup of Instats research training below.
+
+We hope you and your colleagues enjoy?and happy holidays from everyone at Instats!
+
+Questionnaire Design with Surette van Staden - Livestream Jan 12 <https://instats.org/seminar/questionnaire-design-principles-and-prac>
+
+Organizational Humor with Cecily Cooper - Livestream Jan 13 <https://instats.org/seminar/organizational-humor-free-seminar>
+
+Success as an Applied Statistician with the ASA - Livestream Jan 14 <https://instats.org/seminar/success-as-an-applied-statistician>
+
+Pollution and Health with Michael Cork - On-Demand <https://instats.org/seminar/pollution-and-health-free-seminar>
+
+Good Writing Habits for Academics with Lynn Nygaard - On-Demand <https://instats.org/seminar/good-writing-habits-for-academics-free-s-1>
+
+Support Decisions with Stats and Stories with the ASA - On-Demand <https://instats.org/seminar/support-decisions-with-stats-and-stories-1>
+
+Science Writing and Storytelling with the APS - On-Demand <https://instats.org/seminar/science-writing-and-storytelling-free-se>
+
+Principles of Research Design with Bob Hanck? - On-Demand <https://instats.org/seminar/principles-of-research-design-free-semin-1>
+
+StatKey - Free Online Statistics App with Patti Frazer Lock - On-Demand <https://instats.org/seminar/statkey---free-online-statistics-app-fre-1>
+
+Communicating Statistical Information with the ASA - On-Demand <https://instats.org/seminar/communicating-statistical-information-fr-1>
+
+Design-Based vs. Model-Based Estimation with the WSS - On-Demand <https://instats.org/seminar/design-based-vs-model-based-estimation-f-1>
+
+What is GIS? with Nick Bearman - On-Demand <https://instats.org/seminar/what-is-gis-free-seminar-1>
+
+Behavioral Science of LLMs with Antonios Stamatogiannakis - On-Demand <https://instats.org/seminar/behavioral-science-of-llms-free-seminar>
+
+Seminal Ideas and Controversies in Statistics with Roderick Little - On-Demand <https://instats.org/seminar/seminal-ideas-and-controversies-in-stati-1>
+
+Leadership in Statistics with the ASA - On-Demand <https://instats.org/seminar/leadership-in-statistics-free-seminar-1>
+
+Network Structures and Hypergraphs with Moses Boudourides - On-Demand <https://instats.org/seminar/network-structures-and-hypergraphs-free-1>
+
+AI Powered Business Analytics with Copilot with Dr. Sourindra Banerjee - On-Demand <https://instats.org/seminar/ai-powered-business-analytics-with-copil-1>
+
+Developing Gene Therapies: A Statistician's Guide with Avery McIntosh - On-Demand <https://instats.org/seminar/developing-gene-therapies-a-statistician-1>
+
+Data Management and Visualization in Excel with SMCS - On-Demand <https://instats.org/seminar/data-management-and-visualization-in-exc>
+
+Finding and Changing Academic Jobs with Leonid Chindelevitch - On-Demand <https://instats.org/seminar/finding-and-changing-academic-jobs-free-1>
+
+Longitudinal Data Analysis in Biostatistics with Tuhin Sheikh - On-Demand <https://instats.org/seminar/longitudinal-data-analysis-in-biostatist-1>
+
+Introduction to EViews with Malvina Marchese - On-Demand <https://instats.org/seminar/introduction-to-eviews-free-seminar>
+
+Jungian Arts-Based Research with Susan Rowland - On-Demand <https://instats.org/seminar/jungian-arts-based-research-free-seminar-2>
+
+Disparities, Discrimination, and Data with Marina Gorzig - On-Demand <https://instats.org/seminar/disparities-discrimination-and-data-free-1>
+
+Introduction to MAXQDA with Andreas M?ller - On-Demand <https://instats.org/seminar/introduction-to-maxqda-free-seminar-1>
+
+AI Tools for Researchers with Peter Gruber - On-Demand <https://instats.org/seminar/ai-tools-for-researchers-free-seminar-1>
+
+Incorporating EDI in Research with Lawrence Mbuagbaw - On-Demand <https://instats.org/seminar/incorporating-edi-in-research-free-semin-1>
+
+How Work Sustains Racial Inequality with Adia Wingfield - On-Demand <https://instats.org/seminar/how-work-sustains-racial-inequality-free>
+
+Creative Academic Writing with Helen Kara - On-Demand <https://instats.org/seminar/creative-academic-writing-free-seminar-1>
+
+Radical Research Ethics with Helen Kara - On-Demand <https://instats.org/seminar/radical-research-ethics-free-seminar-1>
+
+Overcoming Regional Survey Nonresponse with the SSC - On-Demand <https://instats.org/seminar/overcoming-regional-survey-nonresponse-f>
+
+Creative Research Methods with Helen Kara - On-Demand <https://instats.org/seminar/creative-research-methods-free-seminar-1>
+
+Combining PLS-SEM and NCA with Nicole Franziska Richter - On-Demand <https://instats.org/seminar/combining-pls-sem-and-nca-free-seminar-1>
+
+Using Zotero for Academic Writing with Daisung Jang - On-Demand <https://instats.org/seminar/using-zotero-for-academic-writing-free-s>
+
+Multicultural Nationalism as a Hope for Depolarisation with Tariq Modood - On-Demand <https://instats.org/seminar/multicultural-nationalism-as-a-hope-for-1>
+
+Simulation-Based Inference: Bootstrapping and Randomization with Patti Frazer Lock - On-Demand <https://instats.org/seminar/simulation-based-inference-bootstrapping>
+
+Introduction to Bayesian Modelling using RStan with Justin Slater - On-Demand <https://instats.org/seminar/introduction-to-bayesian-modelling-using-1>
+
+Predictive Model Assessments and Comparisons in PLS-SEM with Academy of Marketing Science - On-Demand <https://instats.org/seminar/predictive-model-assessments-and-compari-1>
+
+Teaching Statistics via Active Investigations with Nathan Tintle - On-Demand <https://instats.org/seminar/teaching-statistics-via-active-investiga-1>
+
+Evolutionary Ecology of the Barn Owl with Alexandre Roulin - On-Demand <https://instats.org/seminar/evolutionary-ecology-of-the-barn-owl-fre>
+
+?Preparing and Exploring Data in SPSS with QCIF - On-Demand <https://instats.org/seminar/preparing-and-exploring-data-in-spss-fre-1>
+
+Publishing on Emerging Topics: Strategies for Success with Academy of Marketing Science - On-Demand <https://instats.org/seminar/publishing-on-emerging-topics-strategies-1>
+
+Getting started with R and RStudio with QCIF - On-Demand <https://instats.org/seminar/getting-started-with-r-and-rstudio-free>
+
+Educator Self-Assessment for Equity and Belonging with the SSC - On-Demand <https://instats.org/seminar/educator-self-assessment-for-equity-and-1>
+
+Introduction to Qualitative Data Analysis with MAXQDA with MAXQDA - On-Demand <https://instats.org/seminar/introduction-to-qualitative-data-analysi-1>
+
+Machine Learning Essentials with Kimberly Fessel - On-Demand <https://instats.org/seminar/machine-learning-essentials-free-semina3>
+
+Efficient Programming in R with Michail Tsagris - On-Demand <https://instats.org/seminar/efficient-programming-in-r-free-seminar3>
+
+Introduction to Social Network Analysis with Ran Xu - On-Demand <https://instats.org/seminar/introduction-to-social-network-analysis-4>
+
+Using Mplus for DSEM with Cycles with Bengt Muthen - On-Demand <https://instats.org/seminar/using-mplus-for-dsem-with-cycles-free-s>
+
+Using Mplus for Dynamic SEM with Bengt Muthen - On-Demand <https://instats.org/seminar/using-mplus-for-dynamic-sem-free-semina>
+
+Can CLPM Establish Cross-Lagged Effects? with Bengt Muthen - On-Demand <https://instats.org/seminar/can-clpm-establish-cross-lagged-effects>
+
+Using Mplus for CLPM, Part 2: Categorical Variables with Bengt Muthen - On-Demand <https://instats.org/seminar/using-mplus-for-clpm-part-2-categorica>
+
+Using Mplus for CLPM, Part 1: Continuous Variables with Bengt Muthen - On-Demand <https://instats.org/seminar/using-mplus-for-clpm-part-1-continuous>
+
+Better Longitudinal SEM: Wheaton et al. 46 Years Later with Bengt Muthen - On-Demand <https://instats.org/seminar/better-longitudinal-sem-wheaton-et-al->
+
+Using Mplus for LTA and RI-LTA with Bengt Muthen - On-Demand <https://instats.org/seminar/using-mplus-for-lta-and-ri-lta-free-sem>
+
+Multilevel and Single-Level Modeling: Insights from LTA with Bengt Muthen - On-Demand <https://instats.org/seminar/multilevel-and-single-level-modeling-in>
+
+Introduction to Git with Data Umbrella - On-Demand <https://instats.org/seminar/introduction-to-git-free-seminar3>
+
+Operations, Finance, and Stock Market Performance with Yao Zhao - On-Demand <https://instats.org/seminar/operations-finance-and-stock-market-pe3>
+
+Lessons from Nature for Peace and Cooperation with Alexandre Roulin - On-Demand <https://instats.org/seminar/lessons-from-nature-for-peace-and-cooper3>
+
+Using Polars and Narwhals in Python with Data Umbrella - On-Demand <https://instats.org/seminar/using-polars-and-narwhals-in-python-fre3>
+
+Switching from SPSS to R with Daisung Jang - On-Demand <https://instats.org/seminar/switching-from-spss-to-r-free-seminar3>
+
+Using Confidence Intervals for Visual Testing in Stata with Dave Armstrong - On-Demand <https://instats.org/seminar/using-confidence-intervals-for-visual-te5>
+
+Using Confidence Intervals for Visual Testing in R with Dave Armstrong - On-Demand <https://instats.org/seminar/using-confidence-intervals-for-visual-te4>
+
+Passion-Driven Statistics: Project Based Teaching Tools with Lisa Dierker - On-Demand <https://instats.org/seminar/passion-driven-statistics-project-based3>
+
+Game Theory and International Politics with Serdar G?ner - On-Demand <https://instats.org/seminar/game-theory-and-international-politics-3>
+
+Math & Statistics Review for Geostatistics with Ye Zhang - On-Demand <https://instats.org/seminar/math--statistics-review-for-geostatisti3>
+
+Introduction to Matlab with Ye Zhang - On-Demand <https://instats.org/seminar/introduction-to-matlab2>
+
+Introduction to Statistical Methods for Fundamental Science with Tommaso Dorigo - On-Demand <https://instats.org/seminar/introduction-to-statistical-methods-for-3>
+
+Introduction to Path Analysis, CFA, and SEM in Stata with Michael Zyphur - On-Demand <https://instats.org/seminar/introduction-to-path-analysis-cfa-and-7>
+
+Introduction to Path Analysis, CFA, and SEM in R with Michael Zyphur - On-Demand <https://instats.org/seminar/introduction-to-path-analysis-cfa-and-6>
+
+Introduction to Path Analysis, CFA, and SEM in Mplus with Michael Zyphur - On-Demand <https://instats.org/seminar/introduction-to-path-analysis-cfa-and-5>
+
+Introduction to QDA Miner with Christina Silver - On-Demand <https://instats.org/seminar/introduction-to-qda-miner-free-1-hour-s3>
+
+Introduction to Dedoose with Christina Silver - On-Demand <https://instats.org/seminar/introduction-to-dedoose-free-1-hour-sem3>
+
+Introduction to ATLAS.ti with Christina Silver - On-Demand <https://instats.org/seminar/introduction-to-atlasti-free-1-hour-se3>
+
+Introduction to MAXQDA with Christina Silver - On-Demand <https://instats.org/seminar/introduction-to-maxqda-free-1-hour-semi3>
+
+Introduction to R with RStudio with Michael Zyphur - On-Demand <https://instats.org/seminar/introduction-to-r-with-rstudio-free-1-h3>
+
+Introduction to NVivo with Christina Silver - On-Demand <https://instats.org/seminar/introduction-to-nvivo-free-1-hour-semin9686>
+
+Introduction to Mplus with Michael Zyphur - On-Demand <https://instats.org/seminar/introduction-to-mplus-free-1-hour-semin8683>
+
+Introduction to Stata with Michael Zyphur - On-Demand <https://instats.org/seminar/introduction-to-stata-free-1-hour-semin-3832>
+
+Introduction to Necessary Condition Analysis with Jan Dul - On-Demand <https://instats.org/seminar/introduction-to-necessary-condition-anal1280>
+
+Introduction to SPSS with Michael Zyphur - On-Demand <https://instats.org/seminar/introduction-to-spss-free-1-hour-semina5920>
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Wed Dec 17 12:55:47 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Wed, 17 Dec 2025 12:55:47 +0100 (CET)
+Subject: [R-sig-Epi] 
+ Developing Shiny Apps with AI course - online, 9th, 11th,
+ and 13th of February 2026
+Message-ID: <1765972547.16795784@webmail.jimdo.com>
+
+
+Dear all,
+We are excited to announce a new online course, Developing Shiny Apps with AI, taking place on the 9th, 11th, and 13th of February 2026. This course offers a unique opportunity to explore the intersection of large language models (LLMs) and interactive web application development using Shiny in R.
+ 
+ 
+Course website: [ https://www.physalia-courses.org/courses-workshops/shiny-with-ai/ ]( https://www.physalia-courses.org/courses-workshops/shiny-with-ai/ )
+ 
+ 
+Designed for biologists, data scientists, bioinformaticians, and statisticians with some R experience, the course guides participants through the fundamentals of LLMs, their practical applications, and limitations. You will gain hands-on experience developing and debugging Shiny apps enhanced by AI-driven coding agents like OpenAI?s Codex, while also becoming familiar with essential modern tools including GitHub, Visual Studio Code, and Docker.
+ 
+Throughout three sessions, you will learn to design and maintain Shiny apps, use LLMs effectively in coding workflows, and integrate best practices in software development. Whether you are new to Shiny or looking to deepen your AI-enhanced coding skills, this course provides a progressive, practical approach to elevate your programming capabilities.
+ 
+We invite you to join us online for this innovative training that combines cutting-edge AI with real-world software development.
+ 
+Best regards,
+ 
+Carlo
+ 
+ 
+ 
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+

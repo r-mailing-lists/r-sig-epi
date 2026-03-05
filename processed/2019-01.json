@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2019-01",
+  "messages": [
+    {
+      "id": "msg-fcd166356926",
+      "message_id": "<A02A3BD8AEFB9041AF4D9AE53E24F24ACE350E@MBXP13.ds.man.ac.uk>",
+      "from_name": "Katie Stocking",
+      "from_email_hash": "4ae05874fdacdfb7bc0fe8dba56b14bd9987c28a792564c66a44c6778acfe766",
+      "date": "2019-01-21T14:59:05Z",
+      "subject": "[R-sig-Epi] Registration and abstract submission is now OPEN for Statistical Analysis of Multi-outcome Data Conference (SAM 2019) in Manchester",
+      "subject_clean": "Registration and abstract submission is now OPEN for Statistical Analysis of Multi-outcome Data Conference (SAM 2019) in Manchester",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "***** With apologies for cross posting *****\n\n\n\nRegistration and abstract submission is now OPEN for the Statistical Analysis of Multi-Outcome Data Conference 2019 (SAM 2019).\n\n\n\nThe conference will take place at the University of Manchester on the 6thand 7thJune 2019, with a workshop on Mendelian Randomisation preceding the meeting on the afternoon of the 5th. Please note: places on the workshop are limited.\n\n\n\nThe meeting will cover a wide range of topics, with areas of interest including:\n\n\n\n?       Joint Modelling of Longitudinal and Time-to-Event Data\n\n\n\n?       Multivariate Longitudinal Data and Survival\n\n\n\n?       Multistate Models and Competing Risks\n\n\n\n?       Risk Prediction\n\n\n\n?       Causal Analysis\n\n\n\n?       Novel Approaches to Modelling Longitudinal / Survival Data\n\n\n\n?       Recurrent Events\n\n\n\n?      Multivariate Survival and Prediction.\n\n\n\nConfirmed speakers: Laura Bonnett (University of Liverpool), Philip Dawid (University of Cambridge), Harvey Goldstein (University of Bristol) and Fiona Steele (London School of Economics).\n\n\n\nAbstracts should be submitted to sam2019 at manchester.ac.uk<mailto:sam2019 at manchester.ac.uk<mailto:sam2019 at manchester.ac.uk%3cmailto:sam2019 at manchester.ac.uk>> by 21st March.\n\n\n\nEarly bird rates of ?230 (student) and ?250 (non-student) are available until this date.\n\n\n\nWebsite: https://sites.google.com/view/sam2019/home\n\n\n\nRegistration link: https://estore.manchester.ac.uk/conferences-and-events/school-of-mathematics/centre-for-biostatistics/statistical-analysis-of-multioutcome-data-sam-2019\n\n\n\nPlease direct any queries to SAM2019 at manchester.ac.uk<mailto:SAM2019 at manchester.ac.uk<mailto:SAM2019 at manchester.ac.uk%3cmailto:SAM2019 at manchester.ac.uk>>\n\n\n\nThanks\n\n\nKatie Stocking\nMedical Statistician\nCentre for Biostatistics\nFaculty of Biology, Medicine and Health\nThe University of Manchester\n\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "***** With apologies for cross posting *****\n\n\n\nRegistration and abstract submission is now OPEN for the Statistical Analysis of Multi-Outcome Data Conference 2019 (SAM 2019).\n\n\n\nThe conference will t",
+      "thread_id": "thread-fcd166356926",
+      "thread_depth": 0,
+      "month": "2019-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-fcd166356926",
+      "subject": "Registration and abstract submission is now OPEN for Statistical Analysis of Multi-outcome Data Conference (SAM 2019) in Manchester",
+      "message_count": 1,
+      "participants": [
+        "Katie Stocking"
+      ],
+      "started": "2019-01-21T14:59:05+00:00",
+      "last_reply": "2019-01-21T14:59:05+00:00",
+      "root_message_id": "msg-fcd166356926"
+    }
+  ]
+}

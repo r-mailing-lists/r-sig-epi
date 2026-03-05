@@ -1,0 +1,117 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2024-09",
+  "messages": [
+    {
+      "id": "msg-541f1ce1fd78",
+      "message_id": "<BcElH5kZQLSe1Yqm6kBHrw@geopod-ismtpd-9>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2024-09-04T07:21:24Z",
+      "subject": "[R-sig-Epi] Online courses: Instats Launches All-Access Subscriptions",
+      "subject_clean": "Online courses: Instats Launches All-Access Subscriptions",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240904/c54bad6b/attachment.html>",
+      "body_snippet": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240904/c54bad6b/attachment.html>",
+      "thread_id": "thread-541f1ce1fd78",
+      "thread_depth": 0,
+      "month": "2024-09"
+    },
+    {
+      "id": "msg-b78779e4b4d2",
+      "message_id": "<SVzyg9XYRaW8vyilCBXT1A@geopod-ismtpd-15>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2024-09-11T06:27:35Z",
+      "subject": "[R-sig-Epi] Online Courses: ML for Computational Biology and DNA Methylation",
+      "subject_clean": "Online Courses: ML for Computational Biology and DNA Methylation",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240911/2a799709/attachment.html>",
+      "body_snippet": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240911/2a799709/attachment.html>",
+      "thread_id": "thread-b78779e4b4d2",
+      "thread_depth": 0,
+      "month": "2024-09"
+    },
+    {
+      "id": "msg-749866bd677a",
+      "message_id": "<CAEsSYzyWzD3G+7m8n2nAUBdAFx0xzG-O7MHmpPLZZfx=uN4uLw@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2024-09-12T18:34:44+01:00",
+      "subject": "[R-sig-Epi] ONLINE COURSE – Introduction to R using Tidyverse (TIDY01)",
+      "subject_clean": "ONLINE COURSE – Introduction to R using Tidyverse (TIDY01)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "ONLINE COURSE ? Introduction to R using Tidyverse (TIDY01)\n\nhttps://www.prstats.org/course/introduction-to-r-using-tidyverse-tidy01/\n\n24th - 26th September\n\nPlease feel free to share!\n\nR is a popular open-source programming language used by data scientists,\nstatisticians,\nsocial &amp; health researchers, and many more across a wide range of\ndisciplines. R is\nparticularly appealing to researchers as it is free to access, designed to\nencourage\ncollaborative and reproducible data analysis, and is constantly evolving to\ninclude the latest research developments.\n\nThis course is designed to equip PhD students, academics, and professional\nresearchers\nacross various disciplines with the essential skills to leverage the power\nof R and Tidyverse for their academic research. The workshop begins with a\ngentle introduction to the user-friendly RStudio interface and the basics\nof the R coding language, or syntax. This makes it ideal for anyone with\nlittle or no prior coding experience, or those looking for a refresher of\nthe basics.\n\nAttendees will learn how to manipulate, transform, and clean data\nefficiently, and how to\ncreate compelling visualisations to communicate their findings effectively.\nThroughout the\ncourse, we will discuss best practices for reproducible coding. The\nworkshop is designed to be highly interactive with a focus on practical\napplications, ensuring that you can\nimmediately apply what you learn to your research.\n\nBy the end of the course, participants will:\n? Understand the RStudio interface and be confident using R syntax\n? Be able to load, tidy, and manipulate their data using Tidyverse packages\n? Generate clear summary tables that can be customised and exported\n? Create compelling, informative data visualisations using ggplot2, and\nunderstand\nwhat makes a good visualisation\n? Understand what is meant by reproducible coding, and ensure their scripts\nare clear,\ntidy and reproducible.\nPlease email oliverhooker at prstatistics.com with any questions\n\nAll our live course and recorded courses can be found using the links below\nhttps://www.prstats.org/live-courses/\nhttps://www.prstats.org/recorded-courses/\n\n-- \nBest wishes,\n\nOliver\n\nOliver Hooker PhD.\nPR stats\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "ONLINE COURSE ? Introduction to R using Tidyverse (TIDY01)\n\nhttps://www.prstats.org/course/introduction-to-r-using-tidyverse-tidy01/\n\n24th - 26th September\n\nPlease feel free to share!\n\nR is a popular ",
+      "thread_id": "thread-749866bd677a",
+      "thread_depth": 0,
+      "month": "2024-09"
+    },
+    {
+      "id": "msg-683efa1365ae",
+      "message_id": "<QYpjozd9RxG85ANP5lMEMA@geopod-ismtpd-3>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2024-09-16T21:20:00Z",
+      "subject": "[R-sig-Epi] Online Course: Statistics and Data Science using Tidyverse in R",
+      "subject_clean": "Online Course: Statistics and Data Science using Tidyverse in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240916/2011dd4a/attachment.html>",
+      "body_snippet": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240916/2011dd4a/attachment.html>",
+      "thread_id": "thread-683efa1365ae",
+      "thread_depth": 0,
+      "month": "2024-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-541f1ce1fd78",
+      "subject": "Online courses: Instats Launches All-Access Subscriptions",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2024-09-04T07:21:24+00:00",
+      "last_reply": "2024-09-04T07:21:24+00:00",
+      "root_message_id": "msg-541f1ce1fd78"
+    },
+    {
+      "id": "thread-b78779e4b4d2",
+      "subject": "Online Courses: ML for Computational Biology and DNA Methylation",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2024-09-11T06:27:35+00:00",
+      "last_reply": "2024-09-11T06:27:35+00:00",
+      "root_message_id": "msg-b78779e4b4d2"
+    },
+    {
+      "id": "thread-749866bd677a",
+      "subject": "ONLINE COURSE – Introduction to R using Tidyverse (TIDY01)",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2024-09-12T18:34:44+01:00",
+      "last_reply": "2024-09-12T18:34:44+01:00",
+      "root_message_id": "msg-749866bd677a"
+    },
+    {
+      "id": "thread-683efa1365ae",
+      "subject": "Online Course: Statistics and Data Science using Tidyverse in R",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2024-09-16T21:20:00+00:00",
+      "last_reply": "2024-09-16T21:20:00+00:00",
+      "root_message_id": "msg-683efa1365ae"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+From schmidbe at in.tum.de  Thu Jul  7 20:11:25 2011
+From: schmidbe at in.tum.de (Markus Schmidberger)
+Date: Thu, 07 Jul 2011 20:11:25 +0200
+Subject: [R-sig-Epi] Running R on a Computer Cluster in the Cloud -
+	cloudnumbers.com
+Message-ID: <1310062285.2480.4.camel@schmidb-TravelMate8572TG>
+
+Dear epidemiological data analysis and R experts,
+
+cloudnumbers.com provides researchers and companies with the resources
+to perform high performance calculations in the cloud. As
+cloudnumbers.com's community manager I may invite you to register and
+test R on a computer cluster in the cloud for free:
+http://my.cloudnumbers.com/register
+
+Our aim is to change the way of research collaboration is done today by
+bringing together scientists and businesses from all over the world on a
+single platform. cloudnumbers.com is a Berlin (Germany) based
+international high-tech startup striving for enabling everyone to
+benefit from the High Performance Computing related advantages of the
+cloud. We provide easy access to applications running on any kind of
+computer hardware: from single core high memory machines up to 1000
+cores computer clusters.
+
+Our platform provides several advantages:
+
+* Turn fixed into variable costs and pay only for the capacity you need.
+Watch our latest saving costs with cloudnumbers.com video:
+http://www.youtube.com/watch?v=ln_BSVigUhg&feature=player_embedded
+
+* Enter the cloud using an intuitive and user friendly platform. Watch
+our latest cloudnumbers.com in a nutshell video:
+http://www.youtube.com/watch?v=0ZNEpR_ElV0&feature=player_embedded
+
+* Be released from ongoing technological obsolescence and continuous
+maintenance costs (e.g. linking to libraries or system dependencies)
+
+* Accelerated your R, C, C++, Fortran, Python, ... calculations through
+parallel processing and great computing capacity - more than 1000 cores
+are available and GPUs are coming soon.
+
+* Share your results worldwide (coming soon).
+
+* Get high speed access to public databases.
+
+* We have developed a security architecture that meets high requirements
+of data security and privacy. Read our security white paper:
+http://d1372nki7bx5yg.cloudfront.net/wp-content/uploads/2011/06/cloudnumberscom-security.whitepaper.pdf
+
+
+This is only a selection of our top features. To get more information
+check out our web-page (http://www.cloudnumbers.com/) or follow our blog
+about cloud computing, HPC and HPC applications (with R):
+http://cloudnumbers.com/blog
+
+Register and test for free now at cloudnumbers.com:
+http://my.cloudnumbers.com/register
+
+We are looking forward to get your feedback and consumer insights.
+
+Best
+Markus
+
+-- 
+Dr. rer. nat. Markus Schmidberger 
+Senior Community Manager 
+
+Cloudnumbers.com GmbH
+Chausseestra?e 6
+10119 Berlin 
+
+www.cloudnumbers.com 
+E-Mail: markus.schmidberger at cloudnumbers.com 
+
+
+************************* 
+Amtsgericht M?nchen, HRB 191138 
+Gesch?ftsf?hrer: Erik Muttersbach, Markus Fensterer, Moritz v. 
+Petersdorff-Campen 
+
+
+
+Diese Nachricht kann vertrauliche Informationen enthalten. Sollten Sie 
+nicht der vorgesehene Empf?nger sein, so bitten wir um eine kurze 
+Nachricht. Jede unbefugte Weiterleitung oder Fertigung einer Kopie ist 
+unzul?ssig. Da wir nicht die Echtheit oder  Vollst?ndigkeit der in 
+dieser Nachricht enthaltenen Informationen garantieren k?nnen, 
+schlie?en wir die rechtliche Verbindlichkeit der vorstehenden 
+Erkl?rungen und ?u?erungen aus. 
+This message may contain confidential information. If yo...{{dropped:6}}
+
+
+From bxc at steno.dk  Sat Jul 23 14:07:31 2011
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Sat, 23 Jul 2011 14:07:31 +0200
+Subject: [R-sig-Epi] Course: Age-Period-Cohort models, Lisbon, September 2011
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3302FFCF1485@exdkmbx002.corp.novocorp.net>
+
+Course on Age-Period-Cohort models.
+===================================
+   Place: Lisbon
+    Time: Monday 19th - Wednesday 21st September 2011. 
+Deadline: 1 September 2011
+     Fee: 380 EUR.
+ Teacher: Bendix Carstensen, Steno Diabetes Center, Copenhagen
+     URL: http://www.ceaul.fc.ul.pt/seeevent.html?id=206
+          http://staff.pubhealth.ku.dk/~bxc/APC/Lisboa-2011
+          ( The latter contains links to various material on the topic )
+Audience: Epidemiologists and Statisticians.
+
+Age-Period-Cohort models for mortality and morbidity rates is a useful tool for description of age- and time-trends. But the use and in particular the reporting is not straightforward.
+
+The course will cover both the basics of tabulation of data, modeling and choice of parametrization as well as the more advanced aspects of Age-Period-Cohort models, including a substantial practical component, based on computer exercises in R. Specifically the apc-tools in the Epi package for R will be covered in some depth.
+
+Formally no prerequisites are required, but familiarity with regression models in epidemiology and some exposure to R will prove advantageous. 
+
+Participants are expected to bring their own laptop, and can expect to go home with a couple of thorough analyses of example datasets. Instructions on what to install (and how) will be given shortly after the application deadline.
+_________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Steno Diabetes Center A/S
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk    
+www.biostat.ku.dk/~bxc
+www.steno.dk
+

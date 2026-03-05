@@ -1,0 +1,137 @@
+From ivachr at yahoo.es  Sun Mar 18 11:21:11 2012
+From: ivachr at yahoo.es (Iva P)
+Date: Sun, 18 Mar 2012 10:21:11 +0000 (GMT)
+Subject: [R-sig-Epi] Cosinor Model (Halberg,
+	Bingham) - Multiple components - Linear, Quadratic and Cubic trends
+Message-ID: <1332066071.77809.YahooMailNeo@web132101.mail.ird.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120318/9111ffea/attachment.pl>
+
+From bxc at steno.dk  Sun Mar 18 11:48:06 2012
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Sun, 18 Mar 2012 11:48:06 +0100
+Subject: [R-sig-Epi] Cosinor Model (Halberg,
+ Bingham) - Multiple components - Linear, Quadratic and Cubic trends
+In-Reply-To: <1332066071.77809.YahooMailNeo@web132101.mail.ird.yahoo.com>
+References: <1332066071.77809.YahooMailNeo@web132101.mail.ird.yahoo.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC33031BA3E381@exdkmbx002.corp.novocorp.net>
+
+Dear Iva,
+First it is normal politeness to identify yourself with name an affiliation at the end of your email to a list like this, many people will not answer anonymous e-mails.
+
+It is a little unclear to me what you mean.
+
+If you are alluding to quadratic or cubic terms in some variable 
+you just include then in the model al
+
+lm( y ~ I(z^2) + I(z^3), data=...)
+
+But if you are referring to harmonic functions of higher order you can put hem in as separate sines and cosinse:
+
+lm( y ~ I(cos(2*pi*t/T)) + I(sin(2*pi*t/T)) + I(cos(4*pi*t/T)) + I(sin(4*pi*t/T)) )
+
+Here is a small function and a demo that shows what it does, maybe this is what you are looking for:
+
+harm <-
+function( mm, n )
+{
+  # Function to devise a n'th order harmonic from a
+  # numerical vector, scaled to be in the range 0 to 1
+
+  MM <- cbind(
+  outer( mm * 2 * pi, 1:n, function(x,y) cos( x*y ) ),
+  outer( mm * 2 * pi, 1:n, function(x,y) sin( x*y ) )
+              )[,rep(1:n,each=2)+rep(0:1,n)*n]
+  colnames( MM ) <- outer( c("cos","sin"), 1:n, paste, sep="" )
+  MM
+}
+
+x <- seq(0,1,,100)
+head( harm(x,3) )
+matplot( x, harm(x,3), type="l", lty=1, lwd=2 ) 
+
+Best regards
+Bendix Carstensen
+Epi package maintainer
+______________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Epidemiology
+Steno Diabetes Center A/S
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk    http://BendixCarstensen.com
+www.steno.dk
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at r-project.org 
+> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Iva P
+> Sent: 18. marts 2012 21:21
+> To: R-sig-epi at r-project.org
+> Subject: [R-sig-Epi] Cosinor Model (Halberg, Bingham) - 
+> Multiple components - Linear, Quadratic and Cubic trends
+> 
+> 
+> 
+> Hello!
+> 
+> I have a doubt in relation with the use of the cosinor model 
+> with R when I have not only multiple components, but also 
+> linear, quadratic and cubic trends.
+> 
+> I explain the details:
+> 
+> In simple cosinor:
+> 
+> 
+> Y = M + A * cos(2
+> * ?* t / T + ?) + error
+> 
+> T knowed: y = M + ?* X1 + ?* X2 + error,
+> ?
+> Where X1 = cos (2 * ?* t / T) and X2 = sin(2
+> * ?* t / T)
+> ?
+> In this
+> case, I use lm(y ~ X1 + X2) .
+> ?
+> For the
+> multiple components case:
+> ?
+> y = M + ?Aj * cos(2 * ? * t /Tj + ?j) + error
+> ?
+> In this
+> case I use:? lm(y ~ X1tot + X2tot)
+> ?
+> However, in
+> the generalized model case (linear, quadratic and cubic 
+> trends), I don?t know how to analyze with R.
+> ?
+> I include
+> the situacion formula:
+> ?
+> y = M + ?1 * t + ?2 * t2 + ?3 * t3+ ?Aj *
+> cos(2 *?* t /Tj + ?2) + error
+> ?
+> What
+> function in R can I use, as I used lm for the simple cosinor 
+> model and the multiple components model?.
+> ?
+> How can I
+> obtain global information and separated information?. I refer 
+> to obtain information for each contribution (linear tren, 
+> quadratic trend, ? and so on).
+> ?
+> Thank you
+> very much for your help.
+> 	[[alternative HTML version deleted]]
+> 
+> 
+

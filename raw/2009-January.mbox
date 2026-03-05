@@ -1,0 +1,843 @@
+From amy.mikhail at googlemail.com  Wed Jan  7 12:39:40 2009
+From: amy.mikhail at googlemail.com (Amy Mikhail)
+Date: Wed, 7 Jan 2009 11:39:40 +0000
+Subject: [R-sig-Epi] Converting dates from the Persian calendar to Gregorian
+Message-ID: <84d389790901070339u705dab05hff2ed02d8d0a379f@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20090107/14716f46/attachment.pl>
+
+From bxc at steno.dk  Wed Jan  7 13:26:04 2009
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Wed, 7 Jan 2009 13:26:04 +0100
+Subject: [R-sig-Epi] Converting dates from the Persian calendar to
+ Gregorian
+In-Reply-To: <84d389790901070339u705dab05hff2ed02d8d0a379f@mail.gmail.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3301F9553DCF@exdkmbx002.corp.novocorp.net>
+
+Hi Amy,
+you probaly already have visited:
+http://www.codeproject.com/KB/cs/JalaliCalendar.aspx
+where the Iranian guy Homam Hosseini provides a discussion of the conversion, and some C code to do it.
+
+I am a C ignorant, but surely someone in the R-community would be able to take this code (and in collaboration with Homam) provide a function that converts Iranian / Jalali dataes to and from the Gregorian Date class??
+
+Best regards
+Bendix
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Amy Mikhail
+> Sent: 7. januar 2009 12:40
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Converting dates from the Persian 
+> calendar to Gregorian
+> 
+> Dear Epi list,
+> 
+> This is not a strictly epidemiological question, but an issue 
+> that anyone might face if presented with a dataset containing 
+> dates in a non-gregorian format.
+> 
+> I am currently developing a database (in MS Access) for a 
+> public health study, the results of which I intend to analyse 
+> in R.  I have a small problem, in that the date each patient 
+> visits the clinic will be entered into the database in the 
+> Persian  / Jalali calendar format - e.g. today's
+> date in the Persian calendar is 18.10.1387.   For the 
+> analysis however I
+> need these dates to be converted to Gregorian, so that I can 
+> have months on the x axis of plots, etc.
+> 
+> Does anyone know of a function / some code already written 
+> that could do this conversion in R?  It is much too complex 
+> for me to figure out (since the Persian new year starts on 
+> 21st March, and although there are also 12 months they have 
+> different lengths to gregorian months).  I'm guessing it 
+> would require loops and such but this is beyond my current 
+> level of R knowledge.
+> 
+> I have found some online tools that do the conversion of 
+> individual dates, but there seems to be nothing out there 
+> that would convert a whole dataset's worth of dates.
+> 
+> Any suggestions much appreciated,
+> With best wishes,
+> Amy
+> 
+> 
+> --
+> Amy Mikhail
+> Program Manager, ACTc Afghanistan Malaria Project London 
+> School of Hygiene & Tropical Medicine HPRO, Charahi-e-Shahid, 
+> Shar-e-Naw, Kabul, Afghanistan
+> 
+> Email (Afg): amy.mikhail at googlemail.com
+> Email (UK): Amy.Mikhail at lshtm.ac.uk
+> Tel (Afg): +93 (0)706 126627
+> Tel (UK): +44 (0)781 4176107
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+From amy.mikhail at googlemail.com  Wed Jan  7 13:44:52 2009
+From: amy.mikhail at googlemail.com (Amy Mikhail)
+Date: Wed, 7 Jan 2009 12:44:52 +0000
+Subject: [R-sig-Epi] Converting dates from the Persian calendar to
+	Gregorian
+In-Reply-To: <2F73FA3AF524144C863B7C2C903DBC3301F9553DCF@exdkmbx002.corp.novocorp.net>
+References: <84d389790901070339u705dab05hff2ed02d8d0a379f@mail.gmail.com>
+	<2F73FA3AF524144C863B7C2C903DBC3301F9553DCF@exdkmbx002.corp.novocorp.net>
+Message-ID: <84d389790901070444x3ac78e13o2e21653ec7f49a3f@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20090107/5f3c2aa7/attachment.pl>
+
+From bxc at steno.dk  Wed Jan  7 14:00:57 2009
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Wed, 7 Jan 2009 14:00:57 +0100
+Subject: [R-sig-Epi] Converting dates from the Persian calendar to
+ Gregorian
+In-Reply-To: <84d389790901070444x3ac78e13o2e21653ec7f49a3f@mail.gmail.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3301F9553DF8@exdkmbx002.corp.novocorp.net>
+
+I already sent this request off to inquire with Peter Dalgard and Martyn Plummer from the R-core team, and got this back from Peter:
+ 
+> -----Original Message-----
+> From: Peter Dalgaard [mailto:P.Dalgaard at biostat.ku.dk] 
+> Sent: 7. januar 2009 13:43
+> To: BXC (Bendix Carstensen)
+> Cc: pd at biostat.ku.dk; Martyn Plummer
+> Subject: Re: FW: [R-sig-Epi] Converting dates from the 
+> Persian calendar to Gregorian
+> 
+> Also notice that M-x calendar in Emacs does a lot of this stuff.
+> 
+> 
+> p o		calendar-print-other-dates
+> p m		calendar-print-mayan-date
+> p f		calendar-print-french-date
+> p i		calendar-print-islamic-date
+> p h		calendar-print-hebrew-date
+> p a		calendar-print-astro-day-number
+> p j		calendar-print-julian-date
+> p c		calendar-print-iso-date
+> p p		calendar-print-persian-date
+> p e		calendar-print-ethiopic-date
+> p k		calendar-print-coptic-date
+> p C		calendar-print-chinese-date
+> p d		calendar-print-day-of-year
+> 
+
+Yes it might be a good idea to pose this to the R-devel list as a facility that should be included in R --- presumably with the same facilities as in emacs.
+
+Best regards,
+Bendix 
+
+> -----Original Message-----
+> From: Amy Mikhail [mailto:amy.mikhail at googlemail.com] 
+> Sent: 7. januar 2009 13:45
+> To: BXC (Bendix Carstensen)
+> Cc: r-sig-epi at stat.math.ethz.ch
+> Subject: Re: [R-sig-Epi] Converting dates from the Persian 
+> calendar to Gregorian
+> 
+> Hi Bendix,
+> 
+> Many thanks - yes, I had already visited Homam's page.  I 
+> have posted a message there asking if there is some way to 
+> link his code / function to my MS Access database, but having 
+> this as a function in R would be better.
+> 
+> Any takers, who know both C and R?  Should I also post this 
+> to the R devel list?
+> 
+> Best wishes,
+> Amy
+> 
+> 
+> 
+> On Wed, Jan 7, 2009 at 12:26 PM, BXC (Bendix Carstensen) 
+> <bxc at steno.dk> wrote:
+> 
+> 
+> 	Hi Amy,
+> 	you probaly already have visited:
+> 	http://www.codeproject.com/KB/cs/JalaliCalendar.aspx
+> 	where the Iranian guy Homam Hosseini provides a 
+> discussion of the conversion, and some C code to do it.
+> 	
+> 	I am a C ignorant, but surely someone in the 
+> R-community would be able to take this code (and in 
+> collaboration with Homam) provide a function that converts 
+> Iranian / Jalali dataes to and from the Gregorian Date class??
+> 	
+> 	Best regards
+> 	Bendix
+> 	
+> 
+> 	> -----Original Message-----
+> 	> From: r-sig-epi-bounces at stat.math.ethz.ch
+> 	> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On 
+> Behalf Of Amy Mikhail
+> 	> Sent: 7. januar 2009 12:40
+> 	> To: r-sig-epi at stat.math.ethz.ch
+> 	> Subject: [R-sig-Epi] Converting dates from the Persian
+> 	> calendar to Gregorian
+> 	>
+> 	> Dear Epi list,
+> 	>
+> 	> This is not a strictly epidemiological question, but an issue
+> 	> that anyone might face if presented with a dataset containing
+> 	> dates in a non-gregorian format.
+> 	>
+> 	> I am currently developing a database (in MS Access) for a
+> 	> public health study, the results of which I intend to analyse
+> 	> in R.  I have a small problem, in that the date each patient
+> 	> visits the clinic will be entered into the database in the
+> 	> Persian  / Jalali calendar format - e.g. today's
+> 	> date in the Persian calendar is 18.10.1387.   For the
+> 	> analysis however I
+> 	> need these dates to be converted to Gregorian, so that I can
+> 	> have months on the x axis of plots, etc.
+> 	>
+> 	> Does anyone know of a function / some code already written
+> 	> that could do this conversion in R?  It is much too complex
+> 	> for me to figure out (since the Persian new year starts on
+> 	> 21st March, and although there are also 12 months they have
+> 	> different lengths to gregorian months).  I'm guessing it
+> 	> would require loops and such but this is beyond my current
+> 	> level of R knowledge.
+> 	>
+> 	> I have found some online tools that do the conversion of
+> 	> individual dates, but there seems to be nothing out there
+> 	> that would convert a whole dataset's worth of dates.
+> 	>
+> 	> Any suggestions much appreciated,
+> 	> With best wishes,
+> 	> Amy
+> 	>
+> 	>
+> 	> --
+> 	> Amy Mikhail
+> 	> Program Manager, ACTc Afghanistan Malaria Project London
+> 	> School of Hygiene & Tropical Medicine HPRO, Charahi-e-Shahid,
+> 	> Shar-e-Naw, Kabul, Afghanistan
+> 	>
+> 	> Email (Afg): amy.mikhail at googlemail.com
+> 	> Email (UK): Amy.Mikhail at lshtm.ac.uk
+> 	> Tel (Afg): +93 (0)706 126627
+> 	> Tel (UK): +44 (0)781 4176107
+> 	>
+> 	
+> 	>       [[alternative HTML version deleted]]
+> 	>
+> 	> _______________________________________________
+> 	> R-sig-Epi at stat.math.ethz.ch mailing list
+> 	> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 	> 
+> 
+> 
+> 
+> 
+> --
+> Amy Mikhail
+> Program Manager, ACTc Afghanistan Malaria Project London 
+> School of Hygiene & Tropical Medicine HPRO, Charahi-e-Shahid, 
+> Shar-e-Naw, Kabul, Afghanistan
+> 
+> Email (Afg): amy.mikhail at googlemail.com
+> Email (UK): Amy.Mikhail at lshtm.ac.uk
+> Tel (Afg): +93 (0)706 126627
+> Tel (UK): +44 (0)781 4176107
+> 
+> 
+
+From bxc at steno.dk  Wed Jan  7 14:43:03 2009
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Wed, 7 Jan 2009 14:43:03 +0100
+Subject: [R-sig-Epi] FW: Converting dates from the Persian calendar to
+ Gregorian
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3301F9553E59@exdkmbx002.corp.novocorp.net>
+
+ 
+
+-----Original Message-----
+From: Amy Mikhail [mailto:amy.mikhail at googlemail.com] 
+Sent: 7. januar 2009 14:33
+To: BXC (Bendix Carstensen)
+Subject: Re: [R-sig-Epi] Converting dates from the Persian calendar to Gregorian
+
+Hi Bendix,
+
+Thanks - had not heard of Emacs before although just looking at it briefly it seems to be more of a text editor than a database type program, also although it converts from gregorian to other calendars, I'm not sure if it converts in the opposite direction.
+
+I'll post this to R-devel and see if there are any takers.
+
+Best wishes,
+Amy
+
+
+On Wed, Jan 7, 2009 at 1:00 PM, BXC (Bendix Carstensen) <bxc at steno.dk> wrote:
+
+
+	I already sent this request off to inquire with Peter Dalgard and Martyn Plummer from the R-core team, and got this back from Peter:
+	
+
+	> -----Original Message-----
+	> From: Peter Dalgaard [mailto:P.Dalgaard at biostat.ku.dk]
+	> Sent: 7. januar 2009 13:43
+	> To: BXC (Bendix Carstensen)
+	> Cc: pd at biostat.ku.dk; Martyn Plummer
+	> Subject: Re: FW: [R-sig-Epi] Converting dates from the
+	> Persian calendar to Gregorian
+	>
+	
+	> Also notice that M-x calendar in Emacs does a lot of this stuff.
+	>
+	>
+	> p o           calendar-print-other-dates
+	> p m           calendar-print-mayan-date
+	> p f           calendar-print-french-date
+	> p i           calendar-print-islamic-date
+	> p h           calendar-print-hebrew-date
+	> p a           calendar-print-astro-day-number
+	> p j           calendar-print-julian-date
+	> p c           calendar-print-iso-date
+	> p p           calendar-print-persian-date
+	> p e           calendar-print-ethiopic-date
+	> p k           calendar-print-coptic-date
+	> p C           calendar-print-chinese-date
+	> p d           calendar-print-day-of-year
+	>
+	
+	Yes it might be a good idea to pose this to the R-devel list as a facility that should be included in R --- presumably with the same facilities as in emacs.
+	
+
+	Best regards,
+	Bendix
+	
+	> -----Original Message-----
+	
+	> From: Amy Mikhail [mailto:amy.mikhail at googlemail.com]
+	> Sent: 7. januar 2009 13:45
+	> To: BXC (Bendix Carstensen)
+	> Cc: r-sig-epi at stat.math.ethz.ch
+	> Subject: Re: [R-sig-Epi] Converting dates from the Persian
+	> calendar to Gregorian
+	>
+	> Hi Bendix,
+	>
+	> Many thanks - yes, I had already visited Homam's page.  I
+	> have posted a message there asking if there is some way to
+	> link his code / function to my MS Access database, but having
+	> this as a function in R would be better.
+	>
+	> Any takers, who know both C and R?  Should I also post this
+	> to the R devel list?
+	>
+	> Best wishes,
+	> Amy
+	>
+	>
+	>
+	> On Wed, Jan 7, 2009 at 12:26 PM, BXC (Bendix Carstensen)
+	> <bxc at steno.dk> wrote:
+	>
+	>
+	>       Hi Amy,
+	>       you probaly already have visited:
+	>       http://www.codeproject.com/KB/cs/JalaliCalendar.aspx
+	>       where the Iranian guy Homam Hosseini provides a
+	> discussion of the conversion, and some C code to do it.
+	>
+	>       I am a C ignorant, but surely someone in the
+	> R-community would be able to take this code (and in
+	> collaboration with Homam) provide a function that converts
+	> Iranian / Jalali dataes to and from the Gregorian Date class??
+	>
+	>       Best regards
+	>       Bendix
+	>
+	>
+	>       > -----Original Message-----
+	>       > From: r-sig-epi-bounces at stat.math.ethz.ch
+	>       > [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On
+	> Behalf Of Amy Mikhail
+	>       > Sent: 7. januar 2009 12:40
+	>       > To: r-sig-epi at stat.math.ethz.ch
+	>       > Subject: [R-sig-Epi] Converting dates from the Persian
+	>       > calendar to Gregorian
+	>       >
+	>       > Dear Epi list,
+	>       >
+	>       > This is not a strictly epidemiological question, but an issue
+	>       > that anyone might face if presented with a dataset containing
+	>       > dates in a non-gregorian format.
+	>       >
+	>       > I am currently developing a database (in MS Access) for a
+	>       > public health study, the results of which I intend to analyse
+	>       > in R.  I have a small problem, in that the date each patient
+	>       > visits the clinic will be entered into the database in the
+	>       > Persian  / Jalali calendar format - e.g. today's
+	>       > date in the Persian calendar is 18.10.1387.   For the
+	>       > analysis however I
+	>       > need these dates to be converted to Gregorian, so that I can
+	>       > have months on the x axis of plots, etc.
+	>       >
+	>       > Does anyone know of a function / some code already written
+	>       > that could do this conversion in R?  It is much too complex
+	>       > for me to figure out (since the Persian new year starts on
+	>       > 21st March, and although there are also 12 months they have
+	>       > different lengths to gregorian months).  I'm guessing it
+	>       > would require loops and such but this is beyond my current
+	>       > level of R knowledge.
+	>       >
+	>       > I have found some online tools that do the conversion of
+	>       > individual dates, but there seems to be nothing out there
+	>       > that would convert a whole dataset's worth of dates.
+	>       >
+	>       > Any suggestions much appreciated,
+	>       > With best wishes,
+	>       > Amy
+	>       >
+	>       >
+	>       > --
+	>       > Amy Mikhail
+	>       > Program Manager, ACTc Afghanistan Malaria Project London
+	>       > School of Hygiene & Tropical Medicine HPRO, Charahi-e-Shahid,
+	>       > Shar-e-Naw, Kabul, Afghanistan
+	>       >
+	>       > Email (Afg): amy.mikhail at googlemail.com
+	>       > Email (UK): Amy.Mikhail at lshtm.ac.uk
+	>       > Tel (Afg): +93 (0)706 126627
+	>       > Tel (UK): +44 (0)781 4176107
+	>       >
+	>
+	>       >       [[alternative HTML version deleted]]
+	>       >
+	>       > _______________________________________________
+	>       > R-sig-Epi at stat.math.ethz.ch mailing list
+	>       > https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+	>       >
+	>
+	>
+	>
+	>
+	> --
+	> Amy Mikhail
+	> Program Manager, ACTc Afghanistan Malaria Project London
+	> School of Hygiene & Tropical Medicine HPRO, Charahi-e-Shahid,
+	> Shar-e-Naw, Kabul, Afghanistan
+	>
+	> Email (Afg): amy.mikhail at googlemail.com
+	> Email (UK): Amy.Mikhail at lshtm.ac.uk
+	> Tel (Afg): +93 (0)706 126627
+	> Tel (UK): +44 (0)781 4176107
+	>
+	> 
+
+
+
+
+--
+Amy Mikhail
+Program Manager, ACTc Afghanistan Malaria Project London School of Hygiene & Tropical Medicine HPRO, Charahi-e-Shahid, Shar-e-Naw, Kabul, Afghanistan
+
+Email (Afg): amy.mikhail at googlemail.com
+Email (UK): Amy.Mikhail at lshtm.ac.uk
+Tel (Afg): +93 (0)706 126627
+Tel (UK): +44 (0)781 4176107
+
+
+From P.Dalgaard at biostat.ku.dk  Wed Jan  7 14:52:33 2009
+From: P.Dalgaard at biostat.ku.dk (Peter Dalgaard)
+Date: Wed, 07 Jan 2009 14:52:33 +0100
+Subject: [R-sig-Epi] FW: Converting dates from the Persian calendar to
+ Gregorian
+In-Reply-To: <2F73FA3AF524144C863B7C2C903DBC3301F9553E59@exdkmbx002.corp.novocorp.net>
+References: <2F73FA3AF524144C863B7C2C903DBC3301F9553E59@exdkmbx002.corp.novocorp.net>
+Message-ID: <4964B3A1.8030500@biostat.ku.dk>
+
+BXC (Bendix Carstensen) wrote:
+>  
+> 
+> -----Original Message-----
+> From: Amy Mikhail [mailto:amy.mikhail at googlemail.com] 
+> Sent: 7. januar 2009 14:33
+> To: BXC (Bendix Carstensen)
+> Subject: Re: [R-sig-Epi] Converting dates from the Persian calendar to Gregorian
+> 
+> Hi Bendix,
+> 
+
+> Thanks - had not heard of Emacs before although just looking at it
+briefly it seems to be more of a text editor than a database type
+program, also although it converts from gregorian to other calendars,
+I'm not sure if it converts in the opposite direction.
+
+Emacs does many things...
+
+The opposite direction is "g p" calendar-goto-persian-date.
+
+See also
+
+http://emr.cs.iit.edu/~reingold/calendars.shtml
+
+with links to the conversion codes in Common LISP and C++
+
+
+> I'll post this to R-devel and see if there are any takers.
+> 
+> Best wishes,
+> Amy
+> 
+> 
+> On Wed, Jan 7, 2009 at 1:00 PM, BXC (Bendix Carstensen) <bxc at steno.dk> wrote:
+> 
+> 
+> 	I already sent this request off to inquire with Peter Dalgard and Martyn Plummer from the R-core team, and got this back from Peter:
+> 	
+> 
+> 	> -----Original Message-----
+> 	> From: Peter Dalgaard [mailto:P.Dalgaard at biostat.ku.dk]
+> 	> Sent: 7. januar 2009 13:43
+> 	> To: BXC (Bendix Carstensen)
+> 	> Cc: pd at biostat.ku.dk; Martyn Plummer
+> 	> Subject: Re: FW: [R-sig-Epi] Converting dates from the
+> 	> Persian calendar to Gregorian
+> 	>
+> 	
+> 	> Also notice that M-x calendar in Emacs does a lot of this stuff.
+> 	>
+> 	>
+> 	> p o           calendar-print-other-dates
+> 	> p m           calendar-print-mayan-date
+> 	> p f           calendar-print-french-date
+> 	> p i           calendar-print-islamic-date
+> 	> p h           calendar-print-hebrew-date
+> 	> p a           calendar-print-astro-day-number
+> 	> p j           calendar-print-julian-date
+> 	> p c           calendar-print-iso-date
+> 	> p p           calendar-print-persian-date
+> 	> p e           calendar-print-ethiopic-date
+> 	> p k           calendar-print-coptic-date
+> 	> p C           calendar-print-chinese-date
+> 	> p d           calendar-print-day-of-year
+> 	>
+> 	
+> 	Yes it might be a good idea to pose this to the R-devel list as a facility that should be included in R --- presumably with the same facilities as in emacs.
+> 	
+> 
+> 	Best regards,
+> 	Bendix
+> 	
+> 	> -----Original Message-----
+> 	
+> 	> From: Amy Mikhail [mailto:amy.mikhail at googlemail.com]
+> 	> Sent: 7. januar 2009 13:45
+> 	> To: BXC (Bendix Carstensen)
+> 	> Cc: r-sig-epi at stat.math.ethz.ch
+> 	> Subject: Re: [R-sig-Epi] Converting dates from the Persian
+> 	> calendar to Gregorian
+> 	>
+> 	> Hi Bendix,
+> 	>
+> 	> Many thanks - yes, I had already visited Homam's page.  I
+> 	> have posted a message there asking if there is some way to
+> 	> link his code / function to my MS Access database, but having
+> 	> this as a function in R would be better.
+> 	>
+> 	> Any takers, who know both C and R?  Should I also post this
+> 	> to the R devel list?
+> 	>
+> 	> Best wishes,
+> 	> Amy
+> 	>
+> 	>
+> 	>
+> 	> On Wed, Jan 7, 2009 at 12:26 PM, BXC (Bendix Carstensen)
+> 	> <bxc at steno.dk> wrote:
+> 	>
+> 	>
+> 	>       Hi Amy,
+> 	>       you probaly already have visited:
+> 	>       http://www.codeproject.com/KB/cs/JalaliCalendar.aspx
+> 	>       where the Iranian guy Homam Hosseini provides a
+> 	> discussion of the conversion, and some C code to do it.
+> 	>
+> 	>       I am a C ignorant, but surely someone in the
+> 	> R-community would be able to take this code (and in
+> 	> collaboration with Homam) provide a function that converts
+> 	> Iranian / Jalali dataes to and from the Gregorian Date class??
+> 	>
+> 	>       Best regards
+> 	>       Bendix
+> 	>
+> 	>
+> 	>       > -----Original Message-----
+> 	>       > From: r-sig-epi-bounces at stat.math.ethz.ch
+> 	>       > [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On
+> 	> Behalf Of Amy Mikhail
+> 	>       > Sent: 7. januar 2009 12:40
+> 	>       > To: r-sig-epi at stat.math.ethz.ch
+> 	>       > Subject: [R-sig-Epi] Converting dates from the Persian
+> 	>       > calendar to Gregorian
+> 	>       >
+> 	>       > Dear Epi list,
+> 	>       >
+> 	>       > This is not a strictly epidemiological question, but an issue
+> 	>       > that anyone might face if presented with a dataset containing
+> 	>       > dates in a non-gregorian format.
+> 	>       >
+> 	>       > I am currently developing a database (in MS Access) for a
+> 	>       > public health study, the results of which I intend to analyse
+> 	>       > in R.  I have a small problem, in that the date each patient
+> 	>       > visits the clinic will be entered into the database in the
+> 	>       > Persian  / Jalali calendar format - e.g. today's
+> 	>       > date in the Persian calendar is 18.10.1387.   For the
+> 	>       > analysis however I
+> 	>       > need these dates to be converted to Gregorian, so that I can
+> 	>       > have months on the x axis of plots, etc.
+> 	>       >
+> 	>       > Does anyone know of a function / some code already written
+> 	>       > that could do this conversion in R?  It is much too complex
+> 	>       > for me to figure out (since the Persian new year starts on
+> 	>       > 21st March, and although there are also 12 months they have
+> 	>       > different lengths to gregorian months).  I'm guessing it
+> 	>       > would require loops and such but this is beyond my current
+> 	>       > level of R knowledge.
+> 	>       >
+> 	>       > I have found some online tools that do the conversion of
+> 	>       > individual dates, but there seems to be nothing out there
+> 	>       > that would convert a whole dataset's worth of dates.
+> 	>       >
+> 	>       > Any suggestions much appreciated,
+> 	>       > With best wishes,
+> 	>       > Amy
+> 	>       >
+> 	>       >
+> 	>       > --
+> 	>       > Amy Mikhail
+> 	>       > Program Manager, ACTc Afghanistan Malaria Project London
+> 	>       > School of Hygiene & Tropical Medicine HPRO, Charahi-e-Shahid,
+> 	>       > Shar-e-Naw, Kabul, Afghanistan
+> 	>       >
+> 	>       > Email (Afg): amy.mikhail at googlemail.com
+> 	>       > Email (UK): Amy.Mikhail at lshtm.ac.uk
+> 	>       > Tel (Afg): +93 (0)706 126627
+> 	>       > Tel (UK): +44 (0)781 4176107
+> 	>       >
+> 	>
+> 	>       >       [[alternative HTML version deleted]]
+> 	>       >
+> 	>       > _______________________________________________
+> 	>       > R-sig-Epi at stat.math.ethz.ch mailing list
+> 	>       > https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 	>       >
+> 	>
+> 	>
+> 	>
+> 	>
+> 	> --
+> 	> Amy Mikhail
+> 	> Program Manager, ACTc Afghanistan Malaria Project London
+> 	> School of Hygiene & Tropical Medicine HPRO, Charahi-e-Shahid,
+> 	> Shar-e-Naw, Kabul, Afghanistan
+> 	>
+> 	> Email (Afg): amy.mikhail at googlemail.com
+> 	> Email (UK): Amy.Mikhail at lshtm.ac.uk
+> 	> Tel (Afg): +93 (0)706 126627
+> 	> Tel (UK): +44 (0)781 4176107
+> 	>
+> 	> 
+> 
+> 
+> 
+> 
+> --
+> Amy Mikhail
+> Program Manager, ACTc Afghanistan Malaria Project London School of Hygiene & Tropical Medicine HPRO, Charahi-e-Shahid, Shar-e-Naw, Kabul, Afghanistan
+> 
+> Email (Afg): amy.mikhail at googlemail.com
+> Email (UK): Amy.Mikhail at lshtm.ac.uk
+> Tel (Afg): +93 (0)706 126627
+> Tel (UK): +44 (0)781 4176107
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+-- 
+   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B
+  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K
+ (*) \(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918
+~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907
+
+
+From tlumley at u.washington.edu  Wed Jan  7 18:00:38 2009
+From: tlumley at u.washington.edu (Thomas Lumley)
+Date: Wed, 7 Jan 2009 09:00:38 -0800 (PST)
+Subject: [R-sig-Epi] Converting dates from the Persian calendar to
+ Gregorian
+In-Reply-To: <2F73FA3AF524144C863B7C2C903DBC3301F9553DCF@exdkmbx002.corp.novocorp.net>
+Message-ID: <Pine.LNX.4.43.0901070900380.5680@hymn12.u.washington.edu>
+
+
+I looked at the C code from Project Pluto that Hosseini references, and wrote R wrappers for it.  The C and R code are at
+  http://faculty.washington.edu/tlumley/calendars
+
+I haven't turned it into a package (anyone who wants to is welcome), and it has only been tested to a limited extent and only on Mac OS.
+
+Build the C code with
+   R CMD SHLIB convdates.c date.cpp
+then source("convdates.R")
+
+This sets up an OtherDate class that can hold Persian, Islamic, Hebrew, and the other calendars that the C code supports, with methods to convert to and from Date.
+
+It should be possible to translate the C algorithms into straight R with little loss of efficiency, but that looked like more than an hour's work.
+
+       -thomas
+
+
+
+On Wed, 7 Jan 2009, BXC (Bendix Carstensen) wrote:
+
+> Hi Amy,
+> you probaly already have visited:
+> http://www.codeproject.com/KB/cs/JalaliCalendar.aspx
+> where the Iranian guy Homam Hosseini provides a discussion of the conversion, and some C code to do it.
+>
+> I am a C ignorant, but surely someone in the R-community would be able to take this code (and in collaboration with Homam) provide a function that converts Iranian / Jalali dataes to and from the Gregorian Date class??
+>
+> Best regards
+> Bendix
+>
+>> -----Original Message-----
+>> From: r-sig-epi-bounces at stat.math.ethz.ch
+>> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Amy Mikhail
+>> Sent: 7. januar 2009 12:40
+>> To: r-sig-epi at stat.math.ethz.ch
+>> Subject: [R-sig-Epi] Converting dates from the Persian
+>> calendar to Gregorian
+>>
+>> Dear Epi list,
+>>
+>> This is not a strictly epidemiological question, but an issue
+>> that anyone might face if presented with a dataset containing
+>> dates in a non-gregorian format.
+>>
+>> I am currently developing a database (in MS Access) for a
+>> public health study, the results of which I intend to analyse
+>> in R.  I have a small problem, in that the date each patient
+>> visits the clinic will be entered into the database in the
+>> Persian  / Jalali calendar format - e.g. today's
+>> date in the Persian calendar is 18.10.1387.   For the
+>> analysis however I
+>> need these dates to be converted to Gregorian, so that I can
+>> have months on the x axis of plots, etc.
+>>
+>> Does anyone know of a function / some code already written
+>> that could do this conversion in R?  It is much too complex
+>> for me to figure out (since the Persian new year starts on
+>> 21st March, and although there are also 12 months they have
+>> different lengths to gregorian months).  I'm guessing it
+>> would require loops and such but this is beyond my current
+>> level of R knowledge.
+>>
+>> I have found some online tools that do the conversion of
+>> individual dates, but there seems to be nothing out there
+>> that would convert a whole dataset's worth of dates.
+>>
+>> Any suggestions much appreciated,
+>> With best wishes,
+>> Amy
+>>
+>>
+>> --
+>> Amy Mikhail
+>> Program Manager, ACTc Afghanistan Malaria Project London
+>> School of Hygiene & Tropical Medicine HPRO, Charahi-e-Shahid,
+>> Shar-e-Naw, Kabul, Afghanistan
+>>
+>> Email (Afg): amy.mikhail at googlemail.com
+>> Email (UK): Amy.Mikhail at lshtm.ac.uk
+>> Tel (Afg): +93 (0)706 126627
+>> Tel (UK): +44 (0)781 4176107
+>>
+>> 	[[alternative HTML version deleted]]
+>>
+>> _______________________________________________
+>> R-sig-Epi at stat.math.ethz.ch mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+
+Thomas Lumley			Assoc. Professor, Biostatistics
+tlumley at u.washington.edu	University of Washington, Seattle
+
+
+From amy.mikhail at googlemail.com  Wed Jan  7 20:26:38 2009
+From: amy.mikhail at googlemail.com (Amy Mikhail)
+Date: Wed, 7 Jan 2009 19:26:38 +0000
+Subject: [R-sig-Epi] Converting dates from the Persian calendar to
+	Gregorian
+In-Reply-To: <Pine.LNX.4.43.0901070900380.5680@hymn12.u.washington.edu>
+References: <2F73FA3AF524144C863B7C2C903DBC3301F9553DCF@exdkmbx002.corp.novocorp.net>
+	<Pine.LNX.4.43.0901070900380.5680@hymn12.u.washington.edu>
+Message-ID: <84d389790901071126u5c200bfdk2a6553f6985b8600@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20090107/2ac9a709/attachment.pl>
+
+From tlumley at u.washington.edu  Thu Jan  8 08:21:46 2009
+From: tlumley at u.washington.edu (Thomas Lumley)
+Date: Wed, 7 Jan 2009 23:21:46 -0800 (PST)
+Subject: [R-sig-Epi] Converting dates from the Persian calendar to
+ Gregorian
+In-Reply-To: <84d389790901071126u5c200bfdk2a6553f6985b8600@mail.gmail.com>
+Message-ID: <Pine.LNX.4.43.0901072321460.5530@hymn11.u.washington.edu>
+
+On Wed, 7 Jan 2009, Amy Mikhail wrote:
+
+
+> Forgive my ignorance on this, I have windows XP, so how do I get started -
+> have not sourced code before in R so do I just copy all the files in the
+> below directory to my R library and then source convdates.R from there or?
+>
+
+Unfortunately it's a bit more complicated than that.  The C code needs to be compiled. If you have never used C then you *so* do not want to set this up under Windows.
+
+It sounds as though a package is needed (since then Uwe Ligges' autobuilder will build it for you).  I will make a package.   At least I can use this as an example in teaching R.
+
+      -thoams
+
+Thomas Lumley			Assoc. Professor, Biostatistics
+tlumley at u.washington.edu	University of Washington, Seattle
+
+
+From amy.mikhail at googlemail.com  Thu Jan  8 09:32:58 2009
+From: amy.mikhail at googlemail.com (Amy Mikhail)
+Date: Thu, 8 Jan 2009 08:32:58 +0000
+Subject: [R-sig-Epi] Converting dates from the Persian calendar to
+	Gregorian
+In-Reply-To: <Pine.LNX.4.43.0901072321460.5530@hymn11.u.washington.edu>
+References: <84d389790901071126u5c200bfdk2a6553f6985b8600@mail.gmail.com>
+	<Pine.LNX.4.43.0901072321460.5530@hymn11.u.washington.edu>
+Message-ID: <84d389790901080032x6be78d29t3738555830354589@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20090108/35f33f3e/attachment.pl>
+

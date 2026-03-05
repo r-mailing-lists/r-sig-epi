@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2011-04",
+  "messages": [
+    {
+      "id": "msg-64599b9305ce",
+      "message_id": "<1303825684.13718.8.camel@braque.iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bcc3467147417e7930b92295d6b6e1e40d825ba4817d5fd5066dc9d092f633fb",
+      "date": "2011-04-26T15:48:04+02:00",
+      "subject": "[R-sig-Epi] Course: Statistical Practice in Epidemiology with R",
+      "subject_clean": "Course: Statistical Practice in Epidemiology with R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Many of the subscribers to R-SIG-Epi will be familiar with the course\nStatistical Practice in Epidemiology with R, which normally takes place\nin Tartu, Estonia.  This year, the course will take place in Lyon,\nFrance 5-9 September. \n\nThe course is intended for epidemiologists and statisticians who wish to\nuse R  for statistical modelling and analysis of epidemiological data.\nThe aim of the course is to give participants access to a set of tools\nin current use by statisticians in epidemiology. The course requires\nfairly good understanding of statistical principles and some familiarity\nwith epidemiological concepts and study types.\n\nThe course is mainly practically oriented with more than half the \ntime at the computer.\n\nFor more information see \nhttp://www.iarc.fr/en/education-training/R/\nhttp://www.pubhealth.ku.dk/~BXC/SPE/\n\nTo apply for the course, download and fill in the application form. The\ndeadline for applications is 21 May.\n\n\n\n-----------------------------------------------------------------------\nThis message and its attachments are strictly confidenti...{{dropped:8}}",
+      "body_snippet": "Many of the subscribers to R-SIG-Epi will be familiar with the course\nStatistical Practice in Epidemiology with R, which normally takes place\nin Tartu, Estonia.  This year, the course will take place ",
+      "thread_id": "thread-64599b9305ce",
+      "thread_depth": 0,
+      "month": "2011-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-64599b9305ce",
+      "subject": "Course: Statistical Practice in Epidemiology with R",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2011-04-26T15:48:04+02:00",
+      "last_reply": "2011-04-26T15:48:04+02:00",
+      "root_message_id": "msg-64599b9305ce"
+    }
+  ]
+}

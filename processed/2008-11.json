@@ -1,0 +1,196 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2008-11",
+  "messages": [
+    {
+      "id": "msg-43517e4b3f85",
+      "message_id": "<31b34fca0811190704m24854447nbd0c0321a45df49c@mail.gmail.com>",
+      "from_name": "Neil Shephard",
+      "from_email_hash": "d313f9320200c56c058a6b0222ff357fccb1e4d431e34b4a4f0426413f67c6ad",
+      "date": "2008-11-19T15:04:52Z",
+      "subject": "[R-sig-Epi] Epidemiology Task View?",
+      "subject_clean": "Epidemiology Task View?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\nI was wondering if anyone would find having a Task View (see\nhttp://cran.r-project.org/web/views/ ) for Epidemiology desireable or\nuseful?\n\nI currently co-maintain the Genetics Task View and would be happy to\nhave a go at writing one for Epidemiology having recently shifted the\nfocus of my employment away from Genetic Epidemiology to more\n\"standard\" epidemiological work.\n\nThe following packages are ones that I've identified from the packages list...\n\nEpi\nepiR\nepibasic\nepicalc\nepitools\n\nOther related packages\nbayesSurv  (for survival analysis)\nCPE (for survival analysis)\n\nand I'd probably aim to classify into sub-sections...\n\nCase-Control\nCohort\nIncidence/Mortality\nSurvival\n\nI would greatly appreciate any thoughts/input on this as to\n\na) Packages to include\nb) Suggested sub-categories\n\nRegards\n\nNeil\n-- \n\"We should make things as simple as possible, but not simpler.\"  -\nAnon (not Albert Einstein)\n\nEmail - nshephard at gmail.com\nWebsite - http://slack.ser.man.ac.uk/\nPhotos - http://www.flickr.com/photos/slackline/",
+      "body_snippet": "Hi,\n\nI was wondering if anyone would find having a Task View (see\nhttp://cran.r-project.org/web/views/ ) for Epidemiology desireable or\nuseful?\n\nI currently co-maintain the Genetics Task View and woul",
+      "thread_id": "thread-43517e4b3f85",
+      "thread_depth": 0,
+      "month": "2008-11"
+    },
+    {
+      "id": "msg-b03c84bcb230",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301F908B376@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2008-11-19T20:36:41+01:00",
+      "subject": "[R-sig-Epi] Epidemiology Task View?",
+      "subject_clean": "Epidemiology Task View?",
+      "in_reply_to": "<31b34fca0811190704m24854447nbd0c0321a45df49c@mail.gmail.com>",
+      "references": [],
+      "body_plain": "Neil,\nthis would be a very welcome initiative.\n\nYou could argue that most of the survival stuff belongs here too, but a link to the Task View for survival would suffice.\n\nAdditional topics:\n\nMultistate models  (the msm package; the MSsim function in Epi)\nDemography (demogR package)\n\nOnce you have made a skelton I suggest you post it to this list (and the epitoolds list) and I am sure there will be a couple of people chipping in.\n\nBendix\nmaitainer of Epi package\nlist maintainer, Epi\n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Neil Shephard\n> Sent: 19. november 2008 16:05\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] Epidemiology Task View?\n> \n> Hi,\n> \n> I was wondering if anyone would find having a Task View (see \n> http://cran.r-project.org/web/views/ ) for Epidemiology \n> desireable or useful?\n> \n> I currently co-maintain the Genetics Task View and would be \n> happy to have a go at writing one for Epidemiology having \n> recently shifted the focus of my employment away from Genetic \n> Epidemiology to more \"standard\" epidemiological work.\n> \n> The following packages are ones that I've identified from the \n> packages list...\n> \n> Epi\n> epiR\n> epibasic\n> epicalc\n> epitools\n> \n> Other related packages\n> bayesSurv  (for survival analysis)\n> CPE (for survival analysis)\n> \n> and I'd probably aim to classify into sub-sections...\n> \n> Case-Control\n> Cohort\n> Incidence/Mortality\n> Survival\n> \n> I would greatly appreciate any thoughts/input on this as to\n> \n> a) Packages to include\n> b) Suggested sub-categories\n> \n> Regards\n> \n> Neil\n> --\n> \"We should make things as simple as possible, but not \n> simpler.\"  - Anon (not Albert Einstein)\n> \n> Email - nshephard at gmail.com\n> Website - http://slack.ser.man.ac.uk/\n> Photos - http://www.flickr.com/photos/slackline/\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "Neil,\nthis would be a very welcome initiative.\n\nYou could argue that most of the survival stuff belongs here too, but a link to the Task View for survival would suffice.\n\nAdditional topics:\n\nMultistat",
+      "thread_id": "thread-43517e4b3f85",
+      "thread_depth": 1,
+      "month": "2008-11"
+    },
+    {
+      "id": "msg-3976d2e0fae4",
+      "message_id": "<31b34fca0811210314s1dc44f74r1a97e4966a0716c1@mail.gmail.com>",
+      "from_name": "Neil Shephard",
+      "from_email_hash": "d313f9320200c56c058a6b0222ff357fccb1e4d431e34b4a4f0426413f67c6ad",
+      "date": "2008-11-21T11:14:33Z",
+      "subject": "[R-sig-Epi] Epidemiology Task View",
+      "subject_clean": "Epidemiology Task View",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thanks to all who have responded both on the list and directly.\n\nIt seems that an Epidemiology Task View would be useful and a number\nof suggestions have already been made.  Incorporating and expanding on\nthis I now have the following categories with suggested packages...\n\nCase-Control : Epi, epiR epibasic, epicalc, epitools\nCohort : Epi epiR, epibasic epicalc epitools\nIncidence/Mortality :\nDemography : demogR\n\nAdditional Sections (Bendix Carstensen & Bernardo Rangel Tura)\n\nMultistate Models : msm, MSsim() function in Epi  (BC)\nSurvival : Refer to Survival Task View (BC)\nDesign of Studies : clinfun, PwrGSD , crossdes, Design (BRT)\nDiagnosis : DiagnosisMed (BRT)\nClinical Trials : clinfun (BRT)\nEpidemiologic Surveillance (BRT)\nMeta-analysis : rmeta (BRT)\nGIS/geographical mapping : r-spatial (http://r-spatial.sourceforge.net/) (NS)\n\nAdditional Packages (Bernardo Rangel Tura) not sure which sections these fit in\nrhosp: Side effect risks in hospital : simulation and estimation\ncatmap: Case-control And Tdt Meta-Analysis Package  (is this used in\nepidemiology?  I'd have used in statistical genetics/genetic\nepidemiology, and its already in the Genetics Task View  but does it\nhave a wider application I'm unaware of?)\npARccs: Estimation of partial attributable risks (PAR) from case-control data\nGroupSeq: Performing computations related to group sequential designs\nBayHaz: R Functions for Bayesian Hazard Rate Estimation\n\n\nOne difference from the Genetics Task View which generally describes\nwhich packages to use for a given area is that many of the\nEpidemiological packages have funcitons that cover several of the\nsuggested sections (i.e. Epi/epiR/epibasic/epicalc/epitools span\nseveral sections).  Thus I feel that it would be useful to mention\nwhich functions within a given package are useful for a particular\ntask.\n\nClearly there are more packages than I'm familiar with, but I can read\nthe package descriptions to find out whats what and which functions\nare available for each area.\n\nI'll have a go at knocking up a draft document over the coming weeks\nand will post a copy to the list when I've got something worth\ndistributing.  No time frame I'm afraid (yet).  Any more input is of\ncourse more than welcome.\n\nThanks for the encouragement,\n\nNeil\n-- \n\"We should make things as simple as possible, but not simpler.\"  -\nAnon (not Albert Einstein)\n\nEmail - nshephard at gmail.com\nWebsite - http://slack.ser.man.ac.uk/\nPhotos - http://www.flickr.com/photos/slackline/",
+      "body_snippet": "Thanks to all who have responded both on the list and directly.\n\nIt seems that an Epidemiology Task View would be useful and a number\nof suggestions have already been made.  Incorporating and expandin",
+      "thread_id": "thread-3976d2e0fae4",
+      "thread_depth": 0,
+      "month": "2008-11"
+    },
+    {
+      "id": "msg-105bacebae7b",
+      "message_id": "<1227308041.6438.6.camel@R1-Thux>",
+      "from_name": "Bernardo Rangel Tura",
+      "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
+      "date": "2008-11-21T20:54:01-02:00",
+      "subject": "[R-sig-Epi] Epidemiology Task View",
+      "subject_clean": "Epidemiology Task View",
+      "in_reply_to": "<31b34fca0811210314s1dc44f74r1a97e4966a0716c1@mail.gmail.com>",
+      "references": [
+        "<31b34fca0811210314s1dc44f74r1a97e4966a0716c1@mail.gmail.com>"
+      ],
+      "body_plain": "On Fri, 2008-11-21 at 11:14 +0000, Neil Shephard wrote:\n> Thanks to all who have responded both on the list and directly.\n> \n> It seems that an Epidemiology Task View would be useful and a number\n> of suggestions have already been made.  Incorporating and expanding on\n> this I now have the following categories with suggested packages...\n> \n> Case-Control : Epi, epiR epibasic, epicalc, epitools\n> Cohort : Epi epiR, epibasic epicalc epitools\n> Incidence/Mortality :\n> Demography : demogR\n> \n> Additional Sections (Bendix Carstensen & Bernardo Rangel Tura)\n> \n> Multistate Models : msm, MSsim() function in Epi  (BC)\n> Survival : Refer to Survival Task View (BC)\n> Design of Studies : clinfun, PwrGSD , crossdes, Design (BRT)\n> Diagnosis : DiagnosisMed (BRT)\n> Clinical Trials : clinfun (BRT)\n> Epidemiologic Surveillance (BRT)\n> Meta-analysis : rmeta (BRT)\n> GIS/geographical mapping : r-spatial (http://r-spatial.sourceforge.net/) (NS)\n> \n> Additional Packages (Bernardo Rangel Tura) not sure which sections these fit in\n> rhosp: Side effect risks in hospital : simulation and estimation\n> catmap: Case-control And Tdt Meta-Analysis Package  (is this used in\n> epidemiology?  I'd have used in statistical genetics/genetic\n> epidemiology, and its already in the Genetics Task View  but does it\n> have a wider application I'm unaware of?)\n\nWell... I think meta-analysis of case-control is very useful in specific\nfields of epidemiology ...\n\n> pARccs: Estimation of partial attributable risks (PAR) from case-control data\n> GroupSeq: Performing computations related to group sequential designs\n> BayHaz: R Functions for Bayesian Hazard Rate Estimation\n> \n> \n> One difference from the Genetics Task View which generally describes\n> which packages to use for a given area is that many of the\n> Epidemiological packages have funcitons that cover several of the\n> suggested sections (i.e. Epi/epiR/epibasic/epicalc/epitools span\n> several sections).  Thus I feel that it would be useful to mention\n> which functions within a given package are useful for a particular\n> task.\n> \n> Clearly there are more packages than I'm familiar with, but I can read\n> the package descriptions to find out whats what and which functions\n> are available for each area.\n> \n> I'll have a go at knocking up a draft document over the coming weeks\n> and will post a copy to the list when I've got something worth\n> distributing.  No time frame I'm afraid (yet).  Any more input is of\n> course more than welcome.\n\nwhen draft is ready I can review de text....\n> \n> Thanks for the encouragement,\n> \n> Neil\n\nThanks for your effort\n\n-- \nBernardo Rangel Tura, M.D,MPH,Ph.D\nNational Institute of Cardiology\nBrazil",
+      "body_snippet": "On Fri, 2008-11-21 at 11:14 +0000, Neil Shephard wrote:\n> Thanks to all who have responded both on the list and directly.\n> \n> It seems that an Epidemiology Task View would be useful and a number\n> of",
+      "thread_id": "thread-3976d2e0fae4",
+      "thread_depth": 1,
+      "month": "2008-11"
+    },
+    {
+      "id": "msg-46983787946c",
+      "message_id": "<EE296A5F-4E64-4716-B9A0-7D4D13B34CC2@comcast.net>",
+      "from_name": "David Winsemius",
+      "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
+      "date": "2008-11-23T23:51:39-05:00",
+      "subject": "[R-sig-Epi] Epidemiology Task View",
+      "subject_clean": "Epidemiology Task View",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear EpidemiRogists;\n\n\" ... this I now have the following categories with suggested  \npackages...\n\nCase-Control : Epi, epiR epibasic, epicalc, epitools\nCohort : Epi epiR, epibasic epicalc epitools\nIncidence/Mortality :\nDemography : demogR   \"\n\n\nI notice that there were no suggested entries for Incidence/Mortality.  \nI would have thought that glm (for Poisson regression), survival, and  \nHarrell's Design/Hmisc packages would fit there, although I also saw  \nthat there are also plans for a cross-reference to the Survival Task  \nView. I do not see a problem in having some overlap with other Task  \nViews at least in \"obvious\" slots.\n\nI have also notice that analysis of ROC curves comes up in r-help  \nfairly commonly. I am not a big fan of these and do not have any  \nrecommendations to propose as a result, but maybe some notice of the  \npotential problems could surround references to packages that offer  \nthat desired facility?\n\n-- \nDavid Winsemius, MD\nHeritage Labs",
+      "body_snippet": "Dear EpidemiRogists;\n\n\" ... this I now have the following categories with suggested  \npackages...\n\nCase-Control : Epi, epiR epibasic, epicalc, epitools\nCohort : Epi epiR, epibasic epicalc epitools\nInc",
+      "thread_id": "thread-46983787946c",
+      "thread_depth": 0,
+      "month": "2008-11"
+    },
+    {
+      "id": "msg-6637ba007996",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301F931941F@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2008-11-24T09:20:12+01:00",
+      "subject": "[R-sig-Epi] Epidemiology Task View",
+      "subject_clean": "Epidemiology Task View",
+      "in_reply_to": "<EE296A5F-4E64-4716-B9A0-7D4D13B34CC2@comcast.net>",
+      "references": [],
+      "body_plain": "In the Epi package is a function ROC.\nBendix \n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> David Winsemius\n> Sent: 24. november 2008 05:52\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: Re: [R-sig-Epi] Epidemiology Task View\n> \n> Dear EpidemiRogists;\n> \n> \" ... this I now have the following categories with suggested \n> packages...\n> \n> Case-Control : Epi, epiR epibasic, epicalc, epitools Cohort : \n> Epi epiR, epibasic epicalc epitools Incidence/Mortality :\n> Demography : demogR   \"\n> \n> \n> I notice that there were no suggested entries for \n> Incidence/Mortality.  \n> I would have thought that glm (for Poisson regression), \n> survival, and Harrell's Design/Hmisc packages would fit \n> there, although I also saw that there are also plans for a \n> cross-reference to the Survival Task View. I do not see a \n> problem in having some overlap with other Task Views at least \n> in \"obvious\" slots.\n> \n> I have also notice that analysis of ROC curves comes up in \n> r-help fairly commonly. I am not a big fan of these and do \n> not have any recommendations to propose as a result, but \n> maybe some notice of the potential problems could surround \n> references to packages that offer that desired facility?\n> \n> --\n> David Winsemius, MD\n> Heritage Labs\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "In the Epi package is a function ROC.\nBendix \n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> David Wins",
+      "thread_id": "thread-46983787946c",
+      "thread_depth": 1,
+      "month": "2008-11"
+    },
+    {
+      "id": "msg-be14893c16d4",
+      "message_id": "<DC592E5C-9521-41BA-B1EF-CE7D86F42190@comcast.net>",
+      "from_name": "David Winsemius",
+      "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
+      "date": "2008-11-24T11:11:09-05:00",
+      "subject": "[R-sig-Epi] Epidemiology Task View",
+      "subject_clean": "Epidemiology Task View",
+      "in_reply_to": "<2F73FA3AF524144C863B7C2C903DBC3301F931941F@exdkmbx002.corp.novocorp.net>",
+      "references": [
+        "<2F73FA3AF524144C863B7C2C903DBC3301F931941F@exdkmbx002.corp.novocorp.net>"
+      ],
+      "body_plain": "Thanks, Bendix;\n\nI haven't been involved in teaching R and so have not gone looking for  \nstuff I don't use. I think my suggestion to add links to functions or  \npackages with ability to create ROC curves should be taken in the  \nspirit of responding to Neil's request for ideas about this notion:  \n\"Thus I feel that it would be useful to mention which functions within  \na given package are useful for a particular task.\" My personal hope  \nwould be that the ROC producing functions which label the cutpoints on  \nthe curves by default should be given favorable notice. The widespread  \npractice of publishing ROC curves which do not have cutpoint labels  \nshould be deplored.\n\nI just looked at the Distributions Task View (prompted by the  \nannouncement of a revision). I notice that it first listed the  \nfacilities in its domain that are part of the base R and  later had  \nsections for available packages that extended the functionality.\n\nIf such an organization were chosen, I would nominate mantelhaen.test  \nas a base \"epi\" function of at least classical epidemiologic note.\n\nhttp://sekhon.berkeley.edu/stats/html/mantelhaen.test.html\n(It is interesting that so many other elaborations of that function  \nhave been written in the epi-packages.)\n\nThe coin package deserves mention for its provision of \"exact\" tests.\n\nIn searching further on the extensions or elaborations of the Mantel- \nHaenszel test I also found the package MDD (minimal detectable  \ndifference) and TSHRC (two stage hazard rate comparison) which look  \nworthy of inclusion.\n\nBecause their vignettes start out with longitudinal data analysis and  \nalso include a chapter on meta-analysis as well as many worked  \nexamples of meat-and-potatoes methods in epidemiology, I think the  \nHSAUR package and accompanying vignettes could have separate links.\nhttp://cran.r-project.org/web/packages/HSAUR/\nhttp://cran.r-project.org/web/packages/HSAUR/vignettes/\n\nBest;\nDavid Winsemius, MD, MPH\nHeritage Labs\n\n\nOn Nov 24, 2008, at 3:20 AM, BXC (Bendix Carstensen) wrote:\n\n> In the Epi package is a function ROC.\n> Bendix\n>\n>> -----Original Message-----\n>> From: r-sig-epi-bounces at stat.math.ethz.ch\n>> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of\n>> David Winsemius\n>> Sent: 24. november 2008 05:52\n>> To: r-sig-epi at stat.math.ethz.ch\n>> Subject: Re: [R-sig-Epi] Epidemiology Task View\n>>\n>> Dear EpidemiRogists;\n>>\n>> \" ... this I now have the following categories with suggested\n>> packages...\n>>\n>> Case-Control : Epi, epiR epibasic, epicalc, epitools Cohort :\n>> Epi epiR, epibasic epicalc epitools Incidence/Mortality :\n>> Demography : demogR   \"\n>>\n>>\n>> I notice that there were no suggested entries for\n>> Incidence/Mortality.\n>> I would have thought that glm (for Poisson regression),\n>> survival, and Harrell's Design/Hmisc packages would fit\n>> there, although I also saw that there are also plans for a\n>> cross-reference to the Survival Task View. I do not see a\n>> problem in having some overlap with other Task Views at least\n>> in \"obvious\" slots.\n>>\n>> I have also notice that analysis of ROC curves comes up in\n>> r-help fairly commonly. I am not a big fan of these and do\n>> not have any recommendations to propose as a result, but\n>> maybe some notice of the potential problems could surround\n>> references to packages that offer that desired facility?\n>>\n>> --\n>> David Winsemius, MD\n>> Heritage Labs\n>>\n>> _______________________________________________\n>> R-sig-Epi at stat.math.ethz.ch mailing list\n>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>>",
+      "body_snippet": "Thanks, Bendix;\n\nI haven't been involved in teaching R and so have not gone looking for  \nstuff I don't use. I think my suggestion to add links to functions or  \npackages with ability to create ROC cu",
+      "thread_id": "thread-46983787946c",
+      "thread_depth": 2,
+      "month": "2008-11"
+    },
+    {
+      "id": "msg-cdee100f1362",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301F93196D0@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2008-11-24T17:36:49+01:00",
+      "subject": "[R-sig-Epi] Epidemiology Task View",
+      "subject_clean": "Epidemiology Task View",
+      "in_reply_to": "<DC592E5C-9521-41BA-B1EF-CE7D86F42190@comcast.net>",
+      "references": [],
+      "body_plain": "David,\n\nI do not think an epidemiology task view should put so much emphasis on a historically outdated procedure as MH, particularly since the reason that it is outdated is the advent of computing facilities. After all, MH is just a first step approximation to a (simple) regression estimate, designed for a pocket calculator. It's all in glm, and much better and simpler there.\nIt is widely implemented because it is a nice little starting exercise to do if you want to practice constructing R-packages, not because of its relevance. Only code consistency, not relvance or correctness is checked on CRAN.\n\nIf details on how the various ROC implentations work should be mentioned we will soon be writing an entire book. \n\nThe purpose of a task view is merely to point the reader to those manual pages where she might find useful functions. On the assumption that the reader is sane. And hence in the case of an Epi Task View knows about glms for epidemiology.\n\nBendix\n\n> -----Original Message-----\n> From: David Winsemius [mailto:dwinsemius at comcast.net] \n> Sent: 24. november 2008 17:11\n> To: BXC (Bendix Carstensen)\n> Cc: r-sig-epi at stat.math.ethz.ch\n> Subject: Re: [R-sig-Epi] Epidemiology Task View\n> \n> Thanks, Bendix;\n> \n> I haven't been involved in teaching R and so have not gone \n> looking for stuff I don't use. I think my suggestion to add \n> links to functions or packages with ability to create ROC \n> curves should be taken in the spirit of responding to Neil's \n> request for ideas about this notion:  \n> \"Thus I feel that it would be useful to mention which \n> functions within a given package are useful for a particular \n> task.\" My personal hope would be that the ROC producing \n> functions which label the cutpoints on the curves by default \n> should be given favorable notice. The widespread practice of \n> publishing ROC curves which do not have cutpoint labels \n> should be deplored.\n> \n> I just looked at the Distributions Task View (prompted by the \n> announcement of a revision). I notice that it first listed \n> the facilities in its domain that are part of the base R and  \n> later had sections for available packages that extended the \n> functionality.\n> \n> If such an organization were chosen, I would nominate \n> mantelhaen.test as a base \"epi\" function of at least \n> classical epidemiologic note.\n> \n> http://sekhon.berkeley.edu/stats/html/mantelhaen.test.html\n> (It is interesting that so many other elaborations of that \n> function have been written in the epi-packages.)\n> \n> The coin package deserves mention for its provision of \"exact\" tests.\n> \n> In searching further on the extensions or elaborations of the \n> Mantel- Haenszel test I also found the package MDD (minimal detectable\n> difference) and TSHRC (two stage hazard rate comparison) \n> which look worthy of inclusion.\n> \n> Because their vignettes start out with longitudinal data \n> analysis and also include a chapter on meta-analysis as well \n> as many worked examples of meat-and-potatoes methods in \n> epidemiology, I think the HSAUR package and accompanying \n> vignettes could have separate links.\n> http://cran.r-project.org/web/packages/HSAUR/\n> http://cran.r-project.org/web/packages/HSAUR/vignettes/\n> \n> Best;\n> David Winsemius, MD, MPH\n> Heritage Labs\n> \n> \n> On Nov 24, 2008, at 3:20 AM, BXC (Bendix Carstensen) wrote:\n> \n> > In the Epi package is a function ROC.\n> > Bendix\n> >\n> >> -----Original Message-----\n> >> From: r-sig-epi-bounces at stat.math.ethz.ch\n> >> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of\n> >> David Winsemius\n> >> Sent: 24. november 2008 05:52\n> >> To: r-sig-epi at stat.math.ethz.ch\n> >> Subject: Re: [R-sig-Epi] Epidemiology Task View\n> >>\n> >> Dear EpidemiRogists;\n> >>\n> >> \" ... this I now have the following categories with suggested\n> >> packages...\n> >>\n> >> Case-Control : Epi, epiR epibasic, epicalc, epitools Cohort :\n> >> Epi epiR, epibasic epicalc epitools Incidence/Mortality :\n> >> Demography : demogR   \"\n> >>\n> >>\n> >> I notice that there were no suggested entries for\n> >> Incidence/Mortality.\n> >> I would have thought that glm (for Poisson regression),\n> >> survival, and Harrell's Design/Hmisc packages would fit\n> >> there, although I also saw that there are also plans for a\n> >> cross-reference to the Survival Task View. I do not see a\n> >> problem in having some overlap with other Task Views at least\n> >> in \"obvious\" slots.\n> >>\n> >> I have also notice that analysis of ROC curves comes up in\n> >> r-help fairly commonly. I am not a big fan of these and do\n> >> not have any recommendations to propose as a result, but\n> >> maybe some notice of the potential problems could surround\n> >> references to packages that offer that desired facility?\n> >>\n> >> --\n> >> David Winsemius, MD\n> >> Heritage Labs\n> >>\n> >> _______________________________________________\n> >> R-sig-Epi at stat.math.ethz.ch mailing list\n> >> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> >>\n> \n>",
+      "body_snippet": "David,\n\nI do not think an epidemiology task view should put so much emphasis on a historically outdated procedure as MH, particularly since the reason that it is outdated is the advent of computing fa",
+      "thread_id": "thread-46983787946c",
+      "thread_depth": 3,
+      "month": "2008-11"
+    },
+    {
+      "id": "msg-b80341d5683e",
+      "message_id": "<1227602068.6365.0.camel@R1-Thux>",
+      "from_name": "Bernardo Rangel Tura",
+      "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
+      "date": "2008-11-25T06:34:28-02:00",
+      "subject": "[R-sig-Epi] Epidemiology Task View",
+      "subject_clean": "Epidemiology Task View",
+      "in_reply_to": "<EE296A5F-4E64-4716-B9A0-7D4D13B34CC2@comcast.net>",
+      "references": [
+        "<EE296A5F-4E64-4716-B9A0-7D4D13B34CC2@comcast.net>"
+      ],
+      "body_plain": "On Sun, 2008-11-23 at 23:51 -0500, David Winsemius wrote:\n> Dear EpidemiRogists;\n> \n> \" ... this I now have the following categories with suggested  \n> packages...\n> \n> Case-Control : Epi, epiR epibasic, epicalc, epitools\n> Cohort : Epi epiR, epibasic epicalc epitools\n> Incidence/Mortality :\n> Demography : demogR   \"\n> \n> \n> I notice that there were no suggested entries for Incidence/Mortality.  \n> I would have thought that glm (for Poisson regression), survival, and  \n> Harrell's Design/Hmisc packages would fit there, although I also saw  \n> that there are also plans for a cross-reference to the Survival Task  \n> View. I do not see a problem in having some overlap with other Task  \n> Views at least in \"obvious\" slots.\n> \n> I have also notice that analysis of ROC curves comes up in r-help  \n> fairly commonly. I am not a big fan of these and do not have any  \n> recommendations to propose as a result, but maybe some notice of the  \n> potential problems could surround references to packages that offer  \n> that desired facility?\n\nThe roc curve have in two packages Epi and DiagnosisMed\n> \n-- \nBernardo Rangel Tura, M.D,MPH,Ph.D\nNational Institute of Cardiology\nBrazil",
+      "body_snippet": "On Sun, 2008-11-23 at 23:51 -0500, David Winsemius wrote:\n> Dear EpidemiRogists;\n> \n> \" ... this I now have the following categories with suggested  \n> packages...\n> \n> Case-Control : Epi, epiR epibas",
+      "thread_id": "thread-46983787946c",
+      "thread_depth": 1,
+      "month": "2008-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-43517e4b3f85",
+      "subject": "Epidemiology Task View?",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Neil Shephard"
+      ],
+      "started": "2008-11-19T15:04:52+00:00",
+      "last_reply": "2008-11-19T20:36:41+01:00",
+      "root_message_id": "msg-43517e4b3f85"
+    },
+    {
+      "id": "thread-3976d2e0fae4",
+      "subject": "Epidemiology Task View",
+      "message_count": 2,
+      "participants": [
+        "Bernardo Rangel Tura",
+        "Neil Shephard"
+      ],
+      "started": "2008-11-21T11:14:33+00:00",
+      "last_reply": "2008-11-21T20:54:01-02:00",
+      "root_message_id": "msg-3976d2e0fae4"
+    },
+    {
+      "id": "thread-46983787946c",
+      "subject": "Epidemiology Task View",
+      "message_count": 5,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Bernardo Rangel Tura",
+        "David Winsemius"
+      ],
+      "started": "2008-11-23T23:51:39-05:00",
+      "last_reply": "2008-11-25T06:34:28-02:00",
+      "root_message_id": "msg-46983787946c"
+    }
+  ]
+}

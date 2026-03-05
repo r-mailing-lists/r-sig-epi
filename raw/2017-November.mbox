@@ -1,0 +1,58 @@
+From 407600ab at student.eur.nl  Wed Nov 29 18:14:57 2017
+From: 407600ab at student.eur.nl (Lisa van der Burgh)
+Date: Wed, 29 Nov 2017 17:14:57 +0000
+Subject: [R-sig-Epi] Question about AFT models
+Message-ID: <AM5PR0202MB2593086B0C9D1A8FD19E07A0F53B0@AM5PR0202MB2593.eurprd02.prod.outlook.com>
+
+Hello everyone,
+
+
+I am doing a survival analysis at the moment. I want to make an AFT model in R. I have fitted the following model:
+
+fit1 <- survreg(Surv(TimeVentilator, event) ~ (age + sex + mutation + BM1 + BM2)^2, data = DF,
+                dist = "weibull")
+summary(fit1)
+
+
+I want to test if the weibull distribution is the good distribution. I tested this in the following way:
+
+fits <- fit1$linear.predictors
+resids <- (fit1$y[, 1] - fits) / fit1$scale
+resKM <- survfit(Surv(resids, event = ) ~ 1, data = DF)
+
+plot(resKM, mark.time = FALSE, xlab = "AFT Residuals",
+     ylab = "Survival Probability", main = "Dataset: Pompe Disease")
+
+xx <- seq(min(resids), max(resids), length.out = 35)
+yy <- exp(- exp(xx))
+lines(xx, yy, col = "red", lwd = 2)
+
+
+
+I saw that the weibull distribution is not a good distribution. I found that I can also test other distributions by changing the yy command.
+
+
+I found this:
+
+if you have fitted an AFT models assuming the log-normal distribution, you should use yy <- pnorm(xx, lower.tail = FALSE), and if you have fitted an AFT model assuming the log-logistic distribution, you should use yy <- plogis(xx, lower.tail = FALSE).
+
+
+So I tried that, but still, the distributions do not fit my data.
+
+Can you help me how to change the yy so that I can test other distributions for the AFT model? Like the students t distribution. I found the possible distributions, but I cannot find the R code for this.
+
+
+I really hope that someone can help me with this!
+
+
+Thankyou in advance,
+
+
+Best,
+
+Lisa
+
+
+	[[alternative HTML version deleted]]
+
+

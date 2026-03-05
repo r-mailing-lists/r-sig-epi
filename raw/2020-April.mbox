@@ -1,0 +1,24 @@
+From yxc72 @end|ng |rom c@@e@edu  Mon Apr 27 23:10:12 2020
+From: yxc72 @end|ng |rom c@@e@edu (Yanwen Chen)
+Date: Mon, 27 Apr 2020 17:10:12 -0400
+Subject: [R-sig-Epi] a question about the r package Epi
+Message-ID: <CA+ZD8v6-F7GBN24CeghYOmQghM2TrKLsDF-gv+-CMjLTY3MeUw@mail.gmail.com>
+
+Hi,
+I have a question about the r package Epi.  I used the following code:
+rc <- ROC(form = data$event ~ data$continuous, plot="ROC")
+I used this code and want to find out the optimum cutoff of my continuous
+variable.  It seemed it works.  I also got a ROC curve indicating the
+corresponding sensitivity,  specificity, PV+ and PV-.  However, I found
+that the sensitivity and specificity are correct.  But PV+ and PV- are
+actually 1-PV+ and 1-PV-.
+Is that what designed by the package?
+
+Thank you.
+
+Best,
+Yanwen
+
+	[[alternative HTML version deleted]]
+
+

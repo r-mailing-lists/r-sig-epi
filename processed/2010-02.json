@@ -1,0 +1,208 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2010-02",
+  "messages": [
+    {
+      "id": "msg-1ef085128bda",
+      "message_id": "<84d389791002011310k2b14ddeauc097767bcd14652c@mail.gmail.com>",
+      "from_name": "Amy Mikhail",
+      "from_email_hash": "497d1c084bc2f7ddae6276aad3ec733f0e41bcf3cc71503f4c3e41c9689d1545",
+      "date": "2010-02-02T01:40:07+04:30",
+      "subject": "[R-sig-Epi] Problem with DiagnosisMed package",
+      "subject_clean": "Problem with DiagnosisMed package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/bde72d73/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/bde72d73/attachment.pl>",
+      "thread_id": "thread-1ef085128bda",
+      "thread_depth": 0,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-afdc64747a19",
+      "message_id": "<3E64370F-73E7-4C43-A607-7B54E1AB149A@comcast.net>",
+      "from_name": "David Winsemius",
+      "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
+      "date": "2010-02-01T16:33:51-05:00",
+      "subject": "[R-sig-Epi] Problem with DiagnosisMed package",
+      "subject_clean": "Problem with DiagnosisMed package",
+      "in_reply_to": "<84d389791002011310k2b14ddeauc097767bcd14652c@mail.gmail.com>",
+      "references": [
+        "<84d389791002011310k2b14ddeauc097767bcd14652c@mail.gmail.com>"
+      ],
+      "body_plain": "On Feb 1, 2010, at 4:10 PM, Amy Mikhail wrote:\n\n> Dear R epidemiologists,\n>\n> I have been trying to find the simplest possible way to:\n>\n> (a) Create contingency tables,\n\n?xtabs\n\n> (b) Perform a chi square or fisher exact test on those contingency  \n> tables,\n> and\n\n?chisq.test\n?fisher.test\n\n\n> (c) Determine sensitivity, specificity and predictive values etc  \n> from a\n> rapid test compared to gold standard.\n\nThose concepts are more typically used with a continuous test result  \nsuch as hemoglobin or ALT that is predicting a \"diagnosis\". The ROC  \nplotting facilities in the Epi package are quite good if that were the  \ndata situation.\n\n\n>\n> More on my contingency table problem later, but for now problem (c):\n>\n> I tried to use the DiagnosisMed package, since by the description it  \n> seemed\n> I could use my two variables (gold standard test results and results  \n> of test\n> being evaluated) directly with the function (i.e. no need to make a  \n> 2x2\n> table first since the function would do this as well).\n>\n> I carefully coded my gold standard and test results as \"positive\" and\n> \"negative\", and removed all NAs.  I converted both columns from  \n> character to\n> factors (which now had 2 levels).\n>\n> Then I tried this:\n>\n> diagnosis(ref, r1a)\n\nNo experience with that package.\n\n>\n> where ref is my gold standard and r1a is my test being evaluated.\n>\n> I got this error:\n>\n> Error in uniroot(function(or) { :\n>  f() values at end points not of opposite sign\n>\n> I can't understand why - the data is as clean as a whistle.  Here is  \n> the\n> summary, fyi (six tests are being evaluated against one gold  \n> standard):\n>\n> summary(analc)\n>       ref            r1a            r1b            r2a\n> r2b            r3a            r3b\n> negative: 18   negative: 19   negative: 19   negative: 36    \n> negative: 33\n> negative: 23   negative: 22\n> positive:202   positive:201   positive:201   positive:184   positive: \n> 187\n> positive:197   positive:198\n>\n> Did I misunderstand?  Does the diagnosis function require a 2x2  \n> table as\n> input?\n>\n> Many thanks,\n> Amy\n-- \n\nDavid Winsemius, MD\nHeritage Laboratories\nWest Hartford, CT",
+      "body_snippet": "On Feb 1, 2010, at 4:10 PM, Amy Mikhail wrote:\n\n> Dear R epidemiologists,\n>\n> I have been trying to find the simplest possible way to:\n>\n> (a) Create contingency tables,\n\n?xtabs\n\n> (b) Perform a chi s",
+      "thread_id": "thread-1ef085128bda",
+      "thread_depth": 1,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-d207446d59f7",
+      "message_id": "<84d389791002011334q12455c3ew7b60efb69244e420@mail.gmail.com>",
+      "from_name": "Amy Mikhail",
+      "from_email_hash": "497d1c084bc2f7ddae6276aad3ec733f0e41bcf3cc71503f4c3e41c9689d1545",
+      "date": "2010-02-02T02:04:35+04:30",
+      "subject": "[R-sig-Epi] Incorrect instructions for epibasix sensSpec?",
+      "subject_clean": "Incorrect instructions for epibasix sensSpec?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/8cd5f710/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/8cd5f710/attachment.pl>",
+      "thread_id": "thread-d207446d59f7",
+      "thread_depth": 0,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-116993c0e310",
+      "message_id": "<84d389791002011401t2e4c89f6pb884e4b9cae2c75@mail.gmail.com>",
+      "from_name": "Amy Mikhail",
+      "from_email_hash": "497d1c084bc2f7ddae6276aad3ec733f0e41bcf3cc71503f4c3e41c9689d1545",
+      "date": "2010-02-02T02:31:41+04:30",
+      "subject": "[R-sig-Epi] Problem with DiagnosisMed package",
+      "subject_clean": "Problem with DiagnosisMed package",
+      "in_reply_to": "<3E64370F-73E7-4C43-A607-7B54E1AB149A@comcast.net>",
+      "references": [
+        "<84d389791002011310k2b14ddeauc097767bcd14652c@mail.gmail.com>",
+        "<3E64370F-73E7-4C43-A607-7B54E1AB149A@comcast.net>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/75339279/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/75339279/attachment.pl>",
+      "thread_id": "thread-1ef085128bda",
+      "thread_depth": 2,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-2d2d52194a18",
+      "message_id": "<4B674FF4.5070602@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2010-02-01T23:04:36+01:00",
+      "subject": "[R-sig-Epi] Incorrect instructions for epibasix sensSpec?",
+      "subject_clean": "Incorrect instructions for epibasix sensSpec?",
+      "in_reply_to": "<84d389791002011334q12455c3ew7b60efb69244e420@mail.gmail.com>",
+      "references": [
+        "<84d389791002011334q12455c3ew7b60efb69244e420@mail.gmail.com>"
+      ],
+      "body_plain": "Amy Mikhail wrote:\n> Dear R epidemiologists,\n> \n> The package help for the above function states:\n> \n> Arguments X A 2x2 matrix, with Gold Standard Class A and B in the columns\n> and Comparison Method A and B in the rows.\n> I understood this to mean the following:\n> \n>                                    Gold standard\n> Comparison method         A (neg)     B (pos)\n> A  (neg)                          18             1\n> B   (pos)                          0              201\n> \n> However, it gives the results backwards:\n> \n>  sensSpec(t1)\n> \n>  Simple Sensitivity and Specitivity Output\n> \n> Input Matrix:\n>           ref\n> r1a        negative positive\n>   negative       18        1\n>   positive        0      201\n> \n> The sample of sensitivity is: 100%\n> \n> The sample of specificity is: 99.5%\n> \n> but if you calculate the sensitivity and specificity by hand, sensitivity is\n> 99.5 and specificity is 100%....\n> \n\nThat depends on the definition of negative and positive.\n\nThe documentation is certainly unclear, but it seems likely that the \nintention is for the table to have positives in the first row and \ncolumn. Have you consulted the reference given? (Notably, the example \ntable.)\n\n\n-- \n    O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n   c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n  (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "Amy Mikhail wrote:\n> Dear R epidemiologists,\n> \n> The package help for the above function states:\n> \n> Arguments X A 2x2 matrix, with Gold Standard Class A and B in the columns\n> and Comparison Method",
+      "thread_id": "thread-d207446d59f7",
+      "thread_depth": 1,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-afe8f5265011",
+      "message_id": "<84d389791002011423i47c9622sf4bac2c4dbfd1162@mail.gmail.com>",
+      "from_name": "Amy Mikhail",
+      "from_email_hash": "497d1c084bc2f7ddae6276aad3ec733f0e41bcf3cc71503f4c3e41c9689d1545",
+      "date": "2010-02-02T02:53:41+04:30",
+      "subject": "[R-sig-Epi] Incorrect instructions for epibasix sensSpec?",
+      "subject_clean": "Incorrect instructions for epibasix sensSpec?",
+      "in_reply_to": "<4B674FF4.5070602@biostat.ku.dk>",
+      "references": [
+        "<84d389791002011334q12455c3ew7b60efb69244e420@mail.gmail.com>",
+        "<4B674FF4.5070602@biostat.ku.dk>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/de5de9a7/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/de5de9a7/attachment.pl>",
+      "thread_id": "thread-d207446d59f7",
+      "thread_depth": 2,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-61a9114ac53b",
+      "message_id": "<1363E409-CB9C-4D79-B822-0B332FC5C8A0@comcast.net>",
+      "from_name": "David Winsemius",
+      "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
+      "date": "2010-02-01T17:47:45-05:00",
+      "subject": "[R-sig-Epi] Problem with DiagnosisMed package",
+      "subject_clean": "Problem with DiagnosisMed package",
+      "in_reply_to": "<84d389791002011401t2e4c89f6pb884e4b9cae2c75@mail.gmail.com>",
+      "references": [
+        "<84d389791002011310k2b14ddeauc097767bcd14652c@mail.gmail.com>",
+        "<3E64370F-73E7-4C43-A607-7B54E1AB149A@comcast.net>",
+        "<84d389791002011401t2e4c89f6pb884e4b9cae2c75@mail.gmail.com>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100201/3ddfa73f/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100201/3ddfa73f/attachment.pl>",
+      "thread_id": "thread-1ef085128bda",
+      "thread_depth": 3,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-fad9117478e9",
+      "message_id": "<4B67D778.4080104@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2010-02-02T08:42:48+01:00",
+      "subject": "[R-sig-Epi] Incorrect instructions for epibasix sensSpec?",
+      "subject_clean": "Incorrect instructions for epibasix sensSpec?",
+      "in_reply_to": "<84d389791002011423i47c9622sf4bac2c4dbfd1162@mail.gmail.com>",
+      "references": [
+        "<84d389791002011334q12455c3ew7b60efb69244e420@mail.gmail.com>",
+        "<4B674FF4.5070602@biostat.ku.dk>",
+        "<84d389791002011423i47c9622sf4bac2c4dbfd1162@mail.gmail.com>"
+      ],
+      "body_plain": "Amy Mikhail wrote:\n> Dear Peter,\n> \n> Many thanks for your reply.  Unfortunately I don't have access to the \n> reference book.\n> \n> However it looks to me like the gold standard should be in the rows and \n> the comparison method should be in the columns for the test to give the \n> right answer (since the location of the gold standard determines which \n> are true and false positives, etc, which determines what the \n> denominators of the formulae are).\n> \n> I tried swapping around the negatives and positives, but that doesn't \n> make much difference to the result (it is still the wrong way around):\n> \n>  > t1\n>          positive negative\n> positive      201        1\n> negative        0       18\n> \n>  > sensSpec(t1)\n> \n>  Simple Sensitivity and Specitivity Output\n>  \n> Input Matrix:\n>          positive negative\n> positive      201        1\n> negative        0       18\n> \n> The sample of sensitivity is: 100%\n> \n> The sample of specificity is: 94.7%\n\nUmm, maybe I'm not quite awake yet, but if you're switching positive and \nnegatives, the 1 should end up in the other corner so that the gold \nstandard has 202 positives and 18 negatives, with 1 false positive and \nno false negatives. I.e., the sensitivity ia 201/202 and specificity is \n18/18. Transposing the tables would give you predictive probabilities, \nwhich are different beasts entirely.\n\n....\n> \n>          sensSpec(t1)\n> \n>          Simple Sensitivity and Specitivity Output\n> \n>         Input Matrix:\n>                  ref\n>         r1a        negative positive\n>          negative       18        1\n>          positive        0      201\n> \n>         The sample of sensitivity is: 100%\n> \n>         The sample of specificity is: 99.5%\n\n\n-- \n    O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n   c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n  (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "Amy Mikhail wrote:\n> Dear Peter,\n> \n> Many thanks for your reply.  Unfortunately I don't have access to the \n> reference book.\n> \n> However it looks to me like the gold standard should be in the rows ",
+      "thread_id": "thread-d207446d59f7",
+      "thread_depth": 3,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-38536869cdd3",
+      "message_id": "<a37cfb5a1002020233o672655dctb3cadd5f23f3228a@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2010-02-02T07:33:28-03:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 39, Issue 1",
+      "subject_clean": "R-sig-Epi Digest, Vol 39, Issue 1",
+      "in_reply_to": "<mailman.1124.1265063070.18074.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.1124.1265063070.18074.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/8b9737f5/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/8b9737f5/attachment.pl>",
+      "thread_id": "thread-38536869cdd3",
+      "thread_depth": 0,
+      "month": "2010-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1ef085128bda",
+      "subject": "Problem with DiagnosisMed package",
+      "message_count": 4,
+      "participants": [
+        "Amy Mikhail",
+        "David Winsemius"
+      ],
+      "started": "2010-02-02T01:40:07+04:30",
+      "last_reply": "2010-02-01T17:47:45-05:00",
+      "root_message_id": "msg-1ef085128bda"
+    },
+    {
+      "id": "thread-d207446d59f7",
+      "subject": "Incorrect instructions for epibasix sensSpec?",
+      "message_count": 4,
+      "participants": [
+        "Amy Mikhail",
+        "Peter Dalgaard"
+      ],
+      "started": "2010-02-02T02:04:35+04:30",
+      "last_reply": "2010-02-02T08:42:48+01:00",
+      "root_message_id": "msg-d207446d59f7"
+    },
+    {
+      "id": "thread-38536869cdd3",
+      "subject": "R-sig-Epi Digest, Vol 39, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2010-02-02T07:33:28-03:00",
+      "last_reply": "2010-02-02T07:33:28-03:00",
+      "root_message_id": "msg-38536869cdd3"
+    }
+  ]
+}

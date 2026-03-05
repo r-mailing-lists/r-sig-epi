@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2024-11",
+  "messages": [
+    {
+      "id": "msg-e65df9077e0a",
+      "message_id": "<6Gi0wGGHTwa5FE0MsM_q9w@geopod-ismtpd-15>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2024-11-08T05:30:28Z",
+      "subject": "[R-sig-Epi] Online Course: Python for R Users - last chance",
+      "subject_clean": "Online Course: Python for R Users - last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance to sign up for our new 1-day seminar Python for R Users <https://instats.org/seminar/python-for-r-users2>, running Nov 13 with professor Rebecca Barter from the Division of Epidemiology at the University of Utah School of Medicine. For researchers who are familiar with R, especially within the tidyverse ecosystem, transitioning to Python offers a strategic advantage for academic research. Python's versatility and broad applicability across a huge range of scientific fields make it a crucial tool for complex data analysis and model building. To facilitate this, the seminar is designed to help PhD students, academics, and professional researchers leverage their existing R knowledge to quickly gain proficiency in Python, focusing on translating concepts and techniques familiar in R to the Python environment. Participants will gain a robust understanding of Python's libraries and data structures, enabling them to integrate Python into their research workflows efficiently and expand their analytical capabilities, including with Python's substantial toolkits for machine learning and deep learning such as Scikit-learn and Keras (for machine learning and deep learning).\n\nSign up today <https://instats.org/seminar/python-for-r-users2> and don't miss out on this unique opportunity to easily transition from R to Python!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance to sign up for our new 1-day seminar Python for R Users <https://instats.org/seminar/python-for-r-users2>, running Nov 13 with professor Rebecca Barter from the Division of Ep",
+      "thread_id": "thread-e65df9077e0a",
+      "thread_depth": 0,
+      "month": "2024-11"
+    },
+    {
+      "id": "msg-f6cf898423cd",
+      "message_id": "<c1DLFF_3R0eJeJ1EMlSUAg@geopod-ismtpd-14>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2024-11-25T12:08:58Z",
+      "subject": "[R-sig-Epi] Course: Single Cell Data Analysis - Last chance",
+      "subject_clean": "Course: Single Cell Data Analysis - Last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nLast chance for the 1-day seminar on Single Cell Data Analysis in R and Python <https://instats.org/seminar/single-cell-data-analysis2>, running Nov 26 with professor Nikolay Oskolkov. Single-cell analysis provides unprecedented insights into cellular heterogeneity, enabling researchers to explore complex biological systems at the most granular scale. With applications in cancer research, developmental biology, and immunology, among others, mastering the techniques of single-cell data analysis is essential for researchers aiming to push the boundaries of modern science. This one-day workshop offers an in-depth exploration of the computational tools and methodologies essential for high-level single-cell data interpretation.\n\nSign up today <https://instats.org/seminar/single-cell-data-analysis2> to secure your spot in this unique seminar! \n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nLast chance for the 1-day seminar on Single Cell Data Analysis in R and Python <https://instats.org/seminar/single-cell-data-analysis2>, running Nov 26 with professor Nikolay Oskolkov. Si",
+      "thread_id": "thread-f6cf898423cd",
+      "thread_depth": 0,
+      "month": "2024-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e65df9077e0a",
+      "subject": "Online Course: Python for R Users - last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2024-11-08T05:30:28+00:00",
+      "last_reply": "2024-11-08T05:30:28+00:00",
+      "root_message_id": "msg-e65df9077e0a"
+    },
+    {
+      "id": "thread-f6cf898423cd",
+      "subject": "Course: Single Cell Data Analysis - Last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2024-11-25T12:08:58+00:00",
+      "last_reply": "2024-11-25T12:08:58+00:00",
+      "root_message_id": "msg-f6cf898423cd"
+    }
+  ]
+}

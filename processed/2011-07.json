@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2011-07",
+  "messages": [
+    {
+      "id": "msg-4159613eeb63",
+      "message_id": "<1310062285.2480.4.camel@schmidb-TravelMate8572TG>",
+      "from_name": "Markus Schmidberger",
+      "from_email_hash": "d2f0c29af89685b0d2a115f440a6bfe966e204e2f4683bcb21345cfd9ac1ce2f",
+      "date": "2011-07-07T20:11:25+02:00",
+      "subject": "[R-sig-Epi] Running R on a Computer Cluster in the Cloud - cloudnumbers.com",
+      "subject_clean": "Running R on a Computer Cluster in the Cloud - cloudnumbers.com",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear epidemiological data analysis and R experts,\n\ncloudnumbers.com provides researchers and companies with the resources\nto perform high performance calculations in the cloud. As\ncloudnumbers.com's community manager I may invite you to register and\ntest R on a computer cluster in the cloud for free:\nhttp://my.cloudnumbers.com/register\n\nOur aim is to change the way of research collaboration is done today by\nbringing together scientists and businesses from all over the world on a\nsingle platform. cloudnumbers.com is a Berlin (Germany) based\ninternational high-tech startup striving for enabling everyone to\nbenefit from the High Performance Computing related advantages of the\ncloud. We provide easy access to applications running on any kind of\ncomputer hardware: from single core high memory machines up to 1000\ncores computer clusters.\n\nOur platform provides several advantages:\n\n* Turn fixed into variable costs and pay only for the capacity you need.\nWatch our latest saving costs with cloudnumbers.com video:\nhttp://www.youtube.com/watch?v=ln_BSVigUhg&feature=player_embedded\n\n* Enter the cloud using an intuitive and user friendly platform. Watch\nour latest cloudnumbers.com in a nutshell video:\nhttp://www.youtube.com/watch?v=0ZNEpR_ElV0&feature=player_embedded\n\n* Be released from ongoing technological obsolescence and continuous\nmaintenance costs (e.g. linking to libraries or system dependencies)\n\n* Accelerated your R, C, C++, Fortran, Python, ... calculations through\nparallel processing and great computing capacity - more than 1000 cores\nare available and GPUs are coming soon.\n\n* Share your results worldwide (coming soon).\n\n* Get high speed access to public databases.\n\n* We have developed a security architecture that meets high requirements\nof data security and privacy. Read our security white paper:\nhttp://d1372nki7bx5yg.cloudfront.net/wp-content/uploads/2011/06/cloudnumberscom-security.whitepaper.pdf\n\n\nThis is only a selection of our top features. To get more information\ncheck out our web-page (http://www.cloudnumbers.com/) or follow our blog\nabout cloud computing, HPC and HPC applications (with R):\nhttp://cloudnumbers.com/blog\n\nRegister and test for free now at cloudnumbers.com:\nhttp://my.cloudnumbers.com/register\n\nWe are looking forward to get your feedback and consumer insights.\n\nBest\nMarkus\n\n-- \nDr. rer. nat. Markus Schmidberger \nSenior Community Manager \n\nCloudnumbers.com GmbH\nChausseestra?e 6\n10119 Berlin \n\nwww.cloudnumbers.com \nE-Mail: markus.schmidberger at cloudnumbers.com \n\n\n************************* \nAmtsgericht M?nchen, HRB 191138 \nGesch?ftsf?hrer: Erik Muttersbach, Markus Fensterer, Moritz v. \nPetersdorff-Campen \n\n\n\nDiese Nachricht kann vertrauliche Informationen enthalten. Sollten Sie \nnicht der vorgesehene Empf?nger sein, so bitten wir um eine kurze \nNachricht. Jede unbefugte Weiterleitung oder Fertigung einer Kopie ist \nunzul?ssig. Da wir nicht die Echtheit oder  Vollst?ndigkeit der in \ndieser Nachricht enthaltenen Informationen garantieren k?nnen, \nschlie?en wir die rechtliche Verbindlichkeit der vorstehenden \nErkl?rungen und ?u?erungen aus. \nThis message may contain confidential information. If yo...{{dropped:6}}",
+      "body_snippet": "Dear epidemiological data analysis and R experts,\n\ncloudnumbers.com provides researchers and companies with the resources\nto perform high performance calculations in the cloud. As\ncloudnumbers.com's c",
+      "thread_id": "thread-4159613eeb63",
+      "thread_depth": 0,
+      "month": "2011-07"
+    },
+    {
+      "id": "msg-8d9d93a3cd19",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302FFCF1485@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2011-07-23T14:07:31+02:00",
+      "subject": "[R-sig-Epi] Course: Age-Period-Cohort models, Lisbon, September 2011",
+      "subject_clean": "Course: Age-Period-Cohort models, Lisbon, September 2011",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Course on Age-Period-Cohort models.\n===================================\n   Place: Lisbon\n    Time: Monday 19th - Wednesday 21st September 2011. \nDeadline: 1 September 2011\n     Fee: 380 EUR.\n Teacher: Bendix Carstensen, Steno Diabetes Center, Copenhagen\n     URL: http://www.ceaul.fc.ul.pt/seeevent.html?id=206\n          http://staff.pubhealth.ku.dk/~bxc/APC/Lisboa-2011\n          ( The latter contains links to various material on the topic )\nAudience: Epidemiologists and Statisticians.\n\nAge-Period-Cohort models for mortality and morbidity rates is a useful tool for description of age- and time-trends. But the use and in particular the reporting is not straightforward.\n\nThe course will cover both the basics of tabulation of data, modeling and choice of parametrization as well as the more advanced aspects of Age-Period-Cohort models, including a substantial practical component, based on computer exercises in R. Specifically the apc-tools in the Epi package for R will be covered in some depth.\n\nFormally no prerequisites are required, but familiarity with regression models in epidemiology and some exposure to R will prove advantageous. \n\nParticipants are expected to bring their own laptop, and can expect to go home with a couple of thorough analyses of example datasets. Instructions on what to install (and how) will be given shortly after the application deadline.\n_________________________________________\n\nBendix Carstensen \nSenior Statistician\nSteno Diabetes Center A/S\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk    \nwww.biostat.ku.dk/~bxc\nwww.steno.dk",
+      "body_snippet": "Course on Age-Period-Cohort models.\n===================================\n   Place: Lisbon\n    Time: Monday 19th - Wednesday 21st September 2011. \nDeadline: 1 September 2011\n     Fee: 380 EUR.\n Teacher:",
+      "thread_id": "thread-8d9d93a3cd19",
+      "thread_depth": 0,
+      "month": "2011-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-4159613eeb63",
+      "subject": "Running R on a Computer Cluster in the Cloud - cloudnumbers.com",
+      "message_count": 1,
+      "participants": [
+        "Markus Schmidberger"
+      ],
+      "started": "2011-07-07T20:11:25+02:00",
+      "last_reply": "2011-07-07T20:11:25+02:00",
+      "root_message_id": "msg-4159613eeb63"
+    },
+    {
+      "id": "thread-8d9d93a3cd19",
+      "subject": "Course: Age-Period-Cohort models, Lisbon, September 2011",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2011-07-23T14:07:31+02:00",
+      "last_reply": "2011-07-23T14:07:31+02:00",
+      "root_message_id": "msg-8d9d93a3cd19"
+    }
+  ]
+}

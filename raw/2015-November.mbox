@@ -1,0 +1,87 @@
+From josh.rosen180 at gmail.com  Fri Nov  6 14:15:05 2015
+From: josh.rosen180 at gmail.com (Josh Rosen)
+Date: Fri, 6 Nov 2015 08:15:05 -0500
+Subject: [R-sig-Epi] Relative Survival in R - Getting 5 year and Median
+	Survival
+Message-ID: <CANkV+29SFX4AMrhdWOwu1y4EU2SV8+OhqHPw=wwUNyBDg+bQFw@mail.gmail.com>
+
+Hello,
+
+I am trying to compute the relative survival curves for a cohort of cancer
+patients that I have data on. I have been trying to use some of the
+elements of the relsurv package and have gotten to the point where I have
+built my US Life Table, and have my data set in the proper form and am able
+to run rs.surv rs.add and rs.surv.add. I also think I have been able to
+plot the appropriate survival curve using some code found online. However,
+what I am wondering is how to best extract the 5-year (and 3-year) and
+median relative survivals for my cohort.
+
+I am also trying to figure out the best way to then go about validating my
+choices of method for relative survival computation as well.
+
+I am fairly new to R (usually use SAS) so any help that you can provide
+would be greatly appreciated.
+
+Thank you!
+-JR
+
+	[[alternative HTML version deleted]]
+
+
+From joonas.m.miettinen at gmail.com  Sat Nov  7 08:35:24 2015
+From: joonas.m.miettinen at gmail.com (Joonas Miettinen)
+Date: Sat, 7 Nov 2015 09:35:24 +0200
+Subject: [R-sig-Epi] Relative Survival in R - Getting 5 year and Median
+ Survival
+In-Reply-To: <CANkV+29SFX4AMrhdWOwu1y4EU2SV8+OhqHPw=wwUNyBDg+bQFw@mail.gmail.com>
+References: <CANkV+29SFX4AMrhdWOwu1y4EU2SV8+OhqHPw=wwUNyBDg+bQFw@mail.gmail.com>
+Message-ID: <563DA9BC.5030203@gmail.com>
+
+Hey Josh,
+
+use |summary| to get estimates for specific times. E.g.:
+
+|data(slopop) data(rdata) #calculate the relative survival curve #note 
+that the variable year is given in days since 01.01.1960 and that #age 
+must be multiplied by 365 in order to be expressed in days. rs <- 
+rs.surv(Surv(time,cens)~sex+ratetable(age=age*365,sex=sex, 
+year=year),ratetable=slopop,data=rdata) summary(rs, times = c(3, 
+5)*365.25) |
+
+?
+Not sure what you mean about the validation part, but you might try 
+estimating both EdererII and Pohar-Perme curves and see if they're similar.
+
+BR: Joonas
+
+2015-11-06, 15:15, Josh Rosen kirjoitti:
+> Hello,
+>
+> I am trying to compute the relative survival curves for a cohort of cancer
+> patients that I have data on. I have been trying to use some of the
+> elements of the relsurv package and have gotten to the point where I have
+> built my US Life Table, and have my data set in the proper form and am able
+> to run rs.surv rs.add and rs.surv.add. I also think I have been able to
+> plot the appropriate survival curve using some code found online. However,
+> what I am wondering is how to best extract the 5-year (and 3-year) and
+> median relative survivals for my cohort.
+>
+> I am also trying to figure out the best way to then go about validating my
+> choices of method for relative survival computation as well.
+>
+> I am fairly new to R (usually use SAS) so any help that you can provide
+> would be greatly appreciated.
+>
+> Thank you!
+> -JR
+>
+> 	[[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+	[[alternative HTML version deleted]]
+
+

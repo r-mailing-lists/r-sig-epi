@@ -1,0 +1,144 @@
+From dvumani at hotmail.com  Fri Jan  4 09:42:08 2008
+From: dvumani at hotmail.com (Vumani Dlamini)
+Date: Fri, 4 Jan 2008 08:42:08 +0000
+Subject: [R-sig-Epi] illness-death model with recovery
+Message-ID: <BAY110-W386697F7B282CDF11A94C2A34C0@phx.gbl>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080104/6a86942b/attachment.pl 
+
+From bxc at steno.dk  Tue Jan 15 18:31:20 2008
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Tue, 15 Jan 2008 18:31:20 +0100
+Subject: [R-sig-Epi] Epi 1.0.7 now out
+In-Reply-To: <40D3930AC1C8EA469E39536E5BC80835053C6AC1@EXDKBA021.corp.novocorp.net>
+Message-ID: <40D3930AC1C8EA469E39536E5BC8083505409C44@EXDKBA021.corp.novocorp.net>
+
+Dear R-sig-Epi list,
+
+We have now made a major update of the Epi package, to version 1.0.7.
+It has just appeared on CRAN.
+
+For a few days the version 1.0.5 was there, but there were grave bugs
+in splitLexis and cutLexis, so please update to 1.0.7 if you have the
+1.0.5. ( Use: installed.packages()["Epi","Version"] to check ).
+
+The biggest change since the previous version 0.7.0 on CRAN is the
+introduction of a new machinery for representation of follow-up data
+through the Lexis() function that creates a Lexis object. It enables
+simultaneous representation of follow-up on different timescales and
+also representation of multistate data, i.e. transitions between
+several different states (not only alive -> dead). Time-splitting of
+follow-up data is done with the functions splitLexis(), cutLexis() and
+countLexis(). Overview of multistate data is given by tab.Lexis().
+
+Included in the package is a vignette explaining this machinery in
+detail --- start the html-help (write help.start() at the command
+prompt) and at the front page for the Epi package, click on a link in
+"Read overview or browse directory".
+
+Note that the old Lexis()-function (by David Clayton) is dead. It is
+still in the package, but now under the name W.Lexis(). Its
+functionality, splitting follow-up time, is taken over by
+splitLexis().
+
+The function epi.eff() is replaced by effx() and effx.match().
+
+Enjoy!
+
+Best wishes,
+Bendix Carstensen,
+maintainer of Epi
+______________________________________________
+
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+
+
+From P.Dalgaard at biostat.ku.dk  Tue Jan 15 18:48:58 2008
+From: P.Dalgaard at biostat.ku.dk (Peter Dalgaard)
+Date: Tue, 15 Jan 2008 18:48:58 +0100
+Subject: [R-sig-Epi] Epi 1.0.7 now out
+In-Reply-To: <40D3930AC1C8EA469E39536E5BC8083505409C44@EXDKBA021.corp.novocorp.net>
+References: <40D3930AC1C8EA469E39536E5BC8083505409C44@EXDKBA021.corp.novocorp.net>
+Message-ID: <478CF20A.1090403@biostat.ku.dk>
+
+BXC (Bendix Carstensen) wrote:
+> Note that the old Lexis()-function (by David Clayton) is dead. It is
+> still in the package, but now under the name W.Lexis(). Its
+> functionality, splitting follow-up time, is taken over by
+> splitLexis().
+>   
+W.Lexis? I take it that this implies that it is now as dead as William
+Lexis, and as GF Parrot, Primo Rectori Universitatis Dorpatensis?
+
+It's not pinin'! It's passed on! This function is no more! It has ceased
+to be! It's expired and gone to meet its maker! It's a stiff! Bereft of
+life,  it  rests in peace! If you hadn't nailed it to the perch it'd be
+pushing up the daisies! Its metabolic processes are now 'istory! It's
+off the twig! It's kicked the bucket, it's shuffled off 'is mortal coil,
+run down the curtain and joined the bleedin' choir invisibile!! THIS IS
+AN EX-FUNCTION!!
+
+
+
+Ahem.
+
+Sorry, couldn't help it....
+
+-- 
+   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B
+  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K
+ (*) \(*) -- University of Copenhagen   Denmark          Ph:  (+45) 35327918
+~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)                  FAX: (+45) 35327907
+
+
+From galina_ananina at yahoo.com.br  Sat Jan 19 03:30:29 2008
+From: galina_ananina at yahoo.com.br (Galina Ananina)
+Date: Fri, 18 Jan 2008 23:30:29 -0300 (ART)
+Subject: [R-sig-Epi] amova
+Message-ID: <814685.62431.qm@web38102.mail.mud.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080118/1fa6a38a/attachment.pl 
+
+From lucabrugnaro at tiscali.it  Fri Jan 25 15:22:17 2008
+From: lucabrugnaro at tiscali.it (lucabrugnaro at tiscali.it)
+Date: Fri, 25 Jan 2008 15:22:17 +0100 (CET)
+Subject: [R-sig-Epi] compare Cox and rsf
+Message-ID: <27433240.1201270937808.JavaMail.root@ps13>
+
+Can you suggest me how to compare to survival analysis:
+one made with the Cox regression and the other with the 
+randomSurvivalForest?
+Please send me also an exemple of possible commands in R.
+Thanks
+Luca  
+
+
+
+
+
+_______________________________________________________________________
+Tiscali.Fax: ricevi gratis sulla tua email e invii a 12 cent per pagina senza scatto alla risposta
+
+
+From summer.nitely at gmail.com  Wed Jan 30 21:43:28 2008
+From: summer.nitely at gmail.com (Summer Nitely)
+Date: Wed, 30 Jan 2008 13:43:28 -0700
+Subject: [R-sig-Epi] standard errors from Icens function
+Message-ID: <8a41df090801301243u233ec6f0n931ca84f040fa8c4@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080130/26522ced/attachment.pl 
+

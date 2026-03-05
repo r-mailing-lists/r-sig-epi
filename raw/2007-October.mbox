@@ -1,0 +1,1673 @@
+From Ralf.Finne at syh.fi  Wed Oct  3 16:24:28 2007
+From: Ralf.Finne at syh.fi (Ralf Finne)
+Date: Wed, 03 Oct 2007 17:24:28 +0300
+Subject: [R-sig-Epi] Probability of falling incidence
+Message-ID: <4703D04D020000EE00004826@valhall.syh.fi>
+
+Hi everybody.
+
+Below are the incidence numbers for  end-stage renal disease in the
+Helsinki region for the past five years.
+
+The following question has arisen:
+
+What is the probability  that the decreased  incidence for 2006
+is due to random variablilty and not caused by any systematic effect?
+
+2002   75
+2003   73
+2004   69
+2005   65
+2006   28
+
+Are there any solutions available in R?
+
+Very thankful for your answers
+
+Ralf Finne
+Svenska yrkesh?skolan 
+Vasa Finland
+
+
+From kviel at sfbrgenetics.org  Wed Oct  3 16:38:54 2007
+From: kviel at sfbrgenetics.org (Kevin Viel)
+Date: Wed, 03 Oct 2007 09:38:54 -0500
+Subject: [R-sig-Epi] Probability of falling incidence
+In-Reply-To: <4703D04D020000EE00004826@valhall.syh.fi>
+Message-ID: <001b01c805cb$1fa7f4e0$723a7cce@win.sfbrgenetics.org>
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne
+> Sent: Wednesday, October 03, 2007 9:24 AM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Probability of falling incidence
+> 
+> Hi everybody.
+> 
+> Below are the incidence numbers for  end-stage renal disease 
+> in the Helsinki region for the past five years.
+> 
+> The following question has arisen:
+> 
+> What is the probability  that the decreased  incidence for 
+> 2006 is due to random variablilty and not caused by any 
+> systematic effect?
+> 
+> 2002   75
+> 2003   73
+> 2004   69
+> 2005   65
+> 2006   28
+> 
+> Are there any solutions available in R?
+> 
+> Very thankful for your answers
+
+Ralf,
+
+  This is not enough data for us to be able to suggest a test.  We would
+need to know the study design, with particular emphasis on the statistical
+sampling strategy (stratified, simple random sampling, etc.).  28 cases out
+of 1000 p-y is much different from 280 cases out of 10000 p-y, for instance.
+
+  Unfortunately, I am only lurker on this list and cannot suggest a
+procedure in R.
+
+
+HTH,
+
+Kevin
+
+
+Kevin Viel, PhD
+Post-doctoral fellow
+Department of Genetics
+Southwest Foundation for Biomedical Research
+San Antonio, TX 78227
+
+
+From Ralf.Finne at syh.fi  Thu Oct  4 17:02:30 2007
+From: Ralf.Finne at syh.fi (Ralf Finne)
+Date: Thu, 04 Oct 2007 18:02:30 +0300
+Subject: [R-sig-Epi] Probability of falling incidence
+Message-ID: <47052AB6020000EE0000484D@valhall.syh.fi>
+
+Hi again!
+Some more details are obviously needed.
+I have some more data:
+Year	Incidence number
+1980	28
+1981	17
+1982	14
+1983	26
+1984	32
+1985	41
+1986	42
+1987	44
+1988	43
+1989	50
+1990	37
+1991	45
+1992	48
+1993	65
+1994	44
+1995	64
+1996	69
+1997	87
+1998	74
+1999	70
+2000	72
+2001	67
+2002	75
+2003	73
+2004	69
+2005	65
+2006	28
+The sampling situation is as follows:
+All cases out of a population of around one million persons
+are recorded.  Tre rise in the beginning is probly due to an 
+increasing number of diabetes cases.  In the future a falling
+tendency is to be expected, due to better treatment of diabetes.
+
+Looking forward to you responses
+
+Ralf
+
+Message: 2
+Date: Wed, 03 Oct 2007 09:38:54 -0500
+From: Kevin Viel <kviel at sfbrgenetics.org>
+Subject: Re: [R-sig-Epi] Probability of falling incidence
+To: r-sig-epi at stat.math.ethz.ch
+Message-ID: <001b01c805cb$1fa7f4e0$723a7cce at win.sfbrgenetics.org>
+Content-Type: text/plain; charset=us-ascii
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne
+> Sent: Wednesday, October 03, 2007 9:24 AM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Probability of falling incidence
+>
+> Hi everybody.
+>
+> Below are the incidence numbers for  end-stage renal disease
+> in the Helsinki region for the past five years.
+>
+> The following question has arisen:
+>
+> What is the probability  that the decreased  incidence for
+> 2006 is due to random variablilty and not caused by any
+> systematic effect?
+>
+> 2002   75
+> 2003   73
+> 2004   69
+> 2005   65
+> 2006   28
+>
+> Are there any solutions available in R?
+>
+> Very thankful for your answers
+
+Ralf,
+
+ This is not enough data for us to be able to suggest a test.  We would
+need to know the study design, with particular emphasis on the
+statistical
+sampling strategy (stratified, simple random sampling, etc.).  28 cases
+out
+of 1000 p-y is much different from 280 cases out of 10000 p-y, for
+instance.
+
+ Unfortunately, I am only lurker on this list and cannot suggest a
+procedure in R.
+
+
+HTH,
+
+Kevin
+
+
+Kevin Viel, PhD
+Post-doctoral fellow
+Department of Genetics
+Southwest Foundation for Biomedical Research
+San Antonio, TX 78227
+
+
+
+
+Hi everybody.
+
+Below are the incidence numbers for  end-stage renal disease in the
+Helsinki region for the past five years.
+
+The following question has arisen:
+
+What is the probability  that the decreased  incidence for 2006
+is due to random variablilty and not caused by any systematic effect?
+
+2002   75
+2003   73
+2004   69
+2005   65
+2006   28
+
+Are there any solutions available in R?
+
+Very thankful for your answers
+
+Ralf Finne
+Svenska yrkesh?skolan 
+Vasa Finland
+
+
+From ifellows at ucsd.edu  Thu Oct  4 18:16:59 2007
+From: ifellows at ucsd.edu (Ian Fellows)
+Date: Thu, 4 Oct 2007 09:16:59 -0700
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 18, Issue 1
+In-Reply-To: <mailman.3.1191492001.22435.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <AEEFKNHKDADBAKMPJLPLMEINCHAA.ifellows@ucsd.edu>
+
+-----Original Message-----
+From: r-sig-epi-bounces at stat.math.ethz.ch
+[mailto:r-sig-epi-bounces at stat.math.ethz.ch]On Behalf Of
+r-sig-epi-request at stat.math.ethz.ch
+Sent: Thursday, October 04, 2007 3:00 AM
+To: r-sig-epi at stat.math.ethz.ch
+Subject: R-sig-Epi Digest, Vol 18, Issue 1
+
+
+Send R-sig-Epi mailing list submissions to
+	r-sig-epi at stat.math.ethz.ch
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+or, via email, send a message with subject or body 'help' to
+	r-sig-epi-request at stat.math.ethz.ch
+
+You can reach the person managing the list at
+	r-sig-epi-owner at stat.math.ethz.ch
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of R-sig-Epi digest..."
+
+
+Today's Topics:
+
+   1. Probability of falling incidence (Ralf Finne)
+   2. Re: Probability of falling incidence (Kevin Viel)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Wed, 03 Oct 2007 17:24:28 +0300
+From: "Ralf Finne" <Ralf.Finne at syh.fi>
+Subject: [R-sig-Epi] Probability of falling incidence
+To: <r-sig-epi at stat.math.ethz.ch>
+Message-ID: <4703D04D020000EE00004826 at valhall.syh.fi>
+Content-Type: text/plain; charset=UTF-8
+
+Hi everybody.
+
+Below are the incidence numbers for  end-stage renal disease in the
+Helsinki region for the past five years.
+
+The following question has arisen:
+
+What is the probability  that the decreased  incidence for 2006
+is due to random variablilty and not caused by any systematic effect?
+
+2002   75
+2003   73
+2004   69
+2005   65
+2006   28
+
+Are there any solutions available in R?
+
+Very thankful for your answers
+
+Ralf Finne
+Svenska yrkesh?skolan
+Vasa Finland
+
+
+
+------------------------------
+
+Message: 2
+Date: Wed, 03 Oct 2007 09:38:54 -0500
+From: Kevin Viel <kviel at sfbrgenetics.org>
+Subject: Re: [R-sig-Epi] Probability of falling incidence
+To: r-sig-epi at stat.math.ethz.ch
+Message-ID: <001b01c805cb$1fa7f4e0$723a7cce at win.sfbrgenetics.org>
+Content-Type: text/plain; charset=us-ascii
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne
+> Sent: Wednesday, October 03, 2007 9:24 AM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Probability of falling incidence
+>
+> Hi everybody.
+>
+> Below are the incidence numbers for  end-stage renal disease
+> in the Helsinki region for the past five years.
+>
+> The following question has arisen:
+>
+> What is the probability  that the decreased  incidence for
+> 2006 is due to random variablilty and not caused by any
+> systematic effect?
+>
+> 2002   75
+> 2003   73
+> 2004   69
+> 2005   65
+> 2006   28
+>
+> Are there any solutions available in R?
+>
+> Very thankful for your answers
+
+Ralf,
+
+  This is not enough data for us to be able to suggest a test.  We would
+need to know the study design, with particular emphasis on the statistical
+sampling strategy (stratified, simple random sampling, etc.).  28 cases out
+of 1000 p-y is much different from 280 cases out of 10000 p-y, for instance.
+
+  Unfortunately, I am only lurker on this list and cannot suggest a
+procedure in R.
+
+
+HTH,
+
+Kevin
+
+
+Kevin Viel, PhD
+Post-doctoral fellow
+Department of Genetics
+Southwest Foundation for Biomedical Research
+San Antonio, TX 78227
+
+
+
+------------------------------
+
+_______________________________________________
+R-sig-Epi mailing list
+R-sig-Epi at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+End of R-sig-Epi Digest, Vol 18, Issue 1
+****************************************
+
+
+Hello Ralf,
+
+My first instinct is to assume that your data is from a poisson
+distribution. If you have information on renal failure on a finer timescale,
+I'd look to see if this assumption holds.
+
+We can test the equality of two poisson rates using the binomial
+distribution. Under the null hypothesis that the rate of the first 4 data
+points is the same as the last, the distribution of the last rate,
+conditional upon the five year rate (23+75+73+69+65) is:
+y5 - binomial(n=23+75+73+69+65,p=1/(1+4))
+
+so using an exact binomial test we have:
+> sum(dbinom(0:23,23+75+73+69+65,1/(1+4)))*2
+[1] 2.626615e-09
+
+so, if there was no difference in 2006, the probability that we would see a
+rate as extreme as 23 is VERY small <.0000001.
+
+With so few years, the poisson assumption, though reasonable, is impossible
+to check. I would be interested in other opinions on this.
+
+Ian
+
+
+From nndsilva at usp.br  Thu Oct  4 18:38:31 2007
+From: nndsilva at usp.br (nndsilva at usp.br)
+Date: Thu, 04 Oct 2007 13:38:31 -0300
+Subject: [R-sig-Epi] capture-recapture estimation methods
+Message-ID: <20071004133831.xt68lq6e8ks848wo@webmail.usp.br>
+
+Could I found variance estimators in R program for two lists??
+
+Thanks,
+
+Nilza Nunes da Silva
+Dept.of Epidemiology-USP-Brazil.
+
+
+From bxc at steno.dk  Thu Oct  4 19:46:29 2007
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Thu, 4 Oct 2007 19:46:29 +0200
+Subject: [R-sig-Epi] capture-recapture estimation methods
+In-Reply-To: <20071004133831.xt68lq6e8ks848wo@webmail.usp.br>
+Message-ID: <40D3930AC1C8EA469E39536E5BC8083504CC74D3@EXDKBA021.corp.novocorp.net>
+
+I am not quite sure what you mean, but have a look at:
+
+?lapply
+
+Best
+Bendix  
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> nndsilva at usp.br
+> Sent: Thursday, October 04, 2007 6:39 PM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] capture-recapture estimation methods
+> 
+> Could I found variance estimators in R program for two lists??
+> 
+> Thanks,
+> 
+> Nilza Nunes da Silva
+> Dept.of Epidemiology-USP-Brazil.
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+
+From ifellows at ucsd.edu  Fri Oct  5 18:47:41 2007
+From: ifellows at ucsd.edu (Ian Fellows)
+Date: Fri, 5 Oct 2007 09:47:41 -0700
+Subject: [R-sig-Epi] Probability of falling incidence
+In-Reply-To: <mailman.1.1191578401.13731.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <AEEFKNHKDADBAKMPJLPLCEJDCHAA.ifellows@ucsd.edu>
+
+Hi Ralf,
+
+I found your problem interesting, so here is my take:
+
+If you are just interested in the last year compared with the previous 4,
+then the answer in my last post would suffice. If you are interested in the
+whole dataset, then Poisson regression is an appropriate tool.
+
+First, load in your data:
+>
+rate<-c(28,17,14,26,32,41,42,44,43,50,37,45,48,65,44,64,69,87,74,70,72,67,75
+,73,69,65,28)
+> year<-0:26
+> dat<-as.data.frame(cbind(rate,year))
+
+next, form the poisson regression model:
+
+> model<-glm(rate~year +
+I(year^2)+I(year==26),family=poisson(link="log"),data=dat)
+> summary(model)
+
+Call:
+glm(formula = rate ~ year + I(year^2) + I(year == 26), family = poisson(link
+= "log"),
+    data = dat)
+
+Deviance Residuals:
+    Min       1Q   Median       3Q      Max
+-2.3145  -0.5693   0.0628   0.5749   2.2545
+
+Coefficients:
+                    Estimate Std. Error z value Pr(>|z|)
+(Intercept)        2.9703075  0.1045642  28.407  < 2e-16 ***
+year               0.1203573  0.0165330   7.280 3.34e-13 ***
+I(year^2)         -0.0027762  0.0005868  -4.731 2.23e-06 ***
+I(year == 26)TRUE -0.8906826  0.2051766  -4.341 1.42e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for poisson family taken to be 1)
+
+    Null deviance: 216.994  on 26  degrees of freedom
+Residual deviance:  31.259  on 23  degrees of freedom
+AIC: 192.92
+
+Number of Fisher Scoring iterations: 4
+
+This model has a linear time component, a quadratic time component, and a
+separate component for 2006. all of these are significant. Thus, 2006 is a
+significant drop. You can find the point where the rate was maximized by
+taking the derivative of:
+exp(2.9703+.120357*x-.0027762*x^2)
+which is:
+exp(2.9703+.120357*x-.0027762*x^2)*(.120357-.0055524*x)
+setting to zero we have:
+x=21.62, or the later part of 2001
+
+You can investigate the sensitivity of your model using a sandwich estimate
+of the covariance matrix:
+> library(sandwich)
+> library(lmtest)
+> coeftest(model,vcov=sandwich)
+
+z test of coefficients:
+
+                     Estimate  Std. Error  z value  Pr(>|z|)
+(Intercept)        2.97030755  0.14654092  20.2695 < 2.2e-16 ***
+year               0.12035731  0.02234801   5.3856  7.22e-08 ***
+I(year^2)         -0.00277620  0.00073058  -3.8000 0.0001447 ***
+I(year == 26)TRUE -0.89068264  0.05506225 -16.1759 < 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+the results are much the same. Finally, lets make a graph of our fitted
+model vs to observed rates:
+> plot(dat$rate,type="h")
+> lines(exp(model$lin))
+
+the fit looks pretty good.
+
+let me know off list if you have any questions.
+
+Cheers,
+Ian
+
+
+-----Original Message-----
+From: r-sig-epi-bounces at stat.math.ethz.ch
+[mailto:r-sig-epi-bounces at stat.math.ethz.ch]On Behalf Of
+r-sig-epi-request at stat.math.ethz.ch
+Sent: Friday, October 05, 2007 3:00 AM
+To: r-sig-epi at stat.math.ethz.ch
+Subject: R-sig-Epi Digest, Vol 18, Issue 2
+
+
+Send R-sig-Epi mailing list submissions to
+	r-sig-epi at stat.math.ethz.ch
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+or, via email, send a message with subject or body 'help' to
+	r-sig-epi-request at stat.math.ethz.ch
+
+You can reach the person managing the list at
+	r-sig-epi-owner at stat.math.ethz.ch
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of R-sig-Epi digest..."
+
+
+Today's Topics:
+
+   1. Probability of falling incidence (Ralf Finne)
+   2. Re: R-sig-Epi Digest, Vol 18, Issue 1 (Ian Fellows)
+   3. capture-recapture estimation methods (nndsilva at usp.br)
+   4. Re: capture-recapture estimation methods (BXC (Bendix Carstensen))
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Thu, 04 Oct 2007 18:02:30 +0300
+From: "Ralf Finne" <Ralf.Finne at syh.fi>
+Subject: [R-sig-Epi] Probability of falling incidence
+To: <r-sig-epi at stat.math.ethz.ch>
+Message-ID: <47052AB6020000EE0000484D at valhall.syh.fi>
+Content-Type: text/plain; charset=UTF-8
+
+Hi again!
+Some more details are obviously needed.
+I have some more data:
+Year	Incidence number
+1980	28
+1981	17
+1982	14
+1983	26
+1984	32
+1985	41
+1986	42
+1987	44
+1988	43
+1989	50
+1990	37
+1991	45
+1992	48
+1993	65
+1994	44
+1995	64
+1996	69
+1997	87
+1998	74
+1999	70
+2000	72
+2001	67
+2002	75
+2003	73
+2004	69
+2005	65
+2006	28
+The sampling situation is as follows:
+All cases out of a population of around one million persons
+are recorded.  Tre rise in the beginning is probly due to an
+increasing number of diabetes cases.  In the future a falling
+tendency is to be expected, due to better treatment of diabetes.
+
+Looking forward to you responses
+
+Ralf
+
+Message: 2
+Date: Wed, 03 Oct 2007 09:38:54 -0500
+From: Kevin Viel <kviel at sfbrgenetics.org>
+Subject: Re: [R-sig-Epi] Probability of falling incidence
+To: r-sig-epi at stat.math.ethz.ch
+Message-ID: <001b01c805cb$1fa7f4e0$723a7cce at win.sfbrgenetics.org>
+Content-Type: text/plain; charset=us-ascii
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne
+> Sent: Wednesday, October 03, 2007 9:24 AM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Probability of falling incidence
+>
+> Hi everybody.
+>
+> Below are the incidence numbers for  end-stage renal disease
+> in the Helsinki region for the past five years.
+>
+> The following question has arisen:
+>
+> What is the probability  that the decreased  incidence for
+> 2006 is due to random variablilty and not caused by any
+> systematic effect?
+>
+> 2002   75
+> 2003   73
+> 2004   69
+> 2005   65
+> 2006   28
+>
+> Are there any solutions available in R?
+>
+> Very thankful for your answers
+
+Ralf,
+
+ This is not enough data for us to be able to suggest a test.  We would
+need to know the study design, with particular emphasis on the
+statistical
+sampling strategy (stratified, simple random sampling, etc.).  28 cases
+out
+of 1000 p-y is much different from 280 cases out of 10000 p-y, for
+instance.
+
+ Unfortunately, I am only lurker on this list and cannot suggest a
+procedure in R.
+
+
+HTH,
+
+Kevin
+
+
+Kevin Viel, PhD
+Post-doctoral fellow
+Department of Genetics
+Southwest Foundation for Biomedical Research
+San Antonio, TX 78227
+
+
+
+
+Hi everybody.
+
+Below are the incidence numbers for  end-stage renal disease in the
+Helsinki region for the past five years.
+
+The following question has arisen:
+
+What is the probability  that the decreased  incidence for 2006
+is due to random variablilty and not caused by any systematic effect?
+
+2002   75
+2003   73
+2004   69
+2005   65
+2006   28
+
+Are there any solutions available in R?
+
+Very thankful for your answers
+
+Ralf Finne
+Svenska yrkesh?skolan
+Vasa Finland
+
+
+
+------------------------------
+
+Message: 2
+Date: Thu, 4 Oct 2007 09:16:59 -0700
+From: "Ian Fellows" <ifellows at ucsd.edu>
+Subject: Re: [R-sig-Epi] R-sig-Epi Digest, Vol 18, Issue 1
+To: <r-sig-epi at stat.math.ethz.ch>
+Message-ID: <AEEFKNHKDADBAKMPJLPLMEINCHAA.ifellows at ucsd.edu>
+Content-Type: text/plain;	charset="us-ascii"
+
+-----Original Message-----
+From: r-sig-epi-bounces at stat.math.ethz.ch
+[mailto:r-sig-epi-bounces at stat.math.ethz.ch]On Behalf Of
+r-sig-epi-request at stat.math.ethz.ch
+Sent: Thursday, October 04, 2007 3:00 AM
+To: r-sig-epi at stat.math.ethz.ch
+Subject: R-sig-Epi Digest, Vol 18, Issue 1
+
+
+Send R-sig-Epi mailing list submissions to
+	r-sig-epi at stat.math.ethz.ch
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+or, via email, send a message with subject or body 'help' to
+	r-sig-epi-request at stat.math.ethz.ch
+
+You can reach the person managing the list at
+	r-sig-epi-owner at stat.math.ethz.ch
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of R-sig-Epi digest..."
+
+
+Today's Topics:
+
+   1. Probability of falling incidence (Ralf Finne)
+   2. Re: Probability of falling incidence (Kevin Viel)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Wed, 03 Oct 2007 17:24:28 +0300
+From: "Ralf Finne" <Ralf.Finne at syh.fi>
+Subject: [R-sig-Epi] Probability of falling incidence
+To: <r-sig-epi at stat.math.ethz.ch>
+Message-ID: <4703D04D020000EE00004826 at valhall.syh.fi>
+Content-Type: text/plain; charset=UTF-8
+
+Hi everybody.
+
+Below are the incidence numbers for  end-stage renal disease in the
+Helsinki region for the past five years.
+
+The following question has arisen:
+
+What is the probability  that the decreased  incidence for 2006
+is due to random variablilty and not caused by any systematic effect?
+
+2002   75
+2003   73
+2004   69
+2005   65
+2006   28
+
+Are there any solutions available in R?
+
+Very thankful for your answers
+
+Ralf Finne
+Svenska yrkesh?skolan
+Vasa Finland
+
+
+
+------------------------------
+
+Message: 2
+Date: Wed, 03 Oct 2007 09:38:54 -0500
+From: Kevin Viel <kviel at sfbrgenetics.org>
+Subject: Re: [R-sig-Epi] Probability of falling incidence
+To: r-sig-epi at stat.math.ethz.ch
+Message-ID: <001b01c805cb$1fa7f4e0$723a7cce at win.sfbrgenetics.org>
+Content-Type: text/plain; charset=us-ascii
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne
+> Sent: Wednesday, October 03, 2007 9:24 AM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Probability of falling incidence
+>
+> Hi everybody.
+>
+> Below are the incidence numbers for  end-stage renal disease
+> in the Helsinki region for the past five years.
+>
+> The following question has arisen:
+>
+> What is the probability  that the decreased  incidence for
+> 2006 is due to random variablilty and not caused by any
+> systematic effect?
+>
+> 2002   75
+> 2003   73
+> 2004   69
+> 2005   65
+> 2006   28
+>
+> Are there any solutions available in R?
+>
+> Very thankful for your answers
+
+Ralf,
+
+  This is not enough data for us to be able to suggest a test.  We would
+need to know the study design, with particular emphasis on the statistical
+sampling strategy (stratified, simple random sampling, etc.).  28 cases out
+of 1000 p-y is much different from 280 cases out of 10000 p-y, for instance.
+
+  Unfortunately, I am only lurker on this list and cannot suggest a
+procedure in R.
+
+
+HTH,
+
+Kevin
+
+
+Kevin Viel, PhD
+Post-doctoral fellow
+Department of Genetics
+Southwest Foundation for Biomedical Research
+San Antonio, TX 78227
+
+
+
+------------------------------
+
+_______________________________________________
+R-sig-Epi mailing list
+R-sig-Epi at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+End of R-sig-Epi Digest, Vol 18, Issue 1
+****************************************
+
+
+Hello Ralf,
+
+My first instinct is to assume that your data is from a poisson
+distribution. If you have information on renal failure on a finer timescale,
+I'd look to see if this assumption holds.
+
+We can test the equality of two poisson rates using the binomial
+distribution. Under the null hypothesis that the rate of the first 4 data
+points is the same as the last, the distribution of the last rate,
+conditional upon the five year rate (23+75+73+69+65) is:
+y5 - binomial(n=23+75+73+69+65,p=1/(1+4))
+
+so using an exact binomial test we have:
+> sum(dbinom(0:23,23+75+73+69+65,1/(1+4)))*2
+[1] 2.626615e-09
+
+so, if there was no difference in 2006, the probability that we would see a
+rate as extreme as 23 is VERY small <.0000001.
+
+With so few years, the poisson assumption, though reasonable, is impossible
+to check. I would be interested in other opinions on this.
+
+Ian
+
+
+
+------------------------------
+
+Message: 3
+Date: Thu, 04 Oct 2007 13:38:31 -0300
+From: nndsilva at usp.br
+Subject: [R-sig-Epi] capture-recapture estimation methods
+To: r-sig-epi at stat.math.ethz.ch
+Message-ID: <20071004133831.xt68lq6e8ks848wo at webmail.usp.br>
+Content-Type: text/plain;	charset=ISO-8859-1;	DelSp="Yes";
+	format="flowed"
+
+Could I found variance estimators in R program for two lists??
+
+Thanks,
+
+Nilza Nunes da Silva
+Dept.of Epidemiology-USP-Brazil.
+
+
+
+------------------------------
+
+Message: 4
+Date: Thu, 4 Oct 2007 19:46:29 +0200
+From: "BXC (Bendix Carstensen)" <bxc at steno.dk>
+Subject: Re: [R-sig-Epi] capture-recapture estimation methods
+To: <nndsilva at usp.br>, <r-sig-epi at stat.math.ethz.ch>
+Message-ID:
+	<40D3930AC1C8EA469E39536E5BC8083504CC74D3 at EXDKBA021.corp.novocorp.net>
+Content-Type: text/plain;	charset="us-ascii"
+
+I am not quite sure what you mean, but have a look at:
+
+?lapply
+
+Best
+Bendix
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of
+> nndsilva at usp.br
+> Sent: Thursday, October 04, 2007 6:39 PM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] capture-recapture estimation methods
+>
+> Could I found variance estimators in R program for two lists??
+>
+> Thanks,
+>
+> Nilza Nunes da Silva
+> Dept.of Epidemiology-USP-Brazil.
+>
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+
+
+
+------------------------------
+
+_______________________________________________
+R-sig-Epi mailing list
+R-sig-Epi at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+End of R-sig-Epi Digest, Vol 18, Issue 2
+
+
+From r.darnell at uq.edu.au  Mon Oct  8 03:00:21 2007
+From: r.darnell at uq.edu.au (Ross Darnell)
+Date: Mon, 8 Oct 2007 11:00:21 +1000
+Subject: [R-sig-Epi] Probability of falling incidence
+In-Reply-To: <AEEFKNHKDADBAKMPJLPLCEJDCHAA.ifellows@ucsd.edu>
+References: <mailman.1.1191578401.13731.r-sig-epi@stat.math.ethz.ch>
+	<AEEFKNHKDADBAKMPJLPLCEJDCHAA.ifellows@ucsd.edu>
+Message-ID: <E4178EE0463C7D40AF637C4DDAC8030EFEC1BD@UQEXMB2.soe.uq.edu.au>
+
+Ralf and Ian
+
+You could try an overdispersion model, an example being
+
+###
+rate<-c(28,17,14,26,32,41,42,44,43,50,37,45,48,65,44,64,69,87,74,70,72,6
+7,75
+,73,69,65,28)
+year<-0:26
+scatter.smooth(year,rate)
+oyearc <- seq(-13,13,by=1)
+dat<-as.data.frame(cbind(rate,year,yearc))
+modelc<-glm(rate~yearc +
+I(yearc^2),family=poisson,data=dat,subset=yearc!=13)
+summary(modelc)
+#
+# Fit a nonparametric model leaving in final year. Start with one
+component which
+# is equivalent to poisson regression.
+library(npmlreg)  # details from package vignette
+modelnp1 <- alldist(rate~yearc +
+I(yearc^2),family=poisson,data=dat, random.distribution="np",k=1)
+summary(modelnp1)
+#Check -2 * loglikelood (disparity)
+modelnp1$disparity
+#plot(ecdf(resid(modelnp1))
+(update(modelnp1,k=2))
+(modelnp3 <- update(modelnp1,k=3))
+modelnp2 <- update(modelnp1,k=2)
+# Disparity is 193.6
+# look at posterior probabilities
+round(modelnp2$post.prob,2)
+# So we have two components , the   years 2, 14, 26 belong to a
+component
+# with a lower intercept (3.61) and the
+# remainder (except year 10 which has equal proby
+# of belonging to both components) years have an intercept of 4.13.
+scatter.smooth(year,rate)
+text(c(3,11,15,27)-1,rate[c(3,11,15,27)],label="+",col="red")
+#
+curve(exp(3.615+0.044*x-0.00334*x^2),from=-13,to=13,ylim=range(rate))
+curve(exp(4.129+0.044*x-0.00334*x^2),from=-13,to=13,add=TRUE)
+points(yearc,rate)
+text(c(3,11,15,27)-14,rate[c(3,11,15,27)],label="+",col="red")
+#
+# Try random coeff (for slope)
+(modelnp2ri <- update(modelnp2,random=~yearc))
+# Disparity drops from 193.6 for random intercept with 2 components to
+# 187.8 for random slopes with 2 components
+# compared to 208.0 for poisson model
+plot(yearc,rate,pch=ifelse(round(modelnp2ri$post.prob[,1])>0.5,1,2),axes
+=FALSE)
+curve(exp(3.847646+(0.051133-0.050123)*x-0.003488*x^2),from=-13,to=13,yl
+im=range(rate),add=TRUE)
+curve(exp(4.105541+0.051133*x-0.003488*x^2),from=-13,to=13,add=TRUE)
+axis(1,at=seq(-13,13,by=1),seq(0,26))
+axis(2)
+box()
+# posterior prob
+round(modelnp2ri$post.prob,2)
+#  Extra slopes doesn't help
+(modelnp3ri <- update(modelnp3,random=~yearc))
+#
+Check the need for quadratic term
+#
+update(modelnp2ri,.~.-I(yearc^2))$disparity
+# Disparity increases to 205.8, relfecting a change in deviance of 18
+for 1 df.
+# Keep quadratic term
+
+Remember though that overdispersion models run the risk of
+overparametrization.
+
+
+Regards
+Ross Darnell
+
+-----Original Message-----
+From: r-sig-epi-bounces at stat.math.ethz.ch
+[mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ian Fellows
+Sent: Saturday, 6 October 2007 2:48 AM
+To: r-sig-epi at stat.math.ethz.ch
+Subject: Re: [R-sig-Epi] Probability of falling incidence
+
+Hi Ralf,
+
+I found your problem interesting, so here is my take:
+
+If you are just interested in the last year compared with the previous
+4,
+then the answer in my last post would suffice. If you are interested in
+the
+whole dataset, then Poisson regression is an appropriate tool.
+
+First, load in your data:
+>
+rate<-c(28,17,14,26,32,41,42,44,43,50,37,45,48,65,44,64,69,87,74,70,72,6
+7,75
+,73,69,65,28)
+> year<-0:26
+> dat<-as.data.frame(cbind(rate,year))
+
+next, form the poisson regression model:
+
+> model<-glm(rate~yearc +
+I(year^2)+I(year==26),family=poisson(link="log"),data=dat)
+> summary(model)
+
+Call:
+glm(formula = rate ~ yearc + I(yearc^2), family = poisson(link = "log"),
+
+    data = dat, subset = yearc != 13)
+
+Deviance Residuals: 
+     Min        1Q    Median        3Q       Max  
+-2.31450  -0.56955   0.07245   0.57819   2.25448  
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)
+(Intercept)  4.0657749  0.0396918 102.434  < 2e-16
+yearc        0.0481761  0.0040595  11.868  < 2e-16
+I(yearc^2)  -0.0027762  0.0005868  -4.731 2.23e-06
+
+(Dispersion parameter for poisson family taken to be 1)
+
+    Null deviance: 203.761  on 25  degrees of freedom
+Residual deviance:  31.259  on 23  degrees of freedom
+AIC: 185.74
+
+Number of Fisher Scoring iterations: 4
+
+>
+>
+You can investigate the sensitivity of your model using a sandwich
+estimate
+of the covariance matrix:
+> library(sandwich)
+> library(lmtest)
+> coeftest(model,vcov=sandwich)
+
+z test of coefficients:
+
+                     Estimate  Std. Error  z value  Pr(>|z|)
+(Intercept)        2.97030755  0.14654092  20.2695 < 2.2e-16 ***
+year               0.12035731  0.02234801   5.3856  7.22e-08 ***
+I(year^2)         -0.00277620  0.00073058  -3.8000 0.0001447 ***
+I(year == 26)TRUE -0.89068264  0.05506225 -16.1759 < 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+the results are much the same. Finally, lets make a graph of our fitted
+model vs to observed rates:
+> plot(dat$rate,type="h")
+> lines(exp(model$lin))
+
+the fit looks pretty good.
+
+let me know off list if you have any questions.
+
+Cheers,
+Ian
+
+
+-----Original Message-----
+From: r-sig-epi-bounces at stat.math.ethz.ch
+[mailto:r-sig-epi-bounces at stat.math.ethz.ch]On Behalf Of
+r-sig-epi-request at stat.math.ethz.ch
+Sent: Friday, October 05, 2007 3:00 AM
+To: r-sig-epi at stat.math.ethz.ch
+Subject: R-sig-Epi Digest, Vol 18, Issue 2
+
+
+Send R-sig-Epi mailing list submissions to
+	r-sig-epi at stat.math.ethz.ch
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+or, via email, send a message with subject or body 'help' to
+	r-sig-epi-request at stat.math.ethz.ch
+
+You can reach the person managing the list at
+	r-sig-epi-owner at stat.math.ethz.ch
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of R-sig-Epi digest..."
+
+
+Today's Topics:
+
+   1. Probability of falling incidence (Ralf Finne)
+   2. Re: R-sig-Epi Digest, Vol 18, Issue 1 (Ian Fellows)
+   3. capture-recapture estimation methods (nndsilva at usp.br)
+   4. Re: capture-recapture estimation methods (BXC (Bendix Carstensen))
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Thu, 04 Oct 2007 18:02:30 +0300
+From: "Ralf Finne" <Ralf.Finne at syh.fi>
+Subject: [R-sig-Epi] Probability of falling incidence
+To: <r-sig-epi at stat.math.ethz.ch>
+Message-ID: <47052AB6020000EE0000484D at valhall.syh.fi>
+Content-Type: text/plain; charset=UTF-8
+
+Hi again!
+Some more details are obviously needed.
+I have some more data:
+Year	Incidence number
+1980	28
+1981	17
+1982	14
+1983	26
+1984	32
+1985	41
+1986	42
+1987	44
+1988	43
+1989	50
+1990	37
+1991	45
+1992	48
+1993	65
+1994	44
+1995	64
+1996	69
+1997	87
+1998	74
+1999	70
+2000	72
+2001	67
+2002	75
+2003	73
+2004	69
+2005	65
+2006	28
+The sampling situation is as follows:
+All cases out of a population of around one million persons
+are recorded.  Tre rise in the beginning is probly due to an
+increasing number of diabetes cases.  In the future a falling
+tendency is to be expected, due to better treatment of diabetes.
+
+Looking forward to you responses
+
+Ralf
+
+Message: 2
+Date: Wed, 03 Oct 2007 09:38:54 -0500
+From: Kevin Viel <kviel at sfbrgenetics.org>
+Subject: Re: [R-sig-Epi] Probability of falling incidence
+To: r-sig-epi at stat.math.ethz.ch
+Message-ID: <001b01c805cb$1fa7f4e0$723a7cce at win.sfbrgenetics.org>
+Content-Type: text/plain; charset=us-ascii
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne
+> Sent: Wednesday, October 03, 2007 9:24 AM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Probability of falling incidence
+>
+> Hi everybody.
+>
+> Below are the incidence numbers for  end-stage renal disease
+> in the Helsinki region for the past five years.
+>
+> The following question has arisen:
+>
+> What is the probability  that the decreased  incidence for
+> 2006 is due to random variablilty and not caused by any
+> systematic effect?
+>
+> 2002   75
+> 2003   73
+> 2004   69
+> 2005   65
+> 2006   28
+>
+> Are there any solutions available in R?
+>
+> Very thankful for your answers
+
+Ralf,
+
+ This is not enough data for us to be able to suggest a test.  We would
+need to know the study design, with particular emphasis on the
+statistical
+sampling strategy (stratified, simple random sampling, etc.).  28 cases
+out
+of 1000 p-y is much different from 280 cases out of 10000 p-y, for
+instance.
+
+ Unfortunately, I am only lurker on this list and cannot suggest a
+procedure in R.
+
+
+HTH,
+
+Kevin
+
+
+Kevin Viel, PhD
+Post-doctoral fellow
+Department of Genetics
+Southwest Foundation for Biomedical Research
+San Antonio, TX 78227
+
+
+
+
+Hi everybody.
+
+Below are the incidence numbers for  end-stage renal disease in the
+Helsinki region for the past five years.
+
+The following question has arisen:
+
+What is the probability  that the decreased  incidence for 2006
+is due to random variablilty and not caused by any systematic effect?
+
+2002   75
+2003   73
+2004   69
+2005   65
+2006   28
+
+Are there any solutions available in R?
+
+Very thankful for your answers
+
+Ralf Finne
+Svenska yrkesh?skolan
+Vasa Finland
+
+
+
+------------------------------
+
+Message: 2
+Date: Thu, 4 Oct 2007 09:16:59 -0700
+From: "Ian Fellows" <ifellows at ucsd.edu>
+Subject: Re: [R-sig-Epi] R-sig-Epi Digest, Vol 18, Issue 1
+To: <r-sig-epi at stat.math.ethz.ch>
+Message-ID: <AEEFKNHKDADBAKMPJLPLMEINCHAA.ifellows at ucsd.edu>
+Content-Type: text/plain;	charset="us-ascii"
+
+-----Original Message-----
+From: r-sig-epi-bounces at stat.math.ethz.ch
+[mailto:r-sig-epi-bounces at stat.math.ethz.ch]On Behalf Of
+r-sig-epi-request at stat.math.ethz.ch
+Sent: Thursday, October 04, 2007 3:00 AM
+To: r-sig-epi at stat.math.ethz.ch
+Subject: R-sig-Epi Digest, Vol 18, Issue 1
+
+
+Send R-sig-Epi mailing list submissions to
+	r-sig-epi at stat.math.ethz.ch
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+or, via email, send a message with subject or body 'help' to
+	r-sig-epi-request at stat.math.ethz.ch
+
+You can reach the person managing the list at
+	r-sig-epi-owner at stat.math.ethz.ch
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of R-sig-Epi digest..."
+
+
+Today's Topics:
+
+   1. Probability of falling incidence (Ralf Finne)
+   2. Re: Probability of falling incidence (Kevin Viel)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Wed, 03 Oct 2007 17:24:28 +0300
+From: "Ralf Finne" <Ralf.Finne at syh.fi>
+Subject: [R-sig-Epi] Probability of falling incidence
+To: <r-sig-epi at stat.math.ethz.ch>
+Message-ID: <4703D04D020000EE00004826 at valhall.syh.fi>
+Content-Type: text/plain; charset=UTF-8
+
+Hi everybody.
+
+Below are the incidence numbers for  end-stage renal disease in the
+Helsinki region for the past five years.
+
+The following question has arisen:
+
+What is the probability  that the decreased  incidence for 2006
+is due to random variablilty and not caused by any systematic effect?
+
+2002   75
+2003   73
+2004   69
+2005   65
+2006   28
+
+Are there any solutions available in R?
+
+Very thankful for your answers
+
+Ralf Finne
+Svenska yrkesh?skolan
+Vasa Finland
+
+
+
+------------------------------
+
+Message: 2
+Date: Wed, 03 Oct 2007 09:38:54 -0500
+From: Kevin Viel <kviel at sfbrgenetics.org>
+Subject: Re: [R-sig-Epi] Probability of falling incidence
+To: r-sig-epi at stat.math.ethz.ch
+Message-ID: <001b01c805cb$1fa7f4e0$723a7cce at win.sfbrgenetics.org>
+Content-Type: text/plain; charset=us-ascii
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne
+> Sent: Wednesday, October 03, 2007 9:24 AM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Probability of falling incidence
+>
+> Hi everybody.
+>
+> Below are the incidence numbers for  end-stage renal disease
+> in the Helsinki region for the past five years.
+>
+> The following question has arisen:
+>
+> What is the probability  that the decreased  incidence for
+> 2006 is due to random variablilty and not caused by any
+> systematic effect?
+>
+> 2002   75
+> 2003   73
+> 2004   69
+> 2005   65
+> 2006   28
+>
+> Are there any solutions available in R?
+>
+> Very thankful for your answers
+
+Ralf,
+
+  This is not enough data for us to be able to suggest a test.  We would
+need to know the study design, with particular emphasis on the
+statistical
+sampling strategy (stratified, simple random sampling, etc.).  28 cases
+out
+of 1000 p-y is much different from 280 cases out of 10000 p-y, for
+instance.
+
+  Unfortunately, I am only lurker on this list and cannot suggest a
+procedure in R.
+
+
+HTH,
+
+Kevin
+
+
+Kevin Viel, PhD
+Post-doctoral fellow
+Department of Genetics
+Southwest Foundation for Biomedical Research
+San Antonio, TX 78227
+
+
+
+------------------------------
+
+_______________________________________________
+R-sig-Epi mailing list
+R-sig-Epi at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+End of R-sig-Epi Digest, Vol 18, Issue 1
+****************************************
+
+
+Hello Ralf,
+
+My first instinct is to assume that your data is from a poisson
+distribution. If you have information on renal failure on a finer
+timescale,
+I'd look to see if this assumption holds.
+
+We can test the equality of two poisson rates using the binomial
+distribution. Under the null hypothesis that the rate of the first 4
+data
+points is the same as the last, the distribution of the last rate,
+conditional upon the five year rate (23+75+73+69+65) is:
+y5 - binomial(n=23+75+73+69+65,p=1/(1+4))
+
+so using an exact binomial test we have:
+> sum(dbinom(0:23,23+75+73+69+65,1/(1+4)))*2
+[1] 2.626615e-09
+
+so, if there was no difference in 2006, the probability that we would
+see a
+rate as extreme as 23 is VERY small <.0000001.
+
+With so few years, the poisson assumption, though reasonable, is
+impossible
+to check. I would be interested in other opinions on this.
+
+Ian
+
+
+
+------------------------------
+
+Message: 3
+Date: Thu, 04 Oct 2007 13:38:31 -0300
+From: nndsilva at usp.br
+Subject: [R-sig-Epi] capture-recapture estimation methods
+To: r-sig-epi at stat.math.ethz.ch
+Message-ID: <20071004133831.xt68lq6e8ks848wo at webmail.usp.br>
+Content-Type: text/plain;	charset=ISO-8859-1;	DelSp="Yes";
+	format="flowed"
+
+Could I found variance estimators in R program for two lists??
+
+Thanks,
+
+Nilza Nunes da Silva
+Dept.of Epidemiology-USP-Brazil.
+
+
+
+------------------------------
+
+Message: 4
+Date: Thu, 4 Oct 2007 19:46:29 +0200
+From: "BXC (Bendix Carstensen)" <bxc at steno.dk>
+Subject: Re: [R-sig-Epi] capture-recapture estimation methods
+To: <nndsilva at usp.br>, <r-sig-epi at stat.math.ethz.ch>
+Message-ID:
+	
+<40D3930AC1C8EA469E39536E5BC8083504CC74D3 at EXDKBA021.corp.novocorp.net>
+Content-Type: text/plain;	charset="us-ascii"
+
+I am not quite sure what you mean, but have a look at:
+
+?lapply
+
+Best
+Bendix
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of
+> nndsilva at usp.br
+> Sent: Thursday, October 04, 2007 6:39 PM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] capture-recapture estimation methods
+>
+> Could I found variance estimators in R program for two lists??
+>
+> Thanks,
+>
+> Nilza Nunes da Silva
+> Dept.of Epidemiology-USP-Brazil.
+>
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+
+
+
+------------------------------
+
+_______________________________________________
+R-sig-Epi mailing list
+R-sig-Epi at stat.math.ethz.ch
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+End of R-sig-Epi Digest, Vol 18, Issue 2
+
+_______________________________________________
+R-sig-Epi at stat.math.ethz.ch mailing list
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+From emmanuel.brasil at gmail.com  Mon Oct 15 20:45:43 2007
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Mon, 15 Oct 2007 15:45:43 -0300
+Subject: [R-sig-Epi] Diagnosis function
+Message-ID: <a37cfb5a0710151145k5ed8b1a4g265670bdb50baede@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071015/4341a89e/attachment.pl 
+
+From bxc at steno.dk  Tue Oct 16 00:34:30 2007
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Tue, 16 Oct 2007 00:34:30 +0200
+Subject: [R-sig-Epi] Diagnosis function
+In-Reply-To: <a37cfb5a0710151145k5ed8b1a4g265670bdb50baede@mail.gmail.com>
+Message-ID: <40D3930AC1C8EA469E39536E5BC8083504D811E6@EXDKBA021.corp.novocorp.net>
+
+Pedro,
+
+The major part of evaluation of senitivity and specificity and
+predictive values is computation of probabilities and their c.i.s.
+
+The formulae in "epibasix" are asymtotic, and give horrendous results
+for extreme data. It is in general bad practice to implement method
+designed for hand-calculation (50 years ago) when a computer is actually
+available.
+
+The twoby2() function in the Epi package uses a normal approximation  to
+the logit of the probability, which gives excellent coverage and always
+c.i.s inside [0,1]. It used the function ci.pd() from Epi to compute
+confidence intervals for probability differences.
+
+For illustration, try the following:
+
+library(epibasix)
+library(Epi)
+example(sensSpec)
+# now we have the matrix "dat", so annotate it properly:
+colnames(dat) <- c("Dis","non-Dis")
+rownames(dat) <- c("Test+","Test-")
+# For sensitivity and (1-)specificity:
+twoby2(t(dat))
+# For the predictive values:
+twoby2(dat)
+
+The Epi-package contains a function called "ROC" that draws ROC curves.
+
+Best,
+Bendix
+
+Note: The Epi package on CRAN will really soon be updated. The latest
+version, 0.9.6, is available in: www.biostat.ku.dk/~bxc/Epi/Archive. We
+are just reviewing it to see if any major blunders have crept in.
+______________________________________________
+
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
++45 44 43 73 13 (fax)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> Pedro Emmanuel Alvarenga Americano do Brasil
+> Sent: Monday, October 15, 2007 8:46 PM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Diagnosis function
+> 
+> Dear colegues of the R epidemiologic list,
+> 
+> I was looking for some functions to analyse some data about 
+> diagnostic test and unfortunately there was not somethig that 
+> I expected. However I found a function called SensSpec at 
+> epibasix library.
+> 
+> What came to my attention is that the example given by the 
+> author give a sensitivity of about 96% and a confidence 
+> interval o 88 to 104?!??! How come a result that should vary 
+> between 0 and 100 could have a confidence interval of 104? 
+> There is any way to propose a correction? Also this functions 
+> does not give predictive values, likelihood ratios, dor, and AUC.
+> 
+> Does anyone have or know about any functions to work on 
+> diagnostic tests?
+> 
+> Best regards,
+> Pedro Emmanuel A. A. do Brasil
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+

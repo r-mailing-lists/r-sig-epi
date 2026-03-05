@@ -1,0 +1,117 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2012-12",
+  "messages": [
+    {
+      "id": "msg-d12cb2eb3c7e",
+      "message_id": "<2732C804E2DBB04AA90A678D76FAF2CC047E0D5987@DFW1MBX02.mex07a.mlsrvr.com>",
+      "from_name": "Lisa Solomon",
+      "from_email_hash": "375f0ace505fbda9906f09938aec4d544cea2804675c7fc389f42f5ebed96592",
+      "date": "2012-12-13T13:16:28-06:00",
+      "subject": "[R-sig-Epi] Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
+      "subject_clean": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121213/5d228c37/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121213/5d228c37/attachment.pl>",
+      "thread_id": "thread-d12cb2eb3c7e",
+      "thread_depth": 0,
+      "month": "2012-12"
+    },
+    {
+      "id": "msg-cf9a9e10fbd8",
+      "message_id": "<650388255.6064.1355430079677.JavaMail.help@alum.mit.edu>",
+      "from_name": "Lisa Solomon",
+      "from_email_hash": "3b5f37573428031d0b37829ae63f3922f3346b89aa579ecc548938a78e7dc55b",
+      "date": "2012-12-13T15:21:19-05:00",
+      "subject": "[R-sig-Epi] Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
+      "subject_clean": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing\nTOMORROW: December 14, 10-11 a.m., PST\n\nWebinar Registration: http://2.salford-systems.com/gradientboosting-and-post-processing/ \n \nCourse Outline: \nI. Gradient Boosting and Post-Processing: \no What is missing from Gradient Boosting? \no Why post-processing techniques are used? \n\nII. Applications Benefiting from Post-Processing: Examples from a variety of industries. \no Financial Services \no Biomedical \no Environmental \no Manufacturing \no Adserving \n\nIII. Typical Post-Processing Steps \n\nIV. Techniques: \no Generalized Path Seeker (GPS): modern high-speed LASSO-style regularized regression. \no Importance Sampled Learning Ensembles (ISLE): identify and reweight the most influential trees. \no Rulefit: ISLE on ?steroids.? Identify the most influential nodes and rules. \n\nV. Case Study Example: \no Output/Results without Post-Processing \no Output/Results with Post-Processing \no Demo",
+      "body_snippet": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing\nTOMORROW: December 14, 10-11 a.m., PST\n\nWebinar Registration: http://2.salford-systems.com/gradientboosting-and-post-processing/ \n ",
+      "thread_id": "thread-cf9a9e10fbd8",
+      "thread_depth": 0,
+      "month": "2012-12"
+    },
+    {
+      "id": "msg-2ae70cdcdd52",
+      "message_id": "<1355732712.94686.YahooMailNeo@web160302.mail.bf1.yahoo.com>",
+      "from_name": "Beiranvand",
+      "from_email_hash": "93c4301fe76ba6bb7bee106759300e582a80c6a16647e121cec803654e87d95d",
+      "date": "2012-12-17T00:25:12-08:00",
+      "subject": "[R-sig-Epi] (no subject)",
+      "subject_clean": "(no subject)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121217/d1b9cbce/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121217/d1b9cbce/attachment.pl>",
+      "thread_id": "thread-2ae70cdcdd52",
+      "thread_depth": 0,
+      "month": "2012-12"
+    },
+    {
+      "id": "msg-7968d8423111",
+      "message_id": "<6724bdc3-1706-48a7-a9b2-f721493c6d5c@me.com>",
+      "from_name": "bh1 at me.com",
+      "from_email_hash": "dffe399f79c1c849cc8b9c981f9b6e39be227a252583dc7221696858d8fe4123",
+      "date": "2012-12-21T00:30:57Z",
+      "subject": "[R-sig-Epi] Optmatch Package Question",
+      "subject_clean": "Optmatch Package Question",
+      "in_reply_to": "<b23c701b-2b10-406b-b706-42b55de61f15@me.com>",
+      "references": [],
+      "body_plain": "Hello ,?\n\nMy optmatch package is loaded on R and otherwise running fine.?\nI get an error after lcds successfully completes a logistic regression and?\nI then try to obtain a propensity score:?\n\npdist <- pscore.dist(lcds)?\nError: could not find function \"pscore.dist\"?\n\nSince pscore.dist is part of the optmatch package,?\ndoes anyone know why this command would fail to run\npscore.dist ??\nI searched the help files, other online sources, could find no answer for?\nthis. Any advice would be greatly appreciated!?\n\nThank you ,?\nMichael Adolph MD MPH?\nCancer Pain & Palliative Medicine Service?\nOhio State University?\nColumbus, Ohio, USA\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121221/e99e0a20/attachment.html>",
+      "body_snippet": "Hello ,?\n\nMy optmatch package is loaded on R and otherwise running fine.?\nI get an error after lcds successfully completes a logistic regression and?\nI then try to obtain a propensity score:?\n\npdist <",
+      "thread_id": "thread-7968d8423111",
+      "thread_depth": 0,
+      "month": "2012-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d12cb2eb3c7e",
+      "subject": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
+      "message_count": 1,
+      "participants": [
+        "Lisa Solomon"
+      ],
+      "started": "2012-12-13T13:16:28-06:00",
+      "last_reply": "2012-12-13T13:16:28-06:00",
+      "root_message_id": "msg-d12cb2eb3c7e"
+    },
+    {
+      "id": "thread-cf9a9e10fbd8",
+      "subject": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
+      "message_count": 1,
+      "participants": [
+        "Lisa Solomon"
+      ],
+      "started": "2012-12-13T15:21:19-05:00",
+      "last_reply": "2012-12-13T15:21:19-05:00",
+      "root_message_id": "msg-cf9a9e10fbd8"
+    },
+    {
+      "id": "thread-2ae70cdcdd52",
+      "subject": "(no subject)",
+      "message_count": 1,
+      "participants": [
+        "Beiranvand"
+      ],
+      "started": "2012-12-17T00:25:12-08:00",
+      "last_reply": "2012-12-17T00:25:12-08:00",
+      "root_message_id": "msg-2ae70cdcdd52"
+    },
+    {
+      "id": "thread-7968d8423111",
+      "subject": "Optmatch Package Question",
+      "message_count": 1,
+      "participants": [
+        "bh1 at me.com"
+      ],
+      "started": "2012-12-21T00:30:57+00:00",
+      "last_reply": "2012-12-21T00:30:57+00:00",
+      "root_message_id": "msg-7968d8423111"
+    }
+  ]
+}

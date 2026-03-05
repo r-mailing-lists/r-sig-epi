@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2023-08",
+  "messages": [
+    {
+      "id": "msg-85b45bd247a0",
+      "message_id": "<CAEsSYzwLGquXK2vMTs9=8mFquSvusJgYrjLabdE4iYWrc6AUAA@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2023-08-29T17:18:52+01:00",
+      "subject": "[R-sig-Epi] ONLINE COURSE – Multivariate Analysis Of Ecological Communities Using R With The VEGAN package (VGNR05) This course will be delivered live",
+      "subject_clean": "ONLINE COURSE – Multivariate Analysis Of Ecological Communities Using R With The VEGAN package (VGNR05) This course will be delivered live",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "ONLINE COURSE ? Multivariate Analysis Of Ecological Communities Using R\nWith The VEGAN package (VGNR05) This course will be delivered live\n\nhttps://www.prstatistics.com/course/multivariate-analysis-of-ecological-communities-using-r-with-the-vegan-package-vgnr05/\n\nMonday 18th September 2023\n\nPlease feel free to share!\n\n\nABOUT THIS COURSE...\n\nThis 5-day course will cover R concepts, methods, and tools that can be\nused to analyze community ecology data. The course will review data\nprocessing techniques relevant to multivariate data sets. We will cover\ndiversity indices, distance measures and distance-based multivariate\nmethods, clustering, classification and ordination techniques using the R\npackage VEGAN. We will use real-world empirical data sets to motivate\nanalyses, such as describing patterns along gradients of environ-mental or\nanthropogenic disturbances, quantifying the effects of continuous and\ndiscrete predictors. We will emphasise visualisation and reproducible\nworkflows as well as good programming practices. The modules will consist\nof introductory lectures, guided computer coding, and participant\nexercises. The course is intended for intermediate users of R who are\ninterested in community ecology, particularly in the areas of terrestrial\nand wetland ecology, microbial ecology, and natural resource management.\nYou are strongly encouraged to use your own data sets (they should be clean\nand already structured, see the document: ?recommendation if you\nparticipate with your data?.\n\nPlease email oliverhooker at prstatistics.com with any questions.\n\n-- \n\nOliver Hooker PhD.\nPR statistics\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "ONLINE COURSE ? Multivariate Analysis Of Ecological Communities Using R\nWith The VEGAN package (VGNR05) This course will be delivered live\n\nhttps://www.prstatistics.com/course/multivariate-analysis-of",
+      "thread_id": "thread-85b45bd247a0",
+      "thread_depth": 0,
+      "month": "2023-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-85b45bd247a0",
+      "subject": "ONLINE COURSE – Multivariate Analysis Of Ecological Communities Using R With The VEGAN package (VGNR05) This course will be delivered live",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2023-08-29T17:18:52+01:00",
+      "last_reply": "2023-08-29T17:18:52+01:00",
+      "root_message_id": "msg-85b45bd247a0"
+    }
+  ]
+}

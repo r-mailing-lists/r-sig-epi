@@ -1,0 +1,153 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2008-02",
+  "messages": [
+    {
+      "id": "msg-91a1e61b4b2f",
+      "message_id": "<8a41df090802071436r5661bdcdxda9a3a9c47a1e2d8@mail.gmail.com>",
+      "from_name": "Summer Nitely",
+      "from_email_hash": "b8ad61d3ca3daec2e8633785f850e5c75a302dd7a5c98a306df28e1c9cda9a20",
+      "date": "2008-02-07T15:36:41-07:00",
+      "subject": "[R-sig-Epi] survival curve in epi package",
+      "subject_clean": "survival curve in epi package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080207/40a2f424/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080207/40a2f424/attachment.pl",
+      "thread_id": "thread-91a1e61b4b2f",
+      "thread_depth": 0,
+      "month": "2008-02"
+    },
+    {
+      "id": "msg-1ae1fb6b0d55",
+      "message_id": "<a37cfb5a0802120339g687a2f0cl44676b8e3c5c496@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2008-02-12T08:39:04-03:00",
+      "subject": "[R-sig-Epi] [survival curve] R-sig-Epi Digest, Vol 22, Issue 1",
+      "subject_clean": "[survival curve] R-sig-Epi Digest, Vol 22, Issue 1",
+      "in_reply_to": "<mailman.3.1202468401.8398.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.3.1202468401.8398.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080212/66f2408f/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080212/66f2408f/attachment.pl",
+      "thread_id": "thread-1ae1fb6b0d55",
+      "thread_depth": 0,
+      "month": "2008-02"
+    },
+    {
+      "id": "msg-77ce6715cd6c",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC808350565741E@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2008-02-12T23:43:47+01:00",
+      "subject": "[R-sig-Epi] survival curve in epi package",
+      "subject_clean": "survival curve in epi package",
+      "in_reply_to": "<8a41df090802071436r5661bdcdxda9a3a9c47a1e2d8@mail.gmail.com>",
+      "references": [],
+      "body_plain": "You can have a look at the Icens() function. But that will give you\nestimates of a piecewise constant hazard. You will then have to\ntransform this to the survival function.\n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc\n\n\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Summer Nitely\n> Sent: 8. februar 2008 09:37\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] survival curve in epi package\n> \n>  Does anyone know if the Epi package has a function that \n> returns/plots the survival function for interval censored \n> survival analysis? I haven't found one in the manual that \n> does this, but I could be missing it.\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "You can have a look at the Icens() function. But that will give you\nestimates of a piecewise constant hazard. You will then have to\ntransform this to the survival function.\n___________________________",
+      "thread_id": "thread-91a1e61b4b2f",
+      "thread_depth": 1,
+      "month": "2008-02"
+    },
+    {
+      "id": "msg-61a564326cf0",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC808350574B0F7@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2008-02-25T08:43:52+01:00",
+      "subject": "[R-sig-Epi] Course: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
+      "subject_clean": "Course: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Course in\n \nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R\n\n============================================\n\nTartu, Estonia, Wednesday 28 May to Monday 2 June 2008.\n\nAimed at young statisticians and epidemiologists wishing to broaden\ntheir epidemiological skills, in particular with respect to practical\nstatistical analysis. Participants will gain access to the versatile\nanalysis tool R which has good analytical in particular graphical \ncapabilities. The Epi-package for R will be extensively used.\n\nParticipants are required to have a fairly good understanding of\nstatistical principles and some familiarity with epidemiological\nconcepts. The course will be mainly practically oriented with more\nthan half the time at the computer.\n\nPrice: Commercial: 1000 EUR, Academic: 750 EUR / 500 EUR.\nThe 750 EUR are for particpants from the EU pre-2004, North America\nand the like. 500 for particants from other countries.\n\nApplication deadline: 15 April 2004.\n\nSend an application by mail to the organizers, briefly stating your\nqualifications in epidemiology and statistics and a brief reason to\nparticipate: krista.fischer at mrc-bsu.cam.ac.uk; tilel at sun3.oulu.fi;\nbxc at steno.dk\n\nFurther information at the course homepage: www.biostat.ku.dk/~bxc/SPE\n\n------------------------------------------------------\nKrista Fischer, University of Tartu, Estonia\nEsa L??r?, University of Oulu, Finland\nBendix Carstensen, Steno Diabetes Center, Denmark \n(Organizers)",
+      "body_snippet": "Course in\n \nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R\n\n============================================\n\nTartu, Estonia, Wednesday 28 May to Monday 2 June 2008.\n\nAimed at young statisticians and epidem",
+      "thread_id": "thread-61a564326cf0",
+      "thread_depth": 0,
+      "month": "2008-02"
+    },
+    {
+      "id": "msg-5db4ea06ab5f",
+      "message_id": "<708592.65199.qm@web52104.mail.re2.yahoo.com>",
+      "from_name": "Smita Pakhale",
+      "from_email_hash": "cd0e59caaaad8a4b6eee1b82b0fdac33fd01e4a72b470a4a1b86450f0ba4ec39",
+      "date": "2008-02-29T11:34:23-08:00",
+      "subject": "[R-sig-Epi] need help in calculating confidence intervals for sensitivity, specificity, PPV & NPV",
+      "subject_clean": "need help in calculating confidence intervals for sensitivity, specificity, PPV & NPV",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello,\n\nI am a physician and a novice in R.\n\nI am trying to calculate sensitivity, specificity,\npositive predictive and negative predictive values. I\ncould do that using the package caret. However, I need\nto get confidence intervals around these estimates and\nI do not know how to do that.\n\nPlease help me find a way to calculate confidence\nintervals for these parameters.\n\nthank you.\nSincerely,\nDr. Smita Pakhale",
+      "body_snippet": "Hello,\n\nI am a physician and a novice in R.\n\nI am trying to calculate sensitivity, specificity,\npositive predictive and negative predictive values. I\ncould do that using the package caret. However, I ",
+      "thread_id": "thread-5db4ea06ab5f",
+      "thread_depth": 0,
+      "month": "2008-02"
+    },
+    {
+      "id": "msg-495f5cc19c25",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC80835057C6E21@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2008-02-29T21:16:45+01:00",
+      "subject": "[R-sig-Epi] need help in calculating confidence intervals forsensitivity, specificity, PPV & NPV",
+      "subject_clean": "need help in calculating confidence intervals forsensitivity, specificity, PPV & NPV",
+      "in_reply_to": "<708592.65199.qm@web52104.mail.re2.yahoo.com>",
+      "references": [],
+      "body_plain": "The sensitivity, specificity and predictive values are just proportions,\nso yoiu can use the function binom.test() to get exact confidence\nconfidence intervals.\n\nBest,\nBendix \n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Smita Pakhale\n> Sent: 29. februar 2008 20:34\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] need help in calculating confidence \n> intervals forsensitivity, specificity, PPV & NPV\n> \n> Hello,\n> \n> I am a physician and a novice in R.\n> \n> I am trying to calculate sensitivity, specificity, positive \n> predictive and negative predictive values. I could do that \n> using the package caret. However, I need to get confidence \n> intervals around these estimates and I do not know how to do that.\n> \n> Please help me find a way to calculate confidence intervals \n> for these parameters.\n> \n> thank you.\n> Sincerely,\n> Dr. Smita Pakhale\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "The sensitivity, specificity and predictive values are just proportions,\nso yoiu can use the function binom.test() to get exact confidence\nconfidence intervals.\n\nBest,\nBendix \n\n> -----Original Message",
+      "thread_id": "thread-5db4ea06ab5f",
+      "thread_depth": 1,
+      "month": "2008-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-91a1e61b4b2f",
+      "subject": "survival curve in epi package",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Summer Nitely"
+      ],
+      "started": "2008-02-07T15:36:41-07:00",
+      "last_reply": "2008-02-12T23:43:47+01:00",
+      "root_message_id": "msg-91a1e61b4b2f"
+    },
+    {
+      "id": "thread-1ae1fb6b0d55",
+      "subject": "[survival curve] R-sig-Epi Digest, Vol 22, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2008-02-12T08:39:04-03:00",
+      "last_reply": "2008-02-12T08:39:04-03:00",
+      "root_message_id": "msg-1ae1fb6b0d55"
+    },
+    {
+      "id": "thread-61a564326cf0",
+      "subject": "Course: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2008-02-25T08:43:52+01:00",
+      "last_reply": "2008-02-25T08:43:52+01:00",
+      "root_message_id": "msg-61a564326cf0"
+    },
+    {
+      "id": "thread-5db4ea06ab5f",
+      "subject": "need help in calculating confidence intervals for sensitivity, specificity, PPV & NPV",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Smita Pakhale"
+      ],
+      "started": "2008-02-29T11:34:23-08:00",
+      "last_reply": "2008-02-29T21:16:45+01:00",
+      "root_message_id": "msg-5db4ea06ab5f"
+    }
+  ]
+}

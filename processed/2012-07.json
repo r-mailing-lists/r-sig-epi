@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2012-07",
+  "messages": [
+    {
+      "id": "msg-056789d5bc37",
+      "message_id": "<CALCWFWmGzqK_3EQTc6g+YTX8aQZ6EtMres9hrgDEtAkWspzvuw@mail.gmail.com>",
+      "from_name": "Jeffrey Miller",
+      "from_email_hash": "a88dd5cab28f8f3dcfbd08278931f4dc6dbd318b05294235bbe3813f060c6552",
+      "date": "2012-07-24T15:32:49-04:00",
+      "subject": "[R-sig-Epi] workflow for creating large tabular reports and sharing editable tables with colleagues who don't use LaTeX",
+      "subject_clean": "workflow for creating large tabular reports and sharing editable tables with colleagues who don't use LaTeX",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Colleagues,\n\nQuestion:\nHow do YOU create multi-page publication ready tables that can still\nbe shared and potentially edited by coworkers who don't use LaTeX? I'm\nspecifically looking for a solution that accomodates grouped column\nheaders and grouped row specifications and can be imported, WITH\nstyling (e.g., lower border below each set of grouped rows), into MS\nWord or Excel.\n\nBackground:\nI am working on a report with other analysts. They use SAS. I use R.\nThe tables for the report get incorporated into a giant Microsoft Word\nDocument. Their tables are relatively simple without row or column\ngroupings. One of my tables for this report is 762 rows and\napproximately a dozen columns and needs to have column and row\ngroupings. I drank the kool-aid regarding reproducible research and\ndon't want to post-process the table in MS Word or Excel either.\n\nAm I missing something obvious?\n\nThings I've tried:\nI am familiar with the xtable, tables, R2HTML, hwriter, Hmisc::latex\nand Hmisc:html functions/packages.\n\n- xtable doesn't support row or column grouping as far as I can tell.\n\n- Hmisc::latex, using longtable generates a nice table with grouped\ncolumns and headers (except that the cgroup is not included as part of\nthe header on each subsequent page, unless the tex file is hand edited\n--- I have e-mailed the package mantainer). If my colleagues could\nwork with the pdf or .tex file, this would be addequate.\nUnfortunately, conversion is required. I can't get Hmisc::html to work\ndirectly with the table. Hevea, used by Hmisc::html, will convert the\n.tex file outputed by Hmisc::latex after hand-editing the .tex file\n(e.g.: adding \\documentclass{article}, \\begin{document},\n\\providecommand{\\tabularnewline}{\\\\}) but the resulting html file\nloses the rgroup border formatting when imported into MS Word and\nLibreOffice. LibreOffice also doesn't seem to know how to handle the\nA0;A0 encoding which indents the cell contents after the rgroup.\n\n- OdfWeave::odfTable might work but I'm having issues (e.g. extremely\nlong processing times and inability to resize the rgroup column). I\nhave e-mailed the package mantainer directly.\n\n- Ideally, I would like to generate HTML code for an HTML table and\ncss. This would allow more than one cgroup or rgrouping. I mocked up a\nproof-of-concept table and it looks good in modern browser but the\nformatting isn't reflected in recent versions of MS Excel, MS Word or\nLibreOffice when imported.\n\nWhile my question is really about workflow, I have included\nsessionInfo, an analagous data set and sample code for odfWeave'ing a\nLibreOffice file.  I am not posting the html file so as not to\naggravate the spam filters.\n\n-----------------\nsessionInfo()\n-----------------\nR version 2.15.1 (2012-06-22)\nPlatform: x86_64-apple-darwin11.4.0 (64-bit)\n\nlocale:\n[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8\n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base\n\nother attached packages:\n[1] odfWeave_0.8.1 XML_3.9-4      lattice_0.20-6\n\nloaded via a namespace (and not attached):\n[1] grid_2.15.1  tools_2.15.1\n\n-----------------\nLibreOffice Info:\n-----------------\nLibreOffice 3.5.5.3\nBuild ID: 7122e39-92ed229-498d286-15e43b4-d70da21\n\n-----------------\ntest.odt\n-----------------\n\n<<table, results=xml, echo=FALSE>>=\n\nrequire(odfWeave)\n\nodfSetPageStyle(?RlandscapePage?)\n\nrGen <- function(n, length, frame = c(LETTERS, letters, 0:9)){\n  i = 0\n  x = NULL\n  while (i < n) {\n    x <- c(x,paste(sample(frame, length, replace = TRUE), collapse = \"\"))\n    i <- i + 1\n  }\n  return (x)\n}\n\n# create index and provider name\ndf <- data.frame(NHSN = rGen(254, 6, 0:9), providerName = rGen(254,\n30, LETTERS)) # for each index/provider name pair there are three rows\nfor Employees, STVs, and LIPs # I'm sure there is a more elegant way\nof doing this but I couldn't get expand.grid to work for me in this\ncircumstance\ndf1 <- cbind(df, group = rep(\"Employees\", 254))\ndf2 <- cbind(df, group = rep(\"STVs\", 254))\ndf3 <- cbind(df, group = rep(\"LIPs\", 254)) # make one long table with\neach nhsn/provider listed 3 times, once for each personnel group\ndf4 <- rbind(df1, df2, df3)\n# create random data for body of table\ndf.body <- data.frame(d = sample(c(0:100,NA), 762, replace = TRUE),\nvaccinated_value = sample(c(0:100,NA), 762, replace = TRUE),\nvaccinated_pct = sample(c(0:100,NA), 762, replace = TRUE),\ncontraindicated_value = sample(c(0:100,NA), 762, replace = TRUE),\ncontraindicated_pct = sample(c(0:100,NA), 762, replace = TRUE),\ndeclined_value = sample(c(0:100,NA), 762, replace = TRUE),\ndeclined_pct = sample(c(0:100,NA), 762, replace = TRUE), unknown_value\n= sample(c(0:100,NA), 762, replace = TRUE), unknown_pct =\nsample(c(0:100,NA), 762, replace = TRUE)) # add random data from body\nto row headers\ndf5 <- cbind(df4, df.body)\n# order rows by nhsn/provider\ndf5 <- df5[order(df5$NHSN),]\n\ndf5[is.na(df5)] <- \".\"\n\ndf5 <- head(df5, 60)\n\ndf5$nameNHSN <- paste(df5$providerName, ' (', df5$NHSN, ')', sep = '')\n\ncolnames <- c(\"Group\",\"Total\",rep(c(\"n\",\"pct\"),4))\n\ncgroup = data.frame(colGroupNames =\nc(\"\",\"\",\"Vaccinated\",\"Contraindicated\",\"Declined\",\"Unknown\"), colSpecs\n= c(1,1,2,2,2,2))\n\nrgroup = data.frame(rowGroupNames = unique(df5$nameNHSN), rowSpecs =\nrep(3, length(df5$nameNHSN)/3))\n\ndf5Styles <- tableStyles(df5[,3:12], header = colnames, rgroup =\nrgroup, cgroup = cgroup, useRowNames = FALSE)\n\ndf5Styles$cgroupCell <-\nc(\"noBorder\",\"noBorder\",\"lowerBorder\",\"lowerBorder\",\"lowerBorder\",\"lowerBorder\")\n\ndf5Styles$cell[seq(3,length(df5Styles$cell[,1]),3),] <-\nrep(\"lowerBorder\", length(df5Styles$cell[1,]))\n\ndf5Styles$rgroupCell <- rep(\"lowerBorder\", length(df5Styles$rgroupCell))\n\nodfTable(df5[,3:12], styles = df5Styles, colnames = colnames,\nuseRowNames = FALSE, rgroup = rgroup, cgroup=cgroup)\n\n@\n\n-----------------\n> odfWeave(\"~/test.odt\",\"~/test_out.odt\")\n-----------------\n  Creating  /var/folders/yc/bd663fhj6_bclc7mp0mqlvl80000gn/T//Rtmpn9zzx6/odfWeave24125717262\n  Copying  ~/test.odt\n  Setting wd to\n/private/var/folders/yc/bd663fhj6_bclc7mp0mqlvl80000gn/T/Rtmpn9zzx6/odfWeave24125717262\n  Unzipping ODF file using unzip -o test.odt\nArchive:  test.odt\n extracting: mimetype\n extracting: meta.xml\n  inflating: settings.xml\n  inflating: content.xml\n extracting: Thumbnails/thumbnail.png\n  inflating: manifest.rdf\n   creating: Configurations2/popupmenu/\n   creating: Configurations2/images/Bitmaps/\n   creating: Configurations2/toolpanel/\n   creating: Configurations2/statusbar/\n   creating: Configurations2/toolbar/\n   creating: Configurations2/progressbar/\n   creating: Configurations2/menubar/\n   creating: Configurations2/floater/\n  inflating: Configurations2/accelerator/current.xml\n  inflating: styles.xml\n  inflating: META-INF/manifest.xml\n\n  Removing  test.odt\n  Creating a Pictures directory\n\n  Pre-processing the contents\n  Sweaving  content.Rnw\n\n  Writing to file content_1.xml\n  Processing code chunks ...\n    1 : term xml(label=table)\n\n  'content_1.xml' has been Sweaved\n\n  Removing content.xml\n\n  Post-processing the contents\n\n--- and here it sits for 10 or more minutes ---\n\n\nThanks,\n\nJeff",
+      "body_snippet": "Colleagues,\n\nQuestion:\nHow do YOU create multi-page publication ready tables that can still\nbe shared and potentially edited by coworkers who don't use LaTeX? I'm\nspecifically looking for a solution t",
+      "thread_id": "thread-056789d5bc37",
+      "thread_depth": 0,
+      "month": "2012-07"
+    },
+    {
+      "id": "msg-fa9bfc7b2be5",
+      "message_id": "<CAFfGvyK-fWs6zpPJ419uQGOdz9ACDCCLv-4u703XxXLCMBRdLQ@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2012-07-30T14:04:04-03:00",
+      "subject": "[R-sig-Epi] Importing XML new EpiData files",
+      "subject_clean": "Importing XML new EpiData files",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120730/eb8babe8/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120730/eb8babe8/attachment.pl>",
+      "thread_id": "thread-fa9bfc7b2be5",
+      "thread_depth": 0,
+      "month": "2012-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-056789d5bc37",
+      "subject": "workflow for creating large tabular reports and sharing editable tables with colleagues who don't use LaTeX",
+      "message_count": 1,
+      "participants": [
+        "Jeffrey Miller"
+      ],
+      "started": "2012-07-24T15:32:49-04:00",
+      "last_reply": "2012-07-24T15:32:49-04:00",
+      "root_message_id": "msg-056789d5bc37"
+    },
+    {
+      "id": "thread-fa9bfc7b2be5",
+      "subject": "Importing XML new EpiData files",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2012-07-30T14:04:04-03:00",
+      "last_reply": "2012-07-30T14:04:04-03:00",
+      "root_message_id": "msg-fa9bfc7b2be5"
+    }
+  ]
+}

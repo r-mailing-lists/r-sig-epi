@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2009-04",
+  "messages": [
+    {
+      "id": "msg-37e2e46f2fa1",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC33020192CEA9@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2009-04-30T20:34:01+02:00",
+      "subject": "[R-sig-Epi] Epi 1.0.12 is on CRAN",
+      "subject_clean": "Epi 1.0.12 is on CRAN",
+      "in_reply_to": "<2F73FA3AF524144C863B7C2C903DBC3301F9553E59@exdkmbx002.corp.novocorp.net>",
+      "references": [],
+      "body_plain": "The latest update of Epi, 1.0.12, is now avaialble at CRAN.\n\nA few extra features for the APC-function have been added, and some incompatibilities\nwith the new syntax for survfit have been fixed.\n\nThe Vignette explaining the Lexis functions for representation and manipulation of survival data\nhave been updated.\n\nRegards,\nBendix Carstensen,\npackage maintainer.\n_______________________________________________\n\nBendix Carstensen \nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc\nwww.steno.dk",
+      "body_snippet": "The latest update of Epi, 1.0.12, is now avaialble at CRAN.\n\nA few extra features for the APC-function have been added, and some incompatibilities\nwith the new syntax for survfit have been fixed.\n\nThe",
+      "thread_id": "thread-37e2e46f2fa1",
+      "thread_depth": 0,
+      "month": "2009-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-37e2e46f2fa1",
+      "subject": "Epi 1.0.12 is on CRAN",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2009-04-30T20:34:01+02:00",
+      "last_reply": "2009-04-30T20:34:01+02:00",
+      "root_message_id": "msg-37e2e46f2fa1"
+    }
+  ]
+}

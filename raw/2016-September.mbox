@@ -1,0 +1,77 @@
+From johnmlyahilu at gmail.com  Thu Sep  8 03:12:57 2016
+From: johnmlyahilu at gmail.com (John Mlyahilu)
+Date: Thu, 8 Sep 2016 13:12:57 +1200
+Subject: [R-sig-Epi] Help! Help! Help!
+Message-ID: <CAAgLPEBEki1yQRzY+RpKYoh8KGqQU84q5ded4+uCE64hiaoJdQ@mail.gmail.com>
+
+?I have simulated the SIR model  with the following reactions
+I[i] + S[j]  -> I[i] +I[j]
+I[i] + S[i]  -> 2*I[i]
+
+I have the row data having the matrix with "i"  being the home RTO and "j"
+being the RTO. what I need is to improve this function so that it can give
+the good results as I expect. Here are  the codes in R then anyone can help
+to improve this
+etwd()
+setwd("C:/Users/Dr M/Desktop")
+list.files()
+RTODATA = read.csv(file = 'RTODATA.csv')
+RTODATA
+N <- length(RTODATA$Home_RTO)
+fc <- file("reactionsRTO.xml")
+for(k in 1:N) {
+  Home_RTO <- RTODATA$Home_RTO[k]
+  RTO <- RTODATA$RTO[k]
+  Rate <- RTODATA$Share20160811_1429[k]
+  i = j= rtoIndex
+ if(i!=j){
+  str <- paste("<reaction rate='",Rate,
+   "'>\nS[",rtoIndex,"] + I[",rtoIndex,"] -> I[",rtoIndex,"]+
+I[",rtoIndex,"]\n",
+   "</reaction>\n",sep="")
+ } else {
+  str <- paste("<reaction rate='",Rate,
+   "'>\nS[",rtoIndex,"] + I[",rtoIndex,"] -> 2*I[",rtoIndex,"]\n",
+   "</reaction>\n",sep="")
+ }
+ cat(str, file=fc)
+}
+close(fc)
+
+
+The results from the codes above is as follows
+source("model4today.R")
+There were 50 or more warnings (use warnings() to see the first 50)
+After viewing the xml The following is the content
+ <reaction rate='2.72e-07'>
+S[1020] + I[1020] -> 2*I[1020]
+</reaction>
+It has skipped the first, second ......... up to  1019 rows
+Since the excel data file appears as follows
+Home_RTO RTO Share20160811_1429
+Area Outside RTO Kawerau-Whakatane 0.0842
+West Coast RTO Christchurch 0.009159
+West Coast RTO Waitaki RTO 0.006376
+Area Outside RTO Hawkes Bay RTO 0.029911
+West Coast RTO Nelson Tasman RTO 0.005027
+West Coast RTO South Canterbury 0.004778
+West Coast RTO North Canterbury 0.002869
+Area Outside RTO Bay of Plenty RTO 0.019968
+West Coast RTO Auckland RTO 0.001996
+West Coast RTO Queenstown RTO 0.001849
+West Coast RTO Marlborough RTO 0.001654
+West Coast RTO Wellington RTO 0.001268
+West Coast RTO Lake Wanaka RTO 0.001153
+West Coast RTO Southland RTO 0.001033
+West Coast RTO Dunedin RTO 0.000955
+West Coast RTO Waikato RTO 0.000952
+West Coast RTO Fiordland RTO 0.000791
+
+Hence therefore,  How can I read all the data in the excel file in
+
+Sincerely,
+John
+
+	[[alternative HTML version deleted]]
+
+

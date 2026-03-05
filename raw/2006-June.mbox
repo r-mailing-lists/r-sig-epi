@@ -1,0 +1,333 @@
+From xwyefelix at gmail.com  Wed Jun 14 09:33:57 2006
+From: xwyefelix at gmail.com (xingwang ye)
+Date: Wed, 14 Jun 2006 15:33:57 +0800
+Subject: [R-sig-Epi] could someone tell me how to implement a multiple
+	comparison test for proportions in a 2xc crosstabulation
+Message-ID: <1bff52c20606140033j3ac8e9fdxa85d4edded2ad94a@mail.gmail.com>
+
+I wanna to do multiple comparison test for proportions, could someone
+tell me how in R, thank you!
+
+
+From Harri.Sinkko at ktl.fi  Wed Jun 14 12:19:14 2006
+From: Harri.Sinkko at ktl.fi (Harri Sinkko)
+Date: Wed, 14 Jun 2006 13:19:14 +0300
+Subject: [R-sig-Epi] Out of the office
+Message-ID: <01M3M7DOE90Y99DOKV@ktl.fi>
+
+T?m? viesti on luotu automaattisesti.
+Olen poissa ty?paikalta 7.6 - 13.6 ja luen viestit vasta palattuani.
+
+This message has been generated automatically.
+I'm not present and I'll read your message after my return. 
+
+t.Harri Sinkko
+
+
+From kviel at darwin.sfbr.org  Wed Jun 14 18:03:04 2006
+From: kviel at darwin.sfbr.org (Kevin Viel)
+Date: Wed, 14 Jun 2006 11:03:04 -0500
+Subject: [R-sig-Epi] could someone tell me how to implement a multiple
+ comparison test for proportions in a 2xc crosstabulation
+In-Reply-To: <1bff52c20606140033j3ac8e9fdxa85d4edded2ad94a@mail.gmail.com>
+References: <1bff52c20606140033j3ac8e9fdxa85d4edded2ad94a@mail.gmail.com>
+Message-ID: <44903338.9050307@darwin.sfbr.org>
+
+xingwang ye wrote:
+> I wanna to do multiple comparison test for proportions, could someone
+> tell me how in R, thank you!
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+Typically, we formulate a single hypothesis and test it:
+
+The frequency of exposure in the cases is higher than the frequency of 
+exposure in controls.
+
+Sometimes we alter this a bit:
+
+The frequency of exposure in the cases is higher than the frequency of 
+exposure in:
+
+   (a) Control subgroup A
+   (b) Control subgroup B
+   .
+   .
+   .
+   (n) Control subgroup N
+
+If you have enough groups, then some of the comparisons might appear 
+suggestive by chance alone (1 in 20 at alpha = 0.05).
+
+One might attempt to account for this via corrections for multiple 
+comparisons.  In doing this, one increases the stringency of the p-value 
+(or other evidence).  A conservative approach is the Bonferroni 
+correction: the critical value for the p-value becomes the nominal value 
+divided by the number of test.  For instance, at alpha 0.05 and ten 
+tests the p-value for "significance" becomes 0.005.
+
+You may have something else in mind.  If you write back to the list and 
+describe the investigation (hypotheses), then we might be able to assist 
+you better.
+
+Good luck,
+
+Kevin
+
+----------------------------------------------------------------------
+Kevin Viel
+Department of Genetics                  e-mail: kviel at darwin.sfbr.org
+Southwest Foundation                    phone:  (210)258-9884
+P.O. Box 760549                         fax:    (210)258-9444
+San Antonio, TX 78245-0549
+
+Kevin Viel
+PhD Candidate
+Department of Epidemiology
+Rollins School of Public Health
+Emory University
+Atlanta, GA 30322
+
+
+From foldi at bcm.tmc.edu  Thu Jun 22 17:55:57 2006
+From: foldi at bcm.tmc.edu (Foldi, Beatrix)
+Date: Thu, 22 Jun 2006 10:55:57 -0500
+Subject: [R-sig-Epi] Propensite score question
+Message-ID: <6A52F6A585E35140BD0229E825DA69F0C996F8@BCMEVS7.ad.bcm.edu>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060622/4b109896/attachment.pl 
+
+From tilel at sun3.oulu.fi  Fri Jun 23 13:50:28 2006
+From: tilel at sun3.oulu.fi (Esa Laara)
+Date: Fri, 23 Jun 2006 14:50:28 +0300
+Subject: [R-sig-Epi] Propensite score question
+In-Reply-To: <6A52F6A585E35140BD0229E825DA69F0C996F8@BCMEVS7.ad.bcm.edu>
+References: <6A52F6A585E35140BD0229E825DA69F0C996F8@BCMEVS7.ad.bcm.edu>
+Message-ID: <1151063428.449bd58427887@webmail.oulu.fi>
+
+Hi Beatrix,
+
+The seminal paper on propensity scores and their use was 
+
+Paul R. Rosenbaum and Donald B. Rubin (1983). The central role of the propensity
+score in observational studies for causal effects. Biometrika 70(1):41-55
+
+More recent references include the following. 
+
+D. Rubin (1997). Estimating Causal Effects from Large Data Sets Using Propensity
+Scores. Ann Intern Med 127: 757-763.
+
+Ralph B. D'Agostino Jr. (1998). Propensity score methods for bias reduction in
+the comparison of a treatment to a non-randomized control group. 
+Statistics in Medicine 17(19): 2265 - 2281 
+
+Keisuke Hirano, Guido W. Imbens, and Geert Ridder (2003). Efficient Estimation
+of Average Treatment Effects Using the Estimated Propensity Score.
+Econometrica 71(4) : 1161-1189. 
+
+Tobias Kurth, Alexander M. Walker, Robert J. Glynn, K. Arnold Chan, J. Michael
+Gaziano, Klaus Berger, and James M. Robins (2006). Results of Multivariable
+Logistic Regression, Propensity Matching, Propensity Adjustment, and
+Propensity-based Weighting under Conditions of Nonuniform Effect. 
+American Journal of Epidemiology 163(3):262-270.
+
+With best wishes,
+
+          Esa
+
+Esa L??r?
+Department of Mathematical Sciences
+University of Oulu, Finland
+
+Quoting "Foldi, Beatrix" <foldi at bcm.tmc.edu>:
+
+> Hello All,
+> 
+>  
+> 
+> I participated in a pharmacoepi workshop recently, where they discussed the
+> propensity scores.
+> 
+> I used once in health claim analysis, but does anyone have more info on it?
+> 
+> Thanks in advance.
+> 
+>  
+> 
+> Beatrix Foldi
+> 
+> Beatrix.Foldi at uth.tmc.edu
+> 
+>  
+> 
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+
+
+From Beatrix.Foldi at uth.tmc.edu  Fri Jun 23 15:31:11 2006
+From: Beatrix.Foldi at uth.tmc.edu (Foldi, Beatrix )
+Date: Fri, 23 Jun 2006 08:31:11 -0500
+Subject: [R-sig-Epi] Propensity scores
+Message-ID: <DDE644DA72721B448193AF07C0E1C26926A359@UTHEVS5.mail.uthouston.edu>
+
+Esa,
+
+ 
+
+Thanks for your reply. It seems we attended to the same Seattle-seminar?:-)
+
+I don't have their ppt, but requested. Until that I thought will play with it a little bit.
+
+Found in the meantime the literature you included.
+
+Thank you again (I realized it took probably quite a long time to type).
+
+Enjoy Seattle!
+
+ 
+
+Regards,
+
+ 
+
+Beatrix
+
+(Greetings from Budapest:-))
+
+
+From kviel at darwin.sfbr.org  Mon Jun 26 17:08:27 2006
+From: kviel at darwin.sfbr.org (Kevin Viel)
+Date: Mon, 26 Jun 2006 10:08:27 -0500
+Subject: [R-sig-Epi] Propensite score question
+In-Reply-To: <6A52F6A585E35140BD0229E825DA69F0C996F8@BCMEVS7.ad.bcm.edu>
+References: <6A52F6A585E35140BD0229E825DA69F0C996F8@BCMEVS7.ad.bcm.edu>
+Message-ID: <449FF86B.5090108@darwin.sfbr.org>
+
+Foldi, Beatrix wrote:
+> Hello All,
+> 
+>  
+> 
+> I participated in a pharmacoepi workshop recently, where they discussed the propensity scores.
+> 
+> I used once in health claim analysis, but does anyone have more info on it?
+> 
+> Thanks in advance.
+> 
+>  
+> 
+> Beatrix Foldi
+
+Beatrix,
+
+   Was this before SER?  If so, I also attended the afternoon session. 
+It seems to me that the propensity score is more or less an 
+encapsulation.  The "score" itself seemed to be the predicted 
+probability adjusted for various covariates.
+
+   Honestly, if I were to consider using this technique, it would be by 
+request of a journal or regulator agency.
+
+Regards,
+
+Kevin
+
+----------------------------------------------------------------------
+Kevin Viel
+Department of Genetics                  e-mail: kviel at darwin.sfbr.org
+Southwest Foundation                    phone:  (210)258-9884
+P.O. Box 760549                         fax:    (210)258-9444
+San Antonio, TX 78245-0549
+
+Kevin Viel
+PhD Candidate
+Department of Epidemiology
+Rollins School of Public Health
+Emory University
+Atlanta, GA 30322
+
+
+From mmirabal at finlay.edu.cu  Thu Jun 29 17:02:29 2006
+From: mmirabal at finlay.edu.cu (Mayelin Mirabal Sosa)
+Date: Thu, 29 Jun 2006 10:02:29 -0500
+Subject: [R-sig-Epi] =?iso-8859-1?q?__Load_package_=22car=22?=
+References: <DDE644DA72721B448193AF07C0E1C26926A359@UTHEVS5.mail.uthouston.edu>
+Message-ID: <001c01c69b8d$0c127cb0$260c050a@biometria>
+
+Dear all, I need to perform a Levene?s test for homogeneity of variances in
+R (levene.test {car}). I installed a package "car" but, when I load it, two
+errors are reported:  1. Error in lazyLoadDBfetch(key, datafile, compressed,
+envhook) : ReadItem: unknown type 241 2. Error: package/namespace load
+failed for 'car' If anyone has encountered this problem before I would be
+happy to hear a solution.Thanks in anticipation,Mayelin
+
+
+From tchur at optusnet.com.au  Thu Jun 29 23:13:20 2006
+From: tchur at optusnet.com.au (Tim Churches)
+Date: Fri, 30 Jun 2006 07:13:20 +1000
+Subject: [R-sig-Epi] Load package "car"
+In-Reply-To: <001c01c69b8d$0c127cb0$260c050a@biometria>
+References: <DDE644DA72721B448193AF07C0E1C26926A359@UTHEVS5.mail.uthouston.edu>
+	<001c01c69b8d$0c127cb0$260c050a@biometria>
+Message-ID: <44A44270.9050108@optusnet.com.au>
+
+Mayelin Mirabal Sosa wrote:
+> Dear all, I need to perform a Levene?s test for homogeneity of variances in
+> R (levene.test {car}). I installed a package "car" but, when I load it, two
+> errors are reported:  1. Error in lazyLoadDBfetch(key, datafile, compressed,
+> envhook) : ReadItem: unknown type 241 2. Error: package/namespace load
+> failed for 'car' If anyone has encountered this problem before I would be
+> happy to hear a solution.Thanks in anticipation,Mayelin
+
+I think you have a better probability of receiving an answer quickly if
+you post your question to the general R-help list, but please read the
+'R posting guide" at http://www.r-project.org/posting-guide.html and
+follow its recommendations precisely. If you do that, you are very
+likely to get a friendly and very helpful reply very quickly. However,
+if you ignore the posting guide recommendations you will probably
+receive a curt and irritated reply which may not answer your question.
+In particular, be sure to specify your computer's operating system and
+the version of R and the car package you are using.
+
+Tim C
+
+
+From tchur at optushome.com.au  Thu Jun 29 22:33:12 2006
+From: tchur at optushome.com.au (Tim Churches)
+Date: Fri, 30 Jun 2006 06:33:12 +1000
+Subject: [R-sig-Epi] Load package "car"
+In-Reply-To: <001c01c69b8d$0c127cb0$260c050a@biometria>
+References: <DDE644DA72721B448193AF07C0E1C26926A359@UTHEVS5.mail.uthouston.edu>
+	<001c01c69b8d$0c127cb0$260c050a@biometria>
+Message-ID: <44A43908.7070203@optushome.com.au>
+
+Mayelin Mirabal Sosa wrote:
+> Dear all, I need to perform a Levene?s test for homogeneity of variances in
+> R (levene.test {car}). I installed a package "car" but, when I load it, two
+> errors are reported:  1. Error in lazyLoadDBfetch(key, datafile, compressed,
+> envhook) : ReadItem: unknown type 241 2. Error: package/namespace load
+> failed for 'car' If anyone has encountered this problem before I would be
+> happy to hear a solution.Thanks in anticipation,Mayelin
+
+I think you have a better probability of receiving an answer quickly if
+you post your question to the general R-help list, but please read the
+'R posting guide" at http://www.r-project.org/posting-guide.html and
+follow its recommendations precisely. If you do that, you are very
+likely to get a friendly and very helpful reply very quickly. However,
+if you ignore the posting guide recommendations you will probably
+receive a curt and irritated reply which may not answer your question.
+In particular, be sure to specify your computer's operating system and
+the version of R and the car package you are using.
+
+Tim C
+
+

@@ -1,0 +1,98 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2008-09",
+  "messages": [
+    {
+      "id": "msg-6853a2d2ddfd",
+      "message_id": "<a37cfb5a0809050655m48e50907g2702e2a701de94e7@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2008-09-05T10:55:23-03:00",
+      "subject": "[R-sig-Epi] Paired by exposure",
+      "subject_clean": "Paired by exposure",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/f6afc1fe/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/f6afc1fe/attachment.pl>",
+      "thread_id": "thread-6853a2d2ddfd",
+      "thread_depth": 0,
+      "month": "2008-09"
+    },
+    {
+      "id": "msg-78c1b3d80717",
+      "message_id": "<a37cfb5a0809050701t7bbdf235m4a3844791fd6c765@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2008-09-05T11:01:13-03:00",
+      "subject": "[R-sig-Epi] Paired by exposure",
+      "subject_clean": "Paired by exposure",
+      "in_reply_to": "<a37cfb5a0809050655m48e50907g2702e2a701de94e7@mail.gmail.com>",
+      "references": [
+        "<a37cfb5a0809050655m48e50907g2702e2a701de94e7@mail.gmail.com>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/4b93628d/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/4b93628d/attachment.pl>",
+      "thread_id": "thread-6853a2d2ddfd",
+      "thread_depth": 1,
+      "month": "2008-09"
+    },
+    {
+      "id": "msg-c160490db9d1",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301A9DCD912@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2008-09-05T16:26:27+02:00",
+      "subject": "[R-sig-Epi] Paired by exposure",
+      "subject_clean": "Paired by exposure",
+      "in_reply_to": "<a37cfb5a0809050701t7bbdf235m4a3844791fd6c765@mail.gmail.com>",
+      "references": [],
+      "body_plain": "This is not what we would call a paired design, because you are not pairing the OUTCOME, but the EXPOSURE.\n\nYou are merely taking a sample of the exposed and a sample of the non-exposed, and making sure that they have the same distribution of age at entry / date of birth / date of entry --- which one(s)?\n\nEstimating mortality (morbidity?) in each of the two groups and the rate-ratio between them is just a straight-forward cohort analysis, either using a Poisson-model or a Cox-model. You will have to consider what time-scale you use for the description, though. And you must be sure that you are not using any of the follow-up information in your selection of persons to enter the study.\n\nBest regards,\nBendix Carstensen\n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch\n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of\n> Pedro Emmanuel Alvarenga Americano do Brasil\n> Sent: 5. september 2008 16:01\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: Re: [R-sig-Epi] Paired by exposure\n>\n> >\n> > Dear R friens,\n> >\n> > I will start a project this month wiht a partner which is\n> disigned as\n> > a quasi-experiment. We are interrested in estimate risk\n> raios and rate\n> > ratios, possibly survival analysis. Everything is registered at\n> > medical charts form the last 22 yaers. So everythig is\n> retorspective.\n> > However, due to a efficiency matters, we dicided to select the\n> > non-exposed matching to the exposed. So for every paciente\n> that took\n> > this paticular medicine, we intend ot match one that did\n> not take, and\n> > start the follow-up in the same year and has no more than\n> 10 years older than the exposed.\n> >\n> > I have looked up for more recent things than those I have\n> in Klienbaum\n> > and Rothman but it seems that the very good old friend\n> ajusted MH for\n> > the pair is the recomended.\n> >\n> > Does anyone have other sugestions? Does any knows a package or\n> > functions to run paired risk or rate analysis?\n> >\n>\n>    Best regards\n>\n> >\n> > --\n> > Abra?o forte e que a for?a esteja com voc?, Pedro Emmanuel\n> >\n>\n>         [[alternative HTML version deleted]]\n>\n>",
+      "body_snippet": "This is not what we would call a paired design, because you are not pairing the OUTCOME, but the EXPOSURE.\n\nYou are merely taking a sample of the exposed and a sample of the non-exposed, and making su",
+      "thread_id": "thread-6853a2d2ddfd",
+      "thread_depth": 2,
+      "month": "2008-09"
+    },
+    {
+      "id": "msg-22b55901dcc6",
+      "message_id": "<a37cfb5a0809171002q6d09577aq500f2316c05f95dd@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2008-09-17T14:02:04-03:00",
+      "subject": "[R-sig-Epi] Turning off the next button for grpahic devices",
+      "subject_clean": "Turning off the next button for grpahic devices",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080917/c5f17b42/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080917/c5f17b42/attachment.pl>",
+      "thread_id": "thread-22b55901dcc6",
+      "thread_depth": 0,
+      "month": "2008-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-6853a2d2ddfd",
+      "subject": "Paired by exposure",
+      "message_count": 3,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2008-09-05T10:55:23-03:00",
+      "last_reply": "2008-09-05T16:26:27+02:00",
+      "root_message_id": "msg-6853a2d2ddfd"
+    },
+    {
+      "id": "thread-22b55901dcc6",
+      "subject": "Turning off the next button for grpahic devices",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2008-09-17T14:02:04-03:00",
+      "last_reply": "2008-09-17T14:02:04-03:00",
+      "root_message_id": "msg-22b55901dcc6"
+    }
+  ]
+}

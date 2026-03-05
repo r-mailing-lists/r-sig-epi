@@ -1,0 +1,833 @@
+From mgk4transweb at gmail.com  Fri Mar 18 06:18:55 2011
+From: mgk4transweb at gmail.com (Madan Gopal Kundu)
+Date: Fri, 18 Mar 2011 01:18:55 -0400
+Subject: [R-sig-Epi] converting string to a object name of a dataset
+Message-ID: <AANLkTimQC3r42vnm12FCd404sD8Zpo8rNXGabifWtsKZ@mail.gmail.com>
+
+Hi,
+
+I am trying to access object which is variable of a dataset using
+string.? For that I am trying to convert a string to the object name
+in the following code. But unfortunately it looks something is going
+wrong in the following code.
+
+data1<- data.frame(x=c(1:4), y=rep(1:4))
+gvars<- c("x", "y")
+z<- paste("data1", gvars[1], sep="$")
+get(z)
+
+The above code should return following output:
+[1] 1 2 3 4
+
+but instead it is printing following error
+"Error in get(z) : object 'data1$x' not found"
+
+Please help me to fix the problem.
+
+Regards
+Madan
+
+
+From bxc at steno.dk  Fri Mar 18 08:19:47 2011
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Fri, 18 Mar 2011 08:19:47 +0100
+Subject: [R-sig-Epi] converting string to a object name of a dataset
+In-Reply-To: <AANLkTimQC3r42vnm12FCd404sD8Zpo8rNXGabifWtsKZ@mail.gmail.com>
+References: <AANLkTimQC3r42vnm12FCd404sD8Zpo8rNXGabifWtsKZ@mail.gmail.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3302B6D7712E@exdkmbx002.corp.novocorp.net>
+
+get() looks in the search path, so you can put data 1 there using attach():
+
+> data1<- data.frame(x=c(1:4), y=rep(1,4))
+> attach(data1)
+> gvars<- c("x", "y")
+> get( gvars[1] )
+[1] 1 2 3 4
+> get( gvars[2] )
+[1] 1 1 1 1
+
+Best regards,
+Bendix Carstensen
+_________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Steno Diabetes Center A/S
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk    www.biostat.ku.dk/~bxc
+www.steno.dk
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at r-project.org 
+> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Madan 
+> Gopal Kundu
+> Sent: 18. marts 2011 06:19
+> To: r-sig-epi at r-project.org
+> Subject: [R-sig-Epi] converting string to a object name of a dataset
+> 
+> Hi,
+> 
+> I am trying to access object which is variable of a dataset 
+> using string.? For that I am trying to convert a string to 
+> the object name in the following code. But unfortunately it 
+> looks something is going wrong in the following code.
+> 
+> data1<- data.frame(x=c(1:4), y=rep(1:4))
+> gvars<- c("x", "y")
+> z<- paste("data1", gvars[1], sep="$")
+> get(z)
+> 
+> The above code should return following output:
+> [1] 1 2 3 4
+> 
+> but instead it is printing following error "Error in get(z) : 
+> object 'data1$x' not found"
+> 
+> Please help me to fix the problem.
+> 
+> Regards
+> Madan
+> 
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+From dwinsemius at comcast.net  Fri Mar 18 14:35:43 2011
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Fri, 18 Mar 2011 09:35:43 -0400
+Subject: [R-sig-Epi] converting string to a object name of a dataset
+In-Reply-To: <2F73FA3AF524144C863B7C2C903DBC3302B6D7712E@exdkmbx002.corp.novocorp.net>
+References: <AANLkTimQC3r42vnm12FCd404sD8Zpo8rNXGabifWtsKZ@mail.gmail.com>
+	<2F73FA3AF524144C863B7C2C903DBC3302B6D7712E@exdkmbx002.corp.novocorp.net>
+Message-ID: <FCA6781F-FF7B-4EF9-95BC-194054688D32@comcast.net>
+
+
+On Mar 18, 2011, at 3:19 AM, BXC (Bendix Carstensen) wrote:
+
+> get() looks in the search path, so you can put data 1 there using  
+> attach():
+>
+>> data1<- data.frame(x=c(1:4), y=rep(1,4))
+>> attach(data1)
+>> gvars<- c("x", "y")
+>> get( gvars[1] )
+> [1] 1 2 3 4
+>> get( gvars[2] )
+> [1] 1 1 1 1
+
+Many R users make an effort to avoid using `attach` in any setting  
+other than the very earliest efforts at learning R. As a result they  
+also avoid the use of "$" in coding, since it is much less flexible  
+than the function on which it depends, namely "[[". If you want the  
+string "x" to beinterpreted as a columnname then "[[" is the way to go:
+
+ > data1<- data.frame(x=c(1:4), y=rep(1,4))
+ > gvars<- c("x", "y")
+
+#Two methods get you the results you want:
+
+ > data1[[gvars[1] ]]
+[1] 1 2 3 4
+ > get("data1")[[ gvars[1] ]]
+[1] 1 2 3 4
+
+-- 
+David.
+
+
+>
+> Best regards,
+> Bendix Carstensen
+> _________________________________________
+>
+> Bendix Carstensen
+> Senior Statistician
+> Steno Diabetes Center A/S
+> Niels Steensens Vej 2-4
+> DK-2820 Gentofte
+> Denmark
+> +45 44 43 87 38 (direct)
+> +45 30 75 87 38 (mobile)
+> bxc at steno.dk    www.biostat.ku.dk/~bxc
+> www.steno.dk
+>
+>> -----Original Message-----
+>> From: r-sig-epi-bounces at r-project.org
+>> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Madan
+>> Gopal Kundu
+>> Sent: 18. marts 2011 06:19
+>> To: r-sig-epi at r-project.org
+>> Subject: [R-sig-Epi] converting string to a object name of a dataset
+>>
+>> Hi,
+>>
+>> I am trying to access object which is variable of a dataset
+>> using string.  For that I am trying to convert a string to
+>> the object name in the following code. But unfortunately it
+>> looks something is going wrong in the following code.
+>>
+>> data1<- data.frame(x=c(1:4), y=rep(1:4))
+>> gvars<- c("x", "y")
+>> z<- paste("data1", gvars[1], sep="$")
+>> get(z)
+>>
+>> The above code should return following output:
+>> [1] 1 2 3 4
+>>
+>> but instead it is printing following error "Error in get(z) :
+>> object 'data1$x' not found"
+>>
+>> Please help me to fix the problem.
+>>
+>> Regards
+>> Madan
+>>
+>> _______________________________________________
+>> R-sig-Epi at r-project.org mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+David Winsemius, MD
+West Hartford, CT
+
+
+From mgk4transweb at gmail.com  Fri Mar 18 16:18:16 2011
+From: mgk4transweb at gmail.com (Madan Gopal Kundu)
+Date: Fri, 18 Mar 2011 11:18:16 -0400
+Subject: [R-sig-Epi] converting string to a object name of a dataset
+In-Reply-To: <2F73FA3AF524144C863B7C2C903DBC3302B6D7712E@exdkmbx002.corp.novocorp.net>
+References: <AANLkTimQC3r42vnm12FCd404sD8Zpo8rNXGabifWtsKZ@mail.gmail.com>
+	<2F73FA3AF524144C863B7C2C903DBC3302B6D7712E@exdkmbx002.corp.novocorp.net>
+Message-ID: <AANLkTikPkOeHM4Eh88cOSAYzKi=Ev-Gi0tX268ufLm7A@mail.gmail.com>
+
+Hi,
+
+Thanks to David and Bendix for giving me the solution. I would like to
+extend my question little bit further. I am trying to execute
+following code:
+
+data1<- data.frame(x=c(1:4), y=rep(1:4))
+gvars<- c("x", "y")
+for (i in 1:2)
+{
+print(data1[[gvars[i]]])
+}
+
+and it returns the following output:
+[1] 1 2 3 4
+[1] 1 2 3 4
+
+However, my desired output is
+[1] 1 2 3 4
+[1] 1 1 1 1
+
+I tried the following code as well, but the problem remains same:
+attach(data1)
+for (i in 1:2)
+{
+print(get(gvars[i]))
+}
+
+Thanks in advance!!
+
+Regards
+Madan
+
+On Fri, Mar 18, 2011 at 3:19 AM, BXC (Bendix Carstensen) <bxc at steno.dk> wrote:
+> get() looks in the search path, so you can put data 1 there using attach():
+>
+>> data1<- data.frame(x=c(1:4), y=rep(1,4))
+>> attach(data1)
+>> gvars<- c("x", "y")
+>> get( gvars[1] )
+> [1] 1 2 3 4
+>> get( gvars[2] )
+> [1] 1 1 1 1
+>
+> Best regards,
+> Bendix Carstensen
+> _________________________________________
+>
+> Bendix Carstensen
+> Senior Statistician
+> Steno Diabetes Center A/S
+> Niels Steensens Vej 2-4
+> DK-2820 Gentofte
+> Denmark
+> +45 44 43 87 38?(direct)
+> +45 30 75 87 38?(mobile)
+> bxc at steno.dk ? ?www.biostat.ku.dk/~bxc
+> www.steno.dk
+>
+>> -----Original Message-----
+>> From: r-sig-epi-bounces at r-project.org
+>> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Madan
+>> Gopal Kundu
+>> Sent: 18. marts 2011 06:19
+>> To: r-sig-epi at r-project.org
+>> Subject: [R-sig-Epi] converting string to a object name of a dataset
+>>
+>> Hi,
+>>
+>> I am trying to access object which is variable of a dataset
+>> using string.? For that I am trying to convert a string to
+>> the object name in the following code. But unfortunately it
+>> looks something is going wrong in the following code.
+>>
+>> data1<- data.frame(x=c(1:4), y=rep(1:4))
+>> gvars<- c("x", "y")
+>> z<- paste("data1", gvars[1], sep="$")
+>> get(z)
+>>
+>> The above code should return following output:
+>> [1] 1 2 3 4
+>>
+>> but instead it is printing following error "Error in get(z) :
+>> object 'data1$x' not found"
+>>
+>> Please help me to fix the problem.
+>>
+>> Regards
+>> Madan
+>>
+>> _______________________________________________
+>> R-sig-Epi at r-project.org mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>
+
+
+From ryung.kim at einstein.yu.edu  Fri Mar 18 16:20:49 2011
+From: ryung.kim at einstein.yu.edu (Ryung S. Kim)
+Date: Fri, 18 Mar 2011 11:20:49 -0400 (Eastern Daylight Time)
+Subject: [R-sig-Epi] converting string to a object name of a dataset
+In-Reply-To: <AANLkTikPkOeHM4Eh88cOSAYzKi=Ev-Gi0tX268ufLm7A@mail.gmail.com>
+References: <AANLkTimQC3r42vnm12FCd404sD8Zpo8rNXGabifWtsKZ@mail.gmail.com>
+	<2F73FA3AF524144C863B7C2C903DBC3302B6D7712E@exdkmbx002.corp.novocorp.net>
+	<AANLkTikPkOeHM4Eh88cOSAYzKi=Ev-Gi0tX268ufLm7A@mail.gmail.com>
+Message-ID: <alpine.WNT.2.00.1103181120340.4564@RKim.deph.local>
+
+Hi, 
+
+ try changing rep(1:4) to rep(1,4)
+
+On Fri, 18 Mar 2011, Madan Gopal Kundu wrote:
+
+Hi,
+
+Thanks to David and Bendix for giving me the solution. I would like to
+extend my question little bit further. I am trying to execute
+following code:
+
+data1<- data.frame(x=c(1:4), y=rep(1:4))
+gvars<- c("x", "y")
+for (i in 1:2)
+{
+print(data1[[gvars[i]]])
+}
+
+and it returns the following output:
+[1] 1 2 3 4
+[1] 1 2 3 4
+
+However, my desired output is
+[1] 1 2 3 4
+[1] 1 1 1 1
+
+I tried the following code as well, but the problem remains same:
+attach(data1)
+for (i in 1:2)
+{
+print(get(gvars[i]))
+}
+
+Thanks in advance!!
+
+Regards
+Madan
+
+On Fri, Mar 18, 2011 at 3:19 AM, BXC (Bendix Carstensen) <bxc at steno.dk> wrote:
+> get() looks in the search path, so you can put data 1 there using attach():
+>
+>> data1<- data.frame(x=c(1:4), y=rep(1,4))
+>> attach(data1)
+>> gvars<- c("x", "y")
+>> get( gvars[1] )
+> [1] 1 2 3 4
+>> get( gvars[2] )
+> [1] 1 1 1 1
+>
+> Best regards,
+> Bendix Carstensen
+> _________________________________________
+>
+> Bendix Carstensen
+> Senior Statistician
+> Steno Diabetes Center A/S
+> Niels Steensens Vej 2-4
+> DK-2820 Gentofte
+> Denmark
+> +45 44 43 87 38?(direct)
+> +45 30 75 87 38?(mobile)
+> bxc at steno.dk ? ?www.biostat.ku.dk/~bxc
+> www.steno.dk
+>
+>> -----Original Message-----
+>> From: r-sig-epi-bounces at r-project.org
+>> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Madan
+>> Gopal Kundu
+>> Sent: 18. marts 2011 06:19
+>> To: r-sig-epi at r-project.org
+>> Subject: [R-sig-Epi] converting string to a object name of a dataset
+>>
+>> Hi,
+>>
+>> I am trying to access object which is variable of a dataset
+>> using string.? For that I am trying to convert a string to
+>> the object name in the following code. But unfortunately it
+>> looks something is going wrong in the following code.
+>>
+>> data1<- data.frame(x=c(1:4), y=rep(1:4))
+>> gvars<- c("x", "y")
+>> z<- paste("data1", gvars[1], sep="$")
+>> get(z)
+>>
+>> The above code should return following output:
+>> [1] 1 2 3 4
+>>
+>> but instead it is printing following error "Error in get(z) :
+>> object 'data1$x' not found"
+>>
+>> Please help me to fix the problem.
+>>
+>> Regards
+>> Madan
+>>
+>> _______________________________________________
+>> R-sig-Epi at r-project.org mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>
+
+_______________________________________________
+R-sig-Epi at r-project.org mailing list
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+From pdalgd at gmail.com  Fri Mar 18 16:26:23 2011
+From: pdalgd at gmail.com (peter dalgaard)
+Date: Fri, 18 Mar 2011 16:26:23 +0100
+Subject: [R-sig-Epi] converting string to a object name of a dataset
+In-Reply-To: <AANLkTikPkOeHM4Eh88cOSAYzKi=Ev-Gi0tX268ufLm7A@mail.gmail.com>
+References: <AANLkTimQC3r42vnm12FCd404sD8Zpo8rNXGabifWtsKZ@mail.gmail.com>
+	<2F73FA3AF524144C863B7C2C903DBC3302B6D7712E@exdkmbx002.corp.novocorp.net>
+	<AANLkTikPkOeHM4Eh88cOSAYzKi=Ev-Gi0tX268ufLm7A@mail.gmail.com>
+Message-ID: <41B77ADA-A09C-42DB-BA10-4ECC0DD0A0A2@gmail.com>
+
+
+On Mar 18, 2011, at 16:18 , Madan Gopal Kundu wrote:
+
+> Hi,
+> 
+> Thanks to David and Bendix for giving me the solution. I would like to
+> extend my question little bit further. I am trying to execute
+> following code:
+> 
+> data1<- data.frame(x=c(1:4), y=rep(1:4))
+> gvars<- c("x", "y")
+> for (i in 1:2)
+> {
+> print(data1[[gvars[i]]])
+> }
+> 
+> and it returns the following output:
+> [1] 1 2 3 4
+> [1] 1 2 3 4
+> 
+> However, my desired output is
+> [1] 1 2 3 4
+> [1] 1 1 1 1
+
+Well, that's not what you put in! Try ...y=rep(1,4)...
+
+Adding to the original question, notice that there is a difference between variable names and expressions. get() will get you a variable by name, but "data1$y" is not a name (well, it is, but not of the object you are looking for). If you insist on building R expressions as character strings, you need to evaluate them with eval(parse(string)). David had the better idea though.
+
+> 
+> I tried the following code as well, but the problem remains same:
+> attach(data1)
+> for (i in 1:2)
+> {
+> print(get(gvars[i]))
+> }
+> 
+> Thanks in advance!!
+> 
+> Regards
+> Madan
+> 
+> On Fri, Mar 18, 2011 at 3:19 AM, BXC (Bendix Carstensen) <bxc at steno.dk> wrote:
+>> get() looks in the search path, so you can put data 1 there using attach():
+>> 
+>>> data1<- data.frame(x=c(1:4), y=rep(1,4))
+>>> attach(data1)
+>>> gvars<- c("x", "y")
+>>> get( gvars[1] )
+>> [1] 1 2 3 4
+>>> get( gvars[2] )
+>> [1] 1 1 1 1
+>> 
+>> Best regards,
+>> Bendix Carstensen
+>> _________________________________________
+>> 
+>> Bendix Carstensen
+>> Senior Statistician
+>> Steno Diabetes Center A/S
+>> Niels Steensens Vej 2-4
+>> DK-2820 Gentofte
+>> Denmark
+>> +45 44 43 87 38 (direct)
+>> +45 30 75 87 38 (mobile)
+>> bxc at steno.dk    www.biostat.ku.dk/~bxc
+>> www.steno.dk
+>> 
+>>> -----Original Message-----
+>>> From: r-sig-epi-bounces at r-project.org
+>>> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Madan
+>>> Gopal Kundu
+>>> Sent: 18. marts 2011 06:19
+>>> To: r-sig-epi at r-project.org
+>>> Subject: [R-sig-Epi] converting string to a object name of a dataset
+>>> 
+>>> Hi,
+>>> 
+>>> I am trying to access object which is variable of a dataset
+>>> using string.  For that I am trying to convert a string to
+>>> the object name in the following code. But unfortunately it
+>>> looks something is going wrong in the following code.
+>>> 
+>>> data1<- data.frame(x=c(1:4), y=rep(1:4))
+>>> gvars<- c("x", "y")
+>>> z<- paste("data1", gvars[1], sep="$")
+>>> get(z)
+>>> 
+>>> The above code should return following output:
+>>> [1] 1 2 3 4
+>>> 
+>>> but instead it is printing following error "Error in get(z) :
+>>> object 'data1$x' not found"
+>>> 
+>>> Please help me to fix the problem.
+>>> 
+>>> Regards
+>>> Madan
+>>> 
+>>> _______________________________________________
+>>> R-sig-Epi at r-project.org mailing list
+>>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>> 
+> 
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+-- 
+Peter Dalgaard
+Center for Statistics, Copenhagen Business School
+Solbjerg Plads 3, 2000 Frederiksberg, Denmark
+Phone: (+45)38153501
+Email: pd.mes at cbs.dk  Priv: PDalgd at gmail.com
+
+
+From dwinsemius at comcast.net  Fri Mar 18 18:19:22 2011
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Fri, 18 Mar 2011 13:19:22 -0400
+Subject: [R-sig-Epi] converting string to a object name of a dataset
+In-Reply-To: <AANLkTikPkOeHM4Eh88cOSAYzKi=Ev-Gi0tX268ufLm7A@mail.gmail.com>
+References: <AANLkTimQC3r42vnm12FCd404sD8Zpo8rNXGabifWtsKZ@mail.gmail.com>
+	<2F73FA3AF524144C863B7C2C903DBC3302B6D7712E@exdkmbx002.corp.novocorp.net>
+	<AANLkTikPkOeHM4Eh88cOSAYzKi=Ev-Gi0tX268ufLm7A@mail.gmail.com>
+Message-ID: <DFA41A33-5717-44A6-A8AD-CC7275E97B75@comcast.net>
+
+
+On Mar 18, 2011, at 11:18 AM, Madan Gopal Kundu wrote:
+
+> Hi,
+>
+> Thanks to David and Bendix for giving me the solution. I would like to
+> extend my question little bit further. I am trying to execute
+> following code:
+>
+> data1<- data.frame(x=c(1:4), y=rep(1:4))
+
+Did you mean to type:
+
+  data1<- data.frame(x=c(1:4), y=rep(1, 4))  # ?
+
+ > data1
+   x y
+1 1 1
+2 2 1
+3 3 1
+4 4 1
+
+> gvars<- c("x", "y")
+> for (i in 1:2)
+> {
+> print(data1[[gvars[i]]])
+> }
+>
+> and it returns the following output:
+> [1] 1 2 3 4
+> [1] 1 2 3 4
+>
+> However, my desired output is
+> [1] 1 2 3 4
+> [1] 1 1 1 1
+>
+> I tried the following code as well, but the problem remains same:
+> attach(data1)
+> for (i in 1:2)
+> {
+> print(get(gvars[i]))
+> }
+>
+> Thanks in advance!!
+>
+> Regards
+> Madan
+>
+> On Fri, Mar 18, 2011 at 3:19 AM, BXC (Bendix Carstensen)  
+> <bxc at steno.dk> wrote:
+>> get() looks in the search path, so you can put data 1 there using  
+>> attach():
+>>
+>>> data1<- data.frame(x=c(1:4), y=rep(1,4))
+>>> attach(data1)
+>>> gvars<- c("x", "y")
+>>> get( gvars[1] )
+>> [1] 1 2 3 4
+>>> get( gvars[2] )
+>> [1] 1 1 1 1
+>>
+>> Best regards,
+>> Bendix Carstensen
+>> _________________________________________
+>>
+>> Bendix Carstensen
+>> Senior Statistician
+>> Steno Diabetes Center A/S
+>> Niels Steensens Vej 2-4
+>> DK-2820 Gentofte
+>> Denmark
+>> +45 44 43 87 38 (direct)
+>> +45 30 75 87 38 (mobile)
+>> bxc at steno.dk    www.biostat.ku.dk/~bxc
+>> www.steno.dk
+>>
+>>> -----Original Message-----
+>>> From: r-sig-epi-bounces at r-project.org
+>>> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Madan
+>>> Gopal Kundu
+>>> Sent: 18. marts 2011 06:19
+>>> To: r-sig-epi at r-project.org
+>>> Subject: [R-sig-Epi] converting string to a object name of a dataset
+>>>
+>>> Hi,
+>>>
+>>> I am trying to access object which is variable of a dataset
+>>> using string.  For that I am trying to convert a string to
+>>> the object name in the following code. But unfortunately it
+>>> looks something is going wrong in the following code.
+>>>
+>>> data1<- data.frame(x=c(1:4), y=rep(1:4))
+>>> gvars<- c("x", "y")
+>>> z<- paste("data1", gvars[1], sep="$")
+>>> get(z)
+>>>
+>>> The above code should return following output:
+>>> [1] 1 2 3 4
+>>>
+>>> but instead it is printing following error "Error in get(z) :
+>>> object 'data1$x' not found"
+>>>
+>>> Please help me to fix the problem.
+>>>
+>>> Regards
+>>> Madan
+>>>
+>>> _______________________________________________
+>>> R-sig-Epi at r-project.org mailing list
+>>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>>
+
+David Winsemius, MD
+West Hartford, CT
+
+
+From mgk4transweb at gmail.com  Fri Mar 18 19:55:57 2011
+From: mgk4transweb at gmail.com (Madan Gopal Kundu)
+Date: Fri, 18 Mar 2011 14:55:57 -0400
+Subject: [R-sig-Epi] converting string to a object name of a dataset
+In-Reply-To: <DFA41A33-5717-44A6-A8AD-CC7275E97B75@comcast.net>
+References: <AANLkTimQC3r42vnm12FCd404sD8Zpo8rNXGabifWtsKZ@mail.gmail.com>
+	<2F73FA3AF524144C863B7C2C903DBC3302B6D7712E@exdkmbx002.corp.novocorp.net>
+	<AANLkTikPkOeHM4Eh88cOSAYzKi=Ev-Gi0tX268ufLm7A@mail.gmail.com>
+	<DFA41A33-5717-44A6-A8AD-CC7275E97B75@comcast.net>
+Message-ID: <AANLkTik87G4aLxu0zf4kfhi4ZFTxhQeQg86qCnqKkD8a@mail.gmail.com>
+
+Thanks a lot for your help. Yeah it was a mistake from my end only.
+
+Regards
+Madan Gopal Kundu
+On Fri, Mar 18, 2011 at 1:19 PM, David Winsemius <dwinsemius at comcast.net> wrote:
+>
+> On Mar 18, 2011, at 11:18 AM, Madan Gopal Kundu wrote:
+>
+>> Hi,
+>>
+>> Thanks to David and Bendix for giving me the solution. I would like to
+>> extend my question little bit further. I am trying to execute
+>> following code:
+>>
+>> data1<- data.frame(x=c(1:4), y=rep(1:4))
+>
+> Did you mean to type:
+>
+> ?data1<- data.frame(x=c(1:4), y=rep(1, 4)) ?# ?
+>
+>> data1
+> ?x y
+> 1 1 1
+> 2 2 1
+> 3 3 1
+> 4 4 1
+>
+>> gvars<- c("x", "y")
+>> for (i in 1:2)
+>> {
+>> print(data1[[gvars[i]]])
+>> }
+>>
+>> and it returns the following output:
+>> [1] 1 2 3 4
+>> [1] 1 2 3 4
+>>
+>> However, my desired output is
+>> [1] 1 2 3 4
+>> [1] 1 1 1 1
+>>
+>> I tried the following code as well, but the problem remains same:
+>> attach(data1)
+>> for (i in 1:2)
+>> {
+>> print(get(gvars[i]))
+>> }
+>>
+>> Thanks in advance!!
+>>
+>> Regards
+>> Madan
+>>
+>> On Fri, Mar 18, 2011 at 3:19 AM, BXC (Bendix Carstensen) <bxc at steno.dk>
+>> wrote:
+>>>
+>>> get() looks in the search path, so you can put data 1 there using
+>>> attach():
+>>>
+>>>> data1<- data.frame(x=c(1:4), y=rep(1,4))
+>>>> attach(data1)
+>>>> gvars<- c("x", "y")
+>>>> get( gvars[1] )
+>>>
+>>> [1] 1 2 3 4
+>>>>
+>>>> get( gvars[2] )
+>>>
+>>> [1] 1 1 1 1
+>>>
+>>> Best regards,
+>>> Bendix Carstensen
+>>> _________________________________________
+>>>
+>>> Bendix Carstensen
+>>> Senior Statistician
+>>> Steno Diabetes Center A/S
+>>> Niels Steensens Vej 2-4
+>>> DK-2820 Gentofte
+>>> Denmark
+>>> +45 44 43 87 38?(direct)
+>>> +45 30 75 87 38?(mobile)
+>>> bxc at steno.dk ? ?www.biostat.ku.dk/~bxc
+>>> www.steno.dk
+>>>
+>>>> -----Original Message-----
+>>>> From: r-sig-epi-bounces at r-project.org
+>>>> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Madan
+>>>> Gopal Kundu
+>>>> Sent: 18. marts 2011 06:19
+>>>> To: r-sig-epi at r-project.org
+>>>> Subject: [R-sig-Epi] converting string to a object name of a dataset
+>>>>
+>>>> Hi,
+>>>>
+>>>> I am trying to access object which is variable of a dataset
+>>>> using string. ?For that I am trying to convert a string to
+>>>> the object name in the following code. But unfortunately it
+>>>> looks something is going wrong in the following code.
+>>>>
+>>>> data1<- data.frame(x=c(1:4), y=rep(1:4))
+>>>> gvars<- c("x", "y")
+>>>> z<- paste("data1", gvars[1], sep="$")
+>>>> get(z)
+>>>>
+>>>> The above code should return following output:
+>>>> [1] 1 2 3 4
+>>>>
+>>>> but instead it is printing following error "Error in get(z) :
+>>>> object 'data1$x' not found"
+>>>>
+>>>> Please help me to fix the problem.
+>>>>
+>>>> Regards
+>>>> Madan
+>>>>
+>>>> _______________________________________________
+>>>> R-sig-Epi at r-project.org mailing list
+>>>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>>>
+>
+> David Winsemius, MD
+> West Hartford, CT
+>
+>
+
+
+From luca.candeloro at gmail.com  Tue Mar 22 15:03:09 2011
+From: luca.candeloro at gmail.com (luca candeloro)
+Date: Tue, 22 Mar 2011 15:03:09 +0100
+Subject: [R-sig-Epi] Sourveillance package
+In-Reply-To: <AANLkTikYyX6GK8AThszYbuC+V7y38euLeUZwwmtzcRgj@mail.gmail.com>
+References: <AANLkTikYyX6GK8AThszYbuC+V7y38euLeUZwwmtzcRgj@mail.gmail.com>
+Message-ID: <AANLkTin-7ZnZdx6BLU-CjethirgeqduuPmwx5TbEPbui@mail.gmail.com>
+
+? stato filtrato un testo allegato il cui set di caratteri non era
+indicato...
+Nome: non disponibile
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110322/c4488f08/attachment.pl>
+
+From russell.barbour at yale.edu  Wed Mar 30 23:37:18 2011
+From: russell.barbour at yale.edu (Barbour, Russell)
+Date: Wed, 30 Mar 2011 17:37:18 -0400
+Subject: [R-sig-Epi] OR in HGLM
+Message-ID: <74C39AD1CF29CD42A54EF478D91B70176B8C0E6DF7@XVS1-CLUSTER.yu.yale.edu>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110330/e306b4e6/attachment.pl>
+

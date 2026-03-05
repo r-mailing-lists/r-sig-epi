@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2015-01",
+  "messages": [
+    {
+      "id": "msg-2f6107c7a400",
+      "message_id": "<2732C804E2DBB04AA90A678D76FAF2CC6236EB6064@DFW1MBX02.mex07a.mlsrvr.com>",
+      "from_name": "Lisa Solomon",
+      "from_email_hash": "375f0ace505fbda9906f09938aec4d544cea2804675c7fc389f42f5ebed96592",
+      "date": "2015-01-12T14:14:58-06:00",
+      "subject": "[R-sig-Epi] Tomorrow Webinar: Enter a KDD Cup or Kaggle Competition without being an expert!",
+      "subject_clean": "Tomorrow Webinar: Enter a KDD Cup or Kaggle Competition without being an expert!",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Webinar: Enter a KDD Cup or Kaggle Competition, You don't need to be an expert!\n\nTomorrow, January 13, 2015 from 10am-11am PDT\n\n*         If inconvenient time, please register and we will send you a recording.\n\nClick to Register: http://hubs.ly/y0q_jf0\n\nAbstract:\n\n*         Quickly achieve a place in the top 5: We will show you how Salford's TreeNet gradient boosting can be used for the 2009 KDD Cup competition to quickly achieve a place in the top 5.\n\n*         Takeaway: At the end of this webinar, our goal is that you will be able to build a TreeNet model that can bring you within decimal places of a winning solution.\n\n*         Starting Point for Kaggle, KDD and other data science competitions: Use this information as a starting point for Kaggle competitions and other KDD Cup competitions.\n\n*         30-day software access: All attendees receive 30-day access to TreeNet gradient boosting, and other Salford Predictive Modeler technology.\n\nClick to Register: http://hubs.ly/y0q_jf0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Webinar: Enter a KDD Cup or Kaggle Competition, You don't need to be an expert!\n\nTomorrow, January 13, 2015 from 10am-11am PDT\n\n*         If inconvenient time, please register and we will send you a r",
+      "thread_id": "thread-2f6107c7a400",
+      "thread_depth": 0,
+      "month": "2015-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2f6107c7a400",
+      "subject": "Tomorrow Webinar: Enter a KDD Cup or Kaggle Competition without being an expert!",
+      "message_count": 1,
+      "participants": [
+        "Lisa Solomon"
+      ],
+      "started": "2015-01-12T14:14:58-06:00",
+      "last_reply": "2015-01-12T14:14:58-06:00",
+      "root_message_id": "msg-2f6107c7a400"
+    }
+  ]
+}

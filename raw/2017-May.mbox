@@ -1,0 +1,207 @@
+From pkost at vet.uth.gr  Wed May  3 15:45:19 2017
+From: pkost at vet.uth.gr (Polychronis Kostoulas)
+Date: Wed, 3 May 2017 16:45:19 +0300
+Subject: [R-sig-Epi] LCMATE mailing list
+Message-ID: <000001d2c413$814fd080$83ef7180$@vet.uth.gr>
+
+Dear colleagues,
+
+ 
+
+We have created LCMATE (Latent Class Models for the Accuracy of TEsts), a
+mailing list for people that are interested in the development and
+application of latent class models for the evaluation of diagnostic tests,
+primarily within a Bayesian framework. The focus is on estimating the
+diagnostic accuracy of tests (either dichotomous, ordinal or continuous) in
+the absence of a gold standard. LCMs are used within this context because
+the true disease status of the individuals/samples is unknown (i.e. latent,
+or hidden).
+
+ 
+
+The scope of this list is to:
+
+1. Assist researchers that are interested in the application of these
+methods to their own data
+
+2. Promote the exchange of knowledge and ideas between researchers working
+in this area
+
+ 
+
+To subscribe please visit:
+
+ 
+
+http://lists.uth.gr/mailman/listinfo/lcmate
+
+ 
+
+or send an email to:
+
+ 
+
+lcmate-request at lists.uth.gr
+
+ 
+
+Kind Regards,
+
+Polychronis Kostoulas
+
+LCMATE Administrator
+
+ 
+
+
+	[[alternative HTML version deleted]]
+
+
+From watzilei at hotmail.com  Thu May  4 17:45:06 2017
+From: watzilei at hotmail.com (Miguel Angel Luque Fernandez)
+Date: Thu, 4 May 2017 15:45:06 +0000
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 90, Issue 1
+In-Reply-To: <mailman.21.1493892002.57588.r-sig-epi@r-project.org>
+References: <mailman.21.1493892002.57588.r-sig-epi@r-project.org>
+Message-ID: <CY1PR0301MB0777B924F29E8D42B68C7826DEEA0@CY1PR0301MB0777.namprd03.prod.outlook.com>
+
+Dear all,
+I am glad to be part of the list.
+
+I am collaborating with academics in the States from the Harvard Medical School evaluating the performance (diagnosis accuracy) of a new biomarker for the diagnosis of Gestational Diabetes Mellitus.
+http://care.diabetesjournals.org/content/early/2017/04/05/dc16-2598
+However, the gold standard is imperfect (Oral glucose tolerance test), and we cannot get correct estimates of the AUC for the new biomarker.
+Also, I thought about the evaluation of the performance in and independent sample size, which is not the standard case in medical studies, using cross-validation to adjust the value of the AUC
+https://github.com/migariane/cvAUROC
+However, I will be glad if any of you can refer to some seminal papers/references (in addition to the Pepe book) to illustrate how to implement the LCMATE analysis.
+Thank you in advance for your time and help.
+Kind regards,
+
+Miguel Angel Luque Fernandez, PhD
+Assistant Professor of Epidemiology and Biostatistics
+London School of Hygiene and Tropical Medicine
+London, UK
+
+
+
+-----Original Message-----
+From: R-sig-Epi [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of r-sig-epi-request at r-project.org
+Sent: 04 May 2017 11:00
+To: r-sig-epi at r-project.org
+Subject: R-sig-Epi Digest, Vol 90, Issue 1
+
+Send R-sig-Epi mailing list submissions to
+	r-sig-epi at r-project.org
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+or, via email, send a message with subject or body 'help' to
+	r-sig-epi-request at r-project.org
+
+You can reach the person managing the list at
+	r-sig-epi-owner at r-project.org
+
+When replying, please edit your Subject line so it is more specific than "Re: Contents of R-sig-Epi digest..."
+
+
+Today's Topics:
+
+   1. LCMATE mailing list (Polychronis Kostoulas)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Wed, 3 May 2017 16:45:19 +0300
+From: "Polychronis Kostoulas" <pkost at vet.uth.gr>
+To: <r-sig-epi at r-project.org>
+Subject: [R-sig-Epi] LCMATE mailing list
+Message-ID: <000001d2c413$814fd080$83ef7180$@vet.uth.gr>
+Content-Type: text/plain; charset="UTF-8"
+
+Dear colleagues,
+
+
+
+We have created LCMATE (Latent Class Models for the Accuracy of TEsts), a mailing list for people that are interested in the development and application of latent class models for the evaluation of diagnostic tests, primarily within a Bayesian framework. The focus is on estimating the diagnostic accuracy of tests (either dichotomous, ordinal or continuous) in the absence of a gold standard. LCMs are used within this context because the true disease status of the individuals/samples is unknown (i.e. latent, or hidden).
+
+
+
+The scope of this list is to:
+
+1. Assist researchers that are interested in the application of these methods to their own data
+
+2. Promote the exchange of knowledge and ideas between researchers working in this area
+
+
+
+To subscribe please visit:
+
+
+
+http://lists.uth.gr/mailman/listinfo/lcmate
+
+
+
+or send an email to:
+
+
+
+lcmate-request at lists.uth.gr
+
+
+
+Kind Regards,
+
+Polychronis Kostoulas
+
+LCMATE Administrator
+
+
+
+
+	[[alternative HTML version deleted]]
+
+
+
+------------------------------
+
+Subject: Digest Footer
+
+_______________________________________________
+R-sig-Epi mailing list
+R-sig-Epi at r-project.org
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+------------------------------
+
+End of R-sig-Epi Digest, Vol 90, Issue 1
+
+
+From luca.candeloro at gmail.com  Thu May 11 09:11:02 2017
+From: luca.candeloro at gmail.com (Luca Candeloro)
+Date: Thu, 11 May 2017 09:11:02 +0200
+Subject: [R-sig-Epi] surv function type argument. How to set it
+Message-ID: <CAHF6YnkzXebMVEPTb2CD=cObZ_cE6NkEd-_n37xmO1zxtAb-gQ@mail.gmail.com>
+
+good morning,
+I'm not sure how to set the "type" argument correctly in the "Surv"
+function ("survival" package) for my data.
+In our survival study, a group of oysters is checked at irregular time
+intervals.
+At each timestep, the number of death, scattered and still alive oysters
+has been recorded. Following an example data.frame:
+Time1 <-rep (c (0.200, 300), each = 3)
+Time2 <-rep (c (200, 300, 370), each = 3)
+Event_death <-c (10,8,15)
+Event_scattered_censored <-c (3,5,7)
+data <-data.frame (Time1, Time2, Event_death, Event_scattered_censored)
+data $ Still_alive <-1000-cumsum (Event_scattered_censored + Event_death)
+
+I do not understand how this kind of data can be correctly used by the
+"Surv" function and how to set the corresponding type argument.
+Thanks for the help, greetings, luca
+
+	[[alternative HTML version deleted]]
+
+

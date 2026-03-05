@@ -1,0 +1,652 @@
+From |e||pe@e@b@r|ett@ @end|ng |rom gm@||@com  Mon Apr  5 20:25:20 2021
+From: |e||pe@e@b@r|ett@ @end|ng |rom gm@||@com (Felipe Barletta)
+Date: Mon, 5 Apr 2021 15:25:20 -0300
+Subject: [R-sig-Epi] Identify medicines names
+Message-ID: <CAJz4ZjGTLY8_9FwGtOPbpBjx1OSnUma+y5rKiRq6W=JK78tJPg@mail.gmail.com>
+
+Hi friends,
+
+Hi friends,
+
+I need to identify medicines names in a data set.
+I have a list of antibiotic names and I need to identify those names in a
+sample.
+
+When the name of the medicine is simple, my solution worked, see:
+
+#List of medicines that - object called patterns.
+patterns <- c("Oritavancina", "Oxacilina", "Pefloxacino", "Penicilina",
+              "Pexiganan", "Piperacilina", "Piperacilina-tazobactam",
+              "Pirazinamida", "Plazomicina", "Polimixina B",
+              "Posilozid")
+
+
+# Sample Data frame where I need to find the names from the list above.
+df <- data.frame(name =
+                     c("CLORETO DE POTASSIO DRAGEA 600MG",
+                       "CLORETO DE SODIO 0,9% SERINGA PREENCHIDA 5ML",
+                       "CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% 10ML",
+                       "CODEINA FOSFATO SOLUCAO ORAL 3MGML 10ML ISCMPA @",
+                       "CODEINA FOSFATO SOLUCAO ORAL 3MGML 5ML ISCMPA @",
+                       "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+                       "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+                       "FUROSEMIDA SOLUCAO INJETAVEL 10MGML 2ML",
+                       "HIDROCORTISONA SUCCINATO SODICO PO LIOFILO
+INJETAVEL 100MG",
+                       "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+4ML",
+                       "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+4ML",
+                       "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+1200000UI",
+                       "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+1200000UI",
+                       "PIPERACILINA SODICA 4G + TAZOBACTAM SODICA 0,5G PO
+LIOFILO INJETAVEL"))
+
+
+
+
+results <- regex_left_join(df,
+                           patterns,
+                           by = "name")
+
+head(results)
+
+# Identify with grep() - other way.
+matches  <- unlist(sapply(patterns, function(p) grep(p, df$name,
+                                                     value = FALSE,
+                                                     ignore.case = TRUE)
+                          )
+                   )
+
+anti <- df[matches,]
+
+However, when the name is composed it does not work (for example:
+Piperacillin-tazobactam)
+
+Can anyone help me in this issue?
+
+	[[alternative HTML version deleted]]
+
+
+From |eon@rdo| @end|ng |rom |eon@rdo|@med@br  Mon Apr  5 21:37:15 2021
+From: |eon@rdo| @end|ng |rom |eon@rdo|@med@br (Leonardo Fontenelle)
+Date: Mon, 05 Apr 2021 16:37:15 -0300
+Subject: [R-sig-Epi] Identify medicines names
+In-Reply-To: <CAJz4ZjGTLY8_9FwGtOPbpBjx1OSnUma+y5rKiRq6W=JK78tJPg@mail.gmail.com>
+References: <CAJz4ZjGTLY8_9FwGtOPbpBjx1OSnUma+y5rKiRq6W=JK78tJPg@mail.gmail.com>
+Message-ID: <1544be7a-430c-42d7-918a-50cbd271f710@beta.fastmail.com>
+
+Not sure there is a ready-made solution for you, but you should definitely take a look at "Denomina??o Comum Brasileira", the official names for them on Brazil: https://www.gov.br/anvisa/pt-br/assuntos/farmacopeia/dcb
+
+There might be a lot of programming challenges, though. There is "maleato de enalapril" but also "enalapril, maleato". If prescribers are able to type the names of the medicines, they will write "anlodipino" in every possible wrong way.
+
+Good luck,
+
+*Leonardo Ferreira Fontenelle*
+ORCID iD: 0000-0003-4064-433X <https://orcid.org/0000-0003-4064-433X>
+    Twitter: @doutorleonardo <https://twitter.com/doutorleonardo>
+
+
+Em Seg 5 abr. 2021, ?s 15:25, Felipe Barletta escreveu:
+> Hi friends,
+> 
+> Hi friends,
+> 
+> I need to identify medicines names in a data set.
+> I have a list of antibiotic names and I need to identify those names in a
+> sample.
+> 
+> When the name of the medicine is simple, my solution worked, see:
+> 
+> #List of medicines that - object called patterns.
+> patterns <- c("Oritavancina", "Oxacilina", "Pefloxacino", "Penicilina",
+>               "Pexiganan", "Piperacilina", "Piperacilina-tazobactam",
+>               "Pirazinamida", "Plazomicina", "Polimixina B",
+>               "Posilozid")
+> 
+> 
+> # Sample Data frame where I need to find the names from the list above.
+> df <- data.frame(name =
+>                      c("CLORETO DE POTASSIO DRAGEA 600MG",
+>                        "CLORETO DE SODIO 0,9% SERINGA PREENCHIDA 5ML",
+>                        "CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% 10ML",
+>                        "CODEINA FOSFATO SOLUCAO ORAL 3MGML 10ML ISCMPA @",
+>                        "CODEINA FOSFATO SOLUCAO ORAL 3MGML 5ML ISCMPA @",
+>                        "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+>                        "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+>                        "FUROSEMIDA SOLUCAO INJETAVEL 10MGML 2ML",
+>                        "HIDROCORTISONA SUCCINATO SODICO PO LIOFILO
+> INJETAVEL 100MG",
+>                        "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+> 4ML",
+>                        "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+> 4ML",
+>                        "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+> 1200000UI",
+>                        "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+> 1200000UI",
+>                        "PIPERACILINA SODICA 4G + TAZOBACTAM SODICA 0,5G PO
+> LIOFILO INJETAVEL"))
+> 
+> 
+> 
+> 
+> results <- regex_left_join(df,
+>                            patterns,
+>                            by = "name")
+> 
+> head(results)
+> 
+> # Identify with grep() - other way.
+> matches  <- unlist(sapply(patterns, function(p) grep(p, df$name,
+>                                                      value = FALSE,
+>                                                      ignore.case = TRUE)
+>                           )
+>                    )
+> 
+> anti <- df[matches,]
+> 
+> However, when the name is composed it does not work (for example:
+> Piperacillin-tazobactam)
+> 
+> Can anyone help me in this issue?
+> 
+> [[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at r-project.org <mailto:R-sig-Epi%40r-project.org> mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+	[[alternative HTML version deleted]]
+
+
+From |e||pe@e@b@r|ett@ @end|ng |rom gm@||@com  Tue Apr  6 16:41:35 2021
+From: |e||pe@e@b@r|ett@ @end|ng |rom gm@||@com (Felipe Barletta)
+Date: Tue, 6 Apr 2021 11:41:35 -0300
+Subject: [R-sig-Epi] Fwd:  Identify medicines names
+In-Reply-To: <CAJz4ZjGBM_VugMNPi0MeAp88tiMutO76iqnKNr2CwjNz+1u1+A@mail.gmail.com>
+References: <CAJz4ZjGTLY8_9FwGtOPbpBjx1OSnUma+y5rKiRq6W=JK78tJPg@mail.gmail.com>
+ <CAAdhxygQnPPTWpBgzyHy3F9y9ezkWhufv6q6pqsqjOZRuyh1ig@mail.gmail.com>
+ <CAJz4ZjH68t1__62cExGLJv3t28S6RK3=vmigN2REhBiC5gQwXQ@mail.gmail.com>
+ <CAAdhxyjzEgiRbuneqaGeQakYsdc0mVhNbLreSbJjFi8WiCd9tw@mail.gmail.com>
+ <CAJz4ZjGBM_VugMNPi0MeAp88tiMutO76iqnKNr2CwjNz+1u1+A@mail.gmail.com>
+Message-ID: <CAJz4ZjEqLrFEvs-ZwgXZf_1JUTmteCg_co4aPzUQaiS7WZYrzg@mail.gmail.com>
+
+Hi Gianpaolo,
+
+It works now, thank you!
+
+But it is not what I need exactly.
+I will explain better.
+
+Your solution is good. To identify what is antibiotic and for this my
+solution solved too:
+
+######################################################
+matches  <- unlist(sapply(patterns, function(p) grep(p, df$name,
+                                                     value = FALSE,
+                                                     ignore.case = TRUE)
+                          )
+                   )
+anti <- df[matches,]
+########################################################
+
+
+But what I need, beyond identifying what is an antibiotic:
+- Create a new variable (when the medicine is antibiotic - into the
+patterns object) with the name from patterns name.
+I did this with the code below - fuzzyjoin::regex_left_join() function:
+
+#########################################################
+#List of medicines that - object called patterns.
+patterns <-  c("Oritavancina", "Oxacilina", "Pefloxacino", "Penicilina",
+              "Pexiganan",  "Piperacilina-tazobactam","Tazobactam",
+              "Pirazinamida", "Plazomicina", "Polimixina B",
+              "Posilozid","Piperacilina")
+patterns <- toupper(patterns)
+
+# Sample Data frame where I need to find the names from the list above.
+df <- data.frame(name =
+                     c("CLORETO DE POTASSIO DRAGEA 600MG",
+                       "CLORETO DE SODIO 0,9% SERINGA PREENCHIDA 5ML",
+                       "CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% 10ML",
+                       "CODEINA FOSFATO SOLUCAO ORAL 3MGML 10ML ISCMPA @",
+                       "CODEINA FOSFATO SOLUCAO ORAL 3MGML 5ML ISCMPA @",
+                       "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+                       "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+                       "FUROSEMIDA SOLUCAO INJETAVEL 10MGML 2ML",
+                       "HIDROCORTISONA SUCCINATO SODICO PO LIOFILO
+INJETAVEL 100MG",
+                       "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+4ML",
+                       "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+4ML",
+                       "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+1200000UI",
+                       "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+1200000UI",
+                       "PIPERACILINA SODICA 4G + TAZOBACTAM SODICA 0,5G PO
+LIOFILO INJETAVEL"))
+
+
+df <- df %>% mutate(name = toupper(name))
+patterns <- data.frame(name = patterns)
+results <- fuzzyjoin::regex_left_join(df,
+                                      patterns,
+                           by = "name")
+results
+#########################################################
+Notice, from results object, when the name of medicine is double
+(PIPERACILINA SODICA 4G + TAZOBACTAM SODICA 0,5G PO LIOFILO INJETAVEL"),
+the solution doesn't find "PIPERACILINA-TAZOBACTAM"
+The code created two new lines PIPERACILINA and othe with TAZOBACTAM.
+
+I think that this explanation was more clear.
+
+
+
+
+
+
+
+
+
+
+Em ter., 6 de abr. de 2021 ?s 03:55, Gianpaolo Romeo <
+gianpaolo.romeo at gmail.com> escreveu:
+
+> Sorry,
+> I wrote the code on a smartphone without using R, try this:
+>
+> require(dplyr)
+>
+> patterns <- c("Oritavancina", "Oxacilina", "Pefloxacino", "Penicilina",
+>               "Pexiganan", "Piperacilina", "Piperacilina-tazobactam",
+>               "Pirazinamida", "Plazomicina", "Polimixina B",
+>               "Posilozid")
+>
+> patterns.new <- paste(patterns, collapse = "|")
+>
+>
+> df <- data.frame(name =
+>                    c("CLORETO DE POTASSIO DRAGEA 600MG",
+>                      "CLORETO DE SODIO 0,9% SERINGA PREENCHIDA 5ML",
+>                      "CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% 10ML",
+>                      "CODEINA FOSFATO SOLUCAO ORAL 3MGML 10ML ISCMPA @",
+>                      "CODEINA FOSFATO SOLUCAO ORAL 3MGML 5ML ISCMPA @",
+>                      "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+>                      "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+>                      "FUROSEMIDA SOLUCAO INJETAVEL 10MGML 2ML",
+>                      "HIDROCORTISONA SUCCINATO SODICO PO LIOFILO INJETAVEL
+> 100MG",
+>                      "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML 4ML",
+>                      "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML 4ML",
+>                      "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+> 1200000UI",
+>                      "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+> 1200000UI",
+>                      "PIPERACILINA SODICA 4G + TAZOBACTAM SODICA 0,5G
+> POLIOFILO INJETAVEL"))
+>
+>
+> results <- df %>% filter(grepl(pattern = patterns.new, x = name,
+> ignore.case = TRUE))
+>
+> Il giorno mar 6 apr 2021 alle ore 02:06 Felipe Barletta <
+> felipe.e.barletta at gmail.com> ha scritto:
+>
+>> Thanks a lotados Gianpaolo, but your suggest didn't work.
+>>
+>> Em seg, 5 de abr de 2021 4:50 PM, Gianpaolo Romeo <
+>> gianpaolo.romeo at gmail.com> escreveu:
+>>
+>>> I suggest you to use dplyr package:
+>>>
+>>>
+>>>
+>>> df %>% mutate(name = toupper(name)) %>%
+>>> filter(grepl(pattern = patterns, name))
+>>>
+>>>
+>>> If you want ti search every string that start exactly with a spedific
+>>> word:
+>>>
+>>> patterns <- paste0("^", patterns))
+>>>
+>>>
+>>> Il lun 5 apr 2021, 20:25 Felipe Barletta <felipe.e.barletta at gmail.com>
+>>> ha scritto:
+>>>
+>>>> Hi friends,
+>>>>
+>>>> Hi friends,
+>>>>
+>>>> I need to identify medicines names in a data set.
+>>>> I have a list of antibiotic names and I need to identify those names in
+>>>> a
+>>>> sample.
+>>>>
+>>>> When the name of the medicine is simple, my solution worked, see:
+>>>>
+>>>> #List of medicines that - object called patterns.
+>>>> patterns <- c("Oritavancina", "Oxacilina", "Pefloxacino", "Penicilina",
+>>>>               "Pexiganan", "Piperacilina", "Piperacilina-tazobactam",
+>>>>               "Pirazinamida", "Plazomicina", "Polimixina B",
+>>>>               "Posilozid")
+>>>>
+>>>>
+>>>> # Sample Data frame where I need to find the names from the list above.
+>>>> df <- data.frame(name =
+>>>>                      c("CLORETO DE POTASSIO DRAGEA 600MG",
+>>>>                        "CLORETO DE SODIO 0,9% SERINGA PREENCHIDA 5ML",
+>>>>                        "CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% 10ML",
+>>>>                        "CODEINA FOSFATO SOLUCAO ORAL 3MGML 10ML ISCMPA
+>>>> @",
+>>>>                        "CODEINA FOSFATO SOLUCAO ORAL 3MGML 5ML ISCMPA
+>>>> @",
+>>>>                        "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+>>>>                        "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+>>>>                        "FUROSEMIDA SOLUCAO INJETAVEL 10MGML 2ML",
+>>>>                        "HIDROCORTISONA SUCCINATO SODICO PO LIOFILO
+>>>> INJETAVEL 100MG",
+>>>>                        "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+>>>> 4ML",
+>>>>                        "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+>>>> 4ML",
+>>>>                        "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+>>>> 1200000UI",
+>>>>                        "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+>>>> 1200000UI",
+>>>>                        "PIPERACILINA SODICA 4G + TAZOBACTAM SODICA 0,5G
+>>>> PO
+>>>> LIOFILO INJETAVEL"))
+>>>>
+>>>>
+>>>>
+>>>>
+>>>> results <- regex_left_join(df,
+>>>>                            patterns,
+>>>>                            by = "name")
+>>>>
+>>>> head(results)
+>>>>
+>>>> # Identify with grep() - other way.
+>>>> matches  <- unlist(sapply(patterns, function(p) grep(p, df$name,
+>>>>                                                      value = FALSE,
+>>>>                                                      ignore.case = TRUE)
+>>>>                           )
+>>>>                    )
+>>>>
+>>>> anti <- df[matches,]
+>>>>
+>>>> However, when the name is composed it does not work (for example:
+>>>> Piperacillin-tazobactam)
+>>>>
+>>>> Can anyone help me in this issue?
+>>>>
+>>>>         [[alternative HTML version deleted]]
+>>>>
+>>>> _______________________________________________
+>>>> R-sig-Epi at r-project.org mailing list
+>>>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>>>
+>>>
+
+	[[alternative HTML version deleted]]
+
+
+From ch@|n@@wt|ney @end|ng |rom gm@||@com  Wed Apr  7 10:13:41 2021
+From: ch@|n@@wt|ney @end|ng |rom gm@||@com (C.H.)
+Date: Wed, 7 Apr 2021 10:13:41 +0200
+Subject: [R-sig-Epi] Fwd: Identify medicines names
+In-Reply-To: <CAJz4ZjEqLrFEvs-ZwgXZf_1JUTmteCg_co4aPzUQaiS7WZYrzg@mail.gmail.com>
+References: <CAJz4ZjGTLY8_9FwGtOPbpBjx1OSnUma+y5rKiRq6W=JK78tJPg@mail.gmail.com>
+ <CAAdhxygQnPPTWpBgzyHy3F9y9ezkWhufv6q6pqsqjOZRuyh1ig@mail.gmail.com>
+ <CAJz4ZjH68t1__62cExGLJv3t28S6RK3=vmigN2REhBiC5gQwXQ@mail.gmail.com>
+ <CAAdhxyjzEgiRbuneqaGeQakYsdc0mVhNbLreSbJjFi8WiCd9tw@mail.gmail.com>
+ <CAJz4ZjGBM_VugMNPi0MeAp88tiMutO76iqnKNr2CwjNz+1u1+A@mail.gmail.com>
+ <CAJz4ZjEqLrFEvs-ZwgXZf_1JUTmteCg_co4aPzUQaiS7WZYrzg@mail.gmail.com>
+Message-ID: <CAHfK2Mun+CSaw0Duvqat8hdisuKFv4wz785NK6tbUhWrvaeKcA@mail.gmail.com>
+
+A simple solution is to use text analysis package such as quanteda
+
+require(quanteda)
+
+drug_dictionary <- as.dictionary(data.frame(word = toupper(patterns),
+sentiment = patterns))
+corpus(df$name) %>% tokens() %>% tokens_compound(drug_dictionary) %>%
+dfm %>% dfm_lookup(drug_dictionary) %>% quanteda::convert(to =
+"data.frame")
+
+On Tue, Apr 6, 2021 at 4:42 PM Felipe Barletta
+<felipe.e.barletta at gmail.com> wrote:
+>
+> Hi Gianpaolo,
+>
+> It works now, thank you!
+>
+> But it is not what I need exactly.
+> I will explain better.
+>
+> Your solution is good. To identify what is antibiotic and for this my
+> solution solved too:
+>
+> ######################################################
+> matches  <- unlist(sapply(patterns, function(p) grep(p, df$name,
+>                                                      value = FALSE,
+>                                                      ignore.case = TRUE)
+>                           )
+>                    )
+> anti <- df[matches,]
+> ########################################################
+>
+>
+> But what I need, beyond identifying what is an antibiotic:
+> - Create a new variable (when the medicine is antibiotic - into the
+> patterns object) with the name from patterns name.
+> I did this with the code below - fuzzyjoin::regex_left_join() function:
+>
+> #########################################################
+> #List of medicines that - object called patterns.
+> patterns <-  c("Oritavancina", "Oxacilina", "Pefloxacino", "Penicilina",
+>               "Pexiganan",  "Piperacilina-tazobactam","Tazobactam",
+>               "Pirazinamida", "Plazomicina", "Polimixina B",
+>               "Posilozid","Piperacilina")
+> patterns <- toupper(patterns)
+>
+> # Sample Data frame where I need to find the names from the list above.
+> df <- data.frame(name =
+>                      c("CLORETO DE POTASSIO DRAGEA 600MG",
+>                        "CLORETO DE SODIO 0,9% SERINGA PREENCHIDA 5ML",
+>                        "CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% 10ML",
+>                        "CODEINA FOSFATO SOLUCAO ORAL 3MGML 10ML ISCMPA @",
+>                        "CODEINA FOSFATO SOLUCAO ORAL 3MGML 5ML ISCMPA @",
+>                        "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+>                        "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+>                        "FUROSEMIDA SOLUCAO INJETAVEL 10MGML 2ML",
+>                        "HIDROCORTISONA SUCCINATO SODICO PO LIOFILO
+> INJETAVEL 100MG",
+>                        "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+> 4ML",
+>                        "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+> 4ML",
+>                        "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+> 1200000UI",
+>                        "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+> 1200000UI",
+>                        "PIPERACILINA SODICA 4G + TAZOBACTAM SODICA 0,5G PO
+> LIOFILO INJETAVEL"))
+>
+>
+> df <- df %>% mutate(name = toupper(name))
+> patterns <- data.frame(name = patterns)
+> results <- fuzzyjoin::regex_left_join(df,
+>                                       patterns,
+>                            by = "name")
+> results
+> #########################################################
+> Notice, from results object, when the name of medicine is double
+> (PIPERACILINA SODICA 4G + TAZOBACTAM SODICA 0,5G PO LIOFILO INJETAVEL"),
+> the solution doesn't find "PIPERACILINA-TAZOBACTAM"
+> The code created two new lines PIPERACILINA and othe with TAZOBACTAM.
+>
+> I think that this explanation was more clear.
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Em ter., 6 de abr. de 2021 ?s 03:55, Gianpaolo Romeo <
+> gianpaolo.romeo at gmail.com> escreveu:
+>
+> > Sorry,
+> > I wrote the code on a smartphone without using R, try this:
+> >
+> > require(dplyr)
+> >
+> > patterns <- c("Oritavancina", "Oxacilina", "Pefloxacino", "Penicilina",
+> >               "Pexiganan", "Piperacilina", "Piperacilina-tazobactam",
+> >               "Pirazinamida", "Plazomicina", "Polimixina B",
+> >               "Posilozid")
+> >
+> > patterns.new <- paste(patterns, collapse = "|")
+> >
+> >
+> > df <- data.frame(name =
+> >                    c("CLORETO DE POTASSIO DRAGEA 600MG",
+> >                      "CLORETO DE SODIO 0,9% SERINGA PREENCHIDA 5ML",
+> >                      "CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% 10ML",
+> >                      "CODEINA FOSFATO SOLUCAO ORAL 3MGML 10ML ISCMPA @",
+> >                      "CODEINA FOSFATO SOLUCAO ORAL 3MGML 5ML ISCMPA @",
+> >                      "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+> >                      "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+> >                      "FUROSEMIDA SOLUCAO INJETAVEL 10MGML 2ML",
+> >                      "HIDROCORTISONA SUCCINATO SODICO PO LIOFILO INJETAVEL
+> > 100MG",
+> >                      "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML 4ML",
+> >                      "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML 4ML",
+> >                      "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+> > 1200000UI",
+> >                      "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+> > 1200000UI",
+> >                      "PIPERACILINA SODICA 4G + TAZOBACTAM SODICA 0,5G
+> > POLIOFILO INJETAVEL"))
+> >
+> >
+> > results <- df %>% filter(grepl(pattern = patterns.new, x = name,
+> > ignore.case = TRUE))
+> >
+> > Il giorno mar 6 apr 2021 alle ore 02:06 Felipe Barletta <
+> > felipe.e.barletta at gmail.com> ha scritto:
+> >
+> >> Thanks a lotados Gianpaolo, but your suggest didn't work.
+> >>
+> >> Em seg, 5 de abr de 2021 4:50 PM, Gianpaolo Romeo <
+> >> gianpaolo.romeo at gmail.com> escreveu:
+> >>
+> >>> I suggest you to use dplyr package:
+> >>>
+> >>>
+> >>>
+> >>> df %>% mutate(name = toupper(name)) %>%
+> >>> filter(grepl(pattern = patterns, name))
+> >>>
+> >>>
+> >>> If you want ti search every string that start exactly with a spedific
+> >>> word:
+> >>>
+> >>> patterns <- paste0("^", patterns))
+> >>>
+> >>>
+> >>> Il lun 5 apr 2021, 20:25 Felipe Barletta <felipe.e.barletta at gmail.com>
+> >>> ha scritto:
+> >>>
+> >>>> Hi friends,
+> >>>>
+> >>>> Hi friends,
+> >>>>
+> >>>> I need to identify medicines names in a data set.
+> >>>> I have a list of antibiotic names and I need to identify those names in
+> >>>> a
+> >>>> sample.
+> >>>>
+> >>>> When the name of the medicine is simple, my solution worked, see:
+> >>>>
+> >>>> #List of medicines that - object called patterns.
+> >>>> patterns <- c("Oritavancina", "Oxacilina", "Pefloxacino", "Penicilina",
+> >>>>               "Pexiganan", "Piperacilina", "Piperacilina-tazobactam",
+> >>>>               "Pirazinamida", "Plazomicina", "Polimixina B",
+> >>>>               "Posilozid")
+> >>>>
+> >>>>
+> >>>> # Sample Data frame where I need to find the names from the list above.
+> >>>> df <- data.frame(name =
+> >>>>                      c("CLORETO DE POTASSIO DRAGEA 600MG",
+> >>>>                        "CLORETO DE SODIO 0,9% SERINGA PREENCHIDA 5ML",
+> >>>>                        "CLORETO DE SODIO SOLUCAO INJETAVEL 0,9% 10ML",
+> >>>>                        "CODEINA FOSFATO SOLUCAO ORAL 3MGML 10ML ISCMPA
+> >>>> @",
+> >>>>                        "CODEINA FOSFATO SOLUCAO ORAL 3MGML 5ML ISCMPA
+> >>>> @",
+> >>>>                        "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+> >>>>                        "DipiRONA SOLUCAO INJETAVEL 500MGML 2ML",
+> >>>>                        "FUROSEMIDA SOLUCAO INJETAVEL 10MGML 2ML",
+> >>>>                        "HIDROCORTISONA SUCCINATO SODICO PO LIOFILO
+> >>>> INJETAVEL 100MG",
+> >>>>                        "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+> >>>> 4ML",
+> >>>>                        "ONDANSETRONA CLORIDRATO SOLUCAO INJETAVEL 2MGML
+> >>>> 4ML",
+> >>>>                        "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+> >>>> 1200000UI",
+> >>>>                        "Penicilina G BENZATINA PO LIOFILO INJETAVEL
+> >>>> 1200000UI",
+> >>>>                        "PIPERACILINA SODICA 4G + TAZOBACTAM SODICA 0,5G
+> >>>> PO
+> >>>> LIOFILO INJETAVEL"))
+> >>>>
+> >>>>
+> >>>>
+> >>>>
+> >>>> results <- regex_left_join(df,
+> >>>>                            patterns,
+> >>>>                            by = "name")
+> >>>>
+> >>>> head(results)
+> >>>>
+> >>>> # Identify with grep() - other way.
+> >>>> matches  <- unlist(sapply(patterns, function(p) grep(p, df$name,
+> >>>>                                                      value = FALSE,
+> >>>>                                                      ignore.case = TRUE)
+> >>>>                           )
+> >>>>                    )
+> >>>>
+> >>>> anti <- df[matches,]
+> >>>>
+> >>>> However, when the name is composed it does not work (for example:
+> >>>> Piperacillin-tazobactam)
+> >>>>
+> >>>> Can anyone help me in this issue?
+> >>>>
+> >>>>         [[alternative HTML version deleted]]
+> >>>>
+> >>>> _______________________________________________
+> >>>> R-sig-Epi at r-project.org mailing list
+> >>>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> >>>>
+> >>>
+>
+>         [[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+

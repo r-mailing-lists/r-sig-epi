@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2021-08",
+  "messages": [
+    {
+      "id": "msg-df1e947aec25",
+      "message_id": "<CAEsSYzxZkFgfRC1Hj2KqAEyeuqe7_ZzOO78aqDrj_V3zSe5nNA@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2021-08-26T15:52:46+01:00",
+      "subject": "[R-sig-Epi] Species Distribution Modeling using R (SDMR04)",
+      "subject_clean": "Species Distribution Modeling using R (SDMR04)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Species Distribution Modeling using R (SDMR04)\n\n\n\nhttps://www.prstatistics.com/course/species-distribution-modeling-using-r-sdmr04/\n\n\n\nIf you are interested in gaining the introductory knowledge required to\nwork with SDMs, whether you be a student, postdoc, or practicing scientist,\nthis course is for you. This 8 half day course will provide participants\nwith the background knowledge and skills needed to get started in the use\nof species distribution models (SDMs) for applied and basic research. The\ncourse will focus on (1) the preparation of required spatial datasets\n(biological observations and environmental predictors); (2) practical\nconsiderations in the development, application, and interpretation of SDMs;\nand (3) fitting and evaluating SDMs using different statistical approaches\n? all using R.\n\n\n\nUsing a combination of lectures, coding exercises in R, and case studies,\nparticipants will learn to:\n\nUnderstand background theory and model assumptions\n\nIdentify, manipulate and prepare spatial datasets for SDMs\n\nFit, interpret, and evaluate SDMs using several statistical methods (e.g.,\nMaxent, Mahalanobis distance, generalized linear models, boosted regression\ntrees)\n\nProject SDMs to predict climate change impacts, etc.\n\n\n\nThe course is entirely R-based and while techniques of working with spatial\ndata in R will be covered in detail, prior experience with R is highly\nrecommended. If you are new to R, this course will be of most use to you if\nyou work through a few tutorials to understand the basics of R programming\nbefore the start of the course. Students are highly encouraged to bring\ntheir own data sets, but this is not required for participation.\n\n\n\nCourse material will be presented by Matt Fitzpatrick who has published\nbroadly in the use of SDMs for applied and basic science.\n\n\n\nThis is a ?LIVE COURSE? ? the instructor will be delivering lectures and\ncoaching attendees through the accompanying computer practical?s via video\nlink, a good internet connection is essential.\n\n\n\nTIME ZONE ? Eastern Daylight Time ? however all sessions will be recorded\nand made available allowing attendees from different time zones to follow a\nday behind with an additional 1/2 days support after the official course\nfinish date (please email oliverhooker at prstatistics.com for full details or\nto discuss how we can accommodate you).\n\n-- \nOliver Hooker PhD.\nPR statistics\n\nMissing Data Analytics (MDAR01)\nwww.prstatistics.com/course/online-course-missing-data-analytics-mdar01\n8 September 2021 - 10 September 2021\n\nFunctional ecology from organism to ecosystem: theory and computation\n(FEER02)\nwww.prstatistics.com/course/functional-ecology-from-organism-to-ecosystem-theory-and-computation-feer02/\n13 September 2021 - 17 September 2021\n\nMeta-analysis in ecology, evolution and environmental sciences (METR02)\nwww.prstatistics.com/course/meta-analysis-in-ecology-evolution-and-environmental-sciences-metr02/\n13 September 2021 - 17 September 2021\n\nSpecies Distribution Modeling using R (SDMR04)\nwww.prstatistics.com/course/species-distribution-modeling-using-r-sdmr04/\n21 September 2021 - 30 September 2021\n\nPhylogenetic comparative methods (PGCM01)\nhttps://www.prstatistics.com/course/phylogenetic-comparative-methods-pgcm01/\n22 September 2021 - 28 September 2021\n\nMultivariate analysis of ecological communities in R with the VEGAN package\n(VGNR03)\nwww.prstatistics.com/course/multivariate-analysis-of-ecological-communities-in-r-with-the-vegan-package-vgnr03/\n4 October 2021 - 8 October\n\nIntroduction to Data Wrangling and Data Visualization using R (DWDV01)\nwww.prstatistics.com/course/introduction-to-data-wrangling-and-data-visualization-using-r-dwdv01/\n4 October 2021 - 8 October 2021\n\nIntroduction to Bayesian modelling with INLA (BMIN02)\nhttps://www.prstatistics.com/course/introduction-to-bayesian-modelling-with-inla-bmin02/\n4 October 2021 - 8 October 2021\n\nLandscape genetic data analysis using R (LNDG05)\nhttps://www.prstatistics.com/course/landscape-genetic-data-analysis-using-r-lndg05/\n18 October 2021 - 27 October 2021\n\nSpecies distribution modelling with Bayesian statistics in R (SDMB03)\nwww.prstatistics.com/course/species-distribution-modelling-with-bayesian-statistics-in-r-sdmb03/\n6 December 2021 - 10 December 2021\n\nTime Series Data Analysis (TSDA01)\nhttps://www.prstatistics.com/course/time-series-data-analysis-tsda01/\n14 December 2021 - 17 December 2021\n\nBayesian Data Analysis (BADA01)\nhttps://www.prstatistics.com/course/bayesian-data-analysis-bada01/\n10th January 2022 - 14th January 2022\n\nStable Isotope Mixing Models using SIBER, SIAR, MixSIAR (SIMM08)\nhttps://www.prstatistics.com/course/stable-isotope-mixing-models-using-r-simm08/\n1st February 2022 - 4th February 2022\n\nwww.PRstatistics.com\n\n53 Morrison Street\nGlasgow\nG5 8LB\n+44 (0) 7966500340\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Species Distribution Modeling using R (SDMR04)\n\n\n\nhttps://www.prstatistics.com/course/species-distribution-modeling-using-r-sdmr04/\n\n\n\nIf you are interested in gaining the introductory knowledge requi",
+      "thread_id": "thread-df1e947aec25",
+      "thread_depth": 0,
+      "month": "2021-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-df1e947aec25",
+      "subject": "Species Distribution Modeling using R (SDMR04)",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2021-08-26T15:52:46+01:00",
+      "last_reply": "2021-08-26T15:52:46+01:00",
+      "root_message_id": "msg-df1e947aec25"
+    }
+  ]
+}

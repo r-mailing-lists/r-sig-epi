@@ -1,0 +1,177 @@
+From ttjoa at uci.edu  Tue Jun 24 23:57:21 2014
+From: ttjoa at uci.edu (Tjoa, Thomas)
+Date: Tue, 24 Jun 2014 21:57:21 +0000
+Subject: [R-sig-Epi] increasing  memory allocation
+Message-ID: <FDB69C621DB6B7438F442CBD278F10F132DA2B8A@ORG-MB02.hs.uci.edu>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140624/c26f12fe/attachment.pl>
+
+From bxc at steno.dk  Wed Jun 25 10:10:29 2014
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Wed, 25 Jun 2014 08:10:29 +0000
+Subject: [R-sig-Epi] Epi 1.1.65 released
+Message-ID: <D48624DDDF1E874FBD20BC5C1FE08FA41E43A020@NNEXMRDK005.corp.novocorp.net>
+
+Dear list members,
+
+There is now a new version of the Epi package on CRAN, version 1.1.65, replacing 1.1.49. There have been quite a bit of changes and fixed since last version on CRAN, see below. None however that will render previous uses of functions invalid.
+
+Upgrade recommended.
+
+Best regards,
+Bendix
+Epi-package maintainer
+______________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Clinical Epidemiology
+Steno Diabetes Center A/S
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk    http://BendixCarstensen.com
+www.steno.dk
+
+___________________________________________________________________________
+
+List of changes since 1.1.45
+-----------------------------
+
+Changes in 1.1.65
+
+o Despite the note, dropped rows from construction of a Lexis objects
+  were not put in the "dropped" attribute.
+
+Changes in 1.1.64
+
+o Fixed the sim-Lexis vignette
+
+Changes in 1.1.64
+
+o Added function ZArray, which generates an array of 0s just as NArray
+  generates an array of NAs.
+
+o Updated code to avoid "::" and ":::" as far as possible, as well as
+  "<<-". Hence excluded records from construction of a Lexis object is
+  now put in an attribute "dropped" of the Lexis object.
+
+Changes in 1.1.62
+
+o Bug fix in the example code for boxes.Lexis
+
+Changes in 1.1.61
+
+o ci.lin updated to recognize objects of class "lmerMod" from lmer.
+
+Changes in 1.1.60
+
+o Documentation for DMlate updated.
+
+Changes in 1.1.59
+
+o boxes.Lexis updated so that also no. of beginners and enders are
+  properly formatted if larger than 999
+
+Changes in 1.1.57
+
+o boxes.Lexis updated with arguments show.BE and BE.pre, allowing
+  annotation of boxes by the *number* of persons starting and ending
+  in different states.
+
+Changes in 1.1.57
+
+o simLexis substantially updated and groomed to accept Cox-models for
+  transitions too. Example in the documentation and vignette is
+  expanded accordingly.
+
+Changes in 1.1.56
+
+o Typos in documentation corrected.
+
+o When records with too short follow-up are encountered by Lexis, they
+  are dropped from the resulting object, but they will be availabe in
+  the object drop.sh in the global environment.
+
+o The col and border arguments to plot.pState were not repeated
+  automatically, so needed fixing.
+
+o More elaborate warning and error-messages if initiators in absorbing
+  states are handed to simLexis.
+
+Changes in 1.1.55
+
+o Documentation of clogistic is clarified w.r.t. likelihood
+  contributions of matched sets.
+
+Changes in 1.1.54
+
+o apc.fit updated to use the Ns wrapper, and automatically use knots
+  located so that the marginal number of events is the same between
+  knots.
+
+o plot.apc and lines.apc defined as methods for apc objects. They are
+  just wrappers for apc.plot and apc.lines.
+
+o gen.exp example slightly modified to give better output.
+
+Changes in 1.1.53
+
+o Population figures in N.dk, M.dk and Y.dk updated
+
+Changes in 1.1.52
+
+o col.txt argument to plotEst was not working properly. Fixed
+
+o txt argument to plotEst can now be an expression vector allowing
+  sub- and superscripts and mathematical expressions.
+
+o Relevel did not issue warning or error when a given level was being
+  specified as member of more than one new level. It now stops with an
+  error.
+
+o The convenience wrappers Ns (for ns) and NArray (for array) have
+  been added
+
+Changes in 1.1.51
+
+o boxes.Lexis fixed so that rates could be computed from matrix input
+  to.
+
+Changes in 1.1.50
+
+o Calculation of p-values in ci.lin has been modified, thanks to
+  Krista Fischer.
+
+Changes in 1.1.49
+
+o Default of "border" argument to plot.pState changed to "transparent"
+
+Changes in 1.1.48
+
+o Slight tidying of code in apc.fit. Automatic determination of
+  reference points for period and cohort fixed to produce median
+  correctly.
+
+Changes in 1.1.47
+
+o Bug in simLexis (specifically in Epi:::simX) where factor levels
+  were wrongly used, is now corrected. Versions earlier are likely to
+  produce wrong state allocation in simulated dataset and not crash.
+
+Changes in 1.1.46
+
+o lex.id handling in simLexis changed, allows for easier simulation in
+  chunks which may be necessary to avoid memory problems.
+
+Changes in 1.1.45
+
+o simLexis introduced. Allows simulation from multiple timescale
+  mulitste models. Accompanying utilities supplied too: pr.Lexis, prev
+  and plot.prev.
+
+

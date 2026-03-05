@@ -1,0 +1,104 @@
+From bxc at steno.dk  Tue Feb 14 09:50:55 2006
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Tue, 14 Feb 2006 09:50:55 +0100
+Subject: [R-sig-Epi] FW: transforming number from cal.yr() back to Date
+Message-ID: <40D3930AC1C8EA469E39536E5BC80835018E7DE8@EXDKBA021.corp.novocorp.net>
+
+I got this problem presented, and I think it is of general interest for the
+list. I copy it by agreement with Tina.
+
+Best,
+Bendix
+
+-----Original Message-----
+From: BXC (Bendix Carstensen)
+Sent: Monday, February 13, 2006 6:54 PM
+To: 'Zagar Tina'
+Subject: RE: transforming number from cal.yr() back to date
+
+
+> -----Original Message-----
+> From: Zagar Tina [mailto:TZagar at onko-i.si]
+> Sent: Monday, February 13, 2006 3:42 PM
+> To: BXC (Bendix Carstensen)
+> Subject: transforming number from cal.yr() back to date
+>
+>
+> Dear Bendix,
+>
+> I am working with function Lexis() included in Epi package so I have
+> to transform all dates into numbers using function cal.yr(). I am
+> having problems with transforming these numbers back to dates. I have
+> tried with transforming cal-yr()'s number to R date first but
+> obviously I am doing something terribly wrong. Can you help me? I am
+> sending you my code (which does not work):
+>
+> # the original date is 07.04.1994
+> a = cal.yr("07.04.1994" , format="%d.%m.%Y")
+> a # result is 1994.263
+> # 'a1' is 'a' transformed into R date (number of days)
+> a1 = round(as.numeric(as.Date( as.character(paste("01.01.",
+> round(a))) , format="%d.%m.%Y"))+ 365.25 * (a - round(a))) # 'a2' is R
+> date transformed from original date 07.04.1994 a2 =
+> as.numeric(as.Date( as.character("07.04.1994") ,
+> format="%d.%m.%Y")) # a1 and a2 are the same a1 - a2 # result is 0 #
+> but converting a1 and a2 back to ordinary dates does not work
+> as.date(a1) # result is 6Apr84
+> as.date(a2) # result is 6Apr84
+>
+> I hope my question is not too stupid... Mybe only last step is false
+> "as.date(a1)"? Thank you for your answer.
+>
+> Best regards,
+> Tina Zagar.
+>
+> <><><><><><><><><><><><><><>
+> Tina ?agar
+> Institute of Oncology Ljubljana
+> Epidemiology and Cancer Registries
+> Zalo?ka cesta 2
+> SI-1000 Ljubljana
+> Slovenia
+> E-mail: tzagar at onko-i.si
+> Tel.: +386 1 5879 562
+> <><><><><><><><><><><><><><>
+
+Dear Tina,
+
+I was a bit surprised myself, because if you do:
+
+> methods(as.Date)
+[1] as.Date.character as.Date.date      as.Date.dates     as.Date.default 
+[5] as.Date.factor    as.Date.POSIXct   as.Date.POSIXlt 
+
+there is no as.Date.numeric. But a date is merely the number of days since
+1 Jan 1970, equipped with the class "Date", so below is two ways of doing it:
+
+> # the original date is 07.04.1994
+> a = cal.yr("07.04.1994" , format="%d.%m.%Y")
+> a # result is 1994.263
+[1] 1994.263
+> b <- structure((a-1970)*365.25,class="Date")
+> b
+[1] "1994-04-07"
+> bb <- (a-1970)*365.25
+> class(bb) <- "Date"
+> bb
+[1] "1994-04-07"
+
+Best,
+Bendix
+----------------------
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2
+DK-2820 Gentofte
+Denmark
+tel: +45 44 43 87 38
+mob: +45 30 75 87 38
+fax: +45 44 43 07 06
+bxc at steno.dk
+www.biostat.ku.dk/~bxc
+
+

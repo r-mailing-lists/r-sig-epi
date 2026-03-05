@@ -1,0 +1,58 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2022-10",
+  "messages": [
+    {
+      "id": "msg-bc6c3daa0a56",
+      "message_id": "<928859289.418987.1665511508571@mail.yahoo.com>",
+      "from_name": "duo wan",
+      "from_email_hash": "5e09b04892e6cc43420be9c63d69a6b6ab6891ad9605da498fa8cc8b4fad375f",
+      "date": "2022-10-11T18:05:08Z",
+      "subject": "[R-sig-Epi] Simulating a Weibull regression model",
+      "subject_clean": "Simulating a Weibull regression model",
+      "in_reply_to": null,
+      "references": [
+        "<928859289.418987.1665511508571.ref@mail.yahoo.com>"
+      ],
+      "body_plain": "HI All,I am trying to simulate a AFT Weibull model in R using a log-linear mod\nlog(Y)=?0+?1X1+?2X2+cW\n\n\nWhere W is a extreme value distribution. My R code is below. I can not understand why the intercept estimate is 2.94, not lose to 1?? Thanks,?\nVincent\n\ninstall.packages(\"extRemes\")\nlibrary(extRemes)\n\nn<-500000    \nx1<-rnorm(n,0,1)    \nx2<-rnorm(n,0,1)    \nerror<-revd(n, loc = 0, scale = 1)    \nb0<- 1    \nb1<-0.5    \nb2<--1.2    \nc<-1    \ntime<-exp(b0+b1*x1+b2*x2+c*error)    \nstatus<-rep(1,n)    \nsurvreg(Surv(time, status==1) ~ x1+x2,dist=\"exponential\")\n\n####output \n\nCoefficients:    \n(Intercept)          x1          x2 \n\n  2.9390956   0.4931199  -1.2061369 \n\nScale fixed at 1 \n#####\n\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "HI All,I am trying to simulate a AFT Weibull model in R using a log-linear mod\nlog(Y)=?0+?1X1+?2X2+cW\n\n\nWhere W is a extreme value distribution. My R code is below. I can not understand why the interc",
+      "thread_id": "thread-bc6c3daa0a56",
+      "thread_depth": 0,
+      "month": "2022-10"
+    },
+    {
+      "id": "msg-3164399d0f68",
+      "message_id": "<GV3P280MB000199FA6EB7444CD1C56EB8F0229@GV3P280MB0001.SWEP280.PROD.OUTLOOK.COM>",
+      "from_name": "Mark Clements",
+      "from_email_hash": "7aa8aa4f14ae0f61dbfa8ba275365477ec7b7ad494999cca0719283568c8d63e",
+      "date": "2022-10-12T08:26:55Z",
+      "subject": "[R-sig-Epi] Simulating a Weibull regression model",
+      "subject_clean": "Simulating a Weibull regression model",
+      "in_reply_to": "<928859289.418987.1665511508571@mail.yahoo.com>",
+      "references": [
+        "<928859289.418987.1665511508571.ref@mail.yahoo.com>",
+        "<928859289.418987.1665511508571@mail.yahoo.com>"
+      ],
+      "body_plain": ">From ?survival::survreg.distributions, we find that the CDF for an extreme value distribution is defined as F=1-e^{-e^t}, whereas ?extRemes::revd gives G(x) = exp(-exp((x - location)/scale)) (or F=e^{-e^t}) when shape=0.\n\nIf you use\n\ntime<-exp(b0+b1*x1+b2*x2-c*error) # or\ntime<-rexp(n, rate=1/exp(b0+b1*x1+b2*x2)) # or\ntime<-rweibull(n, shape=c, scale=exp(b0+b1*x1+b2*x2))\n\nthen you could model using\n\nsurvreg(Surv(time, status==1) ~ x1+x2,dist=\"exponential\") # or\nsurvreg(Surv(time, status==1) ~ x1+x2,dist=\"weibull\")\n\n-- Mark\n________________________________\nFrom: R-sig-Epi <r-sig-epi-bounces at r-project.org> on behalf of duo wan <duo_wan at yahoo.com>\nSent: 11 October 2022 20:05\nTo: r-sig-epi at r-project.org <r-sig-epi at r-project.org>\nSubject: [R-sig-Epi] Simulating a Weibull regression model\n\n[Some people who received this message don't often get email from duo_wan at yahoo.com. Learn why this is important at https://aka.ms/LearnAboutSenderIdentification ]\n\nHI All,I am trying to simulate a AFT Weibull model in R using a log-linear mod\nlog(Y)=?0+?1X1+?2X2+cW\n\n\nWhere W is a extreme value distribution. My R code is below. I can not understand why the intercept estimate is 2.94, not lose to 1?  Thanks,\nVincent\n\ninstall.packages(\"extRemes\")\nlibrary(extRemes)\n\nn<-500000\nx1<-rnorm(n,0,1)\nx2<-rnorm(n,0,1)\nerror<-revd(n, loc = 0, scale = 1)\nb0<- 1\nb1<-0.5\nb2<--1.2\nc<-1\ntime<-exp(b0+b1*x1+b2*x2+c*error)\nstatus<-rep(1,n)\nsurvreg(Surv(time, status==1) ~ x1+x2,dist=\"exponential\")\n\n####output\n\nCoefficients:\n(Intercept)          x1          x2\n\n  2.9390956   0.4931199  -1.2061369\n\nScale fixed at 1\n#####\n\n\n\n\n        [[alternative HTML version deleted]]\n\n_______________________________________________\nR-sig-Epi at r-project.org mailing list\nhttps://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fstat.ethz.ch%2Fmailman%2Flistinfo%2Fr-sig-epi&amp;data=05%7C01%7Cmark.clements%40ki.se%7C9224c78aa653458e9ca808daabb3324e%7Cbff7eef1cf4b4f32be3da1dda043c05d%7C0%7C0%7C638011083709550655%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=GIx6eSNqJs4NPSC1MhXz%2FgfoKrO5nSQQM8gzc8BaPXI%3D&amp;reserved=0\n\n\n\nNar du skickar e-post till Karolinska Institutet (KI) innebar detta att KI kommer att behandla dina personuppgifter. Har finns information om hur KI behandlar personuppgifter<https://ki.se/medarbetare/integritetsskyddspolicy>.\n\n\nSending email to Karolinska Institutet (KI) will result in KI processing your personal data. You can read more about KI's processing of personal data here<https://ki.se/en/staff/data-protection-policy>.\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": ">From ?survival::survreg.distributions, we find that the CDF for an extreme value distribution is defined as F=1-e^{-e^t}, whereas ?extRemes::revd gives G(x) = exp(-exp((x - location)/scale)) (or F=e^",
+      "thread_id": "thread-bc6c3daa0a56",
+      "thread_depth": 1,
+      "month": "2022-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-bc6c3daa0a56",
+      "subject": "Simulating a Weibull regression model",
+      "message_count": 2,
+      "participants": [
+        "Mark Clements",
+        "duo wan"
+      ],
+      "started": "2022-10-11T18:05:08+00:00",
+      "last_reply": "2022-10-12T08:26:55+00:00",
+      "root_message_id": "msg-bc6c3daa0a56"
+    }
+  ]
+}

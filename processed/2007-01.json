@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2007-01",
+  "messages": [
+    {
+      "id": "msg-7fe420d821f2",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC80835039A70D2@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2007-01-08T16:07:00+01:00",
+      "subject": "[R-sig-Epi] Course announcement: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
+      "subject_clean": "Course announcement: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Course in\n\nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R\n============================================\nTartu, Estonia, 25 to 30 May 2007\n\nThe course is aimed at epidemiologists and statisticians who wish to use R for statistical modelling and analysis of epidemiological data.\nThe course requires basic knowledge of epidemiological concepts and study types. These will only be briefly reviewed, whereas the more advanced epidemiological and statistical concepts will be treated in depth.\n\nContents:\n---------\n    * History of R. Language. Objects. Functions.\n    * Interface to other dataformats. Dataframes.\n    * Graphical methods for exploring data.\n    * Classical methods and tabulation of data.\n    * Logistic regression for case-control-studies.\n    * Poisson regression for follow-up studies.\n    * Parametrization of models.\n    * Graphics in R.\n    * Graphical reporting of results.\n    * Causal inference.\n    * Time-splitting & SMR.\n    * Survival analysis in continuous time.\n    * Interval censoring.\n    * Nested and matched case-control studies.\n    * Case-cohort studies.\n    * Competing risk models.\n    * Multistage models.\n    * Bootstrap and simulation\n\nThe methods will be illustrated using R in practical exercises.\n\nThe Epi package which is under development for epidemiological analysis in R will be introduced.\n\nParticipants are required to have a fairly good understanding of statistical principles and some familiarity with epidemiological concepts. The course will be mainly practically oriented with more than half the time at the computer.\n\nPrice: 600 EUR. (300 EUR for countries outside EU-2003 and the like).\n\nApplication: Deadline 1st April 2007. Send and e-mail which briefly states your qualifications in epidemiology and statistics, to the organizers Krista Fischer, Esa L??r? & Bendix Carstensen. \n\nFurther information at: www.pubhealth.ku.dk/~bxc/SPE\n\n-------------------------------------------------------------------\nOrganizers:\n\nKrista Fischer, University of Tartu, Estonia <krista.fischer at ut.ee> \n\nEsa L??r?, University of Oulu, Finland <esa.laara at oulu.fi> \n\nBendix Carstensen, Steno Diabetes Center, Denmark <bxc at steno.dk>",
+      "body_snippet": "Course in\n\nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R\n============================================\nTartu, Estonia, 25 to 30 May 2007\n\nThe course is aimed at epidemiologists and statisticians who wis",
+      "thread_id": "thread-7fe420d821f2",
+      "thread_depth": 0,
+      "month": "2007-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7fe420d821f2",
+      "subject": "Course announcement: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2007-01-08T16:07:00+01:00",
+      "last_reply": "2007-01-08T16:07:00+01:00",
+      "root_message_id": "msg-7fe420d821f2"
+    }
+  ]
+}

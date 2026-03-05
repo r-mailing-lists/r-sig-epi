@@ -1,0 +1,59 @@
+From bxc at steno.dk  Mon Jan  8 16:07:00 2007
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Mon, 8 Jan 2007 16:07:00 +0100
+Subject: [R-sig-Epi] Course announcement: STATISTICAL PRACTICE IN
+	EPIDEMIOLOGY USING R
+Message-ID: <40D3930AC1C8EA469E39536E5BC80835039A70D2@EXDKBA021.corp.novocorp.net>
+
+Course in
+
+STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R
+============================================
+Tartu, Estonia, 25 to 30 May 2007
+
+The course is aimed at epidemiologists and statisticians who wish to use R for statistical modelling and analysis of epidemiological data.
+The course requires basic knowledge of epidemiological concepts and study types. These will only be briefly reviewed, whereas the more advanced epidemiological and statistical concepts will be treated in depth.
+
+Contents:
+---------
+    * History of R. Language. Objects. Functions.
+    * Interface to other dataformats. Dataframes.
+    * Graphical methods for exploring data.
+    * Classical methods and tabulation of data.
+    * Logistic regression for case-control-studies.
+    * Poisson regression for follow-up studies.
+    * Parametrization of models.
+    * Graphics in R.
+    * Graphical reporting of results.
+    * Causal inference.
+    * Time-splitting & SMR.
+    * Survival analysis in continuous time.
+    * Interval censoring.
+    * Nested and matched case-control studies.
+    * Case-cohort studies.
+    * Competing risk models.
+    * Multistage models.
+    * Bootstrap and simulation
+
+The methods will be illustrated using R in practical exercises.
+
+The Epi package which is under development for epidemiological analysis in R will be introduced.
+
+Participants are required to have a fairly good understanding of statistical principles and some familiarity with epidemiological concepts. The course will be mainly practically oriented with more than half the time at the computer.
+
+Price: 600 EUR. (300 EUR for countries outside EU-2003 and the like).
+
+Application: Deadline 1st April 2007. Send and e-mail which briefly states your qualifications in epidemiology and statistics, to the organizers Krista Fischer, Esa L??r? & Bendix Carstensen. 
+
+Further information at: www.pubhealth.ku.dk/~bxc/SPE
+
+-------------------------------------------------------------------
+Organizers:
+
+Krista Fischer, University of Tartu, Estonia <krista.fischer at ut.ee> 
+
+Esa L??r?, University of Oulu, Finland <esa.laara at oulu.fi> 
+
+Bendix Carstensen, Steno Diabetes Center, Denmark <bxc at steno.dk>
+
+

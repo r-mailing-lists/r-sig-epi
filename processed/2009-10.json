@@ -1,0 +1,92 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2009-10",
+  "messages": [
+    {
+      "id": "msg-e1d8a9789cce",
+      "message_id": "<5968.32620.qm@web53105.mail.re2.yahoo.com>",
+      "from_name": "Rahul Shidhaye",
+      "from_email_hash": "968ca02660412aa231f8763ff847293141c6049e55f0e8a59901e1b38d7294fc",
+      "date": "2009-10-15T19:19:08-07:00",
+      "subject": "[R-sig-Epi] Sample size for diagnostic test",
+      "subject_clean": "Sample size for diagnostic test",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091015/28b937f4/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091015/28b937f4/attachment.pl>",
+      "thread_id": "thread-e1d8a9789cce",
+      "thread_depth": 0,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-5d88d54f5def",
+      "message_id": "<EBE45F91B9606842A974F9F99E2D4E2B01BC8E9C@RE2-EXC-VBE1B.ausl.org>",
+      "from_name": "Guazzetti Stefano",
+      "from_email_hash": "32345d2112fd67afe941586f302aaa5be38e8e752a99e5bac5142922fe3a0de2",
+      "date": "2009-10-16T11:05:31+02:00",
+      "subject": "[R-sig-Epi] R:  Sample size for diagnostic test",
+      "subject_clean": "R:  Sample size for diagnostic test",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear Rahul,\nsensitivity and specificity are just proportion and thus it should not be hard\nto calculate the sample size needed in your case. Note also that sensitivity\nand specificity don't depend (at least in theory) on the prevalence of disease.\n\nRSiteSearch(\"proportion sample size\")\n \nwill suggest you more than one function to calculate the sample size for a single \nproportion under different assummptions.\nUnder the assumption of independence and using the asymptotic (\"normal\") approximation\nyou could use a simple function like this one:\n\nsampl.size.prop<-function (p, d, conf.lev=0.95, N=NULL){#N is for a finite population\n    if (any(c(d, p, conf.lev) > 1) || any(c(d, p, conf.lev, N) < 0)) \n        stop(\"Error: proportions cannot exceed 1 or be negative\")\n    z <- qnorm(1 - ((1 - conf.lev)/2))\n    n <- (z^2 * p * (1 - p))/d^2\n    if (is.null(N)) \n        return(ceiling(n))\n    else return(ceiling(n/(1 + n/N))) }\n\nsampl.size.prop(0.8, 0.025)\nsampl.size.prop(0.8, 0.05)\n#not shure if you need a 5% coverage or plus/minus 5%\n\nStefano\n\n-----Messaggio originale-----\nDa: r-sig-epi-bounces at stat.math.ethz.ch\n[mailto:r-sig-epi-bounces at stat.math.ethz.ch]Per conto di Rahul Shidhaye\nInviato: Friday, October 16, 2009 4:19 AM\nA: r-sig-epi at stat.math.ethz.ch\nOggetto: [R-sig-Epi] Sample size for diagnostic test\n\n\n\nHello,\n?\nI wish to calculate sample size for?a disgnostic test. prevalence of the disorder is around 5% and expected sensitivity and specificity is 80%. We wish to have a precision of 5% in sensitivity and specificity.\n\nDr. Rahul Shidhaye\n\n\n      \n\t[[alternative HTML version deleted]]\n\n\nRispetta l'ambiente: Se non ti ? necessario, non stampare questa mail.\n\n\n\"Le informazioni contenute nel presente messaggio di posta elettronica e in ogni suo allegato sono da considerarsi riservate e il destinatario della email ? l'unico autorizzato\nad usarle, copiarle e, sotto la propria responsabilit?, divulgarle. Chiunque riceva questo messaggio per errore senza esserne il destinatario deve immediatamente rinviarlo\nal mittente cancellando l'originale. Eventuali dati personali e sensibili contenuti nel presente messaggio e/o suoi allegati vanno trattati nel rispetto della normativa \nin materia di privacy ( DLGS n.196/'03)\".",
+      "body_snippet": "Dear Rahul,\nsensitivity and specificity are just proportion and thus it should not be hard\nto calculate the sample size needed in your case. Note also that sensitivity\nand specificity don't depend (at",
+      "thread_id": "thread-5d88d54f5def",
+      "thread_depth": 0,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-03d5426dbe90",
+      "message_id": "<a37cfb5a0910161225qdbfb91dj63f55b8228e59e11@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2009-10-16T16:25:04-03:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 36, Issue 1",
+      "subject_clean": "R-sig-Epi Digest, Vol 36, Issue 1",
+      "in_reply_to": "<mailman.3.1255687201.5476.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.3.1255687201.5476.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091016/ab85ef41/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091016/ab85ef41/attachment.pl>",
+      "thread_id": "thread-03d5426dbe90",
+      "thread_depth": 0,
+      "month": "2009-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e1d8a9789cce",
+      "subject": "Sample size for diagnostic test",
+      "message_count": 1,
+      "participants": [
+        "Rahul Shidhaye"
+      ],
+      "started": "2009-10-15T19:19:08-07:00",
+      "last_reply": "2009-10-15T19:19:08-07:00",
+      "root_message_id": "msg-e1d8a9789cce"
+    },
+    {
+      "id": "thread-5d88d54f5def",
+      "subject": "R:  Sample size for diagnostic test",
+      "message_count": 1,
+      "participants": [
+        "Guazzetti Stefano"
+      ],
+      "started": "2009-10-16T11:05:31+02:00",
+      "last_reply": "2009-10-16T11:05:31+02:00",
+      "root_message_id": "msg-5d88d54f5def"
+    },
+    {
+      "id": "thread-03d5426dbe90",
+      "subject": "R-sig-Epi Digest, Vol 36, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2009-10-16T16:25:04-03:00",
+      "last_reply": "2009-10-16T16:25:04-03:00",
+      "root_message_id": "msg-03d5426dbe90"
+    }
+  ]
+}

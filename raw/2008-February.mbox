@@ -1,0 +1,183 @@
+From summer.nitely at gmail.com  Thu Feb  7 23:36:41 2008
+From: summer.nitely at gmail.com (Summer Nitely)
+Date: Thu, 7 Feb 2008 15:36:41 -0700
+Subject: [R-sig-Epi] survival curve in epi package
+Message-ID: <8a41df090802071436r5661bdcdxda9a3a9c47a1e2d8@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080207/40a2f424/attachment.pl 
+
+From emmanuel.brasil at gmail.com  Tue Feb 12 12:39:04 2008
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Tue, 12 Feb 2008 08:39:04 -0300
+Subject: [R-sig-Epi] [survival curve] R-sig-Epi Digest, Vol 22, Issue 1
+In-Reply-To: <mailman.3.1202468401.8398.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.3.1202468401.8398.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <a37cfb5a0802120339g687a2f0cl44676b8e3c5c496@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080212/66f2408f/attachment.pl 
+
+From bxc at steno.dk  Tue Feb 12 23:43:47 2008
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Tue, 12 Feb 2008 23:43:47 +0100
+Subject: [R-sig-Epi] survival curve in epi package
+In-Reply-To: <8a41df090802071436r5661bdcdxda9a3a9c47a1e2d8@mail.gmail.com>
+Message-ID: <40D3930AC1C8EA469E39536E5BC808350565741E@EXDKBA021.corp.novocorp.net>
+
+You can have a look at the Icens() function. But that will give you
+estimates of a piecewise constant hazard. You will then have to
+transform this to the survival function.
+______________________________________________
+
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> Summer Nitely
+> Sent: 8. februar 2008 09:37
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] survival curve in epi package
+> 
+>  Does anyone know if the Epi package has a function that 
+> returns/plots the survival function for interval censored 
+> survival analysis? I haven't found one in the manual that 
+> does this, but I could be missing it.
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+
+From bxc at steno.dk  Mon Feb 25 08:43:52 2008
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Mon, 25 Feb 2008 08:43:52 +0100
+Subject: [R-sig-Epi] Course: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R
+Message-ID: <40D3930AC1C8EA469E39536E5BC808350574B0F7@EXDKBA021.corp.novocorp.net>
+
+Course in
+ 
+STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R
+
+============================================
+
+Tartu, Estonia, Wednesday 28 May to Monday 2 June 2008.
+
+Aimed at young statisticians and epidemiologists wishing to broaden
+their epidemiological skills, in particular with respect to practical
+statistical analysis. Participants will gain access to the versatile
+analysis tool R which has good analytical in particular graphical 
+capabilities. The Epi-package for R will be extensively used.
+
+Participants are required to have a fairly good understanding of
+statistical principles and some familiarity with epidemiological
+concepts. The course will be mainly practically oriented with more
+than half the time at the computer.
+
+Price: Commercial: 1000 EUR, Academic: 750 EUR / 500 EUR.
+The 750 EUR are for particpants from the EU pre-2004, North America
+and the like. 500 for particants from other countries.
+
+Application deadline: 15 April 2004.
+
+Send an application by mail to the organizers, briefly stating your
+qualifications in epidemiology and statistics and a brief reason to
+participate: krista.fischer at mrc-bsu.cam.ac.uk; tilel at sun3.oulu.fi;
+bxc at steno.dk
+
+Further information at the course homepage: www.biostat.ku.dk/~bxc/SPE
+
+------------------------------------------------------
+Krista Fischer, University of Tartu, Estonia
+Esa L??r?, University of Oulu, Finland
+Bendix Carstensen, Steno Diabetes Center, Denmark 
+(Organizers)
+
+
+From spakhale at yahoo.com  Fri Feb 29 20:34:23 2008
+From: spakhale at yahoo.com (Smita Pakhale)
+Date: Fri, 29 Feb 2008 11:34:23 -0800 (PST)
+Subject: [R-sig-Epi] need help in calculating confidence intervals for
+	sensitivity, specificity, PPV & NPV
+Message-ID: <708592.65199.qm@web52104.mail.re2.yahoo.com>
+
+Hello,
+
+I am a physician and a novice in R.
+
+I am trying to calculate sensitivity, specificity,
+positive predictive and negative predictive values. I
+could do that using the package caret. However, I need
+to get confidence intervals around these estimates and
+I do not know how to do that.
+
+Please help me find a way to calculate confidence
+intervals for these parameters.
+
+thank you.
+Sincerely,
+Dr. Smita Pakhale
+
+
+From bxc at steno.dk  Fri Feb 29 21:16:45 2008
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Fri, 29 Feb 2008 21:16:45 +0100
+Subject: [R-sig-Epi] need help in calculating confidence intervals
+	forsensitivity, specificity, PPV & NPV
+In-Reply-To: <708592.65199.qm@web52104.mail.re2.yahoo.com>
+Message-ID: <40D3930AC1C8EA469E39536E5BC80835057C6E21@EXDKBA021.corp.novocorp.net>
+
+The sensitivity, specificity and predictive values are just proportions,
+so yoiu can use the function binom.test() to get exact confidence
+confidence intervals.
+
+Best,
+Bendix 
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> Smita Pakhale
+> Sent: 29. februar 2008 20:34
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] need help in calculating confidence 
+> intervals forsensitivity, specificity, PPV & NPV
+> 
+> Hello,
+> 
+> I am a physician and a novice in R.
+> 
+> I am trying to calculate sensitivity, specificity, positive 
+> predictive and negative predictive values. I could do that 
+> using the package caret. However, I need to get confidence 
+> intervals around these estimates and I do not know how to do that.
+> 
+> Please help me find a way to calculate confidence intervals 
+> for these parameters.
+> 
+> thank you.
+> Sincerely,
+> Dr. Smita Pakhale
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+

@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2006-03",
+  "messages": [
+    {
+      "id": "msg-4810f19c6964",
+      "message_id": "<f9b0d0e67585.7585f9b0d0e6@ki.se>",
+      "from_name": "Henrik Kallberg",
+      "from_email_hash": "879cc47db6303158ee7a14f68871f8a45a7b00a428e9b60f317dad7628381815",
+      "date": "2006-03-02T11:34:51+01:00",
+      "subject": "[R-sig-Epi] function and glm",
+      "subject_clean": "function and glm",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060302/12d5da0b/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060302/12d5da0b/attachment.pl",
+      "thread_id": "thread-4810f19c6964",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-d55669b646f7",
+      "message_id": "<1141300812.3659.8.camel@seurat.iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "2006-03-02T13:00:11+01:00",
+      "subject": "[R-sig-Epi] function and glm",
+      "subject_clean": "function and glm",
+      "in_reply_to": "<f9b0d0e67585.7585f9b0d0e6@ki.se>",
+      "references": [
+        "<f9b0d0e67585.7585f9b0d0e6@ki.se>"
+      ],
+      "body_plain": "On Thu, 2006-03-02 at 11:34 +0100, Henrik Kallberg wrote:\n> Hi all!\n> I've a question for which I have found no answer. I want to create a function that contains the glm function as a kind of subfunction within the larger function. I want to be able to  chose how many predictor variables will be included in the glm function based on the \"larger\" function. Example:\n> function(ab#=dataset#,case#response variable#, exp#exposure variable#, confounders#list of confounder variables#){\n> Glmf<-glm(case~exp + confounders, family=binomial(link=\"logit\"), data=inter, na.action=na.fail)\n> summary(Glmf)\n> return(summary(Glmf))\n> }\n> I want to be able to put in different numbers of confounding variables. I would be very GRATEFUL for suggestions how to solve the problem.\n> Best Regards Henrik Kllberg\n> henrik.kallberg at ki.se\n\nA dot on the right hand side of the formula means \"regress on\neverything\". So you can create a data frame with only the variables you\nwant and pass this to glm inside your function\n\nmydata <- cbind(\"case\"=case, \"exp\"=exp, as.data.frame(confounders))\nglm(case ~ ., data=mydata)\n\nMartyn\n\n-----------------------------------------------------------------------\nThis message and its attachments are strictly confidential. ...{{dropped}}",
+      "body_snippet": "On Thu, 2006-03-02 at 11:34 +0100, Henrik Kallberg wrote:\n> Hi all!\n> I've a question for which I have found no answer. I want to create a function that contains the glm function as a kind of subfunct",
+      "thread_id": "thread-4810f19c6964",
+      "thread_depth": 1,
+      "month": "2006-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-4810f19c6964",
+      "subject": "function and glm",
+      "message_count": 2,
+      "participants": [
+        "Henrik Kallberg",
+        "Martyn Plummer"
+      ],
+      "started": "2006-03-02T11:34:51+01:00",
+      "last_reply": "2006-03-02T13:00:11+01:00",
+      "root_message_id": "msg-4810f19c6964"
+    }
+  ]
+}

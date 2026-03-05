@@ -1,0 +1,124 @@
+From gandini at calvino.polito.it  Fri Nov 11 12:16:11 2005
+From: gandini at calvino.polito.it (Martina Gandini)
+Date: Fri, 11 Nov 2005 12:16:11 +0100 (CET)
+Subject: [R-sig-Epi] Left truncated and right censored data
+Message-ID: <1050.212.171.164.228.1131707771.squirrel@212.171.164.228>
+
+I have a question concerning a non parametric estimator for left truncated
+and right censored data. I see that the function
+
+
+survfit(Surv(time1, time2, status) ~ group, data=mydata)
+
+  (where time1= left truncation time
+   time2= follow=up time
+   status= 0:censored 1:not censored)
+
+do this, but what's the method used? Is it a Lynden-Bell (Woodroofe)
+estimator or something else?
+Regards
+Martina Gandini
+
+
+From tlumley at u.washington.edu  Fri Nov 11 18:28:40 2005
+From: tlumley at u.washington.edu (Thomas Lumley)
+Date: Fri, 11 Nov 2005 09:28:40 -0800 (PST)
+Subject: [R-sig-Epi] Left truncated and right censored data
+In-Reply-To: <1050.212.171.164.228.1131707771.squirrel@212.171.164.228>
+References: <1050.212.171.164.228.1131707771.squirrel@212.171.164.228>
+Message-ID: <Pine.LNX.4.63a.0511110926490.21453@homer22.u.washington.edu>
+
+On Fri, 11 Nov 2005, Martina Gandini wrote:
+
+> I have a question concerning a non parametric estimator for left truncated
+> and right censored data. I see that the function
+>
+>
+> survfit(Surv(time1, time2, status) ~ group, data=mydata)
+>
+>  (where time1= left truncation time
+>   time2= follow=up time
+>   status= 0:censored 1:not censored)
+>
+> do this, but what's the method used? Is it a Lynden-Bell (Woodroofe)
+> estimator or something else?
+
+I don't know what names it is called, but it is the cumulative product of
+    1 - number of events/number at risk
+over time points.  This is the nonparametric MLE, and reduces to the 
+Kaplan-Meier estimator in the absence of truncation.
+
+ 	-thomas
+
+
+From mmirabal at finlay.edu.cu  Tue Nov 29 21:40:40 2005
+From: mmirabal at finlay.edu.cu (Mayelin Mirabal)
+Date: Tue, 29 Nov 2005 15:40:40 -0500
+Subject: [R-sig-Epi]  multiple "stairs steps" plots
+In-Reply-To: <Pine.LNX.4.63a.0511110926490.21453@homer22.u.washington.edu>
+References: <1050.212.171.164.228.1131707771.squirrel@212.171.164.228>
+	<Pine.LNX.4.63a.0511110926490.21453@homer22.u.washington.edu>
+Message-ID: <WorldClient-F200511291540.AA40400063@finlay.edu.cu>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20051129/c9c1099e/attachment.pl
+
+From bxc at steno.dk  Wed Nov 30 09:23:33 2005
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Wed, 30 Nov 2005 09:23:33 +0100
+Subject: [R-sig-Epi] multiple "stairs steps" plots
+Message-ID: <40D3930AC1C8EA469E39536E5BC80835011AB647@EXDKBA021.corp.novocorp.net>
+
+You are looking for plot types "s" and "S", try for example:
+
+x<-1:10 
+y<-rnorm(10)
+
+plot( x, y, pch=16 )
+lines(x,y,type="s")
+
+plot( x, y, pch=16 )
+lines(x,y,type="S")
+
+----------------------
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2
+DK-2820 Gentofte
+Denmark
+tel: +45 44 43 87 38
+mob: +45 30 75 87 38
+fax: +45 44 43 07 06
+bxc at steno.dk
+www.biostat.ku.dk/~bxc
+----------------------
+
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> Mayelin Mirabal
+> Sent: Tuesday, November 29, 2005 9:41 PM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] multiple "stairs steps" plots
+> 
+> 
+> 
+> 
+> I need to show a graphic with multiple "stairs steps" plots. 
+> Can I do that?. I'll also appreciate, if any of you have done 
+> such a specific thing, an 
+> example.
+> Thanks, Mayelin Mirabal.
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-> epi
+>
+
+

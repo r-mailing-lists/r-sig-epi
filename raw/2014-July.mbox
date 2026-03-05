@@ -1,0 +1,104 @@
+From sugi_r_jey at yahoo.ca  Fri Jul  4 12:31:47 2014
+From: sugi_r_jey at yahoo.ca (sugi jey)
+Date: Fri, 4 Jul 2014 03:31:47 -0700
+Subject: [R-sig-Epi] block randomization
+Message-ID: <1404469907.84106.YahooMailNeo@web161302.mail.bf1.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140704/a6f874b2/attachment.pl>
+
+From gustaf.rydevik at gmail.com  Thu Jul 24 17:29:14 2014
+From: gustaf.rydevik at gmail.com (Gustaf Rydevik)
+Date: Thu, 24 Jul 2014 16:29:14 +0100
+Subject: [R-sig-Epi] APC models with covariates
+Message-ID: <CAAOCNNYOQBXJBPJq4ENaf45pSEErm8X5ZTjpRkLmnOrBHbGDvg@mail.gmail.com>
+
+Dear all,
+
+Is it possible to use the Epi package to fit APC models with
+additional covariates? I've used other approaches, but really enjoy
+the convenience functions for visualisation in Epi, and so it would be
+great if it was possible to stay in the same package.
+
+Best regards,
+Gustaf
+
+-- 
+Gustaf Rydevik, M.Sci.
+tel: +44(0)74 253 760 42
+address:25/6 Brunswick Road, EH7 5GY Edinburgh
+skype:gustaf_rydevik
+
+
+From bxc at steno.dk  Thu Jul 24 19:25:47 2014
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Thu, 24 Jul 2014 17:25:47 +0000
+Subject: [R-sig-Epi] APC models with covariates
+In-Reply-To: <CAAOCNNYOQBXJBPJq4ENaf45pSEErm8X5ZTjpRkLmnOrBHbGDvg@mail.gmail.com>
+References: <CAAOCNNYOQBXJBPJq4ENaf45pSEErm8X5ZTjpRkLmnOrBHbGDvg@mail.gmail.com>
+Message-ID: <D48624DDDF1E874FBD20BC5C1FE08FA41E43E208@NNEXMRDK005.corp.novocorp.net>
+
+Unfortunately this is not implemented in the apc.fit function.
+
+The whole machinery relies on a projection of the columns of model matrix:
+
+Suppose you have natural spline effects for A, P and C=P-A, all of length N, say, and you want to center around the reference cohort c0:
+
+mA <- Ns(  A,knots=a.kn)
+mP <- Ns(P  ,knots=p.kn)
+mC <- Ns(P-A,knots=c.kn)
+mr <- Ns(rep(c0,N),knots=c.kn)
+
+The you would fit
+
+Mod <-
+glm( D ~ ma + detrend( mP, P ),
+            + detrend( mC-mr, P-A )
+            + I(P-A-c0)
+            + <covariates>,
+     offset=log(Y), family=Poisson )
+
+the "detrend" function (also from the Epi package) projects the columns of say mP on the orthogonal compliment to (1,P). You can supply you own inner product for the projection if you wish.
+
+The effects of the two de-trended terms will be 0 on average with 0 average slope. But the detrend() is data dependent, so extracting the effects must be done using the original matrix:
+
+P.pt <- sort(unique(P))
+cP <- detrend(mP,P)[match(P.pt,P),]
+P.eff <- ci.exp( Mod, subset="mP", ctr.mat=cP )
+matplot( P.pt, P.eff, <etc> )
+
+A bit of wrangling...
+I would not know how to implement this fort of thing, but if someone writes the help-page for what you need, I'd happily write the code to do it.
+But it must a specification of the function call AND of the output structures.
+
+All the best,
+Bendix
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at r-project.org [mailto:r-sig-epi-bounces at r-
+> project.org] On Behalf Of Gustaf Rydevik
+> Sent: 24. juli 2014 17:29
+> To: r-sig-epi at r-project.org
+> Subject: [R-sig-Epi] APC models with covariates
+> 
+> Dear all,
+> 
+> Is it possible to use the Epi package to fit APC models with additional
+> covariates? I've used other approaches, but really enjoy the convenience
+> functions for visualisation in Epi, and so it would be great if it was
+> possible to stay in the same package.
+> 
+> Best regards,
+> Gustaf
+> 
+> --
+> Gustaf Rydevik, M.Sci.
+> tel: +44(0)74 253 760 42
+> address:25/6 Brunswick Road, EH7 5GY Edinburgh skype:gustaf_rydevik
+> 
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+

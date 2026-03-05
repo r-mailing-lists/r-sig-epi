@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2009-02",
+  "messages": [
+    {
+      "id": "msg-91cee8280d18",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301FBEB9CBF@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2009-02-01T17:04:25+01:00",
+      "subject": "[R-sig-Epi] New verions of the Epi package",
+      "subject_clean": "New verions of the Epi package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Since 1.0.7, the pervious version on CRAN, the following changes has appeared:\n\nChanges in 1.0.10\n\no Fixed parse errors in documentation.\n\nChanges in 1.0.9\n\no Thanks to Mike Murphy, Professor of Demography, Department of Social Policy,\n  London School of Economics, a bug causing a crash of apc.fit if only\n  one row in the model matrix correponds to the reference level.\n\no Also thanks to Mike Murphy, a much more efficient calculation of\n  median period and cohort is now used.\n\no apc.fit expanded with an argument allowing logistic regression model\n  instead of a Poisson model only.\n\nChanges in 1.0.8\n\no tab.Lexis removed and replaced by summary.Lexis which gives a better\n  summary of the transitions and transition rates.\n\no A bug in ci.pd (confidence interval for probability difference) has\n  been fixed.\n\nBest regards,\nBendix Carstensen\nPackage maintainer\n_______________________________________________\n\nBendix Carstensen \nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc\nwww.steno.dk",
+      "body_snippet": "Since 1.0.7, the pervious version on CRAN, the following changes has appeared:\n\nChanges in 1.0.10\n\no Fixed parse errors in documentation.\n\nChanges in 1.0.9\n\no Thanks to Mike Murphy, Professor of Demog",
+      "thread_id": "thread-91cee8280d18",
+      "thread_depth": 0,
+      "month": "2009-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-91cee8280d18",
+      "subject": "New verions of the Epi package",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2009-02-01T17:04:25+01:00",
+      "last_reply": "2009-02-01T17:04:25+01:00",
+      "root_message_id": "msg-91cee8280d18"
+    }
+  ]
+}

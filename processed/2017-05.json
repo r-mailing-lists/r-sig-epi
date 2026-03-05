@@ -1,0 +1,92 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2017-05",
+  "messages": [
+    {
+      "id": "msg-08c63a5df91b",
+      "message_id": "<000001d2c413$814fd080$83ef7180$@vet.uth.gr>",
+      "from_name": "Polychronis Kostoulas",
+      "from_email_hash": "4ec24ef2e4953df2961af16e292997830ab860d5ebba608ea52de104a722774d",
+      "date": "2017-05-03T16:45:19+03:00",
+      "subject": "[R-sig-Epi] LCMATE mailing list",
+      "subject_clean": "LCMATE mailing list",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear colleagues,\n\n \n\nWe have created LCMATE (Latent Class Models for the Accuracy of TEsts), a\nmailing list for people that are interested in the development and\napplication of latent class models for the evaluation of diagnostic tests,\nprimarily within a Bayesian framework. The focus is on estimating the\ndiagnostic accuracy of tests (either dichotomous, ordinal or continuous) in\nthe absence of a gold standard. LCMs are used within this context because\nthe true disease status of the individuals/samples is unknown (i.e. latent,\nor hidden).\n\n \n\nThe scope of this list is to:\n\n1. Assist researchers that are interested in the application of these\nmethods to their own data\n\n2. Promote the exchange of knowledge and ideas between researchers working\nin this area\n\n \n\nTo subscribe please visit:\n\n \n\nhttp://lists.uth.gr/mailman/listinfo/lcmate\n\n \n\nor send an email to:\n\n \n\nlcmate-request at lists.uth.gr\n\n \n\nKind Regards,\n\nPolychronis Kostoulas\n\nLCMATE Administrator\n\n \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear colleagues,\n\n \n\nWe have created LCMATE (Latent Class Models for the Accuracy of TEsts), a\nmailing list for people that are interested in the development and\napplication of latent class models for",
+      "thread_id": "thread-08c63a5df91b",
+      "thread_depth": 0,
+      "month": "2017-05"
+    },
+    {
+      "id": "msg-ee01c88fc3a9",
+      "message_id": "<CY1PR0301MB0777B924F29E8D42B68C7826DEEA0@CY1PR0301MB0777.namprd03.prod.outlook.com>",
+      "from_name": "Miguel Angel Luque Fernandez",
+      "from_email_hash": "d4f3598bfa3b19f6d4a4c8e19b2759d02396236bcfba0df46dc856c97d48a0ff",
+      "date": "2017-05-04T15:45:06Z",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 90, Issue 1",
+      "subject_clean": "R-sig-Epi Digest, Vol 90, Issue 1",
+      "in_reply_to": "<mailman.21.1493892002.57588.r-sig-epi@r-project.org>",
+      "references": [
+        "<mailman.21.1493892002.57588.r-sig-epi@r-project.org>"
+      ],
+      "body_plain": "Dear all,\nI am glad to be part of the list.\n\nI am collaborating with academics in the States from the Harvard Medical School evaluating the performance (diagnosis accuracy) of a new biomarker for the diagnosis of Gestational Diabetes Mellitus.\nhttp://care.diabetesjournals.org/content/early/2017/04/05/dc16-2598\nHowever, the gold standard is imperfect (Oral glucose tolerance test), and we cannot get correct estimates of the AUC for the new biomarker.\nAlso, I thought about the evaluation of the performance in and independent sample size, which is not the standard case in medical studies, using cross-validation to adjust the value of the AUC\nhttps://github.com/migariane/cvAUROC\nHowever, I will be glad if any of you can refer to some seminal papers/references (in addition to the Pepe book) to illustrate how to implement the LCMATE analysis.\nThank you in advance for your time and help.\nKind regards,\n\nMiguel Angel Luque Fernandez, PhD\nAssistant Professor of Epidemiology and Biostatistics\nLondon School of Hygiene and Tropical Medicine\nLondon, UK\n\n\n\n-----Original Message-----\nFrom: R-sig-Epi [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of r-sig-epi-request at r-project.org\nSent: 04 May 2017 11:00\nTo: r-sig-epi at r-project.org\nSubject: R-sig-Epi Digest, Vol 90, Issue 1\n\nSend R-sig-Epi mailing list submissions to\n\tr-sig-epi at r-project.org\n\nTo subscribe or unsubscribe via the World Wide Web, visit\n\thttps://stat.ethz.ch/mailman/listinfo/r-sig-epi\nor, via email, send a message with subject or body 'help' to\n\tr-sig-epi-request at r-project.org\n\nYou can reach the person managing the list at\n\tr-sig-epi-owner at r-project.org\n\nWhen replying, please edit your Subject line so it is more specific than \"Re: Contents of R-sig-Epi digest...\"\n\n\nToday's Topics:\n\n   1. LCMATE mailing list (Polychronis Kostoulas)\n\n\n----------------------------------------------------------------------\n\nMessage: 1\nDate: Wed, 3 May 2017 16:45:19 +0300\nFrom: \"Polychronis Kostoulas\" <pkost at vet.uth.gr>\nTo: <r-sig-epi at r-project.org>\nSubject: [R-sig-Epi] LCMATE mailing list\nMessage-ID: <000001d2c413$814fd080$83ef7180$@vet.uth.gr>\nContent-Type: text/plain; charset=\"UTF-8\"\n\nDear colleagues,\n\n\n\nWe have created LCMATE (Latent Class Models for the Accuracy of TEsts), a mailing list for people that are interested in the development and application of latent class models for the evaluation of diagnostic tests, primarily within a Bayesian framework. The focus is on estimating the diagnostic accuracy of tests (either dichotomous, ordinal or continuous) in the absence of a gold standard. LCMs are used within this context because the true disease status of the individuals/samples is unknown (i.e. latent, or hidden).\n\n\n\nThe scope of this list is to:\n\n1. Assist researchers that are interested in the application of these methods to their own data\n\n2. Promote the exchange of knowledge and ideas between researchers working in this area\n\n\n\nTo subscribe please visit:\n\n\n\nhttp://lists.uth.gr/mailman/listinfo/lcmate\n\n\n\nor send an email to:\n\n\n\nlcmate-request at lists.uth.gr\n\n\n\nKind Regards,\n\nPolychronis Kostoulas\n\nLCMATE Administrator\n\n\n\n\n\t[[alternative HTML version deleted]]\n\n\n\n------------------------------\n\nSubject: Digest Footer\n\n_______________________________________________\nR-sig-Epi mailing list\nR-sig-Epi at r-project.org\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n------------------------------\n\nEnd of R-sig-Epi Digest, Vol 90, Issue 1",
+      "body_snippet": "Dear all,\nI am glad to be part of the list.\n\nI am collaborating with academics in the States from the Harvard Medical School evaluating the performance (diagnosis accuracy) of a new biomarker for the ",
+      "thread_id": "thread-ee01c88fc3a9",
+      "thread_depth": 0,
+      "month": "2017-05"
+    },
+    {
+      "id": "msg-83d8b917b8fb",
+      "message_id": "<CAHF6YnkzXebMVEPTb2CD=cObZ_cE6NkEd-_n37xmO1zxtAb-gQ@mail.gmail.com>",
+      "from_name": "Luca Candeloro",
+      "from_email_hash": "291ffcdb2a4deb40784f3e7250bc707046d678dadd33f2d463e9c99e8c155528",
+      "date": "2017-05-11T09:11:02+02:00",
+      "subject": "[R-sig-Epi] surv function type argument. How to set it",
+      "subject_clean": "surv function type argument. How to set it",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "good morning,\nI'm not sure how to set the \"type\" argument correctly in the \"Surv\"\nfunction (\"survival\" package) for my data.\nIn our survival study, a group of oysters is checked at irregular time\nintervals.\nAt each timestep, the number of death, scattered and still alive oysters\nhas been recorded. Following an example data.frame:\nTime1 <-rep (c (0.200, 300), each = 3)\nTime2 <-rep (c (200, 300, 370), each = 3)\nEvent_death <-c (10,8,15)\nEvent_scattered_censored <-c (3,5,7)\ndata <-data.frame (Time1, Time2, Event_death, Event_scattered_censored)\ndata $ Still_alive <-1000-cumsum (Event_scattered_censored + Event_death)\n\nI do not understand how this kind of data can be correctly used by the\n\"Surv\" function and how to set the corresponding type argument.\nThanks for the help, greetings, luca\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "good morning,\nI'm not sure how to set the \"type\" argument correctly in the \"Surv\"\nfunction (\"survival\" package) for my data.\nIn our survival study, a group of oysters is checked at irregular time\ninte",
+      "thread_id": "thread-83d8b917b8fb",
+      "thread_depth": 0,
+      "month": "2017-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-08c63a5df91b",
+      "subject": "LCMATE mailing list",
+      "message_count": 1,
+      "participants": [
+        "Polychronis Kostoulas"
+      ],
+      "started": "2017-05-03T16:45:19+03:00",
+      "last_reply": "2017-05-03T16:45:19+03:00",
+      "root_message_id": "msg-08c63a5df91b"
+    },
+    {
+      "id": "thread-ee01c88fc3a9",
+      "subject": "R-sig-Epi Digest, Vol 90, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Miguel Angel Luque Fernandez"
+      ],
+      "started": "2017-05-04T15:45:06+00:00",
+      "last_reply": "2017-05-04T15:45:06+00:00",
+      "root_message_id": "msg-ee01c88fc3a9"
+    },
+    {
+      "id": "thread-83d8b917b8fb",
+      "subject": "surv function type argument. How to set it",
+      "message_count": 1,
+      "participants": [
+        "Luca Candeloro"
+      ],
+      "started": "2017-05-11T09:11:02+02:00",
+      "last_reply": "2017-05-11T09:11:02+02:00",
+      "root_message_id": "msg-83d8b917b8fb"
+    }
+  ]
+}

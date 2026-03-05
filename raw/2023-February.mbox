@@ -1,0 +1,86 @@
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Thu Feb  9 19:46:40 2023
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Thu, 9 Feb 2023 18:46:40 +0000
+Subject: [R-sig-Epi] =?utf-8?q?ONLINE_COURSE_=E2=80=93_Movement_Ecology_?=
+ =?utf-8?q?=28MOVE05=29?=
+Message-ID: <CAEsSYzzA-A9m8-_CJK0zbxCUVT-Z8cp9rcvrB46fgTtYeNAeTg@mail.gmail.com>
+
+ONLINE COURSE ? Movement Ecology (MOVE05)
+
+https://www.prstatistics.com/course/online-course-movement-ecology-move05/
+
+Please feel free to share!
+
+13th - 17th March 2023
+
+The course will cover the concepts, technology and software tools that can
+be used to analyse movement data (from ringing/CMR to VHF/GPS) in ecology
+and evolution. We will cover elementary and advanced analysis and modelling
+techniques broadly applicable across taxa, from microorganisms to
+vertebrates, highlighting the advantages of a unified Movement Ecology
+framework. We will provide the necessary bases in ecology (especially
+behavioural ecology), physics and mathematics/statistics, to be able to
+identify for any specific research question the most appropriate study
+species, logging technology (incl. attachment methods), and
+statistical/mathematical modelling approach. We will specifically address
+the challenges and opportunities at each of the steps of the proposed
+?question-driven approach?, combining theory with computer-based practicals
+in R. We will also address the challenges of applying the results of the
+analyses to applied management problems and communicate the findings to
+non-experts.
+
+Day 1 - Movement Fundamentals
+Conceptual component: Introduction to movement ecology, movement and
+behaviour, spatial and movement path analysis.
+Practical component: Movement path analysis I ? from steps and turns to
+movement path segmentation; Movement path analysis II ? movement modes
+(home rage, dispersal, migration, nomadism) and the squared displacement
+method.
+
+Day 2 - Home Range Analysis
+Conceptual component: Ecological definitions and interpretations of home
+ranges, home range estimation, comparisons between estimators and the
+question-driven approach.
+Practical component: Utilization distribution; comparison of contrasting
+kernel home range estimation methods, isopleth creation, core area & home
+range overlap.
+
+Day 3 - Dynamic Interactions and Temporal Metrics of Movement
+Conceptual component: Movements of interacting animals ? static and dynamic
+interactions; scales of movement ? first-passage and residence time
+analysis.
+Practical component: Static and dynamic interaction indices; estimation of
+first-passage and residence time metrics.
+
+Day 4 - Introduction to Resource Selection, and Effects of Scale
+Conceptual component: Theories of resource and habitat selection, history
+of approaches, and current methodologies and caveats including definitions
+of availability and scale effects for RSF and other movement metrics
+Practical component: Data projections and R as a GIS; Scale-integrated
+models of movement, availability sampling, and RSF estimation and
+interpretation.
+
+Day 5 - Step-Selection Functions and Instantaneous Availability
+Conceptual component: Introduction to step selection, decision-making
+processes, null and alternative models for definitions of availability
+within SSF, movement-integrated step-selection analysis
+Practical component: Creation of available step data, estimation of SSF
+using multiple packages and approaches, simulation of utilization and
+occurrence distributions.
+
+Attendees will be guided through practicals by both instructors to ensure
+you get the most from their experience.
+
+Please email any questions to oliverhooker at prstatistics.com
+
+Upcoming courses can be found here
+<https://www.prstatistics.com/live-courses/>
+
+-- 
+
+Oliver Hooker PhD.
+PR statistics
+
+	[[alternative HTML version deleted]]
+
+

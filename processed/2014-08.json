@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2014-08",
+  "messages": [
+    {
+      "id": "msg-effb0d42a19a",
+      "message_id": "<789565739.9650594.1407446632590.JavaMail.app@ela4-app8385.prod>",
+      "from_name": "Ajit de Silva",
+      "from_email_hash": "53038f7a5972a999f462bd75f998969982838b69e3faa8dcf26d2edbbc9c8ab6",
+      "date": "2014-08-07T21:23:52Z",
+      "subject": "[R-sig-Epi] I'd like to add you to my professional network on LinkedIn",
+      "subject_clean": "I'd like to add you to my professional network on LinkedIn",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140807/b11305a6/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140807/b11305a6/attachment.pl>",
+      "thread_id": "thread-effb0d42a19a",
+      "thread_depth": 0,
+      "month": "2014-08"
+    },
+    {
+      "id": "msg-008474ae099d",
+      "message_id": "<1407454148.37865.YahooMailNeo@web172602.mail.ir2.yahoo.com>",
+      "from_name": "Sef-edine Msa mliva",
+      "from_email_hash": "3e248dda657f7172f06274266a8d624cf3efeddc469ed2fe2115b991b7e21528",
+      "date": "2014-08-08T00:29:08+01:00",
+      "subject": "[R-sig-Epi] I'd like to add you to my professional network on\tLinkedIn",
+      "subject_clean": "I'd like to add you to my professional network on\tLinkedIn",
+      "in_reply_to": "<789565739.9650594.1407446632590.JavaMail.app@ela4-app8385.prod>",
+      "references": [
+        "<789565739.9650594.1407446632590.JavaMail.app@ela4-app8385.prod>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140808/1794e224/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140808/1794e224/attachment.pl>",
+      "thread_id": "thread-effb0d42a19a",
+      "thread_depth": 1,
+      "month": "2014-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-effb0d42a19a",
+      "subject": "I'd like to add you to my professional network on LinkedIn",
+      "message_count": 2,
+      "participants": [
+        "Ajit de Silva",
+        "Sef-edine Msa mliva"
+      ],
+      "started": "2014-08-07T21:23:52+00:00",
+      "last_reply": "2014-08-08T00:29:08+01:00",
+      "root_message_id": "msg-effb0d42a19a"
+    }
+  ]
+}

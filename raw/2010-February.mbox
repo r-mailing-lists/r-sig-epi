@@ -1,0 +1,298 @@
+From amy.mikhail at googlemail.com  Mon Feb  1 22:10:07 2010
+From: amy.mikhail at googlemail.com (Amy Mikhail)
+Date: Tue, 2 Feb 2010 01:40:07 +0430
+Subject: [R-sig-Epi] Problem with DiagnosisMed package
+Message-ID: <84d389791002011310k2b14ddeauc097767bcd14652c@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/bde72d73/attachment.pl>
+
+From dwinsemius at comcast.net  Mon Feb  1 22:33:51 2010
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Mon, 1 Feb 2010 16:33:51 -0500
+Subject: [R-sig-Epi] Problem with DiagnosisMed package
+In-Reply-To: <84d389791002011310k2b14ddeauc097767bcd14652c@mail.gmail.com>
+References: <84d389791002011310k2b14ddeauc097767bcd14652c@mail.gmail.com>
+Message-ID: <3E64370F-73E7-4C43-A607-7B54E1AB149A@comcast.net>
+
+
+On Feb 1, 2010, at 4:10 PM, Amy Mikhail wrote:
+
+> Dear R epidemiologists,
+>
+> I have been trying to find the simplest possible way to:
+>
+> (a) Create contingency tables,
+
+?xtabs
+
+> (b) Perform a chi square or fisher exact test on those contingency  
+> tables,
+> and
+
+?chisq.test
+?fisher.test
+
+
+> (c) Determine sensitivity, specificity and predictive values etc  
+> from a
+> rapid test compared to gold standard.
+
+Those concepts are more typically used with a continuous test result  
+such as hemoglobin or ALT that is predicting a "diagnosis". The ROC  
+plotting facilities in the Epi package are quite good if that were the  
+data situation.
+
+
+>
+> More on my contingency table problem later, but for now problem (c):
+>
+> I tried to use the DiagnosisMed package, since by the description it  
+> seemed
+> I could use my two variables (gold standard test results and results  
+> of test
+> being evaluated) directly with the function (i.e. no need to make a  
+> 2x2
+> table first since the function would do this as well).
+>
+> I carefully coded my gold standard and test results as "positive" and
+> "negative", and removed all NAs.  I converted both columns from  
+> character to
+> factors (which now had 2 levels).
+>
+> Then I tried this:
+>
+> diagnosis(ref, r1a)
+
+No experience with that package.
+
+>
+> where ref is my gold standard and r1a is my test being evaluated.
+>
+> I got this error:
+>
+> Error in uniroot(function(or) { :
+>  f() values at end points not of opposite sign
+>
+> I can't understand why - the data is as clean as a whistle.  Here is  
+> the
+> summary, fyi (six tests are being evaluated against one gold  
+> standard):
+>
+> summary(analc)
+>       ref            r1a            r1b            r2a
+> r2b            r3a            r3b
+> negative: 18   negative: 19   negative: 19   negative: 36    
+> negative: 33
+> negative: 23   negative: 22
+> positive:202   positive:201   positive:201   positive:184   positive: 
+> 187
+> positive:197   positive:198
+>
+> Did I misunderstand?  Does the diagnosis function require a 2x2  
+> table as
+> input?
+>
+> Many thanks,
+> Amy
+-- 
+
+David Winsemius, MD
+Heritage Laboratories
+West Hartford, CT
+
+
+From amy.mikhail at googlemail.com  Mon Feb  1 22:34:35 2010
+From: amy.mikhail at googlemail.com (Amy Mikhail)
+Date: Tue, 2 Feb 2010 02:04:35 +0430
+Subject: [R-sig-Epi] Incorrect instructions for epibasix sensSpec?
+Message-ID: <84d389791002011334q12455c3ew7b60efb69244e420@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/8cd5f710/attachment.pl>
+
+From amy.mikhail at googlemail.com  Mon Feb  1 23:01:41 2010
+From: amy.mikhail at googlemail.com (Amy Mikhail)
+Date: Tue, 2 Feb 2010 02:31:41 +0430
+Subject: [R-sig-Epi] Problem with DiagnosisMed package
+In-Reply-To: <3E64370F-73E7-4C43-A607-7B54E1AB149A@comcast.net>
+References: <84d389791002011310k2b14ddeauc097767bcd14652c@mail.gmail.com>
+	<3E64370F-73E7-4C43-A607-7B54E1AB149A@comcast.net>
+Message-ID: <84d389791002011401t2e4c89f6pb884e4b9cae2c75@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/75339279/attachment.pl>
+
+From p.dalgaard at biostat.ku.dk  Mon Feb  1 23:04:36 2010
+From: p.dalgaard at biostat.ku.dk (Peter Dalgaard)
+Date: Mon, 01 Feb 2010 23:04:36 +0100
+Subject: [R-sig-Epi] Incorrect instructions for epibasix sensSpec?
+In-Reply-To: <84d389791002011334q12455c3ew7b60efb69244e420@mail.gmail.com>
+References: <84d389791002011334q12455c3ew7b60efb69244e420@mail.gmail.com>
+Message-ID: <4B674FF4.5070602@biostat.ku.dk>
+
+Amy Mikhail wrote:
+> Dear R epidemiologists,
+> 
+> The package help for the above function states:
+> 
+> Arguments X A 2x2 matrix, with Gold Standard Class A and B in the columns
+> and Comparison Method A and B in the rows.
+> I understood this to mean the following:
+> 
+>                                    Gold standard
+> Comparison method         A (neg)     B (pos)
+> A  (neg)                          18             1
+> B   (pos)                          0              201
+> 
+> However, it gives the results backwards:
+> 
+>  sensSpec(t1)
+> 
+>  Simple Sensitivity and Specitivity Output
+> 
+> Input Matrix:
+>           ref
+> r1a        negative positive
+>   negative       18        1
+>   positive        0      201
+> 
+> The sample of sensitivity is: 100%
+> 
+> The sample of specificity is: 99.5%
+> 
+> but if you calculate the sensitivity and specificity by hand, sensitivity is
+> 99.5 and specificity is 100%....
+> 
+
+That depends on the definition of negative and positive.
+
+The documentation is certainly unclear, but it seems likely that the 
+intention is for the table to have positives in the first row and 
+column. Have you consulted the reference given? (Notably, the example 
+table.)
+
+
+-- 
+    O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B
+   c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K
+  (*) \(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918
+~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907
+
+
+From amy.mikhail at googlemail.com  Mon Feb  1 23:23:41 2010
+From: amy.mikhail at googlemail.com (Amy Mikhail)
+Date: Tue, 2 Feb 2010 02:53:41 +0430
+Subject: [R-sig-Epi] Incorrect instructions for epibasix sensSpec?
+In-Reply-To: <4B674FF4.5070602@biostat.ku.dk>
+References: <84d389791002011334q12455c3ew7b60efb69244e420@mail.gmail.com>
+	<4B674FF4.5070602@biostat.ku.dk>
+Message-ID: <84d389791002011423i47c9622sf4bac2c4dbfd1162@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/de5de9a7/attachment.pl>
+
+From dwinsemius at comcast.net  Mon Feb  1 23:47:45 2010
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Mon, 1 Feb 2010 17:47:45 -0500
+Subject: [R-sig-Epi] Problem with DiagnosisMed package
+In-Reply-To: <84d389791002011401t2e4c89f6pb884e4b9cae2c75@mail.gmail.com>
+References: <84d389791002011310k2b14ddeauc097767bcd14652c@mail.gmail.com>
+	<3E64370F-73E7-4C43-A607-7B54E1AB149A@comcast.net>
+	<84d389791002011401t2e4c89f6pb884e4b9cae2c75@mail.gmail.com>
+Message-ID: <1363E409-CB9C-4D79-B822-0B332FC5C8A0@comcast.net>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100201/3ddfa73f/attachment.pl>
+
+From p.dalgaard at biostat.ku.dk  Tue Feb  2 08:42:48 2010
+From: p.dalgaard at biostat.ku.dk (Peter Dalgaard)
+Date: Tue, 02 Feb 2010 08:42:48 +0100
+Subject: [R-sig-Epi] Incorrect instructions for epibasix sensSpec?
+In-Reply-To: <84d389791002011423i47c9622sf4bac2c4dbfd1162@mail.gmail.com>
+References: <84d389791002011334q12455c3ew7b60efb69244e420@mail.gmail.com>	
+	<4B674FF4.5070602@biostat.ku.dk>
+	<84d389791002011423i47c9622sf4bac2c4dbfd1162@mail.gmail.com>
+Message-ID: <4B67D778.4080104@biostat.ku.dk>
+
+Amy Mikhail wrote:
+> Dear Peter,
+> 
+> Many thanks for your reply.  Unfortunately I don't have access to the 
+> reference book.
+> 
+> However it looks to me like the gold standard should be in the rows and 
+> the comparison method should be in the columns for the test to give the 
+> right answer (since the location of the gold standard determines which 
+> are true and false positives, etc, which determines what the 
+> denominators of the formulae are).
+> 
+> I tried swapping around the negatives and positives, but that doesn't 
+> make much difference to the result (it is still the wrong way around):
+> 
+>  > t1
+>          positive negative
+> positive      201        1
+> negative        0       18
+> 
+>  > sensSpec(t1)
+> 
+>  Simple Sensitivity and Specitivity Output
+>  
+> Input Matrix:
+>          positive negative
+> positive      201        1
+> negative        0       18
+> 
+> The sample of sensitivity is: 100%
+> 
+> The sample of specificity is: 94.7%
+
+Umm, maybe I'm not quite awake yet, but if you're switching positive and 
+negatives, the 1 should end up in the other corner so that the gold 
+standard has 202 positives and 18 negatives, with 1 false positive and 
+no false negatives. I.e., the sensitivity ia 201/202 and specificity is 
+18/18. Transposing the tables would give you predictive probabilities, 
+which are different beasts entirely.
+
+....
+> 
+>          sensSpec(t1)
+> 
+>          Simple Sensitivity and Specitivity Output
+> 
+>         Input Matrix:
+>                  ref
+>         r1a        negative positive
+>          negative       18        1
+>          positive        0      201
+> 
+>         The sample of sensitivity is: 100%
+> 
+>         The sample of specificity is: 99.5%
+
+
+-- 
+    O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B
+   c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K
+  (*) \(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918
+~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907
+
+
+From emmanuel.brasil at gmail.com  Tue Feb  2 11:33:28 2010
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Tue, 2 Feb 2010 07:33:28 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 39, Issue 1
+In-Reply-To: <mailman.1124.1265063070.18074.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.1124.1265063070.18074.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <a37cfb5a1002020233o672655dctb3cadd5f23f3228a@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/8b9737f5/attachment.pl>
+

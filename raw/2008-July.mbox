@@ -1,0 +1,83 @@
+From bxc at steno.dk  Sun Jul 27 10:42:07 2008
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Sun, 27 Jul 2008 10:42:07 +0200
+Subject: [R-sig-Epi] {MEDSTATS} competing risk model with time dependent
+ covariates under R or Splus
+In-Reply-To: <684c28f0-8876-4670-8d5c-7bc6babba355@d1g2000hsg.googlegroups.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC33018043A086@exdkmbx002.corp.novocorp.net>
+
+Philippe,
+
+The machinery to use is to split follow-up time so finely that you can safely assume that rates are constant in each interval, and then just stuff it all into a Poisson model. This allows you to use any kind of time-dependent variables as well as accommodating competing risks.
+
+In the Epi package (http://staff.pubhealth.ku.dk/~bxc/Epi/) on CRAN there is a machinery for representation and manipulation of multistate data (of which competing risks are a special case), see the function Lexis().
+It also has a time-splitting function there, splitLexis().
+
+If you take a look at practical 14 from this year's SPE course:
+http://staff.pubhealth.ku.dk/~bxc/SPE/2008/pracs.pdf
+there is an example that addresses the problem you are having, practical no. 14.
+If go to the folder
+http://staff.pubhealth.ku.dk/~bxc/SPE/2008/R
+you will find the R-code that runs the solution to the practical. The data used is a part of the Epi-package, so you just have to load the Epi package first.
+
+It is however not using the Fine/Gray approach, but is directly modelling the cause-specific rates taking time dependent covariates into account.
+
+Best regards,
+Bendix
+______________________________________________
+
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+
+> -----Original Message-----
+> From: MedStats at googlegroups.com
+> [mailto:MedStats at googlegroups.com] On Behalf Of pguardio
+> Sent: 26. juli 2008 22:47
+> To: MedStats
+> Subject: {MEDSTATS} competing risk model with time dependent
+> covariates under R or Splus
+>
+>
+>
+> Dear members,
+>
+> is there a way to perform a competing risk model which can
+> handle time dependent covariates under either R ou SPlus ?
+>
+> my main covariate (additional treatment to patients) violates
+> the proportional hazards assumption, its effect being
+> observed after one year of the main treatment, not before
+> (this is expected / makes sense on a clinical point of view).
+> So I was planning to use a time dependent Cox model with 2
+> time intervals for patients: < > 1 year etc...
+>
+> However, I need to use a competing risk model because a large
+> number of patients dies from early toxicity from main
+> treatment (not related to the additional treatment I m
+> evaluating the effect) or from events unrelated to the
+> disease or the treatments (elderly patients).
+> Therefore, to analyze the effect of my covariate of interest
+> on disease free survival and relapse incidence, I d like to
+> use a competing risk model such as the Gray CMPRSK.
+>
+> However, I cannot have multiple "lines" for the same patient
+> (cluster function is not allowed in CMPRSK) with this package
+> (for time dep covariates I need 1 or 2 lines with same Id /UPN).
+>
+> Does anyone knows how can I manage this in CMPRSK ?
+>
+> Any help will be greatly appreciated
+> Thanks
+> Yours sincerely
+>
+> Philippe Guardiola
+>
+
+

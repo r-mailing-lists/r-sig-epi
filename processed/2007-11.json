@@ -1,0 +1,274 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2007-11",
+  "messages": [
+    {
+      "id": "msg-fb2d4c095d98",
+      "message_id": "<653048.44649.qm@web38405.mail.mud.yahoo.com>",
+      "from_name": "Márcio Ribeiro",
+      "from_email_hash": "e764e0d24614f8eababee430d05af1bc89ee05e497d6ca3b69da2775ad451881",
+      "date": "2007-11-04T12:28:55-05:00",
+      "subject": "[R-sig-Epi] Data.Frame Desaggregation",
+      "subject_clean": "Data.Frame Desaggregation",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071104/dac015af/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071104/dac015af/attachment.pl",
+      "thread_id": "thread-fb2d4c095d98",
+      "thread_depth": 0,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-cb8ad6a09938",
+      "message_id": "<E4178EE0463C7D40AF637C4DDAC8030E013B4B4B@UQEXMB2.soe.uq.edu.au>",
+      "from_name": "Ross Darnell",
+      "from_email_hash": "79ff5978b1273d5234cc030871023e96a726dcbeeb49234e15d6705e3cf8409b",
+      "date": "2007-11-05T08:37:11+10:00",
+      "subject": "[R-sig-Epi] Data.Frame Desaggregation",
+      "subject_clean": "Data.Frame Desaggregation",
+      "in_reply_to": "<653048.44649.qm@web38405.mail.mud.yahoo.com>",
+      "references": [
+        "<653048.44649.qm@web38405.mail.mud.yahoo.com>"
+      ],
+      "body_plain": "Ribeiro\n\nWhy not (modified df1)\n\n> df1 <- data.frame(Y=c(3,1,1,2),m=c(3,4,3,2))\n> df1\n  Y m\n1 3 3\n2 1 4\n3 1 3\n4 2 2\n\n> df1[rep(row.names(df1),rep(3,dim(df1)[1])),]\n\n    Y m\n1   3 3\n1.1 3 3\n1.2 3 3\n2   1 4\n2.1 1 4\n2.2 1 4\n3   1 3\n3.1 1 3\n3.2 1 3\n4   2 2\n4.1 2 2\n4.2 2 2\n\nRoss Darnell\n\n\n\n-----Original Message-----\nFrom: r-sig-epi-bounces at stat.math.ethz.ch [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of M?rcio Ribeiro\nSent: Monday, 5 November 2007 3:29 AM\nTo: r-sig-epi at stat.math.ethz.ch\nSubject: [R-sig-Epi] Data.Frame Desaggregation\n\nHi Listers,\n\nI am trying to transform the data.frame above in a more detailed data.frame... I checked a example at the website, but I didn't understand at all.\n                    \ndata.frame(x = with(df1, rep(x, m)))\nWhat does the df1 means...\n\nMy data looks like this...\n    Y  m   X1    X2\n  1   3   3 12.0   0.8\n  2   1   4   4.1  67.5\n  3   1   3  2.4   12.4\n  4   2   2 11.2    7.7\n\nMy object is to obtain this...\n     Y  m   X1    X2\n 1   1  . 12.0    0.8\n 1   1  . 12.0    0.8\n 1   1  . 12.0    0.8\n 2   1  .  4.1   67.5\n 2   0  .  4.1   67.5\n 2   0  .  4.1   67.5\n 2   0  .  4.1   67.5\n 3   1  .  2.4   12.4\n3   0  .  2.4   12.4\n 3   0  .  2.4   12.4\n 4   1  . 11.2    7.7\n 4   1  . 11.2    7.7\n\n Thanks in advance,\n\nRibeiro\n\n\n       \n---------------------------------\n\n\t[[alternative HTML version deleted]]\n\n_______________________________________________\nR-sig-Epi at stat.math.ethz.ch mailing list\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-epi",
+      "body_snippet": "Ribeiro\n\nWhy not (modified df1)\n\n> df1 <- data.frame(Y=c(3,1,1,2),m=c(3,4,3,2))\n> df1\n  Y m\n1 3 3\n2 1 4\n3 1 3\n4 2 2\n\n> df1[rep(row.names(df1),rep(3,dim(df1)[1])),]\n\n    Y m\n1   3 3\n1.1 3 3\n1.2 3 3\n2  ",
+      "thread_id": "thread-fb2d4c095d98",
+      "thread_depth": 1,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-1ffa7e1330a2",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC8083504EDAE48@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2007-11-05T08:23:50+01:00",
+      "subject": "[R-sig-Epi] Data.Frame Desaggregation",
+      "subject_clean": "Data.Frame Desaggregation",
+      "in_reply_to": "<E4178EE0463C7D40AF637C4DDAC8030E013B4B4B@UQEXMB2.soe.uq.edu.au>",
+      "references": [],
+      "body_plain": "I think what was meant was the the rows of the dataframe should be repeated\n\"m\" times, i.e. rather:\n\n> df1[rep(row.names(df1),df1$m),]\n    Y m\n1   3 3\n1.1 3 3\n1.2 3 3\n2   1 4\n2.1 1 4\n2.2 1 4\n2.3 1 4\n3   1 3\n3.1 1 3\n3.2 1 3\n4   2 2\n4.1 2 2\n\nBets,\nBendix Carstensen\n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\n+45 44 43 73 13 (fax)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc\n\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ross Darnell\n> Sent: Sunday, November 04, 2007 11:37 PM\n> To: M?rcio Ribeiro; r-sig-epi at stat.math.ethz.ch\n> Subject: Re: [R-sig-Epi] Data.Frame Desaggregation\n> \n> Ribeiro\n> \n> Why not (modified df1)\n> \n> > df1 <- data.frame(Y=c(3,1,1,2),m=c(3,4,3,2))\n> > df1\n>   Y m\n> 1 3 3\n> 2 1 4\n> 3 1 3\n> 4 2 2\n> \n> > df1[rep(row.names(df1),rep(3,dim(df1)[1])),]\n> \n>     Y m\n> 1   3 3\n> 1.1 3 3\n> 1.2 3 3\n> 2   1 4\n> 2.1 1 4\n> 2.2 1 4\n> 3   1 3\n> 3.1 1 3\n> 3.2 1 3\n> 4   2 2\n> 4.1 2 2\n> 4.2 2 2\n> \n> Ross Darnell\n> \n> \n> \n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> M?rcio Ribeiro\n> Sent: Monday, 5 November 2007 3:29 AM\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] Data.Frame Desaggregation\n> \n> Hi Listers,\n> \n> I am trying to transform the data.frame above in a more \n> detailed data.frame... I checked a example at the website, \n> but I didn't understand at all.\n>                     \n> data.frame(x = with(df1, rep(x, m)))\n> What does the df1 means...\n> \n> My data looks like this...\n>     Y  m   X1    X2\n>   1   3   3 12.0   0.8\n>   2   1   4   4.1  67.5\n>   3   1   3  2.4   12.4\n>   4   2   2 11.2    7.7\n> \n> My object is to obtain this...\n>      Y  m   X1    X2\n>  1   1  . 12.0    0.8\n>  1   1  . 12.0    0.8\n>  1   1  . 12.0    0.8\n>  2   1  .  4.1   67.5\n>  2   0  .  4.1   67.5\n>  2   0  .  4.1   67.5\n>  2   0  .  4.1   67.5\n>  3   1  .  2.4   12.4\n> 3   0  .  2.4   12.4\n>  3   0  .  2.4   12.4\n>  4   1  . 11.2    7.7\n>  4   1  . 11.2    7.7\n> \n>  Thanks in advance,\n> \n> Ribeiro\n> \n> \n>        \n> ---------------------------------\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "I think what was meant was the the rows of the dataframe should be repeated\n\"m\" times, i.e. rather:\n\n> df1[rep(row.names(df1),df1$m),]\n    Y m\n1   3 3\n1.1 3 3\n1.2 3 3\n2   1 4\n2.1 1 4\n2.2 1 4\n2.3 1 4\n3",
+      "thread_id": "thread-fb2d4c095d98",
+      "thread_depth": 2,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-f96ba5aec4f4",
+      "message_id": "<ba8c09910711060311w5973aba7w8847ab82b1ed6123@mail.gmail.com>",
+      "from_name": "Lauri Nikkinen",
+      "from_email_hash": "19e8e73ea9e891cd07cf7672ecda97d1a3127662c92637d7bbf8a5c50aa27564",
+      "date": "2007-11-06T13:11:07+02:00",
+      "subject": "[R-sig-Epi] NA:s in stat.table (library Epi)",
+      "subject_clean": "NA:s in stat.table (library Epi)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "#Hello,\n\n#I have a data.frame similar to this:\n\nlibrary(Epi)\nAye <- sample( c(\"Yes\",\"Si\",\"Oui\"), 177, replace=TRUE )\nBee <- sample( c(\"Hum\",\"Buzz\"), 177, replace=TRUE )\nSea <- sample( c(\"White\",\"Black\",\"Red\",\"Dead\"), 177, replace=TRUE )\ntemp <- data.frame(Aye, Bee, Sea)\ntemp$Sea[temp$Sea == \"Red\"] <- NA\nstr(temp)\n\ndrop.levels <- function(dat){\n  dat[] <- lapply(dat, function(x) x[,drop=TRUE])\n  return(dat)\n}\ntemp <- drop.levels(temp)\n\n#I can calculate count and percentages using stat.table:\n\nstat.table(Sea, list(count(), percent(Sea)), data=temp)\n\n# -----------------------------\n# Sea     count() percent(Sea)\n# -----------------------------\n# Black        39         31.2\n# Dead         32         25.6\n# White        54         43.2\n# -----------------------------\n\n#But I would like to include count and percet of NA:s, like this\n# -----------------------------\n# Sea     count() percent(Sea)\n# -----------------------------\n# Black        39         22.0\n# Dead         32         18.1\n# White        54         30.5\n# NA            52         29.4\n# -----------------------------\n\n#Is that possible using stat.table?\n\n#Thanks\n#Lauri",
+      "body_snippet": "#Hello,\n\n#I have a data.frame similar to this:\n\nlibrary(Epi)\nAye <- sample( c(\"Yes\",\"Si\",\"Oui\"), 177, replace=TRUE )\nBee <- sample( c(\"Hum\",\"Buzz\"), 177, replace=TRUE )\nSea <- sample( c(\"White\",\"Black",
+      "thread_id": "thread-f96ba5aec4f4",
+      "thread_depth": 0,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-714ae3f1865f",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC8083504F21E66@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2007-11-06T12:56:13+01:00",
+      "subject": "[R-sig-Epi] NA:s in stat.table (library Epi)",
+      "subject_clean": "NA:s in stat.table (library Epi)",
+      "in_reply_to": "<ba8c09910711060311w5973aba7w8847ab82b1ed6123@mail.gmail.com>",
+      "references": [],
+      "body_plain": "The key to this buried in the exclude= argument to factor() !\nSee the help page for factor:\n\n?factor\n\nThis will work:\n\nstat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)),\ndata=temp)\n\nBest,\nBendix\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Lauri Nikkinen\n> Sent: Tuesday, November 06, 2007 12:11 PM\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] NA:s in stat.table (library Epi)\n> \n> #Hello,\n> \n> #I have a data.frame similar to this:\n> \n> library(Epi)\n> Aye <- sample( c(\"Yes\",\"Si\",\"Oui\"), 177, replace=TRUE ) Bee \n> <- sample( c(\"Hum\",\"Buzz\"), 177, replace=TRUE ) Sea <- \n> sample( c(\"White\",\"Black\",\"Red\",\"Dead\"), 177, replace=TRUE ) \n> temp <- data.frame(Aye, Bee, Sea) temp$Sea[temp$Sea == \"Red\"] <- NA\n> str(temp)\n> \n> drop.levels <- function(dat){\n>   dat[] <- lapply(dat, function(x) x[,drop=TRUE])\n>   return(dat)\n> }\n> temp <- drop.levels(temp)\n> \n> #I can calculate count and percentages using stat.table:\n> \n> stat.table(Sea, list(count(), percent(Sea)), data=temp)\n> \n> # -----------------------------\n> # Sea     count() percent(Sea)\n> # -----------------------------\n> # Black        39         31.2\n> # Dead         32         25.6\n> # White        54         43.2\n> # -----------------------------\n> \n> #But I would like to include count and percet of NA:s, like \n> this # -----------------------------\n> # Sea     count() percent(Sea)\n> # -----------------------------\n> # Black        39         22.0\n> # Dead         32         18.1\n> # White        54         30.5\n> # NA            52         29.4\n> # -----------------------------\n> \n> #Is that possible using stat.table?\n> \n> #Thanks\n> #Lauri\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "The key to this buried in the exclude= argument to factor() !\nSee the help page for factor:\n\n?factor\n\nThis will work:\n\nstat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)),\ndata=temp)\n\nBes",
+      "thread_id": "thread-f96ba5aec4f4",
+      "thread_depth": 1,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-1f7bc91c095b",
+      "message_id": "<ba8c09910711060414i69889f93tcca1fd715dc976bf@mail.gmail.com>",
+      "from_name": "Lauri Nikkinen",
+      "from_email_hash": "19e8e73ea9e891cd07cf7672ecda97d1a3127662c92637d7bbf8a5c50aa27564",
+      "date": "2007-11-06T14:14:23+02:00",
+      "subject": "[R-sig-Epi] NA:s in stat.table (library Epi)",
+      "subject_clean": "NA:s in stat.table (library Epi)",
+      "in_reply_to": "<40D3930AC1C8EA469E39536E5BC8083504F21E66@EXDKBA021.corp.novocorp.net>",
+      "references": [
+        "<ba8c09910711060311w5973aba7w8847ab82b1ed6123@mail.gmail.com>",
+        "<40D3930AC1C8EA469E39536E5BC8083504F21E66@EXDKBA021.corp.novocorp.net>"
+      ],
+      "body_plain": "Thanks Bendix,\n\nNow when I type:\n\n> stat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)), data=temp)\n\nI get:\n-----------------------------\nNA      count() percent(Sea)\n-----------------------------\nBlack        50        100.0\nDead         39        100.0\nWhite        41        100.0\nNA           47        100.0\n-----------------------------\n\nAll the percentages are 100 % in each level of factor Sea. Is it\npossible to get correct percentages?\n\nRegards,\nLauri\n\n2007/11/6, BXC (Bendix Carstensen) <bxc at steno.dk>:\n> The key to this buried in the exclude= argument to factor() !\n> See the help page for factor:\n>\n> ?factor\n>\n> This will work:\n>\n> stat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)),\n> data=temp)\n>\n> Best,\n> Bendix\n>\n> > -----Original Message-----\n> > From: r-sig-epi-bounces at stat.math.ethz.ch\n> > [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of\n> > Lauri Nikkinen\n> > Sent: Tuesday, November 06, 2007 12:11 PM\n> > To: r-sig-epi at stat.math.ethz.ch\n> > Subject: [R-sig-Epi] NA:s in stat.table (library Epi)\n> >\n> > #Hello,\n> >\n> > #I have a data.frame similar to this:\n> >\n> > library(Epi)\n> > Aye <- sample( c(\"Yes\",\"Si\",\"Oui\"), 177, replace=TRUE ) Bee\n> > <- sample( c(\"Hum\",\"Buzz\"), 177, replace=TRUE ) Sea <-\n> > sample( c(\"White\",\"Black\",\"Red\",\"Dead\"), 177, replace=TRUE )\n> > temp <- data.frame(Aye, Bee, Sea) temp$Sea[temp$Sea == \"Red\"] <- NA\n> > str(temp)\n> >\n> > drop.levels <- function(dat){\n> >   dat[] <- lapply(dat, function(x) x[,drop=TRUE])\n> >   return(dat)\n> > }\n> > temp <- drop.levels(temp)\n> >\n> > #I can calculate count and percentages using stat.table:\n> >\n> > stat.table(Sea, list(count(), percent(Sea)), data=temp)\n> >\n> > # -----------------------------\n> > # Sea     count() percent(Sea)\n> > # -----------------------------\n> > # Black        39         31.2\n> > # Dead         32         25.6\n> > # White        54         43.2\n> > # -----------------------------\n> >\n> > #But I would like to include count and percet of NA:s, like\n> > this # -----------------------------\n> > # Sea     count() percent(Sea)\n> > # -----------------------------\n> > # Black        39         22.0\n> > # Dead         32         18.1\n> > # White        54         30.5\n> > # NA            52         29.4\n> > # -----------------------------\n> >\n> > #Is that possible using stat.table?\n> >\n> > #Thanks\n> > #Lauri\n> >\n> > _______________________________________________\n> > R-sig-Epi at stat.math.ethz.ch mailing list\n> > https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> >\n>",
+      "body_snippet": "Thanks Bendix,\n\nNow when I type:\n\n> stat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)), data=temp)\n\nI get:\n-----------------------------\nNA      count() percent(Sea)\n--------------------",
+      "thread_id": "thread-f96ba5aec4f4",
+      "thread_depth": 2,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-96d50c18e140",
+      "message_id": "<ba8c09910711060415n3b4165a7jbf166457201552a7@mail.gmail.com>",
+      "from_name": "Lauri Nikkinen",
+      "from_email_hash": "19e8e73ea9e891cd07cf7672ecda97d1a3127662c92637d7bbf8a5c50aa27564",
+      "date": "2007-11-06T14:15:34+02:00",
+      "subject": "[R-sig-Epi] NA:s in stat.table (library Epi)",
+      "subject_clean": "NA:s in stat.table (library Epi)",
+      "in_reply_to": "<ba8c09910711060414i69889f93tcca1fd715dc976bf@mail.gmail.com>",
+      "references": [
+        "<ba8c09910711060311w5973aba7w8847ab82b1ed6123@mail.gmail.com>",
+        "<40D3930AC1C8EA469E39536E5BC8083504F21E66@EXDKBA021.corp.novocorp.net>",
+        "<ba8c09910711060414i69889f93tcca1fd715dc976bf@mail.gmail.com>"
+      ],
+      "body_plain": "Sorry, I got it:\n\nstat.table(factor(Sea,exclude=NULL), list(count(), percent(factor(Sea,\nexclude=NULL))), data=temp)\n\nBest regards,\nLauri\n\n2007/11/6, Lauri Nikkinen <lauri.nikkinen at iki.fi>:\n> Thanks Bendix,\n>\n> Now when I type:\n>\n> > stat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)), data=temp)\n>\n> I get:\n> -----------------------------\n> NA      count() percent(Sea)\n> -----------------------------\n> Black        50        100.0\n> Dead         39        100.0\n> White        41        100.0\n> NA           47        100.0\n> -----------------------------\n>\n> All the percentages are 100 % in each level of factor Sea. Is it\n> possible to get correct percentages?\n>\n> Regards,\n> Lauri\n>\n> 2007/11/6, BXC (Bendix Carstensen) <bxc at steno.dk>:\n> > The key to this buried in the exclude= argument to factor() !\n> > See the help page for factor:\n> >\n> > ?factor\n> >\n> > This will work:\n> >\n> > stat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)),\n> > data=temp)\n> >\n> > Best,\n> > Bendix\n> >\n> > > -----Original Message-----\n> > > From: r-sig-epi-bounces at stat.math.ethz.ch\n> > > [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of\n> > > Lauri Nikkinen\n> > > Sent: Tuesday, November 06, 2007 12:11 PM\n> > > To: r-sig-epi at stat.math.ethz.ch\n> > > Subject: [R-sig-Epi] NA:s in stat.table (library Epi)\n> > >\n> > > #Hello,\n> > >\n> > > #I have a data.frame similar to this:\n> > >\n> > > library(Epi)\n> > > Aye <- sample( c(\"Yes\",\"Si\",\"Oui\"), 177, replace=TRUE ) Bee\n> > > <- sample( c(\"Hum\",\"Buzz\"), 177, replace=TRUE ) Sea <-\n> > > sample( c(\"White\",\"Black\",\"Red\",\"Dead\"), 177, replace=TRUE )\n> > > temp <- data.frame(Aye, Bee, Sea) temp$Sea[temp$Sea == \"Red\"] <- NA\n> > > str(temp)\n> > >\n> > > drop.levels <- function(dat){\n> > >   dat[] <- lapply(dat, function(x) x[,drop=TRUE])\n> > >   return(dat)\n> > > }\n> > > temp <- drop.levels(temp)\n> > >\n> > > #I can calculate count and percentages using stat.table:\n> > >\n> > > stat.table(Sea, list(count(), percent(Sea)), data=temp)\n> > >\n> > > # -----------------------------\n> > > # Sea     count() percent(Sea)\n> > > # -----------------------------\n> > > # Black        39         31.2\n> > > # Dead         32         25.6\n> > > # White        54         43.2\n> > > # -----------------------------\n> > >\n> > > #But I would like to include count and percet of NA:s, like\n> > > this # -----------------------------\n> > > # Sea     count() percent(Sea)\n> > > # -----------------------------\n> > > # Black        39         22.0\n> > > # Dead         32         18.1\n> > > # White        54         30.5\n> > > # NA            52         29.4\n> > > # -----------------------------\n> > >\n> > > #Is that possible using stat.table?\n> > >\n> > > #Thanks\n> > > #Lauri\n> > >\n> > > _______________________________________________\n> > > R-sig-Epi at stat.math.ethz.ch mailing list\n> > > https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> > >\n> >\n>",
+      "body_snippet": "Sorry, I got it:\n\nstat.table(factor(Sea,exclude=NULL), list(count(), percent(factor(Sea,\nexclude=NULL))), data=temp)\n\nBest regards,\nLauri\n\n2007/11/6, Lauri Nikkinen <lauri.nikkinen at iki.fi>:\n> Thank",
+      "thread_id": "thread-f96ba5aec4f4",
+      "thread_depth": 3,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-750d7e419753",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC8083504F21EF5@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2007-11-06T13:48:11+01:00",
+      "subject": "[R-sig-Epi] NA:s in stat.table (library Epi)",
+      "subject_clean": "NA:s in stat.table (library Epi)",
+      "in_reply_to": "<ba8c09910711060415n3b4165a7jbf166457201552a7@mail.gmail.com>",
+      "references": [],
+      "body_plain": "or:\n stat.table(zz<-factor(Sea,exclude=NULL), list(\"N\"=count(),\n\"%\"=percent(zz)), data=temp) \n\n> -----Original Message-----\n> From: lauri.nikkinen at gmail.com \n> [mailto:lauri.nikkinen at gmail.com] On Behalf Of Lauri Nikkinen\n> Sent: Tuesday, November 06, 2007 1:16 PM\n> To: BXC (Bendix Carstensen)\n> Cc: r-sig-epi at stat.math.ethz.ch\n> Subject: Re: [R-sig-Epi] NA:s in stat.table (library Epi)\n> \n> Sorry, I got it:\n> \n> stat.table(factor(Sea,exclude=NULL), list(count(), \n> percent(factor(Sea, exclude=NULL))), data=temp)\n> \n> Best regards,\n> Lauri\n> \n> 2007/11/6, Lauri Nikkinen <lauri.nikkinen at iki.fi>:\n> > Thanks Bendix,\n> >\n> > Now when I type:\n> >\n> > > stat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)), \n> > > data=temp)\n> >\n> > I get:\n> > -----------------------------\n> > NA      count() percent(Sea)\n> > -----------------------------\n> > Black        50        100.0\n> > Dead         39        100.0\n> > White        41        100.0\n> > NA           47        100.0\n> > -----------------------------\n> >\n> > All the percentages are 100 % in each level of factor Sea. Is it \n> > possible to get correct percentages?\n> >\n> > Regards,\n> > Lauri\n> >\n> > 2007/11/6, BXC (Bendix Carstensen) <bxc at steno.dk>:\n> > > The key to this buried in the exclude= argument to factor() !\n> > > See the help page for factor:\n> > >\n> > > ?factor\n> > >\n> > > This will work:\n> > >\n> > > stat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)),\n> > > data=temp)\n> > >\n> > > Best,\n> > > Bendix\n> > >\n> > > > -----Original Message-----\n> > > > From: r-sig-epi-bounces at stat.math.ethz.ch\n> > > > [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Lauri \n> > > > Nikkinen\n> > > > Sent: Tuesday, November 06, 2007 12:11 PM\n> > > > To: r-sig-epi at stat.math.ethz.ch\n> > > > Subject: [R-sig-Epi] NA:s in stat.table (library Epi)\n> > > >\n> > > > #Hello,\n> > > >\n> > > > #I have a data.frame similar to this:\n> > > >\n> > > > library(Epi)\n> > > > Aye <- sample( c(\"Yes\",\"Si\",\"Oui\"), 177, replace=TRUE ) Bee\n> > > > <- sample( c(\"Hum\",\"Buzz\"), 177, replace=TRUE ) Sea <- sample( \n> > > > c(\"White\",\"Black\",\"Red\",\"Dead\"), 177, replace=TRUE ) temp <- \n> > > > data.frame(Aye, Bee, Sea) temp$Sea[temp$Sea == \"Red\"] <- NA\n> > > > str(temp)\n> > > >\n> > > > drop.levels <- function(dat){\n> > > >   dat[] <- lapply(dat, function(x) x[,drop=TRUE])\n> > > >   return(dat)\n> > > > }\n> > > > temp <- drop.levels(temp)\n> > > >\n> > > > #I can calculate count and percentages using stat.table:\n> > > >\n> > > > stat.table(Sea, list(count(), percent(Sea)), data=temp)\n> > > >\n> > > > # -----------------------------\n> > > > # Sea     count() percent(Sea)\n> > > > # -----------------------------\n> > > > # Black        39         31.2\n> > > > # Dead         32         25.6\n> > > > # White        54         43.2\n> > > > # -----------------------------\n> > > >\n> > > > #But I would like to include count and percet of NA:s, \n> like this # \n> > > > -----------------------------\n> > > > # Sea     count() percent(Sea)\n> > > > # -----------------------------\n> > > > # Black        39         22.0\n> > > > # Dead         32         18.1\n> > > > # White        54         30.5\n> > > > # NA            52         29.4\n> > > > # -----------------------------\n> > > >\n> > > > #Is that possible using stat.table?\n> > > >\n> > > > #Thanks\n> > > > #Lauri\n> > > >\n> > > > _______________________________________________\n> > > > R-sig-Epi at stat.math.ethz.ch mailing list \n> > > > https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> > > >\n> > >\n> >\n>",
+      "body_snippet": "or:\n stat.table(zz<-factor(Sea,exclude=NULL), list(\"N\"=count(),\n\"%\"=percent(zz)), data=temp) \n\n> -----Original Message-----\n> From: lauri.nikkinen at gmail.com \n> [mailto:lauri.nikkinen at gmail.com] ",
+      "thread_id": "thread-f96ba5aec4f4",
+      "thread_depth": 4,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-2c4e980d42cb",
+      "message_id": "<010001c82183$44dac700$6500a8c0@healthmaps>",
+      "from_name": "Dick Hoskins",
+      "from_email_hash": "2348534814ea29a881e6ba11fca6d044352e5a3368adaaa12a0e77cbb8873259",
+      "date": "2007-11-07T13:15:01-08:00",
+      "subject": "[R-sig-Epi] Publication quality tables",
+      "subject_clean": "Publication quality tables",
+      "in_reply_to": "<mailman.3.1194433201.22176.r-sig-epi@stat.math.ethz.ch>",
+      "references": [
+        "<mailman.3.1194433201.22176.r-sig-epi@stat.math.ethz.ch>"
+      ],
+      "body_plain": "Is it possible to make publication quality tables in R? \n\nR Hoskins\nOlympia, WA",
+      "body_snippet": "Is it possible to make publication quality tables in R? \n\nR Hoskins\nOlympia, WA",
+      "thread_id": "thread-2c4e980d42cb",
+      "thread_depth": 0,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-9c270bc1e996",
+      "message_id": "<07E228A5BE53C24CAD490193A7381BBBD12EC6@LP-EXCHVS07.CO.IHC.COM>",
+      "from_name": "Greg Snow",
+      "from_email_hash": "e432b243d0660ee238e83f8aa2714b750d4574c97597be8ee6eb021bf26ebc5c",
+      "date": "2007-11-07T15:32:24-07:00",
+      "subject": "[R-sig-Epi] Publication quality tables",
+      "subject_clean": "Publication quality tables",
+      "in_reply_to": "<010001c82183$44dac700$6500a8c0@healthmaps>",
+      "references": [
+        "<mailman.3.1194433201.22176.r-sig-epi@stat.math.ethz.ch>",
+        "<010001c82183$44dac700$6500a8c0@healthmaps>"
+      ],
+      "body_plain": "The short answer is \"Yes\".\n\nThe slightly longer answer is to load the fortunes package and do:\n> fortune(109)\n\nThe longer and more useful answers depend on what you mean by\n\"publication quality\" and what other tools you want R to work with to\ncreate the publication quality tables.\n\n-- \nGregory (Greg) L. Snow Ph.D.\nStatistical Data Center\nIntermountain Healthcare\ngreg.snow at intermountainmail.org\n(801) 408-8111\n \n \n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Dick Hoskins\n> Sent: Wednesday, November 07, 2007 2:15 PM\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] Publication quality tables\n> \n> Is it possible to make publication quality tables in R? \n> \n> R Hoskins\n> Olympia, WA\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "The short answer is \"Yes\".\n\nThe slightly longer answer is to load the fortunes package and do:\n> fortune(109)\n\nThe longer and more useful answers depend on what you mean by\n\"publication quality\" and w",
+      "thread_id": "thread-2c4e980d42cb",
+      "thread_depth": 1,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-b42702926acb",
+      "message_id": "<31b34fca0711080314v770aefc4r1b26cd5787850755@mail.gmail.com>",
+      "from_name": "Neil Shephard",
+      "from_email_hash": "d313f9320200c56c058a6b0222ff357fccb1e4d431e34b4a4f0426413f67c6ad",
+      "date": "2007-11-08T11:14:28Z",
+      "subject": "[R-sig-Epi] Publication quality tables",
+      "subject_clean": "Publication quality tables",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "In a word, yes.  But its more complicated than it first appears, since\n\"publication quailty\" is rather ambiguous and is dependent upon the\nsoftware that you are using to write your publications.\n\nTo me publication quality would mean something LaTeX (as opposed to\nWYSIWYG word-processor).  If you want LaTeX formatted tables then see\n?xtable which will also produce html tables (which you could\nconceivably import into M$-Office/Word and/or OpenOffice).\n\nNote also that R-Epi is a SIG (Special Interest Group) and is for the\nspecific discussion of Epidemiological issues.  Your question would\nhave been more suited to R-help although the FAQ for the list suggests\nlooking in the R-help archives which can be searched at\nhttp://search.r-project.org/nmz.html or using the -RSiteSearch-\ncommand.\n\nOn a more wider answer to your question you may be interested in the\nSweave package (see authors homepage at\nhttp://www.ci.tuwien.ac.at/~leisch/Sweave/ ) that allows you to\ninterleave LaTeX documents and R scripts for producing\nreports/articles/presentations (using the LaTeX package prosper).\n\nHTH's\n\nNeil\n\n-- \n\"Don't remember what you can infer.\" - Harry Tennant\n\nEmail - nshephard at gmail.com / n.shephard at sheffield.ac.uk\nWebsite - http://slack.ser.man.ac.uk/\nPhotos - http://www.flickr.com/photos/slackline/",
+      "body_snippet": "In a word, yes.  But its more complicated than it first appears, since\n\"publication quailty\" is rather ambiguous and is dependent upon the\nsoftware that you are using to write your publications.\n\nTo m",
+      "thread_id": "thread-b42702926acb",
+      "thread_depth": 0,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-8bdea5bdb7e4",
+      "message_id": "<a37cfb5a0711172224y449632dej3605142c0a50f6b2@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2007-11-18T03:24:12-03:00",
+      "subject": "[R-sig-Epi] Diagnostic tests metanalisis",
+      "subject_clean": "Diagnostic tests metanalisis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello friends of R list,\n\nIm trying for a while to adapt a function develped in SAS and published in \"\nJ.B. Reitsma et al. / Journal of Clinical Epidemiology 58 (2005) 982?990\",\nwich is a bivariate approch to meta-analysis of diagnotic tests.\n\nSince Im not a statistics or R expert, neither I have any SAS knowledge, Im\nhaving a hard time trying to do so.\n\nThere is an appendix at the original txt with some step by step on how to do\nit but Im stuck on a more advanced stuff which I cant find a solution.\n\nIn a step it is mentioned a Van Houwelingen approach wich I dont know what\nit is, and so I can work it out. Also there a REML approach which I could\nnot find in any library so far.\n\nThis is the function so far....\n\nbivar<-function(TP,FP,FN,TN){\n\n        # find a way to sum 0.5 to each null cell\n\n       Se<-TP/(TP+FN)\n       Sp<-TN/(TN+FP)\n       logSe<-log(Se/(1-Se))\n       logSp<-log(Sp/(1-Sp))\n       vlogSe<-1/(Se*(1-Se)*(TP+FN))\n       vlogSp<-1/(Sp*(1-Sp)*(TN+FP))\n       bsvlogSp<-0\n       cblog<-0\n       bsvlogSp<-0\n       sdata<-rbind(bsvlogSp,cblog,bsvlogSp,vlogSe,vlogSp)\n\nthis is the SAS sintax available at the original text.....\n\n/*\nUse the Proc Mixed module in SAS is used to set up the bivariate model. We\napply the approach of Van Houwelingen et al\nto incorporate both the within and between study variance, more details and\nexplanations can be found there.{van Houwelingen,\n2002 #2} Use the restricted maximum likelihood estimation (REML) method in\nestimating the model\n*/\nproc mixed data=bi_meta method=reml cl ; /* option cl will give confidence\nintervals */\n/* study_id and modality are categorical variables */\nclass study_id modality;\n/* model statement: asking for different estimates of mean sensitivity and\nspecificity for each modality, provide large value\nfor degrees of freedom to obtain p-values based on normal distribution\nrather than the t-distribution (=default in SAS) */\nmodel logit \u0003 dis*modality non_dis*modality / noint cl df=1000, 1000, 1000,\n1000, 1000, 1000;\n/* random effects for logit sensitivity and specificity with possible\ncorrelation (UN=unstructured covariance structure) */\nrandom dis non_dis / subject=study_id type=un ;\n/* use the repeat statement to define different within-study variances for\nsens and spec in each study */\nrepeated / group=rec;\n/* name the file holding the all the (co)variances parameters, keep the\nwithin-study variance constant */\nparms / parmsdata=cov hold=4 to 91;\n/* use contrast statement for testing specific hypotheses */\n/* testing for differences in sensitivities */\ncontrast 'CT_sens vs LAG_sens' dis*modality 1 -1 0 / df=1000 ;\ncontrast 'CT_sens vs MRI_sens' dis*modality 1 0 -1/ df=1000 ;\ncontrast 'LAG_sens vs MRI_sens' dis*modality 0 1 -1/ df=1000 ;\n/* testing for differences in specificities */\ncontrast 'CT_spec vs LAG_spec' non_dis*modality 1 -1 0 / df=1000 ;\ncontrast 'CT_spec vs MRI_spec' non_dis*modality 1 0 -1/ df=1000 ;\ncontrast 'LAG_spec vs MRI_spec' non_dis*modality 0 1 -1/ df=1000 ;\n/* testing for differences in DOR */\ncontrast 'CT_odds vs LAG_odds ' dis*modality 1 -1 0 non_dis* modality 1 -1 0\n/ df=1000 ;\ncontrast 'CT_odds vs MRI_odds ' dis* modality 1 0 -1 non_dis* modality 1 0\n-1 / df=1000 ;\ncontrast 'LAG_odds vs MRI_odds ' dis* modality 0 1 -1 non_dis* modality 0 1\n-1 / df=1000 ;\nrun;\n\nattached there is a dataset...\n\nIf anyone could give me a hand or any tip, it would most welcome!\n\nBest regards to all,\n\n-- \nAbra?o forte e que a for?a esteja com voc?,\nPedro Emmanuel\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071118/525c96f6/attachment.html \n-------------- next part --------------\nAn embedded and charset-unspecified text was scrubbed...\nName: metadiag_bivar.txt\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071118/525c96f6/attachment.txt",
+      "body_snippet": "Hello friends of R list,\n\nIm trying for a while to adapt a function develped in SAS and published in \"\nJ.B. Reitsma et al. / Journal of Clinical Epidemiology 58 (2005) 982?990\",\nwich is a bivariate ap",
+      "thread_id": "thread-8bdea5bdb7e4",
+      "thread_depth": 0,
+      "month": "2007-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-fb2d4c095d98",
+      "subject": "Data.Frame Desaggregation",
+      "message_count": 3,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Márcio Ribeiro",
+        "Ross Darnell"
+      ],
+      "started": "2007-11-04T12:28:55-05:00",
+      "last_reply": "2007-11-05T08:23:50+01:00",
+      "root_message_id": "msg-fb2d4c095d98"
+    },
+    {
+      "id": "thread-f96ba5aec4f4",
+      "subject": "NA:s in stat.table (library Epi)",
+      "message_count": 5,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Lauri Nikkinen"
+      ],
+      "started": "2007-11-06T13:11:07+02:00",
+      "last_reply": "2007-11-06T13:48:11+01:00",
+      "root_message_id": "msg-f96ba5aec4f4"
+    },
+    {
+      "id": "thread-2c4e980d42cb",
+      "subject": "Publication quality tables",
+      "message_count": 2,
+      "participants": [
+        "Dick Hoskins",
+        "Greg Snow"
+      ],
+      "started": "2007-11-07T13:15:01-08:00",
+      "last_reply": "2007-11-07T15:32:24-07:00",
+      "root_message_id": "msg-2c4e980d42cb"
+    },
+    {
+      "id": "thread-b42702926acb",
+      "subject": "Publication quality tables",
+      "message_count": 1,
+      "participants": [
+        "Neil Shephard"
+      ],
+      "started": "2007-11-08T11:14:28+00:00",
+      "last_reply": "2007-11-08T11:14:28+00:00",
+      "root_message_id": "msg-b42702926acb"
+    },
+    {
+      "id": "thread-8bdea5bdb7e4",
+      "subject": "Diagnostic tests metanalisis",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2007-11-18T03:24:12-03:00",
+      "last_reply": "2007-11-18T03:24:12-03:00",
+      "root_message_id": "msg-8bdea5bdb7e4"
+    }
+  ]
+}

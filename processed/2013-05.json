@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2013-05",
+  "messages": [
+    {
+      "id": "msg-2c4645d7f24c",
+      "message_id": "<DUB106-W2561E1D7B7C494AE36CB04FEBD0@phx.gbl>",
+      "from_name": "Omnia Abdulrazeg",
+      "from_email_hash": "4453cbe9d3a49cfedbdcb563799ec808877cfce1a80e0b5bf38d3e1f2c9ae5ae",
+      "date": "2013-05-02T15:41:38Z",
+      "subject": "[R-sig-Epi] Exposure data: mixed effects",
+      "subject_clean": "Exposure data: mixed effects",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130502/2a70b7ba/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130502/2a70b7ba/attachment.pl>",
+      "thread_id": "thread-2c4645d7f24c",
+      "thread_depth": 0,
+      "month": "2013-05"
+    },
+    {
+      "id": "msg-e57864916577",
+      "message_id": "<CDAEAE08.44248%albert@hjarta.is>",
+      "from_name": "Albert V. Smith",
+      "from_email_hash": "80524021b71fc880f7607b1a5b961577f2b8158aac1672024be595dff697ac6c",
+      "date": "2013-05-07T13:11:40Z",
+      "subject": "[R-sig-Epi] Nested case-control, multiple matching factors",
+      "subject_clean": "Nested case-control, multiple matching factors",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I would like to generated a nested case-control set, using multiple\nfactors to match. I am using the ?ccwc? function, and while I apparently\nget the right behavior, I end up with a combo of misnamed and unnamed\ncolumns. I am unsure whether this is a bug, or whether I am making an\ninappropriate call.\n\nExample:\n\n-----\n\nsuppressMessages(library(Epi))\ndata(diet)\n\n# Example from the Documentation\n\nsuppressWarnings(head(ccwc(doe, dox, chd, origin = dob, controls = 2, data\n= diet,\n    include = energy, match = job)))\n\n##\n## Sampling risk sets: .............................................\n\n##   Set Map       Time Fail       job energy\n## 1   1   3 1984-03-20    1 Conductor  24.95\n## 2   1 230 1982-03-14    0 Conductor  36.18\n## 3   1  46 1978-10-08    0 Conductor  22.37\n## 4   2   9 1976-07-27    1 Conductor  23.16\n## 5   2 166 1981-12-09    0 Conductor  27.03\n## 6   2 253 1973-05-13    0 Conductor  32.71\n\n# Exactly as it should, given this is the example from the documentation\n\n# Then..., trying matching on multiple factors.\n\n# Matching on multiple factors results in mislabeled columns, as well as\n# unlabeled columns\n\nsuppressWarnings(head(ccwc(doe, dox, chd, origin = dob, controls = 2, data\n= diet,\n    include = list(height, weight, fat), match = list(job, energy.grp))))\n\n##\n## Sampling risk sets: ..............................................\n\n##   Set Map       Time Fail    height       weight   fat   NA.  NA..1\n## 1   1   3 1984-03-20    1 Conductor <=2750 KCals 152.4 49.90 11.249\n## 2   1  70 1978-06-01    0 Conductor <=2750 KCals 170.2 67.59 10.702\n## 3   1 149 1983-11-03    0 Conductor <=2750 KCals 170.0 59.51 10.798\n## 4   2   9 1976-07-27    1 Conductor <=2750 KCals 174.0 66.00 10.140\n## 5   2 187 1972-04-05    0 Conductor <=2750 KCals 172.7 71.90 10.019\n## 6   2  13 1972-03-23    0 Conductor <=2750 KCals 174.0 61.46  7.272\n\n\n-----\n\nI am ending up with the the retained columns at the end, as well as the\ncolumns used for matching. However, the names for the included columns are\nnot assigned properly, and there while the names for the matched columns\nare not retained.\n\nIs this a bug, or am I making an inappropriate call to the ?ccwc? function?\n\nThanks,\n-albert\n\n\n\n\n\n\n\n\n\n\n\n\n?essi t?lvup?stur og vi?hengi g?ti\ninnihaldi? tr?na?aruppl?singar og/e?a einkam?l og er eing?ngu ?tla?ur ?eim sem\nhann er st?la?ur ?.\n\n\nEfni hans og innihald er ? ?byrg? ?ess starfsmanns sem sendir hann ef ?a? tengist ekki starfsemi Hjartaverndar.\nEf sending ?essi hefur ranglega borist y?ur vinsamlega g?ti? fyllsta\ntr?na?ar,tilkynni? sendanda og ey?ileggi? sendinguna eins og skylt er skv.\n\n5. mgr. 47. gr. laga um fjarskipti nr. 81/2003 um fjarskipti.\n\nThe information transmitted, including any attachment, may contain confidential\nand/or privileged material and is intended only for the addressee only. The\ncontents of the message are the individual senders responsibility if it is not\nrelated to the operation of Hjartavernd. If you receive this in error, please\nkeep the information confidential, contact the sender and delete the material\nfrom your system.",
+      "body_snippet": "I would like to generated a nested case-control set, using multiple\nfactors to match. I am using the ?ccwc? function, and while I apparently\nget the right behavior, I end up with a combo of misnamed a",
+      "thread_id": "thread-e57864916577",
+      "thread_depth": 0,
+      "month": "2013-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2c4645d7f24c",
+      "subject": "Exposure data: mixed effects",
+      "message_count": 1,
+      "participants": [
+        "Omnia Abdulrazeg"
+      ],
+      "started": "2013-05-02T15:41:38+00:00",
+      "last_reply": "2013-05-02T15:41:38+00:00",
+      "root_message_id": "msg-2c4645d7f24c"
+    },
+    {
+      "id": "thread-e57864916577",
+      "subject": "Nested case-control, multiple matching factors",
+      "message_count": 1,
+      "participants": [
+        "Albert V. Smith"
+      ],
+      "started": "2013-05-07T13:11:40+00:00",
+      "last_reply": "2013-05-07T13:11:40+00:00",
+      "root_message_id": "msg-e57864916577"
+    }
+  ]
+}

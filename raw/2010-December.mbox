@@ -1,0 +1,400 @@
+From tesutton at hku.hk  Wed Dec  1 06:56:02 2010
+From: tesutton at hku.hk (Tim Elwell-Sutton)
+Date: Wed, 1 Dec 2010 13:56:02 +0800
+Subject: [R-sig-Epi] Frequencies like Epiinfo (Diego Garcilazo)
+In-Reply-To: <mailman.5.1291114801.16840.r-sig-epi@r-project.org>
+References: <mailman.5.1291114801.16840.r-sig-epi@r-project.org>
+Message-ID: <6B97AE97E4FB4C37B9B33706A0545D17@pc256>
+
+Hi Diego
+
+>How can I add an argument like missing=T that show NA's and missing=F that
+>exclude Na's??
+
+Here's one solution: 
+
+
+freq<-function(x, missing=F){
+
+Frecuencia <- table(x,exclude=NULL, useNA='always')
+
+
+Porcentaje<-as.vector(round(prop.table(table(x,exclude=NULL)),2));
+
+Porc<-as.vector(round(prop.table(table(x,exclude=NULL))*100,1));
+
+Acumulado<-cumsum(Porc);
+
+IC95.Sup<-round(as.vector(Porc+196*sqrt(Porcentaje*(1-Porcentaje)/sum(Frecue
+ncia))),1);
+
+IC95.Inf<-round(as.vector(Porc-196*sqrt(Porcentaje*(1-Porcentaje)/sum(Frecue
+ncia))),1);
+
+results <- matrix(
+
+c(Frecuencia,sum(Frecuencia),Porc,round(sum(Porc),1),
+
+Acumulado,NA,IC95.Inf,NA,IC95.Sup,NA),length(Frecuencia)+1,5,
+
+dimnames=list(c(labels(Frecuencia)[[1]],"Total"),c("Frecuencia","Porcentaje"
+,"Acumulado","[IC--","--95%]")))
+
+if (missing==T) results else results[-(length(rownames(results))-1),]
+}
+
+--
+
+Tim Elwell-Sutton
+
+School of Public Health
+
+University of Hong Kong
+
+-----Original Message-----
+From: r-sig-epi-bounces at r-project.org
+[mailto:r-sig-epi-bounces at r-project.org] On Behalf Of
+r-sig-epi-request at r-project.org
+Sent: Tuesday, November 30, 2010 7:00 PM
+To: r-sig-epi at r-project.org
+Subject: R-sig-Epi Digest, Vol 47, Issue 3
+
+Send R-sig-Epi mailing list submissions to
+	r-sig-epi at r-project.org
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+or, via email, send a message with subject or body 'help' to
+	r-sig-epi-request at r-project.org
+
+You can reach the person managing the list at
+	r-sig-epi-owner at r-project.org
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of R-sig-Epi digest..."
+
+
+Today's Topics:
+
+   1. Frequencies like Epiinfo (Diego Garcilazo)
+   2. Frequencies like Epiinfo (Diego Garcilazo)
+   3. Re: Frequencies like Epiinfo (BXC (Bendix Carstensen))
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Mon, 29 Nov 2010 18:36:21 -0300
+From: "Diego Garcilazo" <diegogarcilazo at gigared.com>
+To: <r-sig-epi at stat.math.ethz.ch>, <r-sig-epi at r-project.org>
+Subject: [R-sig-Epi] Frequencies like Epiinfo
+Message-ID: <000301cb900d$76f392c0$64dab840$@gigared.com>
+Content-Type: text/plain
+
+ 
+
+I am trying to make a function that works like the command Frequencies of
+Epiinfo. I am a beginner user and I make something like this:
+
+ 
+
+freq<-function(x){
+
+Frecuencia<-table(x,exclude=NULL);
+
+Porcentaje<-as.vector(round(prop.table(table(x,exclude=NULL)),2));
+
+Porc<-as.vector(round(prop.table(table(x,exclude=NULL))*100,1));
+
+Acumulado<-cumsum(Porc);
+
+IC95.Sup<-round(as.vector(Porc+196*sqrt(Porcentaje*(1-Porcentaje)/sum(Frecue
+ncia))),1);
+
+IC95.Inf<-round(as.vector(Porc-196*sqrt(Porcentaje*(1-Porcentaje)/sum(Frecue
+ncia))),1);
+
+matrix(
+
+c(Frecuencia,sum(Frecuencia),Porc,round(sum(Porc),1),
+
+Acumulado,NA,IC95.Inf,NA,IC95.Sup,NA),length(Frecuencia)+1,5,
+
+dimnames=list(c(labels(Frecuencia)[[1]],"Total"),c("Frecuencia","Porcentaje"
+,"Acumulado","[IC--","--95%]"))
+
+);
+
+}
+
+ 
+
+There is a way more efficient to create a function like this?
+
+there is a way to make it more visually - friendly adding something like
+-------------- that stat.table does?
+
+How can I add an argument like missing=T that show NA's and missing=F that
+exclude Na's??
+
+ 
+
+Thanks in advance. 
+
+ 
+
+Diego. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+	[[alternative HTML version deleted]]
+
+
+
+------------------------------
+
+Message: 2
+Date: Mon, 29 Nov 2010 18:36:21 -0300
+From: "Diego Garcilazo" <diegogarcilazo at gigared.com>
+To: <r-sig-epi at stat.math.ethz.ch>, <r-sig-epi at r-project.org>
+Subject: [R-sig-Epi] Frequencies like Epiinfo
+Message-ID: <000301cb900d$76f392c0$64dab840$@gigared.com>
+Content-Type: text/plain
+
+ 
+
+I am trying to make a function that works like the command Frequencies of
+Epiinfo. I am a beginner user and I make something like this:
+
+ 
+
+freq<-function(x){
+
+Frecuencia<-table(x,exclude=NULL);
+
+Porcentaje<-as.vector(round(prop.table(table(x,exclude=NULL)),2));
+
+Porc<-as.vector(round(prop.table(table(x,exclude=NULL))*100,1));
+
+Acumulado<-cumsum(Porc);
+
+IC95.Sup<-round(as.vector(Porc+196*sqrt(Porcentaje*(1-Porcentaje)/sum(Frecue
+ncia))),1);
+
+IC95.Inf<-round(as.vector(Porc-196*sqrt(Porcentaje*(1-Porcentaje)/sum(Frecue
+ncia))),1);
+
+matrix(
+
+c(Frecuencia,sum(Frecuencia),Porc,round(sum(Porc),1),
+
+Acumulado,NA,IC95.Inf,NA,IC95.Sup,NA),length(Frecuencia)+1,5,
+
+dimnames=list(c(labels(Frecuencia)[[1]],"Total"),c("Frecuencia","Porcentaje"
+,"Acumulado","[IC--","--95%]"))
+
+);
+
+}
+
+ 
+
+There is a way more efficient to create a function like this?
+
+there is a way to make it more visually - friendly adding something like
+-------------- that stat.table does?
+
+How can I add an argument like missing=T that show NA's and missing=F that
+exclude Na's??
+
+ 
+
+Thanks in advance. 
+
+ 
+
+Diego. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+	[[alternative HTML version deleted]]
+
+
+
+------------------------------
+
+Message: 3
+Date: Mon, 29 Nov 2010 23:55:04 +0100
+From: "BXC (Bendix Carstensen)" <bxc at steno.dk>
+To: Diego Garcilazo <diegogarcilazo at gigared.com>
+Cc: "r-sig-epi at stat.math.ethz.ch" <r-sig-epi at stat.math.ethz.ch>
+Subject: Re: [R-sig-Epi] Frequencies like Epiinfo
+Message-ID:
+	
+<2F73FA3AF524144C863B7C2C903DBC3302B665D265 at exdkmbx002.corp.novocorp.net>
+	
+Content-Type: text/plain; charset="us-ascii"
+
+Inside the function twoby2 from the Epi-package you will find a small
+locally defined function that gives you confidence intervals for proportions
+that are better than those you compute, which occasionally will give limits
+outside (0,1). 
+This one is based on the logit approximation, and is what you get if you
+used a logistic regression to estimate the proportions:
+
+bin.ci <- 
+function(x, n) 
+{
+  ef <- exp(qnorm(1 - alpha/2)/sqrt(x * (n - x)/n))
+  p <- x/n
+  c( p, p/(p + (1 - p) * ef), p/(p + (1 - p)/ef))
+}
+
+Best regards,
+Bendix Carstensen
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at r-project.org 
+> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Diego Garcilazo
+> Sent: 30. november 2010 08:36
+> To: r-sig-epi at stat.math.ethz.ch; r-sig-epi at r-project.org
+> Subject: [R-sig-Epi] Frequencies like Epiinfo
+> 
+> 
+>  
+> 
+> I am trying to make a function that works like the command 
+> Frequencies of Epiinfo. I am a beginner user and I make 
+> something like this:
+> 
+>  
+> 
+> freq<-function(x){
+> 
+> Frecuencia<-table(x,exclude=NULL);
+> 
+> Porcentaje<-as.vector(round(prop.table(table(x,exclude=NULL)),2));
+> 
+> Porc<-as.vector(round(prop.table(table(x,exclude=NULL))*100,1));
+> 
+> Acumulado<-cumsum(Porc);
+> 
+> IC95.Sup<-round(as.vector(Porc+196*sqrt(Porcentaje*(1-Porcenta
+je)/sum(Frecue
+> ncia))),1);
+> 
+> IC95.Inf<-round(as.vector(Porc-196*sqrt(Porcentaje*(1-Porcenta
+je)/sum(Frecue
+> ncia))),1);
+> 
+> matrix(
+> 
+> c(Frecuencia,sum(Frecuencia),Porc,round(sum(Porc),1),
+> 
+> Acumulado,NA,IC95.Inf,NA,IC95.Sup,NA),length(Frecuencia)+1,5,
+> 
+> dimnames=list(c(labels(Frecuencia)[[1]],"Total"),c("Frecuencia
+> ","Porcentaje"
+> ,"Acumulado","[IC--","--95%]"))
+> 
+> );
+> 
+> }
+> 
+>  
+> 
+> There is a way more efficient to create a function like this?
+> 
+> there is a way to make it more visually - friendly adding 
+> something like
+> -------------- that stat.table does?
+> 
+> How can I add an argument like missing=T that show NA's and 
+> missing=F that exclude Na's??
+> 
+>  
+> 
+> Thanks in advance. 
+> 
+>  
+> 
+> Diego. 
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at r-project.org mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+
+------------------------------
+
+_______________________________________________
+R-sig-Epi mailing list
+R-sig-Epi at r-project.org
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+End of R-sig-Epi Digest, Vol 47, Issue 3
+
+

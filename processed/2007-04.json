@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2007-04",
+  "messages": [
+    {
+      "id": "msg-770982b517b5",
+      "message_id": "<BAY119-F32D49A8B683AE7F8B5DA69D7640@phx.gbl>",
+      "from_name": "Bonn K. Shalf",
+      "from_email_hash": "829588c9c420c8d166207fb5fac2dc8f9d3b2c53db287cd3b7f1d6026b50436f",
+      "date": "2007-04-06T18:01:35Z",
+      "subject": "[R-sig-Epi] seeking helpful suggestions from R-users, please",
+      "subject_clean": "seeking helpful suggestions from R-users, please",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n\nNew to R and this list and hoping to get some helpful suggestions from \nR-users.\n\nWondered if users have experience with time series analysis methods for \nirregular (in time) data?  I have access to normalized data for seizure \nstudies of patients from four groups and want to examine correlations (or \ndegrees of less than 100% correlation) between these irregular, asynchronous \ntime series.  The hope is to see what subset of signals might possibly be \ntriggers to other signals.  Possibly R-users may have experience with \nappropriate methods?  Maybe someone could suggest a method I might use which \nis more appropriate than a Wald-Granger-type causality test, which doesn't \nrequire interpolation to a regular-in-time time structure, and examine raw, \nirregular data?\n\nI'm in an awkward situation (advisor has been denied tenure, leaving the \ndepartment on quite difficult terms in May, and me without funding - TA or \nRA - since Dec. 2006), and I hoped it wouldn't come to asking for help from \nscientists outside my department.  Was hoping to make this masters a \nspringboard to a PhD in biostatistics or epidemiological science but my \ncurrent focus is just to get my degree.\n\nThank you for considering this posting, and my apologies if some of you find \nthis posting inappropriate, along the lines of, \"Help me Obi Wan Kenobi, \nyou're my only hope...\"\n\nB. Shalf",
+      "body_snippet": "Hi all,\n\nNew to R and this list and hoping to get some helpful suggestions from \nR-users.\n\nWondered if users have experience with time series analysis methods for \nirregular (in time) data?  I have ac",
+      "thread_id": "thread-770982b517b5",
+      "thread_depth": 0,
+      "month": "2007-04"
+    },
+    {
+      "id": "msg-3a6aaa34b653",
+      "message_id": "<2d11366b0704111219o2e8e40f0sab3bd6ae82e56be7@mail.gmail.com>",
+      "from_name": "Benny Wong",
+      "from_email_hash": "91d6d6f05b49398f71cb43ef25dfc20a5b4df4f5c49a909d4d54447c4fab7099",
+      "date": "2007-04-11T15:19:48-04:00",
+      "subject": "[R-sig-Epi] Question on ridge regression with R",
+      "subject_clean": "Question on ridge regression with R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070411/06f74be7/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070411/06f74be7/attachment.pl",
+      "thread_id": "thread-3a6aaa34b653",
+      "thread_depth": 0,
+      "month": "2007-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-770982b517b5",
+      "subject": "seeking helpful suggestions from R-users, please",
+      "message_count": 1,
+      "participants": [
+        "Bonn K. Shalf"
+      ],
+      "started": "2007-04-06T18:01:35+00:00",
+      "last_reply": "2007-04-06T18:01:35+00:00",
+      "root_message_id": "msg-770982b517b5"
+    },
+    {
+      "id": "thread-3a6aaa34b653",
+      "subject": "Question on ridge regression with R",
+      "message_count": 1,
+      "participants": [
+        "Benny Wong"
+      ],
+      "started": "2007-04-11T15:19:48-04:00",
+      "last_reply": "2007-04-11T15:19:48-04:00",
+      "root_message_id": "msg-3a6aaa34b653"
+    }
+  ]
+}

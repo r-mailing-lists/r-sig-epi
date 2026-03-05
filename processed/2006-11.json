@@ -1,0 +1,197 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2006-11",
+  "messages": [
+    {
+      "id": "msg-ebb1d776283b",
+      "message_id": "<83217d00611061229w741ae81dm9ae6e6435d425228@mail.gmail.com>",
+      "from_name": "Seyed Reza Jafarzadeh",
+      "from_email_hash": "1c7aaa64041d9a085a930bf5e69f302e82059c181e1b5f84348533ea5c8d58bd",
+      "date": "2006-11-06T12:29:39-08:00",
+      "subject": "[R-sig-Epi] Correlated ROC curves",
+      "subject_clean": "Correlated ROC curves",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061106/e4c1e59f/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061106/e4c1e59f/attachment.pl",
+      "thread_id": "thread-ebb1d776283b",
+      "thread_depth": 0,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-2c96894cd375",
+      "message_id": "<454F9FDD.1000008@vanderbilt.edu>",
+      "from_name": "Frank E Harrell Jr",
+      "from_email_hash": "aac2104e568f1b4bc608deccefed75168aaf244b4de06a96ffe1c917f66b7853",
+      "date": "2006-11-06T14:49:33-06:00",
+      "subject": "[R-sig-Epi] [R] Correlated ROC curves",
+      "subject_clean": "Correlated ROC curves",
+      "in_reply_to": "<83217d00611061229w741ae81dm9ae6e6435d425228@mail.gmail.com>",
+      "references": [
+        "<83217d00611061229w741ae81dm9ae6e6435d425228@mail.gmail.com>"
+      ],
+      "body_plain": "Seyed Reza Jafarzadeh wrote:\n> Hi,\n> \n> Is there any package or code to compare and display correlated ROC curves in\n> R?\n> \n> Thanks,\n> Reza\n\nThere are ways to compare ROC areas.  This will not have very good \npower.  The Hmisc package's rcorrp.cens function provides a test that \ndeals with pairs of pairs of predictions and observed outcomes that I \nfeel has much more power.  It tests whether one predictor is 'more \nconcordant' with the outcome than another.\n\n-- \nFrank E Harrell Jr   Professor and Chair           School of Medicine\n                      Department of Biostatistics   Vanderbilt University",
+      "body_snippet": "Seyed Reza Jafarzadeh wrote:\n> Hi,\n> \n> Is there any package or code to compare and display correlated ROC curves in\n> R?\n> \n> Thanks,\n> Reza\n\nThere are ways to compare ROC areas.  This will not have ",
+      "thread_id": "thread-ebb1d776283b",
+      "thread_depth": 1,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-bd6de1814172",
+      "message_id": "<1162850147.3543.45.camel@localhost.localdomain>",
+      "from_name": "Rick Bilonick",
+      "from_email_hash": "dfaaa2982700434cafc29e66d2eb21c63451c246b825324ac43a27841ac292f0",
+      "date": "2006-11-06T16:55:47-05:00",
+      "subject": "[R-sig-Epi] Correlated ROC curves",
+      "subject_clean": "Correlated ROC curves",
+      "in_reply_to": "<83217d00611061229w741ae81dm9ae6e6435d425228@mail.gmail.com>",
+      "references": [
+        "<83217d00611061229w741ae81dm9ae6e6435d425228@mail.gmail.com>"
+      ],
+      "body_plain": "On Mon, 2006-11-06 at 12:29 -0800, Seyed Reza Jafarzadeh wrote:\n> Hi,\n> \n> Is there any package or code to compare and display correlated ROC curves in\n> R?\n> \n> Thanks,\n> Reza\n> \n\nA nonparametric method is the method of DeLong, DeLong, and\nClarke-Pearson. However, I don't know any code in R to do it directly\n(they do provide SAS code). My understanding is that the same answer\ncomparing dependent AUCs can be achieved by using a jackknife estimator\n(leave one out at a time). It's simple enough to write the jackknife\ncode to get the pseudo-values and then compute confidence intervals and\np-values.\n\nRick B.",
+      "body_snippet": "On Mon, 2006-11-06 at 12:29 -0800, Seyed Reza Jafarzadeh wrote:\n> Hi,\n> \n> Is there any package or code to compare and display correlated ROC curves in\n> R?\n> \n> Thanks,\n> Reza\n> \n\nA nonparametric met",
+      "thread_id": "thread-ebb1d776283b",
+      "thread_depth": 1,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-edd05dabd771",
+      "message_id": "<31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>",
+      "from_name": "Neil Shephard",
+      "from_email_hash": "d313f9320200c56c058a6b0222ff357fccb1e4d431e34b4a4f0426413f67c6ad",
+      "date": "2006-11-21T10:32:33+08:00",
+      "subject": "[R-sig-Epi] OT - study design advice sought",
+      "subject_clean": "OT - study design advice sought",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\nApologies for the slightly off-topic post but I'm seeking advise on\nhow to analyse a set of data I've encountered.\n\nThis is not my choice of study design, its something I'm being asked\nto help a student with (and personally I think its a bit of a\ndata-dredging exercise, and have explained this to them, but there).\n\nA group of cases with age-related macular degeneration (AMD) have been\ncollected from a clinic over a number of years, and because medical\nrecords have been digitized for the past 20-30 years details on their\nhospital admissions and a lot of other aspects of their health are\navailable from both before and the onset of AMD up to present date.\n\nA group of controls from the general population without AMD have been\nage and sex-matched to each of the cases, and data on hospital\nadmissions and so forth have also been extracted for the same\nvariables, from the first record available up to present date\n\nThe 'hypothesis' is that there are 'links' between AMD and\natherosclerotic disease, cardiovascular risk factors, systemic\ninflamatory disease and neurodegenerative conditions.\n\nThe supervisor of this student has suggested that _all_ data should be\nused, i.e. the occurence of some atherosclerotic disease in a case or\ncontrol _after_ the onset of AMD in the case should be included.  This\nto me does not make any sense at all.  A case-control study has a\ntemporal relationship of the exposure occuring before disease does.\nThe aim is to assess whether certain diseases/risk factors\n(athersclerosis, classic CVD risk factors etc.) increase the risk of\nAMD.  Analysing such events after the onset of disease turns that\nquestion around, and mixing the two just completely messes things up\nin my view.\n\nI've read through relevant sections of Breslow & Day's \"Statistical\nMethods in Cancer Research - Vol 1\", and Dawson & Trapp's \"Basic &\nClinical Biostatistics\" as well as sections on case-control and\nsimilar study designs in the Wiley Encyclopedia of Biostatistics but\ncan't find anything that deals with analysing data in such a manner.\n\nIs it valid to take events before and after the event of interest\n(onset of AMD)?  Personally I don't think so, but if anyone has any\nthoughts or insights into this I'd greatly appreciate them.\n\nApologies again for the off-topic post, and thanks for your time,\n\nNeil\n\n-- \n\"An intellectual is a person who has discovered something more\ninteresting than sex.\" - Aldous Huxley\n\nEmail - nshephard at gmail.com / neilshep at cyllene.uwa.edu.au\nWebsite - http://slack.ser.man.ac.uk/\nPhotos - http://www.flickr.com/photos/slackline/",
+      "body_snippet": "Hi,\n\nApologies for the slightly off-topic post but I'm seeking advise on\nhow to analyse a set of data I've encountered.\n\nThis is not my choice of study design, its something I'm being asked\nto help a ",
+      "thread_id": "thread-edd05dabd771",
+      "thread_depth": 0,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-c3584c5ecd99",
+      "message_id": "<8d6f66050611201954h3c6771e5k4875fd595e39abc3@mail.gmail.com>",
+      "from_name": "Murray Pung",
+      "from_email_hash": "f19219aeb3a098cfee9dc683e1b6813f82950bf420fa3749cbc3a1adedafbed6",
+      "date": "2006-11-21T14:54:32+11:00",
+      "subject": "[R-sig-Epi] OT - study design advice sought",
+      "subject_clean": "OT - study design advice sought",
+      "in_reply_to": "<31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>",
+      "references": [
+        "<31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061121/568eadf2/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061121/568eadf2/attachment.pl",
+      "thread_id": "thread-edd05dabd771",
+      "thread_depth": 1,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-05c82da5bd20",
+      "message_id": "<4562C7B5.7040007@gmail.com>",
+      "from_name": "Wilfred Zegwaard",
+      "from_email_hash": "7a4e0de2f3b61b51ccebb24707ee82a7412662bd0a606b88dc50f7c056a168f9",
+      "date": "2006-11-21T10:32:37+01:00",
+      "subject": "[R-sig-Epi] Literature",
+      "subject_clean": "Literature",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "HI,\n\nI seek some advice on the use of latent models in sexuality. Can someone \nhelp me? Specific R packages?\n\nthanks,\n\nWilfred",
+      "body_snippet": "HI,\n\nI seek some advice on the use of latent models in sexuality. Can someone \nhelp me? Specific R packages?\n\nthanks,\n\nWilfred",
+      "thread_id": "thread-05c82da5bd20",
+      "thread_depth": 0,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-f81e1787898b",
+      "message_id": "<4562D3DB.40201@unisi.it>",
+      "from_name": "Francesco Cernuto",
+      "from_email_hash": "35be04c264ddf2c395c1ce9c3b088499443662582ece07cf1871772458b5ecd6",
+      "date": "2006-11-21T11:24:27+01:00",
+      "subject": "[R-sig-Epi] OT - study design advice sought",
+      "subject_clean": "OT - study design advice sought",
+      "in_reply_to": "<8d6f66050611201954h3c6771e5k4875fd595e39abc3@mail.gmail.com>",
+      "references": [
+        "<31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>",
+        "<8d6f66050611201954h3c6771e5k4875fd595e39abc3@mail.gmail.com>"
+      ],
+      "body_plain": "Hi,\nas a learned form epidemiology, the product of a \"case-control\" study is \nan exposure-odds ratio. Its components are a numerator of case series \n(exposure odds among incident cases of a disease) and a denominator of \nsampled referent series (exposure odds among a sample from the same \npopulation where cases arise). After taking a valid sample from this \nsource population, the main threat to validiy is exposure \nmisclassification, where information on exposure is not comparable \nbetween cases and \"controls\".\n\nIn your task, you should first assure a valid comparability on exposure \ninformation, but in any case I will not put in the analysis information \non exposure after the event occurred, unless AMD is a relapsing disease.\n\nFor example in smoke and lung cancer the link between smoking status in \nsubjects with the event is not an issue both for etiology and for \nprognosis. The same is not true for ischemic heart disease where smoking \nstatus is a prognostic indicator of a further heart attack.\n\nFor an insight on the topic I suggest:\nOS Miettinen. Estimability and estimation in case-referent \nstudies.Am.J.Epidemiol 1976;103:226-235\n\nFrancesco\n> Hi Neil\n>\n> The consensus amongst my colleagues is that it depends on the study\n> question:\n>\n> If you are interested in testing whether the factors are 'predictors' of\n> AMD, then only pre diagnosis observations should be considered. Post\n> diagnosis observations would be confounding.\n>\n> However, if you are only trying to show a 'link' between the factors and\n> AMD, post diagnosis observations are acceptable.\n>\n> Murray\n>\n> On 21/11/06, Neil Shephard <nshephard at gmail.com> wrote:\n>   \n>> Hi,\n>>\n>> Apologies for the slightly off-topic post but I'm seeking advise on\n>> how to analyse a set of data I've encountered.\n>>\n>> This is not my choice of study design, its something I'm being asked\n>> to help a student with (and personally I think its a bit of a\n>> data-dredging exercise, and have explained this to them, but there).\n>>\n>> A group of cases with age-related macular degeneration (AMD) have been\n>> collected from a clinic over a number of years, and because medical\n>> records have been digitized for the past 20-30 years details on their\n>> hospital admissions and a lot of other aspects of their health are\n>> available from both before and the onset of AMD up to present date.\n>>\n>> A group of controls from the general population without AMD have been\n>> age and sex-matched to each of the cases, and data on hospital\n>> admissions and so forth have also been extracted for the same\n>> variables, from the first record available up to present date\n>>\n>> The 'hypothesis' is that there are 'links' between AMD and\n>> atherosclerotic disease, cardiovascular risk factors, systemic\n>> inflamatory disease and neurodegenerative conditions.\n>>\n>> The supervisor of this student has suggested that _all_ data should be\n>> used, i.e. the occurence of some atherosclerotic disease in a case or\n>> control _after_ the onset of AMD in the case should be included.  This\n>> to me does not make any sense at all.  A case-control study has a\n>> temporal relationship of the exposure occuring before disease does.\n>> The aim is to assess whether certain diseases/risk factors\n>> (athersclerosis, classic CVD risk factors etc.) increase the risk of\n>> AMD.  Analysing such events after the onset of disease turns that\n>> question around, and mixing the two just completely messes things up\n>> in my view.\n>>\n>> I've read through relevant sections of Breslow & Day's \"Statistical\n>> Methods in Cancer Research - Vol 1\", and Dawson & Trapp's \"Basic &\n>> Clinical Biostatistics\" as well as sections on case-control and\n>> similar study designs in the Wiley Encyclopedia of Biostatistics but\n>> can't find anything that deals with analysing data in such a manner.\n>>\n>> Is it valid to take events before and after the event of interest\n>> (onset of AMD)?  Personally I don't think so, but if anyone has any\n>> thoughts or insights into this I'd greatly appreciate them.\n>>\n>> Apologies again for the off-topic post, and thanks for your time,\n>>\n>> Neil\n>>\n>> --\n>> \"An intellectual is a person who has discovered something more\n>> interesting than sex.\" - Aldous Huxley\n>>\n>> Email - nshephard at gmail.com / neilshep at cyllene.uwa.edu.au\n>> Website - http://slack.ser.man.ac.uk/\n>> Photos - http://www.flickr.com/photos/slackline/\n>>\n>> _______________________________________________\n>> R-sig-Epi at stat.math.ethz.ch mailing list\n>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>>\n>>     \n>\n>\n>\n>",
+      "body_snippet": "Hi,\nas a learned form epidemiology, the product of a \"case-control\" study is \nan exposure-odds ratio. Its components are a numerator of case series \n(exposure odds among incident cases of a disease) a",
+      "thread_id": "thread-edd05dabd771",
+      "thread_depth": 2,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-8d601c8b8820",
+      "message_id": "<31b34fca0611211645i602ccb31xb406d8c922773abd@mail.gmail.com>",
+      "from_name": "Neil Shephard",
+      "from_email_hash": "d313f9320200c56c058a6b0222ff357fccb1e4d431e34b4a4f0426413f67c6ad",
+      "date": "2006-11-22T08:45:04+08:00",
+      "subject": "[R-sig-Epi] OT - study design advice sought",
+      "subject_clean": "OT - study design advice sought",
+      "in_reply_to": "<E1FC3DC46F01DA4586D23EFAF959073E0305E7@qmlexch.qml.com.au>",
+      "references": [
+        "<31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>",
+        "<E1FC3DC46F01DA4586D23EFAF959073E0305E7@qmlexch.qml.com.au>"
+      ],
+      "body_plain": "Thanks to all who have replied so far.  Its been a while since I did\nanything similar to this (my normal area is statistical genetics), but\nits good to refresh these things every now and again.\n\nThe replies (two of which I've included below for other readers of the\nlist) have helped clarify some of my thoughts, and dredged up some\nmemories of differences between incidence and prevalence.\n\nTo answer two of the points below, one of the considered methods of\nanalysis was conditional logistic regression to take account of the\nmatching which has been done retrospectively.\n\nThanks again for all suggestions,\n\nNeil\n\n\nOn 11/22/06, Brown, Dr Nigel <Nigel.Brown at qml.com.au> wrote:\n> Hi Neil\n>\n> From a medical angle I would see the occurrence during one's lifetime of\n> cardiovascular disease (CVD) is being used as a marker for some\n> underlying increased risk of CVD and it is this hidden risk variable(s)\n> that is being 'linked' to AMD.\n> If an underlying increased risk variable is being postulated perhaps\n> rather than using lifetime CVD events as the surrogate marker only\n> 'premature' CVD should be the criterion.\n> As for the method of statistical analysis I can have no formal informed\n> comment (not being a statistician) but I imagine a regression technique\n> using premature CVD events as independent variables and AMD as dependent\n> variable (? With Logistic regression methods) could be discussed.\n> Of interest in terms of data dredging is factor analysis (do throw\n> things yet) as an exploritory method just using default methods and\n> varimax rotation to see if CVD and AMD load on the same factor and what\n> else they load with. I've seen some interesting but soft outcomes of\n> this type on analysis when applied to multivatiate medical numerical\n> result data sets.\n> Regards\n> Nigel (Pathologist)\n\n\n\nOn 11/21/06, BXC (Bendix Carstensen) <bxc at steno.dk> wrote:\n> Neil,\n>\n> It is not entirely clear how your matching was done.\n>\n> Are the controls matched to  cases at the date of AMD diagnosis (which I\n> realize must be a pretty soft thing). And how was the data collection\n> done --- around the time of diagnosis?\n>\n> Or was the study done a long time after AMD diagnosis (for some).\n>\n> As you describe it, the latter seems to be the case, i.e. you have\n> matched prevalent cases of AMD to prevalent persons in the population.\n> In that case what you get out of you study would be PREVALENCE\n> odds-ratios associated with various risk factors. In that case it makes\n> perfectly sense to have variables that are subsequent to disease. The\n> prevalences you will be addressing are namely a function both of the\n> disease incidence related to factors prior to disease and to survival\n> related to factors subsequent to disease.\n>\n> The former sampling scheme (incidence-density sampling) would give you\n> odds-ratios that were interpretable as hazard rates, and of course\n> variables referring to time after diagnosis would not make any sense.\n> But by the mere nature of the sampling scheme they would not be there\n> anyway, since sampling was AT time of diagnosis.\n> _______________________________________________\n>\n> Bendix Carstensen\n> Senior Statistician\n> Steno Diabetes Center\n> Niels Steensens Vej 2-4\n> DK-2820 Gentofte\n> Denmark\n> +45 44 43 87 38 (direct)\n> +45 30 75 87 38 (mobile)\n> +45 44 43 73 13 (fax)\n> bxc at steno.dk   http://www.biostat.ku.dk/~bxc\n-- \n\"An intellectual is a person who has discovered something more\ninteresting than sex.\" - Aldous Huxley\n\nEmail - nshephard at gmail.com / neilshep at cyllene.uwa.edu.au\nWebsite - http://slack.ser.man.ac.uk/\nPhotos - http://www.flickr.com/photos/slackline/",
+      "body_snippet": "Thanks to all who have replied so far.  Its been a while since I did\nanything similar to this (my normal area is statistical genetics), but\nits good to refresh these things every now and again.\n\nThe r",
+      "thread_id": "thread-8d601c8b8820",
+      "thread_depth": 0,
+      "month": "2006-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-ebb1d776283b",
+      "subject": "Correlated ROC curves",
+      "message_count": 3,
+      "participants": [
+        "Frank E Harrell Jr",
+        "Rick Bilonick",
+        "Seyed Reza Jafarzadeh"
+      ],
+      "started": "2006-11-06T12:29:39-08:00",
+      "last_reply": "2006-11-06T16:55:47-05:00",
+      "root_message_id": "msg-ebb1d776283b"
+    },
+    {
+      "id": "thread-edd05dabd771",
+      "subject": "OT - study design advice sought",
+      "message_count": 3,
+      "participants": [
+        "Francesco Cernuto",
+        "Murray Pung",
+        "Neil Shephard"
+      ],
+      "started": "2006-11-21T10:32:33+08:00",
+      "last_reply": "2006-11-21T11:24:27+01:00",
+      "root_message_id": "msg-edd05dabd771"
+    },
+    {
+      "id": "thread-05c82da5bd20",
+      "subject": "Literature",
+      "message_count": 1,
+      "participants": [
+        "Wilfred Zegwaard"
+      ],
+      "started": "2006-11-21T10:32:37+01:00",
+      "last_reply": "2006-11-21T10:32:37+01:00",
+      "root_message_id": "msg-05c82da5bd20"
+    },
+    {
+      "id": "thread-8d601c8b8820",
+      "subject": "OT - study design advice sought",
+      "message_count": 1,
+      "participants": [
+        "Neil Shephard"
+      ],
+      "started": "2006-11-22T08:45:04+08:00",
+      "last_reply": "2006-11-22T08:45:04+08:00",
+      "root_message_id": "msg-8d601c8b8820"
+    }
+  ]
+}

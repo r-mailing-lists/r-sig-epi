@@ -1,0 +1,495 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2026-02",
+  "messages": [
+    {
+      "id": "msg-d33dbfefe213",
+      "message_id": "<1770037712.37711125@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-02-02T14:08:32+01:00",
+      "subject": "[R-sig-Epi] Network Analysis in R – Join Our Online Course in May!",
+      "subject_clean": "Network Analysis in R – Join Our Online Course in May!",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n \nWant to learn how to analyze and interpret network data using R?\n \nJoin us this May for the 3rd edition of the Introduction to Network Analysis in R.\n \nCourse dates: 4th?7th May 2026\nFormat: Fully online\nReserve your spot now and take your network analysis skills to the next level: [ https://www.physalia-courses.org/courses-workshops/network-analysis-in-r/ ]( https://www.physalia-courses.org/courses-workshops/network-analysis-in-r/ ) \n \nIn this course, you will master key concepts including graph theory, network statistics, statistical modeling, and network visualization. The course is designed with a focus on life sciences but offers techniques that are easily transferable to other fields. Each day includes hands-on coding sessions using popular R packages such as igraph, tidygraph, and ggraph.\n \nThis course is ideal for researchers with solid R skills and a strong foundation in statistics who want to unlock the full potential of network data analysis.\n \n \nBest regards,\nCarlo\n \n \n \n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n \nWant to learn how to analyze and interpret network data using R?\n \nJoin us this May for the 3rd edition of the Introduction to Network Analysis in R.\n \nCourse dates: 4th?7th May 2026\nForma",
+      "thread_id": "thread-d33dbfefe213",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-cae03bf98cd9",
+      "message_id": "<ntLmqooITbysJyMoBtUMSg@geopod-ismtpd-17>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-03T15:43:46Z",
+      "subject": "[R-sig-Epi] Clustering High-Dimensional Data 2.0 – last chance",
+      "subject_clean": "Clustering High-Dimensional Data 2.0 – last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Clustering High-Dimensional Data 2.0 livestreaming February 6 with Nikolay Oskolkov (Group Leader (PI) at LIOS). This seminar on Clustering High-Dimensional Data 2.0 offers advanced techniques for analyzing complex datasets. Epidemiologists can apply these methods to identify distinct patient subgroups, uncover hidden patterns in disease progression, or categorize risk factors within their high-dimensional data. Mastering these R and Python-based skills will enable researchers to derive more robust and nuanced insights from their epidemiological studies.\n\nSign up today (https://instats.org/seminar/clustering-high-dimensional-data-20) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Clustering High-Dimensional Data 2.0 livestreaming February 6 with Nikolay Oskolkov (Group Leader (PI) at LIOS). This seminar on Clusteri",
+      "thread_id": "thread-cae03bf98cd9",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-c543a47015a5",
+      "message_id": "<KCwMw2BoQaS9xELR3U0QQg@geopod-ismtpd-4>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-06T13:54:37Z",
+      "subject": "[R-sig-Epi] Nonresponse in Social Surveys (Free Seminar) – livestream seminar",
+      "subject_clean": "Nonresponse in Social Surveys (Free Seminar) – livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nInstats is offering a new 1-day seminar Nonresponse in Social Surveys (Free Seminar) livestreaming February 25, led by Fran?ois Marshall (Statistics Canada). This seminar addresses nonresponse in social surveys, a critical challenge for epidemiological research relying on population data. Participants will learn to design and evaluate interventions to reduce nonresponse bias, alongside statistical adjustment methods like weighting and imputation. These skills are directly applicable to strengthening the validity of epidemiological studies and can be implemented using R for robust data analysis.\n\nSign up today (https://instats.org/seminar/nonresponse-in-social-surveys-free-semin) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nInstats is offering a new 1-day seminar Nonresponse in Social Surveys (Free Seminar) livestreaming February 25, led by Fran?ois Marshall (Statistics Canada). This seminar addr",
+      "thread_id": "thread-c543a47015a5",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-cece5d6958db",
+      "message_id": "<Z5T2uKzATOue2F9Yt9QV3g@geopod-ismtpd-10>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-09T09:40:06Z",
+      "subject": "[R-sig-Epi] Tree-Based Models for Addressing Nonresponse (Free Seminar) – last chance",
+      "subject_clean": "Tree-Based Models for Addressing Nonresponse (Free Seminar) – last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Tree-Based Models for Addressing Nonresponse (Free Seminar) livestreaming February 10 with Avi Feller (Department of Statistics). This seminar explores tree-based models for effectively addressing survey nonresponse, a critical challenge in many data-driven fields. Researchers in epidemiology can apply these methods to diagnose and mitigate nonresponse bias in their own studies, ensuring more robust and reliable findings. The practical insights into response rate analysis, imputation, and model-assisted estimation using the rpms R package will directly enhance their analytical toolkit for complex epidemiological data.\n\nSign up today (https://instats.org/seminar/tree-based-models-for-addressing-nonresp) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Tree-Based Models for Addressing Nonresponse (Free Seminar) livestreaming February 10 with Avi Feller (Department of Statistics). This se",
+      "thread_id": "thread-cece5d6958db",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-32241c23e791",
+      "message_id": "<1770651077.64025616@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-02-09T16:31:17+01:00",
+      "subject": "[R-sig-Epi] Generalised Linear Models in R course",
+      "subject_clean": "Generalised Linear Models in R course",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nThere are still seats left for the Physalia course on Generalised Linear Models in R course!\nIf you want to master GLMs as a unified and flexible tool for data analysis, this is the course for you. Don?t miss out!\n \nCheck it out here: [ https://www.physalia-courses.org/courses-workshops/glm-in-r-1/ ]( https://www.physalia-courses.org/courses-workshops/glm-in-r-1/ )\n \nFeel free to share this with anyone interested!\nBest regards, Carlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nThere are still seats left for the Physalia course on Generalised Linear Models in R course!\nIf you want to master GLMs as a unified and flexible tool for data analysis, this is the course f",
+      "thread_id": "thread-32241c23e791",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-d87354382bcb",
+      "message_id": "<8bBGuyy0QzuqD6vTuXceaQ@geopod-ismtpd-14>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2026-02-10T16:20:00Z",
+      "subject": "[R-sig-Epi] Free AI tools for researchers – Instats",
+      "subject_clean": "Free AI tools for researchers – Instats",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to announce the launch of two new free AI tools for researchers, Research Assistant and Pathways, available now at instats.org. <https://instats.org/> Both tools are carbon-offset by Instats via Gold Standard <https://www.goldstandard.org/>.\n\nResearch Assistant: Get expert help with every Instats seminar to clarify concepts, ask technical questions, interpret results, troubleshoot code, and much more. It's privacy-preserving and IP-respecting. Look for the AI Assistant alongside videos and on every Instats seminar <https://instats.org/results?nav=On-Demand&view=Seminars>.\n\n\n\nPathways: Describe your learning goals and get a personalized learning plan or a full curriculum. They're easy to save or share with your colleagues and students. Build your pathway here <https://instats.org/results?nav=Curriculum&view=Seminars>.\n\n\n\nWe hope you enjoy these free AI tools from Instats, your partner in research!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org <http://instats.org/>\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to announce the launch of two new free AI tools for researchers, Research Assistant and Pathways, available now at instats.org. <https://instats.org/> Both tools are ca",
+      "thread_id": "thread-d87354382bcb",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-9c2eb01357e5",
+      "message_id": "<TbwAKqHkTIiI9WGRIbbERg@geopod-ismtpd-7>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-11T11:16:21Z",
+      "subject": "[R-sig-Epi] Exploratory Analysis of Complex Datasets with ChatGPT 2.0 – last chance",
+      "subject_clean": "Exploratory Analysis of Complex Datasets with ChatGPT 2.0 – last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Exploratory Analysis of Complex Datasets with ChatGPT 2.0 livestreaming February 12 with Nikolay Oskolkov (Group Leader (PI) at LIOS). This seminar provides advanced methodologies for exploratory analysis of complex datasets, crucial for navigating high dimensionality and intricate data structures. Epidemiological researchers can leverage techniques like dimensionality reduction to visualize complex patient cohorts or environmental factors, and apply clustering to identify distinct disease patterns or risk groups within their R-based workflows. The integration of time-series clustering and AI tools such as ChatGPT will further enhance their ability to interpret complex epidemiological trends and integrate diverse data sources for robust research outcomes.\n\nSign up today (https://instats.org/seminar/exploratory-analysis-of-complex-datasets-2) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Exploratory Analysis of Complex Datasets with ChatGPT 2.0 livestreaming February 12 with Nikolay Oskolkov (Group Leader (PI) at LIOS). Th",
+      "thread_id": "thread-9c2eb01357e5",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-01d82044167a",
+      "message_id": "<1770826949.058115709@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-02-11T17:22:29+01:00",
+      "subject": "[R-sig-Epi] Online Course: Fundamentals of Biostatistics with R (13–17 April )",
+      "subject_clean": "Online Course: Fundamentals of Biostatistics with R (13–17 April )",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nWe are pleased to announce our online course ?Fundamentals of Biostatistics with R?, taking place 13?17 April.\n \nThis 5-day course provides a practical introduction to statistical methods for medical and biomedical research. Participants will learn to explore, analyse, and interpret data using R, covering topics such as descriptive statistics, hypothesis testing, regression, logistic regression, and survival analysis. No prior experience with R is required.\n \nCourse format:\n\nLive online sessions, daily 14:00?19:00 CET\n\nHands-on exercises with real biomedical datasets\n\nEmphasis on reproducible workflows and correct interpretation\n \nRegistration & details:  [ https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ]( https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ) \nBest regards, Carlo\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nWe are pleased to announce our online course ?Fundamentals of Biostatistics with R?, taking place 13?17 April.\n \nThis 5-day course provides a practical introduction to statistical methods fo",
+      "thread_id": "thread-01d82044167a",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-8a5c2e673f01",
+      "message_id": "<1770906281.537318815@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-02-12T15:24:41+01:00",
+      "subject": "[R-sig-Epi] Bayesian Causal Networks in R course",
+      "subject_clean": "Bayesian Causal Networks in R course",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nWe are pleased to announce our upcoming online course, Bayesian Causal Networks in R, taking place from 7?11 September.\n \nBayesian causal networks are a powerful approach to explore complex systems and make data-driven decisions under uncertainty. In this course, you will combine theory with hands-on practice in R to design, estimate, and interpret causal models using real and simulated data. Across five interactive sessions, participants will build and evaluate multivariate networks, perform inference and sensitivity analyses, and learn how to communicate uncertainty effectively.\n \nThis course is particularly suited to advanced students, early-stage Ph.D. candidates, and professionals working with ecological, environmental, or other data-rich systems. A basic familiarity with R and probability concepts is recommended to fully benefit from the course.\n \nFor more information and registration, please visit our website: [ https://www.physalia-courses.org/courses-workshops/bayesian-netwok/ ]( https://www.physalia-courses.org/courses-workshops/bayesian-netwok/ ) \n \nBest regards, Carlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nWe are pleased to announce our upcoming online course, Bayesian Causal Networks in R, taking place from 7?11 September.\n \nBayesian causal networks are a powerful approach to explore complex ",
+      "thread_id": "thread-8a5c2e673f01",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-fcc0168b63df",
+      "message_id": "<XqvUWfZBTwebw-UGoKBDMg@geopod-ismtpd-13>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-13T14:12:02Z",
+      "subject": "[R-sig-Epi] Multilevel Modeling in R – last chance",
+      "subject_clean": "Multilevel Modeling in R – last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance to join our 2-day seminar Multilevel Modeling in R livestreaming February 26?27 with Scott Colwell (University of Guelph and Enablytics). This seminar offers a rigorous introduction to multilevel modeling in R, a crucial technique for analyzing clustered or hierarchical data common in epidemiological studies. Participants will learn to implement random intercepts and slopes, multilevel logistic regression, and cross-level interactions using lmer-based workflows, directly enhancing their capacity to model complex epidemiological outcomes. Mastering these methods will enable researchers to produce more robust analyses, justify modeling decisions, and generate reproducible code for their publishable epidemiological research.\n\nSign up today (https://instats.org/seminar/multilevel-modeling-in-r) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 2-day seminar Multilevel Modeling in R livestreaming February 26?27 with Scott Colwell (University of Guelph and Enablytics). This seminar offers a rig",
+      "thread_id": "thread-fcc0168b63df",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-ffc3fddbeeb6",
+      "message_id": "<eSPyzg0kRx6UapnRedd6Kg@geopod-ismtpd-2>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-16T09:39:36Z",
+      "subject": "[R-sig-Epi] Introduction to Bioinformatics for Genomics (Free Seminar) – last chance",
+      "subject_clean": "Introduction to Bioinformatics for Genomics (Free Seminar) – last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Introduction to Bioinformatics for Genomics (Free Seminar) livestreaming February 16 with Estefania Mancini (Josep Carreras Leukaemia Research Institute). This seminar introduces foundational bioinformatics methods for analyzing sequencing and genomics data. For researchers utilizing R in epidemiological data analysis, understanding these techniques can significantly enhance the integration of genomic insights into their studies. This knowledge can be directly applied to interpret genetic variations within disease cohorts, identify biomarkers, or refine risk prediction models using R-based tools.\n\nSign up today (https://instats.org/seminar/introduction-to-bioinformatics-for-genom) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Introduction to Bioinformatics for Genomics (Free Seminar) livestreaming February 16 with Estefania Mancini (Josep Carreras Leukaemia Res",
+      "thread_id": "thread-ffc3fddbeeb6",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-2805295c42e3",
+      "message_id": "<5UcbI7fRRz-k65ArdfXGmA@geopod-ismtpd-1>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-18T11:59:04Z",
+      "subject": "[R-sig-Epi] Generative AI for Statistical Science (Free Seminar) – last chance",
+      "subject_clean": "Generative AI for Statistical Science (Free Seminar) – last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Generative AI for Statistical Science (Free Seminar) livestreaming March 3 with Lei Ding (Department of Statistics, University of Manitoba). This seminar introduces the modern generative AI paradigm, focusing on how these models approximate high-dimensional probability distributions and complex data-generating processes. Researchers in epidemiology can leverage these techniques for advanced synthetic data generation, robust missing-data imputation, and sophisticated text analysis within their R-based workflows. Understanding these powerful methods, alongside critical considerations of privacy and bias, will enable more rigorous and ethically sound epidemiological studies.\n\nSign up today (https://instats.org/seminar/generative-ai-for-statistical-science-fr) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Generative AI for Statistical Science (Free Seminar) livestreaming March 3 with Lei Ding (Department of Statistics, University of Manitob",
+      "thread_id": "thread-2805295c42e3",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-8e9cfaab5514",
+      "message_id": "<8GcuWNoiQHa15_4YPqDy1A@geopod-ismtpd-2>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-20T14:07:45Z",
+      "subject": "[R-sig-Epi] Data Analysis in R Using Tidyverse – last chance",
+      "subject_clean": "Data Analysis in R Using Tidyverse – last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance to join our 3-day seminar Data Analysis in R Using Tidyverse livestreaming February 24?26 with Ari Lamstein (American Statistical Association). This seminar offers a practical introduction to data analysis in R using the tidyverse, providing a modern workflow essential for managing and analyzing complex epidemiological datasets. Participants will learn to import diverse epidemiological datasets, transform and summarize them with dplyr for calculating key metrics, and create compelling visualizations with ggplot2 to illustrate public health trends. These skills, combined with the use of R Notebooks for reproducible reporting, will significantly enhance the rigor and collaborative potential of epidemiological studies.\n\nSign up today (https://instats.org/seminar/data-analysis-in-r-using-tidyverse) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 3-day seminar Data Analysis in R Using Tidyverse livestreaming February 24?26 with Ari Lamstein (American Statistical Association). This seminar offers",
+      "thread_id": "thread-8e9cfaab5514",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-5756de263ace",
+      "message_id": "<1771665042.757910499@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-02-21T10:10:42+01:00",
+      "subject": "[R-sig-Epi] Using R as a GIS course",
+      "subject_clean": "Using R as a GIS course",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nOnly a few seats remain for our online course ?Using R as a GIS: Mapping and Spatial Operations in R? (2?6 March)!\n \nLearn to import, map, and analyze spatial data in R, perform vector and raster operations, and create reproducible, automated workflows for environmental and biodiversity data. The course combines live interactive sessions with hands-on practical exercises.\n \n \n[ https://www.physalia-courses.org/courses-workshops/gis-in-r/  ]( https://www.physalia-courses.org/courses-workshops/gis-in-r/%C2%A0 )\n \nBest regards,\n Carlo\n--\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n\nOnly a few seats remain for our online course ?Using R as a GIS: Mapping and Spatial Operations in R? (2?6 March)!\n \nLearn to import, map, and analyze spatial data in R, perform vector and ",
+      "thread_id": "thread-5756de263ace",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-b4b9a26adc8d",
+      "message_id": "<syXF8gwATGeH0VmZssWnLQ@geopod-ismtpd-14>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-23T09:26:41Z",
+      "subject": "[R-sig-Epi] Structural Equation Modeling in R – last chance",
+      "subject_clean": "Structural Equation Modeling in R – last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance to join our 2-day seminar Structural Equation Modeling in R livestreaming February 23?24 with Scott Colwell (University of Guelph and Enablytics). Structural Equation Modeling (SEM) in R offers powerful capabilities for epidemiologists to analyze complex relationships involving latent constructs and to explicitly account for measurement error in observed variables. This approach allows for a more nuanced understanding of disease etiology, risk factor interactions, and intervention mechanisms by clarifying direct and indirect effects within intricate causal pathways. The seminar's emphasis on reproducible R/lavaan workflows and robust reporting standards will equip researchers to validate their measurement instruments and conduct transparent, publishable analyses.\n\nSign up today (https://instats.org/seminar/structural-equation-modeling-in-r) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 2-day seminar Structural Equation Modeling in R livestreaming February 23?24 with Scott Colwell (University of Guelph and Enablytics). Structural Equat",
+      "thread_id": "thread-b4b9a26adc8d",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-4c712fedf71e",
+      "message_id": "<Df3NlDqfS_KRl2zWPCtBNQ@geopod-ismtpd-7>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-25T11:46:08Z",
+      "subject": "[R-sig-Epi] Introduction to Survey Design – last chance",
+      "subject_clean": "Introduction to Survey Design – last chance",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance to join our 2-day seminar Introduction to Survey Design livestreaming February 26?27 with Adam Berinsky (MIT Political Experiments Research Lab, Massachusetts Institute of Technology). This seminar on survey design offers crucial insights into constructing robust data collection instruments, directly enhancing the quality of epidemiological data used in R-based analyses. Participants will learn to minimize measurement error through clear question wording, appropriate response formats, and systematic pretesting, thereby improving effect estimation and replicability in their public health research. Mastering these principles and practical Qualtrics programming will enable researchers to generate cleaner, more reliable datasets, strengthening the empirical evidence for their journal submissions and grant proposals in epidemiology.\n\nSign up today (https://instats.org/seminar/introduction-to-survey-design) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 2-day seminar Introduction to Survey Design livestreaming February 26?27 with Adam Berinsky (MIT Political Experiments Research Lab, Massachusetts Inst",
+      "thread_id": "thread-4c712fedf71e",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-119266190ad9",
+      "message_id": "<mzEoAXfoRyOivv8sURnhqg@geopod-ismtpd-13>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-02-27T14:08:08Z",
+      "subject": "[R-sig-Epi] Agentic Data Analytics: Automating Research Workflows – livestream seminar",
+      "subject_clean": "Agentic Data Analytics: Automating Research Workflows – livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nInstats is offering a new 4-day seminar Agentic Data Analytics: Automating Research Workflows livestreaming March 24?27, led by Peter Gruber (Faculty of Economics, USI Universit? della Svizzera Italiana). This seminar introduces Agentic Data Analytics, a powerful approach to automating research workflows. Epidemiologists using R can leverage these autonomous AI agents to streamline tedious data cleaning, execute complex statistical models, and generate publication-ready reports directly on their local machines. This allows researchers to significantly enhance efficiency and reproducibility in their epidemiological studies without compromising data privacy.\n\nSign up today (https://instats.org/seminar/agentic-data-analytics-automating-resear) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nInstats is offering a new 4-day seminar Agentic Data Analytics: Automating Research Workflows livestreaming March 24?27, led by Peter Gruber (Faculty of Economics, USI Univers",
+      "thread_id": "thread-119266190ad9",
+      "thread_depth": 0,
+      "month": "2026-02"
+    },
+    {
+      "id": "msg-3c13f5e4f886",
+      "message_id": "<1772212942.984989@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-02-27T18:22:22+01:00",
+      "subject": "[R-sig-Epi] Online course: Interactive Maps with R (13–14 May)",
+      "subject_clean": "Online course: Interactive Maps with R (13–14 May)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nwe are pleased to announce the online course ?Interactive Maps with R?, taking place on 13?14 May.\n \nThis hands-on course introduces participants to creating and customizing interactive maps in R using free and open-source tools such as leaflet and mapview. Participants will learn how to build, customize, and share interactive maps using both provided and their own spatial data, with a strong focus on practical exercises.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/interactive-maps-with-r/ ]( https://www.physalia-courses.org/courses-workshops/interactive-maps-with-r/ ) \n \nThe course is aimed at students, researchers, and practitioners with basic experience in R and spatial data. If you want to learn how to use R as a GIS, we have a course starting next week: [ https://www.physalia-courses.org/courses-workshops/gis-in-r/ ]( https://www.physalia-courses.org/courses-workshops/gis-in-r/ ) \n \nLive sessions will run daily from 15:00 to 19:00 (Berlin time), with additional support available via Slack.\n \n \nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nwe are pleased to announce the online course ?Interactive Maps with R?, taking place on 13?14 May.\n \nThis hands-on course introduces participants to creating and customizing interactive maps",
+      "thread_id": "thread-3c13f5e4f886",
+      "thread_depth": 0,
+      "month": "2026-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d33dbfefe213",
+      "subject": "Network Analysis in R – Join Our Online Course in May!",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-02-02T14:08:32+01:00",
+      "last_reply": "2026-02-02T14:08:32+01:00",
+      "root_message_id": "msg-d33dbfefe213"
+    },
+    {
+      "id": "thread-cae03bf98cd9",
+      "subject": "Clustering High-Dimensional Data 2.0 – last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-03T15:43:46+00:00",
+      "last_reply": "2026-02-03T15:43:46+00:00",
+      "root_message_id": "msg-cae03bf98cd9"
+    },
+    {
+      "id": "thread-c543a47015a5",
+      "subject": "Nonresponse in Social Surveys (Free Seminar) – livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-06T13:54:37+00:00",
+      "last_reply": "2026-02-06T13:54:37+00:00",
+      "root_message_id": "msg-c543a47015a5"
+    },
+    {
+      "id": "thread-cece5d6958db",
+      "subject": "Tree-Based Models for Addressing Nonresponse (Free Seminar) – last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-09T09:40:06+00:00",
+      "last_reply": "2026-02-09T09:40:06+00:00",
+      "root_message_id": "msg-cece5d6958db"
+    },
+    {
+      "id": "thread-32241c23e791",
+      "subject": "Generalised Linear Models in R course",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-02-09T16:31:17+01:00",
+      "last_reply": "2026-02-09T16:31:17+01:00",
+      "root_message_id": "msg-32241c23e791"
+    },
+    {
+      "id": "thread-d87354382bcb",
+      "subject": "Free AI tools for researchers – Instats",
+      "message_count": 1,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2026-02-10T16:20:00+00:00",
+      "last_reply": "2026-02-10T16:20:00+00:00",
+      "root_message_id": "msg-d87354382bcb"
+    },
+    {
+      "id": "thread-9c2eb01357e5",
+      "subject": "Exploratory Analysis of Complex Datasets with ChatGPT 2.0 – last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-11T11:16:21+00:00",
+      "last_reply": "2026-02-11T11:16:21+00:00",
+      "root_message_id": "msg-9c2eb01357e5"
+    },
+    {
+      "id": "thread-01d82044167a",
+      "subject": "Online Course: Fundamentals of Biostatistics with R (13–17 April )",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-02-11T17:22:29+01:00",
+      "last_reply": "2026-02-11T17:22:29+01:00",
+      "root_message_id": "msg-01d82044167a"
+    },
+    {
+      "id": "thread-8a5c2e673f01",
+      "subject": "Bayesian Causal Networks in R course",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-02-12T15:24:41+01:00",
+      "last_reply": "2026-02-12T15:24:41+01:00",
+      "root_message_id": "msg-8a5c2e673f01"
+    },
+    {
+      "id": "thread-fcc0168b63df",
+      "subject": "Multilevel Modeling in R – last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-13T14:12:02+00:00",
+      "last_reply": "2026-02-13T14:12:02+00:00",
+      "root_message_id": "msg-fcc0168b63df"
+    },
+    {
+      "id": "thread-ffc3fddbeeb6",
+      "subject": "Introduction to Bioinformatics for Genomics (Free Seminar) – last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-16T09:39:36+00:00",
+      "last_reply": "2026-02-16T09:39:36+00:00",
+      "root_message_id": "msg-ffc3fddbeeb6"
+    },
+    {
+      "id": "thread-2805295c42e3",
+      "subject": "Generative AI for Statistical Science (Free Seminar) – last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-18T11:59:04+00:00",
+      "last_reply": "2026-02-18T11:59:04+00:00",
+      "root_message_id": "msg-2805295c42e3"
+    },
+    {
+      "id": "thread-8e9cfaab5514",
+      "subject": "Data Analysis in R Using Tidyverse – last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-20T14:07:45+00:00",
+      "last_reply": "2026-02-20T14:07:45+00:00",
+      "root_message_id": "msg-8e9cfaab5514"
+    },
+    {
+      "id": "thread-5756de263ace",
+      "subject": "Using R as a GIS course",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-02-21T10:10:42+01:00",
+      "last_reply": "2026-02-21T10:10:42+01:00",
+      "root_message_id": "msg-5756de263ace"
+    },
+    {
+      "id": "thread-b4b9a26adc8d",
+      "subject": "Structural Equation Modeling in R – last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-23T09:26:41+00:00",
+      "last_reply": "2026-02-23T09:26:41+00:00",
+      "root_message_id": "msg-b4b9a26adc8d"
+    },
+    {
+      "id": "thread-4c712fedf71e",
+      "subject": "Introduction to Survey Design – last chance",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-25T11:46:08+00:00",
+      "last_reply": "2026-02-25T11:46:08+00:00",
+      "root_message_id": "msg-4c712fedf71e"
+    },
+    {
+      "id": "thread-119266190ad9",
+      "subject": "Agentic Data Analytics: Automating Research Workflows – livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-02-27T14:08:08+00:00",
+      "last_reply": "2026-02-27T14:08:08+00:00",
+      "root_message_id": "msg-119266190ad9"
+    },
+    {
+      "id": "thread-3c13f5e4f886",
+      "subject": "Online course: Interactive Maps with R (13–14 May)",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-02-27T18:22:22+01:00",
+      "last_reply": "2026-02-27T18:22:22+01:00",
+      "root_message_id": "msg-3c13f5e4f886"
+    }
+  ]
+}

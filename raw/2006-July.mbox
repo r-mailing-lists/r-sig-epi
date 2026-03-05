@@ -1,0 +1,113 @@
+From klaus.langohr at upc.edu  Fri Jul 21 17:35:38 2006
+From: klaus.langohr at upc.edu (Klaus Langohr)
+Date: Fri, 21 Jul 2006 17:35:38 +0200
+Subject: [R-sig-Epi] Competing risks
+Message-ID: <44C0F44A.2020004@upc.edu>
+
+Hello!
+Does anybody know, whether R offers the possibility to carry out 
+competing risks analysis with left-truncated data (late entries)?
+
+Thanks a lot!
+
+Klaus.
+
+----------------------------------------------------
+ Klaus Langohr
+ Departament d'Estad?stica i Investigaci? Operativa
+ Universitat Polit?cnica de Catalunya
+ Edifici C5 (Campus Nord)
+ C/ Jordi Girona, 1-3
+ E-08034 Barcelona
+ Tel: (+34) 934 054 093
+ Fax: (+34) 934 015 855
+
+
+From emmanuel.brasil at gmail.com  Sun Jul 23 23:34:46 2006
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Sun, 23 Jul 2006 18:34:46 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 7, Issue 1
+In-Reply-To: <mailman.13.1153562404.16192.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.13.1153562404.16192.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <a37cfb5a0607231434n4e66f8efu52c21aa007e2d701@mail.gmail.com>
+
+Klaus,
+
+If U are talking about survival analysis, R are able to do everything
+(or almost). Cox models, extended cox models with time dependent
+variables, multiple outcomes analysis, competing risks models,
+residual ajustments, model ajustments and even fragility models.
+Everythig depends on how your data is organized! These stuff are in a
+library called "survival".
+
+Pedro E. A. A. do Brasil
+Departamento de Epidemiologia e Antropologia
+Instituto de Pesquisa Evandro Chagas
+Funda??o Oswaldo Cruz
+
+
+2006/7/22, r-sig-epi-request at stat.math.ethz.ch
+<r-sig-epi-request at stat.math.ethz.ch>:
+> Send R-sig-Epi mailing list submissions to
+>         r-sig-epi at stat.math.ethz.ch
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+>         https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> or, via email, send a message with subject or body 'help' to
+>         r-sig-epi-request at stat.math.ethz.ch
+>
+> You can reach the person managing the list at
+>         r-sig-epi-owner at stat.math.ethz.ch
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of R-sig-Epi digest..."
+>
+>
+> Today's Topics:
+>
+>    1. Competing risks (Klaus Langohr)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Fri, 21 Jul 2006 17:35:38 +0200
+> From: Klaus Langohr <klaus.langohr at upc.edu>
+> Subject: [R-sig-Epi] Competing risks
+> To: r-sig-epi at stat.math.ethz.ch
+> Message-ID: <44C0F44A.2020004 at upc.edu>
+> Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+>
+> Hello!
+> Does anybody know, whether R offers the possibility to carry out
+> competing risks analysis with left-truncated data (late entries)?
+>
+> Thanks a lot!
+>
+> Klaus.
+>
+> ----------------------------------------------------
+>  Klaus Langohr
+>  Departament d'Estad?stica i Investigaci? Operativa
+>  Universitat Polit?cnica de Catalunya
+>  Edifici C5 (Campus Nord)
+>  C/ Jordi Girona, 1-3
+>  E-08034 Barcelona
+>  Tel: (+34) 934 054 093
+>  Fax: (+34) 934 015 855
+>
+>
+>
+> ------------------------------
+>
+> _______________________________________________
+> R-sig-Epi mailing list
+> R-sig-Epi at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+>
+> End of R-sig-Epi Digest, Vol 7, Issue 1
+> ***************************************
+>
+
+

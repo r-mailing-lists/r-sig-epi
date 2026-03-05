@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2018-05",
+  "messages": [
+    {
+      "id": "msg-e2b73553500f",
+      "message_id": "<6782241a2b3a1236c4a11c955b6ccb7a@prstatistics.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "a49005db234a0680e39b89fc8690e893af64f94b8230db3a917426e095842f7c",
+      "date": "2018-05-15T21:21:20+01:00",
+      "subject": "[R-sig-Epi] TWO Species Distribution Modelling (SDM) Courses",
+      "subject_clean": "TWO Species Distribution Modelling (SDM) Courses",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "These courses might interest some list members\n\nTWO Species Distribution Modelling (SDM) Courses\n\n1) Species distribution models using R (SDMR01) - Registration deadline \napproaching 21/05/2018!!\nhttps://www.prstatistics.com/course/species-distribution-models-using-r-sdmr01/\nDelivered by Prof. Jane Elith, Dr. Gurutzeta Guillera and Jose \nLahoz-Monfort from 12th - 15th June 2018 at Myuna Bay Sport and \nRecreation, Wangi Road, Myuna Bay, New South Wales 2264 Australia.\n\n2) Species distribution/occupancy modelling using PRESENCE and R \n(OCCU01)\nhttps://www.prstatistics.com/course/species-distributionoccupancy-modelling-using-r-occu01/\nDelivered by Dr Darryl MacKenzie form 25th - 29th June 2018 at PR \nstatistics head office, 53 Morrison Street, Glasgow, Scotland, G5 8LB\n\n1) Species distribution models using R (SDMR01)\nCourse Overview:\nThe aim of this four-day course is to work towards an understanding of, \nand practical ability to fit, species distribution models (SDMs). It \nwill be useful if you plan to use SDMs, or if you just want to \nunderstand them better. We will focus on statistical models of species \ndistributions ? those that combine observed species records with \nenvironmental data. Using a mixture of lectures, computer exercises and \ncase studies, participants will learn to:\n1) identify relevant data, and prepare it for modelling;\n2) fit models using several modelling methods (including Maxent, \ngeneralized linear models and their extensions, and boosted regression \ntrees);\n3) consider how to model species if detection is imperfect;\n4) evaluate models and interpret them;\n5) understand the range of practical issues that arise in typical \napplications of SDMs.\nPractical sessions will use the free statistical software, R ? prior \nexperience (even if some practice before you come) will be useful. \nExample data will be provided but participants may also bring their own \ndata.\nPresenters include Jane Elith and Gurutzeta Guillera-Arroita, who are \nhighly experienced in SDMs.\n\n2) Species distribution/occupancy modelling using PRESENCE and R \n(OCCU01)\nCourse Overview:\nThe presence or absence of a species across a set of landscape units is \na fundamental concept widely used in ecology (e.g., species range or \ndistribution, epidemiology, habitat modeling, resource selection \nprobability functions, as a monitoring metric, metapopulation studies, \nbiodiversity and species co-occurrence). An important sampling issue, \nhowever, is that a species may not always be detected when present at a \nlandscape unit. This will result in ?false absences? causing parameter \nestimates to be biased if unaccounted for, possibly leading to \nmisleading results and conclusions, even with moderate levels of \nimperfect detection.\nThis workshop will cover many of the latest methods for modeling \npatterns and dynamics of species occurrence in a landscape while \naccounting for the imperfect detection of the species.\nIncluding:\n? estimating level of occurrence at single point in time\n? identifying factors that influence species occurrence\n? creating species distribution maps\n? modelling changes in distribution over time\n? study design\nParticipants will be introduced to available software through worked \nexamples, and there will be special emphasis on aspects of study design. \nWhile primarily aimed at the beginner and intermediate level, more \nexperienced researchers will also benefit from attending.\nThe first four days will comprise of formal lectures and exercises, and \nthe final morning will be an informal discussion/consulting session \nwhere participants can work on their own data, talk one-on-one with the \ninstructor, etc.\n\nIf you have any questions please feel free to email \noliverhooker at prstatistics.com\n\nOliver Hooker PhD.\nPR statistics\n\n2018 publications -\n\nPhenotypic and resource use partitioning amongst sympatric lacustrine \nbrown trout, Salmo trutta. Biological Journal of the Linnean Society. \nDOI 10.1093/biolinnean/bly032\n\nprstatistics.com\nfacebook.com/prstatistics/\ntwitter.com/PRstatistics\ngroups.google.com/d/forum/pr-statistics-post-course-forum\nprstatistics.com/organiser/oliver-hooker/\n\n6 Hope Park Crescent\nEdinburgh\nEH8 9NA",
+      "body_snippet": "These courses might interest some list members\n\nTWO Species Distribution Modelling (SDM) Courses\n\n1) Species distribution models using R (SDMR01) - Registration deadline \napproaching 21/05/2018!!\nhttp",
+      "thread_id": "thread-e2b73553500f",
+      "thread_depth": 0,
+      "month": "2018-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e2b73553500f",
+      "subject": "TWO Species Distribution Modelling (SDM) Courses",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2018-05-15T21:21:20+01:00",
+      "last_reply": "2018-05-15T21:21:20+01:00",
+      "root_message_id": "msg-e2b73553500f"
+    }
+  ]
+}

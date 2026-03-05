@@ -1,0 +1,127 @@
+From ommo1 at hotmail.com  Thu May  2 17:41:38 2013
+From: ommo1 at hotmail.com (Omnia Abdulrazeg)
+Date: Thu, 2 May 2013 15:41:38 +0000
+Subject: [R-sig-Epi] Exposure data: mixed effects
+Message-ID: <DUB106-W2561E1D7B7C494AE36CB04FEBD0@phx.gbl>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130502/2a70b7ba/attachment.pl>
+
+From albert at hjarta.is  Tue May  7 15:11:40 2013
+From: albert at hjarta.is (Albert V. Smith)
+Date: Tue, 7 May 2013 13:11:40 +0000
+Subject: [R-sig-Epi] Nested case-control, multiple matching factors
+Message-ID: <CDAEAE08.44248%albert@hjarta.is>
+
+
+I would like to generated a nested case-control set, using multiple
+factors to match. I am using the ?ccwc? function, and while I apparently
+get the right behavior, I end up with a combo of misnamed and unnamed
+columns. I am unsure whether this is a bug, or whether I am making an
+inappropriate call.
+
+Example:
+
+-----
+
+suppressMessages(library(Epi))
+data(diet)
+
+# Example from the Documentation
+
+suppressWarnings(head(ccwc(doe, dox, chd, origin = dob, controls = 2, data
+= diet,
+    include = energy, match = job)))
+
+##
+## Sampling risk sets: .............................................
+
+##   Set Map       Time Fail       job energy
+## 1   1   3 1984-03-20    1 Conductor  24.95
+## 2   1 230 1982-03-14    0 Conductor  36.18
+## 3   1  46 1978-10-08    0 Conductor  22.37
+## 4   2   9 1976-07-27    1 Conductor  23.16
+## 5   2 166 1981-12-09    0 Conductor  27.03
+## 6   2 253 1973-05-13    0 Conductor  32.71
+
+# Exactly as it should, given this is the example from the documentation
+
+# Then..., trying matching on multiple factors.
+
+# Matching on multiple factors results in mislabeled columns, as well as
+# unlabeled columns
+
+suppressWarnings(head(ccwc(doe, dox, chd, origin = dob, controls = 2, data
+= diet,
+    include = list(height, weight, fat), match = list(job, energy.grp))))
+
+##
+## Sampling risk sets: ..............................................
+
+##   Set Map       Time Fail    height       weight   fat   NA.  NA..1
+## 1   1   3 1984-03-20    1 Conductor <=2750 KCals 152.4 49.90 11.249
+## 2   1  70 1978-06-01    0 Conductor <=2750 KCals 170.2 67.59 10.702
+## 3   1 149 1983-11-03    0 Conductor <=2750 KCals 170.0 59.51 10.798
+## 4   2   9 1976-07-27    1 Conductor <=2750 KCals 174.0 66.00 10.140
+## 5   2 187 1972-04-05    0 Conductor <=2750 KCals 172.7 71.90 10.019
+## 6   2  13 1972-03-23    0 Conductor <=2750 KCals 174.0 61.46  7.272
+
+
+-----
+
+I am ending up with the the retained columns at the end, as well as the
+columns used for matching. However, the names for the included columns are
+not assigned properly, and there while the names for the matched columns
+are not retained.
+
+Is this a bug, or am I making an inappropriate call to the ?ccwc? function?
+
+Thanks,
+-albert
+
+
+
+
+
+
+
+
+
+
+
+
+?essi t?lvup?stur og vi?hengi g?ti
+innihaldi? tr?na?aruppl?singar og/e?a einkam?l og er eing?ngu ?tla?ur ?eim sem
+hann er st?la?ur ?.
+
+
+Efni hans og innihald er ? ?byrg? ?ess starfsmanns sem sendir hann ef ?a? tengist ekki starfsemi Hjartaverndar.
+Ef sending ?essi hefur ranglega borist y?ur vinsamlega g?ti? fyllsta
+tr?na?ar,tilkynni? sendanda og ey?ileggi? sendinguna eins og skylt er skv.
+
+5. mgr. 47. gr. laga um fjarskipti nr. 81/2003 um fjarskipti.
+
+The information transmitted, including any attachment, may contain confidential
+and/or privileged material and is intended only for the addressee only. The
+contents of the message are the individual senders responsibility if it is not
+related to the operation of Hjartavernd. If you receive this in error, please
+keep the information confidential, contact the sender and delete the material
+from your system.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

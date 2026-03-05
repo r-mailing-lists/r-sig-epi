@@ -1,0 +1,279 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2025-11",
+  "messages": [
+    {
+      "id": "msg-6cbfba86aa46",
+      "message_id": "<845-XejDQ2CQkG_D3pVdJA@geopod-ismtpd-0>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2025-11-04T12:50:00Z",
+      "subject": "[R-sig-Epi] ChatGPT for Advanced Data Analysis 5.0 - livestream seminar",
+      "subject_clean": "ChatGPT for Advanced Data Analysis 5.0 - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 3-day seminar, ChatGPT for Advanced Data Analysis 5.0 <https://instats.org/seminar/using-chatgpt-for-advanced-data-analysis>, livestreaming November 14?18 (for EU/Asia) and December 5?9 (for the Americas), and led by professor Peter Gruber from the Faculty of Economics, USI Universit? della Svizzera Italiana. Imagine importing data, running time-series and regression models, generating tables and figures, and even drafting a full research report?all by conversing in plain English. This is the promise of ChatGPT?s Advanced Data Analytics mode, and professor Gruber, a dual-PhD physicist-economist who coined the phrase ?Colloquial Data Science,? will guide you through every step. Over nine highly interactive sessions you?ll master the P.R.O.P.E.R. prompting framework, explore descriptive and inferential statistics, delve into Python code that ChatGPT generates under the hood, and learn when to push back on the AI?s answers to ensure rigor and reproducibility.\n\nSign up today <https://instats.org//seminar/using-chatgpt-for-advanced-data-analysis> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\nhttps://instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 3-day seminar, ChatGPT for Advanced Data Analysis 5.0 <https://instats.org/seminar/using-chatgpt-for-advanced-data-analysis>, livestreaming November 14?18 (f",
+      "thread_id": "thread-6cbfba86aa46",
+      "thread_depth": 0,
+      "month": "2025-11"
+    },
+    {
+      "id": "msg-220cacbaccdf",
+      "message_id": "<NOSZqrSiRFK8kGiRNE9v2A@geopod-ismtpd-10>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2025-11-06T12:20:00Z",
+      "subject": "[R-sig-Epi] Longitudinal Analysis in Biostatistics - livestream seminar",
+      "subject_clean": "Longitudinal Analysis in Biostatistics - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Longitudinal Analysis in Biostatistics <https://instats.org/seminar/longitudinal-analysis-in-biostatistics-p>, livestreaming on November 14 and led by Dr Tuhin Sheikh from Arizona State University. Longitudinal data?repeated observations of the same subjects over time?allow researchers to probe temporal dynamics and causal mechanisms, yet they also present thorny challenges such as time-varying correlation, missingness, and hierarchical structure. This intensive workshop empowers PhD students, academics, and professional researchers to meet those challenges head-on using R and RStudio. Across three focused sessions, you will contrast marginal and conditional modeling frameworks, unravel strategies for handling MAR and MNAR missing data via multiple imputation and sensitivity analysis, and demystify multilevel models for nested designs like patients within hospitals or students within schools. Through real-world case studies and hands-on coding exercises, you will leave with the conceptual grounding and practical skills required to advance your own longitudinal research.\n\nSign up today <https://instats.org//seminar/longitudinal-analysis-in-biostatistics-p> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\nhttps://instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Longitudinal Analysis in Biostatistics <https://instats.org/seminar/longitudinal-analysis-in-biostatistics-p>, livestreaming on November 14 an",
+      "thread_id": "thread-220cacbaccdf",
+      "thread_depth": 0,
+      "month": "2025-11"
+    },
+    {
+      "id": "msg-4d12747dfd14",
+      "message_id": "<31Dlgp8KSoS_Nvo4RIcUGQ@geopod-ismtpd-canary-0>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2025-11-11T12:20:00Z",
+      "subject": "[R-sig-Epi] Advanced R for Spatial Analysis - livestream seminar",
+      "subject_clean": "Advanced R for Spatial Analysis - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 2-day seminar, Advanced R for Spatial Analysis <https://instats.org/seminar/advanced-r-for-spatial-analysis>, running livestreaming Nov 25?26 and led by Dr Nick Bearman from University College London . Designed for researchers who already have a working knowledge of R and spatial data, this intensive workshop shows you how to push your spatial analytics to the next level. After a concise mapping refresher, you?ll dive into spatial joins, buffering, point-in-polygon queries, intersections, polygon overlays, and area-weighted joins, weighing the trade-offs of point versus polygon data while working through a ?Future Tram Expansion? case study that ties all techniques together. Whether you?re a PhD student, academic, or applied researcher, Dr Bearman?s practical approach will equip you with the advanced toolkit needed to tackle complex spatial questions with confidence.\n\nSign up today <https://instats.org//seminar/advanced-r-for-spatial-analysis> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\nhttps://instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 2-day seminar, Advanced R for Spatial Analysis <https://instats.org/seminar/advanced-r-for-spatial-analysis>, running livestreaming Nov 25?26 and led by Dr N",
+      "thread_id": "thread-4d12747dfd14",
+      "thread_depth": 0,
+      "month": "2025-11"
+    },
+    {
+      "id": "msg-f4982566aefc",
+      "message_id": "<C97KMFJiQD-MP8-vEDF6wQ@geopod-ismtpd-11>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2025-11-11T15:50:00Z",
+      "subject": "[R-sig-Epi] Dimensionality Reduction 2.0 - livestream seminar",
+      "subject_clean": "Dimensionality Reduction 2.0 - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Dimensionality Reduction with UMAP and Beyond 2.0 <https://instats.org/seminar/dimensionality-reduction-with-umap-and-b>, livestreaming on 25 November and led by Dr Nikolay Oskolkov from Lund University and Group Leader (PI) at LIOS. If your work involves large, multivariate or ?big? datasets, mastering dimensionality-reduction techniques is indispensable for extracting actionable insights and preparing data for downstream analysis. In this intensive workshop, Dr Oskolkov will guide you through both classic linear methods such as PCA and cutting-edge nonlinear approaches including t-SNE and, in particular, UMAP. You will learn why and when to reduce dimensionality, how to code and interpret each technique in R and Python, and how to avoid common pitfalls while maximising interpretability. Real?world examples?from single-cell genomics to broader applications in the health, social, and natural sciences?anchor the theory in hands-on practice, giving you the confidence to preprocess high-dimensional data, select the right algorithms, and communicate your findings effectively.\n\nSign up today <https://instats.org//seminar/dimensionality-reduction-with-umap-and-b> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\nhttps://instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Dimensionality Reduction with UMAP and Beyond 2.0 <https://instats.org/seminar/dimensionality-reduction-with-umap-and-b>, livestreaming on 25 ",
+      "thread_id": "thread-f4982566aefc",
+      "thread_depth": 0,
+      "month": "2025-11"
+    },
+    {
+      "id": "msg-76a542cb25bf",
+      "message_id": "<1763026494.095338410@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2025-11-13T10:34:54+01:00",
+      "subject": "[R-sig-Epi] Spatial Statistics with R course",
+      "subject_clean": "Spatial Statistics with R course",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nThis is the last chance to join our online course ?Spatial Statistics with R?, taking place 17?21 November.\n \nThe course will introduce spatial statistical methods and their practical implementation in R, including point pattern analysis, geostatistics, regression models, and machine learning approaches for spatial data.\n \nFor more information, please visit: [ https://www.physalia-courses.org/courses-workshops/spatial-statistics/ ]( https://www.physalia-courses.org/courses-workshops/spatial-statistics/ )\n \nBest regards,\nCarlo\n \n \n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nThis is the last chance to join our online course ?Spatial Statistics with R?, taking place 17?21 November.\n \nThe course will introduce spatial statistical methods and their practical implem",
+      "thread_id": "thread-76a542cb25bf",
+      "thread_depth": 0,
+      "month": "2025-11"
+    },
+    {
+      "id": "msg-daa1dac2984b",
+      "message_id": "<4876fkfbS9qpdfquwTj_9Q@geopod-ismtpd-canary-0>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2025-11-13T12:50:00Z",
+      "subject": "[R-sig-Epi] Spatial Statistics in R - livestream seminar",
+      "subject_clean": "Spatial Statistics in R - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Spatial Statistics in R <https://instats.org/seminar/spatial-statistics-in-r>, livestreaming December 2 and led by Dr Nick Bearman from UCK. As spatially referenced data becomes central to research across the social, environmental, and health sciences, mastering spatial statistics is essential for revealing patterns and relationships that conventional methods miss. In this immersive workshop you will learn how to move seamlessly between GeoDa?s intuitive exploratory tools and R?s powerful scripting environment, gaining the skills to import, visualise, and interrogate geographic datasets; diagnose and interpret spatial autocorrelation; calculate Moran?s I; run Local Indicators of Spatial Autocorrelation (LISA); and perform spatial regression analyses that account for clustering effects. Dr Bearman?s approachable teaching style blends clear conceptual explanations with live coding and interactive demonstrations, ensuring you leave with reproducible R scripts, practical know-how, and a deeper understanding of how spatial processes shape your data. The event forms part of Instats? three-seminar GIS in R course series <https://instats.org/course/gis-in-r-a-full-course2>; enrol in the full sequence to receive a 10 % discount while progressing from introductory to advanced spatial methods. Join us on December 2 and elevate your analysis with state-of-the-art spatial statistics.\n\nSign up today <https://instats.org//seminar/spatial-statistics-in-r> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\nhttps://instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Spatial Statistics in R <https://instats.org/seminar/spatial-statistics-in-r>, livestreaming December 2 and led by Dr Nick Bearman from UCK. A",
+      "thread_id": "thread-daa1dac2984b",
+      "thread_depth": 0,
+      "month": "2025-11"
+    },
+    {
+      "id": "msg-392a13b7db37",
+      "message_id": "<s--gYGh0R-epx4mnvmT_1Q@geopod-ismtpd-8>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2025-11-18T15:50:00Z",
+      "subject": "[R-sig-Epi] Pollution and Health – livestream seminar",
+      "subject_clean": "Pollution and Health – livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is pleased to offer a 1-day seminar, Pollution and Health: From Data to Evidence <https://instats.org/seminar/pollution-and-health-from-data-to-eviden>, livestreaming on Dec 4 and led by Michael Cork from Harvard University's T.H. Chan School of Public Health. Air pollution remains a leading environmental health concern, and this workshop demystifies the statistical challenges of estimating its effects by contrasting traditional regression with modern causal-inference frameworks, highlighting how each approach can yield different ?safe? exposure thresholds. Drawing on recent JRSS-A research, Cork will walk participants through exposure?response curves, confounding, weighting, diagnostics, and visualization, coupling large-scale simulations with real-world Medicare data to show when and why methods diverge. Attendees will come away with practical guidelines for selecting and interpreting models that inform policy, along with R code and reproducible materials to deepen their exploration after the seminar.\n\nSign up today <https://instats.org//seminar/pollution-and-health-from-data-to-eviden> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\nhttps://instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is pleased to offer a 1-day seminar, Pollution and Health: From Data to Evidence <https://instats.org/seminar/pollution-and-health-from-data-to-eviden>, livestreaming on Dec 4 and",
+      "thread_id": "thread-392a13b7db37",
+      "thread_depth": 0,
+      "month": "2025-11"
+    },
+    {
+      "id": "msg-ca2e0e3ac900",
+      "message_id": "<tDGYwnFXSL-dAmGWcONaag@geopod-ismtpd-11>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2025-11-19T16:20:00Z",
+      "subject": "[R-sig-Epi] Observational Research Design and Analysis - livestream seminar",
+      "subject_clean": "Observational Research Design and Analysis - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 3-day seminar, Observational Research Design and Analysis <https://instats.org/seminar/observational-research-design-and-analys>, livestreaming December 8?10 and led by professor Lauren Wisnieski. Observational studies are indispensable for answering non-randomizable questions, generating hypotheses, and providing real-world evidence, and this workshop guides participants from study design to analysis and STROBE-aligned reporting while tackling bias, confounding, and DAG-based causal reasoning. Over three half-day sessions, Professor Wisnieski combines focused lectures, hands-on exercises, and critiques of published work to equip researchers with the skills to build defensible protocols, implement appropriate multivariable strategies, and critically appraise observational findings.\n\nSign up today <https://instats.org//seminar/observational-research-design-and-analys> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\nhttps://instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 3-day seminar, Observational Research Design and Analysis <https://instats.org/seminar/observational-research-design-and-analys>, livestreaming December 8?10",
+      "thread_id": "thread-ca2e0e3ac900",
+      "thread_depth": 0,
+      "month": "2025-11"
+    },
+    {
+      "id": "msg-f7df15859fef",
+      "message_id": "<1763802203.310120766@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2025-11-22T10:03:23+01:00",
+      "subject": "[R-sig-Epi] Generalised Additive Models in R course",
+      "subject_clean": "Generalised Additive Models in R course",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nRegistration is open for our online course ?Generalised Additive Models in R?, taking place 8?11 December. \n \nThe course is designed for graduate students and researchers with basic knowledge of R and some familiarity with GLMs. Through a combination of lectures and hands-on exercises, participants will learn how to fit GAMs using mgcv and gratia, understand different spline types, visualise model outputs, and check model assumptions. More advanced topics such as smooth interactions and hierarchical GAMs will also be covered.\n \nSessions run daily from 14:00 to 20:00 (Berlin time).\n \nIf you have any questions, feel free to contact us.\nKind regards,Carlo\n \n \n \n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nRegistration is open for our online course ?Generalised Additive Models in R?, taking place 8?11 December. \n \nThe course is designed for graduate students and researchers with basic knowledg",
+      "thread_id": "thread-f7df15859fef",
+      "thread_depth": 0,
+      "month": "2025-11"
+    },
+    {
+      "id": "msg-12569113c99c",
+      "message_id": "<n5l-8RM6Qx2cWsEouxuluw@geopod-ismtpd-1>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2025-11-24T15:50:00Z",
+      "subject": "[R-sig-Epi] AI-Powered Qualitative Analysis in R - livestream seminar",
+      "subject_clean": "AI-Powered Qualitative Analysis in R - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, AI-Powered Qualitative Analysis in R <https://instats.org/seminar/ai-powered-qualitative-analysis-in-r>, livestreaming December 12 and led by professor Kenneth Benoit and Seraphine Maerz. This intensive workshop demonstrates how large language models can transform qualitative research by harnessing the new R packages quallmer and ellmer to annotate texts, images, audio, video, PDFs, and tabular data?no prior R experience required. Through guided demonstrations and hands-on exercises, participants will craft reliable prompts, connect to OpenAI, Google, Anthropic, and open-source models, validate AI-assisted coding against human judgments, and build reproducible, publication-ready pipelines. The seminar also covers ethical and secure data handling, troubleshooting best practices, and techniques for integrating AI outputs into reflexive qualitative analysis, providing a flexible alternative to conventional qualitative software. Register for the companion Fine-Tuning LLMs for Text Analysis <https://instats.org/seminar/fine-tuning-llms-for-text-analysis> running December 16 and receive a 10% discount on both seminars.\n\nSign up today <https://instats.org//seminar/ai-powered-qualitative-analysis-in-r> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstitute for Statistical and Data Science\nhttps://instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, AI-Powered Qualitative Analysis in R <https://instats.org/seminar/ai-powered-qualitative-analysis-in-r>, livestreaming December 12 and led by ",
+      "thread_id": "thread-12569113c99c",
+      "thread_depth": 0,
+      "month": "2025-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-6cbfba86aa46",
+      "subject": "ChatGPT for Advanced Data Analysis 5.0 - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2025-11-04T12:50:00+00:00",
+      "last_reply": "2025-11-04T12:50:00+00:00",
+      "root_message_id": "msg-6cbfba86aa46"
+    },
+    {
+      "id": "thread-220cacbaccdf",
+      "subject": "Longitudinal Analysis in Biostatistics - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2025-11-06T12:20:00+00:00",
+      "last_reply": "2025-11-06T12:20:00+00:00",
+      "root_message_id": "msg-220cacbaccdf"
+    },
+    {
+      "id": "thread-4d12747dfd14",
+      "subject": "Advanced R for Spatial Analysis - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2025-11-11T12:20:00+00:00",
+      "last_reply": "2025-11-11T12:20:00+00:00",
+      "root_message_id": "msg-4d12747dfd14"
+    },
+    {
+      "id": "thread-f4982566aefc",
+      "subject": "Dimensionality Reduction 2.0 - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2025-11-11T15:50:00+00:00",
+      "last_reply": "2025-11-11T15:50:00+00:00",
+      "root_message_id": "msg-f4982566aefc"
+    },
+    {
+      "id": "thread-76a542cb25bf",
+      "subject": "Spatial Statistics with R course",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2025-11-13T10:34:54+01:00",
+      "last_reply": "2025-11-13T10:34:54+01:00",
+      "root_message_id": "msg-76a542cb25bf"
+    },
+    {
+      "id": "thread-daa1dac2984b",
+      "subject": "Spatial Statistics in R - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2025-11-13T12:50:00+00:00",
+      "last_reply": "2025-11-13T12:50:00+00:00",
+      "root_message_id": "msg-daa1dac2984b"
+    },
+    {
+      "id": "thread-392a13b7db37",
+      "subject": "Pollution and Health – livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2025-11-18T15:50:00+00:00",
+      "last_reply": "2025-11-18T15:50:00+00:00",
+      "root_message_id": "msg-392a13b7db37"
+    },
+    {
+      "id": "thread-ca2e0e3ac900",
+      "subject": "Observational Research Design and Analysis - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2025-11-19T16:20:00+00:00",
+      "last_reply": "2025-11-19T16:20:00+00:00",
+      "root_message_id": "msg-ca2e0e3ac900"
+    },
+    {
+      "id": "thread-f7df15859fef",
+      "subject": "Generalised Additive Models in R course",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2025-11-22T10:03:23+01:00",
+      "last_reply": "2025-11-22T10:03:23+01:00",
+      "root_message_id": "msg-f7df15859fef"
+    },
+    {
+      "id": "thread-12569113c99c",
+      "subject": "AI-Powered Qualitative Analysis in R - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2025-11-24T15:50:00+00:00",
+      "last_reply": "2025-11-24T15:50:00+00:00",
+      "root_message_id": "msg-12569113c99c"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+From duo_w@n @end|ng |rom y@hoo@com  Tue Oct 11 20:05:08 2022
+From: duo_w@n @end|ng |rom y@hoo@com (duo wan)
+Date: Tue, 11 Oct 2022 18:05:08 +0000 (UTC)
+Subject: [R-sig-Epi] Simulating a Weibull regression model
+References: <928859289.418987.1665511508571.ref@mail.yahoo.com>
+Message-ID: <928859289.418987.1665511508571@mail.yahoo.com>
+
+HI All,I am trying to simulate a AFT Weibull model in R using a log-linear mod
+log(Y)=?0+?1X1+?2X2+cW
+
+
+Where W is a extreme value distribution. My R code is below. I can not understand why the intercept estimate is 2.94, not lose to 1?? Thanks,?
+Vincent
+
+install.packages("extRemes")
+library(extRemes)
+
+n<-500000    
+x1<-rnorm(n,0,1)    
+x2<-rnorm(n,0,1)    
+error<-revd(n, loc = 0, scale = 1)    
+b0<- 1    
+b1<-0.5    
+b2<--1.2    
+c<-1    
+time<-exp(b0+b1*x1+b2*x2+c*error)    
+status<-rep(1,n)    
+survreg(Surv(time, status==1) ~ x1+x2,dist="exponential")
+
+####output 
+
+Coefficients:    
+(Intercept)          x1          x2 
+
+  2.9390956   0.4931199  -1.2061369 
+
+Scale fixed at 1 
+#####
+
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From m@rk@c|ement@ @end|ng |rom k|@@e  Wed Oct 12 10:26:55 2022
+From: m@rk@c|ement@ @end|ng |rom k|@@e (Mark Clements)
+Date: Wed, 12 Oct 2022 08:26:55 +0000
+Subject: [R-sig-Epi] Simulating a Weibull regression model
+In-Reply-To: <928859289.418987.1665511508571@mail.yahoo.com>
+References: <928859289.418987.1665511508571.ref@mail.yahoo.com>
+ <928859289.418987.1665511508571@mail.yahoo.com>
+Message-ID: <GV3P280MB000199FA6EB7444CD1C56EB8F0229@GV3P280MB0001.SWEP280.PROD.OUTLOOK.COM>
+
+>From ?survival::survreg.distributions, we find that the CDF for an extreme value distribution is defined as F=1-e^{-e^t}, whereas ?extRemes::revd gives G(x) = exp(-exp((x - location)/scale)) (or F=e^{-e^t}) when shape=0.
+
+If you use
+
+time<-exp(b0+b1*x1+b2*x2-c*error) # or
+time<-rexp(n, rate=1/exp(b0+b1*x1+b2*x2)) # or
+time<-rweibull(n, shape=c, scale=exp(b0+b1*x1+b2*x2))
+
+then you could model using
+
+survreg(Surv(time, status==1) ~ x1+x2,dist="exponential") # or
+survreg(Surv(time, status==1) ~ x1+x2,dist="weibull")
+
+-- Mark
+________________________________
+From: R-sig-Epi <r-sig-epi-bounces at r-project.org> on behalf of duo wan <duo_wan at yahoo.com>
+Sent: 11 October 2022 20:05
+To: r-sig-epi at r-project.org <r-sig-epi at r-project.org>
+Subject: [R-sig-Epi] Simulating a Weibull regression model
+
+[Some people who received this message don't often get email from duo_wan at yahoo.com. Learn why this is important at https://aka.ms/LearnAboutSenderIdentification ]
+
+HI All,I am trying to simulate a AFT Weibull model in R using a log-linear mod
+log(Y)=?0+?1X1+?2X2+cW
+
+
+Where W is a extreme value distribution. My R code is below. I can not understand why the intercept estimate is 2.94, not lose to 1?  Thanks,
+Vincent
+
+install.packages("extRemes")
+library(extRemes)
+
+n<-500000
+x1<-rnorm(n,0,1)
+x2<-rnorm(n,0,1)
+error<-revd(n, loc = 0, scale = 1)
+b0<- 1
+b1<-0.5
+b2<--1.2
+c<-1
+time<-exp(b0+b1*x1+b2*x2+c*error)
+status<-rep(1,n)
+survreg(Surv(time, status==1) ~ x1+x2,dist="exponential")
+
+####output
+
+Coefficients:
+(Intercept)          x1          x2
+
+  2.9390956   0.4931199  -1.2061369
+
+Scale fixed at 1
+#####
+
+
+
+
+        [[alternative HTML version deleted]]
+
+_______________________________________________
+R-sig-Epi at r-project.org mailing list
+https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fstat.ethz.ch%2Fmailman%2Flistinfo%2Fr-sig-epi&amp;data=05%7C01%7Cmark.clements%40ki.se%7C9224c78aa653458e9ca808daabb3324e%7Cbff7eef1cf4b4f32be3da1dda043c05d%7C0%7C0%7C638011083709550655%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=GIx6eSNqJs4NPSC1MhXz%2FgfoKrO5nSQQM8gzc8BaPXI%3D&amp;reserved=0
+
+
+
+Nar du skickar e-post till Karolinska Institutet (KI) innebar detta att KI kommer att behandla dina personuppgifter. Har finns information om hur KI behandlar personuppgifter<https://ki.se/medarbetare/integritetsskyddspolicy>.
+
+
+Sending email to Karolinska Institutet (KI) will result in KI processing your personal data. You can read more about KI's processing of personal data here<https://ki.se/en/staff/data-protection-policy>.
+
+	[[alternative HTML version deleted]]
+
+

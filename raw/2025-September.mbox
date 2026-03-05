@@ -1,0 +1,366 @@
+From mzyphur @end|ng |rom |n@t@t@@org  Tue Sep  2 11:20:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Tue, 02 Sep 2025 09:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] What is GIS? - free seminar
+Message-ID: <un5PDSD5S7OyRwrhB7HupQ@geopod-ismtpd-10>
+
+Hi everyone
+
+Instats is excited to offer a free seminar What is GIS? <https://instats.org/seminar/what-is-gis-free-seminar>, livestreaming on October 7 and led by Dr Nick Bearman from University College London and Geospatial Training Solutions. Mastering geospatial information systems has become essential for today?s scholars: GIS enables researchers to visualise, analyse, and understand spatial data?whether mapping species distributions, investigating urban growth, or uncovering geographic patterns in social science. In this focused workshop, Dr Bearman translates core GIS concepts into practical skills, guiding participants through sourcing and managing spatial data, navigating popular GIS software, creating compelling visualisations, and applying spatial analysis techniques across diverse research domains. Attendees will leave with the confidence to integrate GIS into their projects, enhancing both analytical depth and methodological rigour.
+
+This free seminar is an introductory event providing a strong foundation for participants who are interested in advancing their GIS skills further. Dr Bearman is also offering two additional multi-part courses, each available with an automatic 10% discount. These advanced offerings include: (1) QGIS: A Full Course <https://instats.org/course/qgis-a-full-course2>, which is a meticulously structured sequence designed to equip researchers with essential skills for managing, analyzing, and visualizing spatial data using the powerful QGIS software; and (2) GIS in R: A Full Course <https://instats.org/course/gis-in-r-a-full-course2>, which comprises three thoughtfully curated seminars, each covering core aspects of GIS in R, from basic data handling to advanced spatial analyses and the application of spatial statistics.
+
+Sign up today <https://instats.org/seminar/what-is-gis-free-seminar> and share this opportunity with colleagues and students who could benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Sat Sep  6 08:40:35 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Sat, 06 Sep 2025 06:40:35 +0000 (UTC)
+Subject: [R-sig-Epi] Bayesian Statistical Modelling - livestream seminar
+Message-ID: <yTs3JsgQSZ2j8aR3zu56LA@geopod-ismtpd-0>
+
+Hi everyone
+
+Last chance to register for the upcoming 5-day Introduction to Bayesian Statistical Modelling <https://instats.org/seminar/introduction-to-bayesian-statistical-mod-1>, livestreaming September 8 ? October 6 (Europe) and led by Dr. Rosina Savisaar from Mondego Science (Biostatistics). Designed for both newcomers to regression and seasoned frequentists looking to rethink inference, this workshop provides a gentle yet thorough immersion into Bayesian thinking with R. You?ll move from identifying variable types and matching them to probability distributions to mastering priors, likelihoods, and posteriors, all while implementing increasingly complex regression models in the brms package. Along the way, Dr. Savisaar will demystify Bayesian alternatives to P-values, demonstrate how Bayesian methods tackle models that challenge classical approaches, and emphasize intuitive interpretation, model checking, visualization, and prediction on real biomedical data sets. Weekly hands-on assignments ensure you consolidate each concept and finish the course with practical code, robust understanding, and new confidence in applying Bayesian approaches across disciplines.
+
+Sign up today <https://instats.org/seminar/introduction-to-bayesian-statistical-mod-1> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Tue Sep  9 10:50:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Tue, 09 Sep 2025 08:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] Data Wrangling in R with Copilot - livestream seminar
+Message-ID: <ZHdL5te-TkGOOCvdo3wNTw@geopod-ismtpd-4>
+
+Hi everyone
+
+Instats is excited to offer a 1-day seminar, Data Wrangling in R with Copilot <https://instats.org/seminar/data-wrangling-in-r-with-copilot>, livestreaming on September 16 and led by Dr Fodil Ihaddaden from the Institute for Statistical and Data Science. Designed for PhD students, academics, and professional researchers, this hands-on workshop provides a comprehensive tour of advanced data manipulation in R using the lightning-fast data.table package?now super-charged with large-language-model assistance via Copilot. Over the course of the day, you?ll learn how to set up data.table workflows, leverage keys and indexing for instant retrieval, execute complex transformations and aggregations, and optimize memory usage for truly large datasets. You?ll also explore how to integrate data.table with the broader R ecosystem, troubleshoot performance bottlenecks, and adopt best practices for reproducible, scalable research pipelines. Dr Ihaddaden?s practical exercises and real-world examples ensure that by the end of the seminar you can outpace traditional approaches like base R and dplyr, streamlining your analyses and unlocking deeper insights for your projects.
+
+Sign up today <https://instats.org/seminar/data-wrangling-in-r-with-copilot> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Wed Sep 10 18:50:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Wed, 10 Sep 2025 16:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] Applied Bayesian Modeling in Python - livestream seminar
+Message-ID: <uhM4JZI4TTKbthbM6u907g@geopod-ismtpd-4>
+
+Hi everyone
+
+Instats and the American Statistical Association are offering a 2-day seminar, Applied Bayesian Modeling in Python <https://instats.org/seminar/applied-bayesian-modeling-in-python>, livestreaming September 18?19 and led by Dr Chris Fonnesbeck of PyMC Labs and Vanderbilt University Medical Center. Bayesian methods have become indispensable for researchers who need flexible models that naturally incorporate prior information and yield intuitive uncertainty estimates. This intensive workshop demystifies modern Bayesian inference through hands-on exercises in PyMC (v5.25+), taking you from foundational concepts?priors, likelihoods, and posteriors?to advanced topics like hierarchical modeling, MCMC diagnostics, and the full Bayesian workflow. Whether you?re a data scientist, applied statistician, or academic researcher, you?ll leave with practical experience translating research questions into PyMC code, fitting and validating models with ArviZ, and interpreting results for publication-ready insights. No previous PyMC or Bayesian background is required, though familiarity with basic statistics and Python tools such as NumPy and pandas will help you hit the ground running.
+
+Sign up today <https://instats.org/seminar/applied-bayesian-modeling-in-python> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Mon Sep 15 17:02:57 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Mon, 15 Sep 2025 17:02:57 +0200 (CEST)
+Subject: [R-sig-Epi] =?utf-8?q?online_course=3A_Generalised_Additive_Mode?=
+ =?utf-8?q?ls_in_R_-_8=E2=80=9311_December?=
+Message-ID: <1757948577.14524000@webmail.jimdo.com>
+
+
+Dear all,
+We are pleased to announce the online course: Generalised Additive Models in R
+Dates: 8?11 December
+Course website: [ https://www.physalia-courses.org/courses-workshops/gams-in-r/ ]( https://www.physalia-courses.org/courses-workshops/gams-in-r/ )
+ 
+This four-day training will introduce participants to Generalised Additive Models (GAMs), a flexible extension of GLMs that allows the relationships between covariates and responses to be learned directly from the data using splines. The course combines lectures, discussions and hands-on exercises to provide both the theoretical background and the practical tools needed to fit, interpret and visualise GAMs in R using the mgcv and gratia packages.
+ 
+ 
+Sessions will run from 14:00 to 20:00 (Berlin time), Monday to Thursday.
+ 
+Best regards,
+Carlo
+ 
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Tue Sep 16 10:20:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Tue, 16 Sep 2025 08:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Deep Learning in R and Python with ChatGPT - livestream
+ seminar
+Message-ID: <s0P2IsvwQE-7h6ALyBxu9A@geopod-ismtpd-16>
+
+Hi everyone
+
+Instats is excited to offer a 1-day seminar, Deep Learning for Complex Datasets with ChatGPT <https://instats.org/seminar/deep-learning-for-complex-datasets-with-2>, livestreaming on September 26th and led by Group Leader (PI) Nikolay Oskolkov from LIOS. As data grow ever larger and more intricate, deep learning has become indispensable for modeling complex patterns, uncovering hidden structures, and driving breakthroughs across statistics, bioinformatics, computational biology, and the social and health sciences more generally. In this intensive workshop, Professor Oskolkov will guide participants through the fundamentals of neural networks and the latest advances in large language models, showing how tools such as R, Python, TensorFlow, Keras, and ChatGPT can be combined to build, train, and evaluate powerful models tailored to life-science datasets. You will code gradient descent and a vanilla neural network from scratch, explore convolutional and recurrent architectures for genomic and time-series data, apply autoencoders for dimensionality reduction, and learn best practices for hyperparameter tuning and model assessment?all while leveraging ChatGPT as an on-demand coding consultant. By the end of the day, attendees will have gained hands-on experience applying deep learning techniques to real biological data, developed transferable skills for integrating LLMs into their research workflows, and acquired a forward-looking perspective on emerging AI technologies in computational biology. 
+
+Sign up today <https://instats.org/seminar/deep-learning-for-complex-datasets-with-2> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Tue Sep 16 18:50:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Tue, 16 Sep 2025 16:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] Predicting Network Structure with Hypergraphs -
+ livestream seminar
+Message-ID: <KWM_69rHS-iqR2s72JJZcg@geopod-ismtpd-11>
+
+Hi everyone
+
+Instats is excited to offer a 4-day seminar, Predicting Network Structure with Hypergraphs <https://instats.org/seminar/predicting-network-structure-with-hyperg>, livestreaming September 22?25 and led by Professor Moses Boudourides from Northwestern University?s Data Science Graduate Program. Hypergraphs extend traditional network analysis by allowing edges to link any number of nodes, capturing team-level, co-exposure, and other group interactions in a single structure. Across four days, participants will explore core concepts and state-of-the-art methods for hyperlink prediction, including similarity-based heuristics, word-embedding techniques, deep learning models such as Hypergraph Neural Networks, and spectral approaches like CHESHIRE. The workshop is entirely non-coding and designed for PhD students, academics, and researchers eager to forecast collective processes such as contagion, collaboration, and community formation in fields ranging from social networks and digital humanities to bioinformatics, finance, and transportation. By the end, attendees will be equipped to reconstruct hypergraphs, reveal hidden hyperedges, and perform temporal forecasts, gaining a powerful new toolkit for tackling complex, multi-node phenomena in their own research.
+
+Sign up today <https://instats.org/seminar/predicting-network-structure-with-hyperg> to secure your spot, and share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Tue Sep 16 19:52:59 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Tue, 16 Sep 2025 19:52:59 +0200 (CEST)
+Subject: [R-sig-Epi] Applied Bayesian Modelling with R-INLA: A Hands-On
+ Introduction course - online, 27-31 October
+Message-ID: <1758045179.20257423@webmail.jimdo.com>
+
+
+Dear all,
+ 
+We wanted to let you know that our Applied Bayesian Modelling with R-INLA: A Hands-On Introduction course (27?31 October 2025) is almost full.
+ 
+Course website: [ https://www.physalia-courses.org/courses-workshops/r-inla/ ]( https://www.physalia-courses.org/courses-workshops/r-inla/ )
+ 
+ 
+This four-day online workshop offers a practical introduction to Bayesian modelling using R-INLA, covering linear models, GLMs, GAMs, and GLMMs, with hands-on exercises and real-world examples.
+ 
+ 
+Best regards,Carlo
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Thu Sep 18 16:41:27 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Thu, 18 Sep 2025 16:41:27 +0200 (CEST)
+Subject: [R-sig-Epi] Species Distribution Modeling with Bayesian Statistics
+ course
+Message-ID: <1758206487.034122372@webmail.jimdo.com>
+
+
+Dear all,
+ 
+Our course Species Distribution Modeling with Bayesian Statistics is almost fully booked ?  [ https://www.physalia-courses.org/courses-workshops/barts/ ]( https://www.physalia-courses.org/courses-workshops/barts/ ) 
+ 
+ 
+ 
+ 
+Dates: 22?24 September 
+
+
+ 
+This course introduces Bayesian Additive Regression Trees (BART) for species distribution modeling, with hands-on training in the embarcadero and dbarts R packages. Participants will learn how BART improves upon traditional SDM approaches, select predictors, train models, and project species distributions.
+ 
+ 
+ 
+Best regards,
+ 
+Carlo
+ 
+ 
+ 
+ 
+ 
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+ 
+	[[alternative HTML version deleted]]
+
+
+From i@io m@iii@g oii phys@ii@-courses@org  Tue Sep 23 12:51:07 2025
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Tue, 23 Sep 2025 12:51:07 +0200 (CEST)
+Subject: [R-sig-Epi] =?utf-8?q?Last_Seats_Available_=E2=80=93_Introductio?=
+ =?utf-8?q?n_to_Git_and_GitHub_=2813=E2=80=9314_October=29?=
+Message-ID: <1758624667.189429816@webmail.jimdo.com>
+
+
+Dear all,
+The Physalia upcoming online course Introduction to Git and GitHub for Reproducible Research (13?14 October) is almost full.
+ 
+This 2-day training is designed for researchers and professionals looking to improve project organization, collaboration, and reproducibility with Git and GitHub. Through lectures and hands-on exercises, participants will learn essential version control skills and best practices for collaborative research.
+ 
+If interested, please check it out: [ https://www.physalia-courses.org/courses-workshops/version-control/ ]( https://www.physalia-courses.org/courses-workshops/version-control/ )
+ 
+Best regards,
+Carlo
+ 
+ 
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Tue Sep 23 19:20:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Tue, 23 Sep 2025 17:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Causal Mediation Analysis - livestream seminar
+Message-ID: <QDNAwQNNStSySgyS4po8cA@geopod-ismtpd-5>
+
+Hi everyone
+
+Instats is excited to offer a 2-day seminar, Causal Mediation Analysis <https://instats.org/seminar/causal-mediation-analysis>, running October 1?2 and led by Professor Paola Zaninotto (Epidemiology & Public Health, UCL) and Martin Danka (Centre for Longitudinal Studies, UCL). Robust research demands more than detecting effects?it requires understanding how those effects unfold, under which conditions, and through which pathways. Traditional mediation techniques often falter here, relying on restrictive assumptions, but this workshop introduces the counterfactual framework of causal mediation analysis to overcome those limitations. Over two hands-on days you will learn to clarify key assumptions, estimate natural and interventional effects, calculate the proportion mediated, and apply g-computation, all while coding in R and Stata and working through real-world case studies from social, health, and life science research. Whether you are new to advanced mediation or aiming to refine your expertise, you will finish with the conceptual insight and practical skills needed to draw scientifically rigorous, actionable conclusions from your data.
+
+Sign up today <https://instats.org/seminar/causal-mediation-analysis> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Thu Sep 25 19:20:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Thu, 25 Sep 2025 17:20:00 +0000 (UTC)
+Subject: [R-sig-Epi] Causal Machine Learning - livestream seminar
+Message-ID: <6njzgOU0RJyT_q-CLndbPg@geopod-ismtpd-9>
+
+Hi everyone
+
+Instats is excited to offer a 2-day seminar, Causal Machine Learning <https://instats.org/seminar/causal-machine-learning>, livestreaming October 6?7 and led by professor Melvyn Weeks from the University of Cambridge. As causality becomes a cornerstone of credible research across the social, health, and natural sciences, this workshop blends state-of-the-art machine-learning algorithms with rigorous econometric techniques to help you move beyond correlation toward genuine causal discovery. Across eight carefully crafted sessions, you will master the distinction between prediction and causation, delve into high-dimensional regularization tools such as lasso and double lasso, and gain hands-on experience with Double Selection and Double Debiased Machine Learning. Professor Weeks will also guide you through tree- and forest-based methods for treatment-effect estimation, demonstrating how classical identification strategies integrate with modern ML workflows. Through worked notebooks and sample data in Stata, R, and Python, participants will build practical pipelines, access curated reading lists, and leave equipped to deploy causal ML confidently in their own research projects. Whether you?re a PhD student, academic, or applied professional, this seminar offers a transformative opportunity to upgrade your methodological toolkit and draw more reliable conclusions from complex datasets. 
+
+Sign up today <https://instats.org/seminar/causal-machine-learning> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+
+From mzyphur @end|ng |rom |n@t@t@@org  Tue Sep 30 19:50:00 2025
+From: mzyphur @end|ng |rom |n@t@t@@org (Michael Zyphur)
+Date: Tue, 30 Sep 2025 17:50:00 +0000 (UTC)
+Subject: [R-sig-Epi] AI for Quantitative & Qualitative Research - livestream
+ seminar
+Message-ID: <GeYNQ4kYSZSrOKadeYUJyQ@geopod-ismtpd-0>
+
+Hi everyone
+
+Instats is excited to offer a 1-day seminar, AI for Quantitative & Qualitative Research <https://instats.org/seminar/ai-for-quantitative-and-qualitative-rese>, livestreaming on Oct 14th and led by Dr Hadi Fariborzi from Mount Royal University. This immersive workshop fast-tracks graduate students, academics, and professional researchers from minimal coding experience to completing an AI-assisted mini research project within a single day. Working side-by-side in Python (Google Colab) and R (Posit Cloud), you will learn to import and clean data, run classical and advanced statistical models, conduct multilevel and structural equation modeling, replicate published analyses, and extract themes from interview transcripts before scaling to large-scale text mining. Throughout the seminar, Dr Fariborzi emphasizes methodological rigor, reproducibility, and critical use of AI as a coding and interpretation partner?helping you debug, document, and defend every analytical decision. By the end of the day you will leave with transferable notebooks, an AI prompt library, and exportable reports that integrate regression outputs, path diagrams, word clouds, and topic distributions into a transparent, shareable narrative ready for theses, grant projects, and classroom instruction.
+
+Sign up today <https://instats.org/seminar/ai-for-quantitative-and-qualitative-rese> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Institute for Statistical and Data Science
+https://instats.org
+	[[alternative HTML version deleted]]
+
+

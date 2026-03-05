@@ -1,0 +1,214 @@
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Fri Jul 30 01:35:43 2021
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Fri, 30 Jul 2021 00:35:43 +0100
+Subject: [R-sig-Epi] Introduction to Bayesian modelling with INLA (BMIN02)
+Message-ID: <CAEsSYzzYTxRG-NN59ORQmno=qRDROAw+YyzTr4NsQS2Dm7RLqQ@mail.gmail.com>
+
+ONLINE COURSE ? Introduction to Bayesian modelling with INLA (BMIN02) This
+course will be delivered live
+
+https://www.prstatistics.com/course/introduction-to-bayesian-modelling-with-inla-bmin02/
+
+4 October 2021 - 8 October 2021
+
+TIME ZONE ? Central European Standard Time (CEST) ? however all sessions
+will be recorded and made available allowing attendees from different time
+zones to follow a day behind (please email oliverhooker at prstatistics.com
+for full details or to discuss how we can accommodate you).
+
+Course Overview:
+
+Course Overview:
+The aim of the course is to introduce you to Bayesian inference using the
+integrated nested Laplace approximation (INLA) method and its associated
+R-INLA package. This course will cover the basics on the INLA methodology
+as well as practical modelling of different types of data.
+
+By the end of the course participants should:
+
+Understand the basics of Bayesian inference.
+Understand how the INLA method works and its main differences with MCMC
+methods.
+Be able to fit models with the R-INLA package.
+Know how to interpret the output from model fitting.
+Be confident with the use of INLA for data analysis.
+Understand the different models that can be fit with INLA.
+Know how to define the different parts of a model with INLA.
+Be able to develop new latent effects not implemented in the R-INLA package.
+Know how to define new priors not included in the R-INLA package.
+Have the confidence to use INLA for their own projects.
+
+Instructors
+
+Dr. Virgilio G?mez Rubio
+
+Course Programme
+
+Monday 4th ? Classes from 10:00 to 17:00
+
+Introduction to the course
+Key concepts related to Bayesian inference
+Models with conjugate priors
+Introduction to Bayesian hierarchical models
+Computational methods for Bayesian inference
+Introduction to the INLA methodology
+Fitting generalized linear models with INLA and the R-INLA package
+Understanding and manipulating the output from model fitting with R-INLA
+
+Tuesday 5th ? Classes from 10:00 to 17:00
+
+Fitting generalized linear mixed models with R-INLA
+Types of latent effects in R-INLA
+Models with i.i.d. latent effects
+Fitting multilevel models with R-INLA
+Models with correlated latent effects
+Fitting time series models with R-INLA
+
+Wednesday 6th ? Classes from 10:00 to 17:00
+
+Priors in R-INLA
+Setting priors in R-INLA
+Introduction to Penalized Complexity priors (PC-priors)
+Defining new priors in R-INLA
+Spatially correlated random effects
+Fitting spatial models with R-INLA
+Visualizing the output from spatial models and mapping
+
+Thursday 7th ? Classes from 10:00 to 17:00
+
+Advanced features in R-INLA
+Computing linear combinations of the latent effects
+Fitting models with several likelihoods
+Models with shared terms
+Adding linear constraints to the latent effects
+Implementing new latent models in R-INLA
+Imputation and missing covariates in R-INLA
+
+Friday 8th ? Classes from 10:00 to 17:00
+
+Case studies and own data
+
+UPCOMING COURSES PLEASE SHARE
+
+Missing Data Analytics (MDAR01)
+www.prstatistics.com/course/online-course-missing-data-analytics-mdar01
+8 September 2021 - 10 September 2021
+
+Functional ecology from organism to ecosystem: theory and computation
+(FEER02)
+www.prstatistics.com/course/functional-ecology-from-organism-to-ecosystem-theory-and-computation-feer02/
+13 September 2021 - 17 September 2021
+
+Meta-analysis in ecology, evolution and environmental sciences (METR02)
+www.prstatistics.com/course/meta-analysis-in-ecology-evolution-and-environmental-sciences-metr02/
+13 September 2021 - 17 September 2021
+
+Species Distribution Modeling using R (SDMR04)
+www.prstatistics.com/course/species-distribution-modeling-using-r-sdmr04/
+21 September 2021 - 30 September 2021
+
+Introduction to eco-phylogenetics and comparative analyses using R (ECPH01)
+https://www.prstatistics.com/course/introduction-to-eco-phylogenetics-and-comparative-analyses-using-r-ecph01/
+22 September 2021 - 28 September 2021
+
+Multivariate analysis of ecological communities in R with the VEGAN package
+(VGNR03)
+www.prstatistics.com/course/multivariate-analysis-of-ecological-communities-in-r-with-the-vegan-package-vgnr03/
+4 October 2021 - 8 October
+
+Introduction to Data Wrangling and Data Visualization using R (DWDV01)
+www.prstatistics.com/course/introduction-to-data-wrangling-and-data-visualization-using-r-dwdv01/
+4 October 2021 - 8 October 2021
+
+Introduction to Bayesian modelling with INLA (BMIN02)
+https://www.prstatistics.com/course/introduction-to-bayesian-modelling-with-inla-bmin02/
+4 October 2021 - 8 October 2021
+
+Landscape genetic data analysis using R (LNDG05)
+https://www.prstatistics.com/course/landscape-genetic-data-analysis-using-r-lndg05/
+18 October 2021 - 27 October 2021
+
+Species distribution modelling with Bayesian statistics in R (SDMB03)
+www.prstatistics.com/course/species-distribution-modelling-with-bayesian-statistics-in-r-sdmb03/
+6 December 2021 - 10 December 2021
+
+Time Series Data Analysis (TSDA01)
+https://www.prstatistics.com/course/time-series-data-analysis-tsda01/
+14 December 2021 - 17 December 2021
+
+Bayesian Data Analysis (BADA01)
+https://www.prstatistics.com/course/bayesian-data-analysis-bada01/
+10th? January 2022 - 14th January 2022
+
+Stable Isotope Mixing Models using SIBER, SIAR, MixSIAR (SIMM08)
+https://www.prstatistics.com/course/stable-isotope-mixing-models-using-r-simm08/
+1st? February 2022 - 4th February 2022
+
+-- 
+Oliver Hooker PhD.
+PR statistics
+
+Missing Data Analytics (MDAR01)
+www.prstatistics.com/course/online-course-missing-data-analytics-mdar01
+8 September 2021 - 10 September 2021
+
+Functional ecology from organism to ecosystem: theory and computation
+(FEER02)
+www.prstatistics.com/course/functional-ecology-from-organism-to-ecosystem-theory-and-computation-feer02/
+13 September 2021 - 17 September 2021
+
+Meta-analysis in ecology, evolution and environmental sciences (METR02)
+www.prstatistics.com/course/meta-analysis-in-ecology-evolution-and-environmental-sciences-metr02/
+13 September 2021 - 17 September 2021
+
+Species Distribution Modeling using R (SDMR04)
+www.prstatistics.com/course/species-distribution-modeling-using-r-sdmr04/
+21 September 2021 - 30 September 2021
+
+Phylogenetic comparative methods (PGCM01)
+https://www.prstatistics.com/course/phylogenetic-comparative-methods-pgcm01/
+22 September 2021 - 28 September 2021
+
+Multivariate analysis of ecological communities in R with the VEGAN package
+(VGNR03)
+www.prstatistics.com/course/multivariate-analysis-of-ecological-communities-in-r-with-the-vegan-package-vgnr03/
+4 October 2021 - 8 October
+
+Introduction to Data Wrangling and Data Visualization using R (DWDV01)
+www.prstatistics.com/course/introduction-to-data-wrangling-and-data-visualization-using-r-dwdv01/
+4 October 2021 - 8 October 2021
+
+Introduction to Bayesian modelling with INLA (BMIN02)
+https://www.prstatistics.com/course/introduction-to-bayesian-modelling-with-inla-bmin02/
+4 October 2021 - 8 October 2021
+
+Landscape genetic data analysis using R (LNDG05)
+https://www.prstatistics.com/course/landscape-genetic-data-analysis-using-r-lndg05/
+18 October 2021 - 27 October 2021
+
+Species distribution modelling with Bayesian statistics in R (SDMB03)
+www.prstatistics.com/course/species-distribution-modelling-with-bayesian-statistics-in-r-sdmb03/
+6 December 2021 - 10 December 2021
+
+Time Series Data Analysis (TSDA01)
+https://www.prstatistics.com/course/time-series-data-analysis-tsda01/
+14 December 2021 - 17 December 2021
+
+Bayesian Data Analysis (BADA01)
+https://www.prstatistics.com/course/bayesian-data-analysis-bada01/
+10th January 2022 - 14th January 2022
+
+Stable Isotope Mixing Models using SIBER, SIAR, MixSIAR (SIMM08)
+https://www.prstatistics.com/course/stable-isotope-mixing-models-using-r-simm08/
+1st February 2022 - 4th February 2022
+
+www.PRstatistics.com
+
+53 Morrison Street
+Glasgow
+G5 8LB
++44 (0) 7966500340
+
+	[[alternative HTML version deleted]]
+
+

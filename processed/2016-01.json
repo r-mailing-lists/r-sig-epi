@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2016-01",
+  "messages": [
+    {
+      "id": "msg-1a883eb64856",
+      "message_id": "<201601081031.u08AVqIK028967@hypatia.math.ethz.ch>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2016-01-08T10:31:48Z",
+      "subject": "[R-sig-Epi] Epi 2.0 out now",
+      "subject_clean": "Epi 2.0 out now",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear list members,\nWe have just released Epi 2.0 on CRAN, so you should be able to upgrade.\n\nMoreover, the traditional SPE course in Tartu, Estonia have now been fixed to the dates\nFri 17th - Wed 22nd June 2016; for details see http://bendixcarstensen.com/SPE/\n\nBest regards,\nBendix\nEpi package maintainer.\n----------------------------------------------------\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nClinical Epidemiology\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\nphone: +45 30 75 87 38\nbxc at steno.dk   http://BendixCarstensen.com\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear list members,\nWe have just released Epi 2.0 on CRAN, so you should be able to upgrade.\n\nMoreover, the traditional SPE course in Tartu, Estonia have now been fixed to the dates\nFri 17th - Wed 22nd",
+      "thread_id": "thread-1a883eb64856",
+      "thread_depth": 0,
+      "month": "2016-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1a883eb64856",
+      "subject": "Epi 2.0 out now",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2016-01-08T10:31:48+00:00",
+      "last_reply": "2016-01-08T10:31:48+00:00",
+      "root_message_id": "msg-1a883eb64856"
+    }
+  ]
+}

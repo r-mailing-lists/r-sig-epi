@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2007-12",
+  "messages": [
+    {
+      "id": "msg-3fc35e2c8c93",
+      "message_id": "<ED714DD75175094C8DFF2377D3F8537FD76E6E@obgyn.cidrz.org>",
+      "from_name": "Jens Levy",
+      "from_email_hash": "44cd950569ca099e116c22a36bde24395b470775d52d54f24b39c81839dcc895",
+      "date": "2007-12-06T11:53:09+02:00",
+      "subject": "[R-sig-Epi] Loess for proportions over time",
+      "subject_clean": "Loess for proportions over time",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071206/3614aa77/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071206/3614aa77/attachment.pl",
+      "thread_id": "thread-3fc35e2c8c93",
+      "thread_depth": 0,
+      "month": "2007-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-3fc35e2c8c93",
+      "subject": "Loess for proportions over time",
+      "message_count": 1,
+      "participants": [
+        "Jens Levy"
+      ],
+      "started": "2007-12-06T11:53:09+02:00",
+      "last_reply": "2007-12-06T11:53:09+02:00",
+      "root_message_id": "msg-3fc35e2c8c93"
+    }
+  ]
+}

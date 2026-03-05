@@ -1,0 +1,290 @@
+From ldisney at seiu1199.org  Tue Jul 17 21:11:34 2007
+From: ldisney at seiu1199.org (Lynn Disney)
+Date: Tue, 17 Jul 2007 15:11:34 -0400
+Subject: [R-sig-Epi] question about selecting observations
+Message-ID: <1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070717/ed68599c/attachment.pl 
+
+From gerifalte28 at hotmail.com  Tue Jul 17 21:35:17 2007
+From: gerifalte28 at hotmail.com (FZ)
+Date: Tue, 17 Jul 2007 13:35:17 -0600
+Subject: [R-sig-Epi] question about selecting observations
+In-Reply-To: <1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>
+References: <1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>
+Message-ID: <469D19F5.60703@hotmail.com>
+
+This is not really an epi question.  Also, please read the posting guide 
+which tells you to provide a reproducible example.
+
+Anyhow, I think this may do what you want:
+
+datasorted <- data[order(data$ID, data$date, decreasing=TRUE),]
+
+firstobs<- data[!duplicated(data$Date),]
+
+This assumes that by first observation you mean the first record for 
+each Date. You can easily extend this to select the first observation by ID.
+
+I hope this helps,
+
+Francisco
+
+Lynn Disney wrote:
+> I have a large dataset and I need to sort by ID and date, then select
+> the first observation...I have seen how to do this and delete the first
+> obs. Not sure how to extend the concept...
+> 
+>  
+> 
+> Can anyone help?
+> 
+>  
+> 
+> Lynn D. Disney, Ph.D., J.D., M.P.H.
+> 
+> Research Analyst
+> 
+> SEIU 1199
+> 
+> 1771 E. 30th Street
+> 
+> Cleveland, Ohio 44114
+> 
+> Telephone: (216) 566-0117
+> 
+> Email: ldisney at seiu1199.org <mailto:ldisney at seiu1199.org> 
+> 
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+> 
+> 
+>
+
+
+From gerifalte28 at hotmail.com  Tue Jul 17 21:37:32 2007
+From: gerifalte28 at hotmail.com (FZ)
+Date: Tue, 17 Jul 2007 13:37:32 -0600
+Subject: [R-sig-Epi] question about selecting observations
+In-Reply-To: <1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>
+References: <1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>
+Message-ID: <469D1A7C.20501@hotmail.com>
+
+oeps, I found a typo in my previous email just after hitting the send 
+button :-(
+
+See update below:
+
+datasorted <- data[order(data$ID, data$date, decreasing=TRUE),]
+
+firstobs<- datasorted[!duplicated(datasorted$date),]
+
+Francisco
+
+Lynn Disney wrote:
+> I have a large dataset and I need to sort by ID and date, then select
+> the first observation...I have seen how to do this and delete the first
+> obs. Not sure how to extend the concept...
+> 
+>  
+> 
+> Can anyone help?
+> 
+>  
+> 
+> Lynn D. Disney, Ph.D., J.D., M.P.H.
+> 
+> Research Analyst
+> 
+> SEIU 1199
+> 
+> 1771 E. 30th Street
+> 
+> Cleveland, Ohio 44114
+> 
+> Telephone: (216) 566-0117
+> 
+> Email: ldisney at seiu1199.org <mailto:ldisney at seiu1199.org> 
+> 
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+> 
+> 
+>
+
+
+From C.MATERE at CGIAR.ORG  Wed Jul 18 15:54:37 2007
+From: C.MATERE at CGIAR.ORG (Matere, Crispin (ILRI - ICRAF))
+Date: Wed, 18 Jul 2007 16:54:37 +0300
+Subject: [R-sig-Epi] AMOVA
+Message-ID: <6BEABCD5CA640A44A848448A42A03B7304A5D5EE@ilrikeadx1.ILRI.CGIARAD.ORG>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070718/0e9752d8/attachment.pl 
+
+From tura at centroin.com.br  Sat Jul 21 11:48:31 2007
+From: tura at centroin.com.br (Bernardo Rangel Tura)
+Date: Sat, 21 Jul 2007 06:48:31 -0300
+Subject: [R-sig-Epi] AMOVA
+In-Reply-To: <6BEABCD5CA640A44A848448A42A03B7304A5D5EE@ilrikeadx1.ILRI.CGIARAD.ORG>
+References: <6BEABCD5CA640A44A848448A42A03B7304A5D5EE@ilrikeadx1.ILRI.CGIARAD.ORG>
+Message-ID: <1185011311.26915.22.camel@R3-Thux>
+
+On Wed, 2007-07-18 at 16:54 +0300, Matere, Crispin (ILRI - ICRAF) wrote:
+> I am requesting any one to show me how to do an analysis of molecular
+> variance in R suing haplotype data through an example.
+> 
+>  
+> 
+> Thank you in advance
+> 
+>  
+> 
+> Matere, C.N. 
+
+Hi Matere,
+
+In ADE4 package have AMOVA function if you want more information go: 
+
+http://bg9.imslab.co.jp/Rhelp/R-2.4.0/src/library/ade4/man/amova.html
+
+Sorry but I don't have haplotype data for example to you, but if you
+post a little example I help you
+
+
+-- 
+Bernardo Rangel Tura, M.D,Ph.D
+National Institute of Cardiology
+Brazil
+
+
+From ldisney at seiu1199.org  Wed Jul 25 21:34:53 2007
+From: ldisney at seiu1199.org (Lynn Disney)
+Date: Wed, 25 Jul 2007 15:34:53 -0400
+Subject: [R-sig-Epi] question re: recoding in R
+Message-ID: <1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070725/2210d5b2/attachment.pl 
+
+From asaguiar at spsconsultoria.com  Wed Jul 25 23:37:01 2007
+From: asaguiar at spsconsultoria.com (Alexandre Aguiar)
+Date: Wed, 25 Jul 2007 18:37:01 -0300
+Subject: [R-sig-Epi] question re: recoding in R
+In-Reply-To: <1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>
+References: <1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>
+Message-ID: <200707251837.02125@spsconsultoria.com>
+
+Em Qua 25 Jul 2007, Lynn Disney escreveu:
+> I need to create dummy variables, for an ID when 3 conditions exist. I
+> am having problems figuring out how to do this. For example, I want
+> variablea=1 and variableb=1 hand variablec=1 and then have variableD
+> turned into a 1 when these conditions are true and 0 when any one of
+> them are false.
+
+Ooops! This one even I know.
+
+d <- 0
+if( a & b & c ) d <- 1
+
+Depending on the expected proportions of d==1 and d==0 and how many tests you 
+are going to do, starting with d <- 1 and then testing for !( a & b & c ) 
+could be faster. However, the code above should be good enough in 99.9% of 
+applications.
+
+Maybe you would like to check out [http://finzi.psych.upenn.edu/nmz.html]. It 
+has answsered 100% of my questions so far.
+
+Best wishes.
+
+Alexandre
+
+-- 
+Alexandre Santos Aguiar, MD
+--
+website: http://spsconsultoria.com/
+Voicemail: +55-11-3717-4866 (SP)
+Voicemail: +55-21-3717-4866 (RJ)
+Voicemail: +55-11-2157-6891 (SP)
+Fax: +55-11-5549-8760 (SP)
+--
+
+
+From griera at gmail.com  Thu Jul 26 08:46:12 2007
+From: griera at gmail.com (griera at gmail.com)
+Date: Thu, 26 Jul 2007 08:46:12 +0200
+Subject: [R-sig-Epi] question re: recoding in R
+In-Reply-To: <1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>
+References: <1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>
+Message-ID: <200707260846.12884.griera@gmail.com>
+
+A Dimecres 25 Juliol 2007 21:34, Lynn Disney va escriure:
+> I need to create dummy variables, for an ID when 3 conditions exist. I
+> am having problems figuring out how to do this. For example, I want
+> variablea=1 and variableb=1 and variablec=1 and then have variableD
+> turned into a 1 when these conditions are true and 0 when any one of
+> them are false.
+
+My easy way with a variable (YEAR) with 5 values (2002-2006):
+
+any2002 <- ifelse(YEAR==2002,1,0)
+any2003 <- ifelse(YEAR==2003,1,0)
+any2004 <- ifelse(YEAR==2004,1,0)
+any2005 <- ifelse(YEAR==2005,1,0)
+any2006 <- ifelse(YEAR==2006,1,0)
+
+Regards
+
+
+
+>
+>
+>
+> Suggestions?
+>
+>
+>
+> Lynn D. Disney, Ph.D., J.D., M.P.H.
+>
+>
+>
+>
+> 	[[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+-- 
+
+
+"Coda vez m?s el periodismo es un invertario de obviedades y de chismes"
+Jos? Vidal-Beneyto, La derechizaci?n del mundo / 4, El Pais 21-04-07 pag 8
+
+
+From denis.teysseyre at wanadoo.fr  Thu Jul 26 16:21:06 2007
+From: denis.teysseyre at wanadoo.fr (Denis Teysseyre)
+Date: Thu, 26 Jul 2007 16:21:06 +0200
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 15, Issue 4
+In-Reply-To: <mailman.13.1185444014.21813.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.13.1185444014.21813.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <46A8ADD2.2080706@wanadoo.fr>
+
+Un texte encapsul? et encod? dans un jeu de caract?res inconnu a ?t? nettoy?...
+Nom : non disponible
+Url : https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070726/d5d42d76/attachment.pl 
+

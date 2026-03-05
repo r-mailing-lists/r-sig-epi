@@ -1,0 +1,495 @@
+From emmanuel.brasil at gmail.com  Fri Mar  5 02:02:14 2010
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Thu, 4 Mar 2010 22:02:14 -0300
+Subject: [R-sig-Epi] epitools::oddsratio error numbers close to zero in
+	cells?
+Message-ID: <a37cfb5a1003041702k3e7f1228v9d16a88bed2096e2@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100304/8c348f08/attachment.pl>
+
+From chainsawtiney at gmail.com  Fri Mar  5 02:48:57 2010
+From: chainsawtiney at gmail.com (C.H.)
+Date: Fri, 5 Mar 2010 09:48:57 +0800
+Subject: [R-sig-Epi] epitools::oddsratio error numbers close to zero in
+	cells?
+In-Reply-To: <a37cfb5a1003041702k3e7f1228v9d16a88bed2096e2@mail.gmail.com>
+References: <a37cfb5a1003041702k3e7f1228v9d16a88bed2096e2@mail.gmail.com>
+Message-ID: <30d7ea361003041748n4be44245l9fd35eb52861bc79@mail.gmail.com>
+
+It is possible to calculate the OR with non-zero cells using fisher.test
+
+> m<-matrix(c(360,7,4,120),byrow=F,nrow=2,ncol=2)
+> fisher.test(m)$estimate
+odds ratio
+  1419.605
+> fisher.test(m)$conf.int
+[1]  407.324 8192.000
+attr(,"conf.level")
+[1] 0.95
+
+For cases with zero cell, it is a problem. A typical work round (by
+usual software such as Revman, Prism or SPSS) is to add 0.5 to all
+cells to prevent the problem of division of zero. I don't know if any
+packages implemented this.
+
+
+
+On Fri, Mar 5, 2010 at 9:02 AM, Pedro Emmanuel Alvarenga Americano do
+Brasil <emmanuel.brasil at gmail.com> wrote:
+> Hello all,
+>
+> I was runing some analysis here and found an error with epitools::oddsratio.
+> First I tought it was in my data, later I tought I was running the function
+> incorrectly but I now realize that there is something with numbers close to
+> zero or cells with zero...
+>
+> below the same error with a simulated data... but it happens exactly the
+> same with mine wich has one cell with 1.
+>
+>> m<-matrix(c(360,7,0,120),byrow=F,nrow=2,ncol=2)
+>> m
+> ? ? [,1] [,2]
+> [1,] ?360 ? ?0
+> [2,] ? ?7 ?120
+>> oddsratio(m)
+> Erro em uniroot(function(or) { :
+> ?f() values at end points not of opposite sign
+>
+>> m<-matrix(c(360,7,4,120),byrow=F,nrow=2,ncol=2)
+>> m
+> ? ? [,1] [,2]
+> [1,] ?360 ? ?4
+> [2,] ? ?7 ?120
+>> oddsratio(m)
+> Erro em uniroot(function(or) { :
+> ?f() values at end points not of opposite sign
+>
+>> m<-matrix(c(360,7,7,120),byrow=F,nrow=2,ncol=2)
+>> m
+> ? ? [,1] [,2]
+> [1,] ?360 ? ?7
+> [2,] ? ?7 ?120
+>> oddsratio(m)
+> $data
+> ? ? ? ? ?Outcome
+> Predictor ?Disease1 Disease2 Total
+> ?Exposed1 ? ? ?360 ? ? ? ?7 ? 367
+> ?Exposed2 ? ? ? ?7 ? ? ?120 ? 127
+> ?Total ? ? ? ? 367 ? ? ?127 ? 494
+>
+> $measure
+> ? ? ? ? ?odds ratio with 95% C.I.
+> Predictor ?estimate ? ?lower upper
+> ?Exposed1 ? 1.0000 ? ? ? NA ? ?NA
+> ?Exposed2 806.1128 300.7302 ?2560
+>
+> $p.value
+> ? ? ? ? ?two-sided
+> Predictor ?midp.exact fisher.exact ? chi.square
+> ?Exposed1 ? ? ? ? NA ? ? ? ? ? NA ? ? ? ? ? NA
+> ?Exposed2 ? ? ? ? ?0 1.896808e-96 4.400778e-94
+>
+> Is it impoossible to estimate OR confidence intervals with tables with very
+> low numbers? Any work around sugestions?
+>
+> Abra?o forte e que a for?a esteja com voc?,
+>
+> Dr. Pedro Emmanuel A. A. do Brasil
+> Instituto de Pesquisa Cl?nica Evandro Chagas
+> Funda??o Oswaldo Cruz
+> Rio de Janeiro - Brasil
+>
+> ? ? ? ?[[alternative HTML version deleted]]
+>
+>
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+>
+
+
+
+-- 
+CH Chan
+Research Assistant - KWH
+http://www.macgrass.com
+
+
+From bxc at steno.dk  Fri Mar  5 03:26:42 2010
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Fri, 5 Mar 2010 03:26:42 +0100
+Subject: [R-sig-Epi] epitools::oddsratio error numbers close to zero in
+ cells?
+In-Reply-To: <30d7ea361003041748n4be44245l9fd35eb52861bc79@mail.gmail.com>
+References: <a37cfb5a1003041702k3e7f1228v9d16a88bed2096e2@mail.gmail.com>
+	<30d7ea361003041748n4be44245l9fd35eb52861bc79@mail.gmail.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC330212983FBC@exdkmbx002.corp.novocorp.net>
+
+You can actually also get results from fisher.test when one of the entries is 0.
+One of your confidence limits will just be either 0 or Inf.
+But that should hardly be a surprise.
+
+You could also try the twoby2 command from the Epi package which will summarize your 
+table analysis nicely.
+
+> m
+     [,1] [,2]
+[1,]  360    0
+[2,]    7  120
+> fisher.test(m)
+
+        Fisher's Exact Test for Count Data
+
+data:  m 
+p-value < 2.2e-16
+alternative hypothesis: true odds ratio is not equal to 1 
+95 percent confidence interval:
+ 1204.706      Inf 
+sample estimates:
+odds ratio 
+       Inf 
+
+> fisher.test(m[,2:1])
+
+        Fisher's Exact Test for Count Data
+
+data:  m[, 2:1] 
+p-value < 2.2e-16
+alternative hypothesis: true odds ratio is not equal to 1 
+95 percent confidence interval:
+ 0.0000000000 0.0008300781 
+sample estimates:
+
+> twoby2(m)
+2 by 2 table analysis: 
+------------------------------------------------------ 
+Outcome   : Col 1 
+Comparing : Row 1 vs. Row 2 
+
+      Col 1 Col 2    P(Col 1) 95% conf. interval
+Row 1   360     0      1.0000       NaN   1.0000
+Row 2     7   120      0.0551    0.0265   0.1111
+
+                                    95% conf. interval
+             Relative Risk: 18.1429    8.8303  37.2767
+         Sample Odds Ratio:     Inf       NaN      Inf
+Conditional MLE Odds Ratio:     Inf 1204.7059      Inf
+    Probability difference:  0.9449    0.8896   0.9730
+
+             Exact P-value: 0 
+        Asymptotic P-value: NaN 
+------------------------------------------------------
+
+Best regards,
+Bendix
+_______________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+www.steno.dk
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of C.H.
+> Sent: 5. marts 2010 12:49
+> To: Pedro Emmanuel Alvarenga Americano do Brasil
+> Cc: r-sig-epi at stat.math.ethz.ch
+> Subject: Re: [R-sig-Epi] epitools::oddsratio error numbers 
+> close to zero in cells?
+> 
+> It is possible to calculate the OR with non-zero cells using 
+> fisher.test
+> 
+> > m<-matrix(c(360,7,4,120),byrow=F,nrow=2,ncol=2)
+> > fisher.test(m)$estimate
+> odds ratio
+>   1419.605
+> > fisher.test(m)$conf.int
+> [1]  407.324 8192.000
+> attr(,"conf.level")
+> [1] 0.95
+> 
+> For cases with zero cell, it is a problem. A typical work 
+> round (by usual software such as Revman, Prism or SPSS) is to 
+> add 0.5 to all cells to prevent the problem of division of 
+> zero. I don't know if any packages implemented this.
+> 
+> 
+> 
+> On Fri, Mar 5, 2010 at 9:02 AM, Pedro Emmanuel Alvarenga 
+> Americano do Brasil <emmanuel.brasil at gmail.com> wrote:
+> > Hello all,
+> >
+> > I was runing some analysis here and found an error with 
+> epitools::oddsratio.
+> > First I tought it was in my data, later I tought I was running the 
+> > function incorrectly but I now realize that there is something with 
+> > numbers close to zero or cells with zero...
+> >
+> > below the same error with a simulated data... but it 
+> happens exactly 
+> > the same with mine wich has one cell with 1.
+> >
+> >> m<-matrix(c(360,7,0,120),byrow=F,nrow=2,ncol=2)
+> >> m
+> > ? ? [,1] [,2]
+> > [1,] ?360 ? ?0
+> > [2,] ? ?7 ?120
+> >> oddsratio(m)
+> > Erro em uniroot(function(or) { :
+> > ?f() values at end points not of opposite sign
+> >
+> >> m<-matrix(c(360,7,4,120),byrow=F,nrow=2,ncol=2)
+> >> m
+> > ? ? [,1] [,2]
+> > [1,] ?360 ? ?4
+> > [2,] ? ?7 ?120
+> >> oddsratio(m)
+> > Erro em uniroot(function(or) { :
+> > ?f() values at end points not of opposite sign
+> >
+> >> m<-matrix(c(360,7,7,120),byrow=F,nrow=2,ncol=2)
+> >> m
+> > ? ? [,1] [,2]
+> > [1,] ?360 ? ?7
+> > [2,] ? ?7 ?120
+> >> oddsratio(m)
+> > $data
+> > ? ? ? ? ?Outcome
+> > Predictor ?Disease1 Disease2 Total
+> > ?Exposed1 ? ? ?360 ? ? ? ?7 ? 367
+> > ?Exposed2 ? ? ? ?7 ? ? ?120 ? 127
+> > ?Total ? ? ? ? 367 ? ? ?127 ? 494
+> >
+> > $measure
+> > ? ? ? ? ?odds ratio with 95% C.I.
+> > Predictor ?estimate ? ?lower upper
+> > ?Exposed1 ? 1.0000 ? ? ? NA ? ?NA
+> > ?Exposed2 806.1128 300.7302 ?2560
+> >
+> > $p.value
+> > ? ? ? ? ?two-sided
+> > Predictor ?midp.exact fisher.exact ? chi.square
+> > ?Exposed1 ? ? ? ? NA ? ? ? ? ? NA ? ? ? ? ? NA
+> > ?Exposed2 ? ? ? ? ?0 1.896808e-96 4.400778e-94
+> >
+> > Is it impoossible to estimate OR confidence intervals with 
+> tables with 
+> > very low numbers? Any work around sugestions?
+> >
+> > Abra?o forte e que a for?a esteja com voc?,
+> >
+> > Dr. Pedro Emmanuel A. A. do Brasil
+> > Instituto de Pesquisa Cl?nica Evandro Chagas Funda??o 
+> Oswaldo Cruz Rio 
+> > de Janeiro - Brasil
+> >
+> > ? ? ? ?[[alternative HTML version deleted]]
+> >
+> >
+> > _______________________________________________
+> > R-sig-Epi at stat.math.ethz.ch mailing list 
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> >
+> >
+> 
+> 
+> 
+> --
+> CH Chan
+> Research Assistant - KWH
+> http://www.macgrass.com
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+From glaziou at gmail.com  Fri Mar  5 13:53:48 2010
+From: glaziou at gmail.com (Philippe Glaziou)
+Date: Fri, 5 Mar 2010 13:53:48 +0100
+Subject: [R-sig-Epi] epitools::oddsratio error numbers close to zero in
+	cells?
+In-Reply-To: <2F73FA3AF524144C863B7C2C903DBC330212983FBC@exdkmbx002.corp.novocorp.net>
+References: <a37cfb5a1003041702k3e7f1228v9d16a88bed2096e2@mail.gmail.com>
+	<30d7ea361003041748n4be44245l9fd35eb52861bc79@mail.gmail.com>
+	<2F73FA3AF524144C863B7C2C903DBC330212983FBC@exdkmbx002.corp.novocorp.net>
+Message-ID: <3d3804221003050453s4931c07bk42ffe4bfc5b8b4a7@mail.gmail.com>
+
+On 5 March 2010 03:26, BXC (Bendix Carstensen) <bxc at steno.dk> wrote:
+> You can actually also get results from fisher.test when one of the entries is 0.
+> One of your confidence limits will just be either 0 or Inf.
+> But that should hardly be a surprise.
+>
+> You could also try the twoby2 command from the Epi package which will summarize your
+> table analysis nicely.
+>
+>> m
+> ? ? [,1] [,2]
+> [1,] ?360 ? ?0
+> [2,] ? ?7 ?120
+>> fisher.test(m)
+>
+> ? ? ? ?Fisher's Exact Test for Count Data
+>
+> data: ?m
+> p-value < 2.2e-16
+> alternative hypothesis: true odds ratio is not equal to 1
+> 95 percent confidence interval:
+> ?1204.706 ? ? ?Inf
+> sample estimates:
+> odds ratio
+> ? ? ? Inf
+
+
+
+Another approach is to run a logistic regression model. Using the same
+data as above:
+
+> (dp <- data.frame (a=c(320,7,0,0), b=c(0,0,4,120), t=c(1,0,1,0)))
+? ?a ? b t
+1 320 ? 0 1
+2 ? 7 ? 0 0
+3 ? 0 ? 4 1
+4 ? 0 120 0
+
+> fit <- glm(cbind(a,b) ~ t, binomial, dp)
+
+The estimated odds ratio is here (OR=1371):
+
+> exp(coef(fit))
+(Intercept) ? ? ? ? ? t
+?5.833e-02 ? 1.371e+03
+
+
+And its confidence interval:
+
+> exp(confint(fit))
+Waiting for profiling to be done...
+                2.5 %    97.5 %
+(Intercept)   0.02466    0.1159
+t           442.87000 5551.2516
+
+
+With less unbalanced data, glm() gives results very close to those
+from fisher.test()
+
+> dp2
+    a   b t
+1 320   0 1
+2 200   0 0
+3   0 100 1
+4   0 150 0
+
+> fit2 <- glm(cbind(a,b) ~ t, binomial, dp2)
+
+> exp(coef(fit2))
+(Intercept)           t
+      1.333       2.400
+
+> exp(confint(fit2))
+Waiting for profiling to be done...
+            2.5 % 97.5 %
+(Intercept) 1.080  1.650
+t           1.766  3.274
+
+> fisher.test(matrix(c(320,200,100,150),2))
+
+        Fisher's Exact Test for Count Data
+
+data:  matrix(c(320, 200, 100, 150), 2)
+p-value = 2.294e-08
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 1.742 3.309
+sample estimates:
+odds ratio
+     2.397
+
+
+
+--Philippe
+Senior Epidemiologist,
+World Health Organization
+Geneva, Switzerland
+
+
+From emmanuel.brasil at gmail.com  Sat Mar  6 23:58:33 2010
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Sat, 6 Mar 2010 19:58:33 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 40, Issue 2
+In-Reply-To: <mailman.5.1267873202.12126.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.5.1267873202.12126.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <a37cfb5a1003061458x4825fc0q7b738502c046af9f@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100306/8ab98726/attachment.pl>
+
+From bxc at steno.dk  Tue Mar 30 14:05:51 2010
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Tue, 30 Mar 2010 14:05:51 +0200
+Subject: [R-sig-Epi] COURSE: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC330212B053EA@exdkmbx002.corp.novocorp.net>
+
+Course in
+STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R  
+
+Tartu, Estonia, 17 to 22 June 2010.
+
+www.biostat.ku.dk/~bxc/SPE 
+
+The course is intended for epidemiologists and statisticians who wish to use R (www.r-project.org) for statistical modelling and analysis of epidemiological data.  The aim of the course is to give participants access to a set of tools in current use by statisticians in epidemiology. The course requires fairly good understanding of statistical principles and some familiarity with epidemiological concepts and study types.
+
+The course will be mainly practically oriented with more than half the time at the computer.
+
+Contents:
+
+  * History of R. Language. Objects. Functions.
+  * Interface to other dataformats. Dataframes.
+  * Tabulation of data.
+  * Logistic regression for case-control-studies.
+  * Poisson regression for follow-up studies.
+  * Causal inference.
+  * Parametrization of models.
+  * Graphics in R.
+  * Graphical reporting of results.
+  * Time-splitting & SMR.
+  * Survival analysis and competing risks.
+  * Nested and matched case-control studies.
+  * Case-cohort studies.
+  * Using MCMC-methods and JAGS in epidemiologial studies.
+
+Price:
+
+Commercial: 1000 EUR, Academic: 750 EUR / 500 EUR. The 750 EUR are for participants from the EU pre-2004, North America and the like. 500 for participants from other countries.  
+
+Includes course, course material, lunch, coffee breaks and social events.  
+
+Excludes transport, accommodation and dinners.  
+
+The course is a self-supporting entity, and there are NO grants or stipends available for travel or participation.
+
+Deadline for application: 30th April 2010.
+
+Send and e-mail which briefly states your qualifications in epidemiology and statistics, to the organizers:
+- Krista Fischer <krista.fischer at mrc-bsu.cam.ac.uk>,
+- Esa L??r? <tilel at sun3.oulu.fi>,
+- Bendix Carstensen <bxc at steno.dk>.
+
+Information to applicants will be given by e-mail shortly after the deadline.
+
+Further information at: www.biostat.ku.dk/~bxc/SPE
+
+

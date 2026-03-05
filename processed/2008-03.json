@@ -1,0 +1,228 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2008-03",
+  "messages": [
+    {
+      "id": "msg-f522a8bf15b7",
+      "message_id": "<a37cfb5a0803030353v384c7da8w6043ce678b176235@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2008-03-03T08:53:05-03:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 23, Issue 1 - Estimating CI for sensitivity and specificity",
+      "subject_clean": "R-sig-Epi Digest, Vol 23, Issue 1 - Estimating CI for sensitivity and specificity",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080303/d95b317d/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080303/d95b317d/attachment.pl",
+      "thread_id": "thread-f522a8bf15b7",
+      "thread_depth": 0,
+      "month": "2008-03"
+    },
+    {
+      "id": "msg-a3d271ed0052",
+      "message_id": "<07E228A5BE53C24CAD490193A7381BBBF2AD02@LP-EXCHVS07.CO.IHC.COM>",
+      "from_name": "Greg Snow",
+      "from_email_hash": "d2f9bb4886b25a9f732759fe05a19061c499befbba553fe79bba4cc9f00cec28",
+      "date": "2008-03-03T14:07:29-07:00",
+      "subject": "[R-sig-Epi] need help in calculating confidence intervals forsensitivity, specificity, PPV & NPV",
+      "subject_clean": "need help in calculating confidence intervals forsensitivity, specificity, PPV & NPV",
+      "in_reply_to": "<708592.65199.qm@web52104.mail.re2.yahoo.com>",
+      "references": [
+        "<708592.65199.qm@web52104.mail.re2.yahoo.com>"
+      ],
+      "body_plain": "I am not a physician, but most of the people who ask me for confidence\nintervals on sensitivity and specificity are.\n\nMy prefered approach (not the only one), is to use the Bayesian interval\nusing a uniform prior (beta(1,1) distribution) with the binomial (it is\neasier to do than it looks).\n\nBasically find the HPD interval from a beta distribution with parameters\ns+1 and f+1, where s and f are successes (correct test results) and\nfailures (incorrect test results).\n\nI use the hpd function from the TeachingDemos package, but there are\nothers as well (I'm a bit biased towards that package).\n\nFor example, to calculate the 95% confidence interval for sensitivity\nwhen you have 95 true positives and 5 false negatives you would just\ntype (after installing and loading the package):\n\n> hpd(qbeta, shape1=96, shape2=6)\n\nAnd the 2 numbers are limits of a 95% confidence interval.\n\nI like this approach because it still gives sensible results when you\nhave no false negatives (or false positives for specificity).\n\nHope this helps,\n\n-- \nGregory (Greg) L. Snow Ph.D.\nStatistical Data Center\nIntermountain Healthcare\ngreg.snow at imail.org\n(801) 408-8111\n \n \n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Smita Pakhale\n> Sent: Friday, February 29, 2008 12:34 PM\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] need help in calculating confidence \n> intervals forsensitivity, specificity, PPV & NPV\n> \n> Hello,\n> \n> I am a physician and a novice in R.\n> \n> I am trying to calculate sensitivity, specificity, positive \n> predictive and negative predictive values. I could do that \n> using the package caret. However, I need to get confidence \n> intervals around these estimates and I do not know how to do that.\n> \n> Please help me find a way to calculate confidence intervals \n> for these parameters.\n> \n> thank you.\n> Sincerely,\n> Dr. Smita Pakhale\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list \n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "I am not a physician, but most of the people who ask me for confidence\nintervals on sensitivity and specificity are.\n\nMy prefered approach (not the only one), is to use the Bayesian interval\nusing a u",
+      "thread_id": "thread-a3d271ed0052",
+      "thread_depth": 0,
+      "month": "2008-03"
+    },
+    {
+      "id": "msg-c3797ee0b30b",
+      "message_id": "<002101c87d87$c4057c90$b5ac7b82@massey.ac.nz>",
+      "from_name": "Mark Stevenson",
+      "from_email_hash": "c4c9aa6b643877cb272d6571958870fc6f1cc820cb28a3597b42f3fa83a584c7",
+      "date": "2008-03-04T12:39:04+13:00",
+      "subject": "[R-sig-Epi] Estimating CI for sensitivity and specificity",
+      "subject_clean": "Estimating CI for sensitivity and specificity",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The 'epicentre' package (see the link on http://epicentre.massey.ac.nz/) has\na function (epi.tests) that returns point estimates and confidence intervals\non true and apparent prevalence, sensitivity, specificity, positive and\nnegative predictive values, and positive and negative likelihood ratios from\ncount data provided in a 2 by 2 table.\n\nThe following is the example from the function documentation:\n\n## A new diagnostic test was trialled on 2000 patients. Of 1000 patients\n## that were disease positive, 750 tested positive. Of 1000 patients that \n## were disease negative, 550 tested negative. What is the likeliood\n## ratio of a positive test?\n\nepi.tests(750, 450, 250, 550, alpha = 0.05, verbose = FALSE)\n\n          Disease +    Disease -      Total\nTest +          750          450       1200\nTest -          250          550        800\nTotal          1000         1000       2000\n\nPoint estimates and 95 % CIs:\n---------------------------------------------------------\nApparent prevalence:                    0.6 (0.58, 0.62)\nTrue prevalence:                        0.5 (0.48, 0.52)\nSensitivity:                            0.75 (0.72, 0.78)\nSpecificity:                            0.55 (0.52, 0.58)\nPositive predictive value:              0.62 (0.6, 0.65)\nNegative predictive value:              0.69 (0.65, 0.72)\nLikelihood ratio positive:              1.67 (1.54, 1.8)\nLikelihood ratio negative:              0.45 (0.4, 0.51)\n---------------------------------------------------------\n\n## The likelihood ratio of a positive test was 1.67 (95% CI 1.54 to 1.8).\n\nHope this is useful. \n\nRegards,\n\nMark Stevenson\n\n************************************************* \nMark Stevenson \nAssociate Professor, Veterinary Epidemiology \nIVABS, Massey University \nPrivate Bag 11-222 \nPalmerston North New Zealand \nPh: + 64 (06) 350 5915 \nFx: + 64 (06) 350 5716 \nM.Stevenson at massey.ac.nz",
+      "body_snippet": "The 'epicentre' package (see the link on http://epicentre.massey.ac.nz/) has\na function (epi.tests) that returns point estimates and confidence intervals\non true and apparent prevalence, sensitivity, ",
+      "thread_id": "thread-c3797ee0b30b",
+      "thread_depth": 0,
+      "month": "2008-03"
+    },
+    {
+      "id": "msg-fa0c3bdcd2c6",
+      "message_id": "<1204719171.5701.25.camel@mhills-desktop>",
+      "from_name": "Michael Hills",
+      "from_email_hash": "a21ff91191292240ff9c64f87cf12cef50eb0161c8514b80b2d3b644f75fa8a2",
+      "date": "2008-03-05T12:12:51Z",
+      "subject": "[R-sig-Epi] [R-sig-epi] Sensitivity, specificity, and predictive values",
+      "subject_clean": "Sensitivity, specificity, and predictive values",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "All of the examples cited in this discussion assume that a single sample\nof subjects is taken from a population and then classified as disease\npositive or negative, using the reference test. When this is the case\nthe true prevalence can also be obtained from the sample, but in many\nsituations separate samples are taken to estimate sensitivity and\nspecificity, so that the proportion of subjects who are disease positive\ndepends on the sample sizes chosen, and no estimate of prevalence is\npossible. \n\nIn this case the sensitivity and specificity can be estimated as before\nand then applied to a population in which the true prevalence of the\ndisease is p to give the predictive odds of a positive test in that\npopulation, namely\n\np/(1-p) x Sens/(1-Spec) = p/(1-p) x LR\n\nso the CI for the predictive odds of a positive test is directly related\nto the CI for the LR.\n\nThe epicentre package does provide an interval for the LR but it seems\nlikely that this is based on a single sample not two separate samples.\nFor two separate samples a method for finding the CI for the ratio of\ntwo independent proportions (Sens and 1-Spec) is required. Any\nsuggestions for doing this in R?\n\nMichael Hills",
+      "body_snippet": "All of the examples cited in this discussion assume that a single sample\nof subjects is taken from a population and then classified as disease\npositive or negative, using the reference test. When this",
+      "thread_id": "thread-fa0c3bdcd2c6",
+      "thread_depth": 0,
+      "month": "2008-03"
+    },
+    {
+      "id": "msg-651049c90074",
+      "message_id": "<20080305080435.ky5wmahmk4kwoggs@cubmail.cc.columbia.edu>",
+      "from_name": "dcm2104 at columbia.edu",
+      "from_email_hash": "c3349bd170fd623f2b90dcc947c0fda2857425472596b19a0c3f3308b0dac716",
+      "date": "2008-03-05T08:04:35-05:00",
+      "subject": "[R-sig-Epi] [R-sig-epi] Sensitivity, specificity, and\tpredictive values",
+      "subject_clean": "Sensitivity, specificity, and\tpredictive values",
+      "in_reply_to": "<1204719171.5701.25.camel@mhills-desktop>",
+      "references": [
+        "<1204719171.5701.25.camel@mhills-desktop>"
+      ],
+      "body_plain": "Hi,\n\nA good way to circumvent many of the aforementioned limitations is to  \nresort to non-parametrical ordinary boostrapping whereby you re-sample  \nyour dataset B times (B is typically greater than 5000 but rarely  \nsmaller than 1000 unless your original data-set is very small or  \ncomputational time is too expensive). You can then calculate the  \nsensitivity, specificity, PPV, and NPV for each re-sampled dataset.  \nFinally, you estimate the mean and confidence interval for  \nbootstrap-generated sensitivity, specificity, PPV, and NPV  \ndistributions.\n\nIf applicable, you can use these distributions to comapre two or more  \ntest diagnositic. For example, you can sample the sensitivity  \ndistribution of two test diagnostic (via, e.g., bootstrap again or  \npermutation), computing their differences, and then testing (t-test)  \nwhether the final distribution has a zero-mean.\n\nThe same procedure applies to other estimates (e.g., specificity, PPV,  \netc) and other tests along the same line may be constructed. You can  \nload library(boot) and type \"?boot\" in the terminal for further  \ninformation.\n\nIf neither test is a \"gold standard,\" the estimation of  \nprevalence-dependent PPV and NPV is considerably more complicated.\n\nDaniel",
+      "body_snippet": "Hi,\n\nA good way to circumvent many of the aforementioned limitations is to  \nresort to non-parametrical ordinary boostrapping whereby you re-sample  \nyour dataset B times (B is typically greater than ",
+      "thread_id": "thread-fa0c3bdcd2c6",
+      "thread_depth": 1,
+      "month": "2008-03"
+    },
+    {
+      "id": "msg-efd64df3c17e",
+      "message_id": "<d5b814ab0803261118o706625eqc572fab4a3d1cf4b@mail.gmail.com>",
+      "from_name": "Ajit de Silva",
+      "from_email_hash": "53038f7a5972a999f462bd75f998969982838b69e3faa8dcf26d2edbbc9c8ab6",
+      "date": "2008-03-26T11:18:32-07:00",
+      "subject": "[R-sig-Epi] R group forming on Linked In",
+      "subject_clean": "R group forming on Linked In",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080326/788bfa3c/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080326/788bfa3c/attachment.pl",
+      "thread_id": "thread-efd64df3c17e",
+      "thread_depth": 0,
+      "month": "2008-03"
+    },
+    {
+      "id": "msg-1193989dc000",
+      "message_id": "<fe88e5391aab.1aabfe88e539@ki.se>",
+      "from_name": "Henrik Kallberg",
+      "from_email_hash": "fed1ed22a5f8f4a7d27e83bad22b95f3f8887d92145fc9dfdf66410c3aaa4990",
+      "date": "2008-03-28T08:08:21+01:00",
+      "subject": "[R-sig-Epi] import data repeadeatly",
+      "subject_clean": "import data repeadeatly",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080328/1b99b9f4/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080328/1b99b9f4/attachment.pl",
+      "thread_id": "thread-1193989dc000",
+      "thread_depth": 0,
+      "month": "2008-03"
+    },
+    {
+      "id": "msg-0dd33df7959d",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC8083505983783@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2008-03-28T08:32:52+01:00",
+      "subject": "[R-sig-Epi] import data repeadeatly",
+      "subject_clean": "import data repeadeatly",
+      "in_reply_to": "<fe88e5391aab.1aabfe88e539@ki.se>",
+      "references": [],
+      "body_plain": "It's not entirely clear to me what goes on, but insert some commands that tells you what kind of structures you get and the dimension of them under way. str() is a good bet.\n\nOtherwise you must tell us in mor detail what goes wrong.\n\nregards,\nBendix Carstensen \n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> Henrik Kallberg\n> Sent: 28. marts 2008 08:08\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] import data repeadeatly\n> \n> Repeadeately\n> Dear All!\n> I'm an unexperienced user of R. I'm trying to import \n> varaibles in a stepwise manner from a huge data set (whole \n> genome scan data from a case control study). I'm not sure \n> that my code will work and I know that the current code is \n> not working the way I want it to work. I would like to import \n> data and do some calculations and then store the results and \n> then import a new variable and do the same calculations again \n> for the latter variable and so on. In the code below there is \n> no calculations yet (i'm just trying to solve the import \n> problem). Please.Can anyone give me som suggestions.\n> snpSelect<<- function(data, KIND, i){\n> rsp<<-cbind(subset(read.table(data, header = TRUE), \n> select=KIND+i)) rsp } datan<-matrix(0, nrow=1574, ncol=5) \n> for(i in 1:(length(q))){\n> datan[,i]<<-snpSelect(\"c:/program/R/test.txt\",KIND,i)\n> }\n> Best regards Henrik K?llberg\n> \n> \t[[alternative HTML version deleted]]\n> \n>",
+      "body_snippet": "It's not entirely clear to me what goes on, but insert some commands that tells you what kind of structures you get and the dimension of them under way. str() is a good bet.\n\nOtherwise you must tell u",
+      "thread_id": "thread-1193989dc000",
+      "thread_depth": 1,
+      "month": "2008-03"
+    },
+    {
+      "id": "msg-66b031dedfc4",
+      "message_id": "<74F6D513-A4D7-4BBF-8020-57653644B80F@gmail.com>",
+      "from_name": "Randy Johnson",
+      "from_email_hash": "32c41942879553ba35339ece6a033361c1fc6a544b10d7a33755efd0e28cfc54",
+      "date": "2008-03-28T08:02:32-04:00",
+      "subject": "[R-sig-Epi] import data repeadeatly",
+      "subject_clean": "import data repeadeatly",
+      "in_reply_to": "<fe88e5391aab.1aabfe88e539@ki.se>",
+      "references": [
+        "<fe88e5391aab.1aabfe88e539@ki.se>"
+      ],
+      "body_plain": "See ?read.table for some helpful options. Also, you probably don't  \nwant to use <<- so much. <- should (almost) always be sufficient and  \nis less likely to be the cause of strange bugs.\n\nOn Mar 28, 2008, at 3:08 AM, Henrik Kallberg wrote:\n> Repeadeately\n> Dear All!\n> I'm an unexperienced user of R. I'm trying to import varaibles in a  \n> stepwise manner from a huge data set (whole genome scan data from a  \n> case control study). I'm not sure that my code will work and I know  \n> that the current code is not working the way I want it to work. I  \n> would like to import data and do some calculations and then store  \n> the results and then import a new variable and do the same  \n> calculations again for the latter variable and so on. In the code  \n> below there is no calculations yet (i'm just trying to solve the  \n> import problem). Please.Can anyone give me som suggestions.\n> snpSelect<<- function(data, KIND, i){\n> rsp<<-cbind(subset(read.table(data, header = TRUE), select=KIND+i))\n> rsp\n> }\n> datan<-matrix(0, nrow=1574, ncol=5)\n> for(i in 1:(length(q))){\n> datan[,i]<<-snpSelect(\"c:/program/R/test.txt\",KIND,i)\n> }\n> Best regards Henrik K?llberg\n>\n> \t[[alternative HTML version deleted]]\n>\n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n\n\n                        |\\\n_____TTT_____/|   |\\  ()\n  (___|||___) \\|  ()",
+      "body_snippet": "See ?read.table for some helpful options. Also, you probably don't  \nwant to use <<- so much. <- should (almost) always be sufficient and  \nis less likely to be the cause of strange bugs.\n\nOn Mar 28, ",
+      "thread_id": "thread-1193989dc000",
+      "thread_depth": 1,
+      "month": "2008-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f522a8bf15b7",
+      "subject": "R-sig-Epi Digest, Vol 23, Issue 1 - Estimating CI for sensitivity and specificity",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2008-03-03T08:53:05-03:00",
+      "last_reply": "2008-03-03T08:53:05-03:00",
+      "root_message_id": "msg-f522a8bf15b7"
+    },
+    {
+      "id": "thread-a3d271ed0052",
+      "subject": "need help in calculating confidence intervals forsensitivity, specificity, PPV & NPV",
+      "message_count": 1,
+      "participants": [
+        "Greg Snow"
+      ],
+      "started": "2008-03-03T14:07:29-07:00",
+      "last_reply": "2008-03-03T14:07:29-07:00",
+      "root_message_id": "msg-a3d271ed0052"
+    },
+    {
+      "id": "thread-c3797ee0b30b",
+      "subject": "Estimating CI for sensitivity and specificity",
+      "message_count": 1,
+      "participants": [
+        "Mark Stevenson"
+      ],
+      "started": "2008-03-04T12:39:04+13:00",
+      "last_reply": "2008-03-04T12:39:04+13:00",
+      "root_message_id": "msg-c3797ee0b30b"
+    },
+    {
+      "id": "thread-fa0c3bdcd2c6",
+      "subject": "Sensitivity, specificity, and predictive values",
+      "message_count": 2,
+      "participants": [
+        "Michael Hills",
+        "dcm2104 at columbia.edu"
+      ],
+      "started": "2008-03-05T12:12:51+00:00",
+      "last_reply": "2008-03-05T08:04:35-05:00",
+      "root_message_id": "msg-fa0c3bdcd2c6"
+    },
+    {
+      "id": "thread-efd64df3c17e",
+      "subject": "R group forming on Linked In",
+      "message_count": 1,
+      "participants": [
+        "Ajit de Silva"
+      ],
+      "started": "2008-03-26T11:18:32-07:00",
+      "last_reply": "2008-03-26T11:18:32-07:00",
+      "root_message_id": "msg-efd64df3c17e"
+    },
+    {
+      "id": "thread-1193989dc000",
+      "subject": "import data repeadeatly",
+      "message_count": 3,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Henrik Kallberg",
+        "Randy Johnson"
+      ],
+      "started": "2008-03-28T08:08:21+01:00",
+      "last_reply": "2008-03-28T08:02:32-04:00",
+      "root_message_id": "msg-1193989dc000"
+    }
+  ]
+}

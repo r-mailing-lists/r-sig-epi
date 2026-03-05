@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2019-08",
+  "messages": [
+    {
+      "id": "msg-c825bb4c2dd7",
+      "message_id": "<CAHQKD=giH6kRhP87z+6sRreFycsfTbuUv-TmA3w5THRtY8DrWw@mail.gmail.com>",
+      "from_name": "Adriana Humanes",
+      "from_email_hash": "6e05c9240cca96f3a537f9d616d0f4710ed3ec333fadf815ec9706e45d76c976",
+      "date": "2019-08-28T12:13:34+01:00",
+      "subject": "[R-sig-Epi] Cox Hazard analysis using unequal number of data",
+      "subject_clean": "Cox Hazard analysis using unequal number of data",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I'm doing a survival analysis of a temperature treatment on 3 different\nsexual cross types of corals. I have a data set of 628 observations with\nunequal number of samples (see table below). I would like to know the power\nif the low number of samples in the HL treatment is affecting my results in\nthe cox hazard regression.\n\nThanks in advance,\n\nN Observed Expected\nTreatment_Cross=Control_HighHigh 106\nTreatment_Cross=Control_HighLow 69\nTreatment_Cross=Control_LowLow 173\nTreatment_Cross=Temperature_HighHigh 99\nTreatment_Cross=Temperature_HighLow 59\nTreatment_Cross=Temperature_LowLow 117\n\n\ncoxph(formula = Surv(Age, Status) ~ Treatment * Cross_type, data =\nRecruits_survival)\n\nn= 628, number of events= 225\n\ncoef exp(coef) se(coef) z Pr(>|z|)\n\nTreatmentT 0.12375 1.13173 0.21321 0.580 0.56165\nCross_typeHL -0.78216 0.45741 0.29906 -2.615 0.00891 **\nCross_typeLL -0.09413 0.91017 0.19348 -0.486 0.62662\nTreatmentT:Cross_typeHL 0.36443 1.43969 0.40265 0.905 0.36543\nTreatmentT:Cross_typeLL -0.48355 0.61659 0.29932 -1.615 0.10620\n---\nSignif. codes: 0 ?? 0.001 ?? 0.01 ?? 0.05 ?.? 0.1 ? ? 1\nexp(coef) exp(-coef) lower .95 upper .95\nTreatmentT 1.1317 0.8836 0.7452 1.719\nCross_typeHL 0.4574 2.1862 0.2545 0.822\nCross_typeLL 0.9102 1.0987 0.6229 1.330\nTreatmentT:Cross_typeHL 1.4397 0.6946 0.6539 3.170\nTreatmentT:Cross_typeLL 0.6166 1.6218 0.3429 1.109\n\nConcordance= 0.582 (se = 0.02 )\n\nLikelihood ratio test= 15.27 on 5 df, p=0.009\n\nWald test = 14.03 on 5 df, p=0.02\n\nScore (logrank) test = 14.51 on 5 df, p=0.01\n\nAdriana Humanes\n\nwww.adrianahumanes.com\n\nwww.coralassistlab.org\n\n\nPostdoctoral Research Associate\n\nRidley Building 2\nNewcastle University\nClaremont Road\nNewcastle upon Tyne NE1 7RU\nTelephone: +44 (0)191 208 6441 <+44%20191%20208%206441>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I'm doing a survival analysis of a temperature treatment on 3 different\nsexual cross types of corals. I have a data set of 628 observations with\nunequal number of samples (see table below). I would li",
+      "thread_id": "thread-c825bb4c2dd7",
+      "thread_depth": 0,
+      "month": "2019-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-c825bb4c2dd7",
+      "subject": "Cox Hazard analysis using unequal number of data",
+      "message_count": 1,
+      "participants": [
+        "Adriana Humanes"
+      ],
+      "started": "2019-08-28T12:13:34+01:00",
+      "last_reply": "2019-08-28T12:13:34+01:00",
+      "root_message_id": "msg-c825bb4c2dd7"
+    }
+  ]
+}

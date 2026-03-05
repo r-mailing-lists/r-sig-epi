@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2020-04",
+  "messages": [
+    {
+      "id": "msg-2b9fbf7ba3e1",
+      "message_id": "<CA+ZD8v6-F7GBN24CeghYOmQghM2TrKLsDF-gv+-CMjLTY3MeUw@mail.gmail.com>",
+      "from_name": "Yanwen Chen",
+      "from_email_hash": "03e219bb01e67e5965662ff02896b44f8fbdf2ae52dc8cc4414c7be886404db4",
+      "date": "2020-04-27T17:10:12-04:00",
+      "subject": "[R-sig-Epi] a question about the r package Epi",
+      "subject_clean": "a question about the r package Epi",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\nI have a question about the r package Epi.  I used the following code:\nrc <- ROC(form = data$event ~ data$continuous, plot=\"ROC\")\nI used this code and want to find out the optimum cutoff of my continuous\nvariable.  It seemed it works.  I also got a ROC curve indicating the\ncorresponding sensitivity,  specificity, PV+ and PV-.  However, I found\nthat the sensitivity and specificity are correct.  But PV+ and PV- are\nactually 1-PV+ and 1-PV-.\nIs that what designed by the package?\n\nThank you.\n\nBest,\nYanwen\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi,\nI have a question about the r package Epi.  I used the following code:\nrc <- ROC(form = data$event ~ data$continuous, plot=\"ROC\")\nI used this code and want to find out the optimum cutoff of my con",
+      "thread_id": "thread-2b9fbf7ba3e1",
+      "thread_depth": 0,
+      "month": "2020-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2b9fbf7ba3e1",
+      "subject": "a question about the r package Epi",
+      "message_count": 1,
+      "participants": [
+        "Yanwen Chen"
+      ],
+      "started": "2020-04-27T17:10:12-04:00",
+      "last_reply": "2020-04-27T17:10:12-04:00",
+      "root_message_id": "msg-2b9fbf7ba3e1"
+    }
+  ]
+}

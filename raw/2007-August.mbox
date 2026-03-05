@@ -1,0 +1,861 @@
+From ldisney at seiu1199.org  Thu Aug  2 20:39:51 2007
+From: ldisney at seiu1199.org (Lynn Disney)
+Date: Thu, 2 Aug 2007 14:39:51 -0400
+Subject: [R-sig-Epi] memory over load?
+Message-ID: <1B80C974ABFB23429A403B6667FE84C7B0F046@seiumain.SEIU.local>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070802/6d93c818/attachment.pl 
+
+From gerifalte28 at hotmail.com  Thu Aug  2 20:51:15 2007
+From: gerifalte28 at hotmail.com (FZ)
+Date: Thu, 02 Aug 2007 12:51:15 -0600
+Subject: [R-sig-Epi] memory over load?
+In-Reply-To: <1B80C974ABFB23429A403B6667FE84C7B0F046@seiumain.SEIU.local>
+References: <1B80C974ABFB23429A403B6667FE84C7B0F046@seiumain.SEIU.local>
+Message-ID: <46B227A3.6030600@hotmail.com>
+
+This is not an epi question.  You may want to place it into the general 
+list.
+If you were to do that, I would have pointed you to gc()  :-)
+
+Regards,
+
+Francisco
+
+Lynn Disney wrote:
+> I have been running logistic regression on R and am getting memory
+> overload issues. Is there a way to clear out the memory without
+> restarting R so that I can save my work? I have tried already rm(model1)
+> to remove the work from the first model so that I can run the second,
+> but it doesn't clear out enough memory.
+> 
+>  
+> 
+> Thanks.
+> 
+>  
+> 
+> Lynn D. Disney, Ph.D., J.D., M.P.H.
+> 
+> Research Analyst
+> 
+>  
+> 
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+> 
+> 
+>
+
+
+From gerifalte28 at hotmail.com  Thu Aug  2 21:08:35 2007
+From: gerifalte28 at hotmail.com (FZ)
+Date: Thu, 02 Aug 2007 13:08:35 -0600
+Subject: [R-sig-Epi] memory over load?
+In-Reply-To: <1B80C974ABFB23429A403B6667FE84C7B0F04B@seiumain.SEIU.local>
+References: <1B80C974ABFB23429A403B6667FE84C7B0F046@seiumain.SEIU.local>
+	<46B227A3.6030600@hotmail.com>
+	<1B80C974ABFB23429A403B6667FE84C7B0F04B@seiumain.SEIU.local>
+Message-ID: <46B22BB3.3070204@hotmail.com>
+
+Hi Lynn,
+
+You are posting to the Epi Special Interest Group list in R (R-Sig-Epi). 
+  This is a list to post specific question about epidemiological 
+analysis using R.  If you have a general question about using R, you 
+should subscribe to the general R-Help list.  For a general a 
+introduction about the different R-lists, please visit this website 
+http://www.r-project.org/mail.html
+
+Type ?gc into the R console-> hit Enter and you will see the answer to 
+your second question.
+
+I hope this helps,
+
+Francisco
+
+Lynn Disney wrote:
+> I have to plead ignorance on two counts: 1. Where is general list? 2.
+> What is gc()?
+> 
+> Thanks for the help.
+> 
+> Lynn
+> 
+> -----Original Message-----
+> From: FZ [mailto:gerifalte28 at hotmail.com] 
+> Sent: Thursday, August 02, 2007 2:51 PM
+> To: Lynn Disney
+> Cc: r-sig-epi at stat.math.ethz.ch
+> Subject: Re: [R-sig-Epi] memory over load?
+> 
+> This is not an epi question.  You may want to place it into the general 
+> list.
+> If you were to do that, I would have pointed you to gc()  :-)
+> 
+> Regards,
+> 
+> Francisco
+> 
+> Lynn Disney wrote:
+>> I have been running logistic regression on R and am getting memory
+>> overload issues. Is there a way to clear out the memory without
+>> restarting R so that I can save my work? I have tried already
+> rm(model1)
+>> to remove the work from the first model so that I can run the second,
+>> but it doesn't clear out enough memory.
+>>
+>>  
+>>
+>> Thanks.
+>>
+>>  
+>>
+>> Lynn D. Disney, Ph.D., J.D., M.P.H.
+>>
+>> Research Analyst
+>>
+>>  
+>>
+>>
+>> 	[[alternative HTML version deleted]]
+>>
+>> _______________________________________________
+>> R-sig-Epi at stat.math.ethz.ch mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>
+>>
+>>
+>>
+> 
+> 
+> 
+> 
+>
+
+
+From tlumley at u.washington.edu  Thu Aug  2 21:24:25 2007
+From: tlumley at u.washington.edu (Thomas Lumley)
+Date: Thu, 2 Aug 2007 12:24:25 -0700 (PDT)
+Subject: [R-sig-Epi] memory over load?
+In-Reply-To: <46B227A3.6030600@hotmail.com>
+Message-ID: <Pine.LNX.4.43.0708021224250.5600@hymn07.u.washington.edu>
+
+On Thu, 2 Aug 2007, FZ wrote:
+
+> This is not an epi question.  You may want to place it into the general
+> list.
+> If you were to do that, I would have pointed you to gc()  :-)
+
+And more people would have been available to point out that gc() is not the solution -- gc() is always run before allocating large chunks of memory and before concluding that R is out of memory, so gc() will not help.
+
+         -thomas
+
+
+> Regards,
+>
+> Francisco
+>
+> Lynn Disney wrote:
+>> I have been running logistic regression on R and am getting memory
+>> overload issues. Is there a way to clear out the memory without
+>> restarting R so that I can save my work? I have tried already rm(model1)
+>> to remove the work from the first model so that I can run the second,
+>> but it doesn't clear out enough memory.
+>>
+>>
+>>
+>> Thanks.
+>>
+>>
+>>
+>> Lynn D. Disney, Ph.D., J.D., M.P.H.
+>>
+>> Research Analyst
+>>
+>>
+>>
+>>
+>> 	[[alternative HTML version deleted]]
+>>
+>> _______________________________________________
+>> R-sig-Epi at stat.math.ethz.ch mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>
+>>
+>>
+>>
+>
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+
+Thomas Lumley			Assoc. Professor, Biostatistics
+tlumley at u.washington.edu	University of Washington, Seattle
+
+
+From gerifalte28 at hotmail.com  Thu Aug  2 22:14:24 2007
+From: gerifalte28 at hotmail.com (FZ)
+Date: Thu, 02 Aug 2007 14:14:24 -0600
+Subject: [R-sig-Epi] memory over load?
+In-Reply-To: <Pine.LNX.4.43.0708021224250.5600@hymn07.u.washington.edu>
+References: <Pine.LNX.4.43.0708021224250.5600@hymn07.u.washington.edu>
+Message-ID: <46B23B20.5020909@hotmail.com>
+
+Hi Thomas,
+
+My experience in memory management in R is very limited so I am sure you 
+are right, but how do you then explain the following behavior starting 
+with a fresh session?
+
+memory.size()# 12,000Kb
+x=integer(100000000)
+memory.size() #approx 412,000kb
+rm(x)
+memory.size()#still approx 412,000kb
+gc()
+memory.size()#down to approx 20,000Kb
+
+
+I am running R version 2.5.1 (2007-06-27), i386-pc-mingw32
+
+Thanks,
+
+Francisco
+
+Thomas Lumley wrote:
+> On Thu, 2 Aug 2007, FZ wrote:
+> 
+>> This is not an epi question.  You may want to place it into the general
+>> list.
+>> If you were to do that, I would have pointed you to gc()  :-)
+> 
+> And more people would have been available to point out that gc() is not 
+> the solution -- gc() is always run before allocating large chunks of 
+> memory and before concluding that R is out of memory, so gc() will not 
+> help.
+> 
+>         -thomas
+> 
+> 
+>> Regards,
+>>
+>> Francisco
+>>
+>> Lynn Disney wrote:
+>>> I have been running logistic regression on R and am getting memory
+>>> overload issues. Is there a way to clear out the memory without
+>>> restarting R so that I can save my work? I have tried already rm(model1)
+>>> to remove the work from the first model so that I can run the second,
+>>> but it doesn't clear out enough memory.
+>>>
+>>>
+>>>
+>>> Thanks.
+>>>
+>>>
+>>>
+>>> Lynn D. Disney, Ph.D., J.D., M.P.H.
+>>>
+>>> Research Analyst
+>>>
+>>>
+>>>
+>>>
+>>>     [[alternative HTML version deleted]]
+>>>
+>>> _______________________________________________
+>>> R-sig-Epi at stat.math.ethz.ch mailing list
+>>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>>
+>>>
+>>>
+>>>
+>>
+>> _______________________________________________
+>> R-sig-Epi at stat.math.ethz.ch mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>
+> 
+> Thomas Lumley            Assoc. Professor, Biostatistics
+> tlumley at u.washington.edu    University of Washington, Seattle
+> 
+> 
+> 
+> 
+> 
+>
+
+
+From tlumley at u.washington.edu  Thu Aug  2 22:39:49 2007
+From: tlumley at u.washington.edu (Thomas Lumley)
+Date: Thu, 2 Aug 2007 13:39:49 -0700 (PDT)
+Subject: [R-sig-Epi] memory over load?
+In-Reply-To: <46B23B20.5020909@hotmail.com>
+Message-ID: <Pine.LNX.4.43.0708021339490.5600@hymn07.u.washington.edu>
+
+On Thu, 2 Aug 2007, FZ wrote:
+
+> Hi Thomas,
+>
+> My experience in memory management in R is very limited so I am sure you are 
+> right, but how do you then explain the following behavior starting with a fresh 
+> session?
+>
+> memory.size()# 12,000Kb
+> x=integer(100000000)
+> memory.size() #approx 412,000kb
+> rm(x)
+> memory.size()#still approx 412,000kb
+> gc()
+> memory.size()#down to approx 20,000Kb
+>
+
+
+Yes, running gc() does affect the results of memory.size(), and running it more than once may have an effect, because there are three levels of garbage collection.
+
+However, a highest-level garbage collection is always done before R gives up on allocating memory.  If you run out of memory in R, adding gc() calls to your code will not help. The original question was about running out of memory.
+
+     -thomas
+
+
+
+
+Thomas Lumley			Assoc. Professor, Biostatistics
+tlumley at u.washington.edu	University of Washington, Seattle
+
+
+From gerifalte28 at hotmail.com  Thu Aug  2 22:50:43 2007
+From: gerifalte28 at hotmail.com (Francisco J. Zagmutt)
+Date: Thu, 02 Aug 2007 14:50:43 -0600
+Subject: [R-sig-Epi] memory over load?
+In-Reply-To: <Pine.LNX.4.43.0708021339490.5600@hymn07.u.washington.edu>
+References: <Pine.LNX.4.43.0708021339490.5600@hymn07.u.washington.edu>
+Message-ID: <46B243A3.1050808@hotmail.com>
+
+Thanks for your reply Thomas.  I do understand that is the case once R 
+runs out of memory. I did not know about the three levels of garbage 
+collection though, thanks for pointing that out (I read the description 
+in the R-Internals).
+However, my impression was that Lynn wanted to know how to free memory 
+to *avoid* running out of memory when running a second model ("I have 
+tried already rm(model1) to remove the work from the first model so that 
+I can run the second, but it doesn't clear out enough memory.")
+
+Lynn, perhaps you can be more specific about your question?
+
+Regards,
+
+Francisco
+
+
+
+
+
+
+
+Thomas Lumley wrote:
+> On Thu, 2 Aug 2007, FZ wrote:
+> 
+>> Hi Thomas,
+>>
+>> My experience in memory management in R is very limited so I am sure 
+>> you are right, but how do you then explain the following behavior 
+>> starting with a fresh session?
+>>
+>> memory.size()# 12,000Kb
+>> x=integer(100000000)
+>> memory.size() #approx 412,000kb
+>> rm(x)
+>> memory.size()#still approx 412,000kb
+>> gc()
+>> memory.size()#down to approx 20,000Kb
+>>
+> 
+> 
+> Yes, running gc() does affect the results of memory.size(), and running 
+> it more than once may have an effect, because there are three levels of 
+> garbage collection.
+> 
+> However, a highest-level garbage collection is always done before R 
+> gives up on allocating memory.  If you run out of memory in R, adding 
+> gc() calls to your code will not help. The original question was about 
+> running out of memory.
+> 
+>     -thomas
+> 
+> 
+> 
+> 
+> Thomas Lumley            Assoc. Professor, Biostatistics
+> tlumley at u.washington.edu    University of Washington, Seattle
+> 
+> 
+> 
+> 
+> 
+>
+
+
+From marianaw at web.de  Sat Aug  4 09:51:33 2007
+From: marianaw at web.de (Mariana Wagner)
+Date: Sat, 04 Aug 2007 09:51:33 +0200
+Subject: [R-sig-Epi] lognormal distribution in survreg
+Message-ID: <1592232557@web.de>
+
+I fit a lognormal model to survival data using survreg.  I am confused about the output, because I do not know how to interprete the
+"scale." The output is:
+
+Call:
+survreg(formula = surv1 ~ p$score, dist = "lognormal")
+               Value Std. Error     z         p
+(Intercept)   5.5891     0.1986 28.14 2.76e-174
+p$score      -0.0162     0.0102 -1.58  1.14e-01
+Log(scale)    0.4046     0.0594  6.81  9.65e-12
+
+Scale= 1.5
+
+Log Normal distribution
+Loglik(model)= -996.1   Loglik(intercept only)= -997.4
+        Chisq= 2.5 on 1 degrees of freedom, p= 0.11
+Number of Newton-Raphson Iterations: 4
+n= 505
+
+Is scale the scale parameter of the lognormal distribution ? If yes is there no estimate of the standard derivation? 
+
+Thanks,
+
+Mariana
+
+
+From LMramba at kilifi.kemri-wellcome.org  Mon Aug  6 07:53:28 2007
+From: LMramba at kilifi.kemri-wellcome.org (Lazarus Mramba)
+Date: Mon, 06 Aug 2007 08:53:28 +0300
+Subject: [R-sig-Epi] lognormal distribution in survreg (Mariana Wagner)
+Message-ID: <s6b6e18e.053@mail.kilifi.kemri-wellcome.org>
+
+Hi Mariana,
+
+The log(scale)=0.40546 output means that if you want to get the scale,
+then, you compute the exponential of the coefficients 0.40546 and the
+answer will be 1.5
+The sclae for the standard error can be found by  computing the
+exponential of 0.0594, giving 1.0611996
+
+Is that clear?
+
+Kind regards,
+
+
+Lazarus Mramba
+
+P.O Box 230, 80108,
+Kilifi, Kenya
+Mobile No. +254721292370
+
+(office extension : 419)
+
+>>> r-sig-epi-request at stat.math.ethz.ch 08/04 1:00 PM >>>
+Send R-sig-Epi mailing list submissions to
+	r-sig-epi at stat.math.ethz.ch 
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	https://stat.ethz.ch/mailman/listinfo/r-sig-epi 
+or, via email, send a message with subject or body 'help' to
+	r-sig-epi-request at stat.math.ethz.ch 
+
+You can reach the person managing the list at
+	r-sig-epi-owner at stat.math.ethz.ch 
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of R-sig-Epi digest..."
+
+
+Today's Topics:
+
+   1. lognormal distribution in survreg (Mariana Wagner)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Sat, 04 Aug 2007 09:51:33 +0200
+From: Mariana Wagner <marianaw at web.de>
+Subject: [R-sig-Epi] lognormal distribution in survreg
+To: r-sig-epi at stat.math.ethz.ch 
+Message-ID: <1592232557 at web.de>
+Content-Type: text/plain; charset=iso-8859-15
+
+I fit a lognormal model to survival data using survreg.  I am confused
+about the output, because I do not know how to interprete the
+"scale." The output is:
+
+Call:
+survreg(formula = surv1 ~ p$score, dist = "lognormal")
+               Value Std. Error     z         p
+(Intercept)   5.5891     0.1986 28.14 2.76e-174
+p$score      -0.0162     0.0102 -1.58  1.14e-01
+Log(scale)    0.4046     0.0594  6.81  9.65e-12
+
+Scale= 1.5
+
+Log Normal distribution
+Loglik(model)= -996.1   Loglik(intercept only)= -997.4
+        Chisq= 2.5 on 1 degrees of freedom, p= 0.11
+Number of Newton-Raphson Iterations: 4
+n= 505
+
+Is scale the scale parameter of the lognormal distribution ? If yes is
+there no estimate of the standard derivation? 
+
+Thanks,
+
+Mariana
+
+
+
+------------------------------
+
+_______________________________________________
+R-sig-Epi mailing list
+R-sig-Epi at stat.math.ethz.ch 
+https://stat.ethz.ch/mailman/listinfo/r-sig-epi 
+
+
+End of R-sig-Epi Digest, Vol 16, Issue 2
+
+
+From tlumley at u.washington.edu  Mon Aug  6 16:04:07 2007
+From: tlumley at u.washington.edu (Thomas Lumley)
+Date: Mon, 6 Aug 2007 07:04:07 -0700 (PDT)
+Subject: [R-sig-Epi] lognormal distribution in survreg (Mariana Wagner)
+In-Reply-To: <s6b6e18e.053@mail.kilifi.kemri-wellcome.org>
+References: <s6b6e18e.053@mail.kilifi.kemri-wellcome.org>
+Message-ID: <Pine.LNX.4.64.0708060702020.28453@homer24.u.washington.edu>
+
+On Mon, 6 Aug 2007, Lazarus Mramba wrote:
+
+> Hi Mariana,
+>
+> The log(scale)=0.40546 output means that if you want to get the scale,
+> then, you compute the exponential of the coefficients 0.40546 and the
+> answer will be 1.5
+
+And this 1.5 is the standard deviation of a normal distribution, ie, of 
+the log of survival time.
+
+ 	-thomas
+
+> The sclae for the standard error can be found by  computing the
+> exponential of 0.0594, giving 1.0611996
+>
+> Is that clear?
+>
+> Kind regards,
+>
+>
+> Lazarus Mramba
+>
+> P.O Box 230, 80108,
+> Kilifi, Kenya
+> Mobile No. +254721292370
+>
+> (office extension : 419)
+>
+>>>> r-sig-epi-request at stat.math.ethz.ch 08/04 1:00 PM >>>
+> Send R-sig-Epi mailing list submissions to
+> 	r-sig-epi at stat.math.ethz.ch
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+> 	https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> or, via email, send a message with subject or body 'help' to
+> 	r-sig-epi-request at stat.math.ethz.ch
+>
+> You can reach the person managing the list at
+> 	r-sig-epi-owner at stat.math.ethz.ch
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of R-sig-Epi digest..."
+>
+>
+> Today's Topics:
+>
+>   1. lognormal distribution in survreg (Mariana Wagner)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Sat, 04 Aug 2007 09:51:33 +0200
+> From: Mariana Wagner <marianaw at web.de>
+> Subject: [R-sig-Epi] lognormal distribution in survreg
+> To: r-sig-epi at stat.math.ethz.ch
+> Message-ID: <1592232557 at web.de>
+> Content-Type: text/plain; charset=iso-8859-15
+>
+> I fit a lognormal model to survival data using survreg.  I am confused
+> about the output, because I do not know how to interprete the
+> "scale." The output is:
+>
+> Call:
+> survreg(formula = surv1 ~ p$score, dist = "lognormal")
+>               Value Std. Error     z         p
+> (Intercept)   5.5891     0.1986 28.14 2.76e-174
+> p$score      -0.0162     0.0102 -1.58  1.14e-01
+> Log(scale)    0.4046     0.0594  6.81  9.65e-12
+>
+> Scale= 1.5
+>
+> Log Normal distribution
+> Loglik(model)= -996.1   Loglik(intercept only)= -997.4
+>        Chisq= 2.5 on 1 degrees of freedom, p= 0.11
+> Number of Newton-Raphson Iterations: 4
+> n= 505
+>
+> Is scale the scale parameter of the lognormal distribution ? If yes is
+> there no estimate of the standard derivation?
+>
+> Thanks,
+>
+> Mariana
+>
+>
+>
+> ------------------------------
+>
+> _______________________________________________
+> R-sig-Epi mailing list
+> R-sig-Epi at stat.math.ethz.ch
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+>
+> End of R-sig-Epi Digest, Vol 16, Issue 2
+>
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+
+Thomas Lumley			Assoc. Professor, Biostatistics
+tlumley at u.washington.edu	University of Washington, Seattle
+
+
+From Tom.Willems at var.fgov.be  Tue Aug  7 17:07:30 2007
+From: Tom.Willems at var.fgov.be (Tom Willems)
+Date: Tue, 7 Aug 2007 17:07:30 +0200
+Subject: [R-sig-Epi] logistic models validation for categorical data
+Message-ID: <OF7E8931A1.66EFD7E9-ONC1257330.0052FA37-C1257330.00531486@var.fgov.be>
+
+Een ingesloten tekst met niet-gespecificeerde tekenset is
+van het bericht gescrubt ...
+Naam: niet beschikbaar
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070807/9448e270/attachment.pl 
+
+From Tom.Willems at var.fgov.be  Wed Aug  8 18:04:05 2007
+From: Tom.Willems at var.fgov.be (Tom Willems)
+Date: Wed, 8 Aug 2007 18:04:05 +0200
+Subject: [R-sig-Epi] Logistic Models, Cross Validation, error tables ,
+	Monte Carlo Simulation?
+Message-ID: <OF35A34751.54130DA9-ONC1257331.002CB9F4-C1257331.00584387@var.fgov.be>
+
+Een ingesloten tekst met niet-gespecificeerde tekenset is
+van het bericht gescrubt ...
+Naam: niet beschikbaar
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070808/f731af08/attachment.pl 
+
+From Tom.Willems at var.fgov.be  Mon Aug 13 11:21:40 2007
+From: Tom.Willems at var.fgov.be (Tom Willems)
+Date: Mon, 13 Aug 2007 11:21:40 +0200
+Subject: [R-sig-Epi] Q: How to extract coefisients from one glm and
+ implement them in to an other glm?
+Message-ID: <OFFFC8D04D.0F8A9BD6-ONC1257336.0033602A-C1257336.00336D42@var.fgov.be>
+
+Een ingesloten tekst met niet-gespecificeerde tekenset is
+van het bericht gescrubt ...
+Naam: niet beschikbaar
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070813/75d235b1/attachment.pl 
+
+From mps47 at cam.ac.uk  Mon Aug 20 12:13:56 2007
+From: mps47 at cam.ac.uk (Marcelo Segura)
+Date: Mon, 20 Aug 2007 11:13:56 +0100
+Subject: [R-sig-Epi] newsgroup for this mailing list?
+Message-ID: <46C96964.9020002@cam.ac.uk>
+
+Hello
+I am new to this group and I was wondering if there isn't a more 
+traditional way to access it, as with newsgroups from Usenet.
+
+Thanks in advance
+Marcelo
+
+
+From bxc at steno.dk  Mon Aug 20 12:49:22 2007
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Mon, 20 Aug 2007 12:49:22 +0200
+Subject: [R-sig-Epi] newsgroup for this mailing list?
+In-Reply-To: <46C96964.9020002@cam.ac.uk>
+Message-ID: <40D3930AC1C8EA469E39536E5BC808350492C062@EXDKBA021.corp.novocorp.net>
+
+No, the only way to acces this list is by sending an e-mail to:
+
+r-sig-epi at stat.math.ethz.ch
+
+You can browse the postings to the list at
+https://stat.ethz.ch/pipermail/r-sig-epi/
+
+Best
+Bendix
+______________________________________________
+
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
++45 44 43 73 13 (fax)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> Marcelo Segura
+> Sent: Monday, August 20, 2007 12:14 PM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] newsgroup for this mailing list?
+> 
+> Hello
+> I am new to this group and I was wondering if there isn't a 
+> more traditional way to access it, as with newsgroups from Usenet.
+> 
+> Thanks in advance
+> Marcelo
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+
+
+From epistat at gmail.com  Tue Aug 21 13:11:16 2007
+From: epistat at gmail.com (zhijie zhang)
+Date: Tue, 21 Aug 2007 19:11:16 +0800
+Subject: [R-sig-Epi] Could it be possible to set up an international group
+	to develop a specific Epi package?
+Message-ID: <2fc17e30708210411q2fc8ebc1s25574ff2288d4709@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070821/4d828147/attachment.pl 
+
+From bxc at steno.dk  Tue Aug 21 13:37:44 2007
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Tue, 21 Aug 2007 13:37:44 +0200
+Subject: [R-sig-Epi] Could it be possible to set up an international
+	groupto develop a specific Epi package?
+In-Reply-To: <2fc17e30708210411q2fc8ebc1s25574ff2288d4709@mail.gmail.com>
+Message-ID: <40D3930AC1C8EA469E39536E5BC8083504970428@EXDKBA021.corp.novocorp.net>
+
+Dear Zhang Zhi Jie,
+
+The development of an Epi package is actually working quite well, see
+www.biostat.ku.dk/~bxc/Epi, and for the epitools package see
+http://www.epitools.net/
+
+The former which I am the maintainer of is continuously being developed,
+and a new versiondue out in a not too distant future.
+
+Suggestions for facilities are most welcome.
+
+Best,
+Bendix
+______________________________________________
+
+Bendix Carstensen
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
++45 44 43 73 13 (fax)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of zhijie zhang
+> Sent: Tuesday, August 21, 2007 1:11 PM
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] Could it be possible to set up an 
+> international groupto develop a specific Epi package?
+> 
+> Dear friends,
+>   It seems that the development of epidemiological package is 
+> not that good.  Could it be possible to set up an 
+> international group to develop a specific Epi package? 
+> Spatial Analysis Laboratory (SAL) in the Department of 
+> Geography at the University of Illinois (www.sal.uiuc.edu) 
+> had done well on spatial data analysis, may we do the similar 
+> thing on the field of epidemiology?
+>   We may need a leader.
+> 
+> --
+> With Kind Regards,
+> 
+> oooO:::::::::
+> (..):::::::::
+> :\.(:::Oooo::
+> ::\_)::(..)::
+> :::::::)./:::
+> ::::::(_/::::
+> :::::::::::::
+> [*************************************************************
+> **********]
+> Zhi Jie,Zhang ,PHD
+> Tel:86-21-54237149
+> Dept. of Epidemiology,School of Public Health,Fudan 
+> University Address:No. 138 Yi Xue Yuan Road,Shanghai,China
+> Postcode:200032
+> Email:epistat at gmail.com
+> Website: www.statABC.com
+> [*************************************************************
+> **********]
+> oooO:::::::::
+> (..):::::::::
+> :\.(:::Oooo::
+> ::\_)::(..)::
+> :::::::)./:::
+> ::::::(_/::::
+> :::::::::::::
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>
+
+
+From Mitchell.Wachtel at ttuhsc.edu  Wed Aug 22 14:26:01 2007
+From: Mitchell.Wachtel at ttuhsc.edu (Wachtel, Mitchell)
+Date: Wed, 22 Aug 2007 07:26:01 -0500
+Subject: [R-sig-Epi] Could it be possible to set up an international
+	group to develop a specific Epi package?
+Message-ID: <1A2BCA4266504B4CA543403718A81FD20299609B@TRAVIS.ttuhsc.edu>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070822/2940cca8/attachment.pl 
+

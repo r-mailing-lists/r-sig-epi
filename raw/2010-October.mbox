@@ -1,0 +1,186 @@
+From Steven.Rosenberg at ucdenver.edu  Fri Oct  8 20:21:18 2010
+From: Steven.Rosenberg at ucdenver.edu (Rosenberg, Steven)
+Date: Fri, 8 Oct 2010 12:21:18 -0600
+Subject: [R-sig-Epi] mvtnorm -- rates of occurence
+Message-ID: <7D546519E38F5D49ABAA8D75B4195282E4ED6076F4@ESTES.ucdenver.pvt>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101008/82c7bd2e/attachment.pl>
+
+From erik.lampa at gmail.com  Wed Oct 13 11:10:46 2010
+From: erik.lampa at gmail.com (Erik Lampa)
+Date: Wed, 13 Oct 2010 11:10:46 +0200
+Subject: [R-sig-Epi] Competing risks with time-varying covariates
+Message-ID: <AANLkTik2H-u-VnojG+tmgT4S9H1S3G7Ax3KbE0qx7zq3@mail.gmail.com>
+
+Dear list,
+
+This is a somewhat off-topic question as I don't have a specific issue
+with an R-function, but rather seek advice on how to proceed with my
+analyses.
+
+I have survival data on approximately 2000 subjects followed for about
+35 years. The subjects had their first medical examination at the age
+of 50 and were examined almost every 10th year after that, so the data
+is in long form with multiple records per subject.
+
+The event of interest now is cardiovascular mortality with mortality
+from other causes being a competing event. I consider myself a novice
+when it comes to analysis of these kinds of data, so as far as I
+understand estimating the survival function is not of much use as I
+have time-varying covariates. I therefore turned my attention to the
+Poisson representation of the Cox model. I have created a dataset with
+yearly increments of time (with age as the time-scale) using the Lexis
+and splitLexis functions in the Epi package v. 1.1.17. Additionaly the
+dataset has been duplicated and the status variable changed according
+to type of event. The main issue for me now is the interpretation of
+the effects. My model looks like this:
+
+mymodel <- glm(status ~ type*( bs(age, 3)*( ... covariates
+...))+offset(log(duration)), family=poisson(), data = mydata)
+
+where status is a dummy for event / no event and type =  the type of
+event. My intention is to model the effect of the covariates and age
+on the type of event (the type * rest interaction) and allow for
+possible time-dependent effects of the (time-varying) covariates (the
+age * covariates interaction).
+
+My question is whether one can estimate age-specific incidence rates
+for some values of the covariates this way? (for example. the
+incidence rates for cardiovascular mortality among males aged 50 are
+x% y% and z% and among males aged 60 a% b% and c% for bmi values of
+25, 30 and 35 ...)
+
+Thank you for your time. /Erik
+
+
+From suman_math at yahoo.com  Wed Oct 27 10:48:52 2010
+From: suman_math at yahoo.com (Suman Kundu)
+Date: Wed, 27 Oct 2010 01:48:52 -0700 (PDT)
+Subject: [R-sig-Epi] Kindly help me of applicability of PLSR method for
+	binary outcome variable
+Message-ID: <874660.52882.qm@web112515.mail.gq1.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/b219e746/attachment.pl>
+
+From emmanuel.brasil at gmail.com  Wed Oct 27 13:35:59 2010
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Wed, 27 Oct 2010 08:35:59 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 46, Issue 3
+In-Reply-To: <mailman.5.1288173602.27526.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.5.1288173602.27526.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <AANLkTikrCroSksSPiGEoeLQLjR1kWuNfsg88b2LHRx=U@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/1d1b1b84/attachment.pl>
+
+From kudryavtseva_kathrin at ngs.ru  Thu Oct 28 09:56:53 2010
+From: kudryavtseva_kathrin at ngs.ru (=?UTF-8?B?0JXQutCw0YLQtdGA0LjQvdCwINCa0YPQtNGA0Y/QstGG0LXQstCw?=)
+Date: Thu, 28 Oct 2010 14:56:53 +0700
+Subject: [R-sig-Epi] Reference group in logistic regression analysis
+Message-ID: <4CC92CC5.4010804@ngs.ru>
+
+To someone who could help me:
+
+I am a PhD student, working in the Novosibirsk University, Russia. I
+am now using glm() function to do logistic regression analysis.
+I cannot understand how the chosen reference group. For example, for the
+three genotypes of GG, GC, CC I want to be risk assessed in relation to
+the genotype CC, but the program selects the genotype GG. How do I
+change the reference group?
+
+
+Thanks for your time.
+Best wishes,
+Ekaterina Kudryavtseva
+PhD student,
+Department of Molecular Biology
+Novosibirsk University
+Tel: +7-923-185-82-47
+
+
+From bxc at steno.dk  Thu Oct 28 11:07:11 2010
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Thu, 28 Oct 2010 11:07:11 +0200
+Subject: [R-sig-Epi] Reference group in logistic regression analysis
+In-Reply-To: <4CC92CC5.4010804@ngs.ru>
+References: <4CC92CC5.4010804@ngs.ru>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3302B648DAF5@exdkmbx002.corp.novocorp.net>
+
+You presumably have your genotype variable coded as a factor; check by saying:
+
+> str( gentp )
+
+(or whatever your variable is called)
+ 
+The default in glm is to use the first level as reference. But you can reorder the levels usuing the relevel() command, so you just do:
+
+> glm( y ~ relevel(gentp,3) + ...., familily=binomial )
+
+You can explore furtehr by trying:
+
+> str( relevel(gento,3) )
+
+In Epi there is slightly more versatile function called Relevel, which also allows
+
+ > str( Relevel(gento,c(3,2)) )
+
+which in some sence would be more natural.
+
+
+Best regards,
+Bendix
+_________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Steno Diabetes Center A/S
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk    www.biostat.ku.dk/~bxc
+www.steno.dk
+
+
+-----Original Message-----
+From: r-sig-epi-bounces at stat.math.ethz.ch [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of ????????? ??????????
+Sent: 28. oktober 2010 09:57
+To: r-sig-epi at stat.math.ethz.ch
+Subject: [R-sig-Epi] Reference group in logistic regression analysis
+
+To someone who could help me:
+
+I am a PhD student, working in the Novosibirsk University, Russia. I am now using glm() function to do logistic regression analysis.
+I cannot understand how the chosen reference group. For example, for the three genotypes of GG, GC, CC I want to be risk assessed in relation to the genotype CC, but the program selects the genotype GG. How do I change the reference group?
+
+
+Thanks for your time.
+Best wishes,
+Ekaterina Kudryavtseva
+PhD student,
+Department of Molecular Biology
+Novosibirsk University
+Tel: +7-923-185-82-47
+
+_______________________________________________
+R-sig-Epi at stat.math.ethz.ch mailing list https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+From jthetzel at gmail.com  Thu Oct 28 14:44:48 2010
+From: jthetzel at gmail.com (Jeremy Hetzel)
+Date: Thu, 28 Oct 2010 08:44:48 -0400
+Subject: [R-sig-Epi] Reference group in logistic regression analysis
+In-Reply-To: <4CC92CC5.4010804@ngs.ru>
+References: <4CC92CC5.4010804@ngs.ru>
+Message-ID: <AANLkTikS3Ot-VArzXiZJpf_7X1fJ=c=Ot_31RA3vKR-S@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101028/c8259810/attachment.pl>
+

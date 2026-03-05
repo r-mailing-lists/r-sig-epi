@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2021-11",
+  "messages": [
+    {
+      "id": "msg-767b42803bbc",
+      "message_id": "<CAEsSYzxkPVQRnxeirZOY_XDg-OA7jpqwb7zHm9RV=87uAbaBoQ@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2021-11-01T15:37:08Z",
+      "subject": "[R-sig-Epi] Pierre Legendre course - Advances in Spatial Analysis of Multivariate Ecological Data: Theory and Practice",
+      "subject_clean": "Pierre Legendre course - Advances in Spatial Analysis of Multivariate Ecological Data: Theory and Practice",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Advances in Spatial Analysis of Multivariate Ecological Data: Theory and\nPractice\n\nhttps://www.prstatistics.com/course/advances-in-spatial-analysis-of-multivariate-ecological-data-theory-and-practice-mvsp04/\n\nPlease feel free to share.\n\n25th - 29th April 2022\n\n?400 per person\n\nCourse Overview:\n\nThe course will describe recent methods (concepts and R tools) that can be\nused to analyse spatial patterns in community ecology. The umbrella concept\nof the course is beta diversity, which is the spatial variation of\ncommunities. These methods are applicable to all types of communities\n(bacteria, plants, animals) sampled along transects, regular grids or\nirregularly distributed sites. The new methods, collectively referred to as\nspatial eigen-function analysis, are grounded into techniques commonly used\nby community ecologists, which will be described first: simple ordination\n(PCA, CA, PCoA), multivariate regression and canonical analysis,\npermutation tests. The choice of dissimilarities that are appropriate for\ncommunity composition data will also be discussed. The focal question is to\ndetermine how much of the community variation (beta diversity) is due to\nenvironmental sorting and to community-based processes, including neutral\nprocesses. Recently developed methods to partition beta diversity in\ndifferent ways will be presented. Extensions will be made to temporal and\nspace-time data.\n\n\nThis course will be a combination of pre-recorded lectures delivered by\nProf. Pierre Legendre, Practical sessions with live support via email or\nvideo link and final live summary with Q and A at the end of each day Prof\nPierre Legendre.\n\nThere will be morning lectures based on the modules outlined in the course\ntimetable. In the afternoon there will be practicals based on the topics\ncovered that morning. Data sets for computer practicals will be provided by\nthe instructors, but participants are welcome to bring their own data.\n\nThe recordings will be aired via zoom. Recordings last for approx. 4 hours.\nFollowed by a 3-hour practical. And then an approx. 3 hour Q and A session\nwith Pierre Legendre.\n\nRecordings will be aired to accommodate different time zones listed below\nin GMT.\n\nGroup 1\nRecordings 08:00 ? 12:00\nPractical 12:30 ? 15:30\n\nGroup 2\nRecordings 12:00 ? 16:00\nPractical 16:30 ? 19:30\n\nGroup 1 and 2\nLive Q and A ? 20:00 ? 23:00 (with Prof. Pierre Legendre)\n\nEmail oliverhooker at prstatistics.com with any questions\n\n-- \nOliver Hooker PhD.\nPR statistics\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Advances in Spatial Analysis of Multivariate Ecological Data: Theory and\nPractice\n\nhttps://www.prstatistics.com/course/advances-in-spatial-analysis-of-multivariate-ecological-data-theory-and-practice-",
+      "thread_id": "thread-767b42803bbc",
+      "thread_depth": 0,
+      "month": "2021-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-767b42803bbc",
+      "subject": "Pierre Legendre course - Advances in Spatial Analysis of Multivariate Ecological Data: Theory and Practice",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2021-11-01T15:37:08+00:00",
+      "last_reply": "2021-11-01T15:37:08+00:00",
+      "root_message_id": "msg-767b42803bbc"
+    }
+  ]
+}

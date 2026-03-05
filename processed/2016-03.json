@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2016-03",
+  "messages": [
+    {
+      "id": "msg-c08c74f99f46",
+      "message_id": "<CANPRA+rPHQm9CFvXjNmunowHdva5tTmff1RfzW7XFxz-F69+Fw@mail.gmail.com>",
+      "from_name": "Thibaut Jombart",
+      "from_email_hash": "a870df9f6e75f3cbcc4043deb7cf0598da9e8598f08b1621deb5537b21fb46f5",
+      "date": "2016-03-14T15:44:21Z",
+      "subject": "[R-sig-Epi] Hackout 3 is on!",
+      "subject_clean": "Hackout 3 is on!",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nit is my pleasure to advertise *Hackout3*, a follow-up on the last two\nhackathons organised within the MRC Centre for Outbreak Analysis and\nModelling at Imperial College, for designing open-source tools for\ninfectious disease epidemiology.\n\nThis new event will take place in Berkeley (CA) 20-24th June 2016, and will\nfocus on the development of statistical tools for emergency outbreak\nresponse.\n\nFor more information and to participate, please visit the website of the\nevent:\nhttp://hackout3.github.io/\n\nPlease circulate this message widely wherever appropriate.\n\nThanks and all the best\n\nThibaut\n\n--\nDr Thibaut Jombart\nLecturer, Department of Infectious Disease Epidemiology\nImperial College London\nhttps://sites.google.com/site/thibautjombart/\nhttps://github.com/thibautjombart\nTwitter: @TeebzR <https://twitter.com/TeebzR>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n\nit is my pleasure to advertise *Hackout3*, a follow-up on the last two\nhackathons organised within the MRC Centre for Outbreak Analysis and\nModelling at Imperial College, for designing open",
+      "thread_id": "thread-c08c74f99f46",
+      "thread_depth": 0,
+      "month": "2016-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-c08c74f99f46",
+      "subject": "Hackout 3 is on!",
+      "message_count": 1,
+      "participants": [
+        "Thibaut Jombart"
+      ],
+      "started": "2016-03-14T15:44:21+00:00",
+      "last_reply": "2016-03-14T15:44:21+00:00",
+      "root_message_id": "msg-c08c74f99f46"
+    }
+  ]
+}

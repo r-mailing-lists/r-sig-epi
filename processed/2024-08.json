@@ -1,0 +1,189 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2024-08",
+  "messages": [
+    {
+      "id": "msg-8c97eb60bdcc",
+      "message_id": "<CAFEsyOxTB3QH6ESg4d5tW__4RDEFSbKT8Vmg1yhS4vt3ZST1kA@mail.gmail.com>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2024-08-06T17:58:23+10:00",
+      "subject": "[R-sig-Epi] Dimension Reduction for Complex Datasets - livestream seminar",
+      "subject_clean": "Dimension Reduction for Complex Datasets - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is offering a new 1-day workshop on Dimension Reduction Methods for\nComplex Datasets\n<https://instats.org/seminar/dimension-reduction-methods-for-life-sciences-2494>\nby professor Nikolay Oskolkov from Lund University, running August 12. This\nseminar provides a comprehensive overview of dimension reduction techniques\nin R (and Python) for high-dimensional biological and other forms of\ndisease related data, focusing on their practical applications.\nParticipants will gain theoretical knowledge and practical experience in\nlinear and nonlinear methods such as tSNE and UMAP -- unlike PCA and factor\nanalysis, these methods allow for nonlinear solutions. By the conclusion of\nthe seminar, participants will understand the theoretical and practical\nfoundations of these methods, with a wealth of examples that can be rapidly\napplied for their own research problems.\n\nSign up today\n<https://instats.org/seminar/dimension-reduction-methods-for-life-sciences-2494>\nto secure your spot in this exciting workshop and learn the intricacies of\ndata reduction for complex datasets using the most popular techniques\navailable today.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\n*instats.org* <http://instats.org>\n<http://instats.org>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is offering a new 1-day workshop on Dimension Reduction Methods for\nComplex Datasets\n<https://instats.org/seminar/dimension-reduction-methods-for-life-sciences-2494>\nby professor ",
+      "thread_id": "thread-8c97eb60bdcc",
+      "thread_depth": 0,
+      "month": "2024-08"
+    },
+    {
+      "id": "msg-c44cff43eaa6",
+      "message_id": "<CAFEsyOx2tgqnuBC3xeP+OL4T1TUmATT1YYonaQ0NEfyHRBWN3w@mail.gmail.com>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2024-08-13T22:26:38+10:00",
+      "subject": "[R-sig-Epi] Analysis of DNA Methylation - livestream seminar",
+      "subject_clean": "Analysis of DNA Methylation - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi everyone\n\nInstats is offering a new 3-day seminar on the Analysis of DNA Methylation\nby professor Aline Muyle, running September 18 - 20. This three-day\nworkshop provides comprehensive training in the analysis of DNA\nmethylation, a key epigenetic modification influencing gene expression and\ncontrolling the spread of transposable elements in genomes. Participants\nwill gain theoretical knowledge and practical skills in data preprocessing,\nstatistical analysis, and visualization using RStudio and various\nbioinformatic software using Bash scripts. The workshop is suited for\nresearchers across a broad range of fields, including Biostatistics,\nBiology, Genetics, Ecology, Evolution, Bioinformatics, Molecular Biology,\nand Medical Research.\n\nSign up today <http://Analysis of DNA Methylation> to reserve your spot and\nplease feel free to tell your friends and colleagues. We hope to see you\nthere!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\n*instats.org* <http://instats.org>\n<http://instats.org>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nInstats is offering a new 3-day seminar on the Analysis of DNA Methylation\nby professor Aline Muyle, running September 18 - 20. This three-day\nworkshop provides comprehensive training in ",
+      "thread_id": "thread-c44cff43eaa6",
+      "thread_depth": 0,
+      "month": "2024-08"
+    },
+    {
+      "id": "msg-17f9dc293c2c",
+      "message_id": "<CAFEsyOyrB-FNMCX6Us0+Q8FthcEa_soScBqvQodswz_nJgXLfg@mail.gmail.com>",
+      "from_name": "Michael Zyphur",
+      "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
+      "date": "2024-08-13T22:46:14+10:00",
+      "subject": "[R-sig-Epi] Analysis of DNA Methylation - livestream seminar",
+      "subject_clean": "Analysis of DNA Methylation - livestream seminar",
+      "in_reply_to": "<CAFEsyOx2tgqnuBC3xeP+OL4T1TUmATT1YYonaQ0NEfyHRBWN3w@mail.gmail.com>",
+      "references": [
+        "<CAFEsyOx2tgqnuBC3xeP+OL4T1TUmATT1YYonaQ0NEfyHRBWN3w@mail.gmail.com>"
+      ],
+      "body_plain": "Hi everyone\n\nApologies, the link in my previous email was incorrect, the correct link is\nas follows:\n\nhttps://instats.org/seminar/analysis-of-dna-methylation2\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\n*instats.org* <http://instats.org>\n<http://instats.org>\n\n\nOn Tue, 13 Aug 2024 at 22:26, Michael Zyphur <mzyphur at instats.org> wrote:\n\n> Hi everyone\n>\n> Instats is offering a new 3-day seminar on the Analysis of DNA Methylation\n> <http://Analysis%20of%20DNA%20Methylation> by professor Aline Muyle,\n> running September 18 - 20. This three-day workshop provides comprehensive\n> training in the analysis of DNA methylation, a key epigenetic modification\n> influencing gene expression and controlling the spread of transposable\n> elements in genomes. Participants will gain theoretical knowledge and\n> practical skills in data preprocessing, statistical analysis, and\n> visualization using RStudio and various bioinformatic software using Bash\n> scripts. The workshop is suited for researchers across a broad range of\n> fields, including Biostatistics, Biology, Genetics, Ecology, Evolution,\n> Bioinformatics, Molecular Biology, and Medical Research.\n>\n> Sign up today <http://Analysis%20of%20DNA%20Methylation> to reserve your\n> spot and please feel free to tell your friends and colleagues. We hope to\n> see you there!\n>\n>\n> Best wishes\n>\n> Michael Zyphur\n> Director\n> Institute for Statistical and Data Science\n> *instats.org* <http://instats.org>\n> <http://instats.org>\n>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone\n\nApologies, the link in my previous email was incorrect, the correct link is\nas follows:\n\nhttps://instats.org/seminar/analysis-of-dna-methylation2\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nIn",
+      "thread_id": "thread-c44cff43eaa6",
+      "thread_depth": 1,
+      "month": "2024-08"
+    },
+    {
+      "id": "msg-1a20c01d5f14",
+      "message_id": "<SP2QIrM6TPCVzcgiJBOnGQ@geopod-ismtpd-12>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2024-08-20T08:20:01Z",
+      "subject": "[R-sig-Epi] Using ChatGPT and Copilot for Data Analysis in R - livestream seminar",
+      "subject_clean": "Using ChatGPT and Copilot for Data Analysis in R - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240820/96c20474/attachment.html>",
+      "body_snippet": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240820/96c20474/attachment.html>",
+      "thread_id": "thread-1a20c01d5f14",
+      "thread_depth": 0,
+      "month": "2024-08"
+    },
+    {
+      "id": "msg-ebb020d81b53",
+      "message_id": "<300CHTkdz1664Set.1724149851@web01.cms.usa.net>",
+      "from_name": "james meyer",
+      "from_email_hash": "4c408922c8a2d6e5a9c71b9b9c1d0c352ef9a16dee3dd86dba523a26aab15f00",
+      "date": "2024-08-20T06:30:51-04:00",
+      "subject": "[R-sig-Epi] Marginal Structural Models",
+      "subject_clean": "Marginal Structural Models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Is there a package in R for fitting a marginal structural model with a time\nvarying exposure?\n\nJames Meyer",
+      "body_snippet": "Is there a package in R for fitting a marginal structural model with a time\nvarying exposure?\n\nJames Meyer",
+      "thread_id": "thread-ebb020d81b53",
+      "thread_depth": 0,
+      "month": "2024-08"
+    },
+    {
+      "id": "msg-357826f03150",
+      "message_id": "<1O4OHH5GRkOtrMRP5tpvqw@geopod-ismtpd-4>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2024-08-21T08:20:00Z",
+      "subject": "[R-sig-Epi] Machine Learning for Computational Biology - livestream seminar",
+      "subject_clean": "Machine Learning for Computational Biology - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240821/61017186/attachment.html>",
+      "body_snippet": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240821/61017186/attachment.html>",
+      "thread_id": "thread-357826f03150",
+      "thread_depth": 0,
+      "month": "2024-08"
+    },
+    {
+      "id": "msg-6e41a25ff8a6",
+      "message_id": "<OqOGc0GpSzajbLFHqJGAaQ@geopod-ismtpd-3>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2024-08-27T03:42:22Z",
+      "subject": "[R-sig-Epi] Network Analysis in R - livestream seminar",
+      "subject_clean": "Network Analysis in R - livestream seminar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240827/4a4ec131/attachment.html>",
+      "body_snippet": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240827/4a4ec131/attachment.html>",
+      "thread_id": "thread-6e41a25ff8a6",
+      "thread_depth": 0,
+      "month": "2024-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8c97eb60bdcc",
+      "subject": "Dimension Reduction for Complex Datasets - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2024-08-06T17:58:23+10:00",
+      "last_reply": "2024-08-06T17:58:23+10:00",
+      "root_message_id": "msg-8c97eb60bdcc"
+    },
+    {
+      "id": "thread-c44cff43eaa6",
+      "subject": "Analysis of DNA Methylation - livestream seminar",
+      "message_count": 2,
+      "participants": [
+        "Michael Zyphur"
+      ],
+      "started": "2024-08-13T22:26:38+10:00",
+      "last_reply": "2024-08-13T22:46:14+10:00",
+      "root_message_id": "msg-c44cff43eaa6"
+    },
+    {
+      "id": "thread-ebb020d81b53",
+      "subject": "Marginal Structural Models",
+      "message_count": 1,
+      "participants": [
+        "james meyer"
+      ],
+      "started": "2024-08-20T06:30:51-04:00",
+      "last_reply": "2024-08-20T06:30:51-04:00",
+      "root_message_id": "msg-ebb020d81b53"
+    },
+    {
+      "id": "thread-1a20c01d5f14",
+      "subject": "Using ChatGPT and Copilot for Data Analysis in R - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2024-08-20T08:20:01+00:00",
+      "last_reply": "2024-08-20T08:20:01+00:00",
+      "root_message_id": "msg-1a20c01d5f14"
+    },
+    {
+      "id": "thread-357826f03150",
+      "subject": "Machine Learning for Computational Biology - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2024-08-21T08:20:00+00:00",
+      "last_reply": "2024-08-21T08:20:00+00:00",
+      "root_message_id": "msg-357826f03150"
+    },
+    {
+      "id": "thread-6e41a25ff8a6",
+      "subject": "Network Analysis in R - livestream seminar",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2024-08-27T03:42:22+00:00",
+      "last_reply": "2024-08-27T03:42:22+00:00",
+      "root_message_id": "msg-6e41a25ff8a6"
+    }
+  ]
+}

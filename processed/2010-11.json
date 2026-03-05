@@ -1,0 +1,161 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2010-11",
+  "messages": [
+    {
+      "id": "msg-e69579210017",
+      "message_id": "<AANLkTinz+q80DEmBSqg+WJ0Ji+vUG=LhMMm8D1gZFWn_@mail.gmail.com>",
+      "from_name": "Dr Khan Amir Maroof",
+      "from_email_hash": "9c6a73453de6c9623207e82585fa2d933452458fa5c1461b32089f01f2e5e186",
+      "date": "2010-11-27T11:00:44+05:30",
+      "subject": "[R-sig-Epi] help",
+      "subject_clean": "help",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101127/a750e98c/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101127/a750e98c/attachment.pl>",
+      "thread_id": "thread-e69579210017",
+      "thread_depth": 0,
+      "month": "2010-11"
+    },
+    {
+      "id": "msg-299b072ec12e",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B665CCCA@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2010-11-28T08:17:14+01:00",
+      "subject": "[R-sig-Epi] help",
+      "subject_clean": "help",
+      "in_reply_to": "<AANLkTinz+q80DEmBSqg+WJ0Ji+vUG=LhMMm8D1gZFWn_@mail.gmail.com>",
+      "references": [
+        "<AANLkTinz+q80DEmBSqg+WJ0Ji+vUG=LhMMm8D1gZFWn_@mail.gmail.com>"
+      ],
+      "body_plain": "It sounds as if you are looking for something like\n\nnewvar <- as.numeric(var1==\"yes\")\n\nor\n\nnewvar <- as.numeric(var1==1)\n\ndepending on whether var1 is numeric or character.\n\nBest regards,\nBendix Carstensen\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at r-project.org \n> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Dr Khan \n> Amir Maroof\n> Sent: 27. november 2010 16:31\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] help\n> \n> Sir,\n> \n> Its wonderful to start using this software R. I am making \n> full efforts to learn it on my own with the help of the free \n> online manuals available. I am using epicalc package in R. I \n> have a dataset where i want to apply conditions like... if \n> var1 is yes or 1, assign 1 to it or else 0. Can you help me \n> with this problem?\n> \n> Thanking you,\n> \n> --\n> Dr. Khan Amir Maroof,\n> Lecturer,\n> Department of Community Medicine,\n> University College of Medical Sciences & GTB Hospital, Delhi\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "It sounds as if you are looking for something like\n\nnewvar <- as.numeric(var1==\"yes\")\n\nor\n\nnewvar <- as.numeric(var1==1)\n\ndepending on whether var1 is numeric or character.\n\nBest regards,\nBendix Carst",
+      "thread_id": "thread-e69579210017",
+      "thread_depth": 1,
+      "month": "2010-11"
+    },
+    {
+      "id": "msg-fe4befb1538e",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B665CD9E@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2010-11-29T08:26:08+01:00",
+      "subject": "[R-sig-Epi] help",
+      "subject_clean": "help",
+      "in_reply_to": "<AANLkTin87TAbpjOhg=-=v7SSzTkJN+AFy=PZYvRb5JM4@mail.gmail.com>",
+      "references": [
+        "<AANLkTinz+q80DEmBSqg+WJ0Ji+vUG=LhMMm8D1gZFWn_@mail.gmail.com>",
+        "<2F73FA3AF524144C863B7C2C903DBC3302B665CCCA@exdkmbx002.corp.novocorp.net>",
+        "<AANLkTinos5tKE-DfaZU1xrXYdVssxGzDNvg1T1qfEfAM@mail.gmail.com>",
+        "<2F73FA3AF524144C863B7C2C903DBC3302B665CD11@exdkmbx002.corp.novocorp.net>",
+        "<AANLkTin87TAbpjOhg=-=v7SSzTkJN+AFy=PZYvRb5JM4@mail.gmail.com>"
+      ],
+      "body_plain": "Dear Khan,\nI am afraid that the help list is not an online-course.\nThe questions you ask are too general for this forum, they would be suitable for a teacher at an appropriate course in epidemidological methods.\n\nFor introduction to very basics of R in epidemiology you may benefit from the\n\"Workbook introduction to R\", see, http://www.mhills.pwp.blueyonder.co.uk/Rwork_book.html\n\nBest regards,\nBendix Carstensen \n\n> -----Original Message-----\n> From: Dr Khan Amir Maroof [mailto:khanamirmaroof at gmail.com] \n> Sent: 29. november 2010 15:55\n> To: BXC (Bendix Carstensen)\n> Subject: Re: [R-sig-Epi] help\n> \n> Sir,\n>  \n> I want to know how to write the command for this problem.\n>  \n> I have entered the data in epidata and the variables are: \n> age, hadwateryesterday, hadthinporridgeyesterday.\n> age is a numeric variable containing numbers 0-23 months.\n> the other two variables are factor variables: having 0 for \n> no, 1 for yes and 8 for don't know\n>  \n> how to write command if i want to get the following \n> descriptive statistics:\n> proportion of children less than 6 months for whom \n> hadwateryesterday and hadthinporridgeyesterday is 0.\n>  \n> I think in my last email, I was not able to explain my \n> problem correctly.\n> Also I am a novice in using R, so my questions are very basic \n> as I have to master first how to write correct commands.\n>  \n> Thanks for your help.\n> \n> \n>  \n> On Mon, Nov 29, 2010 at 1:42 AM, BXC (Bendix Carstensen) \n> <bxc at steno.dk> wrote:\n> \n> \n> \tYou make a three-way table to see how breastfeeding \n> varies with the two others.\n> \tYou could also analyse by logistic regression.\n> \t\n> \tBest regards,\n> \tBendix\n> \t\n> \n> \t> -----Original Message-----\n> \t> From: Dr Khan Amir Maroof [mailto:khanamirmaroof at gmail.com]\n> \t> Sent: 29. november 2010 03:57\n> \t> To: BXC (Bendix Carstensen)\n> \t> Subject: Re: [R-sig-Epi] help\n> \t>\n> \t> thanx for your reply.\n> \t>\n> \t> i m posting my original problem. i hv a variables: 'age' in\n> \t> completed months frm 0 to 23; 'took water yesterday' as 1 for\n> \t> yes, 2 for no and 8 for don't know; 'took thin porridge\n> \t> yesterday' as 1 for yes, 2 for no and 8 for don't know. now i\n> \t> hv to find out this: if took water yesterday or took thin\n> \t> porridge yesterday by children less than 6 months of age,\n> \t> then they are not exclusively breastfed, whereas if not taken\n> \t> any of these yesterday then they are exclusively breastfed.\n> \t>\n> \t> kindly let me know how to do this in R or epicalc.\n> \t>\n> \t> thanking you.\n> \t>\n> \t>\n> \t> On Sun, Nov 28, 2010 at 12:47 PM, BXC (Bendix Carstensen)\n> \t> <bxc at steno.dk> wrote:\n> \t>\n> \t>\n> \t>       It sounds as if you are looking for something like\n> \t>\n> \t>       newvar <- as.numeric(var1==\"yes\")\n> \t>\n> \t>       or\n> \t>\n> \t>       newvar <- as.numeric(var1==1)\n> \t>\n> \t>       depending on whether var1 is numeric or character.\n> \t>\n> \t>       Best regards,\n> \t>       Bendix Carstensen\n> \t>\n> \t>\n> \t>       > -----Original Message-----\n> \t>       > From: r-sig-epi-bounces at r-project.org\n> \t>       > [mailto:r-sig-epi-bounces at r-project.org] On \n> Behalf Of Dr Khan\n> \t>       > Amir Maroof\n> \t>       > Sent: 27. november 2010 16:31\n> \t>       > To: r-sig-epi at stat.math.ethz.ch\n> \t>       > Subject: [R-sig-Epi] help\n> \t>       >\n> \t>       > Sir,\n> \t>       >\n> \t>       > Its wonderful to start using this software R. \n> I am making\n> \t>       > full efforts to learn it on my own with the \n> help of the free\n> \t>       > online manuals available. I am using epicalc \n> package in R. I\n> \t>       > have a dataset where i want to apply \n> conditions like... if\n> \t>       > var1 is yes or 1, assign 1 to it or else 0. \n> Can you help me\n> \t>       > with this problem?\n> \t>       >\n> \t>       > Thanking you,\n> \t>       >\n> \t>       > --\n> \t>       > Dr. Khan Amir Maroof,\n> \t>       > Lecturer,\n> \t>       > Department of Community Medicine,\n> \t>       > University College of Medical Sciences & GTB \n> Hospital, Delhi\n> \t>       >\n> \t>\n> \t>       >       [[alternative HTML version deleted]]\n> \t>       >\n> \t>       > _______________________________________________\n> \t>       > R-sig-Epi at r-project.org mailing list\n> \t>       > https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> \t>       >\n> \t>\n> \t>\n> \t>\n> \t>\n> \t> --\n> \t> Dr. Khan Amir Maroof,\n> \t> Lecturer,\n> \t> Department of Community Medicine,\n> \t> University College of Medical Sciences & GTB Hospital, Delhi\n> \t> www.teachingcommunitymedicine.blogspot.com \n> <http://www.teachingcommunitymedicine.blogspot.com/> \n> \t>\n> \t>\n> \t> \n> \n> \n> \n> \n> --\n> Dr. Khan Amir Maroof,\n> Lecturer,\n> Department of Community Medicine,\n> University College of Medical Sciences & GTB Hospital, Delhi \n> www.teachingcommunitymedicine.blogspot.com \n> <http://www.teachingcommunitymedicine.blogspot.com/> \n> \n> \n>",
+      "body_snippet": "Dear Khan,\nI am afraid that the help list is not an online-course.\nThe questions you ask are too general for this forum, they would be suitable for a teacher at an appropriate course in epidemidologic",
+      "thread_id": "thread-fe4befb1538e",
+      "thread_depth": 0,
+      "month": "2010-11"
+    },
+    {
+      "id": "msg-4b4e4ad1d7b0",
+      "message_id": "<000301cb900d$76f392c0$64dab840$@gigared.com>",
+      "from_name": "Diego Garcilazo",
+      "from_email_hash": "1ebd81481b46bd52777697c4bd470781fac96d65502f28afc21651418de46908",
+      "date": "2010-11-29T18:36:21-03:00",
+      "subject": "[R-sig-Epi] Frequencies like Epiinfo",
+      "subject_clean": "Frequencies like Epiinfo",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101129/0ee90c61/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101129/0ee90c61/attachment.pl>",
+      "thread_id": "thread-4b4e4ad1d7b0",
+      "thread_depth": 0,
+      "month": "2010-11"
+    },
+    {
+      "id": "msg-4b4e4ad1d7b0",
+      "message_id": "<000301cb900d$76f392c0$64dab840$@gigared.com>",
+      "from_name": "Diego Garcilazo",
+      "from_email_hash": "1ebd81481b46bd52777697c4bd470781fac96d65502f28afc21651418de46908",
+      "date": "2010-11-29T18:36:21-03:00",
+      "subject": "[R-sig-Epi] Frequencies like Epiinfo",
+      "subject_clean": "Frequencies like Epiinfo",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101129/0ee90c61/attachment-0001.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101129/0ee90c61/attachment-0001.pl>",
+      "thread_id": "thread-4b4e4ad1d7b0",
+      "thread_depth": 0,
+      "month": "2010-11"
+    },
+    {
+      "id": "msg-2b61439b2019",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B665D265@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2010-11-29T23:55:04+01:00",
+      "subject": "[R-sig-Epi] Frequencies like Epiinfo",
+      "subject_clean": "Frequencies like Epiinfo",
+      "in_reply_to": "<000301cb900d$76f392c0$64dab840$@gigared.com>",
+      "references": [
+        "<000301cb900d$76f392c0$64dab840$@gigared.com>"
+      ],
+      "body_plain": "Inside the function twoby2 from the Epi-package you will find a small locally defined function that gives you confidence intervals for proportions that are better than those you compute, which occasionally will give limits outside (0,1). \nThis one is based on the logit approximation, and is what you get if you used a logistic regression to estimate the proportions:\n\nbin.ci <- \nfunction(x, n) \n{\n  ef <- exp(qnorm(1 - alpha/2)/sqrt(x * (n - x)/n))\n  p <- x/n\n  c( p, p/(p + (1 - p) * ef), p/(p + (1 - p)/ef))\n}\n\nBest regards,\nBendix Carstensen\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at r-project.org \n> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Diego Garcilazo\n> Sent: 30. november 2010 08:36\n> To: r-sig-epi at stat.math.ethz.ch; r-sig-epi at r-project.org\n> Subject: [R-sig-Epi] Frequencies like Epiinfo\n> \n> \n>  \n> \n> I am trying to make a function that works like the command \n> Frequencies of Epiinfo. I am a beginner user and I make \n> something like this:\n> \n>  \n> \n> freq<-function(x){\n> \n> Frecuencia<-table(x,exclude=NULL);\n> \n> Porcentaje<-as.vector(round(prop.table(table(x,exclude=NULL)),2));\n> \n> Porc<-as.vector(round(prop.table(table(x,exclude=NULL))*100,1));\n> \n> Acumulado<-cumsum(Porc);\n> \n> IC95.Sup<-round(as.vector(Porc+196*sqrt(Porcentaje*(1-Porcenta\nje)/sum(Frecue\n> ncia))),1);\n> \n> IC95.Inf<-round(as.vector(Porc-196*sqrt(Porcentaje*(1-Porcenta\nje)/sum(Frecue\n> ncia))),1);\n> \n> matrix(\n> \n> c(Frecuencia,sum(Frecuencia),Porc,round(sum(Porc),1),\n> \n> Acumulado,NA,IC95.Inf,NA,IC95.Sup,NA),length(Frecuencia)+1,5,\n> \n> dimnames=list(c(labels(Frecuencia)[[1]],\"Total\"),c(\"Frecuencia\n> \",\"Porcentaje\"\n> ,\"Acumulado\",\"[IC--\",\"--95%]\"))\n> \n> );\n> \n> }\n> \n>  \n> \n> There is a way more efficient to create a function like this?\n> \n> there is a way to make it more visually - friendly adding \n> something like\n> -------------- that stat.table does?\n> \n> How can I add an argument like missing=T that show NA's and \n> missing=F that exclude Na's??\n> \n>  \n> \n> Thanks in advance. \n> \n>  \n> \n> Diego. \n> \n>  \n> \n>  \n> \n>  \n> \n>  \n> \n>  \n> \n>  \n> \n>  \n> \n>  \n> \n>  \n> \n>  \n> \n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>",
+      "body_snippet": "Inside the function twoby2 from the Epi-package you will find a small locally defined function that gives you confidence intervals for proportions that are better than those you compute, which occasio",
+      "thread_id": "thread-4b4e4ad1d7b0",
+      "thread_depth": 1,
+      "month": "2010-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e69579210017",
+      "subject": "help",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Dr Khan Amir Maroof"
+      ],
+      "started": "2010-11-27T11:00:44+05:30",
+      "last_reply": "2010-11-28T08:17:14+01:00",
+      "root_message_id": "msg-e69579210017"
+    },
+    {
+      "id": "thread-fe4befb1538e",
+      "subject": "help",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2010-11-29T08:26:08+01:00",
+      "last_reply": "2010-11-29T08:26:08+01:00",
+      "root_message_id": "msg-fe4befb1538e"
+    },
+    {
+      "id": "thread-4b4e4ad1d7b0",
+      "subject": "Frequencies like Epiinfo",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Diego Garcilazo"
+      ],
+      "started": "2010-11-29T18:36:21-03:00",
+      "last_reply": "2010-11-29T23:55:04+01:00",
+      "root_message_id": "msg-4b4e4ad1d7b0"
+    },
+    {
+      "id": "thread-4b4e4ad1d7b0",
+      "subject": "Frequencies like Epiinfo",
+      "message_count": 1,
+      "participants": [
+        "Diego Garcilazo"
+      ],
+      "started": "2010-11-29T18:36:21-03:00",
+      "last_reply": "2010-11-29T18:36:21-03:00",
+      "root_message_id": "msg-4b4e4ad1d7b0"
+    }
+  ]
+}

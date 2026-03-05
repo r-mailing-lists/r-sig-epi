@@ -1,0 +1,419 @@
+From kirchned at uni-muenster.de  Wed Aug 11 10:53:31 2010
+From: kirchned at uni-muenster.de (Dorothea Kirchner)
+Date: Wed, 11 Aug 2010 10:53:31 +0200 (CEST)
+Subject: [R-sig-Epi] problems with NA's
+Message-ID: <permail-2010081108533180e26a0b00003ab5-kirchned@message-id.uni-muenster.de>
+
+Hi,
+
+I try to calculate confidence intervals for SMRs using the pois.exact
+()-function from the package "epitools". But I have some troubble with the
+NAs. How can I remove the NAs out of my analysis? It doesn't work if I set the
+argument: $CI<-pois.exact($SMR, na.rm = TRUE).
+
+Many thanks for your help
+Dorothea
+
+
+From dwinsemius at comcast.net  Wed Aug 11 14:30:07 2010
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Wed, 11 Aug 2010 08:30:07 -0400
+Subject: [R-sig-Epi] problems with NA's
+In-Reply-To: <permail-2010081108533180e26a0b00003ab5-kirchned@message-id.uni-muenster.de>
+References: <permail-2010081108533180e26a0b00003ab5-kirchned@message-id.uni-muenster.de>
+Message-ID: <F729A663-ADE4-4B9B-B225-A264511B9449@comcast.net>
+
+
+On Aug 11, 2010, at 4:53 AM, Dorothea Kirchner wrote:
+
+> Hi,
+>
+> I try to calculate confidence intervals for SMRs using the pois.exact
+> ()-function from the package "epitools". But I have some troubble  
+> with the
+> NAs. How can I remove the NAs out of my analysis? It doesn't work if  
+> I set the
+> argument: $CI<-pois.exact($SMR, na.rm = TRUE).
+
+You will need to pre-process your data. The help page for pois.exact  
+makes no indication that it has an na.rm argument or that it will pass  
+arguments on to subsequent methods. There are functions for removal of  
+NA values.
+
+?na.omit
+?complete.cases
+
+(Caveat: I am not experienced with the use of this package.) It  
+appears that pois.exact expects at least two arguments, "x" (=counts)  
+and "pt" (=person-time), and therefore providing SMR's (= x/pt ) may  
+not give you desired results. The function will provide a rate as  
+output although the author appropriately calls it a "crude rate". I am  
+also puzzled by the use of leading "$"'s in variable names. That is  
+not a formalism with which I am aware. You didn't provide any sample  
+data or show what error messages you were getting so it's not possible  
+to say what other problems may exist.
+
+-- 
+
+David Winsemius, MD
+West Hartford, CT
+
+
+From emmanuel.brasil at gmail.com  Wed Aug 11 14:32:27 2010
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Wed, 11 Aug 2010 09:32:27 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 44, Issue 1
+In-Reply-To: <mailman.5.1281520802.17542.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.5.1281520802.17542.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <AANLkTim8AQ3LL29xqnd1OiADNEf9UbaLhMcTuX0B18ix@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100811/8b165127/attachment.pl>
+
+From dieter.anseeuw at katho.be  Tue Aug 17 07:28:47 2010
+From: dieter.anseeuw at katho.be (dieter.anseeuw)
+Date: Tue, 17 Aug 2010 05:28:47 +0000
+Subject: [R-sig-Epi] random-effects modeling
+Message-ID: <7C79081F82FB544BAF7B847A02F87972019CC8C8@KA-EXCHMBX-02.katho.local>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100817/9f56e1df/attachment.pl>
+
+From bxc at steno.dk  Tue Aug 17 07:57:46 2010
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Tue, 17 Aug 2010 07:57:46 +0200
+Subject: [R-sig-Epi] random-effects modeling
+In-Reply-To: <7C79081F82FB544BAF7B847A02F87972019CC8C8@KA-EXCHMBX-02.katho.local>
+References: <7C79081F82FB544BAF7B847A02F87972019CC8C8@KA-EXCHMBX-02.katho.local>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC33021DA86266@exdkmbx002.corp.novocorp.net>
+
+You would not use a Poisson distribution, you would use a binomial, since the number of positives is not in (0,\inf) but in (0,broilers).
+
+So you would de a random-effects logistic regression.
+I guess an attractive approach would be to use the MCMCglmm package that will do this sort of model using an MCMC approach.
+
+Best regards,
+Bendix Carstensen
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of 
+> dieter.anseeuw
+> Sent: 17. august 2010 07:29
+> To: r-sig-epi at stat.math.ethz.ch
+> Subject: [R-sig-Epi] random-effects modeling
+> 
+> Hi all,
+> 
+> 
+> 
+> Being new to analysing epidemiologic data, I have a question 
+> about the following data set:
+> 
+> A friend has inspected three randomly chosen farms (random 
+> factor 'farm'). At each farm three randomly chosen series of 
+> chickens (random factor 'flock') were each inspected for the 
+> presence of a certain bacteria. The contaminated chickens 
+> were counted (response variable 'positives'). The sample 
+> sizes per flock are given by 'broilers'. We want to have a 
+> look at within-broilers, within-farm and between-farm variability.
+> 
+> 
+> 
+> It seems to me that we have a random-effects model, in which 
+> the factor 'flock' is nested within the factor 'farm'. Am I 
+> correct so far?
+> 
+> Now, since the response variable yields count data, fitting 
+> the model should be done using Poisson regression. Correct?
+> 
+> 
+> 
+> Could somebody help me out with (an example of) such an analysis?
+> 
+> 
+> 
+> Many thanks in advance,
+> 
+> Dieter
+> 
+> 
+> 
+> Here is the dataset used:
+> 
+> 
+> 
+> broilers<-data.frame(farm=c("FA","FA","FA","FB","FB","FB","FC"
+,"FC","FC"), flock=c("a","b","c","d","e","f","g","h","i"), > broilers=c(50, rep(25,8)), positives=c(7,2,0,7,2,0,0,5,2))
+> 
+> 
+> 
+> 
+> 
+> --
+> 
+> Dieter Anseeuw
+> 
+> Katho Campus Roeselare
+> 
+> Wilgenstraat 32
+> 
+> 8800 Roeselare Belgium
+> 
+> 
+> 
+> Direct phone: +32 51 23 29 68
+> 
+> http://www.katho.be/hivb
+> 
+> http://www.linkedin.com/in/dieteranseeuw
+> 
+> 
+> 
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+
+From bxc at steno.dk  Thu Aug 26 07:47:49 2010
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Thu, 26 Aug 2010 07:47:49 +0200
+Subject: [R-sig-Epi] [epitools] Risk Difference
+In-Reply-To: <i53qjg+cc94@eGroups.com>
+References: <i53qjg+cc94@eGroups.com>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3302B5D3D077@exdkmbx002.corp.novocorp.net>
+
+Hi Will,
+
+> -----Original Message-----
+> From: epitools at yahoogroups.com 
+> [mailto:epitools at yahoogroups.com] On Behalf Of wleephd
+> Sent: 25. august 2010 21:23
+> To: epitools at yahoogroups.com
+> Subject: [epitools] Risk Difference
+> 
+>   
+> 
+> Hello,
+> 
+> I am very new to R and I am trying to find a way to calculate 
+> risk differece and the associated CI. What is method used to 
+> calculate CI?
+> 
+> Thanks for you help.
+> 
+> Will
+
+You can compute rate-ratios using a Poisson model with log-link.
+Rate differences comes from using a Poisson model with identity link.
+
+Here is an illustration of how it goes; it requires small trick in specification of the glm. The following R-code also produces confidence intervals etc. using the function ci.lin() from the Epi package, www.biostat.ku.dk/~bxc/Epi.
+
+Best regards,
+Bendix Carstensen
+_______________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+www.steno.dk
+
+###################################################
+### Define some events and person-years and do the 
+### traditional RR calculation
+###################################################
+D0 <- 15   ; D1 <- 28
+Y0 <- 5532 ; Y1 <- 4783
+RR <- (D1/Y1)/(D0/Y0)
+erf <- exp( 1.96 * sqrt(1/D0+1/D1) )
+c( RR, RR/erf, RR*erf )
+exp( c( log(RR), sqrt(1/D0+1/D1) ) %*% ci.mat() )
+
+###################################################
+### Stack the data and fit a model that gives the RR 
+###################################################
+D <- c(D0,D1) ; Y <- c(Y0,Y1); xpos <- 0:1
+mm <- glm( D ~ factor(xpos), offset=log(Y), family=poisson )
+exp( coef( mm ) )
+
+###################################################
+### The ci.lin function is in the Epi package
+###################################################
+library( Epi )
+ci.lin( mm, E=T)[,5:7]
+
+###################################################
+### The same model can be fitted using the observed 
+### rate as response and the person-years as weight 
+###################################################
+mr <- glm( D/Y ~ factor(xpos), weight=Y, 
+                 family=poisson )
+### Note the results are exactly the same
+summary(mm)$coef
+summary(mr)$coef
+
+###################################################
+### This specification gives the possibility of an
+### identity link to give rate and rate difference
+###################################################
+ma <- glm( D/Y ~ factor(xpos), weight=Y, 
+                 family=poisson(link=identity) )
+summary( ma )$coef
+ci.lin( ma )[,c(1,5,6)]
+
+###################################################
+### The ci.lin function in Epi have nice facilities 
+### that can be used to produce nice output
+###################################################
+# Scale person-years to get reasonable rates (per 1000)
+Y <- Y/1000
+rownames( CM ) <- c("rate 0","rate 1","RD 1 vs. 0")
+ma <- glm( D/Y ~ factor(xpos), weight=Y, 
+                 family=poisson(link=identity) )
+ci.lin( ma, ctr.mat=CM )
+
+
+From bxc at steno.dk  Thu Aug 26 09:16:21 2010
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Thu, 26 Aug 2010 09:16:21 +0200
+Subject: [R-sig-Epi] [epitools] Risk Difference
+In-Reply-To: <2F73FA3AF524144C863B7C2C903DBC3302B5D3D077@exdkmbx002.corp.novocorp.net>
+References: <i53qjg+cc94@eGroups.com>
+	<2F73FA3AF524144C863B7C2C903DBC3302B5D3D077@exdkmbx002.corp.novocorp.net>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3302B5D3D0EB@exdkmbx002.corp.novocorp.net>
+
+Incidentally a colleague of mine pointed out that you might be after a RISK difference, i.e. a difference of proportions.
+
+Same trick:
+
+D <- c(15,28) # Numerator
+N <- c(22,61) # Denominator
+
+# Hand calculation:
+D/N
+diff(D/N)
+
+# Glm to give the sd easily:
+summary( glm( cbind(D,N-D)~factor(0:1),family=binomial(link="identity") ) )
+
+Bendix
+
+> -----Original Message-----
+> From: r-sig-epi-bounces at stat.math.ethz.ch 
+> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of BXC 
+> (Bendix Carstensen)
+> Sent: 26. august 2010 07:48
+> To: epitools at yahoogroups.com
+> Cc: r-sig-epi at stat.math.ethz.ch
+> Subject: Re: [R-sig-Epi] [epitools] Risk Difference
+> 
+> Hi Will,
+> 
+> > -----Original Message-----
+> > From: epitools at yahoogroups.com
+> > [mailto:epitools at yahoogroups.com] On Behalf Of wleephd
+> > Sent: 25. august 2010 21:23
+> > To: epitools at yahoogroups.com
+> > Subject: [epitools] Risk Difference
+> > 
+> >   
+> > 
+> > Hello,
+> > 
+> > I am very new to R and I am trying to find a way to calculate risk 
+> > differece and the associated CI. What is method used to 
+> calculate CI?
+> > 
+> > Thanks for you help.
+> > 
+> > Will
+> 
+> You can compute rate-ratios using a Poisson model with log-link.
+> Rate differences comes from using a Poisson model with identity link.
+> 
+> Here is an illustration of how it goes; it requires small 
+> trick in specification of the glm. The following R-code also 
+> produces confidence intervals etc. using the function 
+> ci.lin() from the Epi package, www.biostat.ku.dk/~bxc/Epi.
+> 
+> Best regards,
+> Bendix Carstensen
+> _______________________________________________
+> 
+> Bendix Carstensen
+> Senior Statistician
+> Steno Diabetes Center
+> Niels Steensens Vej 2-4
+> DK-2820 Gentofte
+> Denmark
+> +45 44 43 87 38 (direct)
+> +45 30 75 87 38 (mobile)
+> bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+> www.steno.dk
+> 
+> ###################################################
+> ### Define some events and person-years and do the ### 
+> traditional RR calculation 
+> ###################################################
+> D0 <- 15   ; D1 <- 28
+> Y0 <- 5532 ; Y1 <- 4783
+> RR <- (D1/Y1)/(D0/Y0)
+> erf <- exp( 1.96 * sqrt(1/D0+1/D1) )
+> c( RR, RR/erf, RR*erf )
+> exp( c( log(RR), sqrt(1/D0+1/D1) ) %*% ci.mat() )
+> 
+> ###################################################
+> ### Stack the data and fit a model that gives the RR 
+> ###################################################
+> D <- c(D0,D1) ; Y <- c(Y0,Y1); xpos <- 0:1 mm <- glm( D ~ 
+> factor(xpos), offset=log(Y), family=poisson ) exp( coef( mm ) )
+> 
+> ###################################################
+> ### The ci.lin function is in the Epi package 
+> ###################################################
+> library( Epi )
+> ci.lin( mm, E=T)[,5:7]
+> 
+> ###################################################
+> ### The same model can be fitted using the observed ### rate 
+> as response and the person-years as weight 
+> ###################################################
+> mr <- glm( D/Y ~ factor(xpos), weight=Y, 
+>                  family=poisson )
+> ### Note the results are exactly the same summary(mm)$coef 
+> summary(mr)$coef
+> 
+> ###################################################
+> ### This specification gives the possibility of an ### 
+> identity link to give rate and rate difference 
+> ###################################################
+> ma <- glm( D/Y ~ factor(xpos), weight=Y, 
+>                  family=poisson(link=identity) ) summary( ma 
+> )$coef ci.lin( ma )[,c(1,5,6)]
+> 
+> ###################################################
+> ### The ci.lin function in Epi have nice facilities ### that 
+> can be used to produce nice output 
+> ###################################################
+> # Scale person-years to get reasonable rates (per 1000) Y <- 
+> Y/1000 rownames( CM ) <- c("rate 0","rate 1","RD 1 vs. 0") ma 
+> <- glm( D/Y ~ factor(xpos), weight=Y, 
+>                  family=poisson(link=identity) ) ci.lin( ma, 
+> ctr.mat=CM )
+> 
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list 
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+> 
+

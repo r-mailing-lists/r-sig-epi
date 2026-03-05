@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2012-03",
+  "messages": [
+    {
+      "id": "msg-ac166c672e6e",
+      "message_id": "<1332066071.77809.YahooMailNeo@web132101.mail.ird.yahoo.com>",
+      "from_name": "Iva P",
+      "from_email_hash": "dbbe84f1624e8038b0d97f0a5c93534b49e9e27cdcb74b1b70892166de5a5704",
+      "date": "2012-03-18T10:21:11Z",
+      "subject": "[R-sig-Epi] Cosinor Model (Halberg, Bingham) - Multiple components - Linear, Quadratic and Cubic trends",
+      "subject_clean": "Cosinor Model (Halberg, Bingham) - Multiple components - Linear, Quadratic and Cubic trends",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120318/9111ffea/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120318/9111ffea/attachment.pl>",
+      "thread_id": "thread-ac166c672e6e",
+      "thread_depth": 0,
+      "month": "2012-03"
+    },
+    {
+      "id": "msg-233db3324b27",
+      "message_id": "<2F73FA3AF524144C863B7C2C903DBC33031BA3E381@exdkmbx002.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2012-03-18T11:48:06+01:00",
+      "subject": "[R-sig-Epi] Cosinor Model (Halberg, Bingham) - Multiple components - Linear, Quadratic and Cubic trends",
+      "subject_clean": "Cosinor Model (Halberg, Bingham) - Multiple components - Linear, Quadratic and Cubic trends",
+      "in_reply_to": "<1332066071.77809.YahooMailNeo@web132101.mail.ird.yahoo.com>",
+      "references": [
+        "<1332066071.77809.YahooMailNeo@web132101.mail.ird.yahoo.com>"
+      ],
+      "body_plain": "Dear Iva,\nFirst it is normal politeness to identify yourself with name an affiliation at the end of your email to a list like this, many people will not answer anonymous e-mails.\n\nIt is a little unclear to me what you mean.\n\nIf you are alluding to quadratic or cubic terms in some variable \nyou just include then in the model al\n\nlm( y ~ I(z^2) + I(z^3), data=...)\n\nBut if you are referring to harmonic functions of higher order you can put hem in as separate sines and cosinse:\n\nlm( y ~ I(cos(2*pi*t/T)) + I(sin(2*pi*t/T)) + I(cos(4*pi*t/T)) + I(sin(4*pi*t/T)) )\n\nHere is a small function and a demo that shows what it does, maybe this is what you are looking for:\n\nharm <-\nfunction( mm, n )\n{\n  # Function to devise a n'th order harmonic from a\n  # numerical vector, scaled to be in the range 0 to 1\n\n  MM <- cbind(\n  outer( mm * 2 * pi, 1:n, function(x,y) cos( x*y ) ),\n  outer( mm * 2 * pi, 1:n, function(x,y) sin( x*y ) )\n              )[,rep(1:n,each=2)+rep(0:1,n)*n]\n  colnames( MM ) <- outer( c(\"cos\",\"sin\"), 1:n, paste, sep=\"\" )\n  MM\n}\n\nx <- seq(0,1,,100)\nhead( harm(x,3) )\nmatplot( x, harm(x,3), type=\"l\", lty=1, lwd=2 ) \n\nBest regards\nBendix Carstensen\nEpi package maintainer\n______________________________________________\n\nBendix Carstensen \nSenior Statistician\nEpidemiology\nSteno Diabetes Center A/S\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk    http://BendixCarstensen.com\nwww.steno.dk\n\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at r-project.org \n> [mailto:r-sig-epi-bounces at r-project.org] On Behalf Of Iva P\n> Sent: 18. marts 2012 21:21\n> To: R-sig-epi at r-project.org\n> Subject: [R-sig-Epi] Cosinor Model (Halberg, Bingham) - \n> Multiple components - Linear, Quadratic and Cubic trends\n> \n> \n> \n> Hello!\n> \n> I have a doubt in relation with the use of the cosinor model \n> with R when I have not only multiple components, but also \n> linear, quadratic and cubic trends.\n> \n> I explain the details:\n> \n> In simple cosinor:\n> \n> \n> Y = M + A * cos(2\n> * ?* t / T + ?) + error\n> \n> T knowed: y = M + ?* X1 + ?* X2 + error,\n> ?\n> Where X1 = cos (2 * ?* t / T) and X2 = sin(2\n> * ?* t / T)\n> ?\n> In this\n> case, I use lm(y ~ X1 + X2) .\n> ?\n> For the\n> multiple components case:\n> ?\n> y = M + ?Aj * cos(2 * ? * t /Tj + ?j) + error\n> ?\n> In this\n> case I use:? lm(y ~ X1tot + X2tot)\n> ?\n> However, in\n> the generalized model case (linear, quadratic and cubic \n> trends), I don?t know how to analyze with R.\n> ?\n> I include\n> the situacion formula:\n> ?\n> y = M + ?1 * t + ?2 * t2 + ?3 * t3+ ?Aj *\n> cos(2 *?* t /Tj + ?2) + error\n> ?\n> What\n> function in R can I use, as I used lm for the simple cosinor \n> model and the multiple components model?.\n> ?\n> How can I\n> obtain global information and separated information?. I refer \n> to obtain information for each contribution (linear tren, \n> quadratic trend, ? and so on).\n> ?\n> Thank you\n> very much for your help.\n> \t[[alternative HTML version deleted]]\n> \n>",
+      "body_snippet": "Dear Iva,\nFirst it is normal politeness to identify yourself with name an affiliation at the end of your email to a list like this, many people will not answer anonymous e-mails.\n\nIt is a little uncle",
+      "thread_id": "thread-ac166c672e6e",
+      "thread_depth": 1,
+      "month": "2012-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-ac166c672e6e",
+      "subject": "Cosinor Model (Halberg, Bingham) - Multiple components - Linear, Quadratic and Cubic trends",
+      "message_count": 2,
+      "participants": [
+        "BXC (Bendix Carstensen)",
+        "Iva P"
+      ],
+      "started": "2012-03-18T10:21:11+00:00",
+      "last_reply": "2012-03-18T11:48:06+01:00",
+      "root_message_id": "msg-ac166c672e6e"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+From lisas at salford-systems.com  Wed May  2 22:23:41 2012
+From: lisas at salford-systems.com (Lisa Solomon)
+Date: Wed, 2 May 2012 15:23:41 -0500
+Subject: [R-sig-Epi] Epidemiology/Biostat at Analytics & Data Mining
+ Conference in San Diego, California, May 23-25
+In-Reply-To: <2732C804E2DBB04AA90A678D76FAF2CC0465B00CCF@DFW1MBX02.mex07a.mlsrvr.com>
+References: <2732C804E2DBB04AA90A678D76FAF2CC0465B00CCF@DFW1MBX02.mex07a.mlsrvr.com>
+Message-ID: <2732C804E2DBB04AA90A678D76FAF2CC0465B00CD1@DFW1MBX02.mex07a.mlsrvr.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120502/835b3fd3/attachment.pl>
+
+From emmanuel.brasil at gmail.com  Thu May  3 19:58:17 2012
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Thu, 3 May 2012 14:58:17 -0300
+Subject: [R-sig-Epi] Gwet's AC1 Interrater reliability
+Message-ID: <CAFfGvyKZX0fEWiytK-Wfh52YmE7Pu_fMtt9uRCjf3f7K37wZAg@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120503/7c03297b/attachment.pl>
+
+From griera at gmail.com  Fri May  4 11:58:57 2012
+From: griera at gmail.com (Griera)
+Date: Fri, 4 May 2012 11:58:57 +0200
+Subject: [R-sig-Epi] Gwet's AC1 Interrater reliability
+In-Reply-To: <CAFfGvyKZX0fEWiytK-Wfh52YmE7Pu_fMtt9uRCjf3f7K37wZAg@mail.gmail.com>
+References: <CAFfGvyKZX0fEWiytK-Wfh52YmE7Pu_fMtt9uRCjf3f7K37wZAg@mail.gmail.com>
+Message-ID: <20120504115857.3b09c08a@epigpbn01.ad-hugtip.local>
+
+On Thu, 3 May 2012 14:58:17 -0300
+Pedro Emmanuel Alvarenga Americano do Brasil <emmanuel.brasil at gmail.com> wrote:
+
+> R friends,
+> 
+> with some help of a friend and the original author I turn available this
+> function which is helping me in some analysis. Perhaps it may be useful to
+> others... :-)
+
+Thanks a lot!!! Very useful!!
+
+> 
+>  1.
+> Gwet KL. Computing inter-rater reliability and its variance in the presence
+> of high agreement. Br J Math Stat Psychol. 2008 ;61(Pt 1):29?48.
+> 
+> # AC1 statistic for 2 raters special case
+> # table = k x k table which represents table(rater1,rater2), must have
+> equal number of rows and columns
+> # N = population size which will be stick in standard error correction,
+> N=Inf is no correction.
+> # conflev = Confidence Level associated with the confidence interval (0.95
+> is the default value)
+> 
+> AC1 <- function(table,conflev=0.95,N=Inf,print=TRUE){
+>   if(dim(table)[1] != dim(table)[2]){
+>   stop('The table should have the same number of rows and columns!')
+>   }
+>   n <- sum(table)
+>   f <- n/N
+>   pa <- sum(diag(table))/n # formula 18
+>   q <- ncol(table) # number of categories
+>   pkk <- diag(table)/n
+>   pak <- sapply(1:q,function(i)sum(table[i,]))/n
+>   pbk <- sapply(1:q,function(i)sum(table[,i]))/n
+>   pik <- (pak + pbk)/2
+>   pegama <- (sum(pik*(1-pik)))/(q-1)
+>   gama <- (pa - pegama)/(1 - pegama) # AC1 statistics
+>   # 2 raters special case variance
+>   pkl <- table/n
+>   soma <- 0;
+>   for(k in 1:q){
+> for(l in 1:q){
+> soma <- soma + (pkl[k,l]*((1-(pik[k]+pik[l])/2)^2))
+>  }
+>   }
+>   vgama <- ((1-f)/(n*(1-pegama)^2)) * (pa*(1-pa) -
+> 4*(1-gama)*((1/(q-1))*sum(pkk*(1-pik)) - pa*pegama) + 4*((1-gama)^2) *
+> ((1/((q-1)^2))*soma - pegama^2))
+>   epgama <- sqrt(vgama)# AC1 standard error
+>   lcb <- max(0,gama - epgama*qnorm(1-(1-conflev)/2,0,1)) # lower confidence
+> bound
+>   ucb <- min(1,gama + epgama*qnorm(1-(1-conflev)/2,0,1)) # upper confidence
+> bound
+>   if(print==TRUE){
+>     cat('Raw agreement:',pa,'Chance-independent agreement:',pegama,'\n')
+>     cat('Agreement coeficient (AC1):',gama,'AC1 standard
+> error:',epgama,'\n')
+>     cat(conflev*100,'% Confidence Interval (AC1): (',lcb,',',ucb,')\n')
+>   }
+>   invisible(c(pa,pegama,gama,epgama,lcb,ucb))
+> }
+> 
+> # table3 <- matrix(c(118,2,5,0),nrow=2,ncol=2)
+> # AC1(table3)
+> # x <- AC1(table3,print=F)
+> # print(x)
+> 
+> Regards,
+> 
+> Dr. Pedro Emmanuel A. A. do Brasil
+> Curriculum Lattes:  http://lattes.cnpq.br/6597654894290806
+> Instituto de Pesquisa Cl?nica Evandro Chagas
+> Funda??o Oswaldo Cruz
+> Rio de Janeiro - Brasil
+> Av. Brasil 4365,
+> CEP 21040-360,
+> Tel 55 21 3865-9648
+> email: pedro.brasil at ipec.fiocruz.br
+> email: emmanuel.brasil at gmail.com
+> 
+> ---Apoio aos softwares livres
+> www.zotero.org - gerenciamento de refer?ncias bibliogr?ficas.
+> www.broffice.org ou www.libreoffice.org - textos, planilhas ou
+> apresenta??es.
+> www.epidata.dk - entrada de dados.
+> www.r-project.org - an?lise de dados.
+> www.ubuntu.com - sistema operacional
+> 
+> 	[[alternative HTML version deleted]]
+> 
+
+

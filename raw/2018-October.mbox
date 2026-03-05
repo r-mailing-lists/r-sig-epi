@@ -1,0 +1,401 @@
+From oliverhooker @ending from pr@t@ti@tic@@com  Thu Oct  4 00:34:39 2018
+From: oliverhooker @ending from pr@t@ti@tic@@com (Oliver Hooker)
+Date: Wed, 03 Oct 2018 23:34:39 +0100
+Subject: [R-sig-Epi] FINAL CALL FOR Applied Bayesian modelling for
+ ecologists and epidemiologists (ABME04)
+In-Reply-To: <f1e1108b78c33466488541973c04da7c@prstatistics.com>
+References: <f1e1108b78c33466488541973c04da7c@prstatistics.com>
+Message-ID: <5212e8732bee6897670c9772a212f1cd@prstatistics.com>
+
+FINAL CALL FOR Applied Bayesian modelling for ecologists and
+epidemiologists (ABME04)
+
+https://www.prstatistics.com/course/applied-bayesian-modelling-for-
+ecologists-and-epidemiologists-abme04/
+
+This course will be delivered by Prof. Matt Denwood in Glasgow city 
+centre
+form the 15th - 19th October 2018.
+
+Course Overview:
+This application-driven course will provide a founding in the basic 
+theory
+& practice of Bayesian statistics, with a focus on MCMC modeling for
+ecological & epidemiological problems. Starting from a refresher on
+probability & likelihood, the course will take students all the way to
+cutting-edge applications such as state-space population modelling &
+spatial point-process modelling. By the end of the week, you should have 
+a
+basic understanding of how common MCMC samplers work and how to program
+them, and have practical experience with the BUGS language for common
+ecological and epidemiological models. The experience gained will be a
+sufficient foundation enabling you to understand current papers using
+Bayesian methods, carry out simple Bayesian analyses on your own data 
+and
+springboard into more elaborate applications such as dynamical, spatial 
+and
+hierarchical modelling.
+
+Monday 15th ? Classes from 09:30 to 17:30
+Module 1: Revision of likelihoods using full likelihood profiles and an
+introduction to the theory of Bayesian statistics. Probability and
+likelihood. Conditional, joint and total probability, independence, 
+Baye?s
+law. Probability distributions. Uniform, Bernoulli, Binomial, Poisson,
+Gamma, Beta and Normal distributions ? their range, parameters and 
+common
+uses of Likelihood and parameter estimation by maximum likelihood.
+Numerical likelihood profiles and maximum likelihood. Introduction to
+Bayesian statistics.
+Relationship between prior, likelihood & posterior distributions.
+Summarising a posterior distribution; The philosophical differences 
+between
+frequentist & Bayesian statistics, & the practical implications of 
+these.
+Applying Bayes? theorem to discrete & continuous data for common data 
+types
+given different priors. Building a posterior profile for a given 
+dataset, &
+compare the effect of different priors for the same data.
+
+Tuesday 16th ? Classes from 09:30 to 17:30
+Module 2: An introduction to the workings of MCMC, and the potential
+dangers of MCMC inference.  Participants will program their own (basic)
+MCMC sampler to illustrate the concepts and fully understand the 
+strengths
+and weaknesses of the general approach.  The day will end with an
+introduction to the bugs language.
+Introduction to MCMC. The curse of dimensionality & the advantages of 
+MCMC
+sampling to determine a posterior distribution. Monte Carlo integration,
+standard error, & summarising samples from posterior distributions in R.
+Writing a Metropolis algorithm & generating a posterior distribution for 
+a
+simple problem using MCMC.
+Markov chains, autocorrelation & convergence. Definition of a Markov 
+chain.
+Autocorrelation, effective sample size and Monte Carlo error. The 
+concept
+of a stationary distribution and burnin. Requirement for convergence
+diagnostics, and common statistics for assessing convergence. Adapting 
+an
+existing Metropolis algorithm to use two chains, & assessing the effect 
+of
+the sampling distribution on the autocorrelation. Introduction to BUGS 
+&amp;
+running simple models in JAGS. Introduction to the BUGS language & how a
+BUGS model is translated to an MCMC sampler during compilation. The
+difference between deterministic & stochastic nodes, & the contribution 
+of
+priors & the likelihood. Running, extending & interpreting the output of
+simple JAGS models from within R using the runjags interface.
+
+Wednesday 17th ? Classes from 09:30 to 17:30
+Module 3: Common models for which jags/bugs would be used in practice, 
+with
+examples given for different types of model code.  All aspects of 
+writing,
+running, assessing and interpreting these models will be extensively
+discussed so that participants are able and confident to run similar 
+models
+on their own. There will be a particularly heavy focus on practical
+sessions during this day.  The day will finish with a discussion of how 
+to
+assess the fit of mcmc models using the deviance information criterion
+(dic) and other methods. Using JAGS for common problems in biology.
+Understanding and generating code for basic generalised linear mixed 
+models
+in JAGS. Syntax for quadratic terms and interaction terms in JAGS.
+Essential fitting tips and model selection. The need for minimal cross-
+correlation and independence between parameters and how to design a 
+model
+with these properties. The practical methods and implications of 
+minimizing
+Monte Carlo error and autocorrelation, including thinning. Interpreting 
+the
+DIC for nested models, and understanding the limitations of how this is
+calculated. Other methods of model selection and where these might be 
+more
+useful than DIC. Most commonly used methods Rationale and use for fixed
+threshold, ABGD, K/theta, PTP, GMYC with computer practicals. Other
+methods, Haplowebs, bGMYC, etc. with computer practicals.
+
+Thursday 18th ? Classes from 09:30 to 17:30
+Module 4: The flexibility of MCMC, and precautions required for using 
+MCMC
+to model commonly encountered datasets. An introduction to conjugate 
+priors
+and the potential benefits of exploiting gibbs sampling will be given. 
+More
+complex types of models such as hierarchical models, latent class 
+models,
+mixture models and state space models will be introduced and discussed. 
+The
+practical sessions will follow on from day 3.
+General guidance for model specification. The flexibility of the BUGS
+language and MCMC methods. The difference between informative and 
+diffuse
+priors. Conjugate priors and how they can be used. Gibbs sampling. State
+space models. Hierarchical and state space models. Latent class and 
+mixture
+models. Conceptual application to animal movement. Hands-on application 
+to
+population biology. Conceptual application to epidemiology.
+
+Friday 19th ? Classes from 09:30 to 17:30
+Module 5: Additional practical guidance for the use of Bayesian methods 
+in
+practice, and finish with a brief overview of more advanced Bayesian 
+tools
+such as Integrated Nested Laplace Approximation (INLA) and stan.
+Additional Bayesian methods. Understand the usefulness of conjugate 
+priors
+for robust analysis of proportions (Binomial and Multinomial data). Be
+aware of some methods of prior elicitation. Advanced Bayesian tools.
+Strengths and weaknesses of INLA compared to BUGS. Strengths and 
+weaknesses
+of stan compared to BUGS.
+
+Email oliverhooker at prstatistics.com
+
+Check out our sister sites,
+www.PRstatistics.com (Ecology and Life Sciences)
+www.PRinformatics.com (Bioinformatics and data science)
+www.PSstatistics.com (Behaviour and cognition)
+
+
+1.    October 8th ? 12th 2018
+INTRODUCTION TO FREQUENTIST AND BAYESIAN MIXED (HIERARCHICAL) MODELS
+(IFBM01)
+Glasgow, Scotland, Dr Andrew Parnell
+https://www.psstatistics.com/course/introduction-to-frequentis-and-bayesian-
+mixed-models-ifbm01/
+
+2.    October 15th ? 19th 2018
+APPLIED BAYESIAN MODELLING FOR ECOLOGISTS AND EPIDEMIOLOGISTS (ABME04)
+Glasgow, Scotland, Dr. Matt Denwood, Emma Howard
+http://www.prstatistics.com/course/applied-bayesian-modelling-ecologists-
+epidemiologists-abme04/
+
+3.    October 23rd ? 25th 2018
+INTRODUCTIUON TO R (This is a private ?in-house? course)
+London, England, Dr William Hoppitt
+
+4.    October 29th ? November 2nd 2018
+INTRODCUTION TO R AND STATISTICS FOR BIOLOGISTS (IRFB02)
+Glasgow, Scotland, Dr. Olivier Gauthier
+https://www.prstatistics.com/course/introduction-to-statistics-and-r-for-
+biologists-irfb02/
+
+5.    October 29th ? November 2nd 2018
+INTRODUCTION TO BIOINFORMATICS FOR DNA AND RNA SEQUENCE ANALYSIS 
+(IBDR01)
+Glasgow, Scotland, Dr Malachi Griffith, Dr. Obi Griffith
+www.prinformatics.com/course/precision-medicine-bioinformatics-from-raw-
+genome-and-transcriptome-data-to-clinical-interpretation-pmbi01/
+
+6.    November 5th ? 8th  2018
+PHYLOGENETIC COMPARATIVE METHODS FOR STUDYING DIVERSIFICATION AND
+PHENOTYPIC EVOLUTION (PCME01)
+Glasgow, Scotland, Dr. Antigoni Kaliontzopoulou
+https://www.prstatistics.com/course/phylogenetic-comparative-methods-for-
+studying-diversification-and-phenotypic-evolution-pcme01/
+
+7.    November 19th ? 23rd  2018
+STRUCTUAL EQUATION MODELLING FOR ECOLOGISTS AND EVOLUTIONARY BIOLOGISTS
+(SEMR02)
+Glasgow, Scotland, Dr. Jonathan Lefcheck
+https://www.prstatistics.com/course/structural-equation-modelling-for-
+ecologists-and-evolutionary-biologists-semr02/
+
+8.    November 26th ? 30th 2018
+FUNCTIONAL ECOLOGY FROM ORGANISM TO ECOSYSTEM: THEORY AND COMPUTATION
+(FEER01)
+Glasgow, Scotland, Dr. Francesco de Bello, Dr. Lars G?tzenberger, Dr.
+Carlos Carmona
+http://www.prstatistics.com/course/functional-ecology-from-organism-to-
+ecosystem-theory-and-computation-feer01/
+
+9.    December 3rd ? 7th 2018
+INTRODUCTION TO BAYESIAN DATA ANALYSIS FOR SOCIAL AND BEHAVIOURAL 
+SCIENCES
+USING R AND STAN (BDRS01)
+Glasgow, Dr. Mark Andrews
+https://www.psstatistics.com/course/introduction-to-bayesian-data-analysis-
+for-social-and-behavioural-sciences-using-r-and-stan-bdrs01/
+
+10.    January 21st ? 25th 2019
+STATISTICAL MODELLING OF TIME-TO-EVENT DATA USING SURVIVAL ANALYSIS: AN
+INTRODUCTION FOR ANIMAL BEHAVIOURISTS, ECOLOGISTS AND EVOLUTIONARY
+BIOLOGISTS (TTED01)
+Glasgow, Scotland, Dr. Will Hoppitt
+https://www.psstatistics.com/course/statistical-modelling-of-time-to-event-
+data-using-survival-analysis-tted01/
+
+11.    January 21st ? 25th 2019
+ADVANCING IN STATISTICAL MODELLING USING R (ADVR08)
+Glasgow, Scotland, Dr. Luc Bussiere, Dr. Tom Houslay
+http://www.prstatistics.com/course/advancing-statistical-modelling-using-r-
+advr08/
+
+12.    January 28th?  February 1st 2019
+AQUATIC ACOUSTIC TELEMETRY DATA ANALYSIS AND SURVEY DESIGN
+Glasgow, Scotland, VEMCO staff and affiliates
+https://www.prstatistics.com/course/aquatic-acoustic-telemetry-data-
+analysis-atda01/
+
+13.    February  4th ? 8th 2019
+DESIGNING RELIABLE AND EFFICIENT EXPERIMENTS FOR SOCIAL SCIENCES 
+(DRES01)
+Glasgow, Scotland, Dr. Daniel Lakens
+https://www.psstatistics.com/course/designing-reliable-and-effecient-
+experiments-for-social-sciences-dres01/
+
+14.    February 11th ? 15th 2019
+REPRODUCIBLE DATA SCIENCE FOR POPULATION GENETICS
+Glasgow, Scotland, Dr. Thibaut Jombart, Dr. Zhain Kamvar
+https://www.prstatistics.com/course/reproducible-data-science-for-
+population-genetics-rdpg02/
+
+15.    25th February ? 1st March 2019
+MOVEMENT ECOLOGY (MOVE02)
+Margam Discovery Centre, Wales, Dr. Luca Borger, Prof. Ronny Wilson, Dr
+Jonathan Potts
+https://www.prstatistics.com/course/movement-ecology-move02/
+
+16.    March 4th ? 8th 2019
+BIOACUSTIC DATA ANALYSIS
+Glasgow, Scotland, Dr. Paul Howden-Leach
+https://www.prstatistics.com/course/bioacoustics-for-ecologists-hardware-
+survey-design-and-data-analysis-biac01/
+
+17.    March 11th ? 15th  2019
+ECOLOGICAL NICHE MODELLING USING R (ENMR03)
+Glasgow, Scotland, Dr. Neftali Sillero
+http://www.prstatistics.com/course/ecological-niche-modelling-using-r-
+enmr03/
+
+18.    March 18th ? 22nd 2019
+INTRODUCTION TO STATISTICS AND R FOR EVERYONE (IRFE01)
+Crete, Greece, Dr Aristides (Aris) Moustakas
+https://www.prstatistics.com/course/introduction-to-statistics-and-r-for-
+anyone-irfe01/
+
+19.    March 25th ? 29th 2019
+LANDSCAPE GENETIC DATA ANALYSIS USING R (LNDG03)
+Glasgow, Scotland, Prof. Rodney Dyer
+http://www.prstatistics.com/course/landscape-genetic-data-analysis-using-r-
+lndg03/
+
+20.    April 1st ? 5th 2019
+INTRODUCTION TO STATISTICAL MODELLING FOR PSYCHOLOGISTS USING R (IPSY01)
+Glasgow, Scotland, Dr. Dale Barr, Dr Luc Bussierre
+http://www.psstatistics.com/course/introduction-to-statistics-using-r-for-
+psychologists-ipsy02/
+
+21.    April 1st ? 5th 2019
+INDIVIDUAL BASED MODELS FOR ECOLOGSITS (IBME01)
+Glasgow Scotland, Dr Aristides (Aris) Moustakas
+Link to follow
+
+22.    April 8th ? 12th 2019
+MACHINE LEARNING
+Glasgow Scotland, Dr Aristides (Aris) Moustakas
+https://www.prstatistics.com/course/machine-learning-using-r-mlur01/
+
+23.    April 8th ? 12th 2019
+Spatial modelling, analysis and statistical inference of genomic data
+(SMAG01)
+Crete, Greece, Dr Matt Fitzpatrick
+https://www.prstatistics.com/course/spatial-modelling-analysis-and-
+statistical-inference-of-genomic-data-smag01/
+
+24.    May 6th ? 10th 2019
+MARK RECAPTURE METHODS AND DATA ANALYSIS FOR ECOLOGISTS (MRKR01)
+Myuna Bay, Australia, TBC
+
+25.    May 16th ? 18th 2019 (please note this a 3-day course from 
+Thursday
+to Saturday)
+Aquatic movement ecology using R (AMER01)
+Myuna Bay, Australia, TBC
+
+26.    May 16th ? 19th 2019 (please note this a 4-day course from 
+Thursday
+to Monday)
+Introduction to R for everyone (IRFE02)
+Myuna Bay, Australia, Dr Aristides (Aris) Moustakas
+
+27.    May 20th ? 24th 2019
+MODEL BASE MULTIVARIATE ANALYSIS OF ABUNDANCE DATA USING R (MBMV03)
+Myuna Bay, Australia, Prof. David Warton
+https://www.prstatistics.com/course/model-based-multivariate-analysis-of-
+abundance-data-using-r-mbmv03/
+
+28.    May 21st ? 24th 2019
+A statistical tool box for ecologists (STBE01
+Myuna Bay, Australia, Dr Aristides (Aris) Moustakas
+
+29.    June 10th ? 14th 2019
+STABLE ISOTOPE MIXING MODELS USING SIAR, SIBER AND MIXSIAR (SIMM04)
+Glasgow, Scotland, Dr. Andrew Parnell, Dr. Andrew Jackson
+www.prstatistics.com/course/stable-isotope-mixing-models-using-r-simm04/
+
+30.    June 17th ? 21st 2019
+INTRODUCTION TO PYTHON FOR BIOLOGISTS (IPYB06)
+Glasgow, Scotland, Dr. Martin Jones
+http://www.prinformatics.com/course/introduction-to-python-for-biologists-
+ipyb06/
+
+31.    June 24th ? 28th 2019
+ADVANCED PYTHON FOR BIOLOGISTS (APYB03)
+Glasgow, Scotland, Dr. Martin Jones
+www.prinformatics.com/course/advanced-python-biologists-apyb03/
+
+32.    July 1st ? 5th 2019
+DATA VISUALISATION AND MANIPULATION USING PYTHON (DVMP01)
+Glasgow, Scotland, Dr. Martin Jones
+http://www.prinformatics.com/course/data-visualisation-and-manipulation-
+using-python-dvmp01/
+
+33.    October 7th ? 11th 2019
+CONSERVATION PLANNING USING PRIORITIZR : FROM THEORY TO PRACTICE 
+(PRTZ01)
+Crete, Greece, Dr Richard Schuster and Nina Morell
+https://www.prstatistics.com/course/conservation-planning-using-prioritizr-
+from-theory-to-practice-prtz01/
+
+34.    October 21st ? 25th 2019
+A COMPLETE GUIDE TO MIXED MODELS (INCLUDING TEMPORAL AND SPATIAL
+AUTOCORRELATION) (MMTS01)
+Crete, Greece, Dr Aristides (Aris) Moustakas
+https://www.prstatistics.com/course/a-complete-guide-to-mixed-models-
+including-temporal-and-spatial-autocorrelation-mmts01/
+
+-- 
+Oliver Hooker PhD.
+PR statistics
+
+2018 publications -
+
+Alternative routes to piscivory: Contrasting growth trajectories in 
+brown trout (Salmo trutta) ecotypes exhibiting contrasting life history 
+strategies. Ecology of Freshwater Fish. DOI to follow
+
+Phenotypic and resource use partitioning amongst sympatric lacustrine 
+brown trout, Salmo trutta. Biological Journal of the Linnean Society. 
+DOI 10.1093/biolinnean/bly032
+
+prstatistics.com
+facebook.com/prstatistics/
+twitter.com/PRstatistics
+groups.google.com/d/forum/pr-statistics-post-course-forum
+prstatistics.com/organiser/oliver-hooker/
+
+6 Hope Park Crescent
+Edinburgh
+EH8 9NA
+
++44 (0) 7966500340
+
+

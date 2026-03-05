@@ -1,0 +1,38 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2016-06",
+  "messages": [
+    {
+      "id": "msg-cba08e4b828c",
+      "message_id": "<269642645.4420472.1464967883817.JavaMail.yahoo@mail.yahoo.com>",
+      "from_name": "Ahmad Zia Shams",
+      "from_email_hash": "00701ce89a3f00277f1a39cf5f365d19549290c534b0f9c5d6228feff3b34c1a",
+      "date": "2016-06-03T15:31:23Z",
+      "subject": "[R-sig-Epi] ageadjust.direct",
+      "subject_clean": "ageadjust.direct",
+      "in_reply_to": null,
+      "references": [
+        "<269642645.4420472.1464967883817.JavaMail.yahoo.ref@mail.yahoo.com>"
+      ],
+      "body_plain": "Hi there,\nI need help on how to practically use this function. The directions on epitools did not help me. Is there anyone to help? If yes, I will describe the problems.\n\nBest,Shams\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi there,\nI need help on how to practically use this function. The directions on epitools did not help me. Is there anyone to help? If yes, I will describe the problems.\n\nBest,Shams\n\n\t[[alternative HT",
+      "thread_id": "thread-cba08e4b828c",
+      "thread_depth": 0,
+      "month": "2016-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-cba08e4b828c",
+      "subject": "ageadjust.direct",
+      "message_count": 1,
+      "participants": [
+        "Ahmad Zia Shams"
+      ],
+      "started": "2016-06-03T15:31:23+00:00",
+      "last_reply": "2016-06-03T15:31:23+00:00",
+      "root_message_id": "msg-cba08e4b828c"
+    }
+  ]
+}

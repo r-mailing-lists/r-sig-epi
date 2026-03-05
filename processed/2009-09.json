@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2009-09",
+  "messages": [
+    {
+      "id": "msg-27cb476f7818",
+      "message_id": "<EB58FDAD77D2A34DAEA73D081984843D2F4728A441@KA-EXCHMBX-01.katho.local>",
+      "from_name": "dieter.anseeuw",
+      "from_email_hash": "f0adf0d89ad9efd7b113551ab377e201a1a800d977c3053b3273448a0872a832",
+      "date": "2009-09-11T18:47:58+02:00",
+      "subject": "[R-sig-Epi] construction test statistic in 2x2 tables",
+      "subject_clean": "construction test statistic in 2x2 tables",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20090911/da92aa76/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20090911/da92aa76/attachment.pl>",
+      "thread_id": "thread-27cb476f7818",
+      "thread_depth": 0,
+      "month": "2009-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-27cb476f7818",
+      "subject": "construction test statistic in 2x2 tables",
+      "message_count": 1,
+      "participants": [
+        "dieter.anseeuw"
+      ],
+      "started": "2009-09-11T18:47:58+02:00",
+      "last_reply": "2009-09-11T18:47:58+02:00",
+      "root_message_id": "msg-27cb476f7818"
+    }
+  ]
+}

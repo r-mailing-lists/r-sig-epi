@@ -1,0 +1,65 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2012-01",
+  "messages": [
+    {
+      "id": "msg-ddeda4469479",
+      "message_id": "<002901ccd062$2c746620$855d3260$@cat>",
+      "from_name": "Grellier, James",
+      "from_email_hash": "e56b61db7655e8f0835cfd80640349874b6b8290540cd14acb6233c5f7699299",
+      "date": "2012-01-11T14:08:55+01:00",
+      "subject": "[R-sig-Epi] Linear excess relative risk modelling in R",
+      "subject_clean": "Linear excess relative risk modelling in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120111/484ac288/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120111/484ac288/attachment.pl>",
+      "thread_id": "thread-ddeda4469479",
+      "thread_depth": 0,
+      "month": "2012-01"
+    },
+    {
+      "id": "msg-9fc0fcfac4b5",
+      "message_id": "<CAFfGvyLCYM=KHHiayMrm3Qsg39cOuXBPbXEWX==+XiYt_z+fuw@mail.gmail.com>",
+      "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
+      "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
+      "date": "2012-01-12T18:28:03-02:00",
+      "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 54, Issue 1",
+      "subject_clean": "R-sig-Epi Digest, Vol 54, Issue 1",
+      "in_reply_to": "<mailman.5.1326366002.15797.r-sig-epi@r-project.org>",
+      "references": [
+        "<mailman.5.1326366002.15797.r-sig-epi@r-project.org>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120112/bec03b18/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120112/bec03b18/attachment.pl>",
+      "thread_id": "thread-9fc0fcfac4b5",
+      "thread_depth": 0,
+      "month": "2012-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-ddeda4469479",
+      "subject": "Linear excess relative risk modelling in R",
+      "message_count": 1,
+      "participants": [
+        "Grellier, James"
+      ],
+      "started": "2012-01-11T14:08:55+01:00",
+      "last_reply": "2012-01-11T14:08:55+01:00",
+      "root_message_id": "msg-ddeda4469479"
+    },
+    {
+      "id": "thread-9fc0fcfac4b5",
+      "subject": "R-sig-Epi Digest, Vol 54, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2012-01-12T18:28:03-02:00",
+      "last_reply": "2012-01-12T18:28:03-02:00",
+      "root_message_id": "msg-9fc0fcfac4b5"
+    }
+  ]
+}

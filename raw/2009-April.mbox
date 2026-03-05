@@ -1,0 +1,32 @@
+From bxc at steno.dk  Thu Apr 30 20:34:01 2009
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Thu, 30 Apr 2009 20:34:01 +0200
+Subject: [R-sig-Epi] Epi 1.0.12 is on CRAN
+In-Reply-To: <2F73FA3AF524144C863B7C2C903DBC3301F9553E59@exdkmbx002.corp.novocorp.net>
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC33020192CEA9@exdkmbx002.corp.novocorp.net>
+
+The latest update of Epi, 1.0.12, is now avaialble at CRAN.
+
+A few extra features for the APC-function have been added, and some incompatibilities
+with the new syntax for survfit have been fixed.
+
+The Vignette explaining the Lexis functions for representation and manipulation of survival data
+have been updated.
+
+Regards,
+Bendix Carstensen,
+package maintainer.
+_______________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Steno Diabetes Center
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+www.steno.dk
+
+

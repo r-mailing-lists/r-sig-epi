@@ -1,0 +1,49 @@
+From gianpaolo.romeo at gmail.com  Thu Sep  4 17:03:10 2014
+From: gianpaolo.romeo at gmail.com (Gianpaolo Romeo)
+Date: Thu, 4 Sep 2014 17:03:10 +0200
+Subject: [R-sig-Epi] (mapplots): adding labels in draw.pie from a data.frame
+Message-ID: <CAAdhxyjCZ_wb2OwrLpvarNA1CrSeaMmh5ihZpEYk4bbfTN9P0Q@mail.gmail.com>
+
+Hi,
+
+(first of all: sorry for my english...)
+
+I need to plot some pie charts on a map (one over each region) but I don't
+know how to use two colomns from a data.frame as text: can you help me to
+use the arguments "labels" in the right way? I need to plot the percentage
+of Females near the F-slice and the Male near the M-slice.
+I've plotted the pies but the problems is the label.
+Another question is: i don't understard the values of "radius" and
+"scale"...
+
+
+Best regards,
+
+Gianpaolo
+
+#this is the data.frame "perc"
+
+
+      F    M
+1  13 % 87 %
+2  13 % 87 %
+3  13 % 87 %
+4  15 % 85 %
+5  20 % 80 %
+6  15 % 85 %
+7  16 % 84 %
+8  16 % 84 %
+9  20 % 80 %
+10 16 % 84 %
+11 15 % 85 %
+12 15 % 85 %
+
+
+#and this is the code for plotting the pies
+
+draw.pie(xyz$x, xyz$y, xyz$z, radius = 15000, col = alpha(c("deeppink",
+"DodgerBlue"), 0.3), scale = T)
+
+	[[alternative HTML version deleted]]
+
+

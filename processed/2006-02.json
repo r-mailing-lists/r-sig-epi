@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2006-02",
+  "messages": [
+    {
+      "id": "msg-0fc41f9ab430",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC80835018E7DE8@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2006-02-14T09:50:55+01:00",
+      "subject": "[R-sig-Epi] FW: transforming number from cal.yr() back to Date",
+      "subject_clean": "transforming number from cal.yr() back to Date",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I got this problem presented, and I think it is of general interest for the\nlist. I copy it by agreement with Tina.\n\nBest,\nBendix\n\n-----Original Message-----\nFrom: BXC (Bendix Carstensen)\nSent: Monday, February 13, 2006 6:54 PM\nTo: 'Zagar Tina'\nSubject: RE: transforming number from cal.yr() back to date\n\n\n> -----Original Message-----\n> From: Zagar Tina [mailto:TZagar at onko-i.si]\n> Sent: Monday, February 13, 2006 3:42 PM\n> To: BXC (Bendix Carstensen)\n> Subject: transforming number from cal.yr() back to date\n>\n>\n> Dear Bendix,\n>\n> I am working with function Lexis() included in Epi package so I have\n> to transform all dates into numbers using function cal.yr(). I am\n> having problems with transforming these numbers back to dates. I have\n> tried with transforming cal-yr()'s number to R date first but\n> obviously I am doing something terribly wrong. Can you help me? I am\n> sending you my code (which does not work):\n>\n> # the original date is 07.04.1994\n> a = cal.yr(\"07.04.1994\" , format=\"%d.%m.%Y\")\n> a # result is 1994.263\n> # 'a1' is 'a' transformed into R date (number of days)\n> a1 = round(as.numeric(as.Date( as.character(paste(\"01.01.\",\n> round(a))) , format=\"%d.%m.%Y\"))+ 365.25 * (a - round(a))) # 'a2' is R\n> date transformed from original date 07.04.1994 a2 =\n> as.numeric(as.Date( as.character(\"07.04.1994\") ,\n> format=\"%d.%m.%Y\")) # a1 and a2 are the same a1 - a2 # result is 0 #\n> but converting a1 and a2 back to ordinary dates does not work\n> as.date(a1) # result is 6Apr84\n> as.date(a2) # result is 6Apr84\n>\n> I hope my question is not too stupid... Mybe only last step is false\n> \"as.date(a1)\"? Thank you for your answer.\n>\n> Best regards,\n> Tina Zagar.\n>\n> <><><><><><><><><><><><><><>\n> Tina ?agar\n> Institute of Oncology Ljubljana\n> Epidemiology and Cancer Registries\n> Zalo?ka cesta 2\n> SI-1000 Ljubljana\n> Slovenia\n> E-mail: tzagar at onko-i.si\n> Tel.: +386 1 5879 562\n> <><><><><><><><><><><><><><>\n\nDear Tina,\n\nI was a bit surprised myself, because if you do:\n\n> methods(as.Date)\n[1] as.Date.character as.Date.date      as.Date.dates     as.Date.default \n[5] as.Date.factor    as.Date.POSIXct   as.Date.POSIXlt \n\nthere is no as.Date.numeric. But a date is merely the number of days since\n1 Jan 1970, equipped with the class \"Date\", so below is two ways of doing it:\n\n> # the original date is 07.04.1994\n> a = cal.yr(\"07.04.1994\" , format=\"%d.%m.%Y\")\n> a # result is 1994.263\n[1] 1994.263\n> b <- structure((a-1970)*365.25,class=\"Date\")\n> b\n[1] \"1994-04-07\"\n> bb <- (a-1970)*365.25\n> class(bb) <- \"Date\"\n> bb\n[1] \"1994-04-07\"\n\nBest,\nBendix\n----------------------\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2\nDK-2820 Gentofte\nDenmark\ntel: +45 44 43 87 38\nmob: +45 30 75 87 38\nfax: +45 44 43 07 06\nbxc at steno.dk\nwww.biostat.ku.dk/~bxc",
+      "body_snippet": "I got this problem presented, and I think it is of general interest for the\nlist. I copy it by agreement with Tina.\n\nBest,\nBendix\n\n-----Original Message-----\nFrom: BXC (Bendix Carstensen)\nSent: Monday",
+      "thread_id": "thread-0fc41f9ab430",
+      "thread_depth": 0,
+      "month": "2006-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0fc41f9ab430",
+      "subject": "transforming number from cal.yr() back to Date",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2006-02-14T09:50:55+01:00",
+      "last_reply": "2006-02-14T09:50:55+01:00",
+      "root_message_id": "msg-0fc41f9ab430"
+    }
+  ]
+}

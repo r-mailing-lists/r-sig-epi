@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2017-11",
+  "messages": [
+    {
+      "id": "msg-362c97c5dbf5",
+      "message_id": "<AM5PR0202MB2593086B0C9D1A8FD19E07A0F53B0@AM5PR0202MB2593.eurprd02.prod.outlook.com>",
+      "from_name": "Lisa van der Burgh",
+      "from_email_hash": "616f889c99a9963ca42c79ca2d5b7660870f5cbafaa1d55fbdb0b0be955756e7",
+      "date": "2017-11-29T17:14:57Z",
+      "subject": "[R-sig-Epi] Question about AFT models",
+      "subject_clean": "Question about AFT models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello everyone,\n\n\nI am doing a survival analysis at the moment. I want to make an AFT model in R. I have fitted the following model:\n\nfit1 <- survreg(Surv(TimeVentilator, event) ~ (age + sex + mutation + BM1 + BM2)^2, data = DF,\n                dist = \"weibull\")\nsummary(fit1)\n\n\nI want to test if the weibull distribution is the good distribution. I tested this in the following way:\n\nfits <- fit1$linear.predictors\nresids <- (fit1$y[, 1] - fits) / fit1$scale\nresKM <- survfit(Surv(resids, event = ) ~ 1, data = DF)\n\nplot(resKM, mark.time = FALSE, xlab = \"AFT Residuals\",\n     ylab = \"Survival Probability\", main = \"Dataset: Pompe Disease\")\n\nxx <- seq(min(resids), max(resids), length.out = 35)\nyy <- exp(- exp(xx))\nlines(xx, yy, col = \"red\", lwd = 2)\n\n\n\nI saw that the weibull distribution is not a good distribution. I found that I can also test other distributions by changing the yy command.\n\n\nI found this:\n\nif you have fitted an AFT models assuming the log-normal distribution, you should use yy <- pnorm(xx, lower.tail = FALSE), and if you have fitted an AFT model assuming the log-logistic distribution, you should use yy <- plogis(xx, lower.tail = FALSE).\n\n\nSo I tried that, but still, the distributions do not fit my data.\n\nCan you help me how to change the yy so that I can test other distributions for the AFT model? Like the students t distribution. I found the possible distributions, but I cannot find the R code for this.\n\n\nI really hope that someone can help me with this!\n\n\nThankyou in advance,\n\n\nBest,\n\nLisa\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello everyone,\n\n\nI am doing a survival analysis at the moment. I want to make an AFT model in R. I have fitted the following model:\n\nfit1 <- survreg(Surv(TimeVentilator, event) ~ (age + sex + mutatio",
+      "thread_id": "thread-362c97c5dbf5",
+      "thread_depth": 0,
+      "month": "2017-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-362c97c5dbf5",
+      "subject": "Question about AFT models",
+      "message_count": 1,
+      "participants": [
+        "Lisa van der Burgh"
+      ],
+      "started": "2017-11-29T17:14:57+00:00",
+      "last_reply": "2017-11-29T17:14:57+00:00",
+      "root_message_id": "msg-362c97c5dbf5"
+    }
+  ]
+}

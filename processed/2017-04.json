@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2017-04",
+  "messages": [
+    {
+      "id": "msg-97f9e9f27554",
+      "message_id": "<ME1PR01MB0803F73F5434C92F63410F93B6190@ME1PR01MB0803.ausprd01.prod.outlook.com>",
+      "from_name": "Stephen Wade",
+      "from_email_hash": "53fa11e0cc5780fd844e3bb451da12012246edba9102689ff3bf4843bac6177e",
+      "date": "2017-04-18T06:56:11Z",
+      "subject": "[R-sig-Epi] Ns(..., detrend=T)",
+      "subject_clean": "Ns(..., detrend=T)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "When detrend=T I would have expected that Epi::Ns(?)would more or less project the basis given by splines::ns(?) onto the orthogonal complement of the column space of [1 t] and finally extract the set of linearly independent columns (to give a basis).\n\nHowever, this doesn?t appear to be the _exactly_ the case; I tried\n\nx=seq(-0.75, 0.75, length.out=5)\nNs(x, knots=c(-0.5,0,0.5), Boundary.knots=c(-1,1), detrend=T)\n\nand\n\ndetrend(ns(x, knots=c(-0.5,0,0.5), Boundary.knots=c(-1,1)), x)\n\nThe matrices produced by the above code are not the same, however, they do have the same column space in this example suggesting that if plugged in to a linear model, the fitted coefficients will be different but the fit (itself) will be the same. I haven?t yet checked/proved that the column spaces should be the same ?in general?.\n\nThe call to Ns above gives a warning about fixsl being ignored. It turns out that the value of const in ns.ld() is not the same compared to the same variable in the call to splines::ns() above. This is because the fixsl argument in ns.ld() will have value c(NA,NA) when passed via Ns(?, detrend=T).\n\nDoes anyone have an explanation for why fixsl=c(NA,NA) is used instead of fixsl=c(F,F)? Or for why the two matrices in the above example should/would have the same column space?\n\nKind regards,\n\nStephen Wade | Post-Doc Research Fellow\nCancer Council NSW\n153 Dowling Street\nWoolloomooloo NSW 2021\n? : (02) 9334 1431 | ? : Stephen.Wade at nswcc.org.au\nWEB<http://www.cancercouncil.com.au/> | FAN<http://www.facebook.com/pages/Cancer-Council-NSW/453750595056> | TWEET<http://twitter.com/CancerCouncil> | TUBE<http://www.youtube.com/user/CancerCouncilNSW1> | HELPLINE<http://www.cancercouncil.com.au/editorial.asp?pageid=228>\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "When detrend=T I would have expected that Epi::Ns(?)would more or less project the basis given by splines::ns(?) onto the orthogonal complement of the column space of [1 t] and finally extract the set",
+      "thread_id": "thread-97f9e9f27554",
+      "thread_depth": 0,
+      "month": "2017-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-97f9e9f27554",
+      "subject": "Ns(..., detrend=T)",
+      "message_count": 1,
+      "participants": [
+        "Stephen Wade"
+      ],
+      "started": "2017-04-18T06:56:11+00:00",
+      "last_reply": "2017-04-18T06:56:11+00:00",
+      "root_message_id": "msg-97f9e9f27554"
+    }
+  ]
+}

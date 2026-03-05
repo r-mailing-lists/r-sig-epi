@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2016-09",
+  "messages": [
+    {
+      "id": "msg-6a90c0e0f5ce",
+      "message_id": "<CAAgLPEBEki1yQRzY+RpKYoh8KGqQU84q5ded4+uCE64hiaoJdQ@mail.gmail.com>",
+      "from_name": "John Mlyahilu",
+      "from_email_hash": "ddc3d4cc0bba1a9069988c626f5694eab5bb83dc0b4b0109fc263ff6f0e539b3",
+      "date": "2016-09-08T13:12:57+12:00",
+      "subject": "[R-sig-Epi] Help! Help! Help!",
+      "subject_clean": "Help! Help! Help!",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "?I have simulated the SIR model  with the following reactions\nI[i] + S[j]  -> I[i] +I[j]\nI[i] + S[i]  -> 2*I[i]\n\nI have the row data having the matrix with \"i\"  being the home RTO and \"j\"\nbeing the RTO. what I need is to improve this function so that it can give\nthe good results as I expect. Here are  the codes in R then anyone can help\nto improve this\netwd()\nsetwd(\"C:/Users/Dr M/Desktop\")\nlist.files()\nRTODATA = read.csv(file = 'RTODATA.csv')\nRTODATA\nN <- length(RTODATA$Home_RTO)\nfc <- file(\"reactionsRTO.xml\")\nfor(k in 1:N) {\n  Home_RTO <- RTODATA$Home_RTO[k]\n  RTO <- RTODATA$RTO[k]\n  Rate <- RTODATA$Share20160811_1429[k]\n  i = j= rtoIndex\n if(i!=j){\n  str <- paste(\"<reaction rate='\",Rate,\n   \"'>\\nS[\",rtoIndex,\"] + I[\",rtoIndex,\"] -> I[\",rtoIndex,\"]+\nI[\",rtoIndex,\"]\\n\",\n   \"</reaction>\\n\",sep=\"\")\n } else {\n  str <- paste(\"<reaction rate='\",Rate,\n   \"'>\\nS[\",rtoIndex,\"] + I[\",rtoIndex,\"] -> 2*I[\",rtoIndex,\"]\\n\",\n   \"</reaction>\\n\",sep=\"\")\n }\n cat(str, file=fc)\n}\nclose(fc)\n\n\nThe results from the codes above is as follows\nsource(\"model4today.R\")\nThere were 50 or more warnings (use warnings() to see the first 50)\nAfter viewing the xml The following is the content\n <reaction rate='2.72e-07'>\nS[1020] + I[1020] -> 2*I[1020]\n</reaction>\nIt has skipped the first, second ......... up to  1019 rows\nSince the excel data file appears as follows\nHome_RTO RTO Share20160811_1429\nArea Outside RTO Kawerau-Whakatane 0.0842\nWest Coast RTO Christchurch 0.009159\nWest Coast RTO Waitaki RTO 0.006376\nArea Outside RTO Hawkes Bay RTO 0.029911\nWest Coast RTO Nelson Tasman RTO 0.005027\nWest Coast RTO South Canterbury 0.004778\nWest Coast RTO North Canterbury 0.002869\nArea Outside RTO Bay of Plenty RTO 0.019968\nWest Coast RTO Auckland RTO 0.001996\nWest Coast RTO Queenstown RTO 0.001849\nWest Coast RTO Marlborough RTO 0.001654\nWest Coast RTO Wellington RTO 0.001268\nWest Coast RTO Lake Wanaka RTO 0.001153\nWest Coast RTO Southland RTO 0.001033\nWest Coast RTO Dunedin RTO 0.000955\nWest Coast RTO Waikato RTO 0.000952\nWest Coast RTO Fiordland RTO 0.000791\n\nHence therefore,  How can I read all the data in the excel file in\n\nSincerely,\nJohn\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "?I have simulated the SIR model  with the following reactions\nI[i] + S[j]  -> I[i] +I[j]\nI[i] + S[i]  -> 2*I[i]\n\nI have the row data having the matrix with \"i\"  being the home RTO and \"j\"\nbeing the RT",
+      "thread_id": "thread-6a90c0e0f5ce",
+      "thread_depth": 0,
+      "month": "2016-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-6a90c0e0f5ce",
+      "subject": "Help! Help! Help!",
+      "message_count": 1,
+      "participants": [
+        "John Mlyahilu"
+      ],
+      "started": "2016-09-08T13:12:57+12:00",
+      "last_reply": "2016-09-08T13:12:57+12:00",
+      "root_message_id": "msg-6a90c0e0f5ce"
+    }
+  ]
+}

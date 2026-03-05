@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2014-09",
+  "messages": [
+    {
+      "id": "msg-dbc2f077fbeb",
+      "message_id": "<CAAdhxyjCZ_wb2OwrLpvarNA1CrSeaMmh5ihZpEYk4bbfTN9P0Q@mail.gmail.com>",
+      "from_name": "Gianpaolo Romeo",
+      "from_email_hash": "4c7b17d4e8439a09e6e00fadb051f5d657f3819a4373a9e323f744cd00041323",
+      "date": "2014-09-04T17:03:10+02:00",
+      "subject": "[R-sig-Epi] (mapplots): adding labels in draw.pie from a data.frame",
+      "subject_clean": "(mapplots): adding labels in draw.pie from a data.frame",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\n(first of all: sorry for my english...)\n\nI need to plot some pie charts on a map (one over each region) but I don't\nknow how to use two colomns from a data.frame as text: can you help me to\nuse the arguments \"labels\" in the right way? I need to plot the percentage\nof Females near the F-slice and the Male near the M-slice.\nI've plotted the pies but the problems is the label.\nAnother question is: i don't understard the values of \"radius\" and\n\"scale\"...\n\n\nBest regards,\n\nGianpaolo\n\n#this is the data.frame \"perc\"\n\n\n      F    M\n1  13 % 87 %\n2  13 % 87 %\n3  13 % 87 %\n4  15 % 85 %\n5  20 % 80 %\n6  15 % 85 %\n7  16 % 84 %\n8  16 % 84 %\n9  20 % 80 %\n10 16 % 84 %\n11 15 % 85 %\n12 15 % 85 %\n\n\n#and this is the code for plotting the pies\n\ndraw.pie(xyz$x, xyz$y, xyz$z, radius = 15000, col = alpha(c(\"deeppink\",\n\"DodgerBlue\"), 0.3), scale = T)\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi,\n\n(first of all: sorry for my english...)\n\nI need to plot some pie charts on a map (one over each region) but I don't\nknow how to use two colomns from a data.frame as text: can you help me to\nuse t",
+      "thread_id": "thread-dbc2f077fbeb",
+      "thread_depth": 0,
+      "month": "2014-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-dbc2f077fbeb",
+      "subject": "(mapplots): adding labels in draw.pie from a data.frame",
+      "message_count": 1,
+      "participants": [
+        "Gianpaolo Romeo"
+      ],
+      "started": "2014-09-04T17:03:10+02:00",
+      "last_reply": "2014-09-04T17:03:10+02:00",
+      "root_message_id": "msg-dbc2f077fbeb"
+    }
+  ]
+}

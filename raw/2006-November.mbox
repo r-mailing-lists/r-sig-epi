@@ -1,0 +1,373 @@
+From srjafarzadeh at gmail.com  Mon Nov  6 21:29:39 2006
+From: srjafarzadeh at gmail.com (Seyed Reza Jafarzadeh)
+Date: Mon, 6 Nov 2006 12:29:39 -0800
+Subject: [R-sig-Epi] Correlated ROC curves
+Message-ID: <83217d00611061229w741ae81dm9ae6e6435d425228@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061106/e4c1e59f/attachment.pl 
+
+From rab45+ at pitt.edu  Mon Nov  6 22:55:47 2006
+From: rab45+ at pitt.edu (Rick Bilonick)
+Date: Mon, 06 Nov 2006 16:55:47 -0500
+Subject: [R-sig-Epi] Correlated ROC curves
+In-Reply-To: <83217d00611061229w741ae81dm9ae6e6435d425228@mail.gmail.com>
+References: <83217d00611061229w741ae81dm9ae6e6435d425228@mail.gmail.com>
+Message-ID: <1162850147.3543.45.camel@localhost.localdomain>
+
+On Mon, 2006-11-06 at 12:29 -0800, Seyed Reza Jafarzadeh wrote:
+> Hi,
+> 
+> Is there any package or code to compare and display correlated ROC curves in
+> R?
+> 
+> Thanks,
+> Reza
+> 
+
+A nonparametric method is the method of DeLong, DeLong, and
+Clarke-Pearson. However, I don't know any code in R to do it directly
+(they do provide SAS code). My understanding is that the same answer
+comparing dependent AUCs can be achieved by using a jackknife estimator
+(leave one out at a time). It's simple enough to write the jackknife
+code to get the pseudo-values and then compute confidence intervals and
+p-values.
+
+Rick B.
+
+
+From f.harrell at vanderbilt.edu  Mon Nov  6 21:49:33 2006
+From: f.harrell at vanderbilt.edu (Frank E Harrell Jr)
+Date: Mon, 06 Nov 2006 14:49:33 -0600
+Subject: [R-sig-Epi] [R] Correlated ROC curves
+In-Reply-To: <83217d00611061229w741ae81dm9ae6e6435d425228@mail.gmail.com>
+References: <83217d00611061229w741ae81dm9ae6e6435d425228@mail.gmail.com>
+Message-ID: <454F9FDD.1000008@vanderbilt.edu>
+
+Seyed Reza Jafarzadeh wrote:
+> Hi,
+> 
+> Is there any package or code to compare and display correlated ROC curves in
+> R?
+> 
+> Thanks,
+> Reza
+
+There are ways to compare ROC areas.  This will not have very good 
+power.  The Hmisc package's rcorrp.cens function provides a test that 
+deals with pairs of pairs of predictions and observed outcomes that I 
+feel has much more power.  It tests whether one predictor is 'more 
+concordant' with the outcome than another.
+
+-- 
+Frank E Harrell Jr   Professor and Chair           School of Medicine
+                      Department of Biostatistics   Vanderbilt University
+
+
+From nshephard at gmail.com  Tue Nov 21 03:32:33 2006
+From: nshephard at gmail.com (Neil Shephard)
+Date: Tue, 21 Nov 2006 10:32:33 +0800
+Subject: [R-sig-Epi] OT - study design advice sought
+Message-ID: <31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>
+
+Hi,
+
+Apologies for the slightly off-topic post but I'm seeking advise on
+how to analyse a set of data I've encountered.
+
+This is not my choice of study design, its something I'm being asked
+to help a student with (and personally I think its a bit of a
+data-dredging exercise, and have explained this to them, but there).
+
+A group of cases with age-related macular degeneration (AMD) have been
+collected from a clinic over a number of years, and because medical
+records have been digitized for the past 20-30 years details on their
+hospital admissions and a lot of other aspects of their health are
+available from both before and the onset of AMD up to present date.
+
+A group of controls from the general population without AMD have been
+age and sex-matched to each of the cases, and data on hospital
+admissions and so forth have also been extracted for the same
+variables, from the first record available up to present date
+
+The 'hypothesis' is that there are 'links' between AMD and
+atherosclerotic disease, cardiovascular risk factors, systemic
+inflamatory disease and neurodegenerative conditions.
+
+The supervisor of this student has suggested that _all_ data should be
+used, i.e. the occurence of some atherosclerotic disease in a case or
+control _after_ the onset of AMD in the case should be included.  This
+to me does not make any sense at all.  A case-control study has a
+temporal relationship of the exposure occuring before disease does.
+The aim is to assess whether certain diseases/risk factors
+(athersclerosis, classic CVD risk factors etc.) increase the risk of
+AMD.  Analysing such events after the onset of disease turns that
+question around, and mixing the two just completely messes things up
+in my view.
+
+I've read through relevant sections of Breslow & Day's "Statistical
+Methods in Cancer Research - Vol 1", and Dawson & Trapp's "Basic &
+Clinical Biostatistics" as well as sections on case-control and
+similar study designs in the Wiley Encyclopedia of Biostatistics but
+can't find anything that deals with analysing data in such a manner.
+
+Is it valid to take events before and after the event of interest
+(onset of AMD)?  Personally I don't think so, but if anyone has any
+thoughts or insights into this I'd greatly appreciate them.
+
+Apologies again for the off-topic post, and thanks for your time,
+
+Neil
+
+-- 
+"An intellectual is a person who has discovered something more
+interesting than sex." - Aldous Huxley
+
+Email - nshephard at gmail.com / neilshep at cyllene.uwa.edu.au
+Website - http://slack.ser.man.ac.uk/
+Photos - http://www.flickr.com/photos/slackline/
+
+
+From mcpung at gmail.com  Tue Nov 21 04:54:32 2006
+From: mcpung at gmail.com (Murray Pung)
+Date: Tue, 21 Nov 2006 14:54:32 +1100
+Subject: [R-sig-Epi] OT - study design advice sought
+In-Reply-To: <31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>
+References: <31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>
+Message-ID: <8d6f66050611201954h3c6771e5k4875fd595e39abc3@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061121/568eadf2/attachment.pl 
+
+From wilfred.zegwaard at gmail.com  Tue Nov 21 10:32:37 2006
+From: wilfred.zegwaard at gmail.com (Wilfred Zegwaard)
+Date: Tue, 21 Nov 2006 10:32:37 +0100
+Subject: [R-sig-Epi] Literature
+Message-ID: <4562C7B5.7040007@gmail.com>
+
+HI,
+
+I seek some advice on the use of latent models in sexuality. Can someone 
+help me? Specific R packages?
+
+thanks,
+
+Wilfred
+
+
+From cernuto at unisi.it  Tue Nov 21 11:24:27 2006
+From: cernuto at unisi.it (Francesco Cernuto)
+Date: Tue, 21 Nov 2006 11:24:27 +0100
+Subject: [R-sig-Epi] OT - study design advice sought
+In-Reply-To: <8d6f66050611201954h3c6771e5k4875fd595e39abc3@mail.gmail.com>
+References: <31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>
+	<8d6f66050611201954h3c6771e5k4875fd595e39abc3@mail.gmail.com>
+Message-ID: <4562D3DB.40201@unisi.it>
+
+Hi,
+as a learned form epidemiology, the product of a "case-control" study is 
+an exposure-odds ratio. Its components are a numerator of case series 
+(exposure odds among incident cases of a disease) and a denominator of 
+sampled referent series (exposure odds among a sample from the same 
+population where cases arise). After taking a valid sample from this 
+source population, the main threat to validiy is exposure 
+misclassification, where information on exposure is not comparable 
+between cases and "controls".
+
+In your task, you should first assure a valid comparability on exposure 
+information, but in any case I will not put in the analysis information 
+on exposure after the event occurred, unless AMD is a relapsing disease.
+
+For example in smoke and lung cancer the link between smoking status in 
+subjects with the event is not an issue both for etiology and for 
+prognosis. The same is not true for ischemic heart disease where smoking 
+status is a prognostic indicator of a further heart attack.
+
+For an insight on the topic I suggest:
+OS Miettinen. Estimability and estimation in case-referent 
+studies.Am.J.Epidemiol 1976;103:226-235
+
+Francesco
+> Hi Neil
+>
+> The consensus amongst my colleagues is that it depends on the study
+> question:
+>
+> If you are interested in testing whether the factors are 'predictors' of
+> AMD, then only pre diagnosis observations should be considered. Post
+> diagnosis observations would be confounding.
+>
+> However, if you are only trying to show a 'link' between the factors and
+> AMD, post diagnosis observations are acceptable.
+>
+> Murray
+>
+> On 21/11/06, Neil Shephard <nshephard at gmail.com> wrote:
+>   
+>> Hi,
+>>
+>> Apologies for the slightly off-topic post but I'm seeking advise on
+>> how to analyse a set of data I've encountered.
+>>
+>> This is not my choice of study design, its something I'm being asked
+>> to help a student with (and personally I think its a bit of a
+>> data-dredging exercise, and have explained this to them, but there).
+>>
+>> A group of cases with age-related macular degeneration (AMD) have been
+>> collected from a clinic over a number of years, and because medical
+>> records have been digitized for the past 20-30 years details on their
+>> hospital admissions and a lot of other aspects of their health are
+>> available from both before and the onset of AMD up to present date.
+>>
+>> A group of controls from the general population without AMD have been
+>> age and sex-matched to each of the cases, and data on hospital
+>> admissions and so forth have also been extracted for the same
+>> variables, from the first record available up to present date
+>>
+>> The 'hypothesis' is that there are 'links' between AMD and
+>> atherosclerotic disease, cardiovascular risk factors, systemic
+>> inflamatory disease and neurodegenerative conditions.
+>>
+>> The supervisor of this student has suggested that _all_ data should be
+>> used, i.e. the occurence of some atherosclerotic disease in a case or
+>> control _after_ the onset of AMD in the case should be included.  This
+>> to me does not make any sense at all.  A case-control study has a
+>> temporal relationship of the exposure occuring before disease does.
+>> The aim is to assess whether certain diseases/risk factors
+>> (athersclerosis, classic CVD risk factors etc.) increase the risk of
+>> AMD.  Analysing such events after the onset of disease turns that
+>> question around, and mixing the two just completely messes things up
+>> in my view.
+>>
+>> I've read through relevant sections of Breslow & Day's "Statistical
+>> Methods in Cancer Research - Vol 1", and Dawson & Trapp's "Basic &
+>> Clinical Biostatistics" as well as sections on case-control and
+>> similar study designs in the Wiley Encyclopedia of Biostatistics but
+>> can't find anything that deals with analysing data in such a manner.
+>>
+>> Is it valid to take events before and after the event of interest
+>> (onset of AMD)?  Personally I don't think so, but if anyone has any
+>> thoughts or insights into this I'd greatly appreciate them.
+>>
+>> Apologies again for the off-topic post, and thanks for your time,
+>>
+>> Neil
+>>
+>> --
+>> "An intellectual is a person who has discovered something more
+>> interesting than sex." - Aldous Huxley
+>>
+>> Email - nshephard at gmail.com / neilshep at cyllene.uwa.edu.au
+>> Website - http://slack.ser.man.ac.uk/
+>> Photos - http://www.flickr.com/photos/slackline/
+>>
+>> _______________________________________________
+>> R-sig-Epi at stat.math.ethz.ch mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+>>
+>>     
+>
+>
+>
+>
+
+
+From nshephard at gmail.com  Wed Nov 22 01:45:04 2006
+From: nshephard at gmail.com (Neil Shephard)
+Date: Wed, 22 Nov 2006 08:45:04 +0800
+Subject: [R-sig-Epi] OT - study design advice sought
+In-Reply-To: <E1FC3DC46F01DA4586D23EFAF959073E0305E7@qmlexch.qml.com.au>
+References: <31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>
+	<E1FC3DC46F01DA4586D23EFAF959073E0305E7@qmlexch.qml.com.au>
+Message-ID: <31b34fca0611211645i602ccb31xb406d8c922773abd@mail.gmail.com>
+
+Thanks to all who have replied so far.  Its been a while since I did
+anything similar to this (my normal area is statistical genetics), but
+its good to refresh these things every now and again.
+
+The replies (two of which I've included below for other readers of the
+list) have helped clarify some of my thoughts, and dredged up some
+memories of differences between incidence and prevalence.
+
+To answer two of the points below, one of the considered methods of
+analysis was conditional logistic regression to take account of the
+matching which has been done retrospectively.
+
+Thanks again for all suggestions,
+
+Neil
+
+
+On 11/22/06, Brown, Dr Nigel <Nigel.Brown at qml.com.au> wrote:
+> Hi Neil
+>
+> From a medical angle I would see the occurrence during one's lifetime of
+> cardiovascular disease (CVD) is being used as a marker for some
+> underlying increased risk of CVD and it is this hidden risk variable(s)
+> that is being 'linked' to AMD.
+> If an underlying increased risk variable is being postulated perhaps
+> rather than using lifetime CVD events as the surrogate marker only
+> 'premature' CVD should be the criterion.
+> As for the method of statistical analysis I can have no formal informed
+> comment (not being a statistician) but I imagine a regression technique
+> using premature CVD events as independent variables and AMD as dependent
+> variable (? With Logistic regression methods) could be discussed.
+> Of interest in terms of data dredging is factor analysis (do throw
+> things yet) as an exploritory method just using default methods and
+> varimax rotation to see if CVD and AMD load on the same factor and what
+> else they load with. I've seen some interesting but soft outcomes of
+> this type on analysis when applied to multivatiate medical numerical
+> result data sets.
+> Regards
+> Nigel (Pathologist)
+
+
+
+On 11/21/06, BXC (Bendix Carstensen) <bxc at steno.dk> wrote:
+> Neil,
+>
+> It is not entirely clear how your matching was done.
+>
+> Are the controls matched to  cases at the date of AMD diagnosis (which I
+> realize must be a pretty soft thing). And how was the data collection
+> done --- around the time of diagnosis?
+>
+> Or was the study done a long time after AMD diagnosis (for some).
+>
+> As you describe it, the latter seems to be the case, i.e. you have
+> matched prevalent cases of AMD to prevalent persons in the population.
+> In that case what you get out of you study would be PREVALENCE
+> odds-ratios associated with various risk factors. In that case it makes
+> perfectly sense to have variables that are subsequent to disease. The
+> prevalences you will be addressing are namely a function both of the
+> disease incidence related to factors prior to disease and to survival
+> related to factors subsequent to disease.
+>
+> The former sampling scheme (incidence-density sampling) would give you
+> odds-ratios that were interpretable as hazard rates, and of course
+> variables referring to time after diagnosis would not make any sense.
+> But by the mere nature of the sampling scheme they would not be there
+> anyway, since sampling was AT time of diagnosis.
+> _______________________________________________
+>
+> Bendix Carstensen
+> Senior Statistician
+> Steno Diabetes Center
+> Niels Steensens Vej 2-4
+> DK-2820 Gentofte
+> Denmark
+> +45 44 43 87 38 (direct)
+> +45 30 75 87 38 (mobile)
+> +45 44 43 73 13 (fax)
+> bxc at steno.dk   http://www.biostat.ku.dk/~bxc
+-- 
+"An intellectual is a person who has discovered something more
+interesting than sex." - Aldous Huxley
+
+Email - nshephard at gmail.com / neilshep at cyllene.uwa.edu.au
+Website - http://slack.ser.man.ac.uk/
+Photos - http://www.flickr.com/photos/slackline/
+
+

@@ -1,0 +1,122 @@
+From Stefzastrow at aol.com  Sat Jan 23 23:52:49 2010
+From: Stefzastrow at aol.com (Stefan Zastrow)
+Date: Sat, 23 Jan 2010 23:52:49 +0100
+Subject: [R-sig-Epi] val.surv function in Design library
+Message-ID: <AB98DA99-7D73-4E70-947C-72148B587E7D@aol.com>
+
+Could anybody explain what the est.surv variable means in the val.surv  
+function? I guessed that it would contain a probability list from 0 to  
+1 with increments of the number of objects in my Surv object. But this  
+does not deliver valid data.
+
+Thanks,
+Stefan
+
+
+From emmanuel.brasil at gmail.com  Mon Jan 25 16:40:15 2010
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Mon, 25 Jan 2010 12:40:15 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 38, Issue 1
+In-Reply-To: <mailman.5.1264330802.22586.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.5.1264330802.22586.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <a37cfb5a1001250740x26309b8fgeb0d317d106710e1@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100125/a13fba71/attachment.pl>
+
+From kevin.lu at wur.nl  Wed Jan 27 09:25:05 2010
+From: kevin.lu at wur.nl (Lu, Kevin)
+Date: Wed, 27 Jan 2010 09:25:05 +0100
+Subject: [R-sig-Epi] meta-analysis
+Message-ID: <124584AFB3A4D449834B67071ACCD55501A7D9C7@scomp0040.wurnet.nl>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100127/89341e23/attachment.pl>
+
+From Wolfgang.Viechtbauer at STAT.unimaas.nl  Wed Jan 27 10:43:05 2010
+From: Wolfgang.Viechtbauer at STAT.unimaas.nl (Viechtbauer Wolfgang (STAT))
+Date: Wed, 27 Jan 2010 10:43:05 +0100
+Subject: [R-sig-Epi] meta-analysis
+In-Reply-To: <124584AFB3A4D449834B67071ACCD55501A7D9C7@scomp0040.wurnet.nl>
+Message-ID: <077E31A57DA26E46AB0D493C9966AC7305C6052B09@UM-MAIL4112.unimaas.nl>
+
+Dear Kevin,
+
+The standard error of the estimate (SE) is the square root of the sampling variance of the estimate (vi). So, just square 'SE' and use that for 'vi'.
+
+Best,
+
+--
+Wolfgang Viechtbauer                        http://www.wvbauer.com/
+Department of Methodology and Statistics    Tel: +31 (43) 388-2277
+School for Public Health and Primary Care   Office Location:
+Maastricht University, P.O. Box 616         Room B2.01 (second floor)
+6200 MD Maastricht, The Netherlands         Debyeplein 1 (Randwyck)
+
+
+----Original Message----
+From: r-sig-epi-bounces at stat.math.ethz.ch
+[mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Lu, Kevin
+Sent: Wednesday, January 27, 2010 09:25 To: r-sig-epi at stat.math.ethz.ch
+Subject: [R-sig-Epi] meta-analysis
+
+> To someone who could help me:
+>
+> I am a PhD student, working in the Wageningen University, the
+> Netherlands. I am now using metafor package to do meta-analysis.
+>
+> Since there are few studies conducted on my topic, I have to combine
+> the results from 5 case-control studies and 1 cohort study. But I do
+> not know how to do it.
+>
+> I tried this way, first, use the escalc (measure="OR", ai, bi, ci,
+> gi) to calculate the effect estimate of yi and variance of vi.
+>
+> I could extract the RR and 95% confidence interval from the cohort
+> study to get the point estimate of LnRR and SE.
+>
+> but I can not combine the results from case-control study and the
+> results from cohort study due to the difference of vi and SE.
+>
+> For example, if I use rma(yi, vi, data,), I can not get vi (variance)
+> for the cohort study. I can only get SE for cohort study. How could
+> solve it?
+>
+> Thanks for your time.
+>
+> Best wishes,
+>
+> Yingchang (Kevin) Lu
+>
+> PhD student,
+>
+> Division of Human Nutrition
+>
+> Wageningen University
+>
+> Tel: 0031-317-485300
+>
+> Fax:0031-317-482782
+>
+>
+>       [[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-sig-Epi at stat.math.ethz.ch mailing list
+> https://stat.ethz.ch/mailman/listinfo/r-sig-epi
+
+
+From emmanuel.brasil at gmail.com  Wed Jan 27 13:59:41 2010
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Wed, 27 Jan 2010 09:59:41 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 38, Issue 3
+In-Reply-To: <mailman.3.1264590002.32090.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.3.1264590002.32090.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <a37cfb5a1001270459m4641556cj555de17ecd3fffd3@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100127/90263514/attachment.pl>
+

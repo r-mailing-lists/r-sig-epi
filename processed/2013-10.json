@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2013-10",
+  "messages": [
+    {
+      "id": "msg-02e22c9b43f6",
+      "message_id": "<CACT39NZcLhwg_a0q_PdhmnP=FoKfMSqurrsSND0Y5FNLZ=j13Q@mail.gmail.com>",
+      "from_name": "Ray DiGiacomo, Jr.",
+      "from_email_hash": "1bc23ebf4d2e48bc3b73020127ac43f667ad9360d758bdeda50fc48cfe1d81d7",
+      "date": "2013-10-20T16:46:30-07:00",
+      "subject": "[R-sig-Epi] Epidemiological Prevalence Assessment using R (Free Webinar this Tuesday)",
+      "subject_clean": "Epidemiological Prevalence Assessment using R (Free Webinar this Tuesday)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20131020/e0180511/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20131020/e0180511/attachment.pl>",
+      "thread_id": "thread-02e22c9b43f6",
+      "thread_depth": 0,
+      "month": "2013-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-02e22c9b43f6",
+      "subject": "Epidemiological Prevalence Assessment using R (Free Webinar this Tuesday)",
+      "message_count": 1,
+      "participants": [
+        "Ray DiGiacomo, Jr."
+      ],
+      "started": "2013-10-20T16:46:30-07:00",
+      "last_reply": "2013-10-20T16:46:30-07:00",
+      "root_message_id": "msg-02e22c9b43f6"
+    }
+  ]
+}

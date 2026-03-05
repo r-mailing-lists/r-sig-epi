@@ -1,0 +1,34 @@
+From bxc at steno.dk  Tue Nov  6 08:24:33 2012
+From: bxc at steno.dk (BXC (Bendix Carstensen))
+Date: Tue, 6 Nov 2012 08:24:33 +0100
+Subject: [R-sig-Epi] Epi version 1.1.40 is now available
+Message-ID: <2F73FA3AF524144C863B7C2C903DBC3303203711DF@exdkmbx002.corp.novocorp.net>
+
+Dear all,
+An updated version, 1.1.40, of Epi is now available on CRAN.
+
+A number of small bugs have been fixed; the main amendments are:
+
+effx now allows RR for binary data (via the log-link for binomial outcome) and RD for follow-up date (via the identity link for Poisson data). Existing code will work exactly as before.
+
+Relevel.Lexis now facilitates merging of states in a multistate Lexis object.
+
+b.r.
+Bendix Carstensen
+Package maintainer
+
+______________________________________________
+
+Bendix Carstensen 
+Senior Statistician
+Epidemiology
+Steno Diabetes Center A/S
+Niels Steensens Vej 2-4
+DK-2820 Gentofte
+Denmark
++45 44 43 87 38 (direct)
++45 30 75 87 38 (mobile)
+bxc at steno.dk    http://BendixCarstensen.com
+www.steno.dk
+
+

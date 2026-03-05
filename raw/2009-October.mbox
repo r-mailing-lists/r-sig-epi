@@ -1,0 +1,84 @@
+From rahulshidhaye at yahoo.com  Fri Oct 16 04:19:08 2009
+From: rahulshidhaye at yahoo.com (Rahul Shidhaye)
+Date: Thu, 15 Oct 2009 19:19:08 -0700 (PDT)
+Subject: [R-sig-Epi] Sample size for diagnostic test
+Message-ID: <5968.32620.qm@web53105.mail.re2.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091015/28b937f4/attachment.pl>
+
+From Stefano.Guazzetti at ausl.re.it  Fri Oct 16 11:05:31 2009
+From: Stefano.Guazzetti at ausl.re.it (Guazzetti Stefano)
+Date: Fri, 16 Oct 2009 11:05:31 +0200
+Subject: [R-sig-Epi] R:  Sample size for diagnostic test
+Message-ID: <EBE45F91B9606842A974F9F99E2D4E2B01BC8E9C@RE2-EXC-VBE1B.ausl.org>
+
+Dear Rahul,
+sensitivity and specificity are just proportion and thus it should not be hard
+to calculate the sample size needed in your case. Note also that sensitivity
+and specificity don't depend (at least in theory) on the prevalence of disease.
+
+RSiteSearch("proportion sample size")
+ 
+will suggest you more than one function to calculate the sample size for a single 
+proportion under different assummptions.
+Under the assumption of independence and using the asymptotic ("normal") approximation
+you could use a simple function like this one:
+
+sampl.size.prop<-function (p, d, conf.lev=0.95, N=NULL){#N is for a finite population
+    if (any(c(d, p, conf.lev) > 1) || any(c(d, p, conf.lev, N) < 0)) 
+        stop("Error: proportions cannot exceed 1 or be negative")
+    z <- qnorm(1 - ((1 - conf.lev)/2))
+    n <- (z^2 * p * (1 - p))/d^2
+    if (is.null(N)) 
+        return(ceiling(n))
+    else return(ceiling(n/(1 + n/N))) }
+
+sampl.size.prop(0.8, 0.025)
+sampl.size.prop(0.8, 0.05)
+#not shure if you need a 5% coverage or plus/minus 5%
+
+Stefano
+
+-----Messaggio originale-----
+Da: r-sig-epi-bounces at stat.math.ethz.ch
+[mailto:r-sig-epi-bounces at stat.math.ethz.ch]Per conto di Rahul Shidhaye
+Inviato: Friday, October 16, 2009 4:19 AM
+A: r-sig-epi at stat.math.ethz.ch
+Oggetto: [R-sig-Epi] Sample size for diagnostic test
+
+
+
+Hello,
+?
+I wish to calculate sample size for?a disgnostic test. prevalence of the disorder is around 5% and expected sensitivity and specificity is 80%. We wish to have a precision of 5% in sensitivity and specificity.
+
+Dr. Rahul Shidhaye
+
+
+      
+	[[alternative HTML version deleted]]
+
+
+Rispetta l'ambiente: Se non ti ? necessario, non stampare questa mail.
+
+
+"Le informazioni contenute nel presente messaggio di posta elettronica e in ogni suo allegato sono da considerarsi riservate e il destinatario della email ? l'unico autorizzato
+ad usarle, copiarle e, sotto la propria responsabilit?, divulgarle. Chiunque riceva questo messaggio per errore senza esserne il destinatario deve immediatamente rinviarlo
+al mittente cancellando l'originale. Eventuali dati personali e sensibili contenuti nel presente messaggio e/o suoi allegati vanno trattati nel rispetto della normativa 
+in materia di privacy ( DLGS n.196/'03)".
+
+
+From emmanuel.brasil at gmail.com  Fri Oct 16 21:25:04 2009
+From: emmanuel.brasil at gmail.com (Pedro Emmanuel Alvarenga Americano do Brasil)
+Date: Fri, 16 Oct 2009 16:25:04 -0300
+Subject: [R-sig-Epi] R-sig-Epi Digest, Vol 36, Issue 1
+In-Reply-To: <mailman.3.1255687201.5476.r-sig-epi@stat.math.ethz.ch>
+References: <mailman.3.1255687201.5476.r-sig-epi@stat.math.ethz.ch>
+Message-ID: <a37cfb5a0910161225qdbfb91dj63f55b8228e59e11@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091016/ab85ef41/attachment.pl>
+

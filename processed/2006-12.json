@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2006-12",
+  "messages": [
+    {
+      "id": "msg-93b61551a74b",
+      "message_id": "<3292795993670432ad782750b29e2f4c@pasteur.fr>",
+      "from_name": "Lulla OPATOWSKI",
+      "from_email_hash": "b53d519ec662fd314c38d3971cc5b5defb8f7e40fd21004693719dd8b8ec0c0d",
+      "date": "2006-12-06T12:00:59+01:00",
+      "subject": "[R-sig-Epi] Questions about regression with time-series",
+      "subject_clean": "Questions about regression with time-series",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061206/84c0688f/attachment.pl",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061206/84c0688f/attachment.pl",
+      "thread_id": "thread-93b61551a74b",
+      "thread_depth": 0,
+      "month": "2006-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-93b61551a74b",
+      "subject": "Questions about regression with time-series",
+      "message_count": 1,
+      "participants": [
+        "Lulla OPATOWSKI"
+      ],
+      "started": "2006-12-06T12:00:59+01:00",
+      "last_reply": "2006-12-06T12:00:59+01:00",
+      "root_message_id": "msg-93b61551a74b"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+From josh.rosen180 at gmail.com  Tue Dec  8 23:38:54 2015
+From: josh.rosen180 at gmail.com (Josh Rosen)
+Date: Tue, 8 Dec 2015 17:38:54 -0500
+Subject: [R-sig-Epi] Log-Rank Test on Relative Survival
+Message-ID: <CANkV+2_7YsnMDD4JXdemBRMmxnC05TeWy7PMo4QextWXOoYWQg@mail.gmail.com>
+
+Hello All,
+
+I have another question regarding using the relsurv package. I am trying to
+run a log-rank test to compare across the strata in my relative survival
+plots. So far I am able to compute relative and non-relative survival:
+
+relative.surv <-
+rs.surv(Surv(time,tens)~treatment+ratetable(age=age*365.24, sex=sex,
+year=year), data=patient_data_all_frame, ratetable=life_table_03_15)
+
+nonrel.surv <- survfit(Surv(time,cens) ~ treatment, data =
+patient_data_frame)
+
+For a log-rank on the non-relative survival, I simply use the survdiff
+function in the survival package:
+survdiff(Surv(time,cens) ~ treatment, data=patient_data_all_frame)
+
+I am trying to figure out how to run a log-rank on the relative survival
+data as well, but can't seem to find a way to pass the survival object I
+created (relative.surv) into the survdiff function.
+
+Any help that you can provide would be greatly appreciated.
+
+Thank you
+-Josh
+
+	[[alternative HTML version deleted]]
+
+

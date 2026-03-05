@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2006-01",
+  "messages": [
+    {
+      "id": "msg-e2c514838f0e",
+      "message_id": "<40D3930AC1C8EA469E39536E5BC80835018E798C@EXDKBA021.corp.novocorp.net>",
+      "from_name": "BXC (Bendix Carstensen)",
+      "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
+      "date": "2006-01-13T14:35:07+01:00",
+      "subject": "[R-sig-Epi] Course in Statistical Pracise in Epidemiology using R",
+      "subject_clean": "Course in Statistical Pracise in Epidemiology using R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Course in\nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R\n============================================\nTartu, Estonia, Thursday 8  - Tuesday 13 June 2006\n\nThe course is aimed at epidemiologists and statisticians who wish to\nuse R for statistical modelling and analysis of epidemiological data.\nThe course requires basic knowledge of epidemiological concepts and\nstudy types. These will only be briefly reviewed, whereas the more\nadvanced epidemiological and statistical concepts will be treated in\ndepth.\n\nContents:\n---------\nHistory of R. Language. Objects. Functions. \nInterface to other dataformats. Dataframes. \nClassical methods: Mantel-Haenszel etc.\nTabulation of data. \nLogistic regression for case-control-studies. \nPoisson regression for follow-up studies. \nParametrization of models. \nCausal inference.\nGraphics in R. \nGraphical reporting of results. \nTime-splitting & SMR. \nSurvival analysis in continuous time. \nParametric survival models. \nInterval censoring. \nNested and matched case-control studies. \nCase-cohort studies. \nCompeting risk models. \nMultistage models. \nBootstrap and simulation.\n\nThe methods will be illustrated using R in practical exercises.  \n\nThe Epi package for epidemiological analysis in R will be introduced.\n\nParticipants are required to have a fairly good understanding of\nstatistical principles and some familiarity with epidemiological\nconcepts. The course will be mainly practically oriented with more\nthan half the time at the computer.\n\nPrice: 500 EUR. (250 EUR for cuntries outside EU-2003 and the like).\n\nApplication deadline: 15 April 2006.\n\nFurther information at: www.biostat.ku.dk/~bxc/SPE\n\n------------------------------------------------------\nKrista Fischer, University of Tartu, Estonia\nEsa L??r?, University of Oulu, Finland\nBendix Carstensen, Steno Diabetes Center, Denmark \n\nOrganizers",
+      "body_snippet": "Course in\nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R\n============================================\nTartu, Estonia, Thursday 8  - Tuesday 13 June 2006\n\nThe course is aimed at epidemiologists and stati",
+      "thread_id": "thread-e2c514838f0e",
+      "thread_depth": 0,
+      "month": "2006-01"
+    },
+    {
+      "id": "msg-ec198397f568",
+      "message_id": "<20060120133915.9zsf1r5sg8w4k84c@webmail.ifc.cnr.it>",
+      "from_name": "lorenzoni@ifc.cnr.it",
+      "from_email_hash": "3e4f4968514d9ce486a8f8b05e3c23f8a9e79398a0859575a5d6bae7f33c4621",
+      "date": "2006-01-20T13:39:15+01:00",
+      "subject": "[R-sig-Epi] bayesian model",
+      "subject_clean": "bayesian model",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "informazioni su metodi non classici di identificazione di clustering bayesiani",
+      "body_snippet": "informazioni su metodi non classici di identificazione di clustering bayesiani",
+      "thread_id": "thread-ec198397f568",
+      "thread_depth": 0,
+      "month": "2006-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e2c514838f0e",
+      "subject": "Course in Statistical Pracise in Epidemiology using R",
+      "message_count": 1,
+      "participants": [
+        "BXC (Bendix Carstensen)"
+      ],
+      "started": "2006-01-13T14:35:07+01:00",
+      "last_reply": "2006-01-13T14:35:07+01:00",
+      "root_message_id": "msg-e2c514838f0e"
+    },
+    {
+      "id": "thread-ec198397f568",
+      "subject": "bayesian model",
+      "message_count": 1,
+      "participants": [
+        "lorenzoni@ifc.cnr.it"
+      ],
+      "started": "2006-01-20T13:39:15+01:00",
+      "last_reply": "2006-01-20T13:39:15+01:00",
+      "root_message_id": "msg-ec198397f568"
+    }
+  ]
+}
