@@ -110,3 +110,73 @@ Instats | instats.org
 	[[alternative HTML version deleted]]
 
 
+From o||verhooker @end|ng |rom pr@t@t|@t|c@@com  Thu Mar  5 12:10:12 2026
+From: o||verhooker @end|ng |rom pr@t@t|@t|c@@com (Oliver Hooker)
+Date: Thu, 5 Mar 2026 11:10:12 +0000
+Subject: [R-sig-Epi] Bayesian Statistical Modelling with Stan and brms
+Message-ID: <CAEsSYzxsCagBsQyWki7fs7z1di=2xgG0p0XgtZO+1ybnvRmbWQ@mail.gmail.com>
+
+Develop advanced Bayesian modelling skills in our live online course *Bayesian
+Statistical Modelling with Stan and brms (BMSB01)*.
+
+This hands-on workshop provides a comprehensive introduction to Bayesian
+data analysis using *Stan* via the *brms*package in R. Participants learn
+both the theoretical foundations of Bayesian inference and practical
+workflows for fitting and interpreting Bayesian models with real datasets.
+
+The course covers the full Bayesian modelling workflow, including how to
+define priors, fit models, evaluate convergence, and interpret posterior
+distributions.
+
+*The course covers:*
+
+   -
+
+   Foundations of Bayesian reasoning and statistical inference
+   -
+
+   Fitting Bayesian regression models in R using the *brms* interface to
+   Stan
+   -
+
+   Understanding likelihoods, priors, and posterior distributions
+   -
+
+   Model comparison and Bayesian diagnostics
+   -
+
+   Interpreting MCMC output (trace plots, R-hat, effective sample size)
+   -
+
+   Extending models to generalized linear and hierarchical models
+
+Through practical coding exercises, participants gain experience
+implementing Bayesian models and interpreting results in a modern
+statistical workflow.
+
+Delivered live online, the course allows direct interaction with the
+instructor, opportunities to ask questions, and discussion of your own
+modelling challenges. All participants receive course materials, example
+code, and post-course support.
+
+*Course details*
+Dates: 5?7 May 2026
+Duration: 3 days (approximately 6 hours per day)
+Format: Live online
+Fee: ?400
+
+This course is suitable for postgraduate students, researchers, and
+analysts who want to apply Bayesian methods to real datasets using R and
+Stan.
+
+Full details and registration:
+https://prstats.org/course/bayesian-statistical-modelling-with-stan-and-brms-bmsb01/
+Email oliver at prstats.org with any questions
+
+-- 
+Oliver Hooker PhD.
+PR stats
+
+	[[alternative HTML version deleted]]
+
+

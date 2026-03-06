@@ -50,6 +50,22 @@
       "thread_id": "thread-36ce8144b755",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-795953950cf6",
+      "message_id": "<CAEsSYzxsCagBsQyWki7fs7z1di=2xgG0p0XgtZO+1ybnvRmbWQ@mail.gmail.com>",
+      "from_name": "Oliver Hooker",
+      "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
+      "date": "2026-03-05T11:10:12Z",
+      "subject": "[R-sig-Epi] Bayesian Statistical Modelling with Stan and brms",
+      "subject_clean": "Bayesian Statistical Modelling with Stan and brms",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Develop advanced Bayesian modelling skills in our live online course *Bayesian\nStatistical Modelling with Stan and brms (BMSB01)*.\n\nThis hands-on workshop provides a comprehensive introduction to Bayesian\ndata analysis using *Stan* via the *brms*package in R. Participants learn\nboth the theoretical foundations of Bayesian inference and practical\nworkflows for fitting and interpreting Bayesian models with real datasets.\n\nThe course covers the full Bayesian modelling workflow, including how to\ndefine priors, fit models, evaluate convergence, and interpret posterior\ndistributions.\n\n*The course covers:*\n\n   -\n\n   Foundations of Bayesian reasoning and statistical inference\n   -\n\n   Fitting Bayesian regression models in R using the *brms* interface to\n   Stan\n   -\n\n   Understanding likelihoods, priors, and posterior distributions\n   -\n\n   Model comparison and Bayesian diagnostics\n   -\n\n   Interpreting MCMC output (trace plots, R-hat, effective sample size)\n   -\n\n   Extending models to generalized linear and hierarchical models\n\nThrough practical coding exercises, participants gain experience\nimplementing Bayesian models and interpreting results in a modern\nstatistical workflow.\n\nDelivered live online, the course allows direct interaction with the\ninstructor, opportunities to ask questions, and discussion of your own\nmodelling challenges. All participants receive course materials, example\ncode, and post-course support.\n\n*Course details*\nDates: 5?7 May 2026\nDuration: 3 days (approximately 6 hours per day)\nFormat: Live online\nFee: ?400\n\nThis course is suitable for postgraduate students, researchers, and\nanalysts who want to apply Bayesian methods to real datasets using R and\nStan.\n\nFull details and registration:\nhttps://prstats.org/course/bayesian-statistical-modelling-with-stan-and-brms-bmsb01/\nEmail oliver at prstats.org with any questions\n\n-- \nOliver Hooker PhD.\nPR stats\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Develop advanced Bayesian modelling skills in our live online course *Bayesian\nStatistical Modelling with Stan and brms (BMSB01)*.\n\nThis hands-on workshop provides a comprehensive introduction to Baye",
+      "thread_id": "thread-795953950cf6",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -85,6 +101,17 @@
       "started": "2026-03-04T11:53:26+00:00",
       "last_reply": "2026-03-04T11:53:26+00:00",
       "root_message_id": "msg-36ce8144b755"
+    },
+    {
+      "id": "thread-795953950cf6",
+      "subject": "Bayesian Statistical Modelling with Stan and brms",
+      "message_count": 1,
+      "participants": [
+        "Oliver Hooker"
+      ],
+      "started": "2026-03-05T11:10:12+00:00",
+      "last_reply": "2026-03-05T11:10:12+00:00",
+      "root_message_id": "msg-795953950cf6"
     }
   ]
 }
