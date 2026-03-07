@@ -66,6 +66,22 @@
       "thread_id": "thread-795953950cf6",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-57cd23047414",
+      "message_id": "<y-oXzn1-Q3O86CGEWxVeBQ@geopod-ismtpd-6>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-03-06T14:02:11Z",
+      "subject": "[R-sig-Epi] Robust Survey Design for Epidemiological Research",
+      "subject_clean": "Robust Survey Design for Epidemiological Research",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nThis seminar provides practical skills to elevate the rigor and reliability of your empirical studies. Introduction to Survey Design is a 2-day seminar livestreaming April 20?21, led by Adam Berinsky (MIT Political Experiments Research Lab, Massachusetts Institute of Technology). This seminar offers essential principles and practical techniques for robust survey design, crucial for generating high-quality data in epidemiological studies. Researchers can apply these methods to improve measurement validity in their own surveys, ensuring that data collected for R-based statistical analysis accurately reflects health behaviors, risk factors, or patient outcomes. Mastering these skills directly enhances the credibility and replicability of findings, strengthening empirical evidence for publications and grant proposals in public health and epidemiology.\n\nSign up today (https://instats.org/seminar/introduction-to-survey-design) to reserve your place, and feel free to circulate this with colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nThis seminar provides practical skills to elevate the rigor and reliability of your empirical studies. Introduction to Survey Design is a 2-day seminar livestreaming April 20?",
+      "thread_id": "thread-57cd23047414",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -112,6 +128,17 @@
       "started": "2026-03-05T11:10:12+00:00",
       "last_reply": "2026-03-05T11:10:12+00:00",
       "root_message_id": "msg-795953950cf6"
+    },
+    {
+      "id": "thread-57cd23047414",
+      "subject": "Robust Survey Design for Epidemiological Research",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-03-06T14:02:11+00:00",
+      "last_reply": "2026-03-06T14:02:11+00:00",
+      "root_message_id": "msg-57cd23047414"
     }
   ]
 }
