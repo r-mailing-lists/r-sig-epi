@@ -98,6 +98,22 @@
       "thread_id": "thread-f566948e5112",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-2cd5861c641b",
+      "message_id": "<1773130416.5556830@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-03-10T09:13:36+01:00",
+      "subject": "[R-sig-Epi] (Online Course) Fundamentals of Biostatistics with R - 13–17 April",
+      "subject_clean": "(Online Course) Fundamentals of Biostatistics with R - 13–17 April",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n \nAre youunning clinical studies, epidemiology projects, or biostatistical analyses?but want stronger statistical foundations? \n \nWe are pleased to announce the upcoming Physalia online course Fundamentals of Biostatistics with R, taking place 13?17 April.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ]( https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ) \n \n\nThis 5-day course provides a practical introduction to the core statistical concepts and methods used in medical and biomedical research. Through hands-on exercises in R, participants will learn how to explore datasets, choose appropriate statistical tests, and correctly interpret results.\n\nTopics include:\n\n1 - Descriptive statistics and data visualization\n\n2 - Probability and confidence intervals\n\n3 - Hypothesis testing (t-tests, ANOVA, non-parametric tests)\n\n4 - Categorical data analysis and regression models\n\n5 - Logistic regression and survival analysis\n\n6 - Reproducible statistical workflows for research publications\n\nThe course is ideal for researchers, clinicians, and students who want to strengthen their statistical foundations and improve their data analysis skills using R.\n\n\nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n \nAre youunning clinical studies, epidemiology projects, or biostatistical analyses?but want stronger statistical foundations? \n \nWe are pleased to announce the upcoming Physalia online cour",
+      "thread_id": "thread-2cd5861c641b",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -166,6 +182,17 @@
       "started": "2026-03-09T09:10:21+00:00",
       "last_reply": "2026-03-09T09:10:21+00:00",
       "root_message_id": "msg-f566948e5112"
+    },
+    {
+      "id": "thread-2cd5861c641b",
+      "subject": "(Online Course) Fundamentals of Biostatistics with R - 13–17 April",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-03-10T09:13:36+01:00",
+      "last_reply": "2026-03-10T09:13:36+01:00",
+      "root_message_id": "msg-2cd5861c641b"
     }
   ]
 }
