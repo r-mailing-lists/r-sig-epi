@@ -24,7 +24,7 @@
       "message_id": "<CAEsSYzxb0XzhiCS8pE6=g6t193kE0NddBguy2wL1iWbWbHo6Lg@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-05-02T13:45:52+01:00",
+      "date": "2025-05-02T12:45:52Z",
       "subject": "[R-sig-Epi] Advance Your Data Science Skills with Applied Spatial and Spatial Temporal Modelling using R-INLA",
       "subject_clean": "Advance Your Data Science Skills with Applied Spatial and Spatial Temporal Modelling using R-INLA",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<CAEsSYzxk2kgvvfEJmhLqcV+XL=aeY-t2AyAPQ_d0Fi6vDtt8_w@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-05-02T20:36:21+01:00",
+      "date": "2025-05-02T19:36:21Z",
       "subject": "[R-sig-Epi] Master Mixed Models – Essential Tools for Complex Biological Data",
       "subject_clean": "Master Mixed Models – Essential Tools for Complex Biological Data",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<CAEsSYzxpBU1R4Lm8+M070iAR18y4vjfFzrpqk5+6JDnL-zz_gQ@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-05-20T15:57:57+01:00",
+      "date": "2025-05-20T14:57:57Z",
       "subject": "[R-sig-Epi] Unlock the Power of Spatial Data Visualisation in R using TMAP",
       "subject_clean": "Unlock the Power of Spatial Data Visualisation in R using TMAP",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<CAEsSYzwF2kXrkbJYYpxghw5ST8J56ok9kFG1_+B4NiOe5nAX0Q@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-05-21T20:00:26+01:00",
+      "date": "2025-05-21T19:00:26Z",
       "subject": "[R-sig-Epi] ONLINE COURSE – Tidyverse for Ecologists (TIDY01)",
       "subject_clean": "ONLINE COURSE – Tidyverse for Ecologists (TIDY01)",
       "in_reply_to": null,
@@ -204,8 +204,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-05-01T16:20:00+00:00",
-      "last_reply": "2025-05-01T16:20:00+00:00",
+      "started": "2025-05-01T16:20:00Z",
+      "last_reply": "2025-05-01T16:20:00Z",
       "root_message_id": "msg-73bc2780e872"
     },
     {
@@ -215,8 +215,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-05-02T13:45:52+01:00",
-      "last_reply": "2025-05-02T13:45:52+01:00",
+      "started": "2025-05-02T12:45:52Z",
+      "last_reply": "2025-05-02T12:45:52Z",
       "root_message_id": "msg-daa25eb5eccf"
     },
     {
@@ -226,8 +226,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-05-02T20:36:21+01:00",
-      "last_reply": "2025-05-02T20:36:21+01:00",
+      "started": "2025-05-02T19:36:21Z",
+      "last_reply": "2025-05-02T19:36:21Z",
       "root_message_id": "msg-be7d8ecfef4e"
     },
     {
@@ -237,8 +237,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-05-07T05:20:00+00:00",
-      "last_reply": "2025-05-07T05:20:00+00:00",
+      "started": "2025-05-07T05:20:00Z",
+      "last_reply": "2025-05-07T05:20:00Z",
       "root_message_id": "msg-c1eb84b35186"
     },
     {
@@ -248,8 +248,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-05-09T02:20:00+00:00",
-      "last_reply": "2025-05-09T02:20:00+00:00",
+      "started": "2025-05-09T02:20:00Z",
+      "last_reply": "2025-05-09T02:20:00Z",
       "root_message_id": "msg-ae999229dcfb"
     },
     {
@@ -259,8 +259,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-05-12T16:50:00+00:00",
-      "last_reply": "2025-05-12T16:50:00+00:00",
+      "started": "2025-05-12T16:50:00Z",
+      "last_reply": "2025-05-12T16:50:00Z",
       "root_message_id": "msg-ac9785360bba"
     },
     {
@@ -270,8 +270,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-05-16T04:50:00+00:00",
-      "last_reply": "2025-05-16T04:50:00+00:00",
+      "started": "2025-05-16T04:50:00Z",
+      "last_reply": "2025-05-16T04:50:00Z",
       "root_message_id": "msg-b233d5ec7c45"
     },
     {
@@ -281,8 +281,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-05-20T15:57:57+01:00",
-      "last_reply": "2025-05-20T15:57:57+01:00",
+      "started": "2025-05-20T14:57:57Z",
+      "last_reply": "2025-05-20T14:57:57Z",
       "root_message_id": "msg-573df5907fea"
     },
     {
@@ -292,8 +292,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-05-21T20:00:26+01:00",
-      "last_reply": "2025-05-21T20:00:26+01:00",
+      "started": "2025-05-21T19:00:26Z",
+      "last_reply": "2025-05-21T19:00:26Z",
       "root_message_id": "msg-28d73a0dbd84"
     },
     {
@@ -303,8 +303,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-05-27T10:31:23+00:00",
-      "last_reply": "2025-05-27T10:31:23+00:00",
+      "started": "2025-05-27T10:31:23Z",
+      "last_reply": "2025-05-27T10:31:23Z",
       "root_message_id": "msg-e3e782f15976"
     },
     {
@@ -314,8 +314,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-05-29T08:50:00+00:00",
-      "last_reply": "2025-05-29T08:50:00+00:00",
+      "started": "2025-05-29T08:50:00Z",
+      "last_reply": "2025-05-29T08:50:00Z",
       "root_message_id": "msg-318237f0040f"
     },
     {
@@ -325,8 +325,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-05-30T00:59:11+00:00",
-      "last_reply": "2025-05-30T00:59:11+00:00",
+      "started": "2025-05-30T00:59:11Z",
+      "last_reply": "2025-05-30T00:59:11Z",
       "root_message_id": "msg-4098c0e99389"
     }
   ]

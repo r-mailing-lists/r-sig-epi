@@ -8,7 +8,7 @@
       "message_id": "<AANLkTinz+q80DEmBSqg+WJ0Ji+vUG=LhMMm8D1gZFWn_@mail.gmail.com>",
       "from_name": "Dr Khan Amir Maroof",
       "from_email_hash": "9c6a73453de6c9623207e82585fa2d933452458fa5c1461b32089f01f2e5e186",
-      "date": "2010-11-27T11:00:44+05:30",
+      "date": "2010-11-27T05:30:44Z",
       "subject": "[R-sig-Epi] help",
       "subject_clean": "help",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B665CCCA@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2010-11-28T08:17:14+01:00",
+      "date": "2010-11-28T07:17:14Z",
       "subject": "[R-sig-Epi] help",
       "subject_clean": "help",
       "in_reply_to": "<AANLkTinz+q80DEmBSqg+WJ0Ji+vUG=LhMMm8D1gZFWn_@mail.gmail.com>",
@@ -42,7 +42,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B665CD9E@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2010-11-29T08:26:08+01:00",
+      "date": "2010-11-29T07:26:08Z",
       "subject": "[R-sig-Epi] help",
       "subject_clean": "help",
       "in_reply_to": "<AANLkTin87TAbpjOhg=-=v7SSzTkJN+AFy=PZYvRb5JM4@mail.gmail.com>",
@@ -64,7 +64,7 @@
       "message_id": "<000301cb900d$76f392c0$64dab840$@gigared.com>",
       "from_name": "Diego Garcilazo",
       "from_email_hash": "1ebd81481b46bd52777697c4bd470781fac96d65502f28afc21651418de46908",
-      "date": "2010-11-29T18:36:21-03:00",
+      "date": "2010-11-29T21:36:21Z",
       "subject": "[R-sig-Epi] Frequencies like Epiinfo",
       "subject_clean": "Frequencies like Epiinfo",
       "in_reply_to": null,
@@ -80,7 +80,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B665D265@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2010-11-29T23:55:04+01:00",
+      "date": "2010-11-29T22:55:04Z",
       "subject": "[R-sig-Epi] Frequencies like Epiinfo",
       "subject_clean": "Frequencies like Epiinfo",
       "in_reply_to": "<000301cb900d$76f392c0$64dab840$@gigared.com>",
@@ -103,8 +103,8 @@
         "BXC (Bendix Carstensen)",
         "Dr Khan Amir Maroof"
       ],
-      "started": "2010-11-27T11:00:44+05:30",
-      "last_reply": "2010-11-28T08:17:14+01:00",
+      "started": "2010-11-27T05:30:44Z",
+      "last_reply": "2010-11-28T07:17:14Z",
       "root_message_id": "msg-e69579210017"
     },
     {
@@ -114,8 +114,8 @@
       "participants": [
         "BXC (Bendix Carstensen)"
       ],
-      "started": "2010-11-29T08:26:08+01:00",
-      "last_reply": "2010-11-29T08:26:08+01:00",
+      "started": "2010-11-29T07:26:08Z",
+      "last_reply": "2010-11-29T07:26:08Z",
       "root_message_id": "msg-fe4befb1538e"
     },
     {
@@ -126,8 +126,8 @@
         "BXC (Bendix Carstensen)",
         "Diego Garcilazo"
       ],
-      "started": "2010-11-29T18:36:21-03:00",
-      "last_reply": "2010-11-29T23:55:04+01:00",
+      "started": "2010-11-29T21:36:21Z",
+      "last_reply": "2010-11-29T22:55:04Z",
       "root_message_id": "msg-4b4e4ad1d7b0"
     }
   ]

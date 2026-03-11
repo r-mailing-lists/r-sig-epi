@@ -8,7 +8,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC33018043A086@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2008-07-27T10:42:07+02:00",
+      "date": "2008-07-27T08:42:07Z",
       "subject": "[R-sig-Epi] {MEDSTATS} competing risk model with time dependent covariates under R or Splus",
       "subject_clean": "{MEDSTATS} competing risk model with time dependent covariates under R or Splus",
       "in_reply_to": "<684c28f0-8876-4670-8d5c-7bc6babba355@d1g2000hsg.googlegroups.com>",
@@ -28,8 +28,8 @@
       "participants": [
         "BXC (Bendix Carstensen)"
       ],
-      "started": "2008-07-27T10:42:07+02:00",
-      "last_reply": "2008-07-27T10:42:07+02:00",
+      "started": "2008-07-27T08:42:07Z",
+      "last_reply": "2008-07-27T08:42:07Z",
       "root_message_id": "msg-c69c3cb7a692"
     }
   ]

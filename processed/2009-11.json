@@ -8,7 +8,7 @@
       "message_id": "<8a1e4d2d0911092015g67b1457brebd70b2afc2c0ee9@mail.gmail.com>",
       "from_name": "Jens Levy",
       "from_email_hash": "477f9fcbdad404bc0007f47a65365a73d6221eed82f5c025866f860d9707e6e8",
-      "date": "2009-11-10T11:15:17+07:00",
+      "date": "2009-11-10T04:15:17Z",
       "subject": "[R-sig-Epi] The Common risk difference and effect modification on the additive scale",
       "subject_clean": "The Common risk difference and effect modification on the additive scale",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<d5b814ab0911100620y7ae51dbap9f31d703b58ff2d9@mail.gmail.com>",
       "from_name": "Ajit de Silva",
       "from_email_hash": "53038f7a5972a999f462bd75f998969982838b69e3faa8dcf26d2edbbc9c8ab6",
-      "date": "2009-11-10T06:20:09-08:00",
+      "date": "2009-11-10T14:20:09Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 37, Issue 1",
       "subject_clean": "R-sig-Epi Digest, Vol 37, Issue 1",
       "in_reply_to": "<mailman.2.1257850801.27032.r-sig-epi@stat.math.ethz.ch>",
@@ -42,7 +42,7 @@
       "message_id": "<7F247F24-A93B-4644-96E4-B3CCCE54DC16@comcast.net>",
       "from_name": "David Winsemius",
       "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
-      "date": "2009-11-10T10:28:46-05:00",
+      "date": "2009-11-10T15:28:46Z",
       "subject": "[R-sig-Epi] The Common risk difference and effect modification on the additive scale",
       "subject_clean": "The Common risk difference and effect modification on the additive scale",
       "in_reply_to": "<8a1e4d2d0911092015g67b1457brebd70b2afc2c0ee9@mail.gmail.com>",
@@ -60,7 +60,7 @@
       "message_id": "<4B03CA03020000D90006D985@STATE.OR.US>",
       "from_name": "Dagan A WRIGHT",
       "from_email_hash": "1b1e9e6109bebb24dd6f2b8ed0d227052ba838ffe097c24013d772d5d95a98a9",
-      "date": "2009-11-18T10:18:39-08:00",
+      "date": "2009-11-18T18:18:39Z",
       "subject": "[R-sig-Epi] R functions for probabilistic linkage",
       "subject_clean": "R functions for probabilistic linkage",
       "in_reply_to": null,
@@ -76,7 +76,7 @@
       "message_id": "<1258574735.13793.3.camel@R3-thux>",
       "from_name": "Bernardo Rangel Tura",
       "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
-      "date": "2009-11-18T18:05:35-02:00",
+      "date": "2009-11-18T20:05:35Z",
       "subject": "[R-sig-Epi] R functions for probabilistic linkage",
       "subject_clean": "R functions for probabilistic linkage",
       "in_reply_to": "<4B03CA03020000D90006D985@STATE.OR.US>",
@@ -92,17 +92,6 @@
   ],
   "threads": [
     {
-      "id": "thread-dbd287b1fcca",
-      "subject": "R-sig-Epi Digest, Vol 37, Issue 1",
-      "message_count": 1,
-      "participants": [
-        "Ajit de Silva"
-      ],
-      "started": "2009-11-10T06:20:09-08:00",
-      "last_reply": "2009-11-10T06:20:09-08:00",
-      "root_message_id": "msg-dbd287b1fcca"
-    },
-    {
       "id": "thread-70bfc6cb36ef",
       "subject": "The Common risk difference and effect modification on the additive scale",
       "message_count": 2,
@@ -110,9 +99,20 @@
         "David Winsemius",
         "Jens Levy"
       ],
-      "started": "2009-11-10T11:15:17+07:00",
-      "last_reply": "2009-11-10T10:28:46-05:00",
+      "started": "2009-11-10T04:15:17Z",
+      "last_reply": "2009-11-10T15:28:46Z",
       "root_message_id": "msg-70bfc6cb36ef"
+    },
+    {
+      "id": "thread-dbd287b1fcca",
+      "subject": "R-sig-Epi Digest, Vol 37, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Ajit de Silva"
+      ],
+      "started": "2009-11-10T14:20:09Z",
+      "last_reply": "2009-11-10T14:20:09Z",
+      "root_message_id": "msg-dbd287b1fcca"
     },
     {
       "id": "thread-cb95908cdb99",
@@ -122,8 +122,8 @@
         "Bernardo Rangel Tura",
         "Dagan A WRIGHT"
       ],
-      "started": "2009-11-18T10:18:39-08:00",
-      "last_reply": "2009-11-18T18:05:35-02:00",
+      "started": "2009-11-18T18:18:39Z",
+      "last_reply": "2009-11-18T20:05:35Z",
       "root_message_id": "msg-cb95908cdb99"
     }
   ]

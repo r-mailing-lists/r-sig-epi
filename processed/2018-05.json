@@ -8,7 +8,7 @@
       "message_id": "<6782241a2b3a1236c4a11c955b6ccb7a@prstatistics.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "a49005db234a0680e39b89fc8690e893af64f94b8230db3a917426e095842f7c",
-      "date": "2018-05-15T21:21:20+01:00",
+      "date": "2018-05-15T20:21:20Z",
       "subject": "[R-sig-Epi] TWO Species Distribution Modelling (SDM) Courses",
       "subject_clean": "TWO Species Distribution Modelling (SDM) Courses",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2018-05-15T21:21:20+01:00",
-      "last_reply": "2018-05-15T21:21:20+01:00",
+      "started": "2018-05-15T20:21:20Z",
+      "last_reply": "2018-05-15T20:21:20Z",
       "root_message_id": "msg-e2b73553500f"
     }
   ]

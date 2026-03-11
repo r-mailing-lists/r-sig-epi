@@ -8,7 +8,7 @@
       "message_id": "<5212e8732bee6897670c9772a212f1cd@prstatistics.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "a49005db234a0680e39b89fc8690e893af64f94b8230db3a917426e095842f7c",
-      "date": "2018-10-03T23:34:39+01:00",
+      "date": "2018-10-03T22:34:39Z",
       "subject": "[R-sig-Epi] FINAL CALL FOR Applied Bayesian modelling for ecologists and epidemiologists (ABME04)",
       "subject_clean": "FINAL CALL FOR Applied Bayesian modelling for ecologists and epidemiologists (ABME04)",
       "in_reply_to": "<f1e1108b78c33466488541973c04da7c@prstatistics.com>",
@@ -30,8 +30,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2018-10-03T23:34:39+01:00",
-      "last_reply": "2018-10-03T23:34:39+01:00",
+      "started": "2018-10-03T22:34:39Z",
+      "last_reply": "2018-10-03T22:34:39Z",
       "root_message_id": "msg-93cf8e0008b1"
     }
   ]

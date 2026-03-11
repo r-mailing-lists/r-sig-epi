@@ -72,7 +72,7 @@
       "message_id": "<F894E647-BB6D-4F6E-B4B1-3F26329AB3C1@sympatico.ca>",
       "from_name": "François-Xavier H",
       "from_email_hash": "3e3dac8045c96b379b7825b6ce6d9b7f9b97af6a84ee1740ee8f13a2fa1dda10",
-      "date": "2025-02-20T11:54:10-05:00",
+      "date": "2025-02-20T16:54:10Z",
       "subject": "[R-sig-Epi]  Statistical Methods for Adaptive Treatment - Livestream Seminar",
       "subject_clean": "Statistical Methods for Adaptive Treatment - Livestream Seminar",
       "in_reply_to": "<deZirUHcROWdToIi6mFOLg@geopod-ismtpd-0>",
@@ -94,8 +94,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-02-03T01:20:00+00:00",
-      "last_reply": "2025-02-03T01:20:00+00:00",
+      "started": "2025-02-03T01:20:00Z",
+      "last_reply": "2025-02-03T01:20:00Z",
       "root_message_id": "msg-f0dfca3775a9"
     },
     {
@@ -105,8 +105,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-02-06T03:50:00+00:00",
-      "last_reply": "2025-02-06T03:50:00+00:00",
+      "started": "2025-02-06T03:50:00Z",
+      "last_reply": "2025-02-06T03:50:00Z",
       "root_message_id": "msg-ad1a801d4365"
     },
     {
@@ -116,8 +116,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-02-18T05:50:00+00:00",
-      "last_reply": "2025-02-18T05:50:00+00:00",
+      "started": "2025-02-18T05:50:00Z",
+      "last_reply": "2025-02-18T05:50:00Z",
       "root_message_id": "msg-f76226f80847"
     },
     {
@@ -128,8 +128,8 @@
         "François-Xavier H",
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-02-20T11:50:00+00:00",
-      "last_reply": "2025-02-20T11:54:10-05:00",
+      "started": "2025-02-20T11:50:00Z",
+      "last_reply": "2025-02-20T16:54:10Z",
       "root_message_id": "msg-93f12f9bff23"
     }
   ]

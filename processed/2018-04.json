@@ -8,7 +8,7 @@
       "message_id": "<b6bd6b8ffec372277e8577c1427cbd1e@prstatistics.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "8d85adc6b153d8e80093a9f8e89d7f46369fdd650fe394f7644a0e0697798998",
-      "date": "2018-04-16T16:32:20+01:00",
+      "date": "2018-04-16T15:32:20Z",
       "subject": "[R-sig-Epi] Introduction to Mixed (Hierarchical) models for biologists using R",
       "subject_clean": "Introduction to Mixed (Hierarchical) models for biologists using R",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2018-04-16T16:32:20+01:00",
-      "last_reply": "2018-04-16T16:32:20+01:00",
+      "started": "2018-04-16T15:32:20Z",
+      "last_reply": "2018-04-16T15:32:20Z",
       "root_message_id": "msg-23238d5963e3"
     }
   ]

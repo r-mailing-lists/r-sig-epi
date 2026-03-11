@@ -8,7 +8,7 @@
       "message_id": "<1B80C974ABFB23429A403B6667FE84C7B0F046@seiumain.SEIU.local>",
       "from_name": "Lynn Disney",
       "from_email_hash": "a949b5c88d24be733132147631c7850bf6fcafbd6519d59885a4579a1432521d",
-      "date": "2007-08-02T14:39:51-04:00",
+      "date": "2007-08-02T18:39:51Z",
       "subject": "[R-sig-Epi] memory over load?",
       "subject_clean": "memory over load?",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<46B227A3.6030600@hotmail.com>",
       "from_name": "FZ",
       "from_email_hash": "e809e7003031b289f014fa3452fbb038c2e07d17f897c97f892648b9b6e3c35f",
-      "date": "2007-08-02T12:51:15-06:00",
+      "date": "2007-08-02T18:51:15Z",
       "subject": "[R-sig-Epi] memory over load?",
       "subject_clean": "memory over load?",
       "in_reply_to": "<1B80C974ABFB23429A403B6667FE84C7B0F046@seiumain.SEIU.local>",
@@ -42,7 +42,7 @@
       "message_id": "<46B22BB3.3070204@hotmail.com>",
       "from_name": "FZ",
       "from_email_hash": "e809e7003031b289f014fa3452fbb038c2e07d17f897c97f892648b9b6e3c35f",
-      "date": "2007-08-02T13:08:35-06:00",
+      "date": "2007-08-02T19:08:35Z",
       "subject": "[R-sig-Epi] memory over load?",
       "subject_clean": "memory over load?",
       "in_reply_to": "<1B80C974ABFB23429A403B6667FE84C7B0F04B@seiumain.SEIU.local>",
@@ -62,7 +62,7 @@
       "message_id": "<Pine.LNX.4.43.0708021224250.5600@hymn07.u.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
-      "date": "2007-08-02T12:24:25-07:00",
+      "date": "2007-08-02T19:24:25Z",
       "subject": "[R-sig-Epi] memory over load?",
       "subject_clean": "memory over load?",
       "in_reply_to": "<46B227A3.6030600@hotmail.com>",
@@ -78,7 +78,7 @@
       "message_id": "<46B23B20.5020909@hotmail.com>",
       "from_name": "FZ",
       "from_email_hash": "e809e7003031b289f014fa3452fbb038c2e07d17f897c97f892648b9b6e3c35f",
-      "date": "2007-08-02T14:14:24-06:00",
+      "date": "2007-08-02T20:14:24Z",
       "subject": "[R-sig-Epi] memory over load?",
       "subject_clean": "memory over load?",
       "in_reply_to": "<Pine.LNX.4.43.0708021224250.5600@hymn07.u.washington.edu>",
@@ -96,7 +96,7 @@
       "message_id": "<Pine.LNX.4.43.0708021339490.5600@hymn07.u.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
-      "date": "2007-08-02T13:39:49-07:00",
+      "date": "2007-08-02T20:39:49Z",
       "subject": "[R-sig-Epi] memory over load?",
       "subject_clean": "memory over load?",
       "in_reply_to": "<46B23B20.5020909@hotmail.com>",
@@ -112,7 +112,7 @@
       "message_id": "<46B243A3.1050808@hotmail.com>",
       "from_name": "Francisco J. Zagmutt",
       "from_email_hash": "e809e7003031b289f014fa3452fbb038c2e07d17f897c97f892648b9b6e3c35f",
-      "date": "2007-08-02T14:50:43-06:00",
+      "date": "2007-08-02T20:50:43Z",
       "subject": "[R-sig-Epi] memory over load?",
       "subject_clean": "memory over load?",
       "in_reply_to": "<Pine.LNX.4.43.0708021339490.5600@hymn07.u.washington.edu>",
@@ -130,7 +130,7 @@
       "message_id": "<1592232557@web.de>",
       "from_name": "Mariana Wagner",
       "from_email_hash": "77776fee1c3aff91d26f95d65ff8b5e6b1194e22586e11a68d985791c3fb1f69",
-      "date": "2007-08-04T09:51:33+02:00",
+      "date": "2007-08-04T07:51:33Z",
       "subject": "[R-sig-Epi] lognormal distribution in survreg",
       "subject_clean": "lognormal distribution in survreg",
       "in_reply_to": null,
@@ -146,7 +146,7 @@
       "message_id": "<s6b6e18e.053@mail.kilifi.kemri-wellcome.org>",
       "from_name": "Lazarus Mramba",
       "from_email_hash": "ca734f87fd2d75532260eca19c5a699a6cf82faf377c9009f0e0f9a7f43e0870",
-      "date": "2007-08-06T08:53:28+03:00",
+      "date": "2007-08-06T05:53:28Z",
       "subject": "[R-sig-Epi] lognormal distribution in survreg (Mariana Wagner)",
       "subject_clean": "lognormal distribution in survreg (Mariana Wagner)",
       "in_reply_to": null,
@@ -162,7 +162,7 @@
       "message_id": "<Pine.LNX.4.64.0708060702020.28453@homer24.u.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
-      "date": "2007-08-06T07:04:07-07:00",
+      "date": "2007-08-06T14:04:07Z",
       "subject": "[R-sig-Epi] lognormal distribution in survreg (Mariana Wagner)",
       "subject_clean": "lognormal distribution in survreg (Mariana Wagner)",
       "in_reply_to": "<s6b6e18e.053@mail.kilifi.kemri-wellcome.org>",
@@ -180,7 +180,7 @@
       "message_id": "<OF7E8931A1.66EFD7E9-ONC1257330.0052FA37-C1257330.00531486@var.fgov.be>",
       "from_name": "Tom Willems",
       "from_email_hash": "f97dfcbb011ef8f03ff2bad9f7594f7d644394ae0c450b975da8e99666b2c6e9",
-      "date": "2007-08-07T17:07:30+02:00",
+      "date": "2007-08-07T15:07:30Z",
       "subject": "[R-sig-Epi] logistic models validation for categorical data",
       "subject_clean": "logistic models validation for categorical data",
       "in_reply_to": null,
@@ -196,7 +196,7 @@
       "message_id": "<OF35A34751.54130DA9-ONC1257331.002CB9F4-C1257331.00584387@var.fgov.be>",
       "from_name": "Tom Willems",
       "from_email_hash": "f97dfcbb011ef8f03ff2bad9f7594f7d644394ae0c450b975da8e99666b2c6e9",
-      "date": "2007-08-08T18:04:05+02:00",
+      "date": "2007-08-08T16:04:05Z",
       "subject": "[R-sig-Epi] Logistic Models, Cross Validation, error tables , Monte Carlo Simulation?",
       "subject_clean": "Logistic Models, Cross Validation, error tables , Monte Carlo Simulation?",
       "in_reply_to": null,
@@ -212,7 +212,7 @@
       "message_id": "<OFFFC8D04D.0F8A9BD6-ONC1257336.0033602A-C1257336.00336D42@var.fgov.be>",
       "from_name": "Tom Willems",
       "from_email_hash": "f97dfcbb011ef8f03ff2bad9f7594f7d644394ae0c450b975da8e99666b2c6e9",
-      "date": "2007-08-13T11:21:40+02:00",
+      "date": "2007-08-13T09:21:40Z",
       "subject": "[R-sig-Epi] Q: How to extract coefisients from one glm and implement them in to an other glm?",
       "subject_clean": "Q: How to extract coefisients from one glm and implement them in to an other glm?",
       "in_reply_to": null,
@@ -228,7 +228,7 @@
       "message_id": "<46C96964.9020002@cam.ac.uk>",
       "from_name": "Marcelo Segura",
       "from_email_hash": "8bc88e1974d5cc14c8d0d51078d1c48f975b63f4bf9831977e1707004d23c996",
-      "date": "2007-08-20T11:13:56+01:00",
+      "date": "2007-08-20T10:13:56Z",
       "subject": "[R-sig-Epi] newsgroup for this mailing list?",
       "subject_clean": "newsgroup for this mailing list?",
       "in_reply_to": null,
@@ -244,7 +244,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC808350492C062@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2007-08-20T12:49:22+02:00",
+      "date": "2007-08-20T10:49:22Z",
       "subject": "[R-sig-Epi] newsgroup for this mailing list?",
       "subject_clean": "newsgroup for this mailing list?",
       "in_reply_to": "<46C96964.9020002@cam.ac.uk>",
@@ -260,7 +260,7 @@
       "message_id": "<2fc17e30708210411q2fc8ebc1s25574ff2288d4709@mail.gmail.com>",
       "from_name": "zhijie zhang",
       "from_email_hash": "89b010aa3476c696a33cf3af7a8ed0bc976e8775483a8bdfeff2588d8ce5b24d",
-      "date": "2007-08-21T19:11:16+08:00",
+      "date": "2007-08-21T11:11:16Z",
       "subject": "[R-sig-Epi] Could it be possible to set up an international group to develop a specific Epi package?",
       "subject_clean": "Could it be possible to set up an international group to develop a specific Epi package?",
       "in_reply_to": null,
@@ -276,7 +276,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC8083504970428@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2007-08-21T13:37:44+02:00",
+      "date": "2007-08-21T11:37:44Z",
       "subject": "[R-sig-Epi] Could it be possible to set up an international groupto develop a specific Epi package?",
       "subject_clean": "Could it be possible to set up an international groupto develop a specific Epi package?",
       "in_reply_to": "<2fc17e30708210411q2fc8ebc1s25574ff2288d4709@mail.gmail.com>",
@@ -292,7 +292,7 @@
       "message_id": "<1A2BCA4266504B4CA543403718A81FD20299609B@TRAVIS.ttuhsc.edu>",
       "from_name": "Wachtel, Mitchell",
       "from_email_hash": "212d96d626c13d8bc76a948a6203c7f70d230e2da2f122e23edd9ccc0bd642f3",
-      "date": "2007-08-22T07:26:01-05:00",
+      "date": "2007-08-22T12:26:01Z",
       "subject": "[R-sig-Epi] Could it be possible to set up an international group to develop a specific Epi package?",
       "subject_clean": "Could it be possible to set up an international group to develop a specific Epi package?",
       "in_reply_to": null,
@@ -306,17 +306,6 @@
   ],
   "threads": [
     {
-      "id": "thread-9fb483c69242",
-      "subject": "memory over load?",
-      "message_count": 1,
-      "participants": [
-        "FZ"
-      ],
-      "started": "2007-08-02T13:08:35-06:00",
-      "last_reply": "2007-08-02T13:08:35-06:00",
-      "root_message_id": "msg-9fb483c69242"
-    },
-    {
       "id": "thread-bcef2a728d93",
       "subject": "memory over load?",
       "message_count": 6,
@@ -326,9 +315,20 @@
         "Lynn Disney",
         "Thomas Lumley"
       ],
-      "started": "2007-08-02T14:39:51-04:00",
-      "last_reply": "2007-08-02T14:50:43-06:00",
+      "started": "2007-08-02T18:39:51Z",
+      "last_reply": "2007-08-02T20:50:43Z",
       "root_message_id": "msg-bcef2a728d93"
+    },
+    {
+      "id": "thread-9fb483c69242",
+      "subject": "memory over load?",
+      "message_count": 1,
+      "participants": [
+        "FZ"
+      ],
+      "started": "2007-08-02T19:08:35Z",
+      "last_reply": "2007-08-02T19:08:35Z",
+      "root_message_id": "msg-9fb483c69242"
     },
     {
       "id": "thread-38190e8a256d",
@@ -337,8 +337,8 @@
       "participants": [
         "Mariana Wagner"
       ],
-      "started": "2007-08-04T09:51:33+02:00",
-      "last_reply": "2007-08-04T09:51:33+02:00",
+      "started": "2007-08-04T07:51:33Z",
+      "last_reply": "2007-08-04T07:51:33Z",
       "root_message_id": "msg-38190e8a256d"
     },
     {
@@ -349,8 +349,8 @@
         "Lazarus Mramba",
         "Thomas Lumley"
       ],
-      "started": "2007-08-06T08:53:28+03:00",
-      "last_reply": "2007-08-06T07:04:07-07:00",
+      "started": "2007-08-06T05:53:28Z",
+      "last_reply": "2007-08-06T14:04:07Z",
       "root_message_id": "msg-21db8f9e591e"
     },
     {
@@ -360,8 +360,8 @@
       "participants": [
         "Tom Willems"
       ],
-      "started": "2007-08-07T17:07:30+02:00",
-      "last_reply": "2007-08-07T17:07:30+02:00",
+      "started": "2007-08-07T15:07:30Z",
+      "last_reply": "2007-08-07T15:07:30Z",
       "root_message_id": "msg-b3e7f91205ad"
     },
     {
@@ -371,8 +371,8 @@
       "participants": [
         "Tom Willems"
       ],
-      "started": "2007-08-08T18:04:05+02:00",
-      "last_reply": "2007-08-08T18:04:05+02:00",
+      "started": "2007-08-08T16:04:05Z",
+      "last_reply": "2007-08-08T16:04:05Z",
       "root_message_id": "msg-999575764487"
     },
     {
@@ -382,8 +382,8 @@
       "participants": [
         "Tom Willems"
       ],
-      "started": "2007-08-13T11:21:40+02:00",
-      "last_reply": "2007-08-13T11:21:40+02:00",
+      "started": "2007-08-13T09:21:40Z",
+      "last_reply": "2007-08-13T09:21:40Z",
       "root_message_id": "msg-0b1be159741d"
     },
     {
@@ -394,8 +394,8 @@
         "BXC (Bendix Carstensen)",
         "Marcelo Segura"
       ],
-      "started": "2007-08-20T11:13:56+01:00",
-      "last_reply": "2007-08-20T12:49:22+02:00",
+      "started": "2007-08-20T10:13:56Z",
+      "last_reply": "2007-08-20T10:49:22Z",
       "root_message_id": "msg-1ae99ad5ce91"
     },
     {
@@ -406,8 +406,8 @@
         "BXC (Bendix Carstensen)",
         "zhijie zhang"
       ],
-      "started": "2007-08-21T19:11:16+08:00",
-      "last_reply": "2007-08-21T13:37:44+02:00",
+      "started": "2007-08-21T11:11:16Z",
+      "last_reply": "2007-08-21T11:37:44Z",
       "root_message_id": "msg-37e1505c312f"
     },
     {
@@ -417,8 +417,8 @@
       "participants": [
         "Wachtel, Mitchell"
       ],
-      "started": "2007-08-22T07:26:01-05:00",
-      "last_reply": "2007-08-22T07:26:01-05:00",
+      "started": "2007-08-22T12:26:01Z",
+      "last_reply": "2007-08-22T12:26:01Z",
       "root_message_id": "msg-b12bdd842223"
     }
   ]

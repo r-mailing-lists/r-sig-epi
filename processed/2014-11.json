@@ -8,7 +8,7 @@
       "message_id": "<D0282BD4-123E-4CC6-B86E-7350F4BC8107@163.com>",
       "from_name": "Ting Zhang",
       "from_email_hash": "64c2ab74f387d78752a69aded152009c9afb171061d8d372276085a9de57ea45",
-      "date": "2014-11-21T07:54:08+08:00",
+      "date": "2014-11-20T23:54:08Z",
       "subject": "[R-sig-Epi] propensity score code",
       "subject_clean": "propensity score code",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<7267E09F-3404-4FD2-ADEF-82D8631E0E5D@comcast.net>",
       "from_name": "David Winsemius",
       "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
-      "date": "2014-11-26T22:22:41-08:00",
+      "date": "2014-11-27T06:22:41Z",
       "subject": "[R-sig-Epi] propensity score code",
       "subject_clean": "propensity score code",
       "in_reply_to": "<D0282BD4-123E-4CC6-B86E-7350F4BC8107@163.com>",
@@ -47,8 +47,8 @@
         "David Winsemius",
         "Ting Zhang"
       ],
-      "started": "2014-11-21T07:54:08+08:00",
-      "last_reply": "2014-11-26T22:22:41-08:00",
+      "started": "2014-11-20T23:54:08Z",
+      "last_reply": "2014-11-27T06:22:41Z",
       "root_message_id": "msg-b8768bb09c97"
     }
   ]

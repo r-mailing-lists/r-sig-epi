@@ -8,7 +8,7 @@
       "message_id": "<CALCWFWmGzqK_3EQTc6g+YTX8aQZ6EtMres9hrgDEtAkWspzvuw@mail.gmail.com>",
       "from_name": "Jeffrey Miller",
       "from_email_hash": "a88dd5cab28f8f3dcfbd08278931f4dc6dbd318b05294235bbe3813f060c6552",
-      "date": "2012-07-24T15:32:49-04:00",
+      "date": "2012-07-24T19:32:49Z",
       "subject": "[R-sig-Epi] workflow for creating large tabular reports and sharing editable tables with colleagues who don't use LaTeX",
       "subject_clean": "workflow for creating large tabular reports and sharing editable tables with colleagues who don't use LaTeX",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<CAFfGvyK-fWs6zpPJ419uQGOdz9ACDCCLv-4u703XxXLCMBRdLQ@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2012-07-30T14:04:04-03:00",
+      "date": "2012-07-30T17:04:04Z",
       "subject": "[R-sig-Epi] Importing XML new EpiData files",
       "subject_clean": "Importing XML new EpiData files",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Jeffrey Miller"
       ],
-      "started": "2012-07-24T15:32:49-04:00",
-      "last_reply": "2012-07-24T15:32:49-04:00",
+      "started": "2012-07-24T19:32:49Z",
+      "last_reply": "2012-07-24T19:32:49Z",
       "root_message_id": "msg-056789d5bc37"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2012-07-30T14:04:04-03:00",
-      "last_reply": "2012-07-30T14:04:04-03:00",
+      "started": "2012-07-30T17:04:04Z",
+      "last_reply": "2012-07-30T17:04:04Z",
       "root_message_id": "msg-fa9bfc7b2be5"
     }
   ]

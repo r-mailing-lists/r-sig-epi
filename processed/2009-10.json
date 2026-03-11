@@ -8,7 +8,7 @@
       "message_id": "<5968.32620.qm@web53105.mail.re2.yahoo.com>",
       "from_name": "Rahul Shidhaye",
       "from_email_hash": "968ca02660412aa231f8763ff847293141c6049e55f0e8a59901e1b38d7294fc",
-      "date": "2009-10-15T19:19:08-07:00",
+      "date": "2009-10-16T02:19:08Z",
       "subject": "[R-sig-Epi] Sample size for diagnostic test",
       "subject_clean": "Sample size for diagnostic test",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<EBE45F91B9606842A974F9F99E2D4E2B01BC8E9C@RE2-EXC-VBE1B.ausl.org>",
       "from_name": "Guazzetti Stefano",
       "from_email_hash": "32345d2112fd67afe941586f302aaa5be38e8e752a99e5bac5142922fe3a0de2",
-      "date": "2009-10-16T11:05:31+02:00",
+      "date": "2009-10-16T09:05:31Z",
       "subject": "[R-sig-Epi] R:  Sample size for diagnostic test",
       "subject_clean": "R:  Sample size for diagnostic test",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<a37cfb5a0910161225qdbfb91dj63f55b8228e59e11@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2009-10-16T16:25:04-03:00",
+      "date": "2009-10-16T19:25:04Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 36, Issue 1",
       "subject_clean": "R-sig-Epi Digest, Vol 36, Issue 1",
       "in_reply_to": "<mailman.3.1255687201.5476.r-sig-epi@stat.math.ethz.ch>",
@@ -62,8 +62,8 @@
       "participants": [
         "Rahul Shidhaye"
       ],
-      "started": "2009-10-15T19:19:08-07:00",
-      "last_reply": "2009-10-15T19:19:08-07:00",
+      "started": "2009-10-16T02:19:08Z",
+      "last_reply": "2009-10-16T02:19:08Z",
       "root_message_id": "msg-e1d8a9789cce"
     },
     {
@@ -73,8 +73,8 @@
       "participants": [
         "Guazzetti Stefano"
       ],
-      "started": "2009-10-16T11:05:31+02:00",
-      "last_reply": "2009-10-16T11:05:31+02:00",
+      "started": "2009-10-16T09:05:31Z",
+      "last_reply": "2009-10-16T09:05:31Z",
       "root_message_id": "msg-5d88d54f5def"
     },
     {
@@ -84,8 +84,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2009-10-16T16:25:04-03:00",
-      "last_reply": "2009-10-16T16:25:04-03:00",
+      "started": "2009-10-16T19:25:04Z",
+      "last_reply": "2009-10-16T19:25:04Z",
       "root_message_id": "msg-03d5426dbe90"
     }
   ]

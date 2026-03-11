@@ -8,7 +8,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301FBEB9CBF@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2009-02-01T17:04:25+01:00",
+      "date": "2009-02-01T16:04:25Z",
       "subject": "[R-sig-Epi] New verions of the Epi package",
       "subject_clean": "New verions of the Epi package",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "BXC (Bendix Carstensen)"
       ],
-      "started": "2009-02-01T17:04:25+01:00",
-      "last_reply": "2009-02-01T17:04:25+01:00",
+      "started": "2009-02-01T16:04:25Z",
+      "last_reply": "2009-02-01T16:04:25Z",
       "root_message_id": "msg-91cee8280d18"
     }
   ]

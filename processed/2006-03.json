@@ -8,7 +8,7 @@
       "message_id": "<f9b0d0e67585.7585f9b0d0e6@ki.se>",
       "from_name": "Henrik Kallberg",
       "from_email_hash": "879cc47db6303158ee7a14f68871f8a45a7b00a428e9b60f317dad7628381815",
-      "date": "2006-03-02T11:34:51+01:00",
+      "date": "2006-03-02T10:34:51Z",
       "subject": "[R-sig-Epi] function and glm",
       "subject_clean": "function and glm",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<1141300812.3659.8.camel@seurat.iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
-      "date": "2006-03-02T13:00:11+01:00",
+      "date": "2006-03-02T12:00:11Z",
       "subject": "[R-sig-Epi] function and glm",
       "subject_clean": "function and glm",
       "in_reply_to": "<f9b0d0e67585.7585f9b0d0e6@ki.se>",
@@ -47,8 +47,8 @@
         "Henrik Kallberg",
         "Martyn Plummer"
       ],
-      "started": "2006-03-02T11:34:51+01:00",
-      "last_reply": "2006-03-02T13:00:11+01:00",
+      "started": "2006-03-02T10:34:51Z",
+      "last_reply": "2006-03-02T12:00:11Z",
       "root_message_id": "msg-4810f19c6964"
     }
   ]

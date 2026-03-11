@@ -8,7 +8,7 @@
       "message_id": "<ED714DD75175094C8DFF2377D3F8537FD76E6E@obgyn.cidrz.org>",
       "from_name": "Jens Levy",
       "from_email_hash": "44cd950569ca099e116c22a36bde24395b470775d52d54f24b39c81839dcc895",
-      "date": "2007-12-06T11:53:09+02:00",
+      "date": "2007-12-06T09:53:09Z",
       "subject": "[R-sig-Epi] Loess for proportions over time",
       "subject_clean": "Loess for proportions over time",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Jens Levy"
       ],
-      "started": "2007-12-06T11:53:09+02:00",
-      "last_reply": "2007-12-06T11:53:09+02:00",
+      "started": "2007-12-06T09:53:09Z",
+      "last_reply": "2007-12-06T09:53:09Z",
       "root_message_id": "msg-3fc35e2c8c93"
     }
   ]

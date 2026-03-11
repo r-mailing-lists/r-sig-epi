@@ -8,7 +8,7 @@
       "message_id": "<AANLkTimvx213Vo9hROH6vjZV52wy8X67yLeJROf6Zg4u@mail.gmail.com>",
       "from_name": "Jordi",
       "from_email_hash": "a6e6d29d72609d9dd30039b8167dad9b949c805024a3afa428a72679e27d3789",
-      "date": "2010-07-15T14:42:01+02:00",
+      "date": "2010-07-15T12:42:01Z",
       "subject": "[R-sig-Epi] Merging and updating data frames",
       "subject_clean": "Merging and updating data frames",
       "in_reply_to": "<AANLkTinROMkKvCNQCOFlV1McomihVMKMUDQEQL5pr8Z4@mail.gmail.com>",
@@ -27,7 +27,7 @@
       "message_id": "<AANLkTikizSGV3O6WSYdy7FLUC0-LUJTlR93CgbjBk5ri@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-07-15T10:48:24-03:00",
+      "date": "2010-07-15T13:48:24Z",
       "subject": "[R-sig-Epi] Merging and updating data frames",
       "subject_clean": "Merging and updating data frames",
       "in_reply_to": "<AANLkTimvx213Vo9hROH6vjZV52wy8X67yLeJROf6Zg4u@mail.gmail.com>",
@@ -52,8 +52,8 @@
         "Jordi",
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2010-07-15T14:42:01+02:00",
-      "last_reply": "2010-07-15T10:48:24-03:00",
+      "started": "2010-07-15T12:42:01Z",
+      "last_reply": "2010-07-15T13:48:24Z",
       "root_message_id": "msg-55805c443bcc"
     }
   ]

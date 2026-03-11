@@ -8,7 +8,7 @@
       "message_id": "<1bff52c20606140033j3ac8e9fdxa85d4edded2ad94a@mail.gmail.com>",
       "from_name": "xingwang ye",
       "from_email_hash": "30f1b0094cc47d89ec592fe31a4a49f9298a932d08dccf9cc027a3feb3b4f863",
-      "date": "2006-06-14T15:33:57+08:00",
+      "date": "2006-06-14T07:33:57Z",
       "subject": "[R-sig-Epi] could someone tell me how to implement a multiple comparison test for proportions in a 2xc crosstabulation",
       "subject_clean": "could someone tell me how to implement a multiple comparison test for proportions in a 2xc crosstabulation",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<01M3M7DOE90Y99DOKV@ktl.fi>",
       "from_name": "Harri Sinkko",
       "from_email_hash": "afa4978025569274e4f3652bf0d196480e6d6a7414d0108d289178e93178dec2",
-      "date": "2006-06-14T13:19:14+03:00",
+      "date": "2006-06-14T10:19:14Z",
       "subject": "[R-sig-Epi] Out of the office",
       "subject_clean": "Out of the office",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<44903338.9050307@darwin.sfbr.org>",
       "from_name": "Kevin Viel",
       "from_email_hash": "5c6a7ea8e00dd7ced2868df7b21fa63a76d81844105719f0be698de8983a93ce",
-      "date": "2006-06-14T11:03:04-05:00",
+      "date": "2006-06-14T16:03:04Z",
       "subject": "[R-sig-Epi] could someone tell me how to implement a multiple comparison test for proportions in a 2xc crosstabulation",
       "subject_clean": "could someone tell me how to implement a multiple comparison test for proportions in a 2xc crosstabulation",
       "in_reply_to": "<1bff52c20606140033j3ac8e9fdxa85d4edded2ad94a@mail.gmail.com>",
@@ -58,7 +58,7 @@
       "message_id": "<6A52F6A585E35140BD0229E825DA69F0C996F8@BCMEVS7.ad.bcm.edu>",
       "from_name": "Foldi, Beatrix",
       "from_email_hash": "c0a2f6ee44bbe443d25fb67bd8525f5632c3ff0806a89810989bd4dd4731454d",
-      "date": "2006-06-22T10:55:57-05:00",
+      "date": "2006-06-22T15:55:57Z",
       "subject": "[R-sig-Epi] Propensite score question",
       "subject_clean": "Propensite score question",
       "in_reply_to": null,
@@ -74,7 +74,7 @@
       "message_id": "<1151063428.449bd58427887@webmail.oulu.fi>",
       "from_name": "Esa Laara",
       "from_email_hash": "2ec0e8bbff355d78bee22e48ed41cef294b7e0571b588e08ab95ae953d6ce19c",
-      "date": "2006-06-23T14:50:28+03:00",
+      "date": "2006-06-23T11:50:28Z",
       "subject": "[R-sig-Epi] Propensite score question",
       "subject_clean": "Propensite score question",
       "in_reply_to": "<6A52F6A585E35140BD0229E825DA69F0C996F8@BCMEVS7.ad.bcm.edu>",
@@ -92,7 +92,7 @@
       "message_id": "<DDE644DA72721B448193AF07C0E1C26926A359@UTHEVS5.mail.uthouston.edu>",
       "from_name": "Foldi, Beatrix",
       "from_email_hash": "1a26fbe5e8af41b5947fb603309a68fedb9fef1f95efc8f8d15c39444facf272",
-      "date": "2006-06-23T08:31:11-05:00",
+      "date": "2006-06-23T13:31:11Z",
       "subject": "[R-sig-Epi] Propensity scores",
       "subject_clean": "Propensity scores",
       "in_reply_to": null,
@@ -108,7 +108,7 @@
       "message_id": "<449FF86B.5090108@darwin.sfbr.org>",
       "from_name": "Kevin Viel",
       "from_email_hash": "5c6a7ea8e00dd7ced2868df7b21fa63a76d81844105719f0be698de8983a93ce",
-      "date": "2006-06-26T10:08:27-05:00",
+      "date": "2006-06-26T15:08:27Z",
       "subject": "[R-sig-Epi] Propensite score question",
       "subject_clean": "Propensite score question",
       "in_reply_to": "<6A52F6A585E35140BD0229E825DA69F0C996F8@BCMEVS7.ad.bcm.edu>",
@@ -126,7 +126,7 @@
       "message_id": "<001c01c69b8d$0c127cb0$260c050a@biometria>",
       "from_name": "Mayelin Mirabal Sosa",
       "from_email_hash": "45c6240020e2193497a8cac614ed6ace132cee7eed4888578717f9955554c2b9",
-      "date": "2006-06-29T10:02:29-05:00",
+      "date": "2006-06-29T15:02:29Z",
       "subject": "[R-sig-Epi]   Load package \"car\"",
       "subject_clean": "Load package \"car\"",
       "in_reply_to": null,
@@ -144,7 +144,7 @@
       "message_id": "<44A43908.7070203@optushome.com.au>",
       "from_name": "Tim Churches",
       "from_email_hash": "d5c518445d395564eb8c5d67b817616900d5faca77fe794dd8f91b6bcbcdaa7c",
-      "date": "2006-06-30T06:33:12+10:00",
+      "date": "2006-06-29T20:33:12Z",
       "subject": "[R-sig-Epi] Load package \"car\"",
       "subject_clean": "Load package \"car\"",
       "in_reply_to": "<001c01c69b8d$0c127cb0$260c050a@biometria>",
@@ -163,7 +163,7 @@
       "message_id": "<44A44270.9050108@optusnet.com.au>",
       "from_name": "Tim Churches",
       "from_email_hash": "c734e7be58f73ac4887b35353e7d4e3b38ad1c8f88b9d2df42e15c121c248f00",
-      "date": "2006-06-30T07:13:20+10:00",
+      "date": "2006-06-29T21:13:20Z",
       "subject": "[R-sig-Epi] Load package \"car\"",
       "subject_clean": "Load package \"car\"",
       "in_reply_to": "<001c01c69b8d$0c127cb0$260c050a@biometria>",
@@ -180,17 +180,6 @@
   ],
   "threads": [
     {
-      "id": "thread-cf02d7aefbf2",
-      "subject": "Out of the office",
-      "message_count": 1,
-      "participants": [
-        "Harri Sinkko"
-      ],
-      "started": "2006-06-14T13:19:14+03:00",
-      "last_reply": "2006-06-14T13:19:14+03:00",
-      "root_message_id": "msg-cf02d7aefbf2"
-    },
-    {
       "id": "thread-6355c95fa5e3",
       "subject": "could someone tell me how to implement a multiple comparison test for proportions in a 2xc crosstabulation",
       "message_count": 2,
@@ -198,9 +187,20 @@
         "Kevin Viel",
         "xingwang ye"
       ],
-      "started": "2006-06-14T15:33:57+08:00",
-      "last_reply": "2006-06-14T11:03:04-05:00",
+      "started": "2006-06-14T07:33:57Z",
+      "last_reply": "2006-06-14T16:03:04Z",
       "root_message_id": "msg-6355c95fa5e3"
+    },
+    {
+      "id": "thread-cf02d7aefbf2",
+      "subject": "Out of the office",
+      "message_count": 1,
+      "participants": [
+        "Harri Sinkko"
+      ],
+      "started": "2006-06-14T10:19:14Z",
+      "last_reply": "2006-06-14T10:19:14Z",
+      "root_message_id": "msg-cf02d7aefbf2"
     },
     {
       "id": "thread-ae5a9c881cb5",
@@ -211,8 +211,8 @@
         "Foldi, Beatrix",
         "Kevin Viel"
       ],
-      "started": "2006-06-22T10:55:57-05:00",
-      "last_reply": "2006-06-26T10:08:27-05:00",
+      "started": "2006-06-22T15:55:57Z",
+      "last_reply": "2006-06-26T15:08:27Z",
       "root_message_id": "msg-ae5a9c881cb5"
     },
     {
@@ -224,8 +224,8 @@
         "Mayelin Mirabal Sosa",
         "Tim Churches"
       ],
-      "started": "2006-06-23T08:31:11-05:00",
-      "last_reply": "2006-06-30T07:13:20+10:00",
+      "started": "2006-06-23T13:31:11Z",
+      "last_reply": "2006-06-29T21:13:20Z",
       "root_message_id": "msg-924fcf67b946"
     }
   ]

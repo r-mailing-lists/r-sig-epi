@@ -8,7 +8,7 @@
       "message_id": "<9D3E9DFC-CE55-48D4-8A3B-DFB905B7DC03@me.com>",
       "from_name": "Przemysław Jura",
       "from_email_hash": "d416a5cc3293a5381ad602f3e82f418529d00ff1fc090969053c44252836aceb",
-      "date": "2011-02-09T21:37:45+08:00",
+      "date": "2011-02-09T13:37:45Z",
       "subject": "[R-sig-Epi] Calculate local RR from GAM",
       "subject_clean": "Calculate local RR from GAM",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B6B23BBC@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2011-02-09T17:41:16+01:00",
+      "date": "2011-02-09T16:41:16Z",
       "subject": "[R-sig-Epi] Calculate local RR from GAM",
       "subject_clean": "Calculate local RR from GAM",
       "in_reply_to": "<9D3E9DFC-CE55-48D4-8A3B-DFB905B7DC03@me.com>",
@@ -42,7 +42,7 @@
       "message_id": "<AANLkTinqgDzrJHysbmAE9FhPH7QznpbWjUmp2=0QcWjd@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2011-02-10T08:50:31-03:00",
+      "date": "2011-02-10T11:50:31Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 50, Issue 1",
       "subject_clean": "R-sig-Epi Digest, Vol 50, Issue 1",
       "in_reply_to": "<mailman.5.1297335601.22737.r-sig-epi@r-project.org>",
@@ -60,7 +60,7 @@
       "message_id": "<830070.74768.qm@web112509.mail.gq1.yahoo.com>",
       "from_name": "Suman Kundu",
       "from_email_hash": "32844e374bd47eaa1bbcd8f36015fbe68c923664b5cdfcef112ebb8c6298e80d",
-      "date": "2011-02-16T06:54:26-08:00",
+      "date": "2011-02-16T14:54:26Z",
       "subject": "[R-sig-Epi] Compare calibration from two LR models",
       "subject_clean": "Compare calibration from two LR models",
       "in_reply_to": null,
@@ -76,7 +76,7 @@
       "message_id": "<AANLkTin79=oqi7FiqJny-4ri-aAHA-NSMrTquTd+Si=c@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2011-02-17T09:02:40-03:00",
+      "date": "2011-02-17T12:02:40Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 50, Issue 3",
       "subject_clean": "R-sig-Epi Digest, Vol 50, Issue 3",
       "in_reply_to": "<mailman.5.1297940402.32144.r-sig-epi@r-project.org>",
@@ -99,8 +99,8 @@
         "BXC (Bendix Carstensen)",
         "Przemysław Jura"
       ],
-      "started": "2011-02-09T21:37:45+08:00",
-      "last_reply": "2011-02-09T17:41:16+01:00",
+      "started": "2011-02-09T13:37:45Z",
+      "last_reply": "2011-02-09T16:41:16Z",
       "root_message_id": "msg-9e10fcd0982d"
     },
     {
@@ -110,8 +110,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2011-02-10T08:50:31-03:00",
-      "last_reply": "2011-02-10T08:50:31-03:00",
+      "started": "2011-02-10T11:50:31Z",
+      "last_reply": "2011-02-10T11:50:31Z",
       "root_message_id": "msg-4be58c43875b"
     },
     {
@@ -121,8 +121,8 @@
       "participants": [
         "Suman Kundu"
       ],
-      "started": "2011-02-16T06:54:26-08:00",
-      "last_reply": "2011-02-16T06:54:26-08:00",
+      "started": "2011-02-16T14:54:26Z",
+      "last_reply": "2011-02-16T14:54:26Z",
       "root_message_id": "msg-24dd91de3177"
     },
     {
@@ -132,8 +132,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2011-02-17T09:02:40-03:00",
-      "last_reply": "2011-02-17T09:02:40-03:00",
+      "started": "2011-02-17T12:02:40Z",
+      "last_reply": "2011-02-17T12:02:40Z",
       "root_message_id": "msg-be257ae3c61a"
     }
   ]

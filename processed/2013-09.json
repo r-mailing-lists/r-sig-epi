@@ -8,7 +8,7 @@
       "message_id": "<2b682ecc.208da.140e91815c7.Coremail.06dongsheng@163.com>",
       "from_name": "董忠信",
       "from_email_hash": "f11bdae15b1eda6fdaade3d2a6da68e9c01af0451244168614fd219fba872114",
-      "date": "2013-09-04T21:10:04+08:00",
+      "date": "2013-09-04T13:10:04Z",
       "subject": "[R-sig-Epi] help",
       "subject_clean": "help",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<CAFfGvyLTUX=dU+nrpdqxEttFN63eVZPenHL9HxCEC0SK2DVc6w@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2013-09-09T09:32:37-03:00",
+      "date": "2013-09-09T12:32:37Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 68, Issue 1",
       "subject_clean": "R-sig-Epi Digest, Vol 68, Issue 1",
       "in_reply_to": "<mailman.2438.1378300631.4516.r-sig-epi@r-project.org>",
@@ -42,7 +42,7 @@
       "message_id": "<34d4e36a.29e26.14108363570.Coremail.06dongsheng@163.com>",
       "from_name": "董忠信",
       "from_email_hash": "f11bdae15b1eda6fdaade3d2a6da68e9c01af0451244168614fd219fba872114",
-      "date": "2013-09-10T22:11:12+08:00",
+      "date": "2013-09-10T14:11:12Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 68, Issue 2",
       "subject_clean": "R-sig-Epi Digest, Vol 68, Issue 2",
       "in_reply_to": "<mailman.5.1378807202.6201.r-sig-epi@r-project.org>",
@@ -64,8 +64,8 @@
       "participants": [
         "董忠信"
       ],
-      "started": "2013-09-04T21:10:04+08:00",
-      "last_reply": "2013-09-04T21:10:04+08:00",
+      "started": "2013-09-04T13:10:04Z",
+      "last_reply": "2013-09-04T13:10:04Z",
       "root_message_id": "msg-744cdfcd76cf"
     },
     {
@@ -75,8 +75,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2013-09-09T09:32:37-03:00",
-      "last_reply": "2013-09-09T09:32:37-03:00",
+      "started": "2013-09-09T12:32:37Z",
+      "last_reply": "2013-09-09T12:32:37Z",
       "root_message_id": "msg-56c83c10f254"
     },
     {
@@ -86,8 +86,8 @@
       "participants": [
         "董忠信"
       ],
-      "started": "2013-09-10T22:11:12+08:00",
-      "last_reply": "2013-09-10T22:11:12+08:00",
+      "started": "2013-09-10T14:11:12Z",
+      "last_reply": "2013-09-10T14:11:12Z",
       "root_message_id": "msg-8bf61f43d6cd"
     }
   ]

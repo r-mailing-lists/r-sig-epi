@@ -136,7 +136,7 @@
       "message_id": "<CAEsSYzyffWGxX_E2HtiPrc3-keamWrXkGjJ=Ow8+aetsm+vxRw@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-04-29T17:28:36+01:00",
+      "date": "2025-04-29T16:28:36Z",
       "subject": "[R-sig-Epi] Introduction to generalised linear models using R and Rstudio (IGLM08)",
       "subject_clean": "Introduction to generalised linear models using R and Rstudio (IGLM08)",
       "in_reply_to": null,
@@ -152,7 +152,7 @@
       "message_id": "<CAEsSYzy-LL3fr7smOQrH5Wu44+E6OG4RZgrTWGp25sTcXXxNZg@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-04-29T17:29:20+01:00",
+      "date": "2025-04-29T16:29:20Z",
       "subject": "[R-sig-Epi] Introduction To Mixed Models Using R And Rstudio (IMMR09)",
       "subject_clean": "Introduction To Mixed Models Using R And Rstudio (IMMR09)",
       "in_reply_to": null,
@@ -168,7 +168,7 @@
       "message_id": "<CAEsSYzya66aK82tKLxDkKBZCwes4BYghY54_eAZzUVHe_BP9ig@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-04-30T01:58:37+01:00",
+      "date": "2025-04-30T00:58:37Z",
       "subject": "[R-sig-Epi] Visual Exploration, Analysis, and Presentation of Spatial Data using the ‘tmap’ Package (TMAP01)",
       "subject_clean": "Visual Exploration, Analysis, and Presentation of Spatial Data using the ‘tmap’ Package (TMAP01)",
       "in_reply_to": null,
@@ -184,7 +184,7 @@
       "message_id": "<CAEsSYzwamFj=Nue3RWpmYWRVF74z+h02+aK+Uxdf0k_J+d55PQ@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-04-30T01:59:28+01:00",
+      "date": "2025-04-30T00:59:28Z",
       "subject": "[R-sig-Epi] Tidyverse for Ecologists (TIDY01)",
       "subject_clean": "Tidyverse for Ecologists (TIDY01)",
       "in_reply_to": null,
@@ -204,8 +204,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-04-01T05:35:00+00:00",
-      "last_reply": "2025-04-01T05:35:00+00:00",
+      "started": "2025-04-01T05:35:00Z",
+      "last_reply": "2025-04-01T05:35:00Z",
       "root_message_id": "msg-bc126879a27c"
     },
     {
@@ -215,8 +215,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-04-02T16:20:00+00:00",
-      "last_reply": "2025-04-02T16:20:00+00:00",
+      "started": "2025-04-02T16:20:00Z",
+      "last_reply": "2025-04-02T16:20:00Z",
       "root_message_id": "msg-6bc390b9e41b"
     },
     {
@@ -226,8 +226,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-04-08T17:20:00+00:00",
-      "last_reply": "2025-04-08T17:20:00+00:00",
+      "started": "2025-04-08T17:20:00Z",
+      "last_reply": "2025-04-08T17:20:00Z",
       "root_message_id": "msg-3aa914adae47"
     },
     {
@@ -237,8 +237,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-04-13T04:50:00+00:00",
-      "last_reply": "2025-04-13T04:50:00+00:00",
+      "started": "2025-04-13T04:50:00Z",
+      "last_reply": "2025-04-13T04:50:00Z",
       "root_message_id": "msg-b60352e5ce79"
     },
     {
@@ -248,8 +248,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-04-16T19:20:00+00:00",
-      "last_reply": "2025-04-16T19:20:00+00:00",
+      "started": "2025-04-16T19:20:00Z",
+      "last_reply": "2025-04-16T19:20:00Z",
       "root_message_id": "msg-aef52e7db2e7"
     },
     {
@@ -259,8 +259,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-04-22T09:50:00+00:00",
-      "last_reply": "2025-04-22T09:50:00+00:00",
+      "started": "2025-04-22T09:50:00Z",
+      "last_reply": "2025-04-22T09:50:00Z",
       "root_message_id": "msg-92c422fd6488"
     },
     {
@@ -270,8 +270,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-04-25T02:50:00+00:00",
-      "last_reply": "2025-04-25T02:50:00+00:00",
+      "started": "2025-04-25T02:50:00Z",
+      "last_reply": "2025-04-25T02:50:00Z",
       "root_message_id": "msg-46380ac9b4ff"
     },
     {
@@ -281,8 +281,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-04-28T08:20:00+00:00",
-      "last_reply": "2025-04-28T08:20:00+00:00",
+      "started": "2025-04-28T08:20:00Z",
+      "last_reply": "2025-04-28T08:20:00Z",
       "root_message_id": "msg-1e579de406ca"
     },
     {
@@ -292,8 +292,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-04-29T17:28:36+01:00",
-      "last_reply": "2025-04-29T17:28:36+01:00",
+      "started": "2025-04-29T16:28:36Z",
+      "last_reply": "2025-04-29T16:28:36Z",
       "root_message_id": "msg-00cb4e99227e"
     },
     {
@@ -303,8 +303,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-04-29T17:29:20+01:00",
-      "last_reply": "2025-04-29T17:29:20+01:00",
+      "started": "2025-04-29T16:29:20Z",
+      "last_reply": "2025-04-29T16:29:20Z",
       "root_message_id": "msg-e15f56c8cb94"
     },
     {
@@ -314,8 +314,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-04-30T01:58:37+01:00",
-      "last_reply": "2025-04-30T01:58:37+01:00",
+      "started": "2025-04-30T00:58:37Z",
+      "last_reply": "2025-04-30T00:58:37Z",
       "root_message_id": "msg-a76ef3c992cc"
     },
     {
@@ -325,8 +325,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-04-30T01:59:28+01:00",
-      "last_reply": "2025-04-30T01:59:28+01:00",
+      "started": "2025-04-30T00:59:28Z",
+      "last_reply": "2025-04-30T00:59:28Z",
       "root_message_id": "msg-e67bcfab2042"
     }
   ]

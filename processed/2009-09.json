@@ -8,7 +8,7 @@
       "message_id": "<EB58FDAD77D2A34DAEA73D081984843D2F4728A441@KA-EXCHMBX-01.katho.local>",
       "from_name": "dieter.anseeuw",
       "from_email_hash": "f0adf0d89ad9efd7b113551ab377e201a1a800d977c3053b3273448a0872a832",
-      "date": "2009-09-11T18:47:58+02:00",
+      "date": "2009-09-11T16:47:58Z",
       "subject": "[R-sig-Epi] construction test statistic in 2x2 tables",
       "subject_clean": "construction test statistic in 2x2 tables",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "dieter.anseeuw"
       ],
-      "started": "2009-09-11T18:47:58+02:00",
-      "last_reply": "2009-09-11T18:47:58+02:00",
+      "started": "2009-09-11T16:47:58Z",
+      "last_reply": "2009-09-11T16:47:58Z",
       "root_message_id": "msg-27cb476f7818"
     }
   ]

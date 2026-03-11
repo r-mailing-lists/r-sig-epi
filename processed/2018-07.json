@@ -8,7 +8,7 @@
       "message_id": "<CANSBKeq+yAt8phnUVgguEvqoi_dY3SA9c7gubJh7RFzTQAM9ZA@mail.gmail.com>",
       "from_name": "Adam Cohen",
       "from_email_hash": "fd5df043697f481bc5d0ed6cda4c52e8765caa4b81e472f1bf3a6f3086b65515",
-      "date": "2018-07-14T13:28:30+02:00",
+      "date": "2018-07-14T11:28:30Z",
       "subject": "[R-sig-Epi] Global prevalence",
       "subject_clean": "Global prevalence",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<5b4a1ae3.1c69fb81.3a4c9.ffc9@mx.google.com>",
       "from_name": "Brecht Devleesschauwer",
       "from_email_hash": "0c580462fcfd3b7604bdf45f730de802f4728099246c8a68a8398634a9666f75",
-      "date": "2018-07-14T17:46:45+02:00",
+      "date": "2018-07-14T15:46:45Z",
       "subject": "[R-sig-Epi] Global prevalence",
       "subject_clean": "Global prevalence",
       "in_reply_to": "<CANSBKeq+yAt8phnUVgguEvqoi_dY3SA9c7gubJh7RFzTQAM9ZA@mail.gmail.com>",
@@ -42,7 +42,7 @@
       "message_id": "<ad4f5ba273316dc329e3bc45c95a2f90@prstatistics.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "a49005db234a0680e39b89fc8690e893af64f94b8230db3a917426e095842f7c",
-      "date": "2018-07-26T15:25:57+01:00",
+      "date": "2018-07-26T14:25:57Z",
       "subject": "[R-sig-Epi] STATS COURSE Time series models for ecologists",
       "subject_clean": "STATS COURSE Time series models for ecologists",
       "in_reply_to": null,
@@ -63,8 +63,8 @@
         "Adam Cohen",
         "Brecht Devleesschauwer"
       ],
-      "started": "2018-07-14T13:28:30+02:00",
-      "last_reply": "2018-07-14T17:46:45+02:00",
+      "started": "2018-07-14T11:28:30Z",
+      "last_reply": "2018-07-14T15:46:45Z",
       "root_message_id": "msg-243347788350"
     },
     {
@@ -74,8 +74,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2018-07-26T15:25:57+01:00",
-      "last_reply": "2018-07-26T15:25:57+01:00",
+      "started": "2018-07-26T14:25:57Z",
+      "last_reply": "2018-07-26T14:25:57Z",
       "root_message_id": "msg-98a4efedf628"
     }
   ]

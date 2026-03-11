@@ -40,7 +40,7 @@
       "message_id": "<1764835027.651828112@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-12-04T08:57:07+01:00",
+      "date": "2025-12-04T07:57:07Z",
       "subject": "[R-sig-Epi] INTRODUCTION TO STATISTICS IN R course",
       "subject_clean": "INTRODUCTION TO STATISTICS IN R course",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<1765463793.37991168@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-12-11T15:36:33+01:00",
+      "date": "2025-12-11T14:36:33Z",
       "subject": "[R-sig-Epi] Species Distribution and Ecological Niche Modelling in R course",
       "subject_clean": "Species Distribution and Ecological Niche Modelling in R course",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<1765972547.16795784@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-12-17T12:55:47+01:00",
+      "date": "2025-12-17T11:55:47Z",
       "subject": "[R-sig-Epi]  Developing Shiny Apps with AI course - online, 9th, 11th, and 13th of February 2026",
       "subject_clean": "Developing Shiny Apps with AI course - online, 9th, 11th, and 13th of February 2026",
       "in_reply_to": null,
@@ -140,8 +140,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-12-02T11:20:00+00:00",
-      "last_reply": "2025-12-02T11:20:00+00:00",
+      "started": "2025-12-02T11:20:00Z",
+      "last_reply": "2025-12-02T11:20:00Z",
       "root_message_id": "msg-bc3969d09142"
     },
     {
@@ -151,8 +151,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-12-03T16:01:40+00:00",
-      "last_reply": "2025-12-03T16:01:40+00:00",
+      "started": "2025-12-03T16:01:40Z",
+      "last_reply": "2025-12-03T16:01:40Z",
       "root_message_id": "msg-bea2dd57a2c0"
     },
     {
@@ -162,8 +162,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-12-04T08:57:07+01:00",
-      "last_reply": "2025-12-04T08:57:07+01:00",
+      "started": "2025-12-04T07:57:07Z",
+      "last_reply": "2025-12-04T07:57:07Z",
       "root_message_id": "msg-d43a34f662ca"
     },
     {
@@ -173,8 +173,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-12-09T11:32:57+00:00",
-      "last_reply": "2025-12-09T11:32:57+00:00",
+      "started": "2025-12-09T11:32:57Z",
+      "last_reply": "2025-12-09T11:32:57Z",
       "root_message_id": "msg-38601b22abbc"
     },
     {
@@ -184,8 +184,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-12-10T15:50:00+00:00",
-      "last_reply": "2025-12-10T15:50:00+00:00",
+      "started": "2025-12-10T15:50:00Z",
+      "last_reply": "2025-12-10T15:50:00Z",
       "root_message_id": "msg-c82a09fa2617"
     },
     {
@@ -195,8 +195,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-12-11T15:36:33+01:00",
-      "last_reply": "2025-12-11T15:36:33+01:00",
+      "started": "2025-12-11T14:36:33Z",
+      "last_reply": "2025-12-11T14:36:33Z",
       "root_message_id": "msg-98097cecb13d"
     },
     {
@@ -206,8 +206,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-12-16T16:20:00+00:00",
-      "last_reply": "2025-12-16T16:20:00+00:00",
+      "started": "2025-12-16T16:20:00Z",
+      "last_reply": "2025-12-16T16:20:00Z",
       "root_message_id": "msg-92434b49b6d2"
     },
     {
@@ -217,8 +217,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-12-17T12:55:47+01:00",
-      "last_reply": "2025-12-17T12:55:47+01:00",
+      "started": "2025-12-17T11:55:47Z",
+      "last_reply": "2025-12-17T11:55:47Z",
       "root_message_id": "msg-a46ad33d664c"
     }
   ]

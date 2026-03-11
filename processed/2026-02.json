@@ -8,7 +8,7 @@
       "message_id": "<1770037712.37711125@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2026-02-02T14:08:32+01:00",
+      "date": "2026-02-02T13:08:32Z",
       "subject": "[R-sig-Epi] Network Analysis in R – Join Our Online Course in May!",
       "subject_clean": "Network Analysis in R – Join Our Online Course in May!",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<1770651077.64025616@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2026-02-09T16:31:17+01:00",
+      "date": "2026-02-09T15:31:17Z",
       "subject": "[R-sig-Epi] Generalised Linear Models in R course",
       "subject_clean": "Generalised Linear Models in R course",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<1770826949.058115709@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2026-02-11T17:22:29+01:00",
+      "date": "2026-02-11T16:22:29Z",
       "subject": "[R-sig-Epi] Online Course: Fundamentals of Biostatistics with R (13–17 April )",
       "subject_clean": "Online Course: Fundamentals of Biostatistics with R (13–17 April )",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<1770906281.537318815@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2026-02-12T15:24:41+01:00",
+      "date": "2026-02-12T14:24:41Z",
       "subject": "[R-sig-Epi] Bayesian Causal Networks in R course",
       "subject_clean": "Bayesian Causal Networks in R course",
       "in_reply_to": null,
@@ -216,7 +216,7 @@
       "message_id": "<1771665042.757910499@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2026-02-21T10:10:42+01:00",
+      "date": "2026-02-21T09:10:42Z",
       "subject": "[R-sig-Epi] Using R as a GIS course",
       "subject_clean": "Using R as a GIS course",
       "in_reply_to": null,
@@ -280,7 +280,7 @@
       "message_id": "<1772212942.984989@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2026-02-27T18:22:22+01:00",
+      "date": "2026-02-27T17:22:22Z",
       "subject": "[R-sig-Epi] Online course: Interactive Maps with R (13–14 May)",
       "subject_clean": "Online course: Interactive Maps with R (13–14 May)",
       "in_reply_to": null,
@@ -300,8 +300,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2026-02-02T14:08:32+01:00",
-      "last_reply": "2026-02-02T14:08:32+01:00",
+      "started": "2026-02-02T13:08:32Z",
+      "last_reply": "2026-02-02T13:08:32Z",
       "root_message_id": "msg-d33dbfefe213"
     },
     {
@@ -311,8 +311,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-03T15:43:46+00:00",
-      "last_reply": "2026-02-03T15:43:46+00:00",
+      "started": "2026-02-03T15:43:46Z",
+      "last_reply": "2026-02-03T15:43:46Z",
       "root_message_id": "msg-cae03bf98cd9"
     },
     {
@@ -322,8 +322,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-06T13:54:37+00:00",
-      "last_reply": "2026-02-06T13:54:37+00:00",
+      "started": "2026-02-06T13:54:37Z",
+      "last_reply": "2026-02-06T13:54:37Z",
       "root_message_id": "msg-c543a47015a5"
     },
     {
@@ -333,8 +333,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-09T09:40:06+00:00",
-      "last_reply": "2026-02-09T09:40:06+00:00",
+      "started": "2026-02-09T09:40:06Z",
+      "last_reply": "2026-02-09T09:40:06Z",
       "root_message_id": "msg-cece5d6958db"
     },
     {
@@ -344,8 +344,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2026-02-09T16:31:17+01:00",
-      "last_reply": "2026-02-09T16:31:17+01:00",
+      "started": "2026-02-09T15:31:17Z",
+      "last_reply": "2026-02-09T15:31:17Z",
       "root_message_id": "msg-32241c23e791"
     },
     {
@@ -355,8 +355,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2026-02-10T16:20:00+00:00",
-      "last_reply": "2026-02-10T16:20:00+00:00",
+      "started": "2026-02-10T16:20:00Z",
+      "last_reply": "2026-02-10T16:20:00Z",
       "root_message_id": "msg-d87354382bcb"
     },
     {
@@ -366,8 +366,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-11T11:16:21+00:00",
-      "last_reply": "2026-02-11T11:16:21+00:00",
+      "started": "2026-02-11T11:16:21Z",
+      "last_reply": "2026-02-11T11:16:21Z",
       "root_message_id": "msg-9c2eb01357e5"
     },
     {
@@ -377,8 +377,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2026-02-11T17:22:29+01:00",
-      "last_reply": "2026-02-11T17:22:29+01:00",
+      "started": "2026-02-11T16:22:29Z",
+      "last_reply": "2026-02-11T16:22:29Z",
       "root_message_id": "msg-01d82044167a"
     },
     {
@@ -388,8 +388,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2026-02-12T15:24:41+01:00",
-      "last_reply": "2026-02-12T15:24:41+01:00",
+      "started": "2026-02-12T14:24:41Z",
+      "last_reply": "2026-02-12T14:24:41Z",
       "root_message_id": "msg-8a5c2e673f01"
     },
     {
@@ -399,8 +399,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-13T14:12:02+00:00",
-      "last_reply": "2026-02-13T14:12:02+00:00",
+      "started": "2026-02-13T14:12:02Z",
+      "last_reply": "2026-02-13T14:12:02Z",
       "root_message_id": "msg-fcc0168b63df"
     },
     {
@@ -410,8 +410,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-16T09:39:36+00:00",
-      "last_reply": "2026-02-16T09:39:36+00:00",
+      "started": "2026-02-16T09:39:36Z",
+      "last_reply": "2026-02-16T09:39:36Z",
       "root_message_id": "msg-ffc3fddbeeb6"
     },
     {
@@ -421,8 +421,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-18T11:59:04+00:00",
-      "last_reply": "2026-02-18T11:59:04+00:00",
+      "started": "2026-02-18T11:59:04Z",
+      "last_reply": "2026-02-18T11:59:04Z",
       "root_message_id": "msg-2805295c42e3"
     },
     {
@@ -432,8 +432,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-20T14:07:45+00:00",
-      "last_reply": "2026-02-20T14:07:45+00:00",
+      "started": "2026-02-20T14:07:45Z",
+      "last_reply": "2026-02-20T14:07:45Z",
       "root_message_id": "msg-8e9cfaab5514"
     },
     {
@@ -443,8 +443,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2026-02-21T10:10:42+01:00",
-      "last_reply": "2026-02-21T10:10:42+01:00",
+      "started": "2026-02-21T09:10:42Z",
+      "last_reply": "2026-02-21T09:10:42Z",
       "root_message_id": "msg-5756de263ace"
     },
     {
@@ -454,8 +454,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-23T09:26:41+00:00",
-      "last_reply": "2026-02-23T09:26:41+00:00",
+      "started": "2026-02-23T09:26:41Z",
+      "last_reply": "2026-02-23T09:26:41Z",
       "root_message_id": "msg-b4b9a26adc8d"
     },
     {
@@ -465,8 +465,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-25T11:46:08+00:00",
-      "last_reply": "2026-02-25T11:46:08+00:00",
+      "started": "2026-02-25T11:46:08Z",
+      "last_reply": "2026-02-25T11:46:08Z",
       "root_message_id": "msg-4c712fedf71e"
     },
     {
@@ -476,8 +476,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-02-27T14:08:08+00:00",
-      "last_reply": "2026-02-27T14:08:08+00:00",
+      "started": "2026-02-27T14:08:08Z",
+      "last_reply": "2026-02-27T14:08:08Z",
       "root_message_id": "msg-119266190ad9"
     },
     {
@@ -487,8 +487,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2026-02-27T18:22:22+01:00",
-      "last_reply": "2026-02-27T18:22:22+01:00",
+      "started": "2026-02-27T17:22:22Z",
+      "last_reply": "2026-02-27T17:22:22Z",
       "root_message_id": "msg-3c13f5e4f886"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<AANLkTim9bbGfw1PaiUN6eYbIJtmMeNpK3u587YxEv2Vt@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-06-15T14:13:04-03:00",
+      "date": "2010-06-15T17:13:04Z",
       "subject": "[R-sig-Epi] Correlation coefficient epi.ccc error",
       "subject_clean": "Correlation coefficient epi.ccc error",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<OFE3B30037.39D3ADC8-ONC1257744.0053C040-C1257744.0054D77B@smr.arpa.emr.it>",
       "from_name": "szauli at arpa.emr.it",
       "from_email_hash": "576ee2ee32727ee7aa75587faafe22a8ebfb760842db9e0f0bd8b035eb190990",
-      "date": "2010-06-16T17:26:30+02:00",
+      "date": "2010-06-16T15:26:30Z",
       "subject": "[R-sig-Epi] Multiple forest plot",
       "subject_clean": "Multiple forest plot",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<AANLkTilNHwGl7q5OGyve8tCFkUd2LhueX5ClyK5oErxG@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-06-17T09:51:12-03:00",
+      "date": "2010-06-17T12:51:12Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 42, Issue 2",
       "subject_clean": "R-sig-Epi Digest, Vol 42, Issue 2",
       "in_reply_to": "<mailman.3.1276768802.23477.r-sig-epi@stat.math.ethz.ch>",
@@ -58,7 +58,7 @@
       "message_id": "<AANLkTilaBHnSCUwj-yq7tSzagQxhZDOufEzpbDCFfcty@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-06-23T18:58:21-03:00",
+      "date": "2010-06-23T21:58:21Z",
       "subject": "[R-sig-Epi] epicalc::kap error",
       "subject_clean": "epicalc::kap error",
       "in_reply_to": null,
@@ -74,7 +74,7 @@
       "message_id": "<AANLkTikDKxeSMvV8l-dttY7pnVCedsgm953y0AcZlExk@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-06-24T16:17:33-03:00",
+      "date": "2010-06-24T19:17:33Z",
       "subject": "[R-sig-Epi] Merging and updating data frames",
       "subject_clean": "Merging and updating data frames",
       "in_reply_to": null,
@@ -90,7 +90,7 @@
       "message_id": "<AANLkTinROMkKvCNQCOFlV1McomihVMKMUDQEQL5pr8Z4@mail.gmail.com>",
       "from_name": "Aidan Findlater",
       "from_email_hash": "60f5abdbe8642b907e5a1190a9971f418e54a71a8379cf613a987cec26d23cd4",
-      "date": "2010-06-24T16:10:28-04:00",
+      "date": "2010-06-24T20:10:28Z",
       "subject": "[R-sig-Epi] Merging and updating data frames",
       "subject_clean": "Merging and updating data frames",
       "in_reply_to": "<AANLkTikDKxeSMvV8l-dttY7pnVCedsgm953y0AcZlExk@mail.gmail.com>",
@@ -108,7 +108,7 @@
       "message_id": "<SNT128-W21E8DD8FD6DED6FFE4A531A6CA0@phx.gbl>",
       "from_name": "Pryseley Assam",
       "from_email_hash": "885d17f6da0b3ba3382635fb66bfb74339b24121f30483dc0731d77fd3cdeb57",
-      "date": "2010-06-28T17:48:20+08:00",
+      "date": "2010-06-28T09:48:20Z",
       "subject": "[R-sig-Epi] Multiple Treatments Meta-analysis (MTM)",
       "subject_clean": "Multiple Treatments Meta-analysis (MTM)",
       "in_reply_to": null,
@@ -128,8 +128,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2010-06-15T14:13:04-03:00",
-      "last_reply": "2010-06-15T14:13:04-03:00",
+      "started": "2010-06-15T17:13:04Z",
+      "last_reply": "2010-06-15T17:13:04Z",
       "root_message_id": "msg-5efca06f1cb8"
     },
     {
@@ -139,8 +139,8 @@
       "participants": [
         "szauli at arpa.emr.it"
       ],
-      "started": "2010-06-16T17:26:30+02:00",
-      "last_reply": "2010-06-16T17:26:30+02:00",
+      "started": "2010-06-16T15:26:30Z",
+      "last_reply": "2010-06-16T15:26:30Z",
       "root_message_id": "msg-6ffa622668ce"
     },
     {
@@ -150,8 +150,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2010-06-17T09:51:12-03:00",
-      "last_reply": "2010-06-17T09:51:12-03:00",
+      "started": "2010-06-17T12:51:12Z",
+      "last_reply": "2010-06-17T12:51:12Z",
       "root_message_id": "msg-60894b54043d"
     },
     {
@@ -161,8 +161,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2010-06-23T18:58:21-03:00",
-      "last_reply": "2010-06-23T18:58:21-03:00",
+      "started": "2010-06-23T21:58:21Z",
+      "last_reply": "2010-06-23T21:58:21Z",
       "root_message_id": "msg-360cadf5f2cd"
     },
     {
@@ -173,8 +173,8 @@
         "Aidan Findlater",
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2010-06-24T16:17:33-03:00",
-      "last_reply": "2010-06-24T16:10:28-04:00",
+      "started": "2010-06-24T19:17:33Z",
+      "last_reply": "2010-06-24T20:10:28Z",
       "root_message_id": "msg-5c60e8c3d793"
     },
     {
@@ -184,8 +184,8 @@
       "participants": [
         "Pryseley Assam"
       ],
-      "started": "2010-06-28T17:48:20+08:00",
-      "last_reply": "2010-06-28T17:48:20+08:00",
+      "started": "2010-06-28T09:48:20Z",
+      "last_reply": "2010-06-28T09:48:20Z",
       "root_message_id": "msg-ee87fc1791a4"
     }
   ]

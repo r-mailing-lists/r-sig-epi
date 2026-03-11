@@ -24,7 +24,7 @@
       "message_id": "<2d11366b0704111219o2e8e40f0sab3bd6ae82e56be7@mail.gmail.com>",
       "from_name": "Benny Wong",
       "from_email_hash": "91d6d6f05b49398f71cb43ef25dfc20a5b4df4f5c49a909d4d54447c4fab7099",
-      "date": "2007-04-11T15:19:48-04:00",
+      "date": "2007-04-11T19:19:48Z",
       "subject": "[R-sig-Epi] Question on ridge regression with R",
       "subject_clean": "Question on ridge regression with R",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Bonn K. Shalf"
       ],
-      "started": "2007-04-06T18:01:35+00:00",
-      "last_reply": "2007-04-06T18:01:35+00:00",
+      "started": "2007-04-06T18:01:35Z",
+      "last_reply": "2007-04-06T18:01:35Z",
       "root_message_id": "msg-770982b517b5"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Benny Wong"
       ],
-      "started": "2007-04-11T15:19:48-04:00",
-      "last_reply": "2007-04-11T15:19:48-04:00",
+      "started": "2007-04-11T19:19:48Z",
+      "last_reply": "2007-04-11T19:19:48Z",
       "root_message_id": "msg-3a6aaa34b653"
     }
   ]

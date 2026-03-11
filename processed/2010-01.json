@@ -8,7 +8,7 @@
       "message_id": "<AB98DA99-7D73-4E70-947C-72148B587E7D@aol.com>",
       "from_name": "Stefan Zastrow",
       "from_email_hash": "6e5f408de013cff3ca342cc3de99897c0ba3dd85825757c2be376039e02a2f62",
-      "date": "2010-01-23T23:52:49+01:00",
+      "date": "2010-01-23T22:52:49Z",
       "subject": "[R-sig-Epi] val.surv function in Design library",
       "subject_clean": "val.surv function in Design library",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<a37cfb5a1001250740x26309b8fgeb0d317d106710e1@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-01-25T12:40:15-03:00",
+      "date": "2010-01-25T15:40:15Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 38, Issue 1",
       "subject_clean": "R-sig-Epi Digest, Vol 38, Issue 1",
       "in_reply_to": "<mailman.5.1264330802.22586.r-sig-epi@stat.math.ethz.ch>",
@@ -42,7 +42,7 @@
       "message_id": "<124584AFB3A4D449834B67071ACCD55501A7D9C7@scomp0040.wurnet.nl>",
       "from_name": "Lu, Kevin",
       "from_email_hash": "0a79678e7249a2c09899085032fab95965e0ee55ebc92d8ad4c58ad867e51e24",
-      "date": "2010-01-27T09:25:05+01:00",
+      "date": "2010-01-27T08:25:05Z",
       "subject": "[R-sig-Epi] meta-analysis",
       "subject_clean": "meta-analysis",
       "in_reply_to": null,
@@ -58,7 +58,7 @@
       "message_id": "<077E31A57DA26E46AB0D493C9966AC7305C6052B09@UM-MAIL4112.unimaas.nl>",
       "from_name": "Viechtbauer Wolfgang (STAT)",
       "from_email_hash": "1411effdd11d99469346522b4e388f1cc37b51dbc96472fde793233862e92e6c",
-      "date": "2010-01-27T10:43:05+01:00",
+      "date": "2010-01-27T09:43:05Z",
       "subject": "[R-sig-Epi] meta-analysis",
       "subject_clean": "meta-analysis",
       "in_reply_to": "<124584AFB3A4D449834B67071ACCD55501A7D9C7@scomp0040.wurnet.nl>",
@@ -74,7 +74,7 @@
       "message_id": "<a37cfb5a1001270459m4641556cj555de17ecd3fffd3@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-01-27T09:59:41-03:00",
+      "date": "2010-01-27T12:59:41Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 38, Issue 3",
       "subject_clean": "R-sig-Epi Digest, Vol 38, Issue 3",
       "in_reply_to": "<mailman.3.1264590002.32090.r-sig-epi@stat.math.ethz.ch>",
@@ -96,8 +96,8 @@
       "participants": [
         "Stefan Zastrow"
       ],
-      "started": "2010-01-23T23:52:49+01:00",
-      "last_reply": "2010-01-23T23:52:49+01:00",
+      "started": "2010-01-23T22:52:49Z",
+      "last_reply": "2010-01-23T22:52:49Z",
       "root_message_id": "msg-5718b1e5c000"
     },
     {
@@ -107,8 +107,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2010-01-25T12:40:15-03:00",
-      "last_reply": "2010-01-25T12:40:15-03:00",
+      "started": "2010-01-25T15:40:15Z",
+      "last_reply": "2010-01-25T15:40:15Z",
       "root_message_id": "msg-ed5e8f238d0f"
     },
     {
@@ -119,8 +119,8 @@
         "Lu, Kevin",
         "Viechtbauer Wolfgang (STAT)"
       ],
-      "started": "2010-01-27T09:25:05+01:00",
-      "last_reply": "2010-01-27T10:43:05+01:00",
+      "started": "2010-01-27T08:25:05Z",
+      "last_reply": "2010-01-27T09:43:05Z",
       "root_message_id": "msg-5d87e5cfec91"
     },
     {
@@ -130,8 +130,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2010-01-27T09:59:41-03:00",
-      "last_reply": "2010-01-27T09:59:41-03:00",
+      "started": "2010-01-27T12:59:41Z",
+      "last_reply": "2010-01-27T12:59:41Z",
       "root_message_id": "msg-88f82d2f9f4d"
     }
   ]

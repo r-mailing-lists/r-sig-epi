@@ -72,7 +72,7 @@
       "message_id": "<1757948577.14524000@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-09-15T17:02:57+02:00",
+      "date": "2025-09-15T15:02:57Z",
       "subject": "[R-sig-Epi] online course: Generalised Additive Models in R - 8–11 December",
       "subject_clean": "online course: Generalised Additive Models in R - 8–11 December",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<1758045179.20257423@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-09-16T19:52:59+02:00",
+      "date": "2025-09-16T17:52:59Z",
       "subject": "[R-sig-Epi] Applied Bayesian Modelling with R-INLA: A Hands-On Introduction course - online, 27-31 October",
       "subject_clean": "Applied Bayesian Modelling with R-INLA: A Hands-On Introduction course - online, 27-31 October",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<1758206487.034122372@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-09-18T16:41:27+02:00",
+      "date": "2025-09-18T14:41:27Z",
       "subject": "[R-sig-Epi] Species Distribution Modeling with Bayesian Statistics course",
       "subject_clean": "Species Distribution Modeling with Bayesian Statistics course",
       "in_reply_to": null,
@@ -152,7 +152,7 @@
       "message_id": "<1758624667.189429816@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-09-23T12:51:07+02:00",
+      "date": "2025-09-23T10:51:07Z",
       "subject": "[R-sig-Epi] Last Seats Available – Introduction to Git and GitHub (13–14 October)",
       "subject_clean": "Last Seats Available – Introduction to Git and GitHub (13–14 October)",
       "in_reply_to": null,
@@ -220,8 +220,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-09-02T09:20:00+00:00",
-      "last_reply": "2025-09-02T09:20:00+00:00",
+      "started": "2025-09-02T09:20:00Z",
+      "last_reply": "2025-09-02T09:20:00Z",
       "root_message_id": "msg-94ce9967e901"
     },
     {
@@ -231,8 +231,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-09-06T06:40:35+00:00",
-      "last_reply": "2025-09-06T06:40:35+00:00",
+      "started": "2025-09-06T06:40:35Z",
+      "last_reply": "2025-09-06T06:40:35Z",
       "root_message_id": "msg-d05b4df9c3eb"
     },
     {
@@ -242,8 +242,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-09-09T08:50:00+00:00",
-      "last_reply": "2025-09-09T08:50:00+00:00",
+      "started": "2025-09-09T08:50:00Z",
+      "last_reply": "2025-09-09T08:50:00Z",
       "root_message_id": "msg-a5f5692cad24"
     },
     {
@@ -253,8 +253,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-09-10T16:50:00+00:00",
-      "last_reply": "2025-09-10T16:50:00+00:00",
+      "started": "2025-09-10T16:50:00Z",
+      "last_reply": "2025-09-10T16:50:00Z",
       "root_message_id": "msg-c4a7f15cb7d4"
     },
     {
@@ -264,8 +264,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-09-15T17:02:57+02:00",
-      "last_reply": "2025-09-15T17:02:57+02:00",
+      "started": "2025-09-15T15:02:57Z",
+      "last_reply": "2025-09-15T15:02:57Z",
       "root_message_id": "msg-3a4330e7f759"
     },
     {
@@ -275,8 +275,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-09-16T08:20:00+00:00",
-      "last_reply": "2025-09-16T08:20:00+00:00",
+      "started": "2025-09-16T08:20:00Z",
+      "last_reply": "2025-09-16T08:20:00Z",
       "root_message_id": "msg-16ab605dc1c1"
     },
     {
@@ -286,8 +286,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-09-16T16:50:00+00:00",
-      "last_reply": "2025-09-16T16:50:00+00:00",
+      "started": "2025-09-16T16:50:00Z",
+      "last_reply": "2025-09-16T16:50:00Z",
       "root_message_id": "msg-205def8d56e9"
     },
     {
@@ -297,8 +297,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-09-16T19:52:59+02:00",
-      "last_reply": "2025-09-16T19:52:59+02:00",
+      "started": "2025-09-16T17:52:59Z",
+      "last_reply": "2025-09-16T17:52:59Z",
       "root_message_id": "msg-c509674d15a1"
     },
     {
@@ -308,8 +308,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-09-18T16:41:27+02:00",
-      "last_reply": "2025-09-18T16:41:27+02:00",
+      "started": "2025-09-18T14:41:27Z",
+      "last_reply": "2025-09-18T14:41:27Z",
       "root_message_id": "msg-e96e79ecef87"
     },
     {
@@ -319,8 +319,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-09-23T12:51:07+02:00",
-      "last_reply": "2025-09-23T12:51:07+02:00",
+      "started": "2025-09-23T10:51:07Z",
+      "last_reply": "2025-09-23T10:51:07Z",
       "root_message_id": "msg-a0438890c0d5"
     },
     {
@@ -330,8 +330,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-09-23T17:20:00+00:00",
-      "last_reply": "2025-09-23T17:20:00+00:00",
+      "started": "2025-09-23T17:20:00Z",
+      "last_reply": "2025-09-23T17:20:00Z",
       "root_message_id": "msg-85f96e6c2359"
     },
     {
@@ -341,8 +341,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-09-25T17:20:00+00:00",
-      "last_reply": "2025-09-25T17:20:00+00:00",
+      "started": "2025-09-25T17:20:00Z",
+      "last_reply": "2025-09-25T17:20:00Z",
       "root_message_id": "msg-02f8ba742599"
     },
     {
@@ -352,8 +352,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-09-30T17:50:00+00:00",
-      "last_reply": "2025-09-30T17:50:00+00:00",
+      "started": "2025-09-30T17:50:00Z",
+      "last_reply": "2025-09-30T17:50:00Z",
       "root_message_id": "msg-00e57804fa83"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<CANkV+29SFX4AMrhdWOwu1y4EU2SV8+OhqHPw=wwUNyBDg+bQFw@mail.gmail.com>",
       "from_name": "Josh Rosen",
       "from_email_hash": "24ae85d7d54b1aa302005d1ae4d9943eb220ab21cc64fb9f6b5585552c98007f",
-      "date": "2015-11-06T08:15:05-05:00",
+      "date": "2015-11-06T13:15:05Z",
       "subject": "[R-sig-Epi] Relative Survival in R - Getting 5 year and Median Survival",
       "subject_clean": "Relative Survival in R - Getting 5 year and Median Survival",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<563DA9BC.5030203@gmail.com>",
       "from_name": "Joonas Miettinen",
       "from_email_hash": "04d0a3fa1983e8571faae587f59e580b2186ce69325eac5dbdbac1b77dae1cf2",
-      "date": "2015-11-07T09:35:24+02:00",
+      "date": "2015-11-07T07:35:24Z",
       "subject": "[R-sig-Epi] Relative Survival in R - Getting 5 year and Median Survival",
       "subject_clean": "Relative Survival in R - Getting 5 year and Median Survival",
       "in_reply_to": "<CANkV+29SFX4AMrhdWOwu1y4EU2SV8+OhqHPw=wwUNyBDg+bQFw@mail.gmail.com>",
@@ -47,8 +47,8 @@
         "Joonas Miettinen",
         "Josh Rosen"
       ],
-      "started": "2015-11-06T08:15:05-05:00",
-      "last_reply": "2015-11-07T09:35:24+02:00",
+      "started": "2015-11-06T13:15:05Z",
+      "last_reply": "2015-11-07T07:35:24Z",
       "root_message_id": "msg-02c7dc69d2df"
     }
   ]

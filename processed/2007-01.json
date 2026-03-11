@@ -8,7 +8,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC80835039A70D2@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2007-01-08T16:07:00+01:00",
+      "date": "2007-01-08T15:07:00Z",
       "subject": "[R-sig-Epi] Course announcement: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
       "subject_clean": "Course announcement: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "BXC (Bendix Carstensen)"
       ],
-      "started": "2007-01-08T16:07:00+01:00",
-      "last_reply": "2007-01-08T16:07:00+01:00",
+      "started": "2007-01-08T15:07:00Z",
+      "last_reply": "2007-01-08T15:07:00Z",
       "root_message_id": "msg-7fe420d821f2"
     }
   ]

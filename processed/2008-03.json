@@ -8,7 +8,7 @@
       "message_id": "<a37cfb5a0803030353v384c7da8w6043ce678b176235@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2008-03-03T08:53:05-03:00",
+      "date": "2008-03-03T11:53:05Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 23, Issue 1 - Estimating CI for sensitivity and specificity",
       "subject_clean": "R-sig-Epi Digest, Vol 23, Issue 1 - Estimating CI for sensitivity and specificity",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<07E228A5BE53C24CAD490193A7381BBBF2AD02@LP-EXCHVS07.CO.IHC.COM>",
       "from_name": "Greg Snow",
       "from_email_hash": "d2f9bb4886b25a9f732759fe05a19061c499befbba553fe79bba4cc9f00cec28",
-      "date": "2008-03-03T14:07:29-07:00",
+      "date": "2008-03-03T21:07:29Z",
       "subject": "[R-sig-Epi] need help in calculating confidence intervals forsensitivity, specificity, PPV & NPV",
       "subject_clean": "need help in calculating confidence intervals forsensitivity, specificity, PPV & NPV",
       "in_reply_to": "<708592.65199.qm@web52104.mail.re2.yahoo.com>",
@@ -42,7 +42,7 @@
       "message_id": "<002101c87d87$c4057c90$b5ac7b82@massey.ac.nz>",
       "from_name": "Mark Stevenson",
       "from_email_hash": "c4c9aa6b643877cb272d6571958870fc6f1cc820cb28a3597b42f3fa83a584c7",
-      "date": "2008-03-04T12:39:04+13:00",
+      "date": "2008-03-03T23:39:04Z",
       "subject": "[R-sig-Epi] Estimating CI for sensitivity and specificity",
       "subject_clean": "Estimating CI for sensitivity and specificity",
       "in_reply_to": null,
@@ -74,7 +74,7 @@
       "message_id": "<20080305080435.ky5wmahmk4kwoggs@cubmail.cc.columbia.edu>",
       "from_name": "dcm2104 at columbia.edu",
       "from_email_hash": "c3349bd170fd623f2b90dcc947c0fda2857425472596b19a0c3f3308b0dac716",
-      "date": "2008-03-05T08:04:35-05:00",
+      "date": "2008-03-05T13:04:35Z",
       "subject": "[R-sig-Epi] [R-sig-epi] Sensitivity, specificity, and\tpredictive values",
       "subject_clean": "Sensitivity, specificity, and\tpredictive values",
       "in_reply_to": "<1204719171.5701.25.camel@mhills-desktop>",
@@ -92,7 +92,7 @@
       "message_id": "<d5b814ab0803261118o706625eqc572fab4a3d1cf4b@mail.gmail.com>",
       "from_name": "Ajit de Silva",
       "from_email_hash": "53038f7a5972a999f462bd75f998969982838b69e3faa8dcf26d2edbbc9c8ab6",
-      "date": "2008-03-26T11:18:32-07:00",
+      "date": "2008-03-26T18:18:32Z",
       "subject": "[R-sig-Epi] R group forming on Linked In",
       "subject_clean": "R group forming on Linked In",
       "in_reply_to": null,
@@ -108,7 +108,7 @@
       "message_id": "<fe88e5391aab.1aabfe88e539@ki.se>",
       "from_name": "Henrik Kallberg",
       "from_email_hash": "fed1ed22a5f8f4a7d27e83bad22b95f3f8887d92145fc9dfdf66410c3aaa4990",
-      "date": "2008-03-28T08:08:21+01:00",
+      "date": "2008-03-28T07:08:21Z",
       "subject": "[R-sig-Epi] import data repeadeatly",
       "subject_clean": "import data repeadeatly",
       "in_reply_to": null,
@@ -124,7 +124,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC8083505983783@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2008-03-28T08:32:52+01:00",
+      "date": "2008-03-28T07:32:52Z",
       "subject": "[R-sig-Epi] import data repeadeatly",
       "subject_clean": "import data repeadeatly",
       "in_reply_to": "<fe88e5391aab.1aabfe88e539@ki.se>",
@@ -140,7 +140,7 @@
       "message_id": "<74F6D513-A4D7-4BBF-8020-57653644B80F@gmail.com>",
       "from_name": "Randy Johnson",
       "from_email_hash": "32c41942879553ba35339ece6a033361c1fc6a544b10d7a33755efd0e28cfc54",
-      "date": "2008-03-28T08:02:32-04:00",
+      "date": "2008-03-28T12:02:32Z",
       "subject": "[R-sig-Epi] import data repeadeatly",
       "subject_clean": "import data repeadeatly",
       "in_reply_to": "<fe88e5391aab.1aabfe88e539@ki.se>",
@@ -162,8 +162,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2008-03-03T08:53:05-03:00",
-      "last_reply": "2008-03-03T08:53:05-03:00",
+      "started": "2008-03-03T11:53:05Z",
+      "last_reply": "2008-03-03T11:53:05Z",
       "root_message_id": "msg-f522a8bf15b7"
     },
     {
@@ -173,8 +173,8 @@
       "participants": [
         "Greg Snow"
       ],
-      "started": "2008-03-03T14:07:29-07:00",
-      "last_reply": "2008-03-03T14:07:29-07:00",
+      "started": "2008-03-03T21:07:29Z",
+      "last_reply": "2008-03-03T21:07:29Z",
       "root_message_id": "msg-a3d271ed0052"
     },
     {
@@ -184,8 +184,8 @@
       "participants": [
         "Mark Stevenson"
       ],
-      "started": "2008-03-04T12:39:04+13:00",
-      "last_reply": "2008-03-04T12:39:04+13:00",
+      "started": "2008-03-03T23:39:04Z",
+      "last_reply": "2008-03-03T23:39:04Z",
       "root_message_id": "msg-c3797ee0b30b"
     },
     {
@@ -196,8 +196,8 @@
         "Michael Hills",
         "dcm2104 at columbia.edu"
       ],
-      "started": "2008-03-05T12:12:51+00:00",
-      "last_reply": "2008-03-05T08:04:35-05:00",
+      "started": "2008-03-05T12:12:51Z",
+      "last_reply": "2008-03-05T13:04:35Z",
       "root_message_id": "msg-fa0c3bdcd2c6"
     },
     {
@@ -207,8 +207,8 @@
       "participants": [
         "Ajit de Silva"
       ],
-      "started": "2008-03-26T11:18:32-07:00",
-      "last_reply": "2008-03-26T11:18:32-07:00",
+      "started": "2008-03-26T18:18:32Z",
+      "last_reply": "2008-03-26T18:18:32Z",
       "root_message_id": "msg-efd64df3c17e"
     },
     {
@@ -220,8 +220,8 @@
         "Henrik Kallberg",
         "Randy Johnson"
       ],
-      "started": "2008-03-28T08:08:21+01:00",
-      "last_reply": "2008-03-28T08:02:32-04:00",
+      "started": "2008-03-28T07:08:21Z",
+      "last_reply": "2008-03-28T12:02:32Z",
       "root_message_id": "msg-1193989dc000"
     }
   ]

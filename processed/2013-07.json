@@ -8,7 +8,7 @@
       "message_id": "<51DB2440.60902@ugent.be>",
       "from_name": "Brecht Devleesschauwer",
       "from_email_hash": "65665ef466b108a98f2bbec1749a59b144a0ed1fdef3d27e78c950e0b78465b7",
-      "date": "2013-07-08T22:42:40+02:00",
+      "date": "2013-07-08T20:42:40Z",
       "subject": "[R-sig-Epi] new package 'prevalence'",
       "subject_clean": "new package 'prevalence'",
       "in_reply_to": "<51D83B88.30903@ugent.be>",
@@ -30,8 +30,8 @@
       "participants": [
         "Brecht Devleesschauwer"
       ],
-      "started": "2013-07-08T22:42:40+02:00",
-      "last_reply": "2013-07-08T22:42:40+02:00",
+      "started": "2013-07-08T20:42:40Z",
+      "last_reply": "2013-07-08T20:42:40Z",
       "root_message_id": "msg-11e788a8fc3f"
     }
   ]

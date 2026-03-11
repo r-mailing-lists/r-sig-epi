@@ -8,7 +8,7 @@
       "message_id": "<000001d2c413$814fd080$83ef7180$@vet.uth.gr>",
       "from_name": "Polychronis Kostoulas",
       "from_email_hash": "4ec24ef2e4953df2961af16e292997830ab860d5ebba608ea52de104a722774d",
-      "date": "2017-05-03T16:45:19+03:00",
+      "date": "2017-05-03T13:45:19Z",
       "subject": "[R-sig-Epi] LCMATE mailing list",
       "subject_clean": "LCMATE mailing list",
       "in_reply_to": null,
@@ -42,7 +42,7 @@
       "message_id": "<CAHF6YnkzXebMVEPTb2CD=cObZ_cE6NkEd-_n37xmO1zxtAb-gQ@mail.gmail.com>",
       "from_name": "Luca Candeloro",
       "from_email_hash": "291ffcdb2a4deb40784f3e7250bc707046d678dadd33f2d463e9c99e8c155528",
-      "date": "2017-05-11T09:11:02+02:00",
+      "date": "2017-05-11T07:11:02Z",
       "subject": "[R-sig-Epi] surv function type argument. How to set it",
       "subject_clean": "surv function type argument. How to set it",
       "in_reply_to": null,
@@ -62,8 +62,8 @@
       "participants": [
         "Polychronis Kostoulas"
       ],
-      "started": "2017-05-03T16:45:19+03:00",
-      "last_reply": "2017-05-03T16:45:19+03:00",
+      "started": "2017-05-03T13:45:19Z",
+      "last_reply": "2017-05-03T13:45:19Z",
       "root_message_id": "msg-08c63a5df91b"
     },
     {
@@ -73,8 +73,8 @@
       "participants": [
         "Miguel Angel Luque Fernandez"
       ],
-      "started": "2017-05-04T15:45:06+00:00",
-      "last_reply": "2017-05-04T15:45:06+00:00",
+      "started": "2017-05-04T15:45:06Z",
+      "last_reply": "2017-05-04T15:45:06Z",
       "root_message_id": "msg-ee01c88fc3a9"
     },
     {
@@ -84,8 +84,8 @@
       "participants": [
         "Luca Candeloro"
       ],
-      "started": "2017-05-11T09:11:02+02:00",
-      "last_reply": "2017-05-11T09:11:02+02:00",
+      "started": "2017-05-11T07:11:02Z",
+      "last_reply": "2017-05-11T07:11:02Z",
       "root_message_id": "msg-83d8b917b8fb"
     }
   ]

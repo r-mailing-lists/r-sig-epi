@@ -8,7 +8,7 @@
       "message_id": "<CAJz4ZjGTLY8_9FwGtOPbpBjx1OSnUma+y5rKiRq6W=JK78tJPg@mail.gmail.com>",
       "from_name": "Felipe Barletta",
       "from_email_hash": "9efc08f00084291f81564898335dbb9309caea35eccdff78b2e1374f3d877c31",
-      "date": "2021-04-05T15:25:20-03:00",
+      "date": "2021-04-05T18:25:20Z",
       "subject": "[R-sig-Epi] Identify medicines names",
       "subject_clean": "Identify medicines names",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<1544be7a-430c-42d7-918a-50cbd271f710@beta.fastmail.com>",
       "from_name": "Leonardo Fontenelle",
       "from_email_hash": "8e506d30f0018f58aa07f0096e9202de0de3f2144883019c94e42ac472784797",
-      "date": "2021-04-05T16:37:15-03:00",
+      "date": "2021-04-05T19:37:15Z",
       "subject": "[R-sig-Epi] Identify medicines names",
       "subject_clean": "Identify medicines names",
       "in_reply_to": "<CAJz4ZjGTLY8_9FwGtOPbpBjx1OSnUma+y5rKiRq6W=JK78tJPg@mail.gmail.com>",
@@ -42,7 +42,7 @@
       "message_id": "<CAJz4ZjEqLrFEvs-ZwgXZf_1JUTmteCg_co4aPzUQaiS7WZYrzg@mail.gmail.com>",
       "from_name": "Felipe Barletta",
       "from_email_hash": "9efc08f00084291f81564898335dbb9309caea35eccdff78b2e1374f3d877c31",
-      "date": "2021-04-06T11:41:35-03:00",
+      "date": "2021-04-06T14:41:35Z",
       "subject": "[R-sig-Epi] Fwd:  Identify medicines names",
       "subject_clean": "Identify medicines names",
       "in_reply_to": "<CAJz4ZjGBM_VugMNPi0MeAp88tiMutO76iqnKNr2CwjNz+1u1+A@mail.gmail.com>",
@@ -64,7 +64,7 @@
       "message_id": "<CAHfK2Mun+CSaw0Duvqat8hdisuKFv4wz785NK6tbUhWrvaeKcA@mail.gmail.com>",
       "from_name": "C.H.",
       "from_email_hash": "c77336a7bf2ae66ac7321bedeb13a32128220d95468bb9ff3064d2186c87628f",
-      "date": "2021-04-07T10:13:41+02:00",
+      "date": "2021-04-07T08:13:41Z",
       "subject": "[R-sig-Epi] Fwd: Identify medicines names",
       "subject_clean": "Identify medicines names",
       "in_reply_to": "<CAJz4ZjEqLrFEvs-ZwgXZf_1JUTmteCg_co4aPzUQaiS7WZYrzg@mail.gmail.com>",
@@ -92,8 +92,8 @@
         "Felipe Barletta",
         "Leonardo Fontenelle"
       ],
-      "started": "2021-04-05T15:25:20-03:00",
-      "last_reply": "2021-04-05T16:37:15-03:00",
+      "started": "2021-04-05T18:25:20Z",
+      "last_reply": "2021-04-05T19:37:15Z",
       "root_message_id": "msg-9946d3183544"
     },
     {
@@ -104,8 +104,8 @@
         "C.H.",
         "Felipe Barletta"
       ],
-      "started": "2021-04-06T11:41:35-03:00",
-      "last_reply": "2021-04-07T10:13:41+02:00",
+      "started": "2021-04-06T14:41:35Z",
+      "last_reply": "2021-04-07T08:13:41Z",
       "root_message_id": "msg-881074d71b75"
     }
   ]

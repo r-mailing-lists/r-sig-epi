@@ -8,7 +8,7 @@
       "message_id": "<CAAdhxyjCZ_wb2OwrLpvarNA1CrSeaMmh5ihZpEYk4bbfTN9P0Q@mail.gmail.com>",
       "from_name": "Gianpaolo Romeo",
       "from_email_hash": "4c7b17d4e8439a09e6e00fadb051f5d657f3819a4373a9e323f744cd00041323",
-      "date": "2014-09-04T17:03:10+02:00",
+      "date": "2014-09-04T15:03:10Z",
       "subject": "[R-sig-Epi] (mapplots): adding labels in draw.pie from a data.frame",
       "subject_clean": "(mapplots): adding labels in draw.pie from a data.frame",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Gianpaolo Romeo"
       ],
-      "started": "2014-09-04T17:03:10+02:00",
-      "last_reply": "2014-09-04T17:03:10+02:00",
+      "started": "2014-09-04T15:03:10Z",
+      "last_reply": "2014-09-04T15:03:10Z",
       "root_message_id": "msg-dbc2f077fbeb"
     }
   ]

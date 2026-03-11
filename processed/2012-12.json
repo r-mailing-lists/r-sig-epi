@@ -8,7 +8,7 @@
       "message_id": "<2732C804E2DBB04AA90A678D76FAF2CC047E0D5987@DFW1MBX02.mex07a.mlsrvr.com>",
       "from_name": "Lisa Solomon",
       "from_email_hash": "375f0ace505fbda9906f09938aec4d544cea2804675c7fc389f42f5ebed96592",
-      "date": "2012-12-13T13:16:28-06:00",
+      "date": "2012-12-13T19:16:28Z",
       "subject": "[R-sig-Epi] Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
       "subject_clean": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<650388255.6064.1355430079677.JavaMail.help@alum.mit.edu>",
       "from_name": "Lisa Solomon",
       "from_email_hash": "3b5f37573428031d0b37829ae63f3922f3346b89aa579ecc548938a78e7dc55b",
-      "date": "2012-12-13T15:21:19-05:00",
+      "date": "2012-12-13T20:21:19Z",
       "subject": "[R-sig-Epi] Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
       "subject_clean": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<1355732712.94686.YahooMailNeo@web160302.mail.bf1.yahoo.com>",
       "from_name": "Beiranvand",
       "from_email_hash": "93c4301fe76ba6bb7bee106759300e582a80c6a16647e121cec803654e87d95d",
-      "date": "2012-12-17T00:25:12-08:00",
+      "date": "2012-12-17T08:25:12Z",
       "subject": "[R-sig-Epi] (no subject)",
       "subject_clean": "(no subject)",
       "in_reply_to": null,
@@ -76,8 +76,8 @@
       "participants": [
         "Lisa Solomon"
       ],
-      "started": "2012-12-13T13:16:28-06:00",
-      "last_reply": "2012-12-13T13:16:28-06:00",
+      "started": "2012-12-13T19:16:28Z",
+      "last_reply": "2012-12-13T19:16:28Z",
       "root_message_id": "msg-d12cb2eb3c7e"
     },
     {
@@ -87,8 +87,8 @@
       "participants": [
         "Lisa Solomon"
       ],
-      "started": "2012-12-13T15:21:19-05:00",
-      "last_reply": "2012-12-13T15:21:19-05:00",
+      "started": "2012-12-13T20:21:19Z",
+      "last_reply": "2012-12-13T20:21:19Z",
       "root_message_id": "msg-cf9a9e10fbd8"
     },
     {
@@ -98,8 +98,8 @@
       "participants": [
         "Beiranvand"
       ],
-      "started": "2012-12-17T00:25:12-08:00",
-      "last_reply": "2012-12-17T00:25:12-08:00",
+      "started": "2012-12-17T08:25:12Z",
+      "last_reply": "2012-12-17T08:25:12Z",
       "root_message_id": "msg-2ae70cdcdd52"
     },
     {
@@ -109,8 +109,8 @@
       "participants": [
         "bh1 at me.com"
       ],
-      "started": "2012-12-21T00:30:57+00:00",
-      "last_reply": "2012-12-21T00:30:57+00:00",
+      "started": "2012-12-21T00:30:57Z",
+      "last_reply": "2012-12-21T00:30:57Z",
       "root_message_id": "msg-7968d8423111"
     }
   ]

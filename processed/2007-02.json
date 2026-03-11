@@ -8,7 +8,7 @@
       "message_id": "<833839.87360.qm@web58109.mail.re3.yahoo.com>",
       "from_name": "Abdus Sattar",
       "from_email_hash": "8298b2a14cebe82e6e94d100488f94bdab925930220e23bdfe11255d908527ad",
-      "date": "2007-02-01T22:19:13-08:00",
+      "date": "2007-02-02T06:19:13Z",
       "subject": "[R-sig-Epi] Fitting Weighted Estimating Equations",
       "subject_clean": "Fitting Weighted Estimating Equations",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<7.0.0.16.2.20070203100905.0480c1a0@centroin.com.br>",
       "from_name": "Bernardo Rangel tura",
       "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
-      "date": "2007-02-03T10:09:11-02:00",
+      "date": "2007-02-03T12:09:11Z",
       "subject": "[R-sig-Epi] Fitting Weighted Estimating Equations",
       "subject_clean": "Fitting Weighted Estimating Equations",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Abdus Sattar"
       ],
-      "started": "2007-02-01T22:19:13-08:00",
-      "last_reply": "2007-02-01T22:19:13-08:00",
+      "started": "2007-02-02T06:19:13Z",
+      "last_reply": "2007-02-02T06:19:13Z",
       "root_message_id": "msg-7bfe90c2354a"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Bernardo Rangel tura"
       ],
-      "started": "2007-02-03T10:09:11-02:00",
-      "last_reply": "2007-02-03T10:09:11-02:00",
+      "started": "2007-02-03T12:09:11Z",
+      "last_reply": "2007-02-03T12:09:11Z",
       "root_message_id": "msg-8b588c30b100"
     }
   ]

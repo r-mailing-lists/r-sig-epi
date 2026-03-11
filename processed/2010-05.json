@@ -8,7 +8,7 @@
       "message_id": "<E587D8FA5FB8444EBC572547CAFEA18B@inca.local>",
       "from_name": "Mirian Carvalho de Souza",
       "from_email_hash": "d8703ea58df2477812bca97eb40e05a0a70645fff9d2db4f417446d5468fc87e",
-      "date": "2010-05-19T10:10:58-03:00",
+      "date": "2010-05-19T13:10:58Z",
       "subject": "[R-sig-Epi] Age-period-cohort models for lung cancer mortality rates",
       "subject_clean": "Age-period-cohort models for lung cancer mortality rates",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<BLU0-SMTP8967192D704B2DFFC43B98A9E30@phx.gbl>",
       "from_name": "David Evans",
       "from_email_hash": "4f09f1fe1e9fa999f1580fcf26b03df5d7390565c48d92cffafc939e6b316f47",
-      "date": "2010-05-20T22:54:52+02:00",
+      "date": "2010-05-20T20:54:52Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 41, Issue 1",
       "subject_clean": "R-sig-Epi Digest, Vol 41, Issue 1",
       "in_reply_to": "<mailman.1.1274349601.23867.r-sig-epi@stat.math.ethz.ch>",
@@ -42,7 +42,7 @@
       "message_id": "<20100524145954.2c105610lembark@wrkhors.com@wrkhors.com>",
       "from_name": "Steven Lembark",
       "from_email_hash": "287e615c022ebc8d65a82c7c4dea3cc9fb16258ee9ac541a746a97fda4b7bfd3",
-      "date": "2010-05-24T14:59:54-04:00",
+      "date": "2010-05-24T18:59:54Z",
       "subject": "[R-sig-Epi] Anyone know of a good factors analysis library for R?",
       "subject_clean": "Anyone know of a good factors analysis library for R?",
       "in_reply_to": null,
@@ -58,7 +58,7 @@
       "message_id": "<4BFBE5E20200005E000083B7@frej.novia.fi>",
       "from_name": "Ralf Finne",
       "from_email_hash": "c3e1d29fe978c195eec81c164daa38ab96ae73ccc6fa197377f0ee59fc6b273a",
-      "date": "2010-05-25T14:59:46+03:00",
+      "date": "2010-05-25T11:59:46Z",
       "subject": "[R-sig-Epi] Anyone know of a good factors analysis library\tfor R?",
       "subject_clean": "Anyone know of a good factors analysis library\tfor R?",
       "in_reply_to": null,
@@ -74,7 +74,7 @@
       "message_id": "<AANLkTil32j3X3IJ1uHrOT3-ktId1WU_HzZjiK5C7Vmf3@mail.gmail.com>",
       "from_name": "Amy Mikhail",
       "from_email_hash": "497d1c084bc2f7ddae6276aad3ec733f0e41bcf3cc71503f4c3e41c9689d1545",
-      "date": "2010-05-25T16:46:17+01:00",
+      "date": "2010-05-25T15:46:17Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 41, Issue 3",
       "subject_clean": "R-sig-Epi Digest, Vol 41, Issue 3",
       "in_reply_to": "<mailman.1.1274781601.11655.r-sig-epi@stat.math.ethz.ch>",
@@ -92,7 +92,7 @@
       "message_id": "<OF042E6A67.CEF05DC4-ON8325772E.00645DBA-8325772E.00645DBD@inca.gov.br>",
       "from_name": "Mirian C Souza",
       "from_email_hash": "d8703ea58df2477812bca97eb40e05a0a70645fff9d2db4f417446d5468fc87e",
-      "date": "2010-05-25T15:16:15-03:00",
+      "date": "2010-05-25T18:16:15Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 41, Issue 1 (David Evans)",
       "subject_clean": "R-sig-Epi Digest, Vol 41, Issue 1 (David Evans)",
       "in_reply_to": null,
@@ -108,7 +108,7 @@
       "message_id": "<AANLkTilYaAijemjQtXdo8Jm1Od2m88YsRMB6r7knVNKz@mail.gmail.com>",
       "from_name": "Amy Mikhail",
       "from_email_hash": "497d1c084bc2f7ddae6276aad3ec733f0e41bcf3cc71503f4c3e41c9689d1545",
-      "date": "2010-05-25T20:48:19+01:00",
+      "date": "2010-05-25T19:48:19Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 41, Issue 3",
       "subject_clean": "R-sig-Epi Digest, Vol 41, Issue 3",
       "in_reply_to": "<5709495503360456214@unknownmsgid>",
@@ -128,7 +128,7 @@
       "message_id": "<90270E6D82E846EDBEB2DC8EC7AEE685@inca.local>",
       "from_name": "Mirian Carvalho de Souza",
       "from_email_hash": "d8703ea58df2477812bca97eb40e05a0a70645fff9d2db4f417446d5468fc87e",
-      "date": "2010-05-26T11:12:16-03:00",
+      "date": "2010-05-26T14:12:16Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 41, Issue 1 (David Evans)",
       "subject_clean": "R-sig-Epi Digest, Vol 41, Issue 1 (David Evans)",
       "in_reply_to": null,
@@ -148,8 +148,8 @@
       "participants": [
         "Mirian Carvalho de Souza"
       ],
-      "started": "2010-05-19T10:10:58-03:00",
-      "last_reply": "2010-05-19T10:10:58-03:00",
+      "started": "2010-05-19T13:10:58Z",
+      "last_reply": "2010-05-19T13:10:58Z",
       "root_message_id": "msg-d0ba4363023f"
     },
     {
@@ -159,8 +159,8 @@
       "participants": [
         "David Evans"
       ],
-      "started": "2010-05-20T22:54:52+02:00",
-      "last_reply": "2010-05-20T22:54:52+02:00",
+      "started": "2010-05-20T20:54:52Z",
+      "last_reply": "2010-05-20T20:54:52Z",
       "root_message_id": "msg-7c7431f68c84"
     },
     {
@@ -170,8 +170,8 @@
       "participants": [
         "Steven Lembark"
       ],
-      "started": "2010-05-24T14:59:54-04:00",
-      "last_reply": "2010-05-24T14:59:54-04:00",
+      "started": "2010-05-24T18:59:54Z",
+      "last_reply": "2010-05-24T18:59:54Z",
       "root_message_id": "msg-c187c9d4e8ae"
     },
     {
@@ -181,20 +181,9 @@
       "participants": [
         "Ralf Finne"
       ],
-      "started": "2010-05-25T14:59:46+03:00",
-      "last_reply": "2010-05-25T14:59:46+03:00",
+      "started": "2010-05-25T11:59:46Z",
+      "last_reply": "2010-05-25T11:59:46Z",
       "root_message_id": "msg-6b30c4ef7767"
-    },
-    {
-      "id": "thread-ba7ecf14204a",
-      "subject": "R-sig-Epi Digest, Vol 41, Issue 1 (David Evans)",
-      "message_count": 1,
-      "participants": [
-        "Mirian C Souza"
-      ],
-      "started": "2010-05-25T15:16:15-03:00",
-      "last_reply": "2010-05-25T15:16:15-03:00",
-      "root_message_id": "msg-ba7ecf14204a"
     },
     {
       "id": "thread-e66f3f32ad90",
@@ -203,9 +192,20 @@
       "participants": [
         "Amy Mikhail"
       ],
-      "started": "2010-05-25T16:46:17+01:00",
-      "last_reply": "2010-05-25T16:46:17+01:00",
+      "started": "2010-05-25T15:46:17Z",
+      "last_reply": "2010-05-25T15:46:17Z",
       "root_message_id": "msg-e66f3f32ad90"
+    },
+    {
+      "id": "thread-ba7ecf14204a",
+      "subject": "R-sig-Epi Digest, Vol 41, Issue 1 (David Evans)",
+      "message_count": 1,
+      "participants": [
+        "Mirian C Souza"
+      ],
+      "started": "2010-05-25T18:16:15Z",
+      "last_reply": "2010-05-25T18:16:15Z",
+      "root_message_id": "msg-ba7ecf14204a"
     },
     {
       "id": "thread-381d07a089ae",
@@ -214,8 +214,8 @@
       "participants": [
         "Amy Mikhail"
       ],
-      "started": "2010-05-25T20:48:19+01:00",
-      "last_reply": "2010-05-25T20:48:19+01:00",
+      "started": "2010-05-25T19:48:19Z",
+      "last_reply": "2010-05-25T19:48:19Z",
       "root_message_id": "msg-381d07a089ae"
     },
     {
@@ -225,8 +225,8 @@
       "participants": [
         "Mirian Carvalho de Souza"
       ],
-      "started": "2010-05-26T11:12:16-03:00",
-      "last_reply": "2010-05-26T11:12:16-03:00",
+      "started": "2010-05-26T14:12:16Z",
+      "last_reply": "2010-05-26T14:12:16Z",
       "root_message_id": "msg-66c8789f272c"
     }
   ]

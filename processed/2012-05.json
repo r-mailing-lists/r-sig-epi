@@ -8,7 +8,7 @@
       "message_id": "<2732C804E2DBB04AA90A678D76FAF2CC0465B00CD1@DFW1MBX02.mex07a.mlsrvr.com>",
       "from_name": "Lisa Solomon",
       "from_email_hash": "375f0ace505fbda9906f09938aec4d544cea2804675c7fc389f42f5ebed96592",
-      "date": "2012-05-02T15:23:41-05:00",
+      "date": "2012-05-02T20:23:41Z",
       "subject": "[R-sig-Epi] Epidemiology/Biostat at Analytics & Data Mining Conference in San Diego, California, May 23-25",
       "subject_clean": "Epidemiology/Biostat at Analytics & Data Mining Conference in San Diego, California, May 23-25",
       "in_reply_to": "<2732C804E2DBB04AA90A678D76FAF2CC0465B00CCF@DFW1MBX02.mex07a.mlsrvr.com>",
@@ -26,7 +26,7 @@
       "message_id": "<CAFfGvyKZX0fEWiytK-Wfh52YmE7Pu_fMtt9uRCjf3f7K37wZAg@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2012-05-03T14:58:17-03:00",
+      "date": "2012-05-03T17:58:17Z",
       "subject": "[R-sig-Epi] Gwet's AC1 Interrater reliability",
       "subject_clean": "Gwet's AC1 Interrater reliability",
       "in_reply_to": null,
@@ -42,7 +42,7 @@
       "message_id": "<20120504115857.3b09c08a@epigpbn01.ad-hugtip.local>",
       "from_name": "Griera",
       "from_email_hash": "46ddaf20e50a78ed092c7cf1771883abf91989f49c2c0d7035755c352543fb6a",
-      "date": "2012-05-04T11:58:57+02:00",
+      "date": "2012-05-04T09:58:57Z",
       "subject": "[R-sig-Epi] Gwet's AC1 Interrater reliability",
       "subject_clean": "Gwet's AC1 Interrater reliability",
       "in_reply_to": "<CAFfGvyKZX0fEWiytK-Wfh52YmE7Pu_fMtt9uRCjf3f7K37wZAg@mail.gmail.com>",
@@ -64,8 +64,8 @@
       "participants": [
         "Lisa Solomon"
       ],
-      "started": "2012-05-02T15:23:41-05:00",
-      "last_reply": "2012-05-02T15:23:41-05:00",
+      "started": "2012-05-02T20:23:41Z",
+      "last_reply": "2012-05-02T20:23:41Z",
       "root_message_id": "msg-3d004ff97482"
     },
     {
@@ -76,8 +76,8 @@
         "Griera",
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2012-05-03T14:58:17-03:00",
-      "last_reply": "2012-05-04T11:58:57+02:00",
+      "started": "2012-05-03T17:58:17Z",
+      "last_reply": "2012-05-04T09:58:57Z",
       "root_message_id": "msg-389f83601ae0"
     }
   ]

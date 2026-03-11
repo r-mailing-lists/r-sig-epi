@@ -8,7 +8,7 @@
       "message_id": "<CAPgModA+h0NZTXEpcEem+dmuA8k_EBjWgE0LWe1HWuJj_8S8=Q@mail.gmail.com>",
       "from_name": "Ashley Splain",
       "from_email_hash": "b2d33da343c6c9702dba5e1b590b7e2bbefacffd28a99157bc8d811ce64f9e0a",
-      "date": "2022-03-02T21:22:05-05:00",
+      "date": "2022-03-03T02:22:05Z",
       "subject": "[R-sig-Epi] R Survey Package - Confidence Intervals and Odds ratios",
       "subject_clean": "R Survey Package - Confidence Intervals and Odds ratios",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<D336561A-770A-4B6C-A54E-B7AFF35A4FE6@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2022-03-03T12:09:30+01:00",
+      "date": "2022-03-03T11:09:30Z",
       "subject": "[R-sig-Epi]  R Survey Package - Confidence Intervals and Odds ratios",
       "subject_clean": "R Survey Package - Confidence Intervals and Odds ratios",
       "in_reply_to": "<CAPgModA+h0NZTXEpcEem+dmuA8k_EBjWgE0LWe1HWuJj_8S8=Q@mail.gmail.com>",
@@ -47,8 +47,8 @@
         "Ashley Splain",
         "peter dalgaard"
       ],
-      "started": "2022-03-02T21:22:05-05:00",
-      "last_reply": "2022-03-03T12:09:30+01:00",
+      "started": "2022-03-03T02:22:05Z",
+      "last_reply": "2022-03-03T11:09:30Z",
       "root_message_id": "msg-e830296c53b4"
     }
   ]

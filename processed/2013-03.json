@@ -8,7 +8,7 @@
       "message_id": "<2732C804E2DBB04AA90A678D76FAF2CC19BD3D6698@DFW1MBX02.mex07a.mlsrvr.com>",
       "from_name": "Lisa Solomon",
       "from_email_hash": "375f0ace505fbda9906f09938aec4d544cea2804675c7fc389f42f5ebed96592",
-      "date": "2013-03-20T15:04:15-05:00",
+      "date": "2013-03-20T20:04:15Z",
       "subject": "[R-sig-Epi] Hands-on Webinar: Advances in Regression: Modern Ensemble and Data Mining Approaches (no charge)",
       "subject_clean": "Hands-on Webinar: Advances in Regression: Modern Ensemble and Data Mining Approaches (no charge)",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Lisa Solomon"
       ],
-      "started": "2013-03-20T15:04:15-05:00",
-      "last_reply": "2013-03-20T15:04:15-05:00",
+      "started": "2013-03-20T20:04:15Z",
+      "last_reply": "2013-03-20T20:04:15Z",
       "root_message_id": "msg-f4479af1af42"
     }
   ]

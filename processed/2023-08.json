@@ -8,7 +8,7 @@
       "message_id": "<CAEsSYzwLGquXK2vMTs9=8mFquSvusJgYrjLabdE4iYWrc6AUAA@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2023-08-29T17:18:52+01:00",
+      "date": "2023-08-29T16:18:52Z",
       "subject": "[R-sig-Epi] ONLINE COURSE – Multivariate Analysis Of Ecological Communities Using R With The VEGAN package (VGNR05) This course will be delivered live",
       "subject_clean": "ONLINE COURSE – Multivariate Analysis Of Ecological Communities Using R With The VEGAN package (VGNR05) This course will be delivered live",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2023-08-29T17:18:52+01:00",
-      "last_reply": "2023-08-29T17:18:52+01:00",
+      "started": "2023-08-29T16:18:52Z",
+      "last_reply": "2023-08-29T16:18:52Z",
       "root_message_id": "msg-85b45bd247a0"
     }
   ]

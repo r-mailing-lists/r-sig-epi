@@ -24,7 +24,7 @@
       "message_id": "<CAEsSYzyh-Ugv8n1WzfioWnOJVKXLDtRU1XiX68Mp4C6CO+kD3w@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-08-05T13:42:33+01:00",
+      "date": "2025-08-05T12:42:33Z",
       "subject": "[R-sig-Epi] Introduction to Machine Learning (IMLR04)",
       "subject_clean": "Introduction to Machine Learning (IMLR04)",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<CAEsSYzxV9gHxVQkKVFCG1Jys0XUBuxLW7H0b_-nHLPxBrThopg@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-08-05T13:56:43+01:00",
+      "date": "2025-08-05T12:56:43Z",
       "subject": "[R-sig-Epi] Bayesian Multilevel Modelling using brms for Ecologists (BMME01)",
       "subject_clean": "Bayesian Multilevel Modelling using brms for Ecologists (BMME01)",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<CAEsSYzw-eZuyWWv+VPUwWZA9v7=8s0iG=5-_GTAbUQfotPVfPg@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-08-13T18:50:54+01:00",
+      "date": "2025-08-13T17:50:54Z",
       "subject": "[R-sig-Epi] Network Analysis for Ecologists (NWAE01)",
       "subject_clean": "Network Analysis for Ecologists (NWAE01)",
       "in_reply_to": null,
@@ -152,7 +152,7 @@
       "message_id": "<1755170891.992720976@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-08-14T13:28:11+02:00",
+      "date": "2025-08-14T11:28:11Z",
       "subject": "[R-sig-Epi] online course \"Efficient Data Analysis with data.table in R\" (3 September)",
       "subject_clean": "online course \"Efficient Data Analysis with data.table in R\" (3 September)",
       "in_reply_to": null,
@@ -168,7 +168,7 @@
       "message_id": "<A522B01B-4408-4E3B-9335-48EC66D1E635@sympatico.ca>",
       "from_name": "François-Xavier H",
       "from_email_hash": "3e3dac8045c96b379b7825b6ce6d9b7f9b97af6a84ee1740ee8f13a2fa1dda10",
-      "date": "2025-08-14T14:49:35-04:00",
+      "date": "2025-08-14T18:49:35Z",
       "subject": "[R-sig-Epi] Machine Learning with ChatGPT - livestream seminar",
       "subject_clean": "Machine Learning with ChatGPT - livestream seminar",
       "in_reply_to": "<uOeTFkTPT3OXUi6FZ0ey1A@geopod-ismtpd-9>",
@@ -186,7 +186,7 @@
       "message_id": "<1755528334.261222276@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-08-18T16:45:34+02:00",
+      "date": "2025-08-18T14:45:34Z",
       "subject": "[R-sig-Epi] Spatial Statistics with R course",
       "subject_clean": "Spatial Statistics with R course",
       "in_reply_to": null,
@@ -234,7 +234,7 @@
       "message_id": "<1755940261.84576894@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-08-23T11:11:01+02:00",
+      "date": "2025-08-23T09:11:01Z",
       "subject": "[R-sig-Epi] online course: Species Distribution Modelling With Bayesian Statistics - 22-24 September",
       "subject_clean": "online course: Species Distribution Modelling With Bayesian Statistics - 22-24 September",
       "in_reply_to": null,
@@ -266,7 +266,7 @@
       "message_id": "<1756227306.673725105@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-08-26T18:55:06+02:00",
+      "date": "2025-08-26T16:55:06Z",
       "subject": "[R-sig-Epi] online course: Latent Class, Markov and Hidden Markov Models with Applications in R. 2–5 September",
       "subject_clean": "online course: Latent Class, Markov and Hidden Markov Models with Applications in R. 2–5 September",
       "in_reply_to": null,
@@ -302,8 +302,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-08-05T08:50:00+00:00",
-      "last_reply": "2025-08-05T08:50:00+00:00",
+      "started": "2025-08-05T08:50:00Z",
+      "last_reply": "2025-08-05T08:50:00Z",
       "root_message_id": "msg-c5e37857d38e"
     },
     {
@@ -313,8 +313,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-08-05T13:42:33+01:00",
-      "last_reply": "2025-08-05T13:42:33+01:00",
+      "started": "2025-08-05T12:42:33Z",
+      "last_reply": "2025-08-05T12:42:33Z",
       "root_message_id": "msg-d6f472014e48"
     },
     {
@@ -324,8 +324,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-08-05T13:56:43+01:00",
-      "last_reply": "2025-08-05T13:56:43+01:00",
+      "started": "2025-08-05T12:56:43Z",
+      "last_reply": "2025-08-05T12:56:43Z",
       "root_message_id": "msg-ed8449478fb6"
     },
     {
@@ -335,8 +335,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-08-06T08:35:00+00:00",
-      "last_reply": "2025-08-06T08:35:00+00:00",
+      "started": "2025-08-06T08:35:00Z",
+      "last_reply": "2025-08-06T08:35:00Z",
       "root_message_id": "msg-0541c947c0b9"
     },
     {
@@ -346,8 +346,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-08-07T08:20:00+00:00",
-      "last_reply": "2025-08-07T08:20:00+00:00",
+      "started": "2025-08-07T08:20:00Z",
+      "last_reply": "2025-08-07T08:20:00Z",
       "root_message_id": "msg-1cdeb2fdac32"
     },
     {
@@ -357,8 +357,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-08-11T11:18:06+00:00",
-      "last_reply": "2025-08-11T11:18:06+00:00",
+      "started": "2025-08-11T11:18:06Z",
+      "last_reply": "2025-08-11T11:18:06Z",
       "root_message_id": "msg-10698fa09d0c"
     },
     {
@@ -368,8 +368,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-08-11T17:50:00+00:00",
-      "last_reply": "2025-08-11T17:50:00+00:00",
+      "started": "2025-08-11T17:50:00Z",
+      "last_reply": "2025-08-11T17:50:00Z",
       "root_message_id": "msg-a607a7ca9ab1"
     },
     {
@@ -379,8 +379,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-08-13T18:50:54+01:00",
-      "last_reply": "2025-08-13T18:50:54+01:00",
+      "started": "2025-08-13T17:50:54Z",
+      "last_reply": "2025-08-13T17:50:54Z",
       "root_message_id": "msg-a4c4f1d9b662"
     },
     {
@@ -391,8 +391,8 @@
         "François-Xavier H",
         "Michael Zyphur"
       ],
-      "started": "2025-08-14T03:35:00+00:00",
-      "last_reply": "2025-08-14T14:49:35-04:00",
+      "started": "2025-08-14T03:35:00Z",
+      "last_reply": "2025-08-14T18:49:35Z",
       "root_message_id": "msg-642912116708"
     },
     {
@@ -402,8 +402,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-08-14T13:28:11+02:00",
-      "last_reply": "2025-08-14T13:28:11+02:00",
+      "started": "2025-08-14T11:28:11Z",
+      "last_reply": "2025-08-14T11:28:11Z",
       "root_message_id": "msg-d71126619d64"
     },
     {
@@ -413,8 +413,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-08-18T16:45:34+02:00",
-      "last_reply": "2025-08-18T16:45:34+02:00",
+      "started": "2025-08-18T14:45:34Z",
+      "last_reply": "2025-08-18T14:45:34Z",
       "root_message_id": "msg-fe8d8dad3943"
     },
     {
@@ -424,8 +424,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-08-19T12:20:00+00:00",
-      "last_reply": "2025-08-19T12:20:00+00:00",
+      "started": "2025-08-19T12:20:00Z",
+      "last_reply": "2025-08-19T12:20:00Z",
       "root_message_id": "msg-a5884a509130"
     },
     {
@@ -435,8 +435,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-08-21T09:20:00+00:00",
-      "last_reply": "2025-08-21T09:20:00+00:00",
+      "started": "2025-08-21T09:20:00Z",
+      "last_reply": "2025-08-21T09:20:00Z",
       "root_message_id": "msg-2b4ed3e74326"
     },
     {
@@ -446,8 +446,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-08-23T11:11:01+02:00",
-      "last_reply": "2025-08-23T11:11:01+02:00",
+      "started": "2025-08-23T09:11:01Z",
+      "last_reply": "2025-08-23T09:11:01Z",
       "root_message_id": "msg-d28d17842c96"
     },
     {
@@ -457,8 +457,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-08-26T08:50:00+00:00",
-      "last_reply": "2025-08-26T08:50:00+00:00",
+      "started": "2025-08-26T08:50:00Z",
+      "last_reply": "2025-08-26T08:50:00Z",
       "root_message_id": "msg-e1662384cda3"
     },
     {
@@ -468,8 +468,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-08-26T18:55:06+02:00",
-      "last_reply": "2025-08-26T18:55:06+02:00",
+      "started": "2025-08-26T16:55:06Z",
+      "last_reply": "2025-08-26T16:55:06Z",
       "root_message_id": "msg-a0e065ee7914"
     },
     {
@@ -479,8 +479,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-08-28T08:20:00+00:00",
-      "last_reply": "2025-08-28T08:20:00+00:00",
+      "started": "2025-08-28T08:20:00Z",
+      "last_reply": "2025-08-28T08:20:00Z",
       "root_message_id": "msg-3f616dab38fd"
     }
   ]

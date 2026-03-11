@@ -24,7 +24,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301F9553DCF@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2009-01-07T13:26:04+01:00",
+      "date": "2009-01-07T12:26:04Z",
       "subject": "[R-sig-Epi] Converting dates from the Persian calendar to Gregorian",
       "subject_clean": "Converting dates from the Persian calendar to Gregorian",
       "in_reply_to": "<84d389790901070339u705dab05hff2ed02d8d0a379f@mail.gmail.com>",
@@ -59,7 +59,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301F9553DF8@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2009-01-07T14:00:57+01:00",
+      "date": "2009-01-07T13:00:57Z",
       "subject": "[R-sig-Epi] Converting dates from the Persian calendar to Gregorian",
       "subject_clean": "Converting dates from the Persian calendar to Gregorian",
       "in_reply_to": "<84d389790901070444x3ac78e13o2e21653ec7f49a3f@mail.gmail.com>",
@@ -75,7 +75,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301F9553E59@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2009-01-07T14:43:03+01:00",
+      "date": "2009-01-07T13:43:03Z",
       "subject": "[R-sig-Epi] FW: Converting dates from the Persian calendar to Gregorian",
       "subject_clean": "Converting dates from the Persian calendar to Gregorian",
       "in_reply_to": null,
@@ -91,7 +91,7 @@
       "message_id": "<4964B3A1.8030500@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2009-01-07T14:52:33+01:00",
+      "date": "2009-01-07T13:52:33Z",
       "subject": "[R-sig-Epi] FW: Converting dates from the Persian calendar to Gregorian",
       "subject_clean": "Converting dates from the Persian calendar to Gregorian",
       "in_reply_to": "<2F73FA3AF524144C863B7C2C903DBC3301F9553E59@exdkmbx002.corp.novocorp.net>",
@@ -109,7 +109,7 @@
       "message_id": "<Pine.LNX.4.43.0901070900380.5680@hymn12.u.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
-      "date": "2009-01-07T09:00:38-08:00",
+      "date": "2009-01-07T17:00:38Z",
       "subject": "[R-sig-Epi] Converting dates from the Persian calendar to Gregorian",
       "subject_clean": "Converting dates from the Persian calendar to Gregorian",
       "in_reply_to": "<2F73FA3AF524144C863B7C2C903DBC3301F9553DCF@exdkmbx002.corp.novocorp.net>",
@@ -144,7 +144,7 @@
       "message_id": "<Pine.LNX.4.43.0901072321460.5530@hymn11.u.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
-      "date": "2009-01-07T23:21:46-08:00",
+      "date": "2009-01-08T07:21:46Z",
       "subject": "[R-sig-Epi] Converting dates from the Persian calendar to Gregorian",
       "subject_clean": "Converting dates from the Persian calendar to Gregorian",
       "in_reply_to": "<84d389790901071126u5c200bfdk2a6553f6985b8600@mail.gmail.com>",
@@ -185,8 +185,8 @@
         "BXC (Bendix Carstensen)",
         "Thomas Lumley"
       ],
-      "started": "2009-01-07T11:39:40+00:00",
-      "last_reply": "2009-01-08T08:32:58+00:00",
+      "started": "2009-01-07T11:39:40Z",
+      "last_reply": "2009-01-08T08:32:58Z",
       "root_message_id": "msg-e0d1c6c6fab5"
     },
     {
@@ -197,8 +197,8 @@
         "BXC (Bendix Carstensen)",
         "Peter Dalgaard"
       ],
-      "started": "2009-01-07T14:43:03+01:00",
-      "last_reply": "2009-01-07T14:52:33+01:00",
+      "started": "2009-01-07T13:43:03Z",
+      "last_reply": "2009-01-07T13:52:33Z",
       "root_message_id": "msg-d43bc945808c"
     }
   ]

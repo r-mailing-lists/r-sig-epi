@@ -24,7 +24,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC8083505409C44@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2008-01-15T18:31:20+01:00",
+      "date": "2008-01-15T17:31:20Z",
       "subject": "[R-sig-Epi] Epi 1.0.7 now out",
       "subject_clean": "Epi 1.0.7 now out",
       "in_reply_to": "<40D3930AC1C8EA469E39536E5BC80835053C6AC1@EXDKBA021.corp.novocorp.net>",
@@ -40,7 +40,7 @@
       "message_id": "<478CF20A.1090403@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2008-01-15T18:48:58+01:00",
+      "date": "2008-01-15T17:48:58Z",
       "subject": "[R-sig-Epi] Epi 1.0.7 now out",
       "subject_clean": "Epi 1.0.7 now out",
       "in_reply_to": "<40D3930AC1C8EA469E39536E5BC8083505409C44@EXDKBA021.corp.novocorp.net>",
@@ -58,7 +58,7 @@
       "message_id": "<814685.62431.qm@web38102.mail.mud.yahoo.com>",
       "from_name": "Galina Ananina",
       "from_email_hash": "1e6f7f9d05f190fb4e0174b50a4a1335166a6f50eac575c65f757f5593f40553",
-      "date": "2008-01-18T23:30:29-03:00",
+      "date": "2008-01-19T02:30:29Z",
       "subject": "[R-sig-Epi] amova",
       "subject_clean": "amova",
       "in_reply_to": null,
@@ -74,7 +74,7 @@
       "message_id": "<27433240.1201270937808.JavaMail.root@ps13>",
       "from_name": "lucabrugnaro at tiscali.it",
       "from_email_hash": "997654cba0eba50ce59c70ad672c44f54a332cd5290fc890584fe63b3f08a654",
-      "date": "2008-01-25T15:22:17+01:00",
+      "date": "2008-01-25T14:22:17Z",
       "subject": "[R-sig-Epi] compare Cox and rsf",
       "subject_clean": "compare Cox and rsf",
       "in_reply_to": null,
@@ -90,7 +90,7 @@
       "message_id": "<8a41df090801301243u233ec6f0n931ca84f040fa8c4@mail.gmail.com>",
       "from_name": "Summer Nitely",
       "from_email_hash": "b8ad61d3ca3daec2e8633785f850e5c75a302dd7a5c98a306df28e1c9cda9a20",
-      "date": "2008-01-30T13:43:28-07:00",
+      "date": "2008-01-30T20:43:28Z",
       "subject": "[R-sig-Epi] standard errors from Icens function",
       "subject_clean": "standard errors from Icens function",
       "in_reply_to": null,
@@ -110,8 +110,8 @@
       "participants": [
         "Vumani Dlamini"
       ],
-      "started": "2008-01-04T08:42:08+00:00",
-      "last_reply": "2008-01-04T08:42:08+00:00",
+      "started": "2008-01-04T08:42:08Z",
+      "last_reply": "2008-01-04T08:42:08Z",
       "root_message_id": "msg-020e858c4e8a"
     },
     {
@@ -122,8 +122,8 @@
         "BXC (Bendix Carstensen)",
         "Peter Dalgaard"
       ],
-      "started": "2008-01-15T18:31:20+01:00",
-      "last_reply": "2008-01-15T18:48:58+01:00",
+      "started": "2008-01-15T17:31:20Z",
+      "last_reply": "2008-01-15T17:48:58Z",
       "root_message_id": "msg-24eca6315186"
     },
     {
@@ -133,8 +133,8 @@
       "participants": [
         "Galina Ananina"
       ],
-      "started": "2008-01-18T23:30:29-03:00",
-      "last_reply": "2008-01-18T23:30:29-03:00",
+      "started": "2008-01-19T02:30:29Z",
+      "last_reply": "2008-01-19T02:30:29Z",
       "root_message_id": "msg-b59a54db4f94"
     },
     {
@@ -144,8 +144,8 @@
       "participants": [
         "lucabrugnaro at tiscali.it"
       ],
-      "started": "2008-01-25T15:22:17+01:00",
-      "last_reply": "2008-01-25T15:22:17+01:00",
+      "started": "2008-01-25T14:22:17Z",
+      "last_reply": "2008-01-25T14:22:17Z",
       "root_message_id": "msg-03f24df99af3"
     },
     {
@@ -155,8 +155,8 @@
       "participants": [
         "Summer Nitely"
       ],
-      "started": "2008-01-30T13:43:28-07:00",
-      "last_reply": "2008-01-30T13:43:28-07:00",
+      "started": "2008-01-30T20:43:28Z",
+      "last_reply": "2008-01-30T20:43:28Z",
       "root_message_id": "msg-0fe14420cd2d"
     }
   ]

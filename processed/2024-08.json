@@ -8,7 +8,7 @@
       "message_id": "<CAFEsyOxTB3QH6ESg4d5tW__4RDEFSbKT8Vmg1yhS4vt3ZST1kA@mail.gmail.com>",
       "from_name": "Michael Zyphur",
       "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
-      "date": "2024-08-06T17:58:23+10:00",
+      "date": "2024-08-06T07:58:23Z",
       "subject": "[R-sig-Epi] Dimension Reduction for Complex Datasets - livestream seminar",
       "subject_clean": "Dimension Reduction for Complex Datasets - livestream seminar",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<CAFEsyOx2tgqnuBC3xeP+OL4T1TUmATT1YYonaQ0NEfyHRBWN3w@mail.gmail.com>",
       "from_name": "Michael Zyphur",
       "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
-      "date": "2024-08-13T22:26:38+10:00",
+      "date": "2024-08-13T12:26:38Z",
       "subject": "[R-sig-Epi] Analysis of DNA Methylation - livestream seminar",
       "subject_clean": "Analysis of DNA Methylation - livestream seminar",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<CAFEsyOyrB-FNMCX6Us0+Q8FthcEa_soScBqvQodswz_nJgXLfg@mail.gmail.com>",
       "from_name": "Michael Zyphur",
       "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
-      "date": "2024-08-13T22:46:14+10:00",
+      "date": "2024-08-13T12:46:14Z",
       "subject": "[R-sig-Epi] Analysis of DNA Methylation - livestream seminar",
       "subject_clean": "Analysis of DNA Methylation - livestream seminar",
       "in_reply_to": "<CAFEsyOx2tgqnuBC3xeP+OL4T1TUmATT1YYonaQ0NEfyHRBWN3w@mail.gmail.com>",
@@ -74,7 +74,7 @@
       "message_id": "<300CHTkdz1664Set.1724149851@web01.cms.usa.net>",
       "from_name": "james meyer",
       "from_email_hash": "4c408922c8a2d6e5a9c71b9b9c1d0c352ef9a16dee3dd86dba523a26aab15f00",
-      "date": "2024-08-20T06:30:51-04:00",
+      "date": "2024-08-20T10:30:51Z",
       "subject": "[R-sig-Epi] Marginal Structural Models",
       "subject_clean": "Marginal Structural Models",
       "in_reply_to": null,
@@ -126,8 +126,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2024-08-06T17:58:23+10:00",
-      "last_reply": "2024-08-06T17:58:23+10:00",
+      "started": "2024-08-06T07:58:23Z",
+      "last_reply": "2024-08-06T07:58:23Z",
       "root_message_id": "msg-8c97eb60bdcc"
     },
     {
@@ -137,20 +137,9 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2024-08-13T22:26:38+10:00",
-      "last_reply": "2024-08-13T22:46:14+10:00",
+      "started": "2024-08-13T12:26:38Z",
+      "last_reply": "2024-08-13T12:46:14Z",
       "root_message_id": "msg-c44cff43eaa6"
-    },
-    {
-      "id": "thread-ebb020d81b53",
-      "subject": "Marginal Structural Models",
-      "message_count": 1,
-      "participants": [
-        "james meyer"
-      ],
-      "started": "2024-08-20T06:30:51-04:00",
-      "last_reply": "2024-08-20T06:30:51-04:00",
-      "root_message_id": "msg-ebb020d81b53"
     },
     {
       "id": "thread-1a20c01d5f14",
@@ -159,9 +148,20 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2024-08-20T08:20:01+00:00",
-      "last_reply": "2024-08-20T08:20:01+00:00",
+      "started": "2024-08-20T08:20:01Z",
+      "last_reply": "2024-08-20T08:20:01Z",
       "root_message_id": "msg-1a20c01d5f14"
+    },
+    {
+      "id": "thread-ebb020d81b53",
+      "subject": "Marginal Structural Models",
+      "message_count": 1,
+      "participants": [
+        "james meyer"
+      ],
+      "started": "2024-08-20T10:30:51Z",
+      "last_reply": "2024-08-20T10:30:51Z",
+      "root_message_id": "msg-ebb020d81b53"
     },
     {
       "id": "thread-357826f03150",
@@ -170,8 +170,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2024-08-21T08:20:00+00:00",
-      "last_reply": "2024-08-21T08:20:00+00:00",
+      "started": "2024-08-21T08:20:00Z",
+      "last_reply": "2024-08-21T08:20:00Z",
       "root_message_id": "msg-357826f03150"
     },
     {
@@ -181,8 +181,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2024-08-27T03:42:22+00:00",
-      "last_reply": "2024-08-27T03:42:22+00:00",
+      "started": "2024-08-27T03:42:22Z",
+      "last_reply": "2024-08-27T03:42:22Z",
       "root_message_id": "msg-6e41a25ff8a6"
     }
   ]

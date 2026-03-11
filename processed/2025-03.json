@@ -40,7 +40,7 @@
       "message_id": "<CAFEsyOyQBdqBDBEtFR27PtYWjKBw=8EjzR2FR6ffpVxfKspbTw@mail.gmail.com>",
       "from_name": "Michael Zyphur",
       "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
-      "date": "2025-03-16T19:35:19+11:00",
+      "date": "2025-03-16T08:35:19Z",
       "subject": "[R-sig-Epi]  Introduction to Bayesian Modelling using RStan - Free Seminar",
       "subject_clean": "Introduction to Bayesian Modelling using RStan - Free Seminar",
       "in_reply_to": "<Xewytu20RkCuIeFjLl32bQ@geopod-ismtpd-13>",
@@ -110,8 +110,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-03-05T16:50:00+00:00",
-      "last_reply": "2025-03-05T16:50:00+00:00",
+      "started": "2025-03-05T16:50:00Z",
+      "last_reply": "2025-03-05T16:50:00Z",
       "root_message_id": "msg-7a819f1b0889"
     },
     {
@@ -122,8 +122,8 @@
         "Michael Zyphur",
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-03-16T08:23:04+00:00",
-      "last_reply": "2025-03-16T19:35:19+11:00",
+      "started": "2025-03-16T08:23:04Z",
+      "last_reply": "2025-03-16T08:35:19Z",
       "root_message_id": "msg-2119b1add9dc"
     },
     {
@@ -133,8 +133,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-03-24T10:50:00+00:00",
-      "last_reply": "2025-03-24T10:50:00+00:00",
+      "started": "2025-03-24T10:50:00Z",
+      "last_reply": "2025-03-24T10:50:00Z",
       "root_message_id": "msg-84c0f2eacdd1"
     },
     {
@@ -144,8 +144,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-03-27T11:20:00+00:00",
-      "last_reply": "2025-03-27T11:20:00+00:00",
+      "started": "2025-03-27T11:20:00Z",
+      "last_reply": "2025-03-27T11:20:00Z",
       "root_message_id": "msg-19d39784edfd"
     },
     {
@@ -155,8 +155,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-03-31T11:35:00+00:00",
-      "last_reply": "2025-03-31T11:35:00+00:00",
+      "started": "2025-03-31T11:35:00Z",
+      "last_reply": "2025-03-31T11:35:00Z",
       "root_message_id": "msg-4b9f637f4f07"
     }
   ]

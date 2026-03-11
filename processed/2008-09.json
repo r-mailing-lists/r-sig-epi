@@ -8,7 +8,7 @@
       "message_id": "<a37cfb5a0809050655m48e50907g2702e2a701de94e7@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2008-09-05T10:55:23-03:00",
+      "date": "2008-09-05T13:55:23Z",
       "subject": "[R-sig-Epi] Paired by exposure",
       "subject_clean": "Paired by exposure",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<a37cfb5a0809050701t7bbdf235m4a3844791fd6c765@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2008-09-05T11:01:13-03:00",
+      "date": "2008-09-05T14:01:13Z",
       "subject": "[R-sig-Epi] Paired by exposure",
       "subject_clean": "Paired by exposure",
       "in_reply_to": "<a37cfb5a0809050655m48e50907g2702e2a701de94e7@mail.gmail.com>",
@@ -42,7 +42,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301A9DCD912@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2008-09-05T16:26:27+02:00",
+      "date": "2008-09-05T14:26:27Z",
       "subject": "[R-sig-Epi] Paired by exposure",
       "subject_clean": "Paired by exposure",
       "in_reply_to": "<a37cfb5a0809050701t7bbdf235m4a3844791fd6c765@mail.gmail.com>",
@@ -58,7 +58,7 @@
       "message_id": "<a37cfb5a0809171002q6d09577aq500f2316c05f95dd@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2008-09-17T14:02:04-03:00",
+      "date": "2008-09-17T17:02:04Z",
       "subject": "[R-sig-Epi] Turning off the next button for grpahic devices",
       "subject_clean": "Turning off the next button for grpahic devices",
       "in_reply_to": null,
@@ -79,8 +79,8 @@
         "BXC (Bendix Carstensen)",
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2008-09-05T10:55:23-03:00",
-      "last_reply": "2008-09-05T16:26:27+02:00",
+      "started": "2008-09-05T13:55:23Z",
+      "last_reply": "2008-09-05T14:26:27Z",
       "root_message_id": "msg-6853a2d2ddfd"
     },
     {
@@ -90,8 +90,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2008-09-17T14:02:04-03:00",
-      "last_reply": "2008-09-17T14:02:04-03:00",
+      "started": "2008-09-17T17:02:04Z",
+      "last_reply": "2008-09-17T17:02:04Z",
       "root_message_id": "msg-22b55901dcc6"
     }
   ]

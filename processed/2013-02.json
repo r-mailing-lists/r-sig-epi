@@ -8,7 +8,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3306399BDBD4@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2013-02-08T09:31:09+01:00",
+      "date": "2013-02-08T08:31:09Z",
       "subject": "[R-sig-Epi] Epi 1.1.44",
       "subject_clean": "Epi 1.1.44",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<1361533659.32051.18.camel@braque.iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bcc3467147417e7930b92295d6b6e1e40d825ba4817d5fd5066dc9d092f633fb",
-      "date": "2013-02-22T12:47:39+01:00",
+      "date": "2013-02-22T11:47:39Z",
       "subject": "[R-sig-Epi] Course: Statistical Practice in Epidemiology Using R",
       "subject_clean": "Course: Statistical Practice in Epidemiology Using R",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<DUB109-W1615579540BDE5C78E98E181F30@phx.gbl>",
       "from_name": "dimitris m",
       "from_email_hash": "3dabdadeeba5f3285cdc340b7ed8a1de91e2224321dceebc182f08d1e4818b40",
-      "date": "2013-02-25T17:52:21+02:00",
+      "date": "2013-02-25T15:52:21Z",
       "subject": "[R-sig-Epi] (no subject)",
       "subject_clean": "(no subject)",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC330663ACA716@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2013-02-25T21:13:00+01:00",
+      "date": "2013-02-25T20:13:00Z",
       "subject": "[R-sig-Epi] splitLexis",
       "subject_clean": "splitLexis",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<57407184.13111.1361914181022.JavaMail.help@alum.mit.edu>",
       "from_name": "Lisa Solomon",
       "from_email_hash": "3b5f37573428031d0b37829ae63f3922f3346b89aa579ecc548938a78e7dc55b",
-      "date": "2013-02-26T16:29:41-05:00",
+      "date": "2013-02-26T21:29:41Z",
       "subject": "[R-sig-Epi] Reminder: New Webinar Series, The Evolution of Regression From Classical Linear Regression to Modern Ensembles (Hands-on Component)",
       "subject_clean": "Reminder: New Webinar Series, The Evolution of Regression From Classical Linear Regression to Modern Ensembles (Hands-on Component)",
       "in_reply_to": null,
@@ -108,8 +108,8 @@
       "participants": [
         "BXC (Bendix Carstensen)"
       ],
-      "started": "2013-02-08T09:31:09+01:00",
-      "last_reply": "2013-02-08T09:31:09+01:00",
+      "started": "2013-02-08T08:31:09Z",
+      "last_reply": "2013-02-08T08:31:09Z",
       "root_message_id": "msg-4606f2348293"
     },
     {
@@ -119,8 +119,8 @@
       "participants": [
         "SPRINT"
       ],
-      "started": "2013-02-18T14:22:20+00:00",
-      "last_reply": "2013-02-18T14:22:20+00:00",
+      "started": "2013-02-18T14:22:20Z",
+      "last_reply": "2013-02-18T14:22:20Z",
       "root_message_id": "msg-e351c6ad8785"
     },
     {
@@ -130,8 +130,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2013-02-22T12:47:39+01:00",
-      "last_reply": "2013-02-22T12:47:39+01:00",
+      "started": "2013-02-22T11:47:39Z",
+      "last_reply": "2013-02-22T11:47:39Z",
       "root_message_id": "msg-15cded38fdc5"
     },
     {
@@ -141,8 +141,8 @@
       "participants": [
         "dimitris m"
       ],
-      "started": "2013-02-25T17:52:21+02:00",
-      "last_reply": "2013-02-25T17:52:21+02:00",
+      "started": "2013-02-25T15:52:21Z",
+      "last_reply": "2013-02-25T15:52:21Z",
       "root_message_id": "msg-388d059d4535"
     },
     {
@@ -152,8 +152,8 @@
       "participants": [
         "BXC (Bendix Carstensen)"
       ],
-      "started": "2013-02-25T21:13:00+01:00",
-      "last_reply": "2013-02-25T21:13:00+01:00",
+      "started": "2013-02-25T20:13:00Z",
+      "last_reply": "2013-02-25T20:13:00Z",
       "root_message_id": "msg-e74c5dd44b47"
     },
     {
@@ -163,8 +163,8 @@
       "participants": [
         "Lisa Solomon"
       ],
-      "started": "2013-02-26T16:29:41-05:00",
-      "last_reply": "2013-02-26T16:29:41-05:00",
+      "started": "2013-02-26T21:29:41Z",
+      "last_reply": "2013-02-26T21:29:41Z",
       "root_message_id": "msg-6300e8f16337"
     }
   ]

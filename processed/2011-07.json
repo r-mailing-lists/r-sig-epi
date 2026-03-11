@@ -8,7 +8,7 @@
       "message_id": "<1310062285.2480.4.camel@schmidb-TravelMate8572TG>",
       "from_name": "Markus Schmidberger",
       "from_email_hash": "d2f0c29af89685b0d2a115f440a6bfe966e204e2f4683bcb21345cfd9ac1ce2f",
-      "date": "2011-07-07T20:11:25+02:00",
+      "date": "2011-07-07T18:11:25Z",
       "subject": "[R-sig-Epi] Running R on a Computer Cluster in the Cloud - cloudnumbers.com",
       "subject_clean": "Running R on a Computer Cluster in the Cloud - cloudnumbers.com",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302FFCF1485@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2011-07-23T14:07:31+02:00",
+      "date": "2011-07-23T12:07:31Z",
       "subject": "[R-sig-Epi] Course: Age-Period-Cohort models, Lisbon, September 2011",
       "subject_clean": "Course: Age-Period-Cohort models, Lisbon, September 2011",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Markus Schmidberger"
       ],
-      "started": "2011-07-07T20:11:25+02:00",
-      "last_reply": "2011-07-07T20:11:25+02:00",
+      "started": "2011-07-07T18:11:25Z",
+      "last_reply": "2011-07-07T18:11:25Z",
       "root_message_id": "msg-4159613eeb63"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "BXC (Bendix Carstensen)"
       ],
-      "started": "2011-07-23T14:07:31+02:00",
-      "last_reply": "2011-07-23T14:07:31+02:00",
+      "started": "2011-07-23T12:07:31Z",
+      "last_reply": "2011-07-23T12:07:31Z",
       "root_message_id": "msg-8d9d93a3cd19"
     }
   ]

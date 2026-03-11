@@ -8,7 +8,7 @@
       "message_id": "<1759329541.576215796@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-10-01T16:39:01+02:00",
+      "date": "2025-10-01T14:39:01Z",
       "subject": "[R-sig-Epi] GIS in R course",
       "subject_clean": "GIS in R course",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<1760546666.243722266@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-10-15T18:44:26+02:00",
+      "date": "2025-10-15T16:44:26Z",
       "subject": "[R-sig-Epi] Spatial Statistics with R – online course, 17–21 Nov",
       "subject_clean": "Spatial Statistics with R – online course, 17–21 Nov",
       "in_reply_to": null,
@@ -184,7 +184,7 @@
       "message_id": "<1761637963.41532586@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2025-10-28T08:52:43+01:00",
+      "date": "2025-10-28T07:52:43Z",
       "subject": "[R-sig-Epi] online course: Generalised Additive Models in R - 8–11 December",
       "subject_clean": "online course: Generalised Additive Models in R - 8–11 December",
       "in_reply_to": null,
@@ -220,8 +220,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-10-01T16:39:01+02:00",
-      "last_reply": "2025-10-01T16:39:01+02:00",
+      "started": "2025-10-01T14:39:01Z",
+      "last_reply": "2025-10-01T14:39:01Z",
       "root_message_id": "msg-ce862265946b"
     },
     {
@@ -231,8 +231,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-10-02T09:50:00+00:00",
-      "last_reply": "2025-10-02T09:50:00+00:00",
+      "started": "2025-10-02T09:50:00Z",
+      "last_reply": "2025-10-02T09:50:00Z",
       "root_message_id": "msg-efa5d2768fd5"
     },
     {
@@ -242,8 +242,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-10-02T17:50:00+00:00",
-      "last_reply": "2025-10-02T17:50:00+00:00",
+      "started": "2025-10-02T17:50:00Z",
+      "last_reply": "2025-10-02T17:50:00Z",
       "root_message_id": "msg-5c42972e8129"
     },
     {
@@ -253,8 +253,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-10-07T08:20:00+00:00",
-      "last_reply": "2025-10-07T08:20:00+00:00",
+      "started": "2025-10-07T08:20:00Z",
+      "last_reply": "2025-10-07T08:20:00Z",
       "root_message_id": "msg-f88f2dbbe90b"
     },
     {
@@ -264,8 +264,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-10-07T16:50:00+00:00",
-      "last_reply": "2025-10-07T16:50:00+00:00",
+      "started": "2025-10-07T16:50:00Z",
+      "last_reply": "2025-10-07T16:50:00Z",
       "root_message_id": "msg-9e68910abfe2"
     },
     {
@@ -275,8 +275,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-10-13T08:20:00+00:00",
-      "last_reply": "2025-10-13T08:20:00+00:00",
+      "started": "2025-10-13T08:20:00Z",
+      "last_reply": "2025-10-13T08:20:00Z",
       "root_message_id": "msg-d5e725c430fa"
     },
     {
@@ -286,8 +286,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-10-14T12:20:00+00:00",
-      "last_reply": "2025-10-14T12:20:00+00:00",
+      "started": "2025-10-14T12:20:00Z",
+      "last_reply": "2025-10-14T12:20:00Z",
       "root_message_id": "msg-6de98085e7e9"
     },
     {
@@ -297,8 +297,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-10-15T18:44:26+02:00",
-      "last_reply": "2025-10-15T18:44:26+02:00",
+      "started": "2025-10-15T16:44:26Z",
+      "last_reply": "2025-10-15T16:44:26Z",
       "root_message_id": "msg-1b3de6e603af"
     },
     {
@@ -308,8 +308,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-10-21T16:20:00+00:00",
-      "last_reply": "2025-10-21T16:20:00+00:00",
+      "started": "2025-10-21T16:20:00Z",
+      "last_reply": "2025-10-21T16:20:00Z",
       "root_message_id": "msg-753a157c64bc"
     },
     {
@@ -319,8 +319,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-10-23T08:20:00+00:00",
-      "last_reply": "2025-10-23T08:20:00+00:00",
+      "started": "2025-10-23T08:20:00Z",
+      "last_reply": "2025-10-23T08:20:00Z",
       "root_message_id": "msg-b66c375578d4"
     },
     {
@@ -330,8 +330,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-10-28T01:50:00+00:00",
-      "last_reply": "2025-10-28T01:50:00+00:00",
+      "started": "2025-10-28T01:50:00Z",
+      "last_reply": "2025-10-28T01:50:00Z",
       "root_message_id": "msg-241a65dedf8e"
     },
     {
@@ -341,8 +341,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2025-10-28T08:52:43+01:00",
-      "last_reply": "2025-10-28T08:52:43+01:00",
+      "started": "2025-10-28T07:52:43Z",
+      "last_reply": "2025-10-28T07:52:43Z",
       "root_message_id": "msg-c54c1ccc2acd"
     },
     {
@@ -352,8 +352,8 @@
       "participants": [
         "Michael Zyphur"
       ],
-      "started": "2025-10-30T08:20:00+00:00",
-      "last_reply": "2025-10-30T08:20:00+00:00",
+      "started": "2025-10-30T08:20:00Z",
+      "last_reply": "2025-10-30T08:20:00Z",
       "root_message_id": "msg-5f1b1d7cdd2e"
     }
   ]

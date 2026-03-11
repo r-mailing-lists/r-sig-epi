@@ -8,7 +8,7 @@
       "message_id": "<49B7EF38.4090807@tin.it>",
       "from_name": "Enzo Coviello",
       "from_email_hash": "806df419f1a06a4cd666f12f4aa08c7ac2c67e93479d39031cc61b0936210bfe",
-      "date": "2009-03-11T18:04:56+01:00",
+      "date": "2009-03-11T17:04:56Z",
       "subject": "[R-sig-Epi] APC models",
       "subject_clean": "APC models",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC33020161F974@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2009-03-11T18:46:02+01:00",
+      "date": "2009-03-11T17:46:02Z",
       "subject": "[R-sig-Epi] APC models",
       "subject_clean": "APC models",
       "in_reply_to": "<49B7EF38.4090807@tin.it>",
@@ -45,8 +45,8 @@
         "BXC (Bendix Carstensen)",
         "Enzo Coviello"
       ],
-      "started": "2009-03-11T18:04:56+01:00",
-      "last_reply": "2009-03-11T18:46:02+01:00",
+      "started": "2009-03-11T17:04:56Z",
+      "last_reply": "2009-03-11T17:46:02Z",
       "root_message_id": "msg-82281cc769cb"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<30CCD2C98CF7EC46ABF4CD310179FD6501D6D32B5244@EXCHANGE11.Enterprise.emory.net>",
       "from_name": "Sullivan, Kevin M",
       "from_email_hash": "ba1e798886d6790a693f9cedd94ba299dda153641ee59bb60b000fbb4a8f7084",
-      "date": "2010-09-01T15:08:21-04:00",
+      "date": "2010-09-01T19:08:21Z",
       "subject": "[R-sig-Epi] R and Epi Info",
       "subject_clean": "R and Epi Info",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<AANLkTimxVhREY-50+pbWP8dkQLOzf0Qki6NDYHsMRtH+@mail.gmail.com>",
       "from_name": "Myunghwa Hwang",
       "from_email_hash": "1c688a920d189eb62c569d774b998d89db00cd625203eabdb7f5c551adc65fd9",
-      "date": "2010-09-03T16:43:50-07:00",
+      "date": "2010-09-03T23:43:50Z",
       "subject": "[R-sig-Epi] Survey participants needed ($5 for 10-15 minutes)",
       "subject_clean": "Survey participants needed ($5 for 10-15 minutes)",
       "in_reply_to": "<AANLkTinECmUC_V8c6Z3oN9UGGNp6cutX2z4ma6LWhpat@mail.gmail.com>",
@@ -42,7 +42,7 @@
       "message_id": "<AANLkTinQs+nUnozUaQi-+fNQ=UYE_RCOey0pT4_N5i34@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-09-04T00:47:20-03:00",
+      "date": "2010-09-04T03:47:20Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 45, Issue 1",
       "subject_clean": "R-sig-Epi Digest, Vol 45, Issue 1",
       "in_reply_to": "<mailman.5.1283421602.16523.r-sig-epi@stat.math.ethz.ch>",
@@ -60,7 +60,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B60EDE43@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2010-09-04T09:36:42+02:00",
+      "date": "2010-09-04T07:36:42Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 45, Issue 1",
       "subject_clean": "R-sig-Epi Digest, Vol 45, Issue 1",
       "in_reply_to": "<AANLkTinQs+nUnozUaQi-+fNQ=UYE_RCOey0pT4_N5i34@mail.gmail.com>",
@@ -83,8 +83,8 @@
       "participants": [
         "Sullivan, Kevin M"
       ],
-      "started": "2010-09-01T15:08:21-04:00",
-      "last_reply": "2010-09-01T15:08:21-04:00",
+      "started": "2010-09-01T19:08:21Z",
+      "last_reply": "2010-09-01T19:08:21Z",
       "root_message_id": "msg-2f2d029eb33d"
     },
     {
@@ -94,8 +94,8 @@
       "participants": [
         "Myunghwa Hwang"
       ],
-      "started": "2010-09-03T16:43:50-07:00",
-      "last_reply": "2010-09-03T16:43:50-07:00",
+      "started": "2010-09-03T23:43:50Z",
+      "last_reply": "2010-09-03T23:43:50Z",
       "root_message_id": "msg-03be28f26b22"
     },
     {
@@ -106,8 +106,8 @@
         "BXC (Bendix Carstensen)",
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2010-09-04T00:47:20-03:00",
-      "last_reply": "2010-09-04T09:36:42+02:00",
+      "started": "2010-09-04T03:47:20Z",
+      "last_reply": "2010-09-04T07:36:42Z",
       "root_message_id": "msg-991ee90de3a1"
     }
   ]

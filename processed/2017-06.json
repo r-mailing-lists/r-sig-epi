@@ -8,7 +8,7 @@
       "message_id": "<31f1f09569291175b7e9c4a564c6b19c@prstatistics.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "8d85adc6b153d8e80093a9f8e89d7f46369fdd650fe394f7644a0e0697798998",
-      "date": "2017-06-05T18:09:05+01:00",
+      "date": "2017-06-05T17:09:05Z",
       "subject": "[R-sig-Epi] Course on genetic data analysuis using R",
       "subject_clean": "Course on genetic data analysuis using R",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<8456ec575accf8084d220ee04ce732b8@prstatistics.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "8d85adc6b153d8e80093a9f8e89d7f46369fdd650fe394f7644a0e0697798998",
-      "date": "2017-06-21T13:49:58+01:00",
+      "date": "2017-06-21T12:49:58Z",
       "subject": "[R-sig-Epi] Course on Structural Equation Modelling (SEM) for Biologists - Jarret Byrnes and Jon Lefcheck - October 2017",
       "subject_clean": "Course on Structural Equation Modelling (SEM) for Biologists - Jarret Byrnes and Jon Lefcheck - October 2017",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2017-06-05T18:09:05+01:00",
-      "last_reply": "2017-06-05T18:09:05+01:00",
+      "started": "2017-06-05T17:09:05Z",
+      "last_reply": "2017-06-05T17:09:05Z",
       "root_message_id": "msg-80fff29c2858"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2017-06-21T13:49:58+01:00",
-      "last_reply": "2017-06-21T13:49:58+01:00",
+      "started": "2017-06-21T12:49:58Z",
+      "last_reply": "2017-06-21T12:49:58Z",
       "root_message_id": "msg-b94873205549"
     }
   ]

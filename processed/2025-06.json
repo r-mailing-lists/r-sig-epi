@@ -24,7 +24,7 @@
       "message_id": "<CAEsSYzzkZYLhZttk1WiXoNWPCWPb36ZxvKDz+rBp-zcNQ-=02Q@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-06-03T22:57:40+01:00",
+      "date": "2025-06-03T21:57:40Z",
       "subject": "[R-sig-Epi] PR stats new social media - £2000 in course prizes available",
       "subject_clean": "PR stats new social media - £2000 in course prizes available",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<724d8019-9fe5-ddfc-3fc1-5d697e3e3bfe@binghamton.edu>",
       "from_name": "Christopher W. Ryan",
       "from_email_hash": "1713305274d2c1816a07f0aa50c9577759f9e9c6829b63a608da0a2c0dd2c647",
-      "date": "2025-06-04T09:29:06-04:00",
+      "date": "2025-06-04T13:29:06Z",
       "subject": "[R-sig-Epi] advertising on R-sig-epi",
       "subject_clean": "advertising on R-sig-epi",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<CAFEsyOw2N02M_nbow-ahanmdEzJVvogsF-oNCdU86mCj1=qSSg@mail.gmail.com>",
       "from_name": "Michael Zyphur",
       "from_email_hash": "4dc29dcc548743fbd3ded062200e46898609bf4c30557092653ca3be7f834901",
-      "date": "2025-06-05T10:52:59+10:00",
+      "date": "2025-06-05T00:52:59Z",
       "subject": "[R-sig-Epi] advertising on R-sig-epi",
       "subject_clean": "advertising on R-sig-epi",
       "in_reply_to": "<724d8019-9fe5-ddfc-3fc1-5d697e3e3bfe@binghamton.edu>",
@@ -154,7 +154,7 @@
       "message_id": "<CAEsSYzzmwim1NcUA-7ANvoKm5ftUOCPRDsAPSCLBdHJEo9GyJA@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-06-19T16:57:07+01:00",
+      "date": "2025-06-19T15:57:07Z",
       "subject": "[R-sig-Epi] Applied Spatial and Spatial Temporal Modelling using R-INLA",
       "subject_clean": "Applied Spatial and Spatial Temporal Modelling using R-INLA",
       "in_reply_to": null,
@@ -170,7 +170,7 @@
       "message_id": "<731AF8DC-422E-4915-8AF3-099766F0DDCC@sympatico.ca>",
       "from_name": "François-Xavier H",
       "from_email_hash": "3e3dac8045c96b379b7825b6ce6d9b7f9b97af6a84ee1740ee8f13a2fa1dda10",
-      "date": "2025-06-22T18:19:28-04:00",
+      "date": "2025-06-22T22:19:28Z",
       "subject": "[R-sig-Epi] AI Tools for Researchers - free seminar",
       "subject_clean": "AI Tools for Researchers - free seminar",
       "in_reply_to": "<ZB7FYyinT9OUhVBuO-jeEA@geopod-ismtpd-2>",
@@ -188,7 +188,7 @@
       "message_id": "<CAEsSYzyjHTNX9NdDteg=oL61scxNHjn-82HbKwRsA9uZQ4YKFA@mail.gmail.com>",
       "from_name": "Oliver Hooker",
       "from_email_hash": "47b0bc31b285f64bb78fbbab425fc87c1d35be3b4328b6f86a320748ab327aa8",
-      "date": "2025-06-23T18:17:49+01:00",
+      "date": "2025-06-23T17:17:49Z",
       "subject": "[R-sig-Epi] PR Stats Recorded Courses - 50% off and access extended to 90 days",
       "subject_clean": "PR Stats Recorded Courses - 50% off and access extended to 90 days",
       "in_reply_to": null,
@@ -224,8 +224,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-06-03T02:35:00+00:00",
-      "last_reply": "2025-06-03T02:35:00+00:00",
+      "started": "2025-06-03T02:35:00Z",
+      "last_reply": "2025-06-03T02:35:00Z",
       "root_message_id": "msg-79718ab3b5bf"
     },
     {
@@ -235,8 +235,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-06-03T22:57:40+01:00",
-      "last_reply": "2025-06-03T22:57:40+01:00",
+      "started": "2025-06-03T21:57:40Z",
+      "last_reply": "2025-06-03T21:57:40Z",
       "root_message_id": "msg-62eff20f5be3"
     },
     {
@@ -246,8 +246,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-06-04T03:29:09+00:00",
-      "last_reply": "2025-06-04T03:29:09+00:00",
+      "started": "2025-06-04T03:29:09Z",
+      "last_reply": "2025-06-04T03:29:09Z",
       "root_message_id": "msg-6b26e11ee101"
     },
     {
@@ -258,8 +258,8 @@
         "Christopher W. Ryan",
         "Michael Zyphur"
       ],
-      "started": "2025-06-04T09:29:06-04:00",
-      "last_reply": "2025-06-05T10:52:59+10:00",
+      "started": "2025-06-04T13:29:06Z",
+      "last_reply": "2025-06-05T00:52:59Z",
       "root_message_id": "msg-df65f8dda84e"
     },
     {
@@ -269,8 +269,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-06-12T13:20:00+00:00",
-      "last_reply": "2025-06-12T13:20:00+00:00",
+      "started": "2025-06-12T13:20:00Z",
+      "last_reply": "2025-06-12T13:20:00Z",
       "root_message_id": "msg-d4613e8dd665"
     },
     {
@@ -280,8 +280,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-06-17T11:35:00+00:00",
-      "last_reply": "2025-06-17T11:35:00+00:00",
+      "started": "2025-06-17T11:35:00Z",
+      "last_reply": "2025-06-17T11:35:00Z",
       "root_message_id": "msg-2b3aad24f14c"
     },
     {
@@ -292,8 +292,8 @@
         "François-Xavier H",
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-06-19T00:50:47+00:00",
-      "last_reply": "2025-06-22T18:19:28-04:00",
+      "started": "2025-06-19T00:50:47Z",
+      "last_reply": "2025-06-22T22:19:28Z",
       "root_message_id": "msg-c7d45781cbd9"
     },
     {
@@ -303,8 +303,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-06-19T12:20:00+00:00",
-      "last_reply": "2025-06-19T12:20:00+00:00",
+      "started": "2025-06-19T12:20:00Z",
+      "last_reply": "2025-06-19T12:20:00Z",
       "root_message_id": "msg-2a06eb31f904"
     },
     {
@@ -314,8 +314,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-06-19T16:57:07+01:00",
-      "last_reply": "2025-06-19T16:57:07+01:00",
+      "started": "2025-06-19T15:57:07Z",
+      "last_reply": "2025-06-19T15:57:07Z",
       "root_message_id": "msg-6df5b14e41af"
     },
     {
@@ -325,8 +325,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2025-06-23T18:17:49+01:00",
-      "last_reply": "2025-06-23T18:17:49+01:00",
+      "started": "2025-06-23T17:17:49Z",
+      "last_reply": "2025-06-23T17:17:49Z",
       "root_message_id": "msg-12de098be978"
     },
     {
@@ -336,8 +336,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2025-06-24T17:20:00+00:00",
-      "last_reply": "2025-06-24T17:20:00+00:00",
+      "started": "2025-06-24T17:20:00Z",
+      "last_reply": "2025-06-24T17:20:00Z",
       "root_message_id": "msg-ba9bdc26a0e0"
     }
   ]

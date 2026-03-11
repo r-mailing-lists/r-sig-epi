@@ -8,7 +8,7 @@
       "message_id": "<1404469907.84106.YahooMailNeo@web161302.mail.bf1.yahoo.com>",
       "from_name": "sugi jey",
       "from_email_hash": "1ce4fd2e5b2315da4a4ea0f37fb27aedf2d9b2aac502e748b93f3a848b68b63b",
-      "date": "2014-07-04T03:31:47-07:00",
+      "date": "2014-07-04T10:31:47Z",
       "subject": "[R-sig-Epi] block randomization",
       "subject_clean": "block randomization",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<CAAOCNNYOQBXJBPJq4ENaf45pSEErm8X5ZTjpRkLmnOrBHbGDvg@mail.gmail.com>",
       "from_name": "Gustaf Rydevik",
       "from_email_hash": "807cf12599d2ac5f2143cf137873bee94f6e204231c8372fa2a653a64d8fccfe",
-      "date": "2014-07-24T16:29:14+01:00",
+      "date": "2014-07-24T15:29:14Z",
       "subject": "[R-sig-Epi] APC models with covariates",
       "subject_clean": "APC models with covariates",
       "in_reply_to": null,
@@ -62,8 +62,8 @@
       "participants": [
         "sugi jey"
       ],
-      "started": "2014-07-04T03:31:47-07:00",
-      "last_reply": "2014-07-04T03:31:47-07:00",
+      "started": "2014-07-04T10:31:47Z",
+      "last_reply": "2014-07-04T10:31:47Z",
       "root_message_id": "msg-06ae47b1e0e8"
     },
     {
@@ -74,8 +74,8 @@
         "BXC (Bendix Carstensen)",
         "Gustaf Rydevik"
       ],
-      "started": "2014-07-24T16:29:14+01:00",
-      "last_reply": "2014-07-24T17:25:47+00:00",
+      "started": "2014-07-24T15:29:14Z",
+      "last_reply": "2014-07-24T17:25:47Z",
       "root_message_id": "msg-88f0bb3d0fee"
     }
   ]

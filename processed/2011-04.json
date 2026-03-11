@@ -8,7 +8,7 @@
       "message_id": "<1303825684.13718.8.camel@braque.iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bcc3467147417e7930b92295d6b6e1e40d825ba4817d5fd5066dc9d092f633fb",
-      "date": "2011-04-26T15:48:04+02:00",
+      "date": "2011-04-26T13:48:04Z",
       "subject": "[R-sig-Epi] Course: Statistical Practice in Epidemiology with R",
       "subject_clean": "Course: Statistical Practice in Epidemiology with R",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2011-04-26T15:48:04+02:00",
-      "last_reply": "2011-04-26T15:48:04+02:00",
+      "started": "2011-04-26T13:48:04Z",
+      "last_reply": "2011-04-26T13:48:04Z",
       "root_message_id": "msg-64599b9305ce"
     }
   ]

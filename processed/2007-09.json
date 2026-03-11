@@ -8,7 +8,7 @@
       "message_id": "<ABD4B7281978174EB054798E5C2C5432544E70@mail-02.uclv.edu.cu>",
       "from_name": "Alejandro  García Rodríguez",
       "from_email_hash": "955a598930c79ffffb60b2259da43c605dbe73ed4e2d494e0e8bfa9192b61872",
-      "date": "2007-09-04T16:46:52-05:00",
+      "date": "2007-09-04T21:46:52Z",
       "subject": "[R-sig-Epi] lognormal distribution STD.error",
       "subject_clean": "lognormal distribution STD.error",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<OF99B7A90A.9FD066D8-ONC1257361.004507EC-C1257361.00469F90@var.fgov.be>",
       "from_name": "Tom Willems",
       "from_email_hash": "f97dfcbb011ef8f03ff2bad9f7594f7d644394ae0c450b975da8e99666b2c6e9",
-      "date": "2007-09-25T14:51:23+02:00",
+      "date": "2007-09-25T12:51:23Z",
       "subject": "[R-sig-Epi] Q: Transmission rate by martingale methode (dejong.R)",
       "subject_clean": "Q: Transmission rate by martingale methode (dejong.R)",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<31b34fca0709260323u5238c107ucfa98930e64b0cd9@mail.gmail.com>",
       "from_name": "Neil Shephard",
       "from_email_hash": "d313f9320200c56c058a6b0222ff357fccb1e4d431e34b4a4f0426413f67c6ad",
-      "date": "2007-09-26T11:23:29+01:00",
+      "date": "2007-09-26T10:23:29Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 17, Issue 2",
       "subject_clean": "R-sig-Epi Digest, Vol 17, Issue 2",
       "in_reply_to": "<mailman.3.1190800802.20454.r-sig-epi@stat.math.ethz.ch>",
@@ -58,7 +58,7 @@
       "message_id": "<2478.130.192.54.2.1190812806.squirrel@matmail.polito.it>",
       "from_name": "Martina Gandini",
       "from_email_hash": "39e004bf151c6c78e70f3f17f368d939b267f6e9bce310d9dcb5396df063aee5",
-      "date": "2007-09-26T15:20:06+02:00",
+      "date": "2007-09-26T13:20:06Z",
       "subject": "[R-sig-Epi] About parametric survival analysis",
       "subject_clean": "About parametric survival analysis",
       "in_reply_to": null,
@@ -74,7 +74,7 @@
       "message_id": "<46FB4E59.2070307@ucr.uu.se>",
       "from_name": "Johan Lindbäck",
       "from_email_hash": "5dd16c56c8abf299b7d5b235e9900091a20c614ff2cd339e2e051160f102e2dc",
-      "date": "2007-09-27T08:31:53+02:00",
+      "date": "2007-09-27T06:31:53Z",
       "subject": "[R-sig-Epi] Q: Transmission rate by martingale methode (dejong.R)",
       "subject_clean": "Q: Transmission rate by martingale methode (dejong.R)",
       "in_reply_to": "<OF99B7A90A.9FD066D8-ONC1257361.004507EC-C1257361.00469F90@var.fgov.be>",
@@ -92,7 +92,7 @@
       "message_id": "<604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>",
       "from_name": "Patricia Geli",
       "from_email_hash": "1bfdad8f2710bac0e8b6c2993b21775a60d7109b88520afaec8d45fdd4b2e989",
-      "date": "2007-09-27T14:42:21+02:00",
+      "date": "2007-09-27T12:42:21Z",
       "subject": "[R-sig-Epi] How to calculate the nth derivative of a function",
       "subject_clean": "How to calculate the nth derivative of a function",
       "in_reply_to": null,
@@ -108,7 +108,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC8083504C03D39@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2007-09-27T18:10:58+02:00",
+      "date": "2007-09-27T16:10:58Z",
       "subject": "[R-sig-Epi] How to calculate the nth derivative of a function",
       "subject_clean": "How to calculate the nth derivative of a function",
       "in_reply_to": "<604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>",
@@ -124,7 +124,7 @@
       "message_id": "<07E228A5BE53C24CAD490193A7381BBBC38D66@LP-EXCHVS07.CO.IHC.COM>",
       "from_name": "Greg Snow",
       "from_email_hash": "e432b243d0660ee238e83f8aa2714b750d4574c97597be8ee6eb021bf26ebc5c",
-      "date": "2007-09-27T11:19:20-06:00",
+      "date": "2007-09-27T17:19:20Z",
       "subject": "[R-sig-Epi] How to calculate the nth derivative of a function",
       "subject_clean": "How to calculate the nth derivative of a function",
       "in_reply_to": "<604dac390709270542p1470d42er6c89752cc96ff704@mail.gmail.com>",
@@ -146,8 +146,8 @@
       "participants": [
         "Alejandro  García Rodríguez"
       ],
-      "started": "2007-09-04T16:46:52-05:00",
-      "last_reply": "2007-09-04T16:46:52-05:00",
+      "started": "2007-09-04T21:46:52Z",
+      "last_reply": "2007-09-04T21:46:52Z",
       "root_message_id": "msg-7325e4e62726"
     },
     {
@@ -158,8 +158,8 @@
         "Johan Lindbäck",
         "Tom Willems"
       ],
-      "started": "2007-09-25T14:51:23+02:00",
-      "last_reply": "2007-09-27T08:31:53+02:00",
+      "started": "2007-09-25T12:51:23Z",
+      "last_reply": "2007-09-27T06:31:53Z",
       "root_message_id": "msg-c36cfab963e5"
     },
     {
@@ -169,8 +169,8 @@
       "participants": [
         "Neil Shephard"
       ],
-      "started": "2007-09-26T11:23:29+01:00",
-      "last_reply": "2007-09-26T11:23:29+01:00",
+      "started": "2007-09-26T10:23:29Z",
+      "last_reply": "2007-09-26T10:23:29Z",
       "root_message_id": "msg-cfdb03dd153b"
     },
     {
@@ -180,8 +180,8 @@
       "participants": [
         "Martina Gandini"
       ],
-      "started": "2007-09-26T15:20:06+02:00",
-      "last_reply": "2007-09-26T15:20:06+02:00",
+      "started": "2007-09-26T13:20:06Z",
+      "last_reply": "2007-09-26T13:20:06Z",
       "root_message_id": "msg-babca5a026b5"
     },
     {
@@ -193,8 +193,8 @@
         "Greg Snow",
         "Patricia Geli"
       ],
-      "started": "2007-09-27T14:42:21+02:00",
-      "last_reply": "2007-09-27T11:19:20-06:00",
+      "started": "2007-09-27T12:42:21Z",
+      "last_reply": "2007-09-27T17:19:20Z",
       "root_message_id": "msg-54b1a6efdb45"
     }
   ]

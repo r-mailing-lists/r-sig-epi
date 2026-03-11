@@ -24,7 +24,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301F908B376@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2008-11-19T20:36:41+01:00",
+      "date": "2008-11-19T19:36:41Z",
       "subject": "[R-sig-Epi] Epidemiology Task View?",
       "subject_clean": "Epidemiology Task View?",
       "in_reply_to": "<31b34fca0811190704m24854447nbd0c0321a45df49c@mail.gmail.com>",
@@ -56,7 +56,7 @@
       "message_id": "<1227308041.6438.6.camel@R1-Thux>",
       "from_name": "Bernardo Rangel Tura",
       "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
-      "date": "2008-11-21T20:54:01-02:00",
+      "date": "2008-11-21T22:54:01Z",
       "subject": "[R-sig-Epi] Epidemiology Task View",
       "subject_clean": "Epidemiology Task View",
       "in_reply_to": "<31b34fca0811210314s1dc44f74r1a97e4966a0716c1@mail.gmail.com>",
@@ -74,7 +74,7 @@
       "message_id": "<EE296A5F-4E64-4716-B9A0-7D4D13B34CC2@comcast.net>",
       "from_name": "David Winsemius",
       "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
-      "date": "2008-11-23T23:51:39-05:00",
+      "date": "2008-11-24T04:51:39Z",
       "subject": "[R-sig-Epi] Epidemiology Task View",
       "subject_clean": "Epidemiology Task View",
       "in_reply_to": null,
@@ -90,7 +90,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301F931941F@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2008-11-24T09:20:12+01:00",
+      "date": "2008-11-24T08:20:12Z",
       "subject": "[R-sig-Epi] Epidemiology Task View",
       "subject_clean": "Epidemiology Task View",
       "in_reply_to": "<EE296A5F-4E64-4716-B9A0-7D4D13B34CC2@comcast.net>",
@@ -106,7 +106,7 @@
       "message_id": "<DC592E5C-9521-41BA-B1EF-CE7D86F42190@comcast.net>",
       "from_name": "David Winsemius",
       "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
-      "date": "2008-11-24T11:11:09-05:00",
+      "date": "2008-11-24T16:11:09Z",
       "subject": "[R-sig-Epi] Epidemiology Task View",
       "subject_clean": "Epidemiology Task View",
       "in_reply_to": "<2F73FA3AF524144C863B7C2C903DBC3301F931941F@exdkmbx002.corp.novocorp.net>",
@@ -124,7 +124,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3301F93196D0@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2008-11-24T17:36:49+01:00",
+      "date": "2008-11-24T16:36:49Z",
       "subject": "[R-sig-Epi] Epidemiology Task View",
       "subject_clean": "Epidemiology Task View",
       "in_reply_to": "<DC592E5C-9521-41BA-B1EF-CE7D86F42190@comcast.net>",
@@ -140,7 +140,7 @@
       "message_id": "<1227602068.6365.0.camel@R1-Thux>",
       "from_name": "Bernardo Rangel Tura",
       "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
-      "date": "2008-11-25T06:34:28-02:00",
+      "date": "2008-11-25T08:34:28Z",
       "subject": "[R-sig-Epi] Epidemiology Task View",
       "subject_clean": "Epidemiology Task View",
       "in_reply_to": "<EE296A5F-4E64-4716-B9A0-7D4D13B34CC2@comcast.net>",
@@ -163,8 +163,8 @@
         "BXC (Bendix Carstensen)",
         "Neil Shephard"
       ],
-      "started": "2008-11-19T15:04:52+00:00",
-      "last_reply": "2008-11-19T20:36:41+01:00",
+      "started": "2008-11-19T15:04:52Z",
+      "last_reply": "2008-11-19T19:36:41Z",
       "root_message_id": "msg-43517e4b3f85"
     },
     {
@@ -175,8 +175,8 @@
         "Bernardo Rangel Tura",
         "Neil Shephard"
       ],
-      "started": "2008-11-21T11:14:33+00:00",
-      "last_reply": "2008-11-21T20:54:01-02:00",
+      "started": "2008-11-21T11:14:33Z",
+      "last_reply": "2008-11-21T22:54:01Z",
       "root_message_id": "msg-3976d2e0fae4"
     },
     {
@@ -188,8 +188,8 @@
         "Bernardo Rangel Tura",
         "David Winsemius"
       ],
-      "started": "2008-11-23T23:51:39-05:00",
-      "last_reply": "2008-11-25T06:34:28-02:00",
+      "started": "2008-11-24T04:51:39Z",
+      "last_reply": "2008-11-25T08:34:28Z",
       "root_message_id": "msg-46983787946c"
     }
   ]

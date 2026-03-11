@@ -8,7 +8,7 @@
       "message_id": "<1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>",
       "from_name": "Lynn Disney",
       "from_email_hash": "a949b5c88d24be733132147631c7850bf6fcafbd6519d59885a4579a1432521d",
-      "date": "2007-07-17T15:11:34-04:00",
+      "date": "2007-07-17T19:11:34Z",
       "subject": "[R-sig-Epi] question about selecting observations",
       "subject_clean": "question about selecting observations",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<469D19F5.60703@hotmail.com>",
       "from_name": "FZ",
       "from_email_hash": "e809e7003031b289f014fa3452fbb038c2e07d17f897c97f892648b9b6e3c35f",
-      "date": "2007-07-17T13:35:17-06:00",
+      "date": "2007-07-17T19:35:17Z",
       "subject": "[R-sig-Epi] question about selecting observations",
       "subject_clean": "question about selecting observations",
       "in_reply_to": "<1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>",
@@ -42,7 +42,7 @@
       "message_id": "<469D1A7C.20501@hotmail.com>",
       "from_name": "FZ",
       "from_email_hash": "e809e7003031b289f014fa3452fbb038c2e07d17f897c97f892648b9b6e3c35f",
-      "date": "2007-07-17T13:37:32-06:00",
+      "date": "2007-07-17T19:37:32Z",
       "subject": "[R-sig-Epi] question about selecting observations",
       "subject_clean": "question about selecting observations",
       "in_reply_to": "<1B80C974ABFB23429A403B6667FE84C7B0E642@seiumain.SEIU.local>",
@@ -60,7 +60,7 @@
       "message_id": "<6BEABCD5CA640A44A848448A42A03B7304A5D5EE@ilrikeadx1.ILRI.CGIARAD.ORG>",
       "from_name": "Matere, Crispin (ILRI - ICRAF)",
       "from_email_hash": "b66f5a96e0c19e8aa678af1d87d926fd1bc61ffe092364ce842033f67212fdee",
-      "date": "2007-07-18T16:54:37+03:00",
+      "date": "2007-07-18T13:54:37Z",
       "subject": "[R-sig-Epi] AMOVA",
       "subject_clean": "AMOVA",
       "in_reply_to": null,
@@ -76,7 +76,7 @@
       "message_id": "<1185011311.26915.22.camel@R3-Thux>",
       "from_name": "Bernardo Rangel Tura",
       "from_email_hash": "25b891f76c0e120994cbc1b588edc7582e65fd73de3f7cd7a18455624660ef54",
-      "date": "2007-07-21T06:48:31-03:00",
+      "date": "2007-07-21T09:48:31Z",
       "subject": "[R-sig-Epi] AMOVA",
       "subject_clean": "AMOVA",
       "in_reply_to": "<6BEABCD5CA640A44A848448A42A03B7304A5D5EE@ilrikeadx1.ILRI.CGIARAD.ORG>",
@@ -94,7 +94,7 @@
       "message_id": "<1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>",
       "from_name": "Lynn Disney",
       "from_email_hash": "a949b5c88d24be733132147631c7850bf6fcafbd6519d59885a4579a1432521d",
-      "date": "2007-07-25T15:34:53-04:00",
+      "date": "2007-07-25T19:34:53Z",
       "subject": "[R-sig-Epi] question re: recoding in R",
       "subject_clean": "question re: recoding in R",
       "in_reply_to": null,
@@ -110,7 +110,7 @@
       "message_id": "<200707251837.02125@spsconsultoria.com>",
       "from_name": "Alexandre Aguiar",
       "from_email_hash": "613a87f85d0f07f27af5280f0eb256d1588c660e7343e32890e26a13f3932574",
-      "date": "2007-07-25T18:37:01-03:00",
+      "date": "2007-07-25T21:37:01Z",
       "subject": "[R-sig-Epi] question re: recoding in R",
       "subject_clean": "question re: recoding in R",
       "in_reply_to": "<1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>",
@@ -128,7 +128,7 @@
       "message_id": "<200707260846.12884.griera@gmail.com>",
       "from_name": "griera at gmail.com",
       "from_email_hash": "46ddaf20e50a78ed092c7cf1771883abf91989f49c2c0d7035755c352543fb6a",
-      "date": "2007-07-26T08:46:12+02:00",
+      "date": "2007-07-26T06:46:12Z",
       "subject": "[R-sig-Epi] question re: recoding in R",
       "subject_clean": "question re: recoding in R",
       "in_reply_to": "<1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>",
@@ -146,7 +146,7 @@
       "message_id": "<46A8ADD2.2080706@wanadoo.fr>",
       "from_name": "Denis Teysseyre",
       "from_email_hash": "31ae4bc04132e0d16f6d2011fd458aef9dac8b0dd1addef8ed5cc293abba9f90",
-      "date": "2007-07-26T16:21:06+02:00",
+      "date": "2007-07-26T14:21:06Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 15, Issue 4",
       "subject_clean": "R-sig-Epi Digest, Vol 15, Issue 4",
       "in_reply_to": "<mailman.13.1185444014.21813.r-sig-epi@stat.math.ethz.ch>",
@@ -169,8 +169,8 @@
         "FZ",
         "Lynn Disney"
       ],
-      "started": "2007-07-17T15:11:34-04:00",
-      "last_reply": "2007-07-17T13:37:32-06:00",
+      "started": "2007-07-17T19:11:34Z",
+      "last_reply": "2007-07-17T19:37:32Z",
       "root_message_id": "msg-efbb8d7298d7"
     },
     {
@@ -181,8 +181,8 @@
         "Bernardo Rangel Tura",
         "Matere, Crispin (ILRI - ICRAF)"
       ],
-      "started": "2007-07-18T16:54:37+03:00",
-      "last_reply": "2007-07-21T06:48:31-03:00",
+      "started": "2007-07-18T13:54:37Z",
+      "last_reply": "2007-07-21T09:48:31Z",
       "root_message_id": "msg-4737fd1b3f97"
     },
     {
@@ -194,8 +194,8 @@
         "Lynn Disney",
         "griera at gmail.com"
       ],
-      "started": "2007-07-25T15:34:53-04:00",
-      "last_reply": "2007-07-26T08:46:12+02:00",
+      "started": "2007-07-25T19:34:53Z",
+      "last_reply": "2007-07-26T06:46:12Z",
       "root_message_id": "msg-a17d458f3f85"
     },
     {
@@ -205,8 +205,8 @@
       "participants": [
         "Denis Teysseyre"
       ],
-      "started": "2007-07-26T16:21:06+02:00",
-      "last_reply": "2007-07-26T16:21:06+02:00",
+      "started": "2007-07-26T14:21:06Z",
+      "last_reply": "2007-07-26T14:21:06Z",
       "root_message_id": "msg-7ca5c7cd2149"
     }
   ]

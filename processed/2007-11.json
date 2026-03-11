@@ -8,7 +8,7 @@
       "message_id": "<653048.44649.qm@web38405.mail.mud.yahoo.com>",
       "from_name": "Márcio Ribeiro",
       "from_email_hash": "e764e0d24614f8eababee430d05af1bc89ee05e497d6ca3b69da2775ad451881",
-      "date": "2007-11-04T12:28:55-05:00",
+      "date": "2007-11-04T17:28:55Z",
       "subject": "[R-sig-Epi] Data.Frame Desaggregation",
       "subject_clean": "Data.Frame Desaggregation",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<E4178EE0463C7D40AF637C4DDAC8030E013B4B4B@UQEXMB2.soe.uq.edu.au>",
       "from_name": "Ross Darnell",
       "from_email_hash": "79ff5978b1273d5234cc030871023e96a726dcbeeb49234e15d6705e3cf8409b",
-      "date": "2007-11-05T08:37:11+10:00",
+      "date": "2007-11-04T22:37:11Z",
       "subject": "[R-sig-Epi] Data.Frame Desaggregation",
       "subject_clean": "Data.Frame Desaggregation",
       "in_reply_to": "<653048.44649.qm@web38405.mail.mud.yahoo.com>",
@@ -42,7 +42,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC8083504EDAE48@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2007-11-05T08:23:50+01:00",
+      "date": "2007-11-05T07:23:50Z",
       "subject": "[R-sig-Epi] Data.Frame Desaggregation",
       "subject_clean": "Data.Frame Desaggregation",
       "in_reply_to": "<E4178EE0463C7D40AF637C4DDAC8030E013B4B4B@UQEXMB2.soe.uq.edu.au>",
@@ -58,7 +58,7 @@
       "message_id": "<ba8c09910711060311w5973aba7w8847ab82b1ed6123@mail.gmail.com>",
       "from_name": "Lauri Nikkinen",
       "from_email_hash": "19e8e73ea9e891cd07cf7672ecda97d1a3127662c92637d7bbf8a5c50aa27564",
-      "date": "2007-11-06T13:11:07+02:00",
+      "date": "2007-11-06T11:11:07Z",
       "subject": "[R-sig-Epi] NA:s in stat.table (library Epi)",
       "subject_clean": "NA:s in stat.table (library Epi)",
       "in_reply_to": null,
@@ -74,7 +74,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC8083504F21E66@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2007-11-06T12:56:13+01:00",
+      "date": "2007-11-06T11:56:13Z",
       "subject": "[R-sig-Epi] NA:s in stat.table (library Epi)",
       "subject_clean": "NA:s in stat.table (library Epi)",
       "in_reply_to": "<ba8c09910711060311w5973aba7w8847ab82b1ed6123@mail.gmail.com>",
@@ -90,7 +90,7 @@
       "message_id": "<ba8c09910711060414i69889f93tcca1fd715dc976bf@mail.gmail.com>",
       "from_name": "Lauri Nikkinen",
       "from_email_hash": "19e8e73ea9e891cd07cf7672ecda97d1a3127662c92637d7bbf8a5c50aa27564",
-      "date": "2007-11-06T14:14:23+02:00",
+      "date": "2007-11-06T12:14:23Z",
       "subject": "[R-sig-Epi] NA:s in stat.table (library Epi)",
       "subject_clean": "NA:s in stat.table (library Epi)",
       "in_reply_to": "<40D3930AC1C8EA469E39536E5BC8083504F21E66@EXDKBA021.corp.novocorp.net>",
@@ -109,7 +109,7 @@
       "message_id": "<ba8c09910711060415n3b4165a7jbf166457201552a7@mail.gmail.com>",
       "from_name": "Lauri Nikkinen",
       "from_email_hash": "19e8e73ea9e891cd07cf7672ecda97d1a3127662c92637d7bbf8a5c50aa27564",
-      "date": "2007-11-06T14:15:34+02:00",
+      "date": "2007-11-06T12:15:34Z",
       "subject": "[R-sig-Epi] NA:s in stat.table (library Epi)",
       "subject_clean": "NA:s in stat.table (library Epi)",
       "in_reply_to": "<ba8c09910711060414i69889f93tcca1fd715dc976bf@mail.gmail.com>",
@@ -129,7 +129,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC8083504F21EF5@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2007-11-06T13:48:11+01:00",
+      "date": "2007-11-06T12:48:11Z",
       "subject": "[R-sig-Epi] NA:s in stat.table (library Epi)",
       "subject_clean": "NA:s in stat.table (library Epi)",
       "in_reply_to": "<ba8c09910711060415n3b4165a7jbf166457201552a7@mail.gmail.com>",
@@ -145,7 +145,7 @@
       "message_id": "<010001c82183$44dac700$6500a8c0@healthmaps>",
       "from_name": "Dick Hoskins",
       "from_email_hash": "2348534814ea29a881e6ba11fca6d044352e5a3368adaaa12a0e77cbb8873259",
-      "date": "2007-11-07T13:15:01-08:00",
+      "date": "2007-11-07T21:15:01Z",
       "subject": "[R-sig-Epi] Publication quality tables",
       "subject_clean": "Publication quality tables",
       "in_reply_to": "<mailman.3.1194433201.22176.r-sig-epi@stat.math.ethz.ch>",
@@ -163,7 +163,7 @@
       "message_id": "<07E228A5BE53C24CAD490193A7381BBBD12EC6@LP-EXCHVS07.CO.IHC.COM>",
       "from_name": "Greg Snow",
       "from_email_hash": "e432b243d0660ee238e83f8aa2714b750d4574c97597be8ee6eb021bf26ebc5c",
-      "date": "2007-11-07T15:32:24-07:00",
+      "date": "2007-11-07T22:32:24Z",
       "subject": "[R-sig-Epi] Publication quality tables",
       "subject_clean": "Publication quality tables",
       "in_reply_to": "<010001c82183$44dac700$6500a8c0@healthmaps>",
@@ -198,7 +198,7 @@
       "message_id": "<a37cfb5a0711172224y449632dej3605142c0a50f6b2@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2007-11-18T03:24:12-03:00",
+      "date": "2007-11-18T06:24:12Z",
       "subject": "[R-sig-Epi] Diagnostic tests metanalisis",
       "subject_clean": "Diagnostic tests metanalisis",
       "in_reply_to": null,
@@ -220,8 +220,8 @@
         "Márcio Ribeiro",
         "Ross Darnell"
       ],
-      "started": "2007-11-04T12:28:55-05:00",
-      "last_reply": "2007-11-05T08:23:50+01:00",
+      "started": "2007-11-04T17:28:55Z",
+      "last_reply": "2007-11-05T07:23:50Z",
       "root_message_id": "msg-fb2d4c095d98"
     },
     {
@@ -232,8 +232,8 @@
         "BXC (Bendix Carstensen)",
         "Lauri Nikkinen"
       ],
-      "started": "2007-11-06T13:11:07+02:00",
-      "last_reply": "2007-11-06T13:48:11+01:00",
+      "started": "2007-11-06T11:11:07Z",
+      "last_reply": "2007-11-06T12:48:11Z",
       "root_message_id": "msg-f96ba5aec4f4"
     },
     {
@@ -244,8 +244,8 @@
         "Dick Hoskins",
         "Greg Snow"
       ],
-      "started": "2007-11-07T13:15:01-08:00",
-      "last_reply": "2007-11-07T15:32:24-07:00",
+      "started": "2007-11-07T21:15:01Z",
+      "last_reply": "2007-11-07T22:32:24Z",
       "root_message_id": "msg-2c4e980d42cb"
     },
     {
@@ -255,8 +255,8 @@
       "participants": [
         "Neil Shephard"
       ],
-      "started": "2007-11-08T11:14:28+00:00",
-      "last_reply": "2007-11-08T11:14:28+00:00",
+      "started": "2007-11-08T11:14:28Z",
+      "last_reply": "2007-11-08T11:14:28Z",
       "root_message_id": "msg-b42702926acb"
     },
     {
@@ -266,8 +266,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2007-11-18T03:24:12-03:00",
-      "last_reply": "2007-11-18T03:24:12-03:00",
+      "started": "2007-11-18T06:24:12Z",
+      "last_reply": "2007-11-18T06:24:12Z",
       "root_message_id": "msg-8bdea5bdb7e4"
     }
   ]

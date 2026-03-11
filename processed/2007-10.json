@@ -8,7 +8,7 @@
       "message_id": "<4703D04D020000EE00004826@valhall.syh.fi>",
       "from_name": "Ralf Finne",
       "from_email_hash": "3c7765b4a615ba2229e09d9e14f4b5682c4e563d424a16a6bcad032b2e865199",
-      "date": "2007-10-03T17:24:28+03:00",
+      "date": "2007-10-03T14:24:28Z",
       "subject": "[R-sig-Epi] Probability of falling incidence",
       "subject_clean": "Probability of falling incidence",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<001b01c805cb$1fa7f4e0$723a7cce@win.sfbrgenetics.org>",
       "from_name": "Kevin Viel",
       "from_email_hash": "553c1744d29b04cebc943e6a16a49ebe16df577085469bc2a2f527397937bcbc",
-      "date": "2007-10-03T09:38:54-05:00",
+      "date": "2007-10-03T14:38:54Z",
       "subject": "[R-sig-Epi] Probability of falling incidence",
       "subject_clean": "Probability of falling incidence",
       "in_reply_to": "<4703D04D020000EE00004826@valhall.syh.fi>",
@@ -40,7 +40,7 @@
       "message_id": "<47052AB6020000EE0000484D@valhall.syh.fi>",
       "from_name": "Ralf Finne",
       "from_email_hash": "3c7765b4a615ba2229e09d9e14f4b5682c4e563d424a16a6bcad032b2e865199",
-      "date": "2007-10-04T18:02:30+03:00",
+      "date": "2007-10-04T15:02:30Z",
       "subject": "[R-sig-Epi] Probability of falling incidence",
       "subject_clean": "Probability of falling incidence",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<AEEFKNHKDADBAKMPJLPLMEINCHAA.ifellows@ucsd.edu>",
       "from_name": "Ian Fellows",
       "from_email_hash": "d12bb521d01a14c5c9364007086c61200d7898178507ef5d276c14223c822c6b",
-      "date": "2007-10-04T09:16:59-07:00",
+      "date": "2007-10-04T16:16:59Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 18, Issue 1",
       "subject_clean": "R-sig-Epi Digest, Vol 18, Issue 1",
       "in_reply_to": "<mailman.3.1191492001.22435.r-sig-epi@stat.math.ethz.ch>",
@@ -72,7 +72,7 @@
       "message_id": "<20071004133831.xt68lq6e8ks848wo@webmail.usp.br>",
       "from_name": "nndsilva at usp.br",
       "from_email_hash": "27c5a2573dad661c96edd4a2b6e869443c32c2577f32667a7e5998b669f4ab32",
-      "date": "2007-10-04T13:38:31-03:00",
+      "date": "2007-10-04T16:38:31Z",
       "subject": "[R-sig-Epi] capture-recapture estimation methods",
       "subject_clean": "capture-recapture estimation methods",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC8083504CC74D3@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2007-10-04T19:46:29+02:00",
+      "date": "2007-10-04T17:46:29Z",
       "subject": "[R-sig-Epi] capture-recapture estimation methods",
       "subject_clean": "capture-recapture estimation methods",
       "in_reply_to": "<20071004133831.xt68lq6e8ks848wo@webmail.usp.br>",
@@ -104,7 +104,7 @@
       "message_id": "<AEEFKNHKDADBAKMPJLPLCEJDCHAA.ifellows@ucsd.edu>",
       "from_name": "Ian Fellows",
       "from_email_hash": "d12bb521d01a14c5c9364007086c61200d7898178507ef5d276c14223c822c6b",
-      "date": "2007-10-05T09:47:41-07:00",
+      "date": "2007-10-05T16:47:41Z",
       "subject": "[R-sig-Epi] Probability of falling incidence",
       "subject_clean": "Probability of falling incidence",
       "in_reply_to": "<mailman.1.1191578401.13731.r-sig-epi@stat.math.ethz.ch>",
@@ -120,7 +120,7 @@
       "message_id": "<E4178EE0463C7D40AF637C4DDAC8030EFEC1BD@UQEXMB2.soe.uq.edu.au>",
       "from_name": "Ross Darnell",
       "from_email_hash": "79ff5978b1273d5234cc030871023e96a726dcbeeb49234e15d6705e3cf8409b",
-      "date": "2007-10-08T11:00:21+10:00",
+      "date": "2007-10-08T01:00:21Z",
       "subject": "[R-sig-Epi] Probability of falling incidence",
       "subject_clean": "Probability of falling incidence",
       "in_reply_to": "<AEEFKNHKDADBAKMPJLPLCEJDCHAA.ifellows@ucsd.edu>",
@@ -139,7 +139,7 @@
       "message_id": "<a37cfb5a0710151145k5ed8b1a4g265670bdb50baede@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2007-10-15T15:45:43-03:00",
+      "date": "2007-10-15T18:45:43Z",
       "subject": "[R-sig-Epi] Diagnosis function",
       "subject_clean": "Diagnosis function",
       "in_reply_to": null,
@@ -155,7 +155,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC8083504D811E6@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2007-10-16T00:34:30+02:00",
+      "date": "2007-10-15T22:34:30Z",
       "subject": "[R-sig-Epi] Diagnosis function",
       "subject_clean": "Diagnosis function",
       "in_reply_to": "<a37cfb5a0710151145k5ed8b1a4g265670bdb50baede@mail.gmail.com>",
@@ -176,9 +176,20 @@
         "Kevin Viel",
         "Ralf Finne"
       ],
-      "started": "2007-10-03T17:24:28+03:00",
-      "last_reply": "2007-10-03T09:38:54-05:00",
+      "started": "2007-10-03T14:24:28Z",
+      "last_reply": "2007-10-03T14:38:54Z",
       "root_message_id": "msg-8bc9fefd9f54"
+    },
+    {
+      "id": "thread-08611c201ea6",
+      "subject": "Probability of falling incidence",
+      "message_count": 1,
+      "participants": [
+        "Ralf Finne"
+      ],
+      "started": "2007-10-04T15:02:30Z",
+      "last_reply": "2007-10-04T15:02:30Z",
+      "root_message_id": "msg-08611c201ea6"
     },
     {
       "id": "thread-ee3ab8a52a90",
@@ -187,8 +198,8 @@
       "participants": [
         "Ian Fellows"
       ],
-      "started": "2007-10-04T09:16:59-07:00",
-      "last_reply": "2007-10-04T09:16:59-07:00",
+      "started": "2007-10-04T16:16:59Z",
+      "last_reply": "2007-10-04T16:16:59Z",
       "root_message_id": "msg-ee3ab8a52a90"
     },
     {
@@ -199,20 +210,9 @@
         "BXC (Bendix Carstensen)",
         "nndsilva at usp.br"
       ],
-      "started": "2007-10-04T13:38:31-03:00",
-      "last_reply": "2007-10-04T19:46:29+02:00",
+      "started": "2007-10-04T16:38:31Z",
+      "last_reply": "2007-10-04T17:46:29Z",
       "root_message_id": "msg-28a47d373e6b"
-    },
-    {
-      "id": "thread-08611c201ea6",
-      "subject": "Probability of falling incidence",
-      "message_count": 1,
-      "participants": [
-        "Ralf Finne"
-      ],
-      "started": "2007-10-04T18:02:30+03:00",
-      "last_reply": "2007-10-04T18:02:30+03:00",
-      "root_message_id": "msg-08611c201ea6"
     },
     {
       "id": "thread-4dd2eef5ee9b",
@@ -222,8 +222,8 @@
         "Ian Fellows",
         "Ross Darnell"
       ],
-      "started": "2007-10-05T09:47:41-07:00",
-      "last_reply": "2007-10-08T11:00:21+10:00",
+      "started": "2007-10-05T16:47:41Z",
+      "last_reply": "2007-10-08T01:00:21Z",
       "root_message_id": "msg-4dd2eef5ee9b"
     },
     {
@@ -234,8 +234,8 @@
         "BXC (Bendix Carstensen)",
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2007-10-15T15:45:43-03:00",
-      "last_reply": "2007-10-16T00:34:30+02:00",
+      "started": "2007-10-15T18:45:43Z",
+      "last_reply": "2007-10-15T22:34:30Z",
       "root_message_id": "msg-8333774a8109"
     }
   ]

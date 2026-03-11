@@ -8,7 +8,7 @@
       "message_id": "<a37cfb5a1003041702k3e7f1228v9d16a88bed2096e2@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-03-04T22:02:14-03:00",
+      "date": "2010-03-05T01:02:14Z",
       "subject": "[R-sig-Epi] epitools::oddsratio error numbers close to zero in cells?",
       "subject_clean": "epitools::oddsratio error numbers close to zero in cells?",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<30d7ea361003041748n4be44245l9fd35eb52861bc79@mail.gmail.com>",
       "from_name": "C.H.",
       "from_email_hash": "f25ef601a0cde0a9ce68467c9b7222bee9955e0f9881cc9c7fa75712bd9e2118",
-      "date": "2010-03-05T09:48:57+08:00",
+      "date": "2010-03-05T01:48:57Z",
       "subject": "[R-sig-Epi] epitools::oddsratio error numbers close to zero in cells?",
       "subject_clean": "epitools::oddsratio error numbers close to zero in cells?",
       "in_reply_to": "<a37cfb5a1003041702k3e7f1228v9d16a88bed2096e2@mail.gmail.com>",
@@ -42,7 +42,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC330212983FBC@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2010-03-05T03:26:42+01:00",
+      "date": "2010-03-05T02:26:42Z",
       "subject": "[R-sig-Epi] epitools::oddsratio error numbers close to zero in cells?",
       "subject_clean": "epitools::oddsratio error numbers close to zero in cells?",
       "in_reply_to": "<30d7ea361003041748n4be44245l9fd35eb52861bc79@mail.gmail.com>",
@@ -61,7 +61,7 @@
       "message_id": "<3d3804221003050453s4931c07bk42ffe4bfc5b8b4a7@mail.gmail.com>",
       "from_name": "Philippe Glaziou",
       "from_email_hash": "f7859a593cdd4b507a65f6b4a9000d90876d1359ea38540e5babb75e9aee4a76",
-      "date": "2010-03-05T13:53:48+01:00",
+      "date": "2010-03-05T12:53:48Z",
       "subject": "[R-sig-Epi] epitools::oddsratio error numbers close to zero in cells?",
       "subject_clean": "epitools::oddsratio error numbers close to zero in cells?",
       "in_reply_to": "<2F73FA3AF524144C863B7C2C903DBC330212983FBC@exdkmbx002.corp.novocorp.net>",
@@ -81,7 +81,7 @@
       "message_id": "<a37cfb5a1003061458x4825fc0q7b738502c046af9f@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-03-06T19:58:33-03:00",
+      "date": "2010-03-06T22:58:33Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 40, Issue 2",
       "subject_clean": "R-sig-Epi Digest, Vol 40, Issue 2",
       "in_reply_to": "<mailman.5.1267873202.12126.r-sig-epi@stat.math.ethz.ch>",
@@ -99,7 +99,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC330212B053EA@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2010-03-30T14:05:51+02:00",
+      "date": "2010-03-30T12:05:51Z",
       "subject": "[R-sig-Epi] COURSE: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
       "subject_clean": "COURSE: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
       "in_reply_to": null,
@@ -122,8 +122,8 @@
         "Pedro Emmanuel Alvarenga Americano do Brasil",
         "Philippe Glaziou"
       ],
-      "started": "2010-03-04T22:02:14-03:00",
-      "last_reply": "2010-03-05T13:53:48+01:00",
+      "started": "2010-03-05T01:02:14Z",
+      "last_reply": "2010-03-05T12:53:48Z",
       "root_message_id": "msg-12b2f116c4de"
     },
     {
@@ -133,8 +133,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2010-03-06T19:58:33-03:00",
-      "last_reply": "2010-03-06T19:58:33-03:00",
+      "started": "2010-03-06T22:58:33Z",
+      "last_reply": "2010-03-06T22:58:33Z",
       "root_message_id": "msg-dd428fd52207"
     },
     {
@@ -144,8 +144,8 @@
       "participants": [
         "BXC (Bendix Carstensen)"
       ],
-      "started": "2010-03-30T14:05:51+02:00",
-      "last_reply": "2010-03-30T14:05:51+02:00",
+      "started": "2010-03-30T12:05:51Z",
+      "last_reply": "2010-03-30T12:05:51Z",
       "root_message_id": "msg-a85a16eaa8a5"
     }
   ]

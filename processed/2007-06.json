@@ -8,7 +8,7 @@
       "message_id": "<466C83C9020000EE00003BA5@valhall.syh.fi>",
       "from_name": "Ralf Finne",
       "from_email_hash": "3c7765b4a615ba2229e09d9e14f4b5682c4e563d424a16a6bcad032b2e865199",
-      "date": "2007-06-10T23:05:45+03:00",
+      "date": "2007-06-10T20:05:45Z",
       "subject": "[R-sig-Epi] Transform function",
       "subject_clean": "Transform function",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC80835044EAF7E@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2007-06-10T22:21:51+02:00",
+      "date": "2007-06-10T20:21:51Z",
       "subject": "[R-sig-Epi] Transform function",
       "subject_clean": "Transform function",
       "in_reply_to": "<466C83C9020000EE00003BA5@valhall.syh.fi>",
@@ -45,8 +45,8 @@
         "BXC (Bendix Carstensen)",
         "Ralf Finne"
       ],
-      "started": "2007-06-10T23:05:45+03:00",
-      "last_reply": "2007-06-10T22:21:51+02:00",
+      "started": "2007-06-10T20:05:45Z",
+      "last_reply": "2007-06-10T20:21:51Z",
       "root_message_id": "msg-b105550c80dd"
     }
   ]

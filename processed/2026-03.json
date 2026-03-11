@@ -104,7 +104,7 @@
       "message_id": "<1773130416.5556830@webmail.jimdo.com>",
       "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
       "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-      "date": "2026-03-10T09:13:36+01:00",
+      "date": "2026-03-10T08:13:36Z",
       "subject": "[R-sig-Epi] (Online Course) Fundamentals of Biostatistics with R - 13–17 April",
       "subject_clean": "(Online Course) Fundamentals of Biostatistics with R - 13–17 April",
       "in_reply_to": null,
@@ -124,8 +124,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-03-02T09:05:46+00:00",
-      "last_reply": "2026-03-02T09:05:46+00:00",
+      "started": "2026-03-02T09:05:46Z",
+      "last_reply": "2026-03-02T09:05:46Z",
       "root_message_id": "msg-2646cb3dc805"
     },
     {
@@ -135,8 +135,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2026-03-03T20:27:44+00:00",
-      "last_reply": "2026-03-03T20:27:44+00:00",
+      "started": "2026-03-03T20:27:44Z",
+      "last_reply": "2026-03-03T20:27:44Z",
       "root_message_id": "msg-863bcbe269da"
     },
     {
@@ -146,8 +146,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-03-04T11:53:26+00:00",
-      "last_reply": "2026-03-04T11:53:26+00:00",
+      "started": "2026-03-04T11:53:26Z",
+      "last_reply": "2026-03-04T11:53:26Z",
       "root_message_id": "msg-36ce8144b755"
     },
     {
@@ -157,8 +157,8 @@
       "participants": [
         "Oliver Hooker"
       ],
-      "started": "2026-03-05T11:10:12+00:00",
-      "last_reply": "2026-03-05T11:10:12+00:00",
+      "started": "2026-03-05T11:10:12Z",
+      "last_reply": "2026-03-05T11:10:12Z",
       "root_message_id": "msg-795953950cf6"
     },
     {
@@ -168,8 +168,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-03-06T14:02:11+00:00",
-      "last_reply": "2026-03-06T14:02:11+00:00",
+      "started": "2026-03-06T14:02:11Z",
+      "last_reply": "2026-03-06T14:02:11Z",
       "root_message_id": "msg-57cd23047414"
     },
     {
@@ -179,8 +179,8 @@
       "participants": [
         "mzyphur m@iii@g oii i@st@ts@org"
       ],
-      "started": "2026-03-09T09:10:21+00:00",
-      "last_reply": "2026-03-09T09:10:21+00:00",
+      "started": "2026-03-09T09:10:21Z",
+      "last_reply": "2026-03-09T09:10:21Z",
       "root_message_id": "msg-f566948e5112"
     },
     {
@@ -190,8 +190,8 @@
       "participants": [
         "i@io m@iii@g oii phys@ii@-courses@org"
       ],
-      "started": "2026-03-10T09:13:36+01:00",
-      "last_reply": "2026-03-10T09:13:36+01:00",
+      "started": "2026-03-10T08:13:36Z",
+      "last_reply": "2026-03-10T08:13:36Z",
       "root_message_id": "msg-2cd5861c641b"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<8a41df090802071436r5661bdcdxda9a3a9c47a1e2d8@mail.gmail.com>",
       "from_name": "Summer Nitely",
       "from_email_hash": "b8ad61d3ca3daec2e8633785f850e5c75a302dd7a5c98a306df28e1c9cda9a20",
-      "date": "2008-02-07T15:36:41-07:00",
+      "date": "2008-02-07T22:36:41Z",
       "subject": "[R-sig-Epi] survival curve in epi package",
       "subject_clean": "survival curve in epi package",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<a37cfb5a0802120339g687a2f0cl44676b8e3c5c496@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2008-02-12T08:39:04-03:00",
+      "date": "2008-02-12T11:39:04Z",
       "subject": "[R-sig-Epi] [survival curve] R-sig-Epi Digest, Vol 22, Issue 1",
       "subject_clean": "[survival curve] R-sig-Epi Digest, Vol 22, Issue 1",
       "in_reply_to": "<mailman.3.1202468401.8398.r-sig-epi@stat.math.ethz.ch>",
@@ -42,7 +42,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC808350565741E@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2008-02-12T23:43:47+01:00",
+      "date": "2008-02-12T22:43:47Z",
       "subject": "[R-sig-Epi] survival curve in epi package",
       "subject_clean": "survival curve in epi package",
       "in_reply_to": "<8a41df090802071436r5661bdcdxda9a3a9c47a1e2d8@mail.gmail.com>",
@@ -58,7 +58,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC808350574B0F7@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2008-02-25T08:43:52+01:00",
+      "date": "2008-02-25T07:43:52Z",
       "subject": "[R-sig-Epi] Course: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
       "subject_clean": "Course: STATISTICAL PRACTICE IN EPIDEMIOLOGY USING R",
       "in_reply_to": null,
@@ -74,7 +74,7 @@
       "message_id": "<708592.65199.qm@web52104.mail.re2.yahoo.com>",
       "from_name": "Smita Pakhale",
       "from_email_hash": "cd0e59caaaad8a4b6eee1b82b0fdac33fd01e4a72b470a4a1b86450f0ba4ec39",
-      "date": "2008-02-29T11:34:23-08:00",
+      "date": "2008-02-29T19:34:23Z",
       "subject": "[R-sig-Epi] need help in calculating confidence intervals for sensitivity, specificity, PPV & NPV",
       "subject_clean": "need help in calculating confidence intervals for sensitivity, specificity, PPV & NPV",
       "in_reply_to": null,
@@ -90,7 +90,7 @@
       "message_id": "<40D3930AC1C8EA469E39536E5BC80835057C6E21@EXDKBA021.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2008-02-29T21:16:45+01:00",
+      "date": "2008-02-29T20:16:45Z",
       "subject": "[R-sig-Epi] need help in calculating confidence intervals forsensitivity, specificity, PPV & NPV",
       "subject_clean": "need help in calculating confidence intervals forsensitivity, specificity, PPV & NPV",
       "in_reply_to": "<708592.65199.qm@web52104.mail.re2.yahoo.com>",
@@ -111,8 +111,8 @@
         "BXC (Bendix Carstensen)",
         "Summer Nitely"
       ],
-      "started": "2008-02-07T15:36:41-07:00",
-      "last_reply": "2008-02-12T23:43:47+01:00",
+      "started": "2008-02-07T22:36:41Z",
+      "last_reply": "2008-02-12T22:43:47Z",
       "root_message_id": "msg-91a1e61b4b2f"
     },
     {
@@ -122,8 +122,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2008-02-12T08:39:04-03:00",
-      "last_reply": "2008-02-12T08:39:04-03:00",
+      "started": "2008-02-12T11:39:04Z",
+      "last_reply": "2008-02-12T11:39:04Z",
       "root_message_id": "msg-1ae1fb6b0d55"
     },
     {
@@ -133,8 +133,8 @@
       "participants": [
         "BXC (Bendix Carstensen)"
       ],
-      "started": "2008-02-25T08:43:52+01:00",
-      "last_reply": "2008-02-25T08:43:52+01:00",
+      "started": "2008-02-25T07:43:52Z",
+      "last_reply": "2008-02-25T07:43:52Z",
       "root_message_id": "msg-61a564326cf0"
     },
     {
@@ -145,8 +145,8 @@
         "BXC (Bendix Carstensen)",
         "Smita Pakhale"
       ],
-      "started": "2008-02-29T11:34:23-08:00",
-      "last_reply": "2008-02-29T21:16:45+01:00",
+      "started": "2008-02-29T19:34:23Z",
+      "last_reply": "2008-02-29T20:16:45Z",
       "root_message_id": "msg-5db4ea06ab5f"
     }
   ]

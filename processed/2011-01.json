@@ -8,7 +8,7 @@
       "message_id": "<AANLkTik-=jrZRaRFyhMcuMXTBOk2Z9h99SPUUq4znp-+@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2011-01-08T00:55:04-02:00",
+      "date": "2011-01-08T02:55:04Z",
       "subject": "[R-sig-Epi] Risk Ratio tables",
       "subject_clean": "Risk Ratio tables",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<62886.188.223.124.210.1295266967.squirrel@wwws.choisyclub.org>",
       "from_name": "raphaëlle métras",
       "from_email_hash": "b0da4843cb7d34988847f529248bb49e34c6fefb55ad2cefc87e2655d247b6dd",
-      "date": "2011-01-17T13:22:47+01:00",
+      "date": "2011-01-17T12:22:47Z",
       "subject": "[R-sig-Epi] cox model with time-dependent covariates",
       "subject_clean": "cox model with time-dependent covariates",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B696DA9A@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2011-01-17T14:19:31+01:00",
+      "date": "2011-01-17T13:19:31Z",
       "subject": "[R-sig-Epi] cox model with time-dependent covariates",
       "subject_clean": "cox model with time-dependent covariates",
       "in_reply_to": "<62886.188.223.124.210.1295266967.squirrel@wwws.choisyclub.org>",
@@ -58,7 +58,7 @@
       "message_id": "<4D3ECC88.5060401@ngs.ru>",
       "from_name": "Екатерина Кудрявцева",
       "from_email_hash": "44aa69bf5dbce6e77f541465bb7fc6d255875a6f3dce23c696b178138c8f0468",
-      "date": "2011-01-25T19:13:44+06:00",
+      "date": "2011-01-25T13:13:44Z",
       "subject": "[R-sig-Epi] LD between diallelic and multiallelic loci",
       "subject_clean": "LD between diallelic and multiallelic loci",
       "in_reply_to": null,
@@ -90,7 +90,7 @@
       "message_id": "<1112e4e.5b30.12dca5d5360.Coremail.zzkpumc@163.com>",
       "from_name": "Ethan Chang",
       "from_email_hash": "60b451db641475b5356477c191d15c6901a20b5d1b83917e19c5183338a59265",
-      "date": "2011-01-28T10:04:29+08:00",
+      "date": "2011-01-28T02:04:29Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 49, Issue 4",
       "subject_clean": "R-sig-Epi Digest, Vol 49, Issue 4",
       "in_reply_to": "<mailman.5.1296126002.16993.r-sig-epi@r-project.org>",
@@ -112,8 +112,8 @@
       "participants": [
         "Pedro Emmanuel Alvarenga Americano do Brasil"
       ],
-      "started": "2011-01-08T00:55:04-02:00",
-      "last_reply": "2011-01-08T00:55:04-02:00",
+      "started": "2011-01-08T02:55:04Z",
+      "last_reply": "2011-01-08T02:55:04Z",
       "root_message_id": "msg-0e3fc40d432e"
     },
     {
@@ -124,8 +124,8 @@
         "BXC (Bendix Carstensen)",
         "raphaëlle métras"
       ],
-      "started": "2011-01-17T13:22:47+01:00",
-      "last_reply": "2011-01-17T14:19:31+01:00",
+      "started": "2011-01-17T12:22:47Z",
+      "last_reply": "2011-01-17T13:19:31Z",
       "root_message_id": "msg-b54c6a4c6016"
     },
     {
@@ -135,8 +135,8 @@
       "participants": [
         "Екатерина Кудрявцева"
       ],
-      "started": "2011-01-25T19:13:44+06:00",
-      "last_reply": "2011-01-25T19:13:44+06:00",
+      "started": "2011-01-25T13:13:44Z",
+      "last_reply": "2011-01-25T13:13:44Z",
       "root_message_id": "msg-173bffeefbc3"
     },
     {
@@ -146,8 +146,8 @@
       "participants": [
         "Neil Shephard"
       ],
-      "started": "2011-01-26T11:33:24+00:00",
-      "last_reply": "2011-01-26T11:33:24+00:00",
+      "started": "2011-01-26T11:33:24Z",
+      "last_reply": "2011-01-26T11:33:24Z",
       "root_message_id": "msg-8afc341fde05"
     },
     {
@@ -157,8 +157,8 @@
       "participants": [
         "Ethan Chang"
       ],
-      "started": "2011-01-28T10:04:29+08:00",
-      "last_reply": "2011-01-28T10:04:29+08:00",
+      "started": "2011-01-28T02:04:29Z",
+      "last_reply": "2011-01-28T02:04:29Z",
       "root_message_id": "msg-cfc05a774dd8"
     }
   ]

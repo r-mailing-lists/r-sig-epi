@@ -8,7 +8,7 @@
       "message_id": "<permail-2010081108533180e26a0b00003ab5-kirchned@message-id.uni-muenster.de>",
       "from_name": "Dorothea Kirchner",
       "from_email_hash": "83ccccc4a9bf3493c7d0cf8e7e337a6a0190fe93622f9c2366268b16f03272f6",
-      "date": "2010-08-11T10:53:31+02:00",
+      "date": "2010-08-11T08:53:31Z",
       "subject": "[R-sig-Epi] problems with NA's",
       "subject_clean": "problems with NA's",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<F729A663-ADE4-4B9B-B225-A264511B9449@comcast.net>",
       "from_name": "David Winsemius",
       "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
-      "date": "2010-08-11T08:30:07-04:00",
+      "date": "2010-08-11T12:30:07Z",
       "subject": "[R-sig-Epi] problems with NA's",
       "subject_clean": "problems with NA's",
       "in_reply_to": "<permail-2010081108533180e26a0b00003ab5-kirchned@message-id.uni-muenster.de>",
@@ -42,7 +42,7 @@
       "message_id": "<AANLkTim8AQ3LL29xqnd1OiADNEf9UbaLhMcTuX0B18ix@mail.gmail.com>",
       "from_name": "Pedro Emmanuel Alvarenga Americano do Brasil",
       "from_email_hash": "0ea7e71dd9fdc0d36b8ae11ff84ecca890b8b5f64b7731d970c06c597c38cc08",
-      "date": "2010-08-11T09:32:27-03:00",
+      "date": "2010-08-11T12:32:27Z",
       "subject": "[R-sig-Epi] R-sig-Epi Digest, Vol 44, Issue 1",
       "subject_clean": "R-sig-Epi Digest, Vol 44, Issue 1",
       "in_reply_to": "<mailman.5.1281520802.17542.r-sig-epi@stat.math.ethz.ch>",
@@ -76,7 +76,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC33021DA86266@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2010-08-17T07:57:46+02:00",
+      "date": "2010-08-17T05:57:46Z",
       "subject": "[R-sig-Epi] random-effects modeling",
       "subject_clean": "random-effects modeling",
       "in_reply_to": "<7C79081F82FB544BAF7B847A02F87972019CC8C8@KA-EXCHMBX-02.katho.local>",
@@ -94,7 +94,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B5D3D077@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2010-08-26T07:47:49+02:00",
+      "date": "2010-08-26T05:47:49Z",
       "subject": "[R-sig-Epi] [epitools] Risk Difference",
       "subject_clean": "[epitools] Risk Difference",
       "in_reply_to": "<i53qjg+cc94@eGroups.com>",
@@ -112,7 +112,7 @@
       "message_id": "<2F73FA3AF524144C863B7C2C903DBC3302B5D3D0EB@exdkmbx002.corp.novocorp.net>",
       "from_name": "BXC (Bendix Carstensen)",
       "from_email_hash": "e2c63febb35b7e0607156d33a4415f54466d31fe15c27f86e63edfa5bcac1ad3",
-      "date": "2010-08-26T09:16:21+02:00",
+      "date": "2010-08-26T07:16:21Z",
       "subject": "[R-sig-Epi] [epitools] Risk Difference",
       "subject_clean": "[epitools] Risk Difference",
       "in_reply_to": "<2F73FA3AF524144C863B7C2C903DBC3302B5D3D077@exdkmbx002.corp.novocorp.net>",
@@ -129,17 +129,6 @@
   ],
   "threads": [
     {
-      "id": "thread-b3235de3b9ed",
-      "subject": "R-sig-Epi Digest, Vol 44, Issue 1",
-      "message_count": 1,
-      "participants": [
-        "Pedro Emmanuel Alvarenga Americano do Brasil"
-      ],
-      "started": "2010-08-11T09:32:27-03:00",
-      "last_reply": "2010-08-11T09:32:27-03:00",
-      "root_message_id": "msg-b3235de3b9ed"
-    },
-    {
       "id": "thread-e6f002a4e285",
       "subject": "problems with NA's",
       "message_count": 2,
@@ -147,9 +136,20 @@
         "David Winsemius",
         "Dorothea Kirchner"
       ],
-      "started": "2010-08-11T10:53:31+02:00",
-      "last_reply": "2010-08-11T08:30:07-04:00",
+      "started": "2010-08-11T08:53:31Z",
+      "last_reply": "2010-08-11T12:30:07Z",
       "root_message_id": "msg-e6f002a4e285"
+    },
+    {
+      "id": "thread-b3235de3b9ed",
+      "subject": "R-sig-Epi Digest, Vol 44, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Pedro Emmanuel Alvarenga Americano do Brasil"
+      ],
+      "started": "2010-08-11T12:32:27Z",
+      "last_reply": "2010-08-11T12:32:27Z",
+      "root_message_id": "msg-b3235de3b9ed"
     },
     {
       "id": "thread-ac685dc3a22c",
@@ -159,8 +159,8 @@
         "BXC (Bendix Carstensen)",
         "dieter.anseeuw"
       ],
-      "started": "2010-08-17T05:28:47+00:00",
-      "last_reply": "2010-08-17T07:57:46+02:00",
+      "started": "2010-08-17T05:28:47Z",
+      "last_reply": "2010-08-17T05:57:46Z",
       "root_message_id": "msg-ac685dc3a22c"
     },
     {
@@ -170,8 +170,8 @@
       "participants": [
         "BXC (Bendix Carstensen)"
       ],
-      "started": "2010-08-26T07:47:49+02:00",
-      "last_reply": "2010-08-26T09:16:21+02:00",
+      "started": "2010-08-26T05:47:49Z",
+      "last_reply": "2010-08-26T07:16:21Z",
       "root_message_id": "msg-c69bd697330f"
     }
   ]
