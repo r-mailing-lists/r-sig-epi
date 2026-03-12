@@ -114,6 +114,22 @@
       "thread_id": "thread-2cd5861c641b",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-7fb6fd4d1bc2",
+      "message_id": "<q7aVVhHdTLiFIn_lc8lHig@geopod-ismtpd-12>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-03-11T11:41:28Z",
+      "subject": "[R-sig-Epi] Last chance: AI for Systematic Reviews and Meta-Analysis",
+      "subject_clean": "Last chance: AI for Systematic Reviews and Meta-Analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Explore rigorous AI-integrated workflows to modernize your approach to evidence synthesis. AI for Systematic Reviews is a 2-day seminar livestreaming March 11?12 with Piers Steel (Haskayne School of Business, University of Calgary) and Hadi Fariborzi (Bissett School of Business, Mount Royal University, Calgary). The increasing volume of epidemiological literature makes traditional review methods unsustainable; this seminar introduces rigorous AI-integrated workflows to manage scale without sacrificing validity in your research. You will learn to embed artificial intelligence into every stage of the evidence synthesis pipeline, with practical demonstrations in HubMeta and R to master key quantitative workflows for your epidemiological data. This training will enable you to create analysis-ready datasets, conduct advanced quantitative meta-analyses, and perform bias diagnostics, directly enhancing the reproducibility and rigor of your own studies.\n\nSign up today (https://instats.org/seminar/ai-for-systematic-reviews) to join before enrollment closes, and please pass this to colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Explore rigorous AI-integrated workflows to modernize your approach to evidence synthesis. AI for Systematic Reviews is a 2-day seminar livestreaming March 11?12",
+      "thread_id": "thread-7fb6fd4d1bc2",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -193,6 +209,17 @@
       "started": "2026-03-10T08:13:36Z",
       "last_reply": "2026-03-10T08:13:36Z",
       "root_message_id": "msg-2cd5861c641b"
+    },
+    {
+      "id": "thread-7fb6fd4d1bc2",
+      "subject": "Last chance: AI for Systematic Reviews and Meta-Analysis",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-03-11T11:41:28Z",
+      "last_reply": "2026-03-11T11:41:28Z",
+      "root_message_id": "msg-7fb6fd4d1bc2"
     }
   ]
 }
