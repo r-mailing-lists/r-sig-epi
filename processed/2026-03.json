@@ -130,6 +130,22 @@
       "thread_id": "thread-7fb6fd4d1bc2",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-0f8a89871f86",
+      "message_id": "<ftQNXuBhREmvrQOhGJNHlQ@geopod-ismtpd-10>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-03-13T13:35:09Z",
+      "subject": "[R-sig-Epi] Last chance: RNA-seq: From FASTQ to Counts",
+      "subject_clean": "Last chance: RNA-seq: From FASTQ to Counts",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Accurate and reproducible processing of RNA-seq data is fundamental for advanced statistical analysis in your field. RNA-seq: From FASTQ to Counts is a 2-day seminar livestreaming March 23 and 25 with Estefania Mancini (Josep Carreras Leukaemia Research Institute). RNA sequencing provides critical molecular insights that can inform epidemiological studies, but processing raw data into reliable formats for analysis is complex. This seminar teaches how to implement reproducible nf-core Nextflow pipelines to transform FASTQ files into high-quality read count matrices. Mastering these data processing workflows will enable you to generate robust inputs for your R-based statistical and epidemiological analyses.\n\nSign up today (https://instats.org/seminar/rna-seq-from-fastq-to-counts) to join before enrollment closes, and please pass this to colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Accurate and reproducible processing of RNA-seq data is fundamental for advanced statistical analysis in your field. RNA-seq: From FASTQ to Counts is a 2-day sem",
+      "thread_id": "thread-0f8a89871f86",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -220,6 +236,17 @@
       "started": "2026-03-11T11:41:28Z",
       "last_reply": "2026-03-11T11:41:28Z",
       "root_message_id": "msg-7fb6fd4d1bc2"
+    },
+    {
+      "id": "thread-0f8a89871f86",
+      "subject": "Last chance: RNA-seq: From FASTQ to Counts",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-03-13T13:35:09Z",
+      "last_reply": "2026-03-13T13:35:09Z",
+      "root_message_id": "msg-0f8a89871f86"
     }
   ]
 }

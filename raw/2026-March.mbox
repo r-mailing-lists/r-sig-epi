@@ -300,3 +300,24 @@ Instats | instats.org
 	[[alternative HTML version deleted]]
 
 
+From mzyphur m@iii@g oii i@st@ts@org  Fri Mar 13 14:35:09 2026
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Fri, 13 Mar 2026 13:35:09 +0000 (UTC)
+Subject: [R-sig-Epi] Last chance: RNA-seq: From FASTQ to Counts
+Message-ID: <ftQNXuBhREmvrQOhGJNHlQ@geopod-ismtpd-10>
+
+Hello R-SIG-EPI members
+
+Last chance - Accurate and reproducible processing of RNA-seq data is fundamental for advanced statistical analysis in your field. RNA-seq: From FASTQ to Counts is a 2-day seminar livestreaming March 23 and 25 with Estefania Mancini (Josep Carreras Leukaemia Research Institute). RNA sequencing provides critical molecular insights that can inform epidemiological studies, but processing raw data into reliable formats for analysis is complex. This seminar teaches how to implement reproducible nf-core Nextflow pipelines to transform FASTQ files into high-quality read count matrices. Mastering these data processing workflows will enable you to generate robust inputs for your R-based statistical and epidemiological analyses.
+
+Sign up today (https://instats.org/seminar/rna-seq-from-fastq-to-counts) to join before enrollment closes, and please pass this to colleagues and students who may be interested!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Instats | instats.org
+	[[alternative HTML version deleted]]
+
+
