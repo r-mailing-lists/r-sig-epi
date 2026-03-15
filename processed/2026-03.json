@@ -146,6 +146,22 @@
       "thread_id": "thread-0f8a89871f86",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-523845a21e50",
+      "message_id": "<1773483667.780819206@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-03-14T10:21:07Z",
+      "subject": "[R-sig-Epi] Integrating Large Language Model Tools into R Workflows (Online course)",
+      "subject_clean": "Integrating Large Language Model Tools into R Workflows (Online course)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nWe would like to inform you that only a few seats remain available for our upcoming online workshop: Integrating Large Language Model Tools into R Workflows\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/llms-4-r-mncn-csic/ ]( https://www.physalia-courses.org/courses-workshops/llms-4-r-mncn-csic/ ) \n\n\nDate: 25 March | 13:00?18:00 (Berlin time)\n \nThis one-day course is organized by Physalia-courses in conjunction with the 9th Scientific Conference of the National Museum of Natural Sciences (MNCN-CSIC).\nDuring this hands-on workshop, participants will learn how Large Language Models (LLMs) can be integrated directly into R-based data analysis workflows. The course will demonstrate practical ways to generate, edit, document, and troubleshoot R code using LLM-assisted tools, helping researchers work more efficiently and reproducibly.\n \nTopics include:\n\nSetting up and using LLM assistants in RStudio and Positron\n\nGenerating and editing R code with natural language prompts\n\nCreating data visualizations with LLM support\n\nExtracting structured data from PDFs using ellmer\n\nBest practices for responsible and reproducible use of AI tools in research\nThis workshop is designed for researchers and R users with basic programming experience. No prior knowledge of LLMs is required.\n \nBest regards,\nCarlo\n \n \n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nWe would like to inform you that only a few seats remain available for our upcoming online workshop: Integrating Large Language Model Tools into R Workflows\n \nCourse website: [ https://www.p",
+      "thread_id": "thread-523845a21e50",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -247,6 +263,17 @@
       "started": "2026-03-13T13:35:09Z",
       "last_reply": "2026-03-13T13:35:09Z",
       "root_message_id": "msg-0f8a89871f86"
+    },
+    {
+      "id": "thread-523845a21e50",
+      "subject": "Integrating Large Language Model Tools into R Workflows (Online course)",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-03-14T10:21:07Z",
+      "last_reply": "2026-03-14T10:21:07Z",
+      "root_message_id": "msg-523845a21e50"
     }
   ]
 }
