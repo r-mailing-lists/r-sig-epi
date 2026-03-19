@@ -194,6 +194,22 @@
       "thread_id": "thread-2cf42e8aedad",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-27cce813d192",
+      "message_id": "<q7E1LVFUR9CJGE1sn6hQew@geopod-ismtpd-1>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-03-18T11:22:14Z",
+      "subject": "[R-sig-Epi] Last chance: AI for Clinical Reasoning and Diagnosis",
+      "subject_clean": "Last chance: AI for Clinical Reasoning and Diagnosis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Explore new methods for AI-driven clinical reasoning and diagnostic support. AI for Clinical Reasoning and Diagnosis (Free Seminar) is a 2-day seminar livestreaming March 25 with Balu Bhasuran (School of Information (iSchool), Florida State University). This seminar examines AI-driven clinical reasoning by integrating laboratory results, EHRs, and large language models with causal inference. It provides methods for constructing causal graphs, performing counterfactual evaluations, and building reproducible pipelines for diagnostic hypotheses and patient explanations. Researchers can apply these robust evaluation strategies and data integration techniques to advance their epidemiological analyses and clinical research.\n\nSign up today (https://instats.org/seminar/ai-for-clinical-reasoning-and-diagnosis) to register now, and we'd appreciate you sharing this with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Explore new methods for AI-driven clinical reasoning and diagnostic support. AI for Clinical Reasoning and Diagnosis (Free Seminar) is a 2-day seminar livestream",
+      "thread_id": "thread-27cce813d192",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -328,6 +344,17 @@
       "started": "2026-03-17T16:03:47Z",
       "last_reply": "2026-03-17T16:03:47Z",
       "root_message_id": "msg-2cf42e8aedad"
+    },
+    {
+      "id": "thread-27cce813d192",
+      "subject": "Last chance: AI for Clinical Reasoning and Diagnosis",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-03-18T11:22:14Z",
+      "last_reply": "2026-03-18T11:22:14Z",
+      "root_message_id": "msg-27cce813d192"
     }
   ]
 }
