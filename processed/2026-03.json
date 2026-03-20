@@ -210,6 +210,22 @@
       "thread_id": "thread-27cce813d192",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-456c17287b38",
+      "message_id": "<1773937482.070625811@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-03-19T16:24:42Z",
+      "subject": "[R-sig-Epi] (Online course) Species Distribution Modeling with BART (1–3 July)",
+      "subject_clean": "(Online course) Species Distribution Modeling with BART (1–3 July)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n \nDo you already have some experience with species distribution modeling and want to learn a modern, powerful method to take your analyses further?\n \nJoin our online course, Species Distribution Modeling with BART (1?3 July) and gain hands-on experience with:\n\nBuilding and evaluating BART models in R for species occurrence\n\nSelecting informative predictors using embarcadero and dbarts\n\nVisualizing and interpreting effects and interactions in your models\n\nProjecting species distributions into new regions or times\nEach day combines live sessions with guided practical exercises and live support to make sure you can\n \nIf interested, check it out: [ https://www.physalia-courses.org/courses-workshops/barts/ ]( https://www.physalia-courses.org/courses-workshops/barts/ ) \n \nBest regards, Carlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n \nDo you already have some experience with species distribution modeling and want to learn a modern, powerful method to take your analyses further?\n \nJoin our online course, Species Distribu",
+      "thread_id": "thread-456c17287b38",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -355,6 +371,17 @@
       "started": "2026-03-18T11:22:14Z",
       "last_reply": "2026-03-18T11:22:14Z",
       "root_message_id": "msg-27cce813d192"
+    },
+    {
+      "id": "thread-456c17287b38",
+      "subject": "(Online course) Species Distribution Modeling with BART (1–3 July)",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-03-19T16:24:42Z",
+      "last_reply": "2026-03-19T16:24:42Z",
+      "root_message_id": "msg-456c17287b38"
     }
   ]
 }
