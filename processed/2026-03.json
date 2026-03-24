@@ -242,6 +242,22 @@
       "thread_id": "thread-3f71a41b985a",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-8dab7f291d11",
+      "message_id": "<9MC0Nf0mSbyg2N2liILQuA@geopod-ismtpd-3>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-03-23T09:02:53Z",
+      "subject": "[R-sig-Epi] Last chance: Practical Meta-Analysis for Beginners",
+      "subject_clean": "Last chance: Practical Meta-Analysis for Beginners",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers a comprehensive introduction to conducting and interpreting meta-analyses effectively. Practical Meta-Analysis for Beginners is a 2-day seminar livestreaming March 26 and 30 with Centre for Applied Statistics Courses (CASC) (University College London). This seminar introduces practical meta-analysis techniques, essential for synthesizing findings across multiple studies. Researchers in epidemiology can apply these methods to integrate diverse datasets, identify patterns, and resolve contradictions within their field using tools like R. You will learn to conduct and interpret meta-analyses, enhancing your ability to critically appraise literature and strengthen your own research contributions.\n\nSign up today (https://instats.org/seminar/practical-meta-analysis-for-beginners) to join before enrollment closes, and please pass this to colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers a comprehensive introduction to conducting and interpreting meta-analyses effectively. Practical Meta-Analysis for Beginners is a 2-day semin",
+      "thread_id": "thread-8dab7f291d11",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -409,6 +425,17 @@
       "started": "2026-03-20T13:44:33Z",
       "last_reply": "2026-03-20T13:44:33Z",
       "root_message_id": "msg-3f71a41b985a"
+    },
+    {
+      "id": "thread-8dab7f291d11",
+      "subject": "Last chance: Practical Meta-Analysis for Beginners",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-03-23T09:02:53Z",
+      "last_reply": "2026-03-23T09:02:53Z",
+      "root_message_id": "msg-8dab7f291d11"
     }
   ]
 }
