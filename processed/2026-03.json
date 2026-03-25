@@ -258,6 +258,22 @@
       "thread_id": "thread-8dab7f291d11",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-4b34db4a0122",
+      "message_id": "<1774370080.39329614@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-03-24T16:34:40Z",
+      "subject": "[R-sig-Epi] online course: Network Analysis in R",
+      "subject_clean": "online course: Network Analysis in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n \nWe are excited to announce our upcoming online course: Network Analysis in R, taking place from 4?7 May.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/network-analysis-in-r/ ]( https://www.physalia-courses.org/courses-workshops/network-analysis-in-r/ ) \n \nThis hands-on course will teach you how to analyse, model, and visualize network data in R, with practical exercises and live coding sessions every day. You will learn to explore network structures, calculate network statistics, detect clusters, perform statistical modeling, and create clear, informative visualizations. While the focus is on life sciences, the skills are fully transferable to other fields.\n \n \n \nYou may also be interested in our companion course Network Analysis in Systems Biology with R/Bioconductor, which links networks with multi-omics data and biological function.\n \n \n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/network-in-systems-biology/ ]( https://www.physalia-courses.org/courses-workshops/network-in-systems-biology/ ) \n \n \n \nBest regards,\n Carlo\n \n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n \nWe are excited to announce our upcoming online course: Network Analysis in R, taking place from 4?7 May.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/network-anal",
+      "thread_id": "thread-4b34db4a0122",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -436,6 +452,17 @@
       "started": "2026-03-23T09:02:53Z",
       "last_reply": "2026-03-23T09:02:53Z",
       "root_message_id": "msg-8dab7f291d11"
+    },
+    {
+      "id": "thread-4b34db4a0122",
+      "subject": "online course: Network Analysis in R",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-03-24T16:34:40Z",
+      "last_reply": "2026-03-24T16:34:40Z",
+      "root_message_id": "msg-4b34db4a0122"
     }
   ]
 }
