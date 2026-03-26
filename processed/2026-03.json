@@ -274,6 +274,22 @@
       "thread_id": "thread-4b34db4a0122",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-52c374c3af35",
+      "message_id": "<8E08N0-EQ1uper8gT_6RJw@geopod-ismtpd-14>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-03-25T11:28:32Z",
+      "subject": "[R-sig-Epi] Last chance: Strategic Careers in STEMM for ECRs",
+      "subject_clean": "Last chance: Strategic Careers in STEMM for ECRs",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Discover essential strategies for professional development and research impact in today's evolving STEMM landscape. Careers in STEMM: What No One Tells ECRs (Free Seminar) is a 2-day seminar livestreaming March 26 with Belinda Di Bartolo (BD STEMM Strategies). This seminar teaches early-career researchers how to strategically approach professional development, research impact, and career transitions within STEMM. For R-sig-Epi members, these strategies can be applied to enhance the visibility and impact of their epidemiological data analysis, informing choices about methodology and collaborative projects. Learning to think strategically about career planning can help researchers effectively position their R-based research for publication and secure funding in a competitive landscape.\n\nSign up today (https://instats.org/seminar/careers-in-stemm-what-no-one-tells-ecrs) to register now, and we'd appreciate you sharing this with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover essential strategies for professional development and research impact in today's evolving STEMM landscape. Careers in STEMM: What No One Tells ECRs (Fre",
+      "thread_id": "thread-52c374c3af35",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -463,6 +479,17 @@
       "started": "2026-03-24T16:34:40Z",
       "last_reply": "2026-03-24T16:34:40Z",
       "root_message_id": "msg-4b34db4a0122"
+    },
+    {
+      "id": "thread-52c374c3af35",
+      "subject": "Last chance: Strategic Careers in STEMM for ECRs",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-03-25T11:28:32Z",
+      "last_reply": "2026-03-25T11:28:32Z",
+      "root_message_id": "msg-52c374c3af35"
     }
   ]
 }
