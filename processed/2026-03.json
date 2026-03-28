@@ -290,6 +290,22 @@
       "thread_id": "thread-52c374c3af35",
       "thread_depth": 0,
       "month": "2026-03"
+    },
+    {
+      "id": "msg-30bb3c908790",
+      "message_id": "<XtWfUazQTUCJi4FtLjtD8w@geopod-ismtpd-16>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-03-27T13:20:01Z",
+      "subject": "[R-sig-Epi] Advanced Survey Design for Robust Research",
+      "subject_clean": "Advanced Survey Design for Robust Research",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nDiscover advanced methods to enhance your survey research and strengthen your empirical findings. Advanced Survey Design is a 2-day seminar livestreaming April 27?28, led by Adam Berinsky (MIT Political Experiments Research Lab, Massachusetts Institute of Technology). This workshop addresses advanced problems in survey design, focusing on challenges posed by contemporary online research methods. Participants will examine how inattentiveness, non-probability samples, and question-context effects can bias parameter estimates and undermine the validity of findings in epidemiological studies. Learning these evidence-based strategies will enable you to improve the validity and reliability of your survey-based measures, sharpening interpretations and strengthening arguments about data quality in your research.\n\nSign up today (https://instats.org/seminar/advanced-survey-design) to reserve your place, and feel free to circulate this with colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nDiscover advanced methods to enhance your survey research and strengthen your empirical findings. Advanced Survey Design is a 2-day seminar livestreaming April 27?28, led by A",
+      "thread_id": "thread-30bb3c908790",
+      "thread_depth": 0,
+      "month": "2026-03"
     }
   ],
   "threads": [
@@ -490,6 +506,17 @@
       "started": "2026-03-25T11:28:32Z",
       "last_reply": "2026-03-25T11:28:32Z",
       "root_message_id": "msg-52c374c3af35"
+    },
+    {
+      "id": "thread-30bb3c908790",
+      "subject": "Advanced Survey Design for Robust Research",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-03-27T13:20:01Z",
+      "last_reply": "2026-03-27T13:20:01Z",
+      "root_message_id": "msg-30bb3c908790"
     }
   ]
 }
