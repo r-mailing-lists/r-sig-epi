@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2026-04",
+  "messages": [
+    {
+      "id": "msg-651ef467f173",
+      "message_id": "<T4MjOaI0Sh-IPeFdnLGYVw@geopod-ismtpd-12>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-01T11:46:36Z",
+      "subject": "[R-sig-Epi] Last chance: Bregman Projection for Calibration Estimation",
+      "subject_clean": "Last chance: Bregman Projection for Calibration Estimation",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers valuable insights into robust methods for improving your data analysis and survey estimations. Bregman Projection for Calibration Estimation (Free Seminar) is a 2-day seminar livestreaming April 2 with Wei Fu (Merck), Jae-Kwang Kim (Department of Statistics, Iowa State University), and Pushpal Mukhopadhyay (Energy Information Administration and Washington Statistical Society). This seminar introduces calibration weighting as a Bregman projection, offering a unified framework to integrate auxiliary information into survey estimation and mitigate selection bias, which is crucial for robust epidemiological studies. Researchers in epidemiology can apply these techniques to improve the accuracy and efficiency of their analyses, especially when dealing with complex survey data or high-dimensional covariates in R. The framework supports debiased prediction and doubly robust estimation, enabling more reliable inferences from observational and survey-based epidemiological data.\n\nSign up today (https://instats.org/seminar/bregman-projection-for-calibration-estim) to join before enrollment closes, and please pass this to colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers valuable insights into robust methods for improving your data analysis and survey estimations. Bregman Projection for Calibration Estimation ",
+      "thread_id": "thread-651ef467f173",
+      "thread_depth": 0,
+      "month": "2026-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-651ef467f173",
+      "subject": "Last chance: Bregman Projection for Calibration Estimation",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-01T11:46:36Z",
+      "last_reply": "2026-04-01T11:46:36Z",
+      "root_message_id": "msg-651ef467f173"
+    }
+  ]
+}
