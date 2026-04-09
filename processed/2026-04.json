@@ -66,6 +66,22 @@
       "thread_id": "thread-4eb36349d7d6",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-8ac7a8a0fb84",
+      "message_id": "<h-Db-ivMSbqiGXP9GTRLsw@geopod-ismtpd-9>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-08T11:43:19Z",
+      "subject": "[R-sig-Epi] Last chance: Project Quality & Management Best Practices",
+      "subject_clean": "Last chance: Project Quality & Management Best Practices",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Discover best practices for managing data analysis projects effectively and ensuring high-quality outcomes. Project Quality and Management for Statisticians and Data Scientists is a 2-day seminar livestreaming April 8 and 22 with Michiko Wolcott (Msight Analytics). This seminar offers best practices and methodologies to address non-statistical challenges in data analysis projects, such as data quality issues and planning under uncertainty. Epidemiological researchers can apply these project management principles to enhance the rigor, reproducibility, and transparency of their R-based analyses and studies. Learn practical tools and tactics to improve project robustness and delivery outcomes, directly benefiting the execution and reporting of your epidemiological research.\n\nSign up today (https://instats.org/seminar/project-quality-and-management-for-stati) to reserve your place before it starts, and feel free to circulate this with colleagues and students!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover best practices for managing data analysis projects effectively and ensuring high-quality outcomes. Project Quality and Management for Statisticians and ",
+      "thread_id": "thread-8ac7a8a0fb84",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -112,6 +128,17 @@
       "started": "2026-04-06T10:04:04Z",
       "last_reply": "2026-04-06T10:04:04Z",
       "root_message_id": "msg-4eb36349d7d6"
+    },
+    {
+      "id": "thread-8ac7a8a0fb84",
+      "subject": "Last chance: Project Quality & Management Best Practices",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-08T11:43:19Z",
+      "last_reply": "2026-04-08T11:43:19Z",
+      "root_message_id": "msg-8ac7a8a0fb84"
     }
   ]
 }
