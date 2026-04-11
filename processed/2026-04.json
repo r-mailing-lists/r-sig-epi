@@ -82,6 +82,22 @@
       "thread_id": "thread-8ac7a8a0fb84",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-6995720d4c73",
+      "message_id": "<shJRHG2MSE6mu7grTU9icg@geopod-ismtpd-29>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-10T13:57:43Z",
+      "subject": "[R-sig-Epi] Last chance: RNA-seq: From Counts to Conclusions",
+      "subject_clean": "Last chance: RNA-seq: From Counts to Conclusions",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Explore practical, statistically rigorous RNA-seq workflows to advance your genomic investigations. RNA-seq: From Counts to Conclusions is a 2-day seminar livestreaming April 20 and 22 with Estefania Mancini (Josep Carreras Leukaemia Research Institute). RNA sequencing (RNA-seq) provides critical insights into gene expression, a powerful tool for epidemiological researchers seeking to understand molecular underpinnings of health and disease. This workshop offers practical, statistically rigorous RNA-seq workflows in R/Bioconductor, enabling you to translate raw sequencing data into robust, reproducible findings for your studies. You will gain skills to construct complete analysis pipelines, choose appropriate statistical models, and prepare publication-quality results, directly enhancing your ability to integrate genomic insights into epidemiological investigations.\n\nSign up today (https://instats.org/seminar/rna-seq-from-counts-to-conclusions) to join before enrollment closes, and please pass this to colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Explore practical, statistically rigorous RNA-seq workflows to advance your genomic investigations. RNA-seq: From Counts to Conclusions is a 2-day seminar livest",
+      "thread_id": "thread-6995720d4c73",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -139,6 +155,17 @@
       "started": "2026-04-08T11:43:19Z",
       "last_reply": "2026-04-08T11:43:19Z",
       "root_message_id": "msg-8ac7a8a0fb84"
+    },
+    {
+      "id": "thread-6995720d4c73",
+      "subject": "Last chance: RNA-seq: From Counts to Conclusions",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-10T13:57:43Z",
+      "last_reply": "2026-04-10T13:57:43Z",
+      "root_message_id": "msg-6995720d4c73"
     }
   ]
 }
