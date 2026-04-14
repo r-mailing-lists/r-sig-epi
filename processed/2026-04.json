@@ -98,6 +98,22 @@
       "thread_id": "thread-6995720d4c73",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-cbb1a8d3853f",
+      "message_id": "<7i8CyVyLSW6J8se-zD4tUw@geopod-ismtpd-5>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-13T09:01:42Z",
+      "subject": "[R-sig-Epi] Regression Modeling Strategies for Epidemiological Data",
+      "subject_clean": "Regression Modeling Strategies for Epidemiological Data",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nThis seminar will equip you with advanced strategies to strengthen your empirical modeling and analysis practices. Regression Modeling Strategies is a 2-day seminar livestreaming May 14 and 19, led by Frank Harrell (Department of Biostatistics, Vanderbilt University) and Drew Levy. This seminar provides contemporary strategies for specifying, fitting, validating, and interpreting multivariable regression models, directly applicable for R-sig-Epi researchers to enhance the robustness and credibility of their epidemiological data analyses. Participants will learn to address challenges like nonlinearity, overfitting, and missing data, and to effectively model complex outcomes such as survival and longitudinal data using R, thereby improving the rigor of their empirical work. These practical skills, including pre-specifying model complexity and visualizing fitted models, will empower researchers to produce more transparent, reproducible, and publishable results in their own studies.\n\nSign up today (https://instats.org/seminar/regression-modeling-strategies) to register, and we would appreciate you sharing this with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nThis seminar will equip you with advanced strategies to strengthen your empirical modeling and analysis practices. Regression Modeling Strategies is a 2-day seminar livestream",
+      "thread_id": "thread-cbb1a8d3853f",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -166,6 +182,17 @@
       "started": "2026-04-10T13:57:43Z",
       "last_reply": "2026-04-10T13:57:43Z",
       "root_message_id": "msg-6995720d4c73"
+    },
+    {
+      "id": "thread-cbb1a8d3853f",
+      "subject": "Regression Modeling Strategies for Epidemiological Data",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-13T09:01:42Z",
+      "last_reply": "2026-04-13T09:01:42Z",
+      "root_message_id": "msg-cbb1a8d3853f"
     }
   ]
 }
