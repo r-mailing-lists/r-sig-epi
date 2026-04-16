@@ -114,6 +114,22 @@
       "thread_id": "thread-cbb1a8d3853f",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-f40d6fbf8f3e",
+      "message_id": "<zpUQ4T58Rbm-oXudCMvP3g@geopod-ismtpd-16>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-15T11:58:39Z",
+      "subject": "[R-sig-Epi] Last chance: AI-Powered Qualitative Analysis in R",
+      "subject_clean": "Last chance: AI-Powered Qualitative Analysis in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - This workshop offers practical skills for integrating cutting-edge AI tools into your qualitative research workflows using R. AI-Powered Qualitative Analysis in R 2.0 is a 2-day seminar livestreaming April 17 with Kenneth Benoit (Singapore Management University) and Seraphine Maerz (School of Social and Political Science, University of Melbourne). This seminar introduces AI-powered qualitative analysis in R, offering methods to efficiently process diverse data types like patient narratives, survey responses, or policy documents. Researchers can apply these techniques to enhance their epidemiological studies by systematically coding and interpreting unstructured data, such as public health communication or social media trends related to health outcomes. You will learn to build reproducible analysis pipelines in R, ensuring transparency and scalability for integrating qualitative insights into your quantitative epidemiological frameworks.\n\nSign up today (https://instats.org/seminar/ai-powered-qualitative-analysis-in-r-20) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This workshop offers practical skills for integrating cutting-edge AI tools into your qualitative research workflows using R. AI-Powered Qualitative Analysis in ",
+      "thread_id": "thread-f40d6fbf8f3e",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -193,6 +209,17 @@
       "started": "2026-04-13T09:01:42Z",
       "last_reply": "2026-04-13T09:01:42Z",
       "root_message_id": "msg-cbb1a8d3853f"
+    },
+    {
+      "id": "thread-f40d6fbf8f3e",
+      "subject": "Last chance: AI-Powered Qualitative Analysis in R",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-15T11:58:39Z",
+      "last_reply": "2026-04-15T11:58:39Z",
+      "root_message_id": "msg-f40d6fbf8f3e"
     }
   ]
 }
