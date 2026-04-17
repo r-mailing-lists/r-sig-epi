@@ -130,6 +130,22 @@
       "thread_id": "thread-f40d6fbf8f3e",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-d94a229b1ec5",
+      "message_id": "<1776320535.08330525@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-04-16T06:22:15Z",
+      "subject": "[R-sig-Epi] (Online course) Handling Missing Data in R - 22–24 April",
+      "subject_clean": "(Online course) Handling Missing Data in R - 22–24 April",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nWe have just a few seats left for our upcoming online course ?Handling Missing Data in R?, taking place on 22?24 April (3?6 PM Berlin time).\n \nMissing data are a common challenge in real-world analyses, and handling them correctly is essential to avoid bias and ensure robust results. In this course, you will learn how to diagnose missingness (MCAR, MAR, MNAR), explore patterns in your data, and apply both traditional and modern imputation methods in R?including multiple imputation (MICE), regression approaches, and advanced algorithms such as EM and Soft Impute.\n \nBy the end of the course, you?ll be able to confidently choose and implement appropriate strategies for handling missing data in your own research.\n \n \nMore details and registration: [ https://www.physalia-courses.org/courses-workshops/missing-data-with-r/ ]( https://www.physalia-courses.org/courses-workshops/missing-data-with-r/ ) \n \n \nBest regards,\nCarlo\n \n \n \n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n\nWe have just a few seats left for our upcoming online course ?Handling Missing Data in R?, taking place on 22?24 April (3?6 PM Berlin time).\n \nMissing data are a common challenge in real-wo",
+      "thread_id": "thread-d94a229b1ec5",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -220,6 +236,17 @@
       "started": "2026-04-15T11:58:39Z",
       "last_reply": "2026-04-15T11:58:39Z",
       "root_message_id": "msg-f40d6fbf8f3e"
+    },
+    {
+      "id": "thread-d94a229b1ec5",
+      "subject": "(Online course) Handling Missing Data in R - 22–24 April",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-04-16T06:22:15Z",
+      "last_reply": "2026-04-16T06:22:15Z",
+      "root_message_id": "msg-d94a229b1ec5"
     }
   ]
 }
