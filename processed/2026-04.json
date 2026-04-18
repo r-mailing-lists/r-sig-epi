@@ -146,6 +146,22 @@
       "thread_id": "thread-d94a229b1ec5",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-6bc43d8f5231",
+      "message_id": "<PImaA01VQkiVCy7XNe0mpA@geopod-ismtpd-19>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-17T13:27:01Z",
+      "subject": "[R-sig-Epi] Web Scraping and Data Collection Methods",
+      "subject_clean": "Web Scraping and Data Collection Methods",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nDiscover how to systematically collect and transform web-based information for your research endeavors. Web Scraping and Data Collection is a 2-day seminar livestreaming May 13 and 15, led by Moses Boudourides (Data Science Graduate Program, School of Professional Studies, Northwestern University). This seminar offers a rigorous, research-focused introduction to web scraping and structured data collection for academics. For epidemiologists, these skills are crucial for accessing contemporary, fine-grained behavioral, institutional, or textual data often unavailable in traditional repositories, enabling novel insights into public health trends or disease patterns. Participants will learn to design robust data collection strategies, implement reproducible pipelines, and ensure data quality, thereby strengthening empirical claims and supporting transparent publication practices in their R-based analyses.\n\nSign up today (https://instats.org/seminar/web-scraping-and-data-collection) to register, and we would appreciate you sharing this with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nDiscover how to systematically collect and transform web-based information for your research endeavors. Web Scraping and Data Collection is a 2-day seminar livestreaming May 1",
+      "thread_id": "thread-6bc43d8f5231",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -247,6 +263,17 @@
       "started": "2026-04-16T06:22:15Z",
       "last_reply": "2026-04-16T06:22:15Z",
       "root_message_id": "msg-d94a229b1ec5"
+    },
+    {
+      "id": "thread-6bc43d8f5231",
+      "subject": "Web Scraping and Data Collection Methods",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-17T13:27:01Z",
+      "last_reply": "2026-04-17T13:27:01Z",
+      "root_message_id": "msg-6bc43d8f5231"
     }
   ]
 }
