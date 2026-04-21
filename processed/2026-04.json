@@ -178,6 +178,22 @@
       "thread_id": "thread-12e00e646d45",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-c01474f25120",
+      "message_id": "<lPOdebndRva7kYhyaqgZCQ@geopod-ismtpd-16>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-20T09:40:16Z",
+      "subject": "[R-sig-Epi] Last chance: Computational Genomics for Microbial Traits Research",
+      "subject_clean": "Last chance: Computational Genomics for Microbial Traits Research",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Discover new computational methods to analyze complex microbial and host data. Computational Genomics for Microbial Traits (Free Seminar) is a 2-day seminar livestreaming April 22 with Janani Ravi (University of Colorado Anschutz). This seminar introduces computational genomics and machine learning methods that epidemiologists can adapt to analyze large-scale microbial and host datasets. Researchers can apply these techniques to predict antimicrobial resistance, understand host responses to infection, and identify novel drug repurposing candidates within their epidemiological studies. The presented open-source tools and frameworks offer valuable resources for integrating genomic insights into public health and disease surveillance research.\n\nSign up today (https://instats.org/seminar/computational-genomics-for-microbial-tra) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover new computational methods to analyze complex microbial and host data. Computational Genomics for Microbial Traits (Free Seminar) is a 2-day seminar live",
+      "thread_id": "thread-c01474f25120",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -301,6 +317,17 @@
       "started": "2026-04-18T13:40:45Z",
       "last_reply": "2026-04-18T13:40:45Z",
       "root_message_id": "msg-12e00e646d45"
+    },
+    {
+      "id": "thread-c01474f25120",
+      "subject": "Last chance: Computational Genomics for Microbial Traits Research",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-20T09:40:16Z",
+      "last_reply": "2026-04-20T09:40:16Z",
+      "root_message_id": "msg-c01474f25120"
     }
   ]
 }
