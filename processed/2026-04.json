@@ -194,6 +194,22 @@
       "thread_id": "thread-c01474f25120",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-8347a83c1644",
+      "message_id": "<1776780018.43643205@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-04-21T14:00:18Z",
+      "subject": "[R-sig-Epi] (ONLINE COURSE) Network Analysis in R - 4–7 May",
+      "subject_clean": "(ONLINE COURSE) Network Analysis in R - 4–7 May",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nWe would like to inform you that only a few seats remain for our upcoming online course ?Network Analysis in R?, taking place 4?7 May.\n \nThis course provides a comprehensive introduction to network analysis in R, covering network data structures, graph creation and exploration, key statistics at multiple levels, clustering methods, statistical modeling, and visualization techniques. Each day combines theoretical lectures with hands-on coding sessions to reinforce learning in practice.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/network-analysis-in-r/ ]( https://www.physalia-courses.org/courses-workshops/network-analysis-in-r/ ) \n \n \nPlease feel free to contact us if you need further details.\nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nWe would like to inform you that only a few seats remain for our upcoming online course ?Network Analysis in R?, taking place 4?7 May.\n \nThis course provides a comprehensive introduction to ",
+      "thread_id": "thread-8347a83c1644",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -328,6 +344,17 @@
       "started": "2026-04-20T09:40:16Z",
       "last_reply": "2026-04-20T09:40:16Z",
       "root_message_id": "msg-c01474f25120"
+    },
+    {
+      "id": "thread-8347a83c1644",
+      "subject": "(ONLINE COURSE) Network Analysis in R - 4–7 May",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-04-21T14:00:18Z",
+      "last_reply": "2026-04-21T14:00:18Z",
+      "root_message_id": "msg-8347a83c1644"
     }
   ]
 }
