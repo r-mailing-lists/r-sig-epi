@@ -210,6 +210,22 @@
       "thread_id": "thread-8347a83c1644",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-1844216b18fd",
+      "message_id": "<kQ-qk3NdSD2vETfTu1DrMw@geopod-ismtpd-9>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-22T12:08:42Z",
+      "subject": "[R-sig-Epi] Last chance: Computational Genomics for Microbial Traits",
+      "subject_clean": "Last chance: Computational Genomics for Microbial Traits",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Discover how new computational genomics approaches can enhance your epidemiological research. Computational Genomics for Microbial Traits (Free Seminar) is a 2-day seminar livestreaming April 22 with Janani Ravi (University of Colorado Anschutz). This seminar introduces general-purpose computational approaches for integrating large-scale genomic and phenotypic data. Researchers in epidemiology can apply these methods, including machine learning and comparative genomics, to analyze complex microbial datasets, predict antimicrobial resistance, and understand host responses to infection within their own R-based statistical frameworks. The presented microbe-, host-, and disease-agnostic frameworks, along with open-source tools, offer valuable techniques for advancing epidemiological research and drug repurposing strategies.\n\nSign up today (https://instats.org/seminar/computational-genomics-for-microbial-tra) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover how new computational genomics approaches can enhance your epidemiological research. Computational Genomics for Microbial Traits (Free Seminar) is a 2-d",
+      "thread_id": "thread-1844216b18fd",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -355,6 +371,17 @@
       "started": "2026-04-21T14:00:18Z",
       "last_reply": "2026-04-21T14:00:18Z",
       "root_message_id": "msg-8347a83c1644"
+    },
+    {
+      "id": "thread-1844216b18fd",
+      "subject": "Last chance: Computational Genomics for Microbial Traits",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-22T12:08:42Z",
+      "last_reply": "2026-04-22T12:08:42Z",
+      "root_message_id": "msg-1844216b18fd"
     }
   ]
 }
