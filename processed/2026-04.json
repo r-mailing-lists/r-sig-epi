@@ -226,6 +226,22 @@
       "thread_id": "thread-1844216b18fd",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-5ecc8c631ca5",
+      "message_id": "<_NQAPr2jSKuYlELpPniD1A@geopod-ismtpd-7>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-24T13:30:50Z",
+      "subject": "[R-sig-Epi] Complex Data Exploration using ChatGPT",
+      "subject_clean": "Complex Data Exploration using ChatGPT",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nThis seminar will equip you with powerful tools to analyze and interpret complex research data. Exploratory Analysis of Complex Datasets with ChatGPT 3.0 is a 2-day seminar livestreaming May 27, led by Nikolay Oskolkov (Lund University). Epidemiological research often involves complex, high-dimensional datasets, where traditional analysis can obscure patterns; this seminar offers advanced exploratory data analysis techniques, including dimensionality reduction and various clustering methods, to uncover hidden structures in your data. Participants will learn to apply these skills to integrate diverse datasets and analyze time-series data using methods like Dynamic Time Warping, directly enhancing their ability to model disease progression or population dynamics. By leveraging tools such as R and ChatGPT, researchers can refine their analytical workflows, generate deeper insights, and more effectively interpret complex epidemiological findings.\n\nSign up today (https://instats.org/seminar/exploratory-analysis-of-complex-datasets-4) to reserve your place, and feel free to circulate this with colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nThis seminar will equip you with powerful tools to analyze and interpret complex research data. Exploratory Analysis of Complex Datasets with ChatGPT 3.0 is a 2-day seminar li",
+      "thread_id": "thread-5ecc8c631ca5",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -382,6 +398,17 @@
       "started": "2026-04-22T12:08:42Z",
       "last_reply": "2026-04-22T12:08:42Z",
       "root_message_id": "msg-1844216b18fd"
+    },
+    {
+      "id": "thread-5ecc8c631ca5",
+      "subject": "Complex Data Exploration using ChatGPT",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-24T13:30:50Z",
+      "last_reply": "2026-04-24T13:30:50Z",
+      "root_message_id": "msg-5ecc8c631ca5"
     }
   ]
 }
