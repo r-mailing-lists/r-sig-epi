@@ -242,6 +242,22 @@
       "thread_id": "thread-5ecc8c631ca5",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-ffee6d4b6aaa",
+      "message_id": "<elOPtGMfSxWTxYNND-DvAA@geopod-ismtpd-0>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-27T09:01:50Z",
+      "subject": "[R-sig-Epi] Last chance: Dimension Reduction for Complex Datasets",
+      "subject_clean": "Last chance: Dimension Reduction for Complex Datasets",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Discover advanced techniques for simplifying and interpreting your high-dimensional research data. Dimension Reduction for Complex Datasets 2.0 is a 2-day seminar livestreaming April 27 with Nikolay Oskolkov (Lund University). High-dimensional data, common in epidemiological studies, presents challenges in analysis and interpretation. This seminar offers crucial dimension reduction techniques to simplify complex datasets, enabling clearer visualization of patterns and more efficient model building in your research. You will gain practical skills in R and Python to apply methods like tSNE and UMAP, enhancing the accuracy and utility of your epidemiological analyses.\n\nSign up today (https://instats.org/seminar/dimension-reduction-for-complex-datasets) to join before enrollment closes, and please pass this to colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover advanced techniques for simplifying and interpreting your high-dimensional research data. Dimension Reduction for Complex Datasets 2.0 is a 2-day semina",
+      "thread_id": "thread-ffee6d4b6aaa",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -409,6 +425,17 @@
       "started": "2026-04-24T13:30:50Z",
       "last_reply": "2026-04-24T13:30:50Z",
       "root_message_id": "msg-5ecc8c631ca5"
+    },
+    {
+      "id": "thread-ffee6d4b6aaa",
+      "subject": "Last chance: Dimension Reduction for Complex Datasets",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-27T09:01:50Z",
+      "last_reply": "2026-04-27T09:01:50Z",
+      "root_message_id": "msg-ffee6d4b6aaa"
     }
   ]
 }
