@@ -258,6 +258,22 @@
       "thread_id": "thread-ffee6d4b6aaa",
       "thread_depth": 0,
       "month": "2026-04"
+    },
+    {
+      "id": "msg-9bd16fa8b665",
+      "message_id": "<TrgkksraRmirSK0ErcGI1Q@geopod-ismtpd-8>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-04-29T11:33:39Z",
+      "subject": "[R-sig-Epi] Last chance: AI Multi-Agent Workflows in R",
+      "subject_clean": "Last chance: AI Multi-Agent Workflows in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Discover how to integrate advanced AI capabilities into your R-based research workflows for enhanced automation. AI Multi-Agent Workflows in R is a 2-day seminar livestreaming April 30 with Fodil Ihaddaden (Institute for Statistical and Data Science). Large language models are transforming research automation, but integrating them into reproducible R pipelines presents methodological challenges. This seminar introduces mini007 for building agent-based workflows, enabling epidemiologists to define roles, manage interactions, and orchestrate multi-agent systems directly within R for their data analysis and research tasks. Participants will learn to create transparent, auditable AI-assisted pipelines for tasks like literature synthesis, data curation, and report generation, enhancing reproducibility and efficiency in epidemiological studies.\n\nSign up today (https://instats.org/seminar/ai-multi-agent-workflows-in-r) to register now, and we'd appreciate you sharing this with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover how to integrate advanced AI capabilities into your R-based research workflows for enhanced automation. AI Multi-Agent Workflows in R is a 2-day seminar",
+      "thread_id": "thread-9bd16fa8b665",
+      "thread_depth": 0,
+      "month": "2026-04"
     }
   ],
   "threads": [
@@ -436,6 +452,17 @@
       "started": "2026-04-27T09:01:50Z",
       "last_reply": "2026-04-27T09:01:50Z",
       "root_message_id": "msg-ffee6d4b6aaa"
+    },
+    {
+      "id": "thread-9bd16fa8b665",
+      "subject": "Last chance: AI Multi-Agent Workflows in R",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-04-29T11:33:39Z",
+      "last_reply": "2026-04-29T11:33:39Z",
+      "root_message_id": "msg-9bd16fa8b665"
     }
   ]
 }
