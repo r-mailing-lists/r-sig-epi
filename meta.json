@@ -2,10 +2,10 @@
   "list": "r-sig-epi",
   "description": "",
   "source_url": "",
-  "total_messages": 607,
+  "total_messages": 608,
   "first_message": "2005-11-11T11:16:11Z",
-  "last_message": "2026-04-29T11:33:39Z",
-  "total_threads": 479,
+  "last_message": "2026-05-01T13:33:41Z",
+  "total_threads": 480,
   "months_available": [
     "2005-11",
     "2006-01",
@@ -142,6 +142,7 @@
     "2026-01",
     "2026-02",
     "2026-03",
-    "2026-04"
+    "2026-04",
+    "2026-05"
   ]
 }
