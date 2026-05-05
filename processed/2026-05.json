@@ -18,6 +18,22 @@
       "thread_id": "thread-cc7b3d146336",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-c9af2a3ed8c9",
+      "message_id": "<c9iCffO_S0KjO5oQT8WskA@geopod-ismtpd-3>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-05-04T09:01:43Z",
+      "subject": "[R-sig-Epi] Last chance: R for Exploratory Multivariate Analysis",
+      "subject_clean": "Last chance: R for Exploratory Multivariate Analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers a unique opportunity to enhance your quantitative research skills. Exploratory Multivariate Analysis in R is a 2-day seminar livestreaming May 7 and 20 with SMCS (Universit? Catholique de Louvain). This seminar introduces exploratory multivariate analysis with a focus on practical implementation in R, covering techniques like PCA, EFA, and clustering. For epidemiologists, these methods are invaluable for reducing dimensionality in complex health datasets, identifying hidden patterns, and handling diverse data types often encountered in public health research. Applying these skills will enable you to strengthen empirical claims, enhance reproducibility, and improve the clarity of published findings in your own epidemiological studies.\n\nSign up today (https://instats.org/seminar/exploratory-multivariate-analysis-in-r) to register now, and we'd appreciate you sharing this with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers a unique opportunity to enhance your quantitative research skills. Exploratory Multivariate Analysis in R is a 2-day seminar livestreaming Ma",
+      "thread_id": "thread-c9af2a3ed8c9",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -31,6 +47,17 @@
       "started": "2026-05-01T13:33:41Z",
       "last_reply": "2026-05-01T13:33:41Z",
       "root_message_id": "msg-cc7b3d146336"
+    },
+    {
+      "id": "thread-c9af2a3ed8c9",
+      "subject": "Last chance: R for Exploratory Multivariate Analysis",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-05-04T09:01:43Z",
+      "last_reply": "2026-05-04T09:01:43Z",
+      "root_message_id": "msg-c9af2a3ed8c9"
     }
   ]
 }
