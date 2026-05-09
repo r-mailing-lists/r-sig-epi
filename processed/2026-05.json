@@ -50,6 +50,22 @@
       "thread_id": "thread-92fcf86c1128",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-f4ea05107243",
+      "message_id": "<aKDorVCPTD-6Zp3Bek1yug@geopod-ismtpd-11>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-05-08T13:25:18Z",
+      "subject": "[R-sig-Epi] Last chance: Practical Regression Modeling Strategies",
+      "subject_clean": "Last chance: Practical Regression Modeling Strategies",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - We invite you to explore contemporary strategies for robust multivariable regression modeling in your research. Regression Modeling Strategies is a 2-day seminar livestreaming May 14 and 19 with Frank Harrell (Department of Biostatistics, Vanderbilt University) and Drew Levy. This seminar offers contemporary strategies for specifying, fitting, validating, and interpreting multivariable regression models. Researchers in epidemiology can apply these methods to address common challenges like nonlinearity, overfitting, missing data, and to effectively model continuous, binary, ordinal, and survival outcomes in their R-based analyses. The practical guidance on principled model formulation, causal inference, and reproducible analysis, including R code examples, will enhance the credibility and impact of your empirical work.\n\nSign up today (https://instats.org/seminar/regression-modeling-strategies) to reserve your place before it starts, and feel free to circulate this with colleagues and students!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - We invite you to explore contemporary strategies for robust multivariable regression modeling in your research. Regression Modeling Strategies is a 2-day seminar",
+      "thread_id": "thread-f4ea05107243",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -85,6 +101,17 @@
       "started": "2026-05-06T11:12:53Z",
       "last_reply": "2026-05-06T11:12:53Z",
       "root_message_id": "msg-92fcf86c1128"
+    },
+    {
+      "id": "thread-f4ea05107243",
+      "subject": "Last chance: Practical Regression Modeling Strategies",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-05-08T13:25:18Z",
+      "last_reply": "2026-05-08T13:25:18Z",
+      "root_message_id": "msg-f4ea05107243"
     }
   ]
 }
