@@ -66,6 +66,38 @@
       "thread_id": "thread-f4ea05107243",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-c521b132330f",
+      "message_id": "<1778488349.83939545@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-05-11T08:32:29Z",
+      "subject": "[R-sig-Epi] Interactive Maps with R – online course next week",
+      "subject_clean": "Interactive Maps with R – online course next week",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nIf you are interested in learning how to create and customizse interactive maps in R, you can still join us for this 2-day online course: [ https://www.physalia-courses.org/courses-workshops/interactive-maps-with-r/ ]( https://www.physalia-courses.org/courses-workshops/interactive-maps-with-r/ ) \n \nDates and time: 13-14 May (3-7 PM Berlin time).\n \nInteractive maps are increasingly used as powerful tools for communicating spatial information, allowing users to zoom, pan, explore multiple layers, and interact dynamically with data. In this course, participants will learn how to build and publish interactive maps using free and open-source R packages such as leaflet and mapview.\n \nThe course combines short theoretical introductions with extensive hands-on practical exercises. Participants will work with both provided and personal spatial datasets, learning how to create multi-layer interactive maps, customize map elements, add charts and pop-up information, synchronize maps, and publish their outputs online for collaborators or the public.\n \nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nIf you are interested in learning how to create and customizse interactive maps in R, you can still join us for this 2-day online course: [ https://www.physalia-courses.org/courses-workshops",
+      "thread_id": "thread-c521b132330f",
+      "thread_depth": 0,
+      "month": "2026-05"
+    },
+    {
+      "id": "msg-233f6412dd41",
+      "message_id": "<bw6wSHyaRgqtQtTe7F4iBA@geopod-ismtpd-1>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-05-11T09:44:37Z",
+      "subject": "[R-sig-Epi] Last chance: R, Regression, and rms Package",
+      "subject_clean": "Last chance: R, Regression, and rms Package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers a comprehensive introduction to statistical computing and regression analysis. Introduction to R, Regression, and the rms Package is a 2-day seminar livestreaming May 11 with Frank Harrell (Department of Biostatistics, Vanderbilt University) and Drew Levy. This workshop introduces foundational R and RStudio skills, linear and multiple regression principles, and the rms package for robust model specification and diagnosis. Epidemiological researchers can apply these methods to analyze complex health data, develop predictive models, and rigorously assess risk factors or treatment effects. The seminar also emphasizes building reproducible analysis workflows with Quarto, ensuring transparency and facilitating collaboration in your research projects.\n\nSign up today (https://instats.org/seminar/introduction-to-r-regression-and-the-rms) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers a comprehensive introduction to statistical computing and regression analysis. Introduction to R, Regression, and the rms Package is a 2-day ",
+      "thread_id": "thread-233f6412dd41",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -112,6 +144,28 @@
       "started": "2026-05-08T13:25:18Z",
       "last_reply": "2026-05-08T13:25:18Z",
       "root_message_id": "msg-f4ea05107243"
+    },
+    {
+      "id": "thread-c521b132330f",
+      "subject": "Interactive Maps with R – online course next week",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-05-11T08:32:29Z",
+      "last_reply": "2026-05-11T08:32:29Z",
+      "root_message_id": "msg-c521b132330f"
+    },
+    {
+      "id": "thread-233f6412dd41",
+      "subject": "Last chance: R, Regression, and rms Package",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-05-11T09:44:37Z",
+      "last_reply": "2026-05-11T09:44:37Z",
+      "root_message_id": "msg-233f6412dd41"
     }
   ]
 }
