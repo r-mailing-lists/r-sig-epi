@@ -98,6 +98,38 @@
       "thread_id": "thread-233f6412dd41",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-f8e250bd60c6",
+      "message_id": "<1778665421.618627208@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-05-13T09:43:41Z",
+      "subject": "[R-sig-Epi] Dealing with Messy Data in R – Online Course (13–15 July)",
+      "subject_clean": "Dealing with Messy Data in R – Online Course (13–15 July)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nWant to learn how to analyse real-world data with R?\nJoin our online course ?Dealing with Messy Data in R: Data Cleaning and Visualisation? taking place on 13?15 July.\n \nIn this hands-on course, you will learn how to clean, transform, and visualise messy datasets using the tidyverse and ggplot2, and how to turn raw data into clear, publication-ready figures.\n \nThe course is designed for participants who want to strengthen their data wrangling and visualisation skills. No prior experience with tidyverse or ggplot2 is required.\n \n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/messy-data/ ]( https://www.physalia-courses.org/courses-workshops/messy-data/ ) \n \nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nWant to learn how to analyse real-world data with R?\nJoin our online course ?Dealing with Messy Data in R: Data Cleaning and Visualisation? taking place on 13?15 July.\n \nIn this hands-on cou",
+      "thread_id": "thread-f8e250bd60c6",
+      "thread_depth": 0,
+      "month": "2026-05"
+    },
+    {
+      "id": "msg-ad29cca827ab",
+      "message_id": "<rmOEC7fkTR2ICliUhGhJHw@geopod-ismtpd-5>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-05-13T11:49:12Z",
+      "subject": "[R-sig-Epi] Last chance: Practical Web Scraping and Data Collection",
+      "subject_clean": "Last chance: Practical Web Scraping and Data Collection",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Explore methods for extracting and transforming web-based data into robust inputs for your empirical studies. Web Scraping and Data Collection is a 2-day seminar livestreaming May 13 and 15 with Moses Boudourides (Data Science Graduate Program, School of Professional Studies, Northwestern University). This seminar offers a rigorous introduction to web scraping and structured data collection, focusing on transforming diverse online sources into analysis-ready datasets. Researchers in epidemiology can apply these methods to access contemporary behavioral, institutional, and textual data, enabling bespoke longitudinal and cross-sectional research designs for their studies. Participants will learn to design robust collection strategies, implement cleaning and validation routines, and document data provenance, enhancing the credibility and reproducibility of their empirical epidemiological work.\n\nSign up today (https://instats.org/seminar/web-scraping-and-data-collection) to register now, and we'd appreciate you sharing this with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Explore methods for extracting and transforming web-based data into robust inputs for your empirical studies. Web Scraping and Data Collection is a 2-day seminar",
+      "thread_id": "thread-ad29cca827ab",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -166,6 +198,28 @@
       "started": "2026-05-11T09:44:37Z",
       "last_reply": "2026-05-11T09:44:37Z",
       "root_message_id": "msg-233f6412dd41"
+    },
+    {
+      "id": "thread-f8e250bd60c6",
+      "subject": "Dealing with Messy Data in R – Online Course (13–15 July)",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-05-13T09:43:41Z",
+      "last_reply": "2026-05-13T09:43:41Z",
+      "root_message_id": "msg-f8e250bd60c6"
+    },
+    {
+      "id": "thread-ad29cca827ab",
+      "subject": "Last chance: Practical Web Scraping and Data Collection",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-05-13T11:49:12Z",
+      "last_reply": "2026-05-13T11:49:12Z",
+      "root_message_id": "msg-ad29cca827ab"
     }
   ]
 }
