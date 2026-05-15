@@ -130,6 +130,22 @@
       "thread_id": "thread-ad29cca827ab",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-1a7c7317f109",
+      "message_id": "<1778757441.839831134@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-05-14T11:17:21Z",
+      "subject": "[R-sig-Epi] Bayesian Methods for Biomedical Data Science (Online Course | Nov 30 – Dec 4)",
+      "subject_clean": "Bayesian Methods for Biomedical Data Science (Online Course | Nov 30 – Dec 4)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n \nWe are pleased to announce the upcoming online course ?Bayesian Methods for Biomedical Data Science?, taking place from November 30 to December 4.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/bayesian-in-compgen/ ]( https://www.physalia-courses.org/courses-workshops/bayesian-in-compgen/ ) \n \n \nUncertainty is inherent to biomedical data, and Bayesian methods offer a principled and powerful framework to model it. This 5-day hands-on course is designed to equip participants with both the theoretical foundations and practical skills needed to apply Bayesian approaches in modern biomedical research.\n \nThe course is intended for advanced MSc students, PhD candidates, and postdoctoral researchers in statistics, biostatistics, and computational biology.\n \nTopics include:\n\n? Bayesian inference & probabilistic modeling\n? MCMC methods (Gibbs sampling, Hamiltonian Monte Carlo) and diagnostics\n? Hierarchical models, GLMs, and Bayesian regularization\n? Variational inference\n? Multimodal data integration and uncertainty quantification\n \n \nAll concepts will be reinforced through practical sessions using real biomedical datasets, ensuring participants gain hands-on experience with real-world applications.\n\n\n \nBest regards,\nCarlo\n \n \n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n \nWe are pleased to announce the upcoming online course ?Bayesian Methods for Biomedical Data Science?, taking place from November 30 to December 4.\n \nCourse website: [ https://www.physalia-",
+      "thread_id": "thread-1a7c7317f109",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -220,6 +236,17 @@
       "started": "2026-05-13T11:49:12Z",
       "last_reply": "2026-05-13T11:49:12Z",
       "root_message_id": "msg-ad29cca827ab"
+    },
+    {
+      "id": "thread-1a7c7317f109",
+      "subject": "Bayesian Methods for Biomedical Data Science (Online Course | Nov 30 – Dec 4)",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-05-14T11:17:21Z",
+      "last_reply": "2026-05-14T11:17:21Z",
+      "root_message_id": "msg-1a7c7317f109"
     }
   ]
 }
