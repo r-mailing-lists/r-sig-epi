@@ -278,3 +278,57 @@ Instats | instats.org
 	[[alternative HTML version deleted]]
 
 
+From i@io m@iii@g oii phys@ii@-courses@org  Sat May 16 11:19:54 2026
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Sat, 16 May 2026 11:19:54 +0200 (CEST)
+Subject: [R-sig-Epi] Online Course: Bayesian Causal Networks in R
+Message-ID: <1778923194.079322038@webmail.jimdo.com>
+
+
+Dear all,
+We are pleased to announce our upcoming online course: Bayesian Causal Networks in R
+ 
+ 
+Dates: 7?11 September  -3?6 PM (Berlin time)
+ 
+Course website: [ https://www.physalia-courses.org/courses-workshops/bayesian-netwok/ ]( https://www.physalia-courses.org/courses-workshops/bayesian-netwok/ ) 
+ 
+Bayesian causal networks (Bayesian belief networks) are powerful probabilistic graphical models used to analyse complex multivariate systems under uncertainty. They combine causal reasoning with quantitative data analysis, enabling robust inference, prediction, and decision-making across a wide range of scientific disciplines.
+ 
+This course provides a practical and comprehensive introduction to Bayesian causal modelling in R. Through lectures, live coding sessions, and guided exercises, participants will learn how to:
+ 
+1) Formulate causal assumptions using directed acyclic graphs (DAGs)
+
+2) Perform structure and parameter learning in Bayesian networks
+
+3) Handle missing data and discretisation strategies
+ 
+4) Conduct posterior inference and sensitivity analyses
+
+5) Validate and interpret causal models for scientific applications
+ 
+Participants will build and evaluate their own multivariate Bayesian network using real and simulated datasets.
+ 
+ 
+ 
+Best regards,
+Carlo
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+

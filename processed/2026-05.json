@@ -162,6 +162,22 @@
       "thread_id": "thread-403edd552635",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-e69a88dc06bc",
+      "message_id": "<1778923194.079322038@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-05-16T09:19:54Z",
+      "subject": "[R-sig-Epi] Online Course: Bayesian Causal Networks in R",
+      "subject_clean": "Online Course: Bayesian Causal Networks in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nWe are pleased to announce our upcoming online course: Bayesian Causal Networks in R\n \n \nDates: 7?11 September  -3?6 PM (Berlin time)\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/bayesian-netwok/ ]( https://www.physalia-courses.org/courses-workshops/bayesian-netwok/ ) \n \nBayesian causal networks (Bayesian belief networks) are powerful probabilistic graphical models used to analyse complex multivariate systems under uncertainty. They combine causal reasoning with quantitative data analysis, enabling robust inference, prediction, and decision-making across a wide range of scientific disciplines.\n \nThis course provides a practical and comprehensive introduction to Bayesian causal modelling in R. Through lectures, live coding sessions, and guided exercises, participants will learn how to:\n \n1) Formulate causal assumptions using directed acyclic graphs (DAGs)\n\n2) Perform structure and parameter learning in Bayesian networks\n\n3) Handle missing data and discretisation strategies\n \n4) Conduct posterior inference and sensitivity analyses\n\n5) Validate and interpret causal models for scientific applications\n \nParticipants will build and evaluate their own multivariate Bayesian network using real and simulated datasets.\n \n \n \nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nWe are pleased to announce our upcoming online course: Bayesian Causal Networks in R\n \n \nDates: 7?11 September  -3?6 PM (Berlin time)\n \nCourse website: [ https://www.physalia-courses.org/cou",
+      "thread_id": "thread-e69a88dc06bc",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -274,6 +290,17 @@
       "started": "2026-05-15T13:56:22Z",
       "last_reply": "2026-05-15T13:56:22Z",
       "root_message_id": "msg-403edd552635"
+    },
+    {
+      "id": "thread-e69a88dc06bc",
+      "subject": "Online Course: Bayesian Causal Networks in R",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-05-16T09:19:54Z",
+      "last_reply": "2026-05-16T09:19:54Z",
+      "root_message_id": "msg-e69a88dc06bc"
     }
   ]
 }
