@@ -178,6 +178,22 @@
       "thread_id": "thread-e69a88dc06bc",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-ae5a3989b6cd",
+      "message_id": "<7e8l8Yu1QkigEeaKBvjgag@geopod-ismtpd-17>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-05-19T10:39:27Z",
+      "subject": "[R-sig-Epi] Last chance: Survival and Time-to-Event Data Analysis",
+      "subject_clean": "Last chance: Survival and Time-to-Event Data Analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - This upcoming opportunity will enhance your skills in analyzing complex event data. Introduction to Survival and Time-to-Event Data Analysis is a 2-day seminar livestreaming May 21 with Centre for Applied Statistics Courses (CASC) (University College London). This seminar offers a comprehensive introduction to survival and time-to-event data analysis, a critical methodology for epidemiologists examining outcomes like disease progression, recovery, or event recurrence. Participants will learn to apply techniques such as Kaplan-Meier and Cox regression, gaining practical skills to model and interpret uncertain event occurrences in their own research. The provided R code and guidance on output interpretation will directly support R-sig-Epi community members in advancing their epidemiological data analysis capabilities using R.\n\nSign up today (https://instats.org/seminar/introduction-to-survival-and-time-to-eve-1) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This upcoming opportunity will enhance your skills in analyzing complex event data. Introduction to Survival and Time-to-Event Data Analysis is a 2-day seminar l",
+      "thread_id": "thread-ae5a3989b6cd",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -301,6 +317,17 @@
       "started": "2026-05-16T09:19:54Z",
       "last_reply": "2026-05-16T09:19:54Z",
       "root_message_id": "msg-e69a88dc06bc"
+    },
+    {
+      "id": "thread-ae5a3989b6cd",
+      "subject": "Last chance: Survival and Time-to-Event Data Analysis",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-05-19T10:39:27Z",
+      "last_reply": "2026-05-19T10:39:27Z",
+      "root_message_id": "msg-ae5a3989b6cd"
     }
   ]
 }
