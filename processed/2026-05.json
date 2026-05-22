@@ -194,6 +194,22 @@
       "thread_id": "thread-ae5a3989b6cd",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-0d1cf2a8a7bd",
+      "message_id": "<jy5a3KlgQpOUTdh-bfjn5w@geopod-ismtpd-14>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-05-21T12:28:47Z",
+      "subject": "[R-sig-Epi] Practical Meta-Analysis for Your Research",
+      "subject_clean": "Practical Meta-Analysis for Your Research",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nThis upcoming seminar offers a valuable opportunity to enhance your quantitative research skills. Practical Meta-Analysis for Beginners is a 2-day seminar livestreaming June 22 and 24, led by Centre for Applied Statistics Courses (CASC) (University College London). This seminar on meta-analysis equips researchers with essential statistical methods for integrating findings across multiple studies. Epidemiologists can apply these techniques to identify patterns and contradictions in complex datasets, significantly advancing their evidence synthesis capabilities. The optional R supplement provides practical application with real-world data, directly enhancing your ability to conduct and interpret meta-analyses within your own R-based epidemiological research.\n\nSign up today (https://instats.org/seminar/practical-meta-analysis-for-beginners-1) to join the livestream, and please pass this along to colleagues and students who may find it useful!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nThis upcoming seminar offers a valuable opportunity to enhance your quantitative research skills. Practical Meta-Analysis for Beginners is a 2-day seminar livestreaming June 2",
+      "thread_id": "thread-0d1cf2a8a7bd",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -328,6 +344,17 @@
       "started": "2026-05-19T10:39:27Z",
       "last_reply": "2026-05-19T10:39:27Z",
       "root_message_id": "msg-ae5a3989b6cd"
+    },
+    {
+      "id": "thread-0d1cf2a8a7bd",
+      "subject": "Practical Meta-Analysis for Your Research",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-05-21T12:28:47Z",
+      "last_reply": "2026-05-21T12:28:47Z",
+      "root_message_id": "msg-0d1cf2a8a7bd"
     }
   ]
 }
