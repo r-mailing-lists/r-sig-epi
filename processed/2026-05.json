@@ -210,6 +210,22 @@
       "thread_id": "thread-0d1cf2a8a7bd",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-351ba584caaa",
+      "message_id": "<zff5SUhWSG-2tZd_QwdA2g@geopod-ismtpd-7>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-05-23T14:26:13Z",
+      "subject": "[R-sig-Epi] Last chance: Single Cell Data Analysis with R and Python",
+      "subject_clean": "Last chance: Single Cell Data Analysis with R and Python",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Discover advanced computational methods for dissecting cellular heterogeneity in your research projects. Single Cell Data Analysis 3.0 is a 2-day seminar livestreaming May 25 with Nikolay Oskolkov (Lund University). Single-cell data analysis offers unprecedented insights into cellular heterogeneity, which can be crucial for epidemiological researchers investigating disease mechanisms at a granular level. This workshop equips participants with state-of-the-art computational tools and methodologies in R and Python for processing and interpreting complex single-cell RNA sequencing data. Mastering these techniques will enable R-sig-Epi members to conduct more accurate analyses of biological systems, fostering innovative research into disease progression and population health.\n\nSign up today (https://instats.org/seminar/single-cell-data-analysis-30) to join before enrollment closes, and please pass this to colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover advanced computational methods for dissecting cellular heterogeneity in your research projects. Single Cell Data Analysis 3.0 is a 2-day seminar livestr",
+      "thread_id": "thread-351ba584caaa",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -355,6 +371,17 @@
       "started": "2026-05-21T12:28:47Z",
       "last_reply": "2026-05-21T12:28:47Z",
       "root_message_id": "msg-0d1cf2a8a7bd"
+    },
+    {
+      "id": "thread-351ba584caaa",
+      "subject": "Last chance: Single Cell Data Analysis with R and Python",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-05-23T14:26:13Z",
+      "last_reply": "2026-05-23T14:26:13Z",
+      "root_message_id": "msg-351ba584caaa"
     }
   ]
 }
