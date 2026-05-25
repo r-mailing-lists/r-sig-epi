@@ -226,6 +226,22 @@
       "thread_id": "thread-351ba584caaa",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-657c831e8bb7",
+      "message_id": "<1779617637.089420632@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-05-24T10:13:57Z",
+      "subject": "[R-sig-Epi] Reproducibility Data Analysis with R (Online course)",
+      "subject_clean": "Reproducibility Data Analysis with R (Online course)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n \nReproducibility is one of the biggest challenges in modern data science and computational research ? and one of the most valuable skills you can develop.\n \nWe are happy to announce our upcoming online course: Reproducibility Data Analysis with R\n\nDates:  8?11 June \n \nThis hands-on course is designed for researchers and data scientists who want to create transparent, shareable, and future-proof analyses using modern R workflows.\n \nOver four intensive mornings, participants will learn how to:\n \n? Organise projects with reproducible structures\n? Create dynamic reports with Quarto\n? Use Git and GitHub for version control and collaboration\n? Build reproducible research compendia\n? Manage package dependencies with renv\n? Share data using DOI-linked repositories\n? Use Docker containers to ensure analyses run anywhere, anytime\n \nBy the end of the course, participants will have a complete workflow for building robust and reproducible R projects that can be easily shared, maintained, and rerun months later.\n \nWe look forward to welcoming you online in June!\n \nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n \nReproducibility is one of the biggest challenges in modern data science and computational research ? and one of the most valuable skills you can develop.\n \nWe are happy to announce our upc",
+      "thread_id": "thread-657c831e8bb7",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -382,6 +398,17 @@
       "started": "2026-05-23T14:26:13Z",
       "last_reply": "2026-05-23T14:26:13Z",
       "root_message_id": "msg-351ba584caaa"
+    },
+    {
+      "id": "thread-657c831e8bb7",
+      "subject": "Reproducibility Data Analysis with R (Online course)",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-05-24T10:13:57Z",
+      "last_reply": "2026-05-24T10:13:57Z",
+      "root_message_id": "msg-657c831e8bb7"
     }
   ]
 }
