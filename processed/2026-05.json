@@ -274,6 +274,38 @@
       "thread_id": "thread-e95ae226f601",
       "thread_depth": 0,
       "month": "2026-05"
+    },
+    {
+      "id": "msg-fbe05e00c6dd",
+      "message_id": "<1780152427.36945285@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-05-30T14:47:07Z",
+      "subject": "[R-sig-Epi] courses in statistical modelling (GLMs, GLMMs, GAMs, GLLVMs)",
+      "subject_clean": "courses in statistical modelling (GLMs, GLMMs, GAMs, GLLVMs)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nyesterday we concluded the Generalised Linear Models in R course: [ https://www.physalia-courses.org/courses-workshops/glm-in-r-1/ ]( https://www.physalia-courses.org/courses-workshops/glm-in-r-1/ )\n \nBut no worries ? we will be running it again in the future.\n \nIn the meantime, if you would like to further develop your statistical skills, we would like to highlight a few related courses that may be of interest:\nGLLVMs in R [ https://www.physalia-courses.org/courses-workshops/gllvm/ ]( https://www.physalia-courses.org/courses-workshops/gllvm/ )\nGLMMs in R [ https://www.physalia-courses.org/courses-workshops/glmms-in-r/ ]( https://www.physalia-courses.org/courses-workshops/glmms-in-r/ )\nGAMs in R [ https://www.physalia-courses.org/courses-workshops/gams-in-r/ ]( https://www.physalia-courses.org/courses-workshops/gams-in-r/ )\nThese are just a few examples ? you can find the full list of upcoming courses on our website: [ https://www.physalia-courses.org/courses-workshops ]( https://www.physalia-courses.org/courses-workshops )\n \nBest regards, Carlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nyesterday we concluded the Generalised Linear Models in R course: [ https://www.physalia-courses.org/courses-workshops/glm-in-r-1/ ]( https://www.physalia-courses.org/courses-workshops/glm-i",
+      "thread_id": "thread-fbe05e00c6dd",
+      "thread_depth": 0,
+      "month": "2026-05"
+    },
+    {
+      "id": "msg-90a8fb863e38",
+      "message_id": "<zeEFCM5qRImCRMwNr8ulDA@geopod-ismtpd-0>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-05-30T14:55:47Z",
+      "subject": "[R-sig-Epi] Mastering Latent Variable Mixture Models",
+      "subject_clean": "Mastering Latent Variable Mixture Models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nEnhance your statistical toolkit with advanced modeling techniques for complex observational data. Latent Variable Mixture Models is a 2-day seminar livestreaming July 6?7, led by Holmes Finch (Department of Educational Psychology - Ball State University). Epidemiologists can apply these advanced mixture modeling techniques to identify unobserved patient subpopulations and heterogeneous treatment responses within complex cohort data. By integrating these latent structures into your R workflows, you can more accurately model nonnormal trait distributions and detect measurement noninvariance across different demographic groups. This hands-on training equips you to translate complicated public health questions into robust statistical specifications, strengthening the validity of your empirical findings.\n\nSign up today (https://instats.org/seminar/latent-variable-mixture-models) to reserve your place, and feel free to circulate this with colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nEnhance your statistical toolkit with advanced modeling techniques for complex observational data. Latent Variable Mixture Models is a 2-day seminar livestreaming July 6?7, le",
+      "thread_id": "thread-90a8fb863e38",
+      "thread_depth": 0,
+      "month": "2026-05"
     }
   ],
   "threads": [
@@ -463,6 +495,28 @@
       "started": "2026-05-28T12:43:17Z",
       "last_reply": "2026-05-28T12:43:17Z",
       "root_message_id": "msg-e95ae226f601"
+    },
+    {
+      "id": "thread-fbe05e00c6dd",
+      "subject": "courses in statistical modelling (GLMs, GLMMs, GAMs, GLLVMs)",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-05-30T14:47:07Z",
+      "last_reply": "2026-05-30T14:47:07Z",
+      "root_message_id": "msg-fbe05e00c6dd"
+    },
+    {
+      "id": "thread-90a8fb863e38",
+      "subject": "Mastering Latent Variable Mixture Models",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-05-30T14:55:47Z",
+      "last_reply": "2026-05-30T14:55:47Z",
+      "root_message_id": "msg-90a8fb863e38"
     }
   ]
 }
