@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2026-06",
+  "messages": [
+    {
+      "id": "msg-91c3cf3f5b9e",
+      "message_id": "<2O97ySQnTpGDDHyWNX2u0Q@geopod-ismtpd-13>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-06-03T11:47:39Z",
+      "subject": "[R-sig-Epi] Last chance: Nonlinear Structural Equation Modeling in R",
+      "subject_clean": "Last chance: Nonlinear Structural Equation Modeling in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Enhance your statistical toolkit with advanced modeling techniques for complex observational data. Nonlinear Structural Equation Modeling is a 2-day seminar livestreaming June 11 with Holmes Finch (Department of Educational Psychology - Ball State University). Epidemiological researchers can apply these advanced methods to model complex, non-additive exposure-outcome pathways and latent health states more accurately. By integrating nonlinear structural equation modeling into your R workflow, you can better estimate threshold effects, latent interactions, and curvilinear growth trajectories in longitudinal cohort data. This allows for more robust causal mediation analyses and realistic measurement models when analyzing observational health datasets.\n\nSign up today (https://instats.org/seminar/nonlinear-structural-equation-modeling) to reserve your place before it starts, and feel free to circulate this with colleagues and students!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Enhance your statistical toolkit with advanced modeling techniques for complex observational data. Nonlinear Structural Equation Modeling is a 2-day seminar live",
+      "thread_id": "thread-91c3cf3f5b9e",
+      "thread_depth": 0,
+      "month": "2026-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-91c3cf3f5b9e",
+      "subject": "Last chance: Nonlinear Structural Equation Modeling in R",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-06-03T11:47:39Z",
+      "last_reply": "2026-06-03T11:47:39Z",
+      "root_message_id": "msg-91c3cf3f5b9e"
+    }
+  ]
+}
