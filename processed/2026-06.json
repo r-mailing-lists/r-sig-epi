@@ -34,6 +34,38 @@
       "thread_id": "thread-89c21e0f4daf",
       "thread_depth": 0,
       "month": "2026-06"
+    },
+    {
+      "id": "msg-650d2535fc96",
+      "message_id": "<wvFcaLWbTNS6EePeqy7Q4g@geopod-ismtpd-3>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-06-09T10:27:43Z",
+      "subject": "[R-sig-Epi] Last chance: AI-Assisted Systematic Reviews and Meta-Analysis",
+      "subject_clean": "Last chance: AI-Assisted Systematic Reviews and Meta-Analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Synthesizing vast bodies of evidence efficiently is becoming increasingly critical for modern scientific research. AI-Assisted Systematic Reviews and Meta-Analysis is a 2-day seminar livestreaming June 10 and 12 with Moses Boudourides (Data Science Graduate Program, School of Professional Studies, Northwestern University). Epidemiologists can leverage these AI-assisted workflows to rapidly screen and synthesize massive volumes of clinical and observational study literature. By integrating open bibliographic APIs and machine learning models, you can streamline the screening and data extraction phases of your meta-analyses while maintaining the strict transparency required for public health publications. This allows your research team to focus on interpreting epidemiological patterns and running robust statistical analyses in R rather than getting bogged down in manual database searches.\n\nSign up today (https://instats.org/seminar/ai-assisted-systematic-reviews-and-meta) to join before enrollment closes, and please pass this to colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Synthesizing vast bodies of evidence efficiently is becoming increasingly critical for modern scientific research. AI-Assisted Systematic Reviews and Meta-Analys",
+      "thread_id": "thread-650d2535fc96",
+      "thread_depth": 0,
+      "month": "2026-06"
+    },
+    {
+      "id": "msg-8b15a7747220",
+      "message_id": "<1781022561.828419088@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-06-09T16:29:21Z",
+      "subject": "[R-sig-Epi] BART models for species distribution modelling (SDMs)",
+      "subject_clean": "BART models for species distribution modelling (SDMs)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n \nwe are pleased to announce our online course: Species Distribution Modelling with Bayesian Additive Regression Tree (BART) methods\n \n\nDates: 1?3 July - Daily schedule: 15:00?18:00 (Berlin time)\n\n\n \n \n \nCourse website: https://www.physalia-courses.org/courses-workshops/barts/\n \n \n \n \n \nThis course introduces BART models for species distribution modelling (SDMs) and shows how they can improve prediction and interpretation compared to traditional approaches.\n \nUsing R and the embarcadero and dbarts packages, participants will learn the full SDM workflow: from predictor selection and model training to evaluation, interpretation, and prediction in new environments: \n \nIntroduction to SDMs and BART theory\nHands-on modelling in R (embarcadero, dbarts)\nPredictor selection, model fitting, and evaluation\nInterpretation of effects and spatial predictions\nAdvanced topics including random-intercept BARTs\n \n \n \nWe look forward to welcoming you!\n \nBest regards,\n \n \n \nCarlo\n \n \n \n \n \n \n \n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n \nwe are pleased to announce our online course: Species Distribution Modelling with Bayesian Additive Regression Tree (BART) methods\n \n\nDates: 1?3 July - Daily schedule: 15:00?18:00 (Berlin ",
+      "thread_id": "thread-8b15a7747220",
+      "thread_depth": 0,
+      "month": "2026-06"
     }
   ],
   "threads": [
@@ -58,6 +90,28 @@
       "started": "2026-06-06T14:29:44Z",
       "last_reply": "2026-06-06T14:29:44Z",
       "root_message_id": "msg-89c21e0f4daf"
+    },
+    {
+      "id": "thread-650d2535fc96",
+      "subject": "Last chance: AI-Assisted Systematic Reviews and Meta-Analysis",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-06-09T10:27:43Z",
+      "last_reply": "2026-06-09T10:27:43Z",
+      "root_message_id": "msg-650d2535fc96"
+    },
+    {
+      "id": "thread-8b15a7747220",
+      "subject": "BART models for species distribution modelling (SDMs)",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-06-09T16:29:21Z",
+      "last_reply": "2026-06-09T16:29:21Z",
+      "root_message_id": "msg-8b15a7747220"
     }
   ]
 }
