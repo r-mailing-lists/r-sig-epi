@@ -66,6 +66,22 @@
       "thread_id": "thread-8b15a7747220",
       "thread_depth": 0,
       "month": "2026-06"
+    },
+    {
+      "id": "msg-833fff9dde41",
+      "message_id": "<sPmH6ifSTwq22qg7se9f8A@geopod-ismtpd-4>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-06-11T12:34:51Z",
+      "subject": "[R-sig-Epi] Handling Non-Normal Traits in IRT Models",
+      "subject_clean": "Handling Non-Normal Traits in IRT Models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nEnhance your statistical toolkit with advanced measurement techniques for non-standard data distributions. Handling Non-Normal Traits in IRT Models (Free Seminar) is a seminar livestreaming July 2, led by Holmes Finch (Department of Educational Psychology - Ball State University). This free seminar introduces robust estimation techniques for item response theory models when latent traits depart from standard normality assumptions. Epidemiologists can apply these methods in R to more accurately analyze skewed health surveys, patient-reported outcome measures, and complex diagnostic data. By implementing these reproducible workflows, you can prevent parameter distortion and ensure more reliable statistical inferences in your public health research.\n\nSign up today (https://instats.org/seminar/handling-non-normal-traits-in-irt-models) to join the livestream, and please pass this along to colleagues and students who may find it useful!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nEnhance your statistical toolkit with advanced measurement techniques for non-standard data distributions. Handling Non-Normal Traits in IRT Models (Free Seminar) is a seminar",
+      "thread_id": "thread-833fff9dde41",
+      "thread_depth": 0,
+      "month": "2026-06"
     }
   ],
   "threads": [
@@ -112,6 +128,17 @@
       "started": "2026-06-09T16:29:21Z",
       "last_reply": "2026-06-09T16:29:21Z",
       "root_message_id": "msg-8b15a7747220"
+    },
+    {
+      "id": "thread-833fff9dde41",
+      "subject": "Handling Non-Normal Traits in IRT Models",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-06-11T12:34:51Z",
+      "last_reply": "2026-06-11T12:34:51Z",
+      "root_message_id": "msg-833fff9dde41"
     }
   ]
 }
