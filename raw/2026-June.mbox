@@ -172,3 +172,73 @@ Instats | instats.org
 	[[alternative HTML version deleted]]
 
 
+From i@io m@iii@g oii phys@ii@-courses@org  Tue Jun 16 12:03:28 2026
+From: i@io m@iii@g oii phys@ii@-courses@org (i@io m@iii@g oii phys@ii@-courses@org)
+Date: Tue, 16 Jun 2026 12:03:28 +0200 (CEST)
+Subject: [R-sig-Epi] =?utf-8?q?Workshop=3A_Markov_and_Hidden_Markov_Model?=
+ =?utf-8?q?s_with_Applications_in_R_=281=E2=80=934_September=2C_online=29?=
+Message-ID: <1781604208.7912669@webmail.jimdo.com>
+
+
+Dear all,
+We are pleased to announce our upcoming online course "Markov and Hidden Markov Models with Applications in R", taking place 1?4 September.
+ 
+Course website: [ https://www.physalia-courses.org/courses-workshops/markov-and-hidden-markov-models-with-applications-in-r/ ]( https://www.physalia-courses.org/courses-workshops/markov-and-hidden-markov-models-with-applications-in-r/ ) 
+ 
+ 
+This course provides a practical introduction to Markov and Hidden Markov Models for the analysis of longitudinal data. Participants will learn the theoretical foundations of these models and gain hands-on experience implementing them in R using the LMest package.
+ 
+ 
+Topics covered include:
+ 
+Discrete latent variable models.
+Markov and Hidden Markov Models.
+Longitudinal data analysis.
+Model estimation and selection procedures.
+Handling continuous, categorical, and incomplete longitudinal data.
+Bootstrap methods for uncertainty assessment.
+Applications using the R package LMest.
+ 
+ 
+Best regards,
+Carlo
+
+--------------------
+
+Carlo Pecoraro, Ph.D
+
+
+Physalia-courses DIRECTOR
+
+info at physalia-courses.org
+
+mobile: +49 17645230846
+
+[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From mzyphur m@iii@g oii i@st@ts@org  Tue Jun 16 12:05:40 2026
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Tue, 16 Jun 2026 10:05:40 +0000 (UTC)
+Subject: [R-sig-Epi] Last chance: Exploratory Analysis of Complex Datasets
+Message-ID: <I5DdMucrSKCM9f3_rKTL2g@geopod-ismtpd-5>
+
+Hello R-SIG-EPI members
+
+Last chance - Enhance your statistical workflows with advanced data analysis techniques starting next week. Exploratory Analysis of Complex Datasets with AI 3.0 is a seminar livestreaming June 17 with Nikolay Oskolkov (Lund University). Epidemiologists can apply these advanced dimensionality reduction and clustering techniques to uncover hidden patterns in highly complex, multi-variable health datasets. By integrating R and Python workflows with modern AI tools, researchers can streamline the processing of large-scale observational and time-series epidemiological data. This allows for more robust anomaly detection and precise subgroup identification to directly advance public health insights.
+
+Sign up today (https://instats.org/seminar/exploratory-analysis-of-complex-datasets-3) to reserve your place before it starts, and feel free to circulate this with colleagues and students!
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Instats | instats.org
+	[[alternative HTML version deleted]]
+
+
