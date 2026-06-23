@@ -146,6 +146,22 @@
       "thread_id": "thread-3eba3a751a3b",
       "thread_depth": 0,
       "month": "2026-06"
+    },
+    {
+      "id": "msg-31e1cf72ab0c",
+      "message_id": "<JiQMCrj2QP6eBHuGvxT0CA@geopod-ismtpd-8>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-06-22T09:46:09Z",
+      "subject": "[R-sig-Epi] Last chance: Overview of the GDIS Hub",
+      "subject_clean": "Last chance: Overview of the GDIS Hub",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - An upcoming live seminar offers valuable insights into a major public data resource for empirical researchers. Overview of the GDIS Hub (Free Seminar) is a seminar livestreaming June 23 with Fran?ois Marshall (Statistics Canada). This upcoming seminar provides an expert-guided introduction to the Gender, Diversity and Inclusion Statistics (GDIS) Hub and its disaggregated data holdings. Epidemiologists can leverage these structured public data resources to incorporate robust intersectional variables directly into their R-based statistical models and survival analyses. By mastering the Hub's organization, researchers will be able to better analyze health disparities and strengthen the empirical foundation of their peer-reviewed publications.\n\nSign up today (https://instats.org/seminar/overview-of-the-gdis-hub-free-seminar) to join before enrollment closes, and please pass this to colleagues and students who may be interested!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - An upcoming live seminar offers valuable insights into a major public data resource for empirical researchers. Overview of the GDIS Hub (Free Seminar) is a semin",
+      "thread_id": "thread-31e1cf72ab0c",
+      "thread_depth": 0,
+      "month": "2026-06"
     }
   ],
   "threads": [
@@ -247,6 +263,17 @@
       "started": "2026-06-18T12:46:35Z",
       "last_reply": "2026-06-18T12:46:35Z",
       "root_message_id": "msg-3eba3a751a3b"
+    },
+    {
+      "id": "thread-31e1cf72ab0c",
+      "subject": "Last chance: Overview of the GDIS Hub",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-06-22T09:46:09Z",
+      "last_reply": "2026-06-22T09:46:09Z",
+      "root_message_id": "msg-31e1cf72ab0c"
     }
   ]
 }
