@@ -194,6 +194,22 @@
       "thread_id": "thread-5cfac1edba00",
       "thread_depth": 0,
       "month": "2026-06"
+    },
+    {
+      "id": "msg-491b0236c420",
+      "message_id": "<r26LAKO5T4CPqhaxymspJQ@geopod-ismtpd-canary-0>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-06-26T14:18:46Z",
+      "subject": "[R-sig-Epi] Last chance: Critical Thinking Tools for the Age of AI",
+      "subject_clean": "Last chance: Critical Thinking Tools for the Age of AI",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nLast chance - Enhance the rigor of your empirical research with our upcoming livestream seminar on advanced critical thinking. Critical Thinking Tools for the Age of AI is a 2-day seminar livestreaming July 6?7 with Leonid Chindelevitch (School of Public Health, Imperial College London). Epidemiological researchers can apply these critical thinking tools to systematically stress-test causal hypotheses and identify hidden biases in complex observational data. By integrating Bayesian reasoning and adversarial argument-checking, you can significantly improve the defensibility of your study designs and peer-review responses. The curriculum also demonstrates how to use AI tools to sharpen, rather than replace, your analytical workflows when interpreting public health evidence.\n\nSign up today (https://instats.org/seminar/critical-thinking-tools-for-the-age-of-a) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Enhance the rigor of your empirical research with our upcoming livestream seminar on advanced critical thinking. Critical Thinking Tools for the Age of AI is a 2",
+      "thread_id": "thread-491b0236c420",
+      "thread_depth": 0,
+      "month": "2026-06"
     }
   ],
   "threads": [
@@ -328,6 +344,17 @@
       "started": "2026-06-24T11:48:34Z",
       "last_reply": "2026-06-24T11:48:34Z",
       "root_message_id": "msg-5cfac1edba00"
+    },
+    {
+      "id": "thread-491b0236c420",
+      "subject": "Last chance: Critical Thinking Tools for the Age of AI",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-06-26T14:18:46Z",
+      "last_reply": "2026-06-26T14:18:46Z",
+      "root_message_id": "msg-491b0236c420"
     }
   ]
 }
