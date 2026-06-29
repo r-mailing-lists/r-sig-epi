@@ -210,6 +210,22 @@
       "thread_id": "thread-491b0236c420",
       "thread_depth": 0,
       "month": "2026-06"
+    },
+    {
+      "id": "msg-b90767ef4e44",
+      "message_id": "<1782634722.78128056@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-06-28T08:18:42Z",
+      "subject": "[R-sig-Epi] Online course: Bayesian Machine Learning for Species Distribution Models",
+      "subject_clean": "Online course: Bayesian Machine Learning for Species Distribution Models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nThis is the last call to register for our upcoming online course Bayesian Machine Learning for Species Distribution Models, taking place 1?3 July.\n \nFormat: Live online (15:00?18:00 Berlin time) with guided practical exercises.\n \nCourse website: https://www.physalia-courses.org/courses-workshops/barts/\n \nDiscover how Bayesian Additive Regression Trees (BART) can improve species distribution models by delivering accurate predictions, quantifying uncertainty, and avoiding overfitting. Through a combination of live lectures and hands-on R practicals, you'll learn how to build, evaluate, interpret, and project BART-based species distribution models using the embarcadero and dbarts packages.\n \nDuring this 3-day course, you will learn how to:\nBuild and evaluate BART species distribution models in R\nSelect informative environmental predictors\nInterpret model outputs and predictor effects\nMap species distributions and prediction uncertainty\nProject models across regions and time\nThe course is intended for researchers, practitioners, and advanced students with basic experience in species distribution modeling and R.\n\n\n\nBest regards,\nCarlo \n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nThis is the last call to register for our upcoming online course Bayesian Machine Learning for Species Distribution Models, taking place 1?3 July.\n \nFormat: Live online (15:00?18:00 Berlin t",
+      "thread_id": "thread-b90767ef4e44",
+      "thread_depth": 0,
+      "month": "2026-06"
     }
   ],
   "threads": [
@@ -355,6 +371,17 @@
       "started": "2026-06-26T14:18:46Z",
       "last_reply": "2026-06-26T14:18:46Z",
       "root_message_id": "msg-491b0236c420"
+    },
+    {
+      "id": "thread-b90767ef4e44",
+      "subject": "Online course: Bayesian Machine Learning for Species Distribution Models",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-06-28T08:18:42Z",
+      "last_reply": "2026-06-28T08:18:42Z",
+      "root_message_id": "msg-b90767ef4e44"
     }
   ]
 }
