@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2026-07",
+  "messages": [
+    {
+      "id": "msg-9a111df22817",
+      "message_id": "<H4iGbi4mQGihxmp08IL1xA@geopod-ismtpd-8>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-07-07T10:12:32Z",
+      "subject": "[R-sig-Epi] Avoid Deceptive Data with Causal Roadmaps",
+      "subject_clean": "Avoid Deceptive Data with Causal Roadmaps",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nEnhancing the scientific validity of observational studies requires a disciplined approach to causal design. Data Can Deceive: Causal Roadmaps is a seminar livestreaming August 5, led by Kathryn Morrison (Precision Analytics) and Andy Wilson (Spencer Fox Eccles School of Medicine, University of Utah). This seminar provides a structured roadmap for moving from observational data to defensible causal estimands using target-trial emulation and directed acyclic graphs. Epidemiologists and R users can apply these rigorous design principles to their own datasets to eliminate common biases and ensure their statistical models reflect true causal processes rather than mere association. By integrating these workflows, researchers can produce highly credible, reproducible analyses that stand up to rigorous peer review.\n\nSign up today (https://instats.org/seminar/data-can-deceive-causal-roadmaps) to join the livestream, and please pass this along to colleagues and students who may find it useful!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nEnhancing the scientific validity of observational studies requires a disciplined approach to causal design. Data Can Deceive: Causal Roadmaps is a seminar livestreaming Augus",
+      "thread_id": "thread-9a111df22817",
+      "thread_depth": 0,
+      "month": "2026-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-9a111df22817",
+      "subject": "Avoid Deceptive Data with Causal Roadmaps",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-07-07T10:12:32Z",
+      "last_reply": "2026-07-07T10:12:32Z",
+      "root_message_id": "msg-9a111df22817"
+    }
+  ]
+}
