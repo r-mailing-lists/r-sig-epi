@@ -18,6 +18,22 @@
       "thread_id": "thread-9a111df22817",
       "thread_depth": 0,
       "month": "2026-07"
+    },
+    {
+      "id": "msg-4bb44586fb57",
+      "message_id": "<sCaGjnO3QEC7n7SwdwMQcg@geopod-ismtpd-3>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-07-15T11:10:04Z",
+      "subject": "[R-sig-Epi] Machine Learning for Computational Biology is enrolling",
+      "subject_clean": "Machine Learning for Computational Biology is enrolling",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nWe are pleased to announce an upcoming livestream seminar designed to enhance your statistical and analytical capabilities. Machine Learning for Computational Biology 4.0 is a seminar livestreaming July 30, led by Nikolay Oskolkov (Lund University). This seminar provides researchers with the practical skills to code and implement machine learning algorithms from scratch in R and Python. Epidemiologists and biostatisticians can apply these advanced techniques to analyze complex genomic data and model intricate disease patterns. By mastering neural networks, random forests, and MCMC methods, you can significantly enhance the predictive power and analytical depth of your research projects.\n\nSign up today (https://instats.org/seminar/machine-learning-for-computational-biolo-4) to secure your spot, and please share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nWe are pleased to announce an upcoming livestream seminar designed to enhance your statistical and analytical capabilities. Machine Learning for Computational Biology 4.0 is a",
+      "thread_id": "thread-4bb44586fb57",
+      "thread_depth": 0,
+      "month": "2026-07"
     }
   ],
   "threads": [
@@ -31,6 +47,17 @@
       "started": "2026-07-07T10:12:32Z",
       "last_reply": "2026-07-07T10:12:32Z",
       "root_message_id": "msg-9a111df22817"
+    },
+    {
+      "id": "thread-4bb44586fb57",
+      "subject": "Machine Learning for Computational Biology is enrolling",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-07-15T11:10:04Z",
+      "last_reply": "2026-07-15T11:10:04Z",
+      "root_message_id": "msg-4bb44586fb57"
     }
   ]
 }
