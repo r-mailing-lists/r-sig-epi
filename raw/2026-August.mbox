@@ -23,3 +23,25 @@ https://instats.org
 	[[alternative HTML version deleted]]
 
 
+From mzyphur m@iii@g oii i@st@ts@org  Tue Aug  4 16:02:57 2026
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Tue, 04 Aug 2026 14:02:57 +0000 (UTC)
+Subject: [R-sig-Epi] Causal Roadmaps for Epidemiologic Analysis
+Message-ID: <h3CDPgZmRmywAW14UsgiZQ@geopod-ismtpd-2>
+
+Hello R-SIG-EPI members
+
+A reminder - Sound epidemiologic evidence begins by specifying the comparison a study can support. Data Can Deceive: Causal Roadmaps is a seminar livestreaming August 5 with Robert Platt (School of Population and Global Health, McGill University), Kathryn Morrison (Precision Analytics), and Andy Wilson (Spencer Fox Eccles School of Medicine, University of Utah). Define epidemiologic estimands, assess identification conditions, and connect a research question to an implementable statistical analysis. Use target-trial thinking to specify eligibility, treatment strategies, time zero, outcomes, and follow-up when working with cohort, registry, or administrative data in R. Interpret adjustment and targeted-learning choices against explicit causal assumptions and communicate their limitations clearly.
+
+Details and registration: https://instats.org/seminar/data-can-deceive-causal-roadmaps
+Please circulate this reminder if it is relevant to colleagues or students.
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Instats | instats.org
+	[[alternative HTML version deleted]]
+
+

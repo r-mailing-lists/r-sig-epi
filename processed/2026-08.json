@@ -18,6 +18,22 @@
       "thread_id": "thread-150cd0ffb710",
       "thread_depth": 0,
       "month": "2026-08"
+    },
+    {
+      "id": "msg-5f31acd7fe33",
+      "message_id": "<h3CDPgZmRmywAW14UsgiZQ@geopod-ismtpd-2>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-08-04T14:02:57Z",
+      "subject": "[R-sig-Epi] Causal Roadmaps for Epidemiologic Analysis",
+      "subject_clean": "Causal Roadmaps for Epidemiologic Analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Sound epidemiologic evidence begins by specifying the comparison a study can support. Data Can Deceive: Causal Roadmaps is a seminar livestreaming August 5 with Robert Platt (School of Population and Global Health, McGill University), Kathryn Morrison (Precision Analytics), and Andy Wilson (Spencer Fox Eccles School of Medicine, University of Utah). Define epidemiologic estimands, assess identification conditions, and connect a research question to an implementable statistical analysis. Use target-trial thinking to specify eligibility, treatment strategies, time zero, outcomes, and follow-up when working with cohort, registry, or administrative data in R. Interpret adjustment and targeted-learning choices against explicit causal assumptions and communicate their limitations clearly.\n\nDetails and registration: https://instats.org/seminar/data-can-deceive-causal-roadmaps\nPlease circulate this reminder if it is relevant to colleagues or students.\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Sound epidemiologic evidence begins by specifying the comparison a study can support. Data Can Deceive: Causal Roadmaps is a seminar livestreaming August 5 with R",
+      "thread_id": "thread-5f31acd7fe33",
+      "thread_depth": 0,
+      "month": "2026-08"
     }
   ],
   "threads": [
@@ -31,6 +47,17 @@
       "started": "2026-08-04T03:00:55Z",
       "last_reply": "2026-08-04T03:00:55Z",
       "root_message_id": "msg-150cd0ffb710"
+    },
+    {
+      "id": "thread-5f31acd7fe33",
+      "subject": "Causal Roadmaps for Epidemiologic Analysis",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-08-04T14:02:57Z",
+      "last_reply": "2026-08-04T14:02:57Z",
+      "root_message_id": "msg-5f31acd7fe33"
     }
   ]
 }
