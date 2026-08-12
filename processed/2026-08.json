@@ -50,6 +50,22 @@
       "thread_id": "thread-734597002c6c",
       "thread_depth": 0,
       "month": "2026-08"
+    },
+    {
+      "id": "msg-98a3a15bfe63",
+      "message_id": "<SOuwWQEbQWmk78FlukluCA@geopod-ismtpd-canary-0>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-08-11T14:00:37Z",
+      "subject": "[R-sig-Epi] Spatial Data and R for Epidemiology",
+      "subject_clean": "Spatial Data and R for Epidemiology",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Place-based patterns are often central to interpreting epidemiological evidence. Introduction to Spatial Data and R as a GIS 2.0 is a 2-day seminar livestreaming August 18?19 with Nick Bearman (University College London and Geospatial Training Solutions). Import, manage, process, and visualise spatial data in R and RStudio. Create choropleth and interactive maps, work with spatial objects, and automate repeated mapping tasks. Apply these workflows to map and communicate geographic patterns in epidemiological data.\n\nDetails and registration: https://instats.org/seminar/introduction-to-spatial-data-and-r-as-a-4\nFull details are available on the Instats seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Place-based patterns are often central to interpreting epidemiological evidence. Introduction to Spatial Data and R as a GIS 2.0 is a 2-day seminar livestreaming ",
+      "thread_id": "thread-98a3a15bfe63",
+      "thread_depth": 0,
+      "month": "2026-08"
     }
   ],
   "threads": [
@@ -85,6 +101,17 @@
       "started": "2026-08-06T14:31:35Z",
       "last_reply": "2026-08-06T14:31:35Z",
       "root_message_id": "msg-734597002c6c"
+    },
+    {
+      "id": "thread-98a3a15bfe63",
+      "subject": "Spatial Data and R for Epidemiology",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-08-11T14:00:37Z",
+      "last_reply": "2026-08-11T14:00:37Z",
+      "root_message_id": "msg-98a3a15bfe63"
     }
   ]
 }
