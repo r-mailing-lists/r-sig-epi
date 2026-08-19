@@ -82,6 +82,22 @@
       "thread_id": "thread-63ccce90829d",
       "thread_depth": 0,
       "month": "2026-08"
+    },
+    {
+      "id": "msg-da21f260a3d0",
+      "message_id": "<XihDQignRrmCrZm5-UuKAg@geopod-ismtpd-4>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-08-18T14:08:10Z",
+      "subject": "[R-sig-Epi] R package development for epidemiology",
+      "subject_clean": "R package development for epidemiology",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Reusable analytical tools can make epidemiological work easier to check and collaborate on. R Package Development (Free Seminar) is a seminar livestreaming August 18 with Statistical Society of Canada (Statistical Society of Canada). Transform epidemiological R scripts into maintainable packages with organised code, unit tests, and documentation. Configure GitHub-based version control and automated testing workflows to support collaborative analytical development. Apply these practices to statistical analysis and display tools that epidemiology teams can review, reuse, and maintain.\n\nDetails and registration: https://instats.org/seminar/r-package-development-free-seminar\nPlease circulate this reminder if it is relevant to colleagues or students.\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Reusable analytical tools can make epidemiological work easier to check and collaborate on. R Package Development (Free Seminar) is a seminar livestreaming August",
+      "thread_id": "thread-da21f260a3d0",
+      "thread_depth": 0,
+      "month": "2026-08"
     }
   ],
   "threads": [
@@ -139,6 +155,17 @@
       "started": "2026-08-13T14:01:46Z",
       "last_reply": "2026-08-13T14:01:46Z",
       "root_message_id": "msg-63ccce90829d"
+    },
+    {
+      "id": "thread-da21f260a3d0",
+      "subject": "R package development for epidemiology",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-08-18T14:08:10Z",
+      "last_reply": "2026-08-18T14:08:10Z",
+      "root_message_id": "msg-da21f260a3d0"
     }
   ]
 }
