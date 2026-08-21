@@ -133,3 +133,25 @@ Instats | instats.org
 	[[alternative HTML version deleted]]
 
 
+From mzyphur m@iii@g oii i@st@ts@org  Thu Aug 20 16:04:09 2026
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Thu, 20 Aug 2026 14:04:09 +0000 (UTC)
+Subject: [R-sig-Epi] UMAP and Dimensionality Reduction
+Message-ID: <NqzXmcq7QpqgaNKnMfQ8mw@geopod-ismtpd-8>
+
+Hello R-SIG-EPI members
+
+High-dimensional epidemiological data can be difficult to explore without losing meaningful structure. Dimensionality Reduction with UMAP and Beyond 2.0 led by Nikolay Oskolkov (Lund University) is now available as an on-demand streaming seminar. Preprocess high-dimensional data and compare PCA, tSNE, UMAP, autoencoders, and related linear and nonlinear approaches. Implement and interpret dimension-reduction workflows in R and Python, including attention to tuning choices, structure preservation, and common pitfalls. Apply these methods to epidemiological datasets to explore multivariate patterns before subsequent modelling or visualisation.
+
+Course details: https://instats.org/seminar/dimensionality-reduction-with-umap-and-b-1
+Please circulate this information if it is relevant to colleagues or students.
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Instats | instats.org
+	[[alternative HTML version deleted]]
+
+
