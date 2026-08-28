@@ -130,6 +130,22 @@
       "thread_id": "thread-9305352cdb08",
       "thread_depth": 0,
       "month": "2026-08"
+    },
+    {
+      "id": "msg-d17ed2028609",
+      "message_id": "<iMKiFUNIR6u7zp8sNI8k6Q@geopod-ismtpd-2>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-08-27T14:09:22Z",
+      "subject": "[R-sig-Epi] Genetic association methods in R",
+      "subject_clean": "Genetic association methods in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological genetic evidence depends on linking analytical assumptions to defensible interpretations. Advanced Statistical Methods for Genetic Association Studies is a 2-day seminar livestreaming September 8 and 10 with Jingjing Yang (School of Medicine, Emory University). Construct reproducible R-supported workflows for genetic association analyses relevant to epidemiological questions about complex diseases and traits. Apply quality control, population-structure correction, QTL mapping, co-localization, Mendelian randomization, and transcriptome-wide association methods. Interpret genetic signals with attention to confounding, pleiotropy sensitivity, and transparent reporting for epidemiological research.\n\nDetails and registration: https://instats.org/seminar/advanced-statistical-methods-for-genetic\nPlease circulate this reminder if it is relevant to colleagues or students.\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological genetic evidence depends on linking analytical assumptions to defensible interpretations. Advanced Statistical Methods for Genetic Association Stu",
+      "thread_id": "thread-d17ed2028609",
+      "thread_depth": 0,
+      "month": "2026-08"
     }
   ],
   "threads": [
@@ -220,6 +236,17 @@
       "started": "2026-08-23T07:33:11Z",
       "last_reply": "2026-08-23T07:33:11Z",
       "root_message_id": "msg-9305352cdb08"
+    },
+    {
+      "id": "thread-d17ed2028609",
+      "subject": "Genetic association methods in R",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-08-27T14:09:22Z",
+      "last_reply": "2026-08-27T14:09:22Z",
+      "root_message_id": "msg-d17ed2028609"
     }
   ]
 }
