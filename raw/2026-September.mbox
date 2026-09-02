@@ -1,0 +1,23 @@
+From mzyphur m@iii@g oii i@st@ts@org  Tue Sep  1 16:00:05 2026
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Tue, 01 Sep 2026 14:00:05 +0000 (UTC)
+Subject: [R-sig-Epi] Single Cell Data Analysis 2.0 - Single-cell
+ epidemiology methods
+Message-ID: <g19mc69kT7CZ3_lxuwI1Fw@geopod-ismtpd-5>
+
+Hello R-SIG-EPI members
+
+Cell-level evidence can add resolution to population health questions. Single Cell Data Analysis 2.0 led by Nikolay Oskolkov (Lund University) is now available as an on-demand streaming seminar. Process single-cell RNA sequencing data through quality control, normalization, dimensionality reduction, clustering, and differential expression analysis. Use R and Python tools, including Seurat and Scanpy, to integrate datasets and investigate cellular heterogeneity in epidemiological research. Connect computational results to biological inference while accounting for batch effects and data structure.
+
+Course details: https://instats.org/seminar/single-cell-data-analysis-20-1
+The full course outline is available on the Instats course page.
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Instats | instats.org
+	[[alternative HTML version deleted]]
+
+
