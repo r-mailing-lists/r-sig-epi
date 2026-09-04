@@ -18,6 +18,22 @@
       "thread_id": "thread-65a582b7f4eb",
       "thread_depth": 0,
       "month": "2026-09"
+    },
+    {
+      "id": "msg-cb0b30d9c263",
+      "message_id": "<HuWnuphnTDq3wAlGLdhaIg@geopod-ismtpd-2>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-09-03T14:00:03Z",
+      "subject": "[R-sig-Epi] Longitudinal Biostatistics Methods in R",
+      "subject_clean": "Longitudinal Biostatistics Methods in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nRepeated observations require attention to correlation, missingness, and clustered study structures. Longitudinal Analysis in Biostatistics led by Md Tuhin Sheikh (Biostatistics, College of Health Solutions, Arizona State University) is now available as an on-demand streaming seminar. Marginal and conditional models, correlation structures, and multilevel methods support analysis of repeated epidemiological observations. Participants use R and RStudio to address missingness patterns, multiple imputation, sensitivity analysis, and fixed and random effects. Epidemiologists can apply these approaches to cohort, patient, and clustered data when estimating change over time.\n\nCourse details: https://instats.org/seminar/longitudinal-analysis-in-biostatistics\nThe full course outline is available on the Instats course page.\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nRepeated observations require attention to correlation, missingness, and clustered study structures. Longitudinal Analysis in Biostatistics led by Md Tuhin Sheikh (Biostatisti",
+      "thread_id": "thread-cb0b30d9c263",
+      "thread_depth": 0,
+      "month": "2026-09"
     }
   ],
   "threads": [
@@ -31,6 +47,17 @@
       "started": "2026-09-01T14:00:05Z",
       "last_reply": "2026-09-01T14:00:05Z",
       "root_message_id": "msg-65a582b7f4eb"
+    },
+    {
+      "id": "thread-cb0b30d9c263",
+      "subject": "Longitudinal Biostatistics Methods in R",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-09-03T14:00:03Z",
+      "last_reply": "2026-09-03T14:00:03Z",
+      "root_message_id": "msg-cb0b30d9c263"
     }
   ]
 }

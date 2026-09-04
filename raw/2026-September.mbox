@@ -21,3 +21,25 @@ Instats | instats.org
 	[[alternative HTML version deleted]]
 
 
+From mzyphur m@iii@g oii i@st@ts@org  Thu Sep  3 16:00:03 2026
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Thu, 03 Sep 2026 14:00:03 +0000 (UTC)
+Subject: [R-sig-Epi] Longitudinal Biostatistics Methods in R
+Message-ID: <HuWnuphnTDq3wAlGLdhaIg@geopod-ismtpd-2>
+
+Hello R-SIG-EPI members
+
+Repeated observations require attention to correlation, missingness, and clustered study structures. Longitudinal Analysis in Biostatistics led by Md Tuhin Sheikh (Biostatistics, College of Health Solutions, Arizona State University) is now available as an on-demand streaming seminar. Marginal and conditional models, correlation structures, and multilevel methods support analysis of repeated epidemiological observations. Participants use R and RStudio to address missingness patterns, multiple imputation, sensitivity analysis, and fixed and random effects. Epidemiologists can apply these approaches to cohort, patient, and clustered data when estimating change over time.
+
+Course details: https://instats.org/seminar/longitudinal-analysis-in-biostatistics
+The full course outline is available on the Instats course page.
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Instats | instats.org
+	[[alternative HTML version deleted]]
+
+
