@@ -82,6 +82,22 @@
       "thread_id": "thread-cb2bb6bc8b13",
       "thread_depth": 0,
       "month": "2026-09"
+    },
+    {
+      "id": "msg-b1d185e6dc7d",
+      "message_id": "<NG-A5UDbQ6CwC70iBFsvLQ@geopod-ismtpd-5>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-09-15T14:00:41Z",
+      "subject": "[R-sig-Epi] Gaussian Processes for Epidemiologic Modeling",
+      "subject_clean": "Gaussian Processes for Epidemiologic Modeling",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nEpidemiologic data often contain nonlinear patterns, seasonal variation, and correlated outcomes. Gaussian Processes with PyMC and LLMs led by Chris Fonnesbeck (PyMC Labs and Vanderbilt University Medical Center) is now available as an on-demand streaming seminar. Fit and diagnose Gaussian process models in PyMC for epidemiological data with nonlinear, seasonal, or correlated patterns. Choose kernels and likelihoods, assess models with posterior predictive checks and LOO-CV, and compare inference approaches. Apply scalable approximations and multi-output models when epidemiological datasets or linked outcomes require them.\n\nCourse details: https://instats.org/seminar/gaussian-processes-with-pymc-and-llms-1\nThe full course outline is available on the Instats course page.\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nEpidemiologic data often contain nonlinear patterns, seasonal variation, and correlated outcomes. Gaussian Processes with PyMC and LLMs led by Chris Fonnesbeck (PyMC Labs and ",
+      "thread_id": "thread-b1d185e6dc7d",
+      "thread_depth": 0,
+      "month": "2026-09"
     }
   ],
   "threads": [
@@ -139,6 +155,17 @@
       "started": "2026-09-10T14:00:06Z",
       "last_reply": "2026-09-10T14:00:06Z",
       "root_message_id": "msg-cb2bb6bc8b13"
+    },
+    {
+      "id": "thread-b1d185e6dc7d",
+      "subject": "Gaussian Processes for Epidemiologic Modeling",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-09-15T14:00:41Z",
+      "last_reply": "2026-09-15T14:00:41Z",
+      "root_message_id": "msg-b1d185e6dc7d"
     }
   ]
 }

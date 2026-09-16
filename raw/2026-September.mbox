@@ -109,3 +109,25 @@ Instats | instats.org
 	[[alternative HTML version deleted]]
 
 
+From mzyphur m@iii@g oii i@st@ts@org  Tue Sep 15 16:00:41 2026
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Tue, 15 Sep 2026 14:00:41 +0000 (UTC)
+Subject: [R-sig-Epi] Gaussian Processes for Epidemiologic Modeling
+Message-ID: <NG-A5UDbQ6CwC70iBFsvLQ@geopod-ismtpd-5>
+
+Hello R-SIG-EPI members
+
+Epidemiologic data often contain nonlinear patterns, seasonal variation, and correlated outcomes. Gaussian Processes with PyMC and LLMs led by Chris Fonnesbeck (PyMC Labs and Vanderbilt University Medical Center) is now available as an on-demand streaming seminar. Fit and diagnose Gaussian process models in PyMC for epidemiological data with nonlinear, seasonal, or correlated patterns. Choose kernels and likelihoods, assess models with posterior predictive checks and LOO-CV, and compare inference approaches. Apply scalable approximations and multi-output models when epidemiological datasets or linked outcomes require them.
+
+Course details: https://instats.org/seminar/gaussian-processes-with-pymc-and-llms-1
+The full course outline is available on the Instats course page.
+
+
+Best wishes
+
+Michael Zyphur
+Professor and Director
+Instats | instats.org
+	[[alternative HTML version deleted]]
+
+
