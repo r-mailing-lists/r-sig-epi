@@ -98,6 +98,22 @@
       "thread_id": "thread-b1d185e6dc7d",
       "thread_depth": 0,
       "month": "2026-09"
+    },
+    {
+      "id": "msg-09b07e9edbb6",
+      "message_id": "<JmXD6wsgTyi-ePUcQldIDQ@geopod-ismtpd-1>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-09-16T14:09:56Z",
+      "subject": "[R-sig-Epi] Verifiable AI for Academic Research - Testable AI workflows",
+      "subject_clean": "Verifiable AI for Academic Research - Testable AI workflows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Reproducible epidemiological analysis benefits from explicit checks on computational assistance. Verifiable AI for Academic Research is a 2-day seminar livestreaming September 16 and 18 with Michael Zyphur (Instats). Specify AI workflows, test their outputs against acceptance criteria, and maintain separate validation and research-use records. Participants compare models, reasoning settings, instructions, and context conditions on realistic academic tasks. Epidemiologists using R can apply this approach when assessing AI assistance for data analysis, code generation, or research reporting.\n\nDetails and registration: https://instats.org/seminar/verifiable-ai-for-academic-research\nPlease circulate this reminder if it is relevant to colleagues or students.\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Reproducible epidemiological analysis benefits from explicit checks on computational assistance. Verifiable AI for Academic Research is a 2-day seminar livestream",
+      "thread_id": "thread-09b07e9edbb6",
+      "thread_depth": 0,
+      "month": "2026-09"
     }
   ],
   "threads": [
@@ -166,6 +182,17 @@
       "started": "2026-09-15T14:00:41Z",
       "last_reply": "2026-09-15T14:00:41Z",
       "root_message_id": "msg-b1d185e6dc7d"
+    },
+    {
+      "id": "thread-09b07e9edbb6",
+      "subject": "Verifiable AI for Academic Research - Testable AI workflows",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-09-16T14:09:56Z",
+      "last_reply": "2026-09-16T14:09:56Z",
+      "root_message_id": "msg-09b07e9edbb6"
     }
   ]
 }
