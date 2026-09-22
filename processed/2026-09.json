@@ -114,6 +114,22 @@
       "thread_id": "thread-09b07e9edbb6",
       "thread_depth": 0,
       "month": "2026-09"
+    },
+    {
+      "id": "msg-5465f596932d",
+      "message_id": "<-U4zg216S82NT2S4PYavmw@geopod-ismtpd-7>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-09-21T14:03:00Z",
+      "subject": "[R-sig-Epi] Building AI Research Teams - AI workflows for epidemiology",
+      "subject_clean": "Building AI Research Teams - AI workflows for epidemiology",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Support reproducible decisions across demanding epidemiological analyses. Building AI Research Teams is a 2-day seminar livestreaming September 23 and 25 with Michael Zyphur (Instats). Coordinate AI roles for evidence synthesis, statistical analysis, verification, and revision within an accountable research process. Epidemiologists can adapt these workflows to R-based analyses and the presentation of epidemiological data. The seminar addresses approval points, retries, and trace inspection for evaluating multi-step outputs.\n\nDetails and registration: https://instats.org/seminar/building-ai-research-teams\nPlease circulate this reminder if it is relevant to colleagues or students.\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Support reproducible decisions across demanding epidemiological analyses. Building AI Research Teams is a 2-day seminar livestreaming September 23 and 25 with Mic",
+      "thread_id": "thread-5465f596932d",
+      "thread_depth": 0,
+      "month": "2026-09"
     }
   ],
   "threads": [
@@ -193,6 +209,17 @@
       "started": "2026-09-16T14:09:56Z",
       "last_reply": "2026-09-16T14:09:56Z",
       "root_message_id": "msg-09b07e9edbb6"
+    },
+    {
+      "id": "thread-5465f596932d",
+      "subject": "Building AI Research Teams - AI workflows for epidemiology",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-09-21T14:03:00Z",
+      "last_reply": "2026-09-21T14:03:00Z",
+      "root_message_id": "msg-5465f596932d"
     }
   ]
 }
