@@ -130,6 +130,22 @@
       "thread_id": "thread-5465f596932d",
       "thread_depth": 0,
       "month": "2026-09"
+    },
+    {
+      "id": "msg-cc8148c6461a",
+      "message_id": "<QeRJrfVORYO1T5Mvbr9Z0Q@geopod-ismtpd-4>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-09-24T14:01:14Z",
+      "subject": "[R-sig-Epi] No-code inference for epidemiological analysis",
+      "subject_clean": "No-code inference for epidemiological analysis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Sound epidemiological analysis begins with a defensible link between design and evidence. No-Code Statistical Inference is a 2-day seminar livestreaming September 28 and 30 with Moses Boudourides (Data Science Graduate Program, School of Professional Studies, Northwestern University). Study design, uncertainty, and effect estimates provide a basis for selecting and explaining epidemiological analyses. The seminar covers group comparisons, categorical association, regression, diagnostics, missing-data rules, and reproducible reporting through an interactive interface. R users can apply the reasoning to assess methods before implementing or reviewing analyses in epidemiological work.\n\nDetails and registration: https://instats.org/seminar/no-code-statistical-inference\nFull details are available on the Instats seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Sound epidemiological analysis begins with a defensible link between design and evidence. No-Code Statistical Inference is a 2-day seminar livestreaming September",
+      "thread_id": "thread-cc8148c6461a",
+      "thread_depth": 0,
+      "month": "2026-09"
     }
   ],
   "threads": [
@@ -220,6 +236,17 @@
       "started": "2026-09-21T14:03:00Z",
       "last_reply": "2026-09-21T14:03:00Z",
       "root_message_id": "msg-5465f596932d"
+    },
+    {
+      "id": "thread-cc8148c6461a",
+      "subject": "No-code inference for epidemiological analysis",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-09-24T14:01:14Z",
+      "last_reply": "2026-09-24T14:01:14Z",
+      "root_message_id": "msg-cc8148c6461a"
     }
   ]
 }
