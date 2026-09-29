@@ -146,6 +146,22 @@
       "thread_id": "thread-cc8148c6461a",
       "thread_depth": 0,
       "month": "2026-09"
+    },
+    {
+      "id": "msg-5e8a6eb85d0b",
+      "message_id": "<QUP2zOr_Sx2FMP3tArKaag@geopod-ismtpd-canary-0>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-09-28T14:03:01Z",
+      "subject": "[R-sig-Epi] Latent Variables and Questionnaires in R",
+      "subject_clean": "Latent Variables and Questionnaires in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Careful measurement supports interpretable evidence from population health surveys. Measuring Latent Variables with Questionnaires is a 2-day seminar livestreaming September 30 and October 2 with Bert Weijters (Faculty of Psychology and Educational Sciences, Ghent University). Confirmatory factor analysis in R can clarify whether epidemiological questionnaire indicators represent the intended latent constructs. Participants will assess reliability, model fit, factor loadings, and latent correlations with lavaan. These methods can strengthen studies of self-reported exposures, symptoms, behaviours, and health beliefs.\n\nDetails and registration: https://instats.org/seminar/measuring-latent-variables-with-question\nThe seminar page includes the full schedule and registration details.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Careful measurement supports interpretable evidence from population health surveys. Measuring Latent Variables with Questionnaires is a 2-day seminar livestreamin",
+      "thread_id": "thread-5e8a6eb85d0b",
+      "thread_depth": 0,
+      "month": "2026-09"
     }
   ],
   "threads": [
@@ -247,6 +263,17 @@
       "started": "2026-09-24T14:01:14Z",
       "last_reply": "2026-09-24T14:01:14Z",
       "root_message_id": "msg-cc8148c6461a"
+    },
+    {
+      "id": "thread-5e8a6eb85d0b",
+      "subject": "Latent Variables and Questionnaires in R",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-09-28T14:03:01Z",
+      "last_reply": "2026-09-28T14:03:01Z",
+      "root_message_id": "msg-5e8a6eb85d0b"
     }
   ]
 }
