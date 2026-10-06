@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2026-10",
+  "messages": [
+    {
+      "id": "msg-3275f84fa0b5",
+      "message_id": "<bog3Lk2dROeNlfqZWICjFw@geopod-ismtpd-2>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-10-05T14:01:48Z",
+      "subject": "[R-sig-Epi] AI-Assisted Data Analysis: Modern Workflows - AI workflows for epidemiology",
+      "subject_clean": "AI-Assisted Data Analysis: Modern Workflows - AI workflows for epidemiology",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological datasets require analytical workflows that remain inspectable from input to output. AI-Assisted Data Analysis: Modern Workflows is a seminar livestreaming October 6 with Kimberly Fessel (Dr Kim Data | Data Science Consultancy). Validate AI-generated Python code before using it to clean, explore, visualise, or analyse epidemiological data. Work with missing values, outliers, descriptive summaries, and charts while keeping statistical reasoning and data privacy central. Apply reproducible workflows to document analytical decisions in R-adjacent epidemiological research practice.\n\nDetails and registration: https://instats.org/seminar/ai-assisted-data-analysis-modern-workflo\nFurther information is available on the seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological datasets require analytical workflows that remain inspectable from input to output. AI-Assisted Data Analysis: Modern Workflows is a seminar lives",
+      "thread_id": "thread-3275f84fa0b5",
+      "thread_depth": 0,
+      "month": "2026-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-3275f84fa0b5",
+      "subject": "AI-Assisted Data Analysis: Modern Workflows - AI workflows for epidemiology",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-10-05T14:01:48Z",
+      "last_reply": "2026-10-05T14:01:48Z",
+      "root_message_id": "msg-3275f84fa0b5"
+    }
+  ]
+}
