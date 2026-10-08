@@ -18,6 +18,22 @@
       "thread_id": "thread-3275f84fa0b5",
       "thread_depth": 0,
       "month": "2026-10"
+    },
+    {
+      "id": "msg-e1b9d1c3e0ec",
+      "message_id": "<2hVr4EfqQ0mLfC5rCiU88g@geopod-ismtpd-2>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-10-07T14:00:04Z",
+      "subject": "[R-sig-Epi] Multilevel and Mixed Models for Epidemiology",
+      "subject_clean": "Multilevel and Mixed Models for Epidemiology",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - A rigorous approach to dependent observations can sharpen epidemiologic inference. Multilevel and Mixed Models with AI is a 2-day seminar livestreaming October 7 and 9 with Michael Zyphur (Instats | instats.org). Model clustered patient, clinic, and repeated-measures data by separating within-group from between-group variation. Estimate mixed-effects models in R and Mplus, then diagnose convergence and specification problems. Apply mediation, moderation, and simulation to epidemiologic questions while documenting AI-assisted coding and interpretation.\n\nDetails and registration: https://instats.org/seminar/multilevel-and-mixed-models-with-ai\nFurther information is available on the seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - A rigorous approach to dependent observations can sharpen epidemiologic inference. Multilevel and Mixed Models with AI is a 2-day seminar livestreaming October 7 ",
+      "thread_id": "thread-e1b9d1c3e0ec",
+      "thread_depth": 0,
+      "month": "2026-10"
     }
   ],
   "threads": [
@@ -31,6 +47,17 @@
       "started": "2026-10-05T14:01:48Z",
       "last_reply": "2026-10-05T14:01:48Z",
       "root_message_id": "msg-3275f84fa0b5"
+    },
+    {
+      "id": "thread-e1b9d1c3e0ec",
+      "subject": "Multilevel and Mixed Models for Epidemiology",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-10-07T14:00:04Z",
+      "last_reply": "2026-10-07T14:00:04Z",
+      "root_message_id": "msg-e1b9d1c3e0ec"
     }
   ]
 }
