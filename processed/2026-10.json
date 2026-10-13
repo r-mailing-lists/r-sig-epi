@@ -66,6 +66,22 @@
       "thread_id": "thread-0b07c98b50f0",
       "thread_depth": 0,
       "month": "2026-10"
+    },
+    {
+      "id": "msg-32bd53fe1c19",
+      "message_id": "<j-1qpqesRb2HlAyssksIBg@geopod-ismtpd-3>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-10-12T14:04:17Z",
+      "subject": "[R-sig-Epi] Your AI is Garbage and How to Fix It (Europe/UK) - AI reliability",
+      "subject_clean": "Your AI is Garbage and How to Fix It (Europe/UK) - AI reliability",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological analysis needs traceable evidence and inspectable computational procedures. Your AI is Garbage and How to Fix It (Europe/UK) is a seminar livestreaming October 15 with Michael Zyphur (Instats | instats.org). Context engineering, source verification, and repeated evaluation help identify where AI-assisted epidemiological analyses can go wrong. Researchers can apply role boundaries, structured handoffs, and acceptance criteria to workflows that retrieve evidence, work with data, or produce statistical outputs. The seminar addresses error propagation across multi-step tasks and ways to inspect results before relying on them.\n\nDetails and registration: https://instats.org/seminar/your-ai-is-garbage-and-how-to-fix-it-eur\nPlease circulate this reminder if it is relevant to colleagues or students.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological analysis needs traceable evidence and inspectable computational procedures. Your AI is Garbage and How to Fix It (Europe/UK) is a seminar livestre",
+      "thread_id": "thread-32bd53fe1c19",
+      "thread_depth": 0,
+      "month": "2026-10"
     }
   ],
   "threads": [
@@ -112,6 +128,17 @@
       "started": "2026-10-09T14:05:08Z",
       "last_reply": "2026-10-09T14:05:08Z",
       "root_message_id": "msg-0b07c98b50f0"
+    },
+    {
+      "id": "thread-32bd53fe1c19",
+      "subject": "Your AI is Garbage and How to Fix It (Europe/UK) - AI reliability",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-10-12T14:04:17Z",
+      "last_reply": "2026-10-12T14:04:17Z",
+      "root_message_id": "msg-32bd53fe1c19"
     }
   ]
 }
