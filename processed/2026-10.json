@@ -82,6 +82,22 @@
       "thread_id": "thread-32bd53fe1c19",
       "thread_depth": 0,
       "month": "2026-10"
+    },
+    {
+      "id": "msg-8f50331a1148",
+      "message_id": "<3A3MAK7SSK2FIblzvVyRIg@geopod-ismtpd-6>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-10-16T14:00:05Z",
+      "subject": "[R-sig-Epi] Statistical Foundations of Data Science with R - Epidemiological analysis in R",
+      "subject_clean": "Statistical Foundations of Data Science with R - Epidemiological analysis in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Sound epidemiological inference depends on matching statistical methods to the research question. Statistical Foundations of Data Science with R is a 2-day seminar livestreaming October 19 and 23 with Centre for Applied Statistics Courses (CASC) (University College London). R-based data summaries, graphical displays, confidence intervals, and regression support transparent analysis of epidemiological data. Participants learn to plan analyses, select significance tests, assess model fit, and make predictions in RStudio. Epidemiology researchers can apply these skills to describe patterns, compare groups, and communicate statistical findings from their studies.\n\nDetails and registration: https://instats.org/seminar/statistical-foundations-of-data-science\nPlease circulate this reminder if it is relevant to colleagues or students.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Sound epidemiological inference depends on matching statistical methods to the research question. Statistical Foundations of Data Science with R is a 2-day semina",
+      "thread_id": "thread-8f50331a1148",
+      "thread_depth": 0,
+      "month": "2026-10"
     }
   ],
   "threads": [
@@ -139,6 +155,17 @@
       "started": "2026-10-12T14:04:17Z",
       "last_reply": "2026-10-12T14:04:17Z",
       "root_message_id": "msg-32bd53fe1c19"
+    },
+    {
+      "id": "thread-8f50331a1148",
+      "subject": "Statistical Foundations of Data Science with R - Epidemiological analysis in R",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-10-16T14:00:05Z",
+      "last_reply": "2026-10-16T14:00:05Z",
+      "root_message_id": "msg-8f50331a1148"
     }
   ]
 }
