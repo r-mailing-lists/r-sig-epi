@@ -15,11 +15,14 @@
       "references": [
         "<51D83B88.30903@ugent.be>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130708/c83c5036/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130708/c83c5036/attachment.pl>",
+      "body_plain": "Dear list members,\n\nA new package, called *prevalence *(version 0.1.0), is now available on \nCRAN: http://cran.r-project.org/package=prevalence\n\nThis package provides Frequentist and Bayesian methods useful in \nprevalence assessment studies. More specifically, the following \nfunctions are currently available:\n\n  * truePrev -- Bayesian estimation of True Prevalence from Apparent\n    Prevalence obtained by testing /individual /samples\n  * truePrevPools -- Bayesian estimation of True Prevalence from\n    Apparent Prevalence obtained by testing /pooled /samples\n  * propCI -- Calculate confidence intervals for a prevalence estimate\n  * betaPERT -- Calculate the parameters of a Beta-PERT distribution\n  * betaExpert -- Calculate the parameters of a Beta distribution based\n    on expert opinion\n\nFunction 'truePrev' is also implemented in an online Shiny app: \nhttp://users.ugent.be/~bdvleess/R/prevalence/shiny/\n\nThe development version is on GitHub: \nhttps://github.com/brechtdv/prevalence/\n\nComments and suggestions would be greatly appreciated.\n\nBest wishes,\nBrecht and coauthors.\n\n-- \nDevleesschauwer Brecht\nDoctoral Researcher, MVSc DVM\nDepartment of Virology, Parasitology and Immunology\nFaculty of Veterinary Medicine\nGhent University\nSalisburylaan 133\n9820 Merelbeke\nBelgium\n\nTelephone: +32 9 264 7328\nMobile (Belgium): +32 476 365743\nMobile (Nepal): +977 9842 223323\nE-mail:brecht.devleesschauwer at ugent.be\n\nhttp://users.ugent.be/~bdvleess/\n\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear list members,\n\nA new package, called *prevalence *(version 0.1.0), is now available on \nCRAN: http://cran.r-project.org/package=prevalence\n\nThis package provides Frequentist and Bayesian methods ",
       "thread_id": "thread-11e788a8fc3f",
       "thread_depth": 0,
-      "month": "2013-07"
+      "month": "2013-07",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130708/c83c5036/attachment.pl"
+      ]
     }
   ],
   "threads": [

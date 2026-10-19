@@ -13,11 +13,14 @@
       "subject_clean": "lognormal distribution STD.error",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070904/eb8f4359/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070904/eb8f4359/attachment.pl",
+      "body_plain": "Dear Friend:\n\n \n\nI am working with a Matlab7.0 algorithm for find the mean and variance of a data with distribution lognormal approximately. \n\n \n\nThe software give an std.error at the estimator. How can I make a good interpretation about this for calculation of the mean error limits?\n\n \n\nEx:  28.56 +/- (#)\n\n \n\nTank you very much\n\n \n\n \n\n\n__________________________________________________________________\nServicio de Correos del Grupo de Redes. UCLV\n- Universidad 2008 del 11 al 15 de febrero del 2008.\nPalacio de Convenciones. La Habana. Cuba. http: //www.universidad2008.cu \n- II Taller internacional -Vitualización en la Educación Superior-, del 11 al 15 de febrero de 2008 \nPalacio de Convenciones. La Habana, Cuba. http://virtual-es.uclv.edu.cu\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear Friend:\n\n \n\nI am working with a Matlab7.0 algorithm for find the mean and variance of a data with distribution lognormal approximately. \n\n \n\nThe software give an std.error at the estimator. How c",
       "thread_id": "thread-7325e4e62726",
       "thread_depth": 0,
-      "month": "2007-09"
+      "month": "2007-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070904/eb8f4359/attachment.pl"
+      ]
     },
     {
       "id": "msg-c36cfab963e5",
@@ -97,11 +100,14 @@
       "subject_clean": "How to calculate the nth derivative of a function",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070927/81fe61d3/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070927/81fe61d3/attachment.pl",
+      "body_plain": "Hi,\n\nI have a short question regarding derivatives of functions in R. The problem\nis that I need the nth derivative of the function, where n is around 100,\nand the packages I have managed to find which deals with derivatives in R\nwill only take the first derivative of the function. Repeating these methods\na 100 times won't solve the problem either, since the first derivative of a\nnumerical function gives me a scalar as output. Does anyone know how to\nsolve this problem? I'm grateful for any advice!\n\nPatricia\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi,\n\nI have a short question regarding derivatives of functions in R. The problem\nis that I need the nth derivative of the function, where n is around 100,\nand the packages I have managed to find whic",
       "thread_id": "thread-54b1a6efdb45",
       "thread_depth": 0,
-      "month": "2007-09"
+      "month": "2007-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070927/81fe61d3/attachment.pl"
+      ]
     },
     {
       "id": "msg-921493370a9e",

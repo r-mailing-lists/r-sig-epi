@@ -13,11 +13,14 @@
       "subject_clean": "Exposure data: mixed effects",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130502/2a70b7ba/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130502/2a70b7ba/attachment.pl>",
+      "body_plain": "Hi there, I've been having a few issues. My data set is as follows\nstr(new.data)'data.frame':\t345 obs. of  11 variables: $ WSZ_Code      : int  2 6 7 7 7 5 1 5 8 1 ... $ Treatment_Code: int  3 1 4 4 4 2 2 2 1 2 ... $ Year          : int  1996 1996 1996 1996 1996 1996 1996 1996 1996 1996 ... $ Month         : int  1 2 2 2 3 3 3 3 3 3 ... $ TTHM          : num  30.7 24.8 60.4 58.1 62.2 40.3 20.8 36.3 40.5 47.8 ... $ CL2_FREE      : num  0.35 0.25 0.05 0.15 0.2 0.15 0.15 0.025 0.25 0.05 ... $ BrO3          : num  0.5 0.5 0.5 0.5 0.5 ... $ Colour        : num  0.75 0.75 0.75 0.75 2 2 0.75 1.9 1.9 1.9 ... $ PH            : num  7.4 6.9 7.1 7.5 7.6 7.7 6.8 7.9 7.4 8.2 ... $ TURB          : num  0.055 0.2 0.055 0.055 0.055 0.055 0.11 0.11 0.055 0.16 ... $ seasons       : Factor w/ 4 levels \"autumn\",\"spring\",..: 4 4 4 4 2 2 2 2 2 2 ...\nThe aim is to try to find exposure estimates for TTHM. \nI try the heirarchical mixed effects models such as:mod3 <- lme(tthm ~ cl2free, random= ~ 1| treatcode/loc_code, data=new.data, method =\"ML\")  #loc_code=WSZ_Code\nwhich seem to work but whenever I try eg: plot(augPred(mod3)) I get this error:Error in plot(augPred(mod3)) :   error in evaluating the argument 'x' in selecting a method for function 'plot': Error in sprintf(gettext(fmt, domain = domain), ...) :   invalid type of argument[1]: 'symbol'\nI think maybe it's because all the integers in the dataset are actually factors. Any ideas how to change this and find a solution?\nThanks\n\n\n\n \t\t \t   \t\t  \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi there, I've been having a few issues. My data set is as follows\nstr(new.data)'data.frame':\t345 obs. of  11 variables: $ WSZ_Code      : int  2 6 7 7 7 5 1 5 8 1 ... $ Treatment_Code: int  3 1 4 4 4",
       "thread_id": "thread-2c4645d7f24c",
       "thread_depth": 0,
-      "month": "2013-05"
+      "month": "2013-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130502/2a70b7ba/attachment.pl"
+      ]
     },
     {
       "id": "msg-e57864916577",

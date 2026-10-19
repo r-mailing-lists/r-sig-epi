@@ -13,11 +13,14 @@
       "subject_clean": "increasing  memory allocation",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140624/c26f12fe/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140624/c26f12fe/attachment.pl>",
+      "body_plain": "Hello Sir/Madam,\n\nDoes anyone familiar with the R-language for statistical computing know about increasing memory allocation.\n\n\n\n\nmemory.size(max = NA)\n\n\n\nmemory.limit(size = NA)\n\n\n\n________________________________\n\nThis message contains confidential information and is in...{{dropped:13}}",
+      "body_snippet": "Hello Sir/Madam,\n\nDoes anyone familiar with the R-language for statistical computing know about increasing memory allocation.\n\n\n\n\nmemory.size(max = NA)\n\n\n\nmemory.limit(size = NA)\n\n\n\n__________________",
       "thread_id": "thread-a6e3d687f026",
       "thread_depth": 0,
-      "month": "2014-06"
+      "month": "2014-06",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140624/c26f12fe/attachment.pl"
+      ]
     },
     {
       "id": "msg-cd32f58f96d2",

@@ -13,11 +13,14 @@
       "subject_clean": "Questions about regression with time-series",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061206/84c0688f/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061206/84c0688f/attachment.pl",
+      "body_plain": "Good morning,\n\nI am using 2 times series and I want to carry out a regression of Seri1 \nby Serie2 using structured (autocorrelated) errors.\n(Equivalent to the autoreg function in SAS)\n\nI found the function gls (package nlme) and I made:\n\ngls_mens<-gls(mening_s_des~dataATB, correlation = corAR1())\n\nMy problem is that I don’t want a AR(1) structure but ARMA(n,p) but the \nexecution fails :\n\ngls_mens<-gls(mening_s_des~dataATB, correlation = corARMA(p=52))\nError in \"coef<-.corARMA\"(`*tmp*`, value = c(11.2591629857661, \n9.1821585359071,  :\n\tCoefficient matrix not invertible\n\nThis should be because most of the coefficients <52 are near to 0.\n\nI am looking for a way to be able :\n- To evaluate automatically my ARMA structure (if it exists)\n- To specify manually the not null lags for my ARMA structure (as a \nvector for example)\n\nDoes anyone know about such functions?\n\nThank you for your help\n\nLulla\n\n\n\t[[alternative text/enriched version deleted]]",
+      "body_snippet": "Good morning,\n\nI am using 2 times series and I want to carry out a regression of Seri1 \nby Serie2 using structured (autocorrelated) errors.\n(Equivalent to the autoreg function in SAS)\n\nI found the fun",
       "thread_id": "thread-93b61551a74b",
       "thread_depth": 0,
-      "month": "2006-12"
+      "month": "2006-12",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061206/84c0688f/attachment.pl"
+      ]
     }
   ],
   "threads": [

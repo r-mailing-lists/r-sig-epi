@@ -49,11 +49,14 @@
       "references": [
         "<mailman.5.1281520802.17542.r-sig-epi@stat.math.ethz.ch>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100811/8b165127/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100811/8b165127/attachment.pl>",
+      "body_plain": "Dorothea,\n\nIm not familiar with this function, but perhaps something like this may\nwork... You should remove the lines where there are NA.\n\ndata2 <- data[-which(is.na(data[1:nrow(data),])),]\n\nor you may want to take a look at complete.cases function\n\n?complete.cases\n\nbut both will remove all lines in the data with any NA in it. It means that\nif will analyze data from variable 2 and 3 and the line has NA only in\nvariables 4 and 5 then it will be removed anyway. Thus you may need to edit\na little you removing step.\n\nKind regards,\n\nAbraço forte e que a força esteja com você,\n\nDr. Pedro Emmanuel A. A. do Brasil\nInstituto de Pesquisa Clínica Evandro Chagas\nFundação Oswaldo Cruz\nRio de Janeiro - Brasil\nAv. Brasil 4365\nTel 55 21 3865-9648\nemail: pedro.brasil at ipec.fiocruz.br\nemail: emmanuel.brasil at gmail.com\n\n---Apoio aos softwares livres\nwww.zotero.org - gerenciamento de referências bibliográficas.\nwww.broffice.org ou www.openoffice.org - textos, planilhas ou apresentações.\nwww.epidata.dk - entrada de dados.\nwww.r-project.org - análise de dados.\nwww.ubuntu.com/ - sistema operacional\n\n\n2010/8/11 <r-sig-epi-request at stat.math.ethz.ch>\n\n> Send R-sig-Epi mailing list submissions to\n>        r-sig-epi at stat.math.ethz.ch\n>\n> To subscribe or unsubscribe via the World Wide Web, visit\n>        https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> or, via email, send a message with subject or body 'help' to\n>        r-sig-epi-request at stat.math.ethz.ch\n>\n> You can reach the person managing the list at\n>        r-sig-epi-owner at stat.math.ethz.ch\n>\n> When replying, please edit your Subject line so it is more specific\n> than \"Re: Contents of R-sig-Epi digest...\"\n>\n>\n> Today's Topics:\n>\n>   1. problems with NA's (Dorothea Kirchner)\n>\n>\n> ----------------------------------------------------------------------\n>\n> Message: 1\n> Date: Wed, 11 Aug 2010 10:53:31 +0200 (CEST)\n> From: Dorothea Kirchner <kirchned at uni-muenster.de>\n> To: <r-sig-epi at stat.math.ethz.ch>\n> Subject: [R-sig-Epi] problems with NA's\n> Message-ID:\n>        <\n> permail-2010081108533180e26a0b00003ab5-kirchned at message-id.uni-muenster.de\n> >\n>\n> Content-Type: text/plain; charset=us-ascii\n>\n> Hi,\n>\n> I try to calculate confidence intervals for SMRs using the pois.exact\n> ()-function from the package \"epitools\". But I have some troubble with the\n> NAs. How can I remove the NAs out of my analysis? It doesn't work if I set\n> the\n> argument: $CI<-pois.exact($SMR, na.rm = TRUE).\n>\n> Many thanks for your help\n> Dorothea\n>\n>\n>\n> ------------------------------\n>\n> _______________________________________________\n> R-sig-Epi mailing list\n> R-sig-Epi at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n>\n> End of R-sig-Epi Digest, Vol 44, Issue 1\n> ****************************************\n>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dorothea,\n\nIm not familiar with this function, but perhaps something like this may\nwork... You should remove the lines where there are NA.\n\ndata2 <- data[-which(is.na(data[1:nrow(data),])),]\n\nor you m",
       "thread_id": "thread-b3235de3b9ed",
       "thread_depth": 0,
-      "month": "2010-08"
+      "month": "2010-08",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100811/8b165127/attachment.pl"
+      ]
     },
     {
       "id": "msg-ac685dc3a22c",
@@ -65,11 +68,14 @@
       "subject_clean": "random-effects modeling",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100817/9f56e1df/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100817/9f56e1df/attachment.pl>",
+      "body_plain": "Hi all,\n\n\n\nBeing new to analysing epidemiologic data, I have a question about the following data set:\n\nA friend has inspected three randomly chosen farms (random factor 'farm'). At each farm three randomly chosen series of chickens (random factor 'flock') were each inspected for the presence of a certain bacteria. The contaminated chickens were counted (response variable 'positives'). The sample sizes per flock are given by 'broilers'. We want to have a look at within-broilers, within-farm and between-farm variability.\n\n\n\nIt seems to me that we have a random-effects model, in which the factor 'flock' is nested within the factor 'farm'. Am I correct so far?\n\nNow, since the response variable yields count data, fitting the model should be done using Poisson regression. Correct?\n\n\n\nCould somebody help me out with (an example of) such an analysis?\n\n\n\nMany thanks in advance,\n\nDieter\n\n\n\nHere is the dataset used:\n\n\n\nbroilers<-data.frame(farm=c(\"FA\",\"FA\",\"FA\",\"FB\",\"FB\",\"FB\",\"FC\",\"FC\",\"FC\"), flock=c(\"a\",\"b\",\"c\",\"d\",\"e\",\"f\",\"g\",\"h\",\"i\"), broilers=c(50, rep(25,8)), positives=c(7,2,0,7,2,0,0,5,2))\n\n\n\n\n\n--\n\nDieter Anseeuw\n\nKatho Campus Roeselare\n\nWilgenstraat 32\n\n8800 Roeselare Belgium\n\n\n\nDirect phone: +32 51 23 29 68\n\nhttp://www.katho.be/hivb\n\nhttp://www.linkedin.com/in/dieteranseeuw\n\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\n\n\n\nBeing new to analysing epidemiologic data, I have a question about the following data set:\n\nA friend has inspected three randomly chosen farms (random factor 'farm'). At each farm three ran",
       "thread_id": "thread-ac685dc3a22c",
       "thread_depth": 0,
-      "month": "2010-08"
+      "month": "2010-08",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100817/9f56e1df/attachment.pl"
+      ]
     },
     {
       "id": "msg-2980afec9d15",

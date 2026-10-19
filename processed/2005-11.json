@@ -50,11 +50,14 @@
         "<1050.212.171.164.228.1131707771.squirrel@212.171.164.228>",
         "<Pine.LNX.4.63a.0511110926490.21453@homer22.u.washington.edu>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20051129/c9c1099e/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20051129/c9c1099e/attachment.pl",
+      "body_plain": "I need to show a graphic with multiple \"stairs steps\" plots. Can I do that?.\nI'll also appreciate, if any of you have done such a specific thing, an \nexample.\nThanks, Mayelin Mirabal.\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I need to show a graphic with multiple \"stairs steps\" plots. Can I do that?.\nI'll also appreciate, if any of you have done such a specific thing, an \nexample.\nThanks, Mayelin Mirabal.\n\n\t[[alternative ",
       "thread_id": "thread-51be6708ad3a",
       "thread_depth": 2,
-      "month": "2005-11"
+      "month": "2005-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20051129/c9c1099e/attachment.pl"
+      ]
     },
     {
       "id": "msg-f4ffcd18c993",

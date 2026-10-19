@@ -13,11 +13,14 @@
       "subject_clean": "how to assess which Smooth estimates are relable?",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140408/46db58a5/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140408/46db58a5/attachment.pl>",
+      "body_plain": "i have applied different Empirical bayes methods i.e. poisson gamma, lognormal, Marshall and also \nCAR model on scottish lip cancer data. so obtain smooth estimates (relative risks). how to assess\nwhich estimates of SMR are more reliable.\nIrum dar\n \t\t \t   \t\t  \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "i have applied different Empirical bayes methods i.e. poisson gamma, lognormal, Marshall and also \nCAR model on scottish lip cancer data. so obtain smooth estimates (relative risks). how to assess\nwhi",
       "thread_id": "thread-a6a72fbfc4a8",
       "thread_depth": 0,
-      "month": "2014-04"
+      "month": "2014-04",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140408/46db58a5/attachment.pl"
+      ]
     },
     {
       "id": "msg-77883133e0ed",
@@ -29,11 +32,14 @@
       "subject_clean": "problem with nb2listw( ) command",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140420/7f7a55e5/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140420/7f7a55e5/attachment.pl>",
+      "body_plain": "Dear all\nI am using scottish lip cancer data, which contains the columns of observed, expected, AFF(person at risk) and latitude and longitude. i use the commands\n    >  \n nc<-combine.data.shapefile(data=scotland,shp=shp,dbf=dbf)\n###CARBayes package    >    \nW.nb<-poly2nb(nc=scotland,row.names=rownames(scotland)) ### spdep\npackage \n\n   > W.nb\nOut put is \n\nNeighbour\nlist object:\n\n\nNumber of\nregions: 56 \n\n\nNumber of\nnonzero links: 234 \n\n\nPercentage\nnonzero weights: 7.461735 \n\n\nAverage\nnumber of links: 4.178571 \n\n\n3 regions\nwith no links:\n\n\n6554   6655 6756\n\n\n      >   col.W<-nb2listw(W.nb,style=\"B\",zero.policy=TRUE)\n\n\n      >   col.W\n\n\nwhich gives out put\nError in\nprint.listw(list(style = \"B\", neighbours = list(c(5L, 9L, 19L :  regions with no neighbours found, use zero.policy=TRUEwhen i use the command \n>moranI.test(Observed~AFF+offset(log(Expected)),\nas(nc, \"data.frame\"), \"negbin\", 999, \n\n\n   listw=col.W, n=length(W.nb), S0=Szero(col.W)\n)\n\n\n             Moran's I test of\nspatial autocorrelation \n\n\n             Type of boots.: parametric \n\n            Model used when sampling: Negative\nBinomial \n\n             Number of simulations: 999 \n            Statistic:  NA \n            p-value :  NA\nplease help if any body has an idea. \n\n\n\nThere were 50 or more warnings (use\nwarnings() to see the first 50)\n\n\n \t\t \t   \t\t  \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all\nI am using scottish lip cancer data, which contains the columns of observed, expected, AFF(person at risk) and latitude and longitude. i use the commands\n    >  \n nc<-combine.data.shapefile(d",
       "thread_id": "thread-77883133e0ed",
       "thread_depth": 0,
-      "month": "2014-04"
+      "month": "2014-04",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140420/7f7a55e5/attachment.pl"
+      ]
     }
   ],
   "threads": [

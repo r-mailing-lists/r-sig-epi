@@ -13,11 +13,14 @@
       "subject_clean": "estimating the proportion without recurring ailment based on the nelson-aalen estimator",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080815/f83f1a36/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080815/f83f1a36/attachment.pl>",
+      "body_plain": "Dear useRs,\nI'm trying to estimate the proportion of individuals with a without a certain recurring ailment at several times points. The data are of the survival type, with \"start\"-\"stop\" dates and whether the individual had the ailment in that interval. \n\nSome cases are observed until database closure and some died or are lost to followup. The interest is not on death. I have tries using \"coxph\" and \"cph\" as\n\nfitCOXPH <- coxph(Surv(time=start,time2=stop,sick)~strata(adult)+frailty(individual),data=test.data)\nfitKM <- survfit(fitCOXPH )\nsummary(fitKM ,times=sort(seq(0,128,by=16)))\n\nWhat I noted is that the proportion was decreasing with increasing time, which I felt was incorrect!\n\nI then tried estimating the number without the ailment in each discrete month, but computing the denominator (the number alive and at risk) and getting the confidence intervals becomes a huge undertaking. As an approximation I tend to use the number who survive to the midpoint of the month resulting in proportions above 1 sometimes, for instance at the beginning where no individuals have the ailment but some are censored before the midpoint time.\n\nI have reason to believe there is a way within the survival packages but haven't figured out how.\n\nThanking you in advance, Vumani\n\nps: sorry for cross posting. wasnt sure whether \"r-sig-epi at stat.math.ethz.ch\" or \"r-help at R-project.org\" was more suitable for this question\n\n_________________________________________________________________\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear useRs,\nI'm trying to estimate the proportion of individuals with a without a certain recurring ailment at several times points. The data are of the survival type, with \"start\"-\"stop\" dates and wh",
       "thread_id": "thread-e7d9d8e13842",
       "thread_depth": 0,
-      "month": "2008-08"
+      "month": "2008-08",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080815/f83f1a36/attachment.pl"
+      ]
     }
   ],
   "threads": [

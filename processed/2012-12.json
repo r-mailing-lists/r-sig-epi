@@ -13,11 +13,14 @@
       "subject_clean": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121213/5d228c37/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121213/5d228c37/attachment.pl>",
+      "body_plain": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing\n\nTOMORROW: December 14, 10-11 a.m., PST\n\n\n\nWebinar Registration: http://2.salford-systems.com/gradientboosting-and-post-processing/\n\n\nCourse Outline:\nI. Gradient Boosting and Post-Processing:\no What is missing from Gradient Boosting?\no Why post-processing techniques are used?\n\nII. Applications Benefiting from Post-Processing: Examples from a variety of industries.\no Financial Services\no Biomedical\no Environmental\no Manufacturing\no Adserving\n\nIII. Typical Post-Processing Steps\n\nIV. Techniques:\no Generalized Path Seeker (GPS): modern high-speed LASSO-style regularized regression.\no Importance Sampled Learning Ensembles (ISLE): identify and reweight the most influential trees.\no Rulefit: ISLE on \"steroids.\" Identify the most influential nodes and rules.\n\nV. Case Study Example:\no Output/Results without Post-Processing\no Output/Results with Post-Processing\no Demo\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing\n\nTOMORROW: December 14, 10-11 a.m., PST\n\n\n\nWebinar Registration: http://2.salford-systems.com/gradientboosting-and-post-processing/",
       "thread_id": "thread-d12cb2eb3c7e",
       "thread_depth": 0,
-      "month": "2012-12"
+      "month": "2012-12",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121213/5d228c37/attachment.pl"
+      ]
     },
     {
       "id": "msg-cf9a9e10fbd8",
@@ -45,11 +48,14 @@
       "subject_clean": "(no subject)",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121217/d1b9cbce/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121217/d1b9cbce/attachment.pl>",
+      "body_plain": "submitted\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "submitted\n\t[[alternative HTML version deleted]]",
       "thread_id": "thread-2ae70cdcdd52",
       "thread_depth": 0,
-      "month": "2012-12"
+      "month": "2012-12",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20121217/d1b9cbce/attachment.pl"
+      ]
     },
     {
       "id": "msg-7968d8423111",

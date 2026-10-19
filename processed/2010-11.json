@@ -13,11 +13,14 @@
       "subject_clean": "help",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101127/a750e98c/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101127/a750e98c/attachment.pl>",
+      "body_plain": "Sir,\n\nIts wonderful to start using this software R. I am making full efforts to\nlearn it on my own with the help of the free online manuals available. I am\nusing epicalc package in R. I have a dataset where i want to apply\nconditions like... if var1 is yes or 1, assign 1 to it or else 0. Can you\nhelp me with this problem?\n\nThanking you,\n\n-- \nDr. Khan Amir Maroof,\nLecturer,\nDepartment of Community Medicine,\nUniversity College of Medical Sciences & GTB Hospital, Delhi\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Sir,\n\nIts wonderful to start using this software R. I am making full efforts to\nlearn it on my own with the help of the free online manuals available. I am\nusing epicalc package in R. I have a dataset",
       "thread_id": "thread-e69579210017",
       "thread_depth": 0,
-      "month": "2010-11"
+      "month": "2010-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101127/a750e98c/attachment.pl"
+      ]
     },
     {
       "id": "msg-299b072ec12e",
@@ -69,11 +72,14 @@
       "subject_clean": "Frequencies like Epiinfo",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101129/0ee90c61/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101129/0ee90c61/attachment.pl>",
+      "body_plain": "I am trying to make a function that works like the command Frequencies of\nEpiinfo. I am a beginner user and I make something like this:\n\n \n\nfreq<-function(x){\n\nFrecuencia<-table(x,exclude=NULL);\n\nPorcentaje<-as.vector(round(prop.table(table(x,exclude=NULL)),2));\n\nPorc<-as.vector(round(prop.table(table(x,exclude=NULL))*100,1));\n\nAcumulado<-cumsum(Porc);\n\nIC95.Sup<-round(as.vector(Porc+196*sqrt(Porcentaje*(1-Porcentaje)/sum(Frecue\nncia))),1);\n\nIC95.Inf<-round(as.vector(Porc-196*sqrt(Porcentaje*(1-Porcentaje)/sum(Frecue\nncia))),1);\n\nmatrix(\n\nc(Frecuencia,sum(Frecuencia),Porc,round(sum(Porc),1),\n\nAcumulado,NA,IC95.Inf,NA,IC95.Sup,NA),length(Frecuencia)+1,5,\n\ndimnames=list(c(labels(Frecuencia)[[1]],\"Total\"),c(\"Frecuencia\",\"Porcentaje\"\n,\"Acumulado\",\"[IC--\",\"--95%]\"))\n\n);\n\n}\n\n \n\nThere is a way more efficient to create a function like this?\n\nthere is a way to make it more visually - friendly adding something like\n-------------- that stat.table does?\n\nHow can I add an argument like missing=T that show NA's and missing=F that\nexclude Na's??\n\n \n\nThanks in advance. \n\n \n\nDiego. \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I am trying to make a function that works like the command Frequencies of\nEpiinfo. I am a beginner user and I make something like this:\n\n \n\nfreq<-function(x){\n\nFrecuencia<-table(x,exclude=NULL);\n\nPorc",
       "thread_id": "thread-4b4e4ad1d7b0",
       "thread_depth": 0,
-      "month": "2010-11"
+      "month": "2010-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101129/0ee90c61/attachment.pl"
+      ]
     },
     {
       "id": "msg-2b61439b2019",

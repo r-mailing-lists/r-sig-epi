@@ -29,11 +29,14 @@
       "subject_clean": "Importing XML new EpiData files",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120730/eb8babe8/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120730/eb8babe8/attachment.pl>",
+      "body_plain": "R friends,\n\nOne the things that was limiting me to definitely move from 3.1 to new\nEpiData with new epx and epz format is that I was not able to import\nepx/epz data form within R. Currently, from a local R users list I was\nawere of this user made function. So now Im will try to let 3.1 go and\ngradually transform my files to XML based format. If there is any EpiData\nuser in this list, could any help me test if it works nicely?\n\nhttps://github.com/daudi/Epidata-XML-to-R\n\nkind regards,\n\nDr. Pedro Emmanuel A. A. do Brasil\nCurriculum Lattes:  http://lattes.cnpq.br/6597654894290806\nInstituto de Pesquisa Clínica Evandro Chagas\nFundação Oswaldo Cruz\nRio de Janeiro - Brasil\nAv. Brasil 4365,\nCEP 21040-360,\nTel 55 21 3865-9648\nemail: pedro.brasil at ipec.fiocruz.br\nemail: emmanuel.brasil at gmail.com\n\n---Apoio aos softwares livres\nwww.zotero.org - gerenciamento de referências bibliográficas.\nwww.broffice.org ou www.libreoffice.org - textos, planilhas ou\napresentações.\nwww.epidata.dk - entrada de dados.\nwww.r-project.org - análise de dados.\nwww.ubuntu.com - sistema operacional\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "R friends,\n\nOne the things that was limiting me to definitely move from 3.1 to new\nEpiData with new epx and epz format is that I was not able to import\nepx/epz data form within R. Currently, from a lo",
       "thread_id": "thread-fa9bfc7b2be5",
       "thread_depth": 0,
-      "month": "2012-07"
+      "month": "2012-07",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120730/eb8babe8/attachment.pl"
+      ]
     }
   ],
   "threads": [

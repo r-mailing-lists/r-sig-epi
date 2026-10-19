@@ -13,11 +13,14 @@
       "subject_clean": "function and glm",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060302/12d5da0b/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060302/12d5da0b/attachment.pl",
+      "body_plain": "Hi all!\nI've a question for which I have found no answer. I want to create a function that contains the glm function as a kind of subfunction within the larger function. I want to be able to  chose how many predictor variables will be included in the glm function based on the \"larger\" function. Example:\nfunction(ab#=dataset#,case#response variable#, exp#exposure variable#, confounders#list of confounder variables#){\nGlmf<-glm(case~exp + confounders, family=binomial(link=\"logit\"), data=inter, na.action=na.fail)\nsummary(Glmf)\nreturn(summary(Glmf))\n}\nI want to be able to put in different numbers of confounding variables. I would be very GRATEFUL for suggestions how to solve the problem.\nBest Regards Henrik Källberg\nhenrik.kallberg at ki.se\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all!\nI've a question for which I have found no answer. I want to create a function that contains the glm function as a kind of subfunction within the larger function. I want to be able to  chose ho",
       "thread_id": "thread-4810f19c6964",
       "thread_depth": 0,
-      "month": "2006-03"
+      "month": "2006-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060302/12d5da0b/attachment.pl"
+      ]
     },
     {
       "id": "msg-d55669b646f7",

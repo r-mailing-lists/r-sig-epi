@@ -13,11 +13,14 @@
       "subject_clean": "illness-death model with recovery",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080104/6a86942b/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080104/6a86942b/attachment.pl",
+      "body_plain": "Dear R-Epi users;i am trying to fit an illness-death model with recovery using both Epi (version 0.9.6) and coxph but my results are not similar. When fitting a time to death model and all other states censored I get equivalent results. I think I am doing everything right and can't really think of a mistake on my part unless I am missing something in Epi for multistate models.This is how I set up the Epi data:msm.lexis.dta <- Lexis(    entry=list(per=start),    exit=list(per=stop),    entry.status=from,     exit.status=to,     id=case,    data=msm2b)with(msm.lexis.dta, table(from,to))msm.lexis.glm <- splitLexis(msm.lexis.dta,    breaks=quantile(c(0,msm.lexis.dta$stop),probs=seq(0,1,by=1/10)),    time.scale=\"per\")for(i in 1:2){    for(j in 1:3){        if(i != j){            cat(\"from ==\",i,\"to ==\",j,\"\\n\")            cat(\"Cox proportional hazards\\n\")            h.rate <- coxph(Surv(time=start,time2=stop,event=(to==j))~sex+age,data=subset(msm.lexis.dta,from==i))            print(round(ci.lin(h.rate, Exp=TRUE), 3));cat(\"\\n\");            cat(\"Poisson regression\\n\")            h.rate <- glm(as.numeric(to==j)~ns(per)+sex+age+offset(log(lex.dur)),                family=poisson,data=subset(msm.lexis.glm,from==i))            print(round(ci.lin(h.rate, Exp=TRUE), 3));cat(\"\\n\");        }    }}And the answers I get for my data are:from == 1 to == 2Cox proportional hazards          Estimate StdErr      z     P exp(Est.)  2.5% 97.5%sexFemale    0.084  0.141  0.594 0.553     1.088 0.824 1.435age         -0.001  0.008 -0.099 0.921     0.999 0.983 1.015Poisson regression            Estimate StdErr       z     P exp(Est.)  2.5% 97.5%(Intercept)   -0.176  0.154  -1.141 0.254     0.839 0.620 1.135ns(per)       -4.524  0.315 -14.379 0.000     0.011 0.006 0.020sexFemale     -0.085  0.079  -1.073 0.283     0.919 0.787 1.073age            0.003  0.004   0.626 0.531     1.003 0.994 1.012from == 1 to == 3Cox proportional hazards          Estimate StdErr      z     P exp(Est.)  2.5% 97.5%sexFemale    0.208  0.213  0.977 0.329     1.232 0.811 1.871age         -0.007  0.013 -0.553 0.580     0.993 0.968 1.018Poisson regression            Estimate StdErr      z     P exp(Est.)  2.5% 97.5%(Intercept)   -1.608  0.378 -4.252 0.000     0.200 0.095 0.420ns(per)       -5.893  0.855 -6.895 0.000     0.003 0.001 0.015sexFemale      0.265  0.182  1.456 0.145     1.304 0.912 1.863age           -0.008  0.011 -0.712 0.476     0.992 0.971 1.014Kind regards, Vumani\n_________________________________________________________________\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear R-Epi users;i am trying to fit an illness-death model with recovery using both Epi (version 0.9.6) and coxph but my results are not similar. When fitting a time to death model and all other state",
       "thread_id": "thread-020e858c4e8a",
       "thread_depth": 0,
-      "month": "2008-01"
+      "month": "2008-01",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080104/6a86942b/attachment.pl"
+      ]
     },
     {
       "id": "msg-24eca6315186",
@@ -63,11 +66,14 @@
       "subject_clean": "amova",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080118/1fa6a38a/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080118/1fa6a38a/attachment.pl",
+      "body_plain": "Hello,\n    I have a question about \"amova(samples, distances, structures)\" function in ade4 package.\nI don't know how to format data frame file to input \"samples\".\nI have microsatellite data, 26 loci, so genotypes are very complex. Also, I don't know what kind of \"distances\" is better to use.\n    Thank you in advance,\nGalina Ananina\n  Brazil-Campinas-Instituto de Biologia\n  \n\n       \n---------------------------------\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello,\n    I have a question about \"amova(samples, distances, structures)\" function in ade4 package.\nI don't know how to format data frame file to input \"samples\".\nI have microsatellite data, 26 loci,",
       "thread_id": "thread-b59a54db4f94",
       "thread_depth": 0,
-      "month": "2008-01"
+      "month": "2008-01",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080118/1fa6a38a/attachment.pl"
+      ]
     },
     {
       "id": "msg-03f24df99af3",
@@ -95,11 +101,14 @@
       "subject_clean": "standard errors from Icens function",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080130/26522ced/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080130/26522ced/attachment.pl",
+      "body_plain": "I am using the Icens function to do a survival analysis of interval censored\ndata.  The article referenced for this function (Carstensen 1996) says that\nstandard errors for the parameter estimates using this method with packages\nsuch as GLIM are incorrect because they are based on the expected\ninformation.  Are the standard errors output in the R function incorrect as\nwell?\nThanks,\nSummer\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I am using the Icens function to do a survival analysis of interval censored\ndata.  The article referenced for this function (Carstensen 1996) says that\nstandard errors for the parameter estimates usi",
       "thread_id": "thread-0fe14420cd2d",
       "thread_depth": 0,
-      "month": "2008-01"
+      "month": "2008-01",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080130/26522ced/attachment.pl"
+      ]
     }
   ],
   "threads": [

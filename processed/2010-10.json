@@ -13,11 +13,14 @@
       "subject_clean": "mvtnorm -- rates of occurence",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101008/82c7bd2e/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101008/82c7bd2e/attachment.pl>",
+      "body_plain": "We're trying to identify articles where investigators have used mvtnorm to estimate rates of occurrence of a condition or rates of eligibility for services.  In our application we used  a pentavariate normal cumulative distribution function to determine how many children are likely be eligible for disability services because they fall -2 SD on any of 5 developmental domains.\n\nThanks\n\nSteve\n\nSteven Rosenberg, Ph.D.\nAssociate Professor\nDepartment of Psychiatry\nUniversity of Colorado Denver\nCampus Box C268-22\n4455 E. 12th Avenue\nDenver CO 80220\n303-315-9121\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "We're trying to identify articles where investigators have used mvtnorm to estimate rates of occurrence of a condition or rates of eligibility for services.  In our application we used  a pentavariate",
       "thread_id": "thread-40890bad76c1",
       "thread_depth": 0,
-      "month": "2010-10"
+      "month": "2010-10",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101008/82c7bd2e/attachment.pl"
+      ]
     },
     {
       "id": "msg-a89032dc6a3c",
@@ -45,11 +48,14 @@
       "subject_clean": "Kindly help me of applicability of PLSR method for binary outcome variable",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/b219e746/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/b219e746/attachment.pl>",
+      "body_plain": "Dear friends, \n\nI am a PhD student at Erasmus Medical Centre, Rotterdam, The Netherlands. I found the R package \"pls\", which is very handy and useful. This package descibes how to use Partial Least Squares Regression (PLSR) and Principal Component Regression (PCR).\nWould you mind to kindly answer the following? \nLogistic regression (LR) is a commonly used method in medical science to make a prediction model for binary outcome variable. This is fine, and I would like to apply (if applicable) PLSR and PCR to construct a prediction model for binary outcome variable, and will check whether PLSR or PCR method helps to make better model compare to LR method, in the sence of discrimination and goodness-of-fit (calibration). However, I am not sure whether the R package \"pls\" allows to construct such a model. \nI will be pleased if you kindly let me know whether PLSR ( or PCR) method is applicable for binary outcome variable. \n\nThank you very much for your suggestions. \n\nKind regards, \nSuman Kundu \n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear friends, \n\nI am a PhD student at Erasmus Medical Centre, Rotterdam, The Netherlands. I found the R package \"pls\", which is very handy and useful. This package descibes how to use Partial Least Sq",
       "thread_id": "thread-2a39b019a0db",
       "thread_depth": 0,
-      "month": "2010-10"
+      "month": "2010-10",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/b219e746/attachment.pl"
+      ]
     },
     {
       "id": "msg-1910ee1ac0c4",
@@ -63,11 +69,14 @@
       "references": [
         "<mailman.5.1288173602.27526.r-sig-epi@stat.math.ethz.ch>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/1d1b1b84/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/1d1b1b84/attachment.pl>",
+      "body_plain": "Suman,\n\nIm sorry not to have a straight answer. I have never seen PLR used\nspecifically for development of prediction models. However, I could say that\nthere is many many examples around that show no consistent advantage of more\nmodern and complex methods over logistic regression, even if complex  non\nlinear relations among the predictors and the predictor towards the outcome\nare suspected. Thus, you may want to consider other stuff such as software\navailability and your own experience with a particular method. I suggest\nthese readings:\n\n\n   1. D J Sargent, “Comparison of artificial neural networks with other\n   statistical approaches: results from medical data sets,” Cancer 91, no. 8\n   (April 15, 2001): 1636-1642.\n\n\n   1. Peter C. Austin, “A comparison of regression trees, logistic\n   regression, generalized additive models, and multivariate adaptive\n   regression splines for predicting AMI mortality,” Statistics in\nMedicine26, no. 15 (7, 2007): 2937-2957.\n\nThese readings will give the impression that the theories behind these\nmethods bring only theoretical advantages, but do not increase accuracy of\nprediction when compared to logistic regression. Perhaps, if spend some time\nto look more around, you may be able to find evidence against this\nconclusion.\n\nKind regards and good luck with your PhD.\n\nAbraço forte e que a força esteja com você,\n\nDr. Pedro Emmanuel A. A. do Brasil\nInstituto de Pesquisa Clínica Evandro Chagas\nFundação Oswaldo Cruz\nRio de Janeiro - Brasil\nAv. Brasil 4365\nTel 55 21 3865-9648\nemail: pedro.brasil at ipec.fiocruz.br\nemail: emmanuel.brasil at gmail.com\n\n---Apoio aos softwares livres\nwww.zotero.org - gerenciamento de referências bibliográficas.\nwww.broffice.org ou www.openoffice.org - textos, planilhas ou apresentações.\nwww.epidata.dk - entrada de dados.\nwww.r-project.org - análise de dados.\nwww.ubuntu.com - sistema operacional\n\n\n2010/10/27 <r-sig-epi-request at stat.math.ethz.ch>\n\n> Send R-sig-Epi mailing list submissions to\n>        r-sig-epi at stat.math.ethz.ch\n>\n> To subscribe or unsubscribe via the World Wide Web, visit\n>        https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> or, via email, send a message with subject or body 'help' to\n>        r-sig-epi-request at stat.math.ethz.ch\n>\n> You can reach the person managing the list at\n>        r-sig-epi-owner at stat.math.ethz.ch\n>\n> When replying, please edit your Subject line so it is more specific\n> than \"Re: Contents of R-sig-Epi digest...\"\n>\n>\n> Today's Topics:\n>\n>   1. Kindly help me of applicability of PLSR method for        binary\n>      outcome variable (Suman Kundu)\n>\n>\n> ----------------------------------------------------------------------\n>\n> Message: 1\n> Date: Wed, 27 Oct 2010 01:48:52 -0700 (PDT)\n> From: Suman Kundu <suman_math at yahoo.com>\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] Kindly help me of applicability of PLSR method\n>        for     binary outcome variable\n> Message-ID: <874660.52882.qm at web112515.mail.gq1.yahoo.com>\n> Content-Type: text/plain\n>\n> Dear friends,\n>\n> I am a PhD student at Erasmus Medical Centre, Rotterdam, The Netherlands. I\n> found the R package \"pls\", which is very handy and useful. This package\n> descibes how to use Partial Least Squares Regression (PLSR) and Principal\n> Component Regression (PCR).\n> Would you mind to kindly answer the following?\n> Logistic regression (LR) is a commonly used method in medical science to\n> make a prediction model for binary outcome variable. This is fine, and I\n> would like to apply (if applicable) PLSR and PCR to construct a prediction\n> model for binary outcome variable, and will check whether PLSR or PCR method\n> helps to make better model compare to LR method, in the sence of\n> discrimination and goodness-of-fit (calibration). However, I am not sure\n> whether the R package \"pls\" allows to construct such a model.\n> I will be pleased if you kindly let me know whether PLSR ( or PCR) method\n> is applicable for binary outcome variable.\n>\n> Thank you very much for your suggestions.\n>\n> Kind regards,\n> Suman Kundu\n>\n>\n>\n>        [[alternative HTML version deleted]]\n>\n>\n>\n> ------------------------------\n>\n> _______________________________________________\n> R-sig-Epi mailing list\n> R-sig-Epi at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n>\n> End of R-sig-Epi Digest, Vol 46, Issue 3\n> ****************************************\n>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Suman,\n\nIm sorry not to have a straight answer. I have never seen PLR used\nspecifically for development of prediction models. However, I could say that\nthere is many many examples around that show no ",
       "thread_id": "thread-1910ee1ac0c4",
       "thread_depth": 0,
-      "month": "2010-10"
+      "month": "2010-10",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/1d1b1b84/attachment.pl"
+      ]
     },
     {
       "id": "msg-33804c21bfb5",
@@ -115,11 +124,14 @@
       "references": [
         "<4CC92CC5.4010804@ngs.ru>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101028/c8259810/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101028/c8259810/attachment.pl>",
+      "body_plain": "Just adding to Bendix' suggestion to use relevel(), here's a short example\nscript:\n\n\n## Set seed for random number generation\nset.seed(100)\n\n## Create random example data\ngenotype <- sample(c('gg','gc','cc'),1000,replace=T)\ndisease <- sample(c(0,1), 1000, replace=T)\n\n## Coerce genotype to factor\ngenotype <- as.factor(genotype)\n\n## Note initial order of genotype\nlevels(genotype)\nglm1 <- glm(disease~genotype, family=binomial())\nsummary(glm1)\n\n## Reorder genotype factor, setting gg as reference\ngenotype <- relevel(genotype, 'gg')\n\n## Note subsequent order\nlevels(genotype)\nglm2 <- glm(disease~genotype, family=binomial())\nsummary(glm2)\n\n\n\nCheers,\nJeremy\n\nJeremy Hetzel\nBoston University\n\n\n2010/10/28 åËÁÔÅÒÉÎÁ ëÕÄÒÑ×ÃÅ×Á <kudryavtseva_kathrin at ngs.ru>\n\n> To someone who could help me:\n>\n> I am a PhD student, working in the Novosibirsk University, Russia. I\n> am now using glm() function to do logistic regression analysis.\n> I cannot understand how the chosen reference group. For example, for the\n> three genotypes of GG, GC, CC I want to be risk assessed in relation to\n> the genotype CC, but the program selects the genotype GG. How do I\n> change the reference group?\n>\n>\n> Thanks for your time.\n> Best wishes,\n> Ekaterina Kudryavtseva\n> PhD student,\n> Department of Molecular Biology\n> Novosibirsk University\n> Tel: +7-923-185-82-47\n>\n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Just adding to Bendix' suggestion to use relevel(), here's a short example\nscript:\n\n\n## Set seed for random number generation\nset.seed(100)\n\n## Create random example data\ngenotype <- sample(c('gg','gc",
       "thread_id": "thread-33804c21bfb5",
       "thread_depth": 1,
-      "month": "2010-10"
+      "month": "2010-10",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101028/c8259810/attachment.pl"
+      ]
     }
   ],
   "threads": [

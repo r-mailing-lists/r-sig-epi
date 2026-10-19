@@ -13,11 +13,14 @@
       "subject_clean": "Loess for proportions over time",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071206/3614aa77/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071206/3614aa77/attachment.pl",
+      "body_plain": "I have two questions regarding loess procedures. 1) How does one best\nproduce a graph of a loess where the y-axis variable is binomial (e.g.\nviral suppression v. no viral suppression) and the x-axis is time; 2)\nHow can one produce confidence intervals around the loess curve? \nI would appreciate any help on this.\nCheers,\n\nJens W. Levy PhD.\nEpidemiologist\nCIDRZ (Center for Infectious Disease Research in Zambia)\nPlot 1275 Lubutu Road \nP.O. Box 34681 \nLusaka, Zambia \nOffice Tel: +260 (1) 293783,\nFax: +260(1)293766\nMobile 260 979-975-983\nUS phone number 617-418-3465\nEmail jens.levy at cidrz.org\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I have two questions regarding loess procedures. 1) How does one best\nproduce a graph of a loess where the y-axis variable is binomial (e.g.\nviral suppression v. no viral suppression) and the x-axis i",
       "thread_id": "thread-3fc35e2c8c93",
       "thread_depth": 0,
-      "month": "2007-12"
+      "month": "2007-12",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071206/3614aa77/attachment.pl"
+      ]
     }
   ],
   "threads": [

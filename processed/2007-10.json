@@ -144,11 +144,14 @@
       "subject_clean": "Diagnosis function",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071015/4341a89e/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071015/4341a89e/attachment.pl",
+      "body_plain": "Dear colegues of the R epidemiologic list,\n\nI was looking for some functions to analyse some data about diagnostic test\nand unfortunately there was not somethig that I expected. However I found a\nfunction called SensSpec at epibasix library.\n\nWhat came to my attention is that the example given by the author give a\nsensitivity of about 96% and a confidence interval o 88 to 104?!??! How come\na result that should vary between 0 and 100 could have a confidence interval\nof 104? There is any way to propose a correction? Also this functions does\nnot give predictive values, likelihood ratios, dor, and AUC.\n\nDoes anyone have or know about any functions to work on diagnostic tests?\n\nBest regards,\nPedro Emmanuel A. A. do Brasil\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear colegues of the R epidemiologic list,\n\nI was looking for some functions to analyse some data about diagnostic test\nand unfortunately there was not somethig that I expected. However I found a\nfunc",
       "thread_id": "thread-8333774a8109",
       "thread_depth": 0,
-      "month": "2007-10"
+      "month": "2007-10",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071015/4341a89e/attachment.pl"
+      ]
     },
     {
       "id": "msg-70e33b622aea",

@@ -13,11 +13,14 @@
       "subject_clean": "Epidemiological Prevalence Assessment using R (Free Webinar this Tuesday)",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20131020/e0180511/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20131020/e0180511/attachment.pl>",
+      "body_plain": "Hello R Users,\n\nAre you interested in using R to perform prevalence assessment studies on\nepidemiological data?\n\nThis free one-hour webinar will provide a general introduction to\n\"prevalence\", an R package that provides a collection of functions used to\nperform prevalence assessment studies.\n\nWebinar Format:\n- Introduction to the prevalence R package\n- Live demonstration\n- Question and Answer period\n\nSpeaker:\nBrecht Devleesschauwer - Doctoral Researcher at Gent University and the\n\"prevalence\" package maintainer\n\nModerator:\nRay DiGiacomo, Jr. - President of The Orange County R User Group\n\nWebinar Date/Time:\nOctober 22, 2013 at 10 am Pacific Time (California Time)\n\nWebinar Registration Site:\nhttps://www3.gotomeeting.com/register/278262270\n\nFor more information on the prevalence package, please visit:\nhttp://cran.r-project.org/web/packages/prevalence\n\nThis event is brought to you by The Orange County R User Group.\n\nPlease note that in addition to attending from your laptop or desktop\ncomputer, you can also attend from a Wi-Fi connected iPhone, iPad, Android\nphone or Android tablet by installing the GoToMeeting App.\n\nBest Regards,\n\nThe Orange County R User Group\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R Users,\n\nAre you interested in using R to perform prevalence assessment studies on\nepidemiological data?\n\nThis free one-hour webinar will provide a general introduction to\n\"prevalence\", an R pa",
       "thread_id": "thread-02e22c9b43f6",
       "thread_depth": 0,
-      "month": "2013-10"
+      "month": "2013-10",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20131020/e0180511/attachment.pl"
+      ]
     }
   ],
   "threads": [

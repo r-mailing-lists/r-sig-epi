@@ -13,11 +13,14 @@
       "subject_clean": "Paired by exposure",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/f6afc1fe/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/f6afc1fe/attachment.pl>",
+      "body_plain": "Dear R friens,\n\nI will start a project this month wiht a partner which is disigned as a\nquasi-experiment. We are interrested in estimate risk raios and rate ratios,\npossibly survival analysis. Everything is registered at medical charts form\nthe last 22 yaers. So everythig is retorspective.  However, due to a\nefficiency matters, we dicided to select the non-exposed matching to the\nexposed. So for every paciente that took this paticular medicine, we intend\not match one that did not take, and start the follow-up in the same year and\nhas no more than 10 years older than the exposed.\n\nI have looked up for more recent things than those I have in Klienbaum and\nRothman but it seems that the very good old friend  ajusted MH for the pair\nis the recomended.\n\nDoes\n\n-- \nAbraço forte e que a força esteja com você,\nPedro Emmanuel\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear R friens,\n\nI will start a project this month wiht a partner which is disigned as a\nquasi-experiment. We are interrested in estimate risk raios and rate ratios,\npossibly survival analysis. Everyth",
       "thread_id": "thread-6853a2d2ddfd",
       "thread_depth": 0,
-      "month": "2008-09"
+      "month": "2008-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/f6afc1fe/attachment.pl"
+      ]
     },
     {
       "id": "msg-78c1b3d80717",
@@ -31,11 +34,14 @@
       "references": [
         "<a37cfb5a0809050655m48e50907g2702e2a701de94e7@mail.gmail.com>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/4b93628d/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/4b93628d/attachment.pl>",
+      "body_plain": ">\n> Dear R friens,\n>\n> I will start a project this month wiht a partner which is disigned as a\n> quasi-experiment. We are interrested in estimate risk raios and rate ratios,\n> possibly survival analysis. Everything is registered at medical charts form\n> the last 22 yaers. So everythig is retorspective.  However, due to a\n> efficiency matters, we dicided to select the non-exposed matching to the\n> exposed. So for every paciente that took this paticular medicine, we intend\n> ot match one that did not take, and start the follow-up in the same year and\n> has no more than 10 years older than the exposed.\n>\n> I have looked up for more recent things than those I have in Klienbaum and\n> Rothman but it seems that the very good old friend  ajusted MH for the pair\n> is the recomended.\n>\n> Does anyone have other sugestions? Does any knows a package or functions to\n> run paired risk or rate analysis?\n>\n\n   Best regards\n\n>\n> --\n> Abraço forte e que a força esteja com você,\n> Pedro Emmanuel\n>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": ">\n> Dear R friens,\n>\n> I will start a project this month wiht a partner which is disigned as a\n> quasi-experiment. We are interrested in estimate risk raios and rate ratios,\n> possibly survival analys",
       "thread_id": "thread-6853a2d2ddfd",
       "thread_depth": 1,
-      "month": "2008-09"
+      "month": "2008-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/4b93628d/attachment.pl"
+      ]
     },
     {
       "id": "msg-c160490db9d1",
@@ -63,11 +69,14 @@
       "subject_clean": "Turning off the next button for grpahic devices",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080917/c5f17b42/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080917/c5f17b42/attachment.pl>",
+      "body_plain": "R friends,\n\nIt seems dum but Im getting annoyed with that wating warning when ploting on\nmany graphical devices. I would like to turn off that \"next\" button to go to\nthe next device. I tryed to go on system options...\n\ndevice.ask.default==FALSE\n[1] FALSE\n\nBut that warning still there... any suggestion?\n\nBest regards,\n-- \nAbraço forte e que a força esteja com você,\nPedro Emmanuel\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "R friends,\n\nIt seems dum but Im getting annoyed with that wating warning when ploting on\nmany graphical devices. I would like to turn off that \"next\" button to go to\nthe next device. I tryed to go on ",
       "thread_id": "thread-22b55901dcc6",
       "thread_depth": 0,
-      "month": "2008-09"
+      "month": "2008-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080917/c5f17b42/attachment.pl"
+      ]
     }
   ],
   "threads": [

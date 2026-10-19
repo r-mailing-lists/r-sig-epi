@@ -13,11 +13,14 @@
       "subject_clean": "R and Epi Info",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100901/e250cac6/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100901/e250cac6/attachment.pl>",
+      "body_plain": "Hello,\n\n\n\n   I was wondering who to contact to see about somehow interconnecting or integrating the programs R and Epi Info.  I have been involved in the development of Epi Info which is a software program developed by CDC (www.cdc.gov/epiinfo<http://www.cdc.gov/epiinfo>).  Epi Info allows for creating data entry systems and performs certain epidemiologic and statistical analyses.  Currently Epi Info is in the public domain and I believe future versions will be open source.  It might be useful to pull together some of the Epi Info development team members and R team members to discuss how the programs might complement each other.  Note that I send this e-mail as an effort to combine the efforts of these two groups and this is not an official request from CDC.\n\n  Thanks, Kevin\n\nKevin M. Sullivan, PhD, MPH, MHA\nAssociate Professor\nDepartment of Epidemiology\nRollins School of Public Health at Emory Univerisity\nClaudia Nance Rollins Building (CNR), Room 3051\n1518 Clifton Road, NE\nAtlanta, GA 30322\nUSA\n\nOffice Phone: 404-727-8714\nOffice Fax: 404-727-8737\nCell phone: 404-210-2668\n\n\n________________________________\nThis e-mail message (including any attachments) is for t...{{dropped:14}}",
+      "body_snippet": "Hello,\n\n\n\n   I was wondering who to contact to see about somehow interconnecting or integrating the programs R and Epi Info.  I have been involved in the development of Epi Info which is a software pr",
       "thread_id": "thread-2f2d029eb33d",
       "thread_depth": 0,
-      "month": "2010-09"
+      "month": "2010-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100901/e250cac6/attachment.pl"
+      ]
     },
     {
       "id": "msg-03be28f26b22",
@@ -49,11 +52,14 @@
       "references": [
         "<mailman.5.1283421602.16523.r-sig-epi@stat.math.ethz.ch>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100904/b7fe3f52/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100904/b7fe3f52/attachment.pl>",
+      "body_plain": "Kevin,\n\nAlthough I thought at first it sound like a nice idea it also seems a tough\ntask!!! Unfortunately Im a epidemiologist and I do not fell able to develop\ncomplex stuff in R.\n\nI did use very few times EpiInfo long ago and in the last four year I\ninvested a lot of time in R due to my PhD project.\n\nI wondered about some points in this idea of yours.\nR is a very powerful and complex tool, so what is epiinfo able to do that R\nis not?\nIn the other way around, what is R is able to do that epiInfo is not?\n\nMy guess is that R is able to do most, if not all, analysis epiinfo can.\nThus what are the weak points? EpiInfo is directod to users (most\nepidemiologist) which may have basics to moderate understanding of\nstatistics and like to freindly data entry and dropdown menus and dialog\nboxes with more intuitive interface and simple and friendly documentation,\nand many options may be confusing, right?\n\nWhile R is command line software in nature. My own experience was like\nbanging my head all over for more than a year until I felt myself familiar\nenough to not be scared and find ways on my own.\n\nThus it very very short it would be like... make a package called EpiInfo\nthat have the strong points of R and the strong points of EpiInfo. This\nwould include a GUI for R. There are many GUIs for R around for multi and\nspecific plataform such as Rcommander, Rpad, JGR, VIM, RkWard, SciViews etc\nhttp://www.sciviews.org/_rgui/\n\nSo ... what would be the advantages for the end user (and also for\ndevelopers) worth of such effort?\n\n(1) developing a package would essentially concentrating efforts in the\nanalysis tool and very few, if any, effort in the the software core. Core\nteam already made a software fully compatible with any OS. In very very\nshort it would be an Rcommander with menus for the epi packages already\navaliable (it couldnt be so simple) :)\n\n(2) make a friendly and yet powerfull tool for epidemiologists not initiated\nin R.\n\n(3) As far as know R does not have a data entry tool. Very few functions\nsuch as data.entry allow to type in data in a spreadsheet layout. Nothing\nsimilar EpiInfo, EPi6 or EpiData.\n\nIn this particular matter (point 3) this package would very encouraging for\nthe not initiated to use R.\n\nOf course, I can not speak for the core R team neither for the four epi\npackages developers already available, but if I was you I would consider\nmake Rcommander plug-in or a GUI for the epi packages as a first step.\n\nKind regards and good luck,\n\nAbraço forte e que a força esteja com você,\n\nDr. Pedro Emmanuel A. A. do Brasil\nInstituto de Pesquisa Clínica Evandro Chagas\nFundação Oswaldo Cruz\nRio de Janeiro - Brasil\nAv. Brasil 4365\nTel 55 21 3865-9648\nemail: pedro.brasil at ipec.fiocruz.br\nemail: emmanuel.brasil at gmail.com\n\n---Apoio aos softwares livres\nwww.zotero.org - gerenciamento de referências bibliográficas.\nwww.broffice.org ou www.openoffice.org - textos, planilhas ou apresentações.\nwww.epidata.dk - entrada de dados.\nwww.r-project.org - análise de dados.\nwww.ubuntu.com - sistema operacional\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Kevin,\n\nAlthough I thought at first it sound like a nice idea it also seems a tough\ntask!!! Unfortunately Im a epidemiologist and I do not fell able to develop\ncomplex stuff in R.\n\nI did use very few ",
       "thread_id": "thread-991ee90de3a1",
       "thread_depth": 0,
-      "month": "2010-09"
+      "month": "2010-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100904/b7fe3f52/attachment.pl"
+      ]
     },
     {
       "id": "msg-2287585dce05",

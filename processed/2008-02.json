@@ -13,11 +13,14 @@
       "subject_clean": "survival curve in epi package",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080207/40a2f424/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080207/40a2f424/attachment.pl",
+      "body_plain": "Does anyone know if the Epi package has a function that returns/plots the\nsurvival function for interval censored survival analysis? I haven't found\none in the manual that does this, but I could be missing it.\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Does anyone know if the Epi package has a function that returns/plots the\nsurvival function for interval censored survival analysis? I haven't found\none in the manual that does this, but I could be mi",
       "thread_id": "thread-91a1e61b4b2f",
       "thread_depth": 0,
-      "month": "2008-02"
+      "month": "2008-02",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080207/40a2f424/attachment.pl"
+      ]
     },
     {
       "id": "msg-1ae1fb6b0d55",
@@ -31,11 +34,14 @@
       "references": [
         "<mailman.3.1202468401.8398.r-sig-epi@stat.math.ethz.ch>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080212/66f2408f/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080212/66f2408f/attachment.pl",
+      "body_plain": ">\n> Dear R user,\n\n\nIm not familiar with the functions of suvival analisys in the epi package,\nhowever the survival packege is able to do any kind of survival analysis,\nperson-time tables, Kaplan-Meyer, Nelson-Alen, cox, extended cox, marginal\nmodels and random effects analisys. Of course there are options to work wiht\ncensored data.\n\nThe R help is very intuitive but I guess U can find what U are looking for\nin the survival package.\n\nBest regards,\nPedro Brasil\n\nToday's Topics:\n>\n>    1. survival curve in epi package (Summer Nitely)\n>\n>\n> ----------------------------------------------------------------------\n>\n> Message: 1\n> Date: Thu, 7 Feb 2008 15:36:41 -0700\n> From: \"Summer Nitely\" <summer.nitely at gmail.com>\n> Subject: [R-sig-Epi] survival curve in epi package\n> To: r-sig-epi at stat.math.ethz.ch\n> Message-ID:\n>         <8a41df090802071436r5661bdcdxda9a3a9c47a1e2d8 at mail.gmail.com>\n> Content-Type: text/plain\n>\n> Does anyone know if the Epi package has a function that returns/plots the\n> survival function for interval censored survival analysis? I haven't found\n> one in the manual that does this, but I could be missing it.\n>\n>         [[alternative HTML version deleted]]\n>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": ">\n> Dear R user,\n\n\nIm not familiar with the functions of suvival analisys in the epi package,\nhowever the survival packege is able to do any kind of survival analysis,\nperson-time tables, Kaplan-Meyer",
       "thread_id": "thread-1ae1fb6b0d55",
       "thread_depth": 0,
-      "month": "2008-02"
+      "month": "2008-02",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080212/66f2408f/attachment.pl"
+      ]
     },
     {
       "id": "msg-77ce6715cd6c",

@@ -29,11 +29,14 @@
       "subject_clean": "Question on ridge regression with R",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070411/06f74be7/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070411/06f74be7/attachment.pl",
+      "body_plain": "Hi,\n  I am working on a project about hospital efficiency. Due to the high\nmulticolinearlity of the data, I want to fit the model using ridge\nregression. However,  I believe that the data from large hospital(indicated\nby the number of  patients they treat a year)  is more accurate than from\nsmall hosptials, and I want to put more weight on them. How do I do this\nwith lm.ridge?\nI know I just need to put \"weights=***\" in lm function, but for lm.ridge, i\ndon't see that option in lm.ridge.\n\nCould somebody give me suggestions on that?\n\n\nthanks\nben\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi,\n  I am working on a project about hospital efficiency. Due to the high\nmulticolinearlity of the data, I want to fit the model using ridge\nregression. However,  I believe that the data from large h",
       "thread_id": "thread-3a6aaa34b653",
       "thread_depth": 0,
-      "month": "2007-04"
+      "month": "2007-04",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070411/06f74be7/attachment.pl"
+      ]
     }
   ],
   "threads": [

@@ -13,11 +13,14 @@
       "subject_clean": "question about selecting observations",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070717/ed68599c/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070717/ed68599c/attachment.pl",
+      "body_plain": "I have a large dataset and I need to sort by ID and date, then select\nthe first observation...I have seen how to do this and delete the first\nobs. Not sure how to extend the concept...\n\n \n\nCan anyone help?\n\n \n\nLynn D. Disney, Ph.D., J.D., M.P.H.\n\nResearch Analyst\n\nSEIU 1199\n\n1771 E. 30th Street\n\nCleveland, Ohio 44114\n\nTelephone: (216) 566-0117\n\nEmail: ldisney at seiu1199.org <mailto:ldisney at seiu1199.org> \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I have a large dataset and I need to sort by ID and date, then select\nthe first observation...I have seen how to do this and delete the first\nobs. Not sure how to extend the concept...\n\n \n\nCan anyone ",
       "thread_id": "thread-efbb8d7298d7",
       "thread_depth": 0,
-      "month": "2007-07"
+      "month": "2007-07",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070717/ed68599c/attachment.pl"
+      ]
     },
     {
       "id": "msg-c4c7f0f7f814",
@@ -65,11 +68,14 @@
       "subject_clean": "AMOVA",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070718/0e9752d8/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070718/0e9752d8/attachment.pl",
+      "body_plain": "I am requesting any one to show me how to do an analysis of molecular\nvariance in R suing haplotype data through an example.\n\n \n\nThank you in advance\n\n \n\nMatere, C.N. \n\n \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I am requesting any one to show me how to do an analysis of molecular\nvariance in R suing haplotype data through an example.\n\n \n\nThank you in advance\n\n \n\nMatere, C.N. \n\n \n\n\n\t[[alternative HTML version",
       "thread_id": "thread-4737fd1b3f97",
       "thread_depth": 0,
-      "month": "2007-07"
+      "month": "2007-07",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070718/0e9752d8/attachment.pl"
+      ]
     },
     {
       "id": "msg-f3b1010b232e",
@@ -99,11 +105,14 @@
       "subject_clean": "question re: recoding in R",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070725/2210d5b2/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070725/2210d5b2/attachment.pl",
+      "body_plain": "I need to create dummy variables, for an ID when 3 conditions exist. I\nam having problems figuring out how to do this. For example, I want\nvariablea=1 and variableb=1 and variablec=1 and then have variableD\nturned into a 1 when these conditions are true and 0 when any one of\nthem are false. \n\n \n\nSuggestions?\n\n \n\nLynn D. Disney, Ph.D., J.D., M.P.H.\n\n \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I need to create dummy variables, for an ID when 3 conditions exist. I\nam having problems figuring out how to do this. For example, I want\nvariablea=1 and variableb=1 and variablec=1 and then have var",
       "thread_id": "thread-a17d458f3f85",
       "thread_depth": 0,
-      "month": "2007-07"
+      "month": "2007-07",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070725/2210d5b2/attachment.pl"
+      ]
     },
     {
       "id": "msg-d159f14830aa",

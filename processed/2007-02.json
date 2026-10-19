@@ -13,11 +13,14 @@
       "subject_clean": "Fitting Weighted Estimating Equations",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070201/c30dc2d1/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070201/c30dc2d1/attachment.pl",
+      "body_plain": "Hello Everybody:\n \nI am searching for an R package for fitting Generalized Estimating Equations (GEE) with weights (i.e. Weighted Estimating Equations). From the R documentation I found \"geese(geepack)\" for fitting Generalized Estimating Equations. In this documentation, under the paragraph “weights” it has been written, “an optional vector of weights to be used in the fitting process. The length of weights should be the same as the number of observations. This weights is not (yet) the weight as in sas proc genmod, and hence is not recommended to use.” Now my question is, is there any other package you know that might allow me to fit GEE with weight option and the results would be same as SAS PROC GENMOD with weights? Any help would be sincerely appreciated. \n \nThank you very much. \n \nSincerely, \n \nAbdus Sattar\nUniversity of Pittsburgh\nEmail: mas196 at pitt.edu\n\n\n \n____________________________________________________________________________________\nAny questions? Get answers on any topic at www.Answers.yahoo.com.  Try it now.\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello Everybody:\n \nI am searching for an R package for fitting Generalized Estimating Equations (GEE) with weights (i.e. Weighted Estimating Equations). From the R documentation I found \"geese(geepack",
       "thread_id": "thread-7bfe90c2354a",
       "thread_depth": 0,
-      "month": "2007-02"
+      "month": "2007-02",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070201/c30dc2d1/attachment.pl"
+      ]
     },
     {
       "id": "msg-8b588c30b100",

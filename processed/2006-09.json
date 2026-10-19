@@ -13,11 +13,14 @@
       "subject_clean": "Genome wide association packages?",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060912/640ced59/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060912/640ced59/attachment.pl",
+      "body_plain": "Hi !\nDoes someone know if there are any package(s) for performing genome wide association studies bu using R.\nKind regards Henrik Källberg\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi !\nDoes someone know if there are any package(s) for performing genome wide association studies bu using R.\nKind regards Henrik Källberg\n\n\t[[alternative HTML version deleted]]",
       "thread_id": "thread-e97936cdd479",
       "thread_depth": 0,
-      "month": "2006-09"
+      "month": "2006-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060912/640ced59/attachment.pl"
+      ]
     },
     {
       "id": "msg-7b747c047345",
@@ -29,11 +32,14 @@
       "subject_clean": "mail list",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060913/f3345ca1/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060913/f3345ca1/attachment.pl",
+      "body_plain": "---------------------------------\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "---------------------------------\n\n\t[[alternative HTML version deleted]]",
       "thread_id": "thread-7b747c047345",
       "thread_depth": 0,
-      "month": "2006-09"
+      "month": "2006-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060913/f3345ca1/attachment.pl"
+      ]
     },
     {
       "id": "msg-db3bbffc1a74",
@@ -45,11 +51,14 @@
       "subject_clean": "Mailing list submission",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060914/d58c5b11/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060914/d58c5b11/attachment.pl",
+      "body_plain": "Dear Sir or Madam;\n   \n  This e-mail just sent to you for submitting your mailing list.\n\n \t\t\n---------------------------------\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear Sir or Madam;\n   \n  This e-mail just sent to you for submitting your mailing list.\n\n \t\t\n---------------------------------\n\n\t[[alternative HTML version deleted]]",
       "thread_id": "thread-db3bbffc1a74",
       "thread_depth": 0,
-      "month": "2006-09"
+      "month": "2006-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060914/d58c5b11/attachment.pl"
+      ]
     },
     {
       "id": "msg-5fbe6a9fd5e8",
@@ -61,11 +70,14 @@
       "subject_clean": "quantile fail in epi package",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060928/a04a4ff4/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060928/a04a4ff4/attachment.pl",
+      "body_plain": "Hello,\n\nUsing Epi 0.6 trying to stat.table a single quantile value (I want other\nthan 0.5 in other circumstances) I get\n\n> stat.table(list(decade,Sex),quantile(Ggt,probs=c(0.5)),data=ggt)\n\nError in quantile(Ggt, probs = c(0.5)) : The quantile function only accepts\nscalar prob values within stat.table\n\n> stat.table(list(decade,Sex),quantile(Ggt,probs=0.5),data=ggt)\n\nError in quantile(Ggt, probs = 0.5) : The quantile function only accepts\nscalar prob values within stat.table\n\n \n\nlooking at source I see\n\nquantile <- function(x, probs, na.rm=TRUE,names=TRUE,type=7,...) {\n\nif (length(probs > 1))\n\nstop(\"The quantile function only accepts scalar prob values within\n\nstat.table\")\n\ntapply(x, INDEX=subindex, FUN = stats::quantile, probs=prob,\n\nna.rm=na.rm,names=names,type=type,...\n\nand wonder if \n\nif (length(probs > 1))\n\nstop(\"The quantile function only accepts scalar prob values within\n\nstat.table\")\n\n \n\nshould be\n\nif (length(probs) > 1)\n\nstop(\"The quantile function only accepts scalar prob values within\n\nstat.table\")\n\n?\n\nI don't know about using R source so haven't tested it.\n\nOr am I doing something else wrong?\n\nNote that:\n\n> names(ggt)\n\n[1] \"labno\" \"date\" \"time\" \"Relrec\" \"Age\" \"DOB\"\n\n[7] \"Sex\" \"CC\" \"RefDoctor\" \"Lab\" \"Na\" \"K\"\n\n[13] \"Cl\" \"CO2\" \"Ag\" \"Glu\" \"Ur\" \"creat\"\n\n[19] \"Urate\" \"Tbil\" \"Cbil\" \"Alkp\" \"Ggt\" \"Alt\"\n\n[25] \"Ast\" \"Ld\" \"Ca\" \"Corca\" \"Phos\" \"Tprot\"\n\n[31] \"Alb\" \"Glob\" \"Iron\" \"Chol\" \"Trig\" \"Fast\"\n\n[37] \"coldate\" \"DOBdate\" \"agey\" \"decade\" \n\n> \n\nso I think the \n\nquantile(Ggt, part should be OK.\n\nRegards\n\nNigel\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello,\n\nUsing Epi 0.6 trying to stat.table a single quantile value (I want other\nthan 0.5 in other circumstances) I get\n\n> stat.table(list(decade,Sex),quantile(Ggt,probs=c(0.5)),data=ggt)\n\nError in qu",
       "thread_id": "thread-5fbe6a9fd5e8",
       "thread_depth": 0,
-      "month": "2006-09"
+      "month": "2006-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060928/a04a4ff4/attachment.pl"
+      ]
     }
   ],
   "threads": [

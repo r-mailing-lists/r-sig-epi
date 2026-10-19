@@ -13,11 +13,14 @@
       "subject_clean": "Cosinor Model (Halberg, Bingham) - Multiple components - Linear, Quadratic and Cubic trends",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120318/9111ffea/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120318/9111ffea/attachment.pl>",
+      "body_plain": "Hello!\n\nI have a doubt in relation with the use of the cosinor model with R when I have not only multiple components, but also linear, quadratic and cubic trends.\n\nI explain the details:\n\nIn simple cosinor:\n\n\nY = M + A * cos(2\n* π* t / T + φ) + error\n\nT knowed: y = M + β* X1 + ϒ* X2 + error,\n \nWhere X1 = cos (2 * π* t / T) and X2 = sin(2\n* π* t / T)\n \nIn this\ncase, I use lm(y ~ X1 + X2) .\n \nFor the\nmultiple components case:\n \ny = M + ∑Aj * cos(2 * π * t /Tj + φj) + error\n \nIn this\ncase I use:  lm(y ~ X1tot + X2tot)\n \nHowever, in\nthe generalized model case (linear, quadratic and cubic trends), I don’t know\nhow to analyze with R.\n \nI include\nthe situacion formula:\n \ny = M + α1 * t + α2 * t2 + α3 * t3+ ∑Aj *\ncos(2 *π* t /Tj + φ2) + error\n \nWhat\nfunction in R can I use, as I used lm for the simple cosinor model and the\nmultiple components model?.\n \nHow can I\nobtain global information and separated information?. I refer to obtain\ninformation for each contribution (linear tren, quadratic trend, … and so on).\n \nThank you\nvery much for your help.\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello!\n\nI have a doubt in relation with the use of the cosinor model with R when I have not only multiple components, but also linear, quadratic and cubic trends.\n\nI explain the details:\n\nIn simple co",
       "thread_id": "thread-ac166c672e6e",
       "thread_depth": 0,
-      "month": "2012-03"
+      "month": "2012-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120318/9111ffea/attachment.pl"
+      ]
     },
     {
       "id": "msg-233db3324b27",

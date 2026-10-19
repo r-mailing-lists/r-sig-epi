@@ -49,11 +49,14 @@
       "references": [
         "<mailman.5.1297335601.22737.r-sig-epi@r-project.org>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110210/d7675ac3/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110210/d7675ac3/attachment.pl>",
+      "body_plain": "Dear Pj,\n\nI sugest you also take a look at R-site-search and look for risk ratio or\nrelative risk. Perhaps someone already made a function wich may do this that\nyou need. A quick look right now, I found a package called RelativeRisk that\nis able to estimate the RR from the glm OR. If you did not run the GAM\nanalysis yet, perhaps is worth taking a look.\n\nKind regards,\n\nAbraço forte e que a força esteja com você,\n\nDr. Pedro Emmanuel A. A. do Brasil\nInstituto de Pesquisa Clínica Evandro Chagas\nFundação Oswaldo Cruz\nRio de Janeiro - Brasil\nAv. Brasil 4365\nTel 55 21 3865-9648\nemail: pedro.brasil at ipec.fiocruz.br\nemail: emmanuel.brasil at gmail.com\n\n---Apoio aos softwares livres\nwww.zotero.org - gerenciamento de referências bibliográficas.\nwww.broffice.org ou www.openoffice.org - textos, planilhas ou apresentações.\nwww.epidata.dk - entrada de dados.\nwww.r-project.org - análise de dados.\nwww.ubuntu.com - sistema operacional\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear Pj,\n\nI sugest you also take a look at R-site-search and look for risk ratio or\nrelative risk. Perhaps someone already made a function wich may do this that\nyou need. A quick look right now, I fou",
       "thread_id": "thread-4be58c43875b",
       "thread_depth": 0,
-      "month": "2011-02"
+      "month": "2011-02",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110210/d7675ac3/attachment.pl"
+      ]
     },
     {
       "id": "msg-24dd91de3177",
@@ -65,11 +68,14 @@
       "subject_clean": "Compare calibration from two LR models",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110216/f3ea8e6f/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110216/f3ea8e6f/attachment.pl>",
+      "body_plain": "Dear Friends,\n \nI have the following question on comparing calibration (using Hosmer-Lemeshow test) of two logistic regression models based on reported p-value.\n \nCan we use p-values for comparing calibration for two different logistic regression models? If one model has p value .2 and another model has .8, is it justified to conclude that second model is better calibrated compare to the first model ? [My intuition says NO, because p- value only measure of consistency between the observed data and the null hypothesis. And, here the null hypothesis is that the model is well calibrated. p-value does not tell about how strong the calibration is.]\n \nThank you for your response.\n \nBest regards,\nSuman Kundu\nPhD student.\nErasmus MC, Rotterdam\n \n\n\n      \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear Friends,\n \nI have the following question on comparing calibration (using Hosmer-Lemeshow test) of two logistic regression models based on reported p-value.\n \nCan we use p-values for comparing cal",
       "thread_id": "thread-24dd91de3177",
       "thread_depth": 0,
-      "month": "2011-02"
+      "month": "2011-02",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110216/f3ea8e6f/attachment.pl"
+      ]
     },
     {
       "id": "msg-be257ae3c61a",
@@ -83,11 +89,14 @@
       "references": [
         "<mailman.5.1297940402.32144.r-sig-epi@r-project.org>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110217/f31f9f0b/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110217/f31f9f0b/attachment.pl>",
+      "body_plain": "Dear Suman,\n\nIm not quite sure if I understand your question. I understand by\ncalibration, correcting or distorting model coefficients due to some\npenalization, such as lasso or bootstraping. Thus, p values in this\nscenarios does not make much sense to me. The issue is how much should you\npenalize the model to prevent overfitting. Updating calibration assumes that\nyou have a estimation dataset and a validation dataset, if you decide that\nthe model performance is not similar in both, thus it is reasonable to go on\ncalibrating/updating the model.\n\nBut perhaps you are talking about comparing two different models already\ncalibrated? If it is so, then some may argue that it is possible to test\nareas or partial areas under ROC curves or Brier scores of predicted values\nthrough hypothesis tests. Although never seen it from logistic models and\ndoes not make much sense to me either.\n\nKind regards,\n\nAbraço forte e que a força esteja com você,\n\nDr. Pedro Emmanuel A. A. do Brasil\nInstituto de Pesquisa Clínica Evandro Chagas\nFundação Oswaldo Cruz\nRio de Janeiro - Brasil\nAv. Brasil 4365\nTel 55 21 3865-9648\nemail: pedro.brasil at ipec.fiocruz.br\nemail: emmanuel.brasil at gmail.com\n\n---Apoio aos softwares livres\nwww.zotero.org - gerenciamento de referências bibliográficas.\nwww.broffice.org ou www.openoffice.org - textos, planilhas ou apresentações.\nwww.epidata.dk - entrada de dados.\nwww.r-project.org - análise de dados.\nwww.ubuntu.com - sistema operacional\n\n\n2011/2/17 <r-sig-epi-request at r-project.org>\n\n> Send R-sig-Epi mailing list submissions to\n>        r-sig-epi at r-project.org\n>\n> To subscribe or unsubscribe via the World Wide Web, visit\n>        https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> or, via email, send a message with subject or body 'help' to\n>        r-sig-epi-request at r-project.org\n>\n> You can reach the person managing the list at\n>        r-sig-epi-owner at r-project.org\n>\n> When replying, please edit your Subject line so it is more specific\n> than \"Re: Contents of R-sig-Epi digest...\"\n>\n>\n> Today's Topics:\n>\n>   1. Compare calibration from two LR models (Suman Kundu)\n>\n>\n> ----------------------------------------------------------------------\n>\n> Message: 1\n> Date: Wed, 16 Feb 2011 06:54:26 -0800 (PST)\n> From: Suman Kundu <suman_math at yahoo.com>\n> To: r-sig-epi at r-project.org\n> Subject: [R-sig-Epi] Compare calibration from two LR models\n> Message-ID: <830070.74768.qm at web112509.mail.gq1.yahoo.com>\n> Content-Type: text/plain\n>\n> Dear Friends,\n>\n> I have the following question on comparing calibration (using\n> Hosmer-Lemeshow test) of two logistic regression models based on reported\n> p-value.\n>\n> Can we use p-values for comparing calibration for two different logistic\n> regression models? If one model has p value .2 and another model has .8, is\n> it justified to conclude that second model is better calibrated compare to\n> the first model ? [My intuition says NO, because p- value only measure of\n> consistency between the observed data and the null hypothesis. And, here the\n> null hypothesis is that the model is well calibrated. p-value does not tell\n> about how strong the calibration is.]\n>\n> Thank you for your response.\n>\n> Best regards,\n> Suman Kundu\n> PhD student.\n> Erasmus MC, Rotterdam\n>\n>\n>\n>\n>        [[alternative HTML version deleted]]\n>\n>\n>\n> ------------------------------\n>\n> _______________________________________________\n> R-sig-Epi mailing list\n> R-sig-Epi at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n>\n> End of R-sig-Epi Digest, Vol 50, Issue 3\n> ****************************************\n>\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear Suman,\n\nIm not quite sure if I understand your question. I understand by\ncalibration, correcting or distorting model coefficients due to some\npenalization, such as lasso or bootstraping. Thus, p ",
       "thread_id": "thread-be257ae3c61a",
       "thread_depth": 0,
-      "month": "2011-02"
+      "month": "2011-02",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110217/f31f9f0b/attachment.pl"
+      ]
     }
   ],
   "threads": [

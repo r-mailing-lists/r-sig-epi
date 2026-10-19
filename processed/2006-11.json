@@ -13,11 +13,14 @@
       "subject_clean": "Correlated ROC curves",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061106/e4c1e59f/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061106/e4c1e59f/attachment.pl",
+      "body_plain": "Hi,\n\nIs there any package or code to compare and display correlated ROC curves in\nR?\n\nThanks,\nReza\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi,\n\nIs there any package or code to compare and display correlated ROC curves in\nR?\n\nThanks,\nReza\n\n\t[[alternative HTML version deleted]]",
       "thread_id": "thread-ebb1d776283b",
       "thread_depth": 0,
-      "month": "2006-11"
+      "month": "2006-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061106/e4c1e59f/attachment.pl"
+      ]
     },
     {
       "id": "msg-2c96894cd375",
@@ -83,11 +86,14 @@
       "references": [
         "<31b34fca0611201832r4dfdd7d0rb4874e78dcbbd089@mail.gmail.com>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061121/568eadf2/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061121/568eadf2/attachment.pl",
+      "body_plain": "Hi Neil\n\nThe consensus amongst my colleagues is that it depends on the study\nquestion:\n\nIf you are interested in testing whether the factors are 'predictors' of\nAMD, then only pre diagnosis observations should be considered. Post\ndiagnosis observations would be confounding.\n\nHowever, if you are only trying to show a 'link' between the factors and\nAMD, post diagnosis observations are acceptable.\n\nMurray\n\nOn 21/11/06, Neil Shephard <nshephard at gmail.com> wrote:\n>\n> Hi,\n>\n> Apologies for the slightly off-topic post but I'm seeking advise on\n> how to analyse a set of data I've encountered.\n>\n> This is not my choice of study design, its something I'm being asked\n> to help a student with (and personally I think its a bit of a\n> data-dredging exercise, and have explained this to them, but there).\n>\n> A group of cases with age-related macular degeneration (AMD) have been\n> collected from a clinic over a number of years, and because medical\n> records have been digitized for the past 20-30 years details on their\n> hospital admissions and a lot of other aspects of their health are\n> available from both before and the onset of AMD up to present date.\n>\n> A group of controls from the general population without AMD have been\n> age and sex-matched to each of the cases, and data on hospital\n> admissions and so forth have also been extracted for the same\n> variables, from the first record available up to present date\n>\n> The 'hypothesis' is that there are 'links' between AMD and\n> atherosclerotic disease, cardiovascular risk factors, systemic\n> inflamatory disease and neurodegenerative conditions.\n>\n> The supervisor of this student has suggested that _all_ data should be\n> used, i.e. the occurence of some atherosclerotic disease in a case or\n> control _after_ the onset of AMD in the case should be included.  This\n> to me does not make any sense at all.  A case-control study has a\n> temporal relationship of the exposure occuring before disease does.\n> The aim is to assess whether certain diseases/risk factors\n> (athersclerosis, classic CVD risk factors etc.) increase the risk of\n> AMD.  Analysing such events after the onset of disease turns that\n> question around, and mixing the two just completely messes things up\n> in my view.\n>\n> I've read through relevant sections of Breslow & Day's \"Statistical\n> Methods in Cancer Research - Vol 1\", and Dawson & Trapp's \"Basic &\n> Clinical Biostatistics\" as well as sections on case-control and\n> similar study designs in the Wiley Encyclopedia of Biostatistics but\n> can't find anything that deals with analysing data in such a manner.\n>\n> Is it valid to take events before and after the event of interest\n> (onset of AMD)?  Personally I don't think so, but if anyone has any\n> thoughts or insights into this I'd greatly appreciate them.\n>\n> Apologies again for the off-topic post, and thanks for your time,\n>\n> Neil\n>\n> --\n> \"An intellectual is a person who has discovered something more\n> interesting than sex.\" - Aldous Huxley\n>\n> Email - nshephard at gmail.com / neilshep at cyllene.uwa.edu.au\n> Website - http://slack.ser.man.ac.uk/\n> Photos - http://www.flickr.com/photos/slackline/\n>\n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n\n\n\n-- \nMurray Pung\nStatistician, Datapharm Australia Pty Ltd\n0404 273 283\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi Neil\n\nThe consensus amongst my colleagues is that it depends on the study\nquestion:\n\nIf you are interested in testing whether the factors are 'predictors' of\nAMD, then only pre diagnosis observatio",
       "thread_id": "thread-edd05dabd771",
       "thread_depth": 1,
-      "month": "2006-11"
+      "month": "2006-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061121/568eadf2/attachment.pl"
+      ]
     },
     {
       "id": "msg-05c82da5bd20",

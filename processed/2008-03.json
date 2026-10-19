@@ -13,11 +13,14 @@
       "subject_clean": "R-sig-Epi Digest, Vol 23, Issue 1 - Estimating CI for sensitivity and specificity",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080303/d95b317d/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080303/d95b317d/attachment.pl",
+      "body_plain": "Dr. Smita Pakhale,\n\nIm physician too and even though not a beginer in R, I do have a hard time\nwith R some times. Last year I had the same problem you are having right now\nand some more experinced friends form a local R list gave me a hand. Below\nare the two functions that resulted from my problem.\n\nThe two of them have some stuff in portuguese but if you are familiar with\ndiagnosis  then you will have no problmes. They estimate confidence\nintervals with binomial distribution which may not give confidence intervals\nhigher then 100, which happens when using normal distribution and extreme\npoint estimates values .\n\nThe first one estimate from a dataframe estructure. The second will heve to\ninput the numbers from the 2x2 tables. I hope it helps. Of course you may\nedit them as you wish to give the best results. Send news later!!!\n\n# Function to input columns of a data frame (first column is the test under\nevaluation and the second is the reference test.)\n\ndiagtest<-function(teste,gold,dec=1){\nrequire(epitools)\ntab<-table(2-teste,2-gold,dnn=c(deparse(substitute(teste)),deparse(substitute(gold))))\nVP<-tab[1,1]\nFP<-tab[1,2]\nFN<-tab[2,1]\nVN<-tab[2,2]\ndig<-2+dec\nn<-sum(tab)\np<-(VP+FN)/n\ns<-VP/(VP+FN)\ns.ci<-as.numeric(binom.wilson(VP, VP+FN, conf.level = 0.95)[4:5])\ne<-VN/(FP+VN)\ne.ci<-as.numeric(binom.wilson(VN, FP+VN, conf.level = 0.95)[4:5])\nrvp<-s/(1-e)\nrvn<-e/(1-s)\nacu<-(VP+VN)/n\nacu.ci<-as.numeric(binom.wilson(VP+VN, n, conf.level = 0.95)[4:5])\nvpp<-VP/(VP+FP)\nvpp.ci<-as.numeric(binom.wilson(VP, VP+FP, conf.level = 0.95)[4:5])\nvpn<-VN/(VN+FN)\nvpn.ci<-as.numeric(binom.wilson(VN, VN+FN, conf.level = 0.95)[4:5])\ndor<-(VP+VN)/(FP+FN)\ncet<-(FP+FN)/n\ncet.ci<-as.numeric(binom.wilson(FP+FN,n, conf.level = 0.95)[4:5])\ncat(\"\\n\\n\")\nprint(tab)\ncat(\"\\n\\n\")\ncat(\"O teste possui os seguinte parametros\",\"\\n\")\ncat(\"Sensibilidade: \",round(s,dig)*100,\"% (\",round(s.ci[1],dig)*100,\" a\n\",round(s.ci[2],dig)*100,\")\\n\")\ncat(\"Especifidade: \",round(e,dig)*100,\"% (\",round(e.ci[1],dig)*100,\" a\n\",round(e.ci[2],dig)*100,\")\\n\")\ncat(\"Acurácia: \",round(acu,dig)*100,\"% (\",round(acu.ci[1],dig)*100,\" a\n\",round(acu.ci[2],dig)*100,\")\\n\")\ncat(\"Classificação errônea total: \",round(cet,dig)*100,\"%\n(\",round(cet.ci[1],dig)*100,\" a \",round(cet.ci[2],dig)*100,\")\\n\")\ncat(\"DOR: \",round(dor,dig),\"\\n\")\ncat(\"Razão de Verossimilhança Positiva: \",round(rvp,dig),\"\\n\")\ncat(\"Razão de Verossimilhança Negativa: \",round(rvn,dig),\"\\n\")\ncat(\"Considerando um prevalência de : \",round(p,dig)*100,\"%\\n\")\ncat(\"Valor Preditivo Positivo: \",round(vpp,dig)*100,\"%\n(\",round(vpp.ci[1],dig)*100,\" a \",round(vpp.ci[2],dig)*100,\")\\n\")\ncat(\"Valor Preditivo Negativo: \",round(vpn,dig)*100,\"%\n(\",round(vpn.ci[1],dig)*100,\" a \",round(vpn.ci[2],dig)*100,\")\\n\\n\\n\")\n}\ndiagtest(BNP,ICC)\n\n\n\n# Function to input the values from a 2x2 table\n\ndiagtest<-function(a,b,c,d,dec=1){\nrequire(epitools)\ndig<-2+dec\nn<-a+b+c+d\np<-(a+c)/n\ns<-a/(a+c)\ns.ci<-as.numeric(binom.wilson(a, a+c, conf.level = 0.95)[4:5])\ne<-d/(b+d)\ne.ci<-as.numeric(binom.wilson(d, b+d, conf.level = 0.95)[4:5])\nrvp<-s/(1-e)\nrvn<-e/(1-s)\nacu<-(a+d)/n\nacu.ci<-as.numeric(binom.wilson(a+d, n, conf.level = 0.95)[4:5])\nvpp<-(s*p)/(s*p+(1-e)*(1-p))\nvpn<-((1-p)*e)/((1-p)*e+p*(1-s))\ncat(\"O teste possui os seguinte parametros\",\"\\n\")\ncat(\"Sensibilidade: \",round(s,dig)*100,\"% (\",round(s.ci[1],dig)*100,\" a\n\",round(s.ci[2],dig)*100,\")\\n\")\ncat(\"Especifidade: \",round(e,dig)*100,\"% (\",round(e.ci[1],dig)*100,\" a\n\",round(e.ci[2],dig)*100,\")\\n\")\ncat(\"Acurácia: \",round(acu,dig)*100,\"% (\",round(acu.ci[1],dig)*100,\" a\n\",round(acu.ci[2],dig)*100,\")\\n\")\ncat(\"Razão de Verossimilhança Positiva: \",rvp,\"\\n\")\ncat(\"Razão de Verossimilhança Negativa: \",rvn,\"\\n\")\ncat(\"Considerando um prevalência de : \",round(p,dig)*100,\"%\\n\")\ncat(\"Valor Preditivo Positivo: \",round(vpp,dig)*100,\"%\\n\")\ncat(\"Valor Preditivo Negativo: \",round(vpn,dig)*100,\"%\\n\")\n}\ndiagtest(300,5,5,500)\n\nBest regards,\nPedro Brasil\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dr. Smita Pakhale,\n\nIm physician too and even though not a beginer in R, I do have a hard time\nwith R some times. Last year I had the same problem you are having right now\nand some more experinced fri",
       "thread_id": "thread-f522a8bf15b7",
       "thread_depth": 0,
-      "month": "2008-03"
+      "month": "2008-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080303/d95b317d/attachment.pl"
+      ]
     },
     {
       "id": "msg-a3d271ed0052",
@@ -97,11 +100,14 @@
       "subject_clean": "R group forming on Linked In",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080326/788bfa3c/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080326/788bfa3c/attachment.pl",
+      "body_plain": "http://www.linkedin.com/e/gis/77616/0AEFE3574537\nGreetings:\n\nI am forming an R group on Linked In which is a professional networking\nsite.  It may help employers and seekers identify users of the R language.\n The link may be dead by the time you get it so you may have to copy and\npaste; or find me on Linked In.\n\nRegards,\n\nAjit\n\n-- \n_________________________________\nAjit Gemunu de Silva\nOakland CA 94619\n\nskype: ajit_de_silva\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "http://www.linkedin.com/e/gis/77616/0AEFE3574537\nGreetings:\n\nI am forming an R group on Linked In which is a professional networking\nsite.  It may help employers and seekers identify users of the R la",
       "thread_id": "thread-efd64df3c17e",
       "thread_depth": 0,
-      "month": "2008-03"
+      "month": "2008-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080326/788bfa3c/attachment.pl"
+      ]
     },
     {
       "id": "msg-1193989dc000",
@@ -113,11 +119,14 @@
       "subject_clean": "import data repeadeatly",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080328/1b99b9f4/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080328/1b99b9f4/attachment.pl",
+      "body_plain": "Repeadeately\nDear All!\nI'm an unexperienced user of R. I'm trying to import varaibles in a stepwise manner from a huge data set (whole genome scan data from a case control study). I'm not sure that my code will work and I know that the current code is not working the way I want it to work. I would like to import data and do some calculations and then store the results and then import a new variable and do the same calculations again for the latter variable and so on. In the code below there is no calculations yet (i'm just trying to solve the import problem). Please.Can anyone give me som suggestions.\nsnpSelect<<- function(data, KIND, i){\nrsp<<-cbind(subset(read.table(data, header = TRUE), select=KIND+i))\nrsp \n}\ndatan<-matrix(0, nrow=1574, ncol=5)\nfor(i in 1:(length(q))){\ndatan[,i]<<-snpSelect(\"c:/program/R/test.txt\",KIND,i)\n}\nBest regards Henrik Källberg\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Repeadeately\nDear All!\nI'm an unexperienced user of R. I'm trying to import varaibles in a stepwise manner from a huge data set (whole genome scan data from a case control study). I'm not sure that my",
       "thread_id": "thread-1193989dc000",
       "thread_depth": 0,
-      "month": "2008-03"
+      "month": "2008-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080328/1b99b9f4/attachment.pl"
+      ]
     },
     {
       "id": "msg-0dd33df7959d",

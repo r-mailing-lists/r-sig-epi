@@ -13,11 +13,14 @@
       "subject_clean": "The Common risk difference and effect modification on the additive scale",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/8e1b86ae/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/8e1b86ae/attachment.pl>",
+      "body_plain": "I am interested in evaluating whether or not the joint effect of two\nindependent variables on an outcome are additive. I want to be able to give\nsomething analogous to the Breslow-Day test of homogeneity, which evaluates\neffect modification on the multiplicative scale, but on the additive scale.\nI would also like to calculate the common Risk Difference across two strata.\nDoes anyone know of any R package that has these functions, which focus on\nadditive relationships in stratified analyses?\n\nCheers,\n\nJens\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I am interested in evaluating whether or not the joint effect of two\nindependent variables on an outcome are additive. I want to be able to give\nsomething analogous to the Breslow-Day test of homogene",
       "thread_id": "thread-70bfc6cb36ef",
       "thread_depth": 0,
-      "month": "2009-11"
+      "month": "2009-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/8e1b86ae/attachment.pl"
+      ]
     },
     {
       "id": "msg-dbd287b1fcca",
@@ -31,11 +34,14 @@
       "references": [
         "<mailman.2.1257850801.27032.r-sig-epi@stat.math.ethz.ch>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/805f1315/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/805f1315/attachment.pl>",
+      "body_plain": "http://www.linkedin.com/groups?about=&gid=77616&trk=anet_ug_grppro\n\n\ngreetings jens:\n\ni also suggest submitting this question to the r group on linkedin.com.  we\nhave almost two thousand members.\n\nregards,\n\najit\n\nOn Tue, Nov 10, 2009 at 3:00 AM, <r-sig-epi-request at stat.math.ethz.ch>wrote:\n\n> Send R-sig-Epi mailing list submissions to\n>        r-sig-epi at stat.math.ethz.ch\n>\n> To subscribe or unsubscribe via the World Wide Web, visit\n>        https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> or, via email, send a message with subject or body 'help' to\n>        r-sig-epi-request at stat.math.ethz.ch\n>\n> You can reach the person managing the list at\n>        r-sig-epi-owner at stat.math.ethz.ch\n>\n> When replying, please edit your Subject line so it is more specific\n> than \"Re: Contents of R-sig-Epi digest...\"\n>\n> Today's Topics:\n>\n>   1. The Common risk difference and effect modification on     the\n>      additive scale (Jens Levy)\n>\n>\n> ---------- Forwarded message ----------\n> From: Jens Levy <jenslevy at gmail.com>\n> To: r-sig-epi at stat.math.ethz.ch\n> Date: Tue, 10 Nov 2009 11:15:17 +0700\n> Subject: [R-sig-Epi] The Common risk difference and effect modification on\n> the additive scale\n> I am interested in evaluating whether or not the joint effect of two\n> independent variables on an outcome are additive. I want to be able to give\n> something analogous to the Breslow-Day test of homogeneity, which evaluates\n> effect modification on the multiplicative scale, but on the additive scale.\n> I would also like to calculate the common Risk Difference across two\n> strata.\n> Does anyone know of any R package that has these functions, which focus on\n> additive relationships in stratified analyses?\n>\n> Cheers,\n>\n> Jens\n>\n>        [[alternative HTML version deleted]]\n>\n>\n>\n> _______________________________________________\n> R-sig-Epi mailing list\n> R-sig-Epi at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n>\n\n\n-- \n_________________________________\nAjit Gemunu de Silva\nOakland CA 94619\n\nskype: ajit_de_silva\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "http://www.linkedin.com/groups?about=&gid=77616&trk=anet_ug_grppro\n\n\ngreetings jens:\n\ni also suggest submitting this question to the r group on linkedin.com.  we\nhave almost two thousand members.\n\nreg",
       "thread_id": "thread-dbd287b1fcca",
       "thread_depth": 0,
-      "month": "2009-11"
+      "month": "2009-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/805f1315/attachment.pl"
+      ]
     },
     {
       "id": "msg-be704a34d68b",

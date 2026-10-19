@@ -184,11 +184,14 @@
       "subject_clean": "OR in HGLM",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110330/e306b4e6/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110330/e306b4e6/attachment.pl>",
+      "body_plain": "Dear All,\n\nI  was  wondering how I can  generate adjusted odds  ratio confidence intervals  using the hglm package? I  know you can simply  use the exponential of the estimate to get the OR,  but I  am not sure how you  can get the  equivalent of the \" logistic.display\"  in epicalc that will also  generate the  CI's.  I  know this is   very  elementary  question.\n\nRussell \" Skip\" Barbour  Ph.D.\nYale School  of Medicine\n135 College St.  Suit 200\nNew Haven ,  CT. 06510\nTel: 203 764 4332\nFax: 203 764 4353\nEmail: russell.barbour at yale.edu<mailto:russell.barbour at yale.edu>\n\n\nDoubt grows with knowledge.\nJohann Wolfgang von Goethe<http://www.brainyquote.com/quotes/quotes/j/johannwolf380192.html>\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All,\n\nI  was  wondering how I can  generate adjusted odds  ratio confidence intervals  using the hglm package? I  know you can simply  use the exponential of the estimate to get the OR,  but I  a",
       "thread_id": "thread-914545102768",
       "thread_depth": 0,
-      "month": "2011-03"
+      "month": "2011-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110330/e306b4e6/attachment.pl"
+      ]
     }
   ],
   "threads": [

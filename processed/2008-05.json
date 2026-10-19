@@ -93,11 +93,14 @@
       "subject_clean": "CURSO DE R NA UNICAMP",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080521/abce766b/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080521/abce766b/attachment.pl>",
+      "body_plain": "Olá!\n\nSou Ana Carolina e gostaria de saber se há alguém interessado e capacitado\npara dar um curso de R durante uma semana na UNICAMP - Campinas - SP para o\nDepartamento de Medicina Preventiva e Social.\nÉ necessário que algumas aulas sejam sobre utilização dos pacotes mgcv, gam\ne VGAM.\nCaso haja interesse, por favor, entre em contato. Temos certa urgência! O\ncurso seria para junho/08.\n\nGrata,\nAna Carolina\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Olá!\n\nSou Ana Carolina e gostaria de saber se há alguém interessado e capacitado\npara dar um curso de R durante uma semana na UNICAMP - Campinas - SP para o\nDepartamento de Medicina Preventiva e Socia",
       "thread_id": "thread-4433fa66cfe6",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080521/abce766b/attachment.pl"
+      ]
     },
     {
       "id": "msg-638b7ee45cd5",
@@ -109,11 +112,14 @@
       "subject_clean": "lists and data frame",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/c0f9bf20/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/c0f9bf20/attachment.pl>",
+      "body_plain": "Dear All!\nI would like to create a data frame based on multiple lists (based on returns from a function). I have tried a lot of diffrent ways but I have not managed to create a single data frame based on many lists. Here's some pseudcode to explain:\n \nFunction........\nall<-data.frame(name, var1, var2 )\nreturn(all) \n}\ndspec<-c()\nfor(i in 1:z){\ndspec[i]<-list(function(data,i,case,rsp))\n}\nI want to have ONE data frame (now I have a large list \"dspec\" with different lists) with the variable names from the function.\n´Best regards Henrik Källberg\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All!\nI would like to create a data frame based on multiple lists (based on returns from a function). I have tried a lot of diffrent ways but I have not managed to create a single data frame based",
       "thread_id": "thread-638b7ee45cd5",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/c0f9bf20/attachment.pl"
+      ]
     },
     {
       "id": "msg-aa1fd7f0a3b4",
@@ -125,11 +131,14 @@
       "subject_clean": "I solved the problem",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/51c6f656/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/51c6f656/attachment.pl>",
+      "body_plain": "Hi again!\nI managed to find an solution to my problem. So, dont bother the earlier question regarding lists and data frames.\nBest regards Henrik Källberg\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi again!\nI managed to find an solution to my problem. So, dont bother the earlier question regarding lists and data frames.\nBest regards Henrik Källberg\n\n\t[[alternative HTML version deleted]]",
       "thread_id": "thread-aa1fd7f0a3b4",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/51c6f656/attachment.pl"
+      ]
     },
     {
       "id": "msg-ce269de2b378",
@@ -143,11 +152,14 @@
       "references": [
         "<mailman.5.1211536802.15949.r-sig-epi@stat.math.ethz.ch>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080524/3dc34da4/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080524/3dc34da4/attachment.pl>",
+      "body_plain": "Maybe if you post your own solution might give light for future doubts!\nbest regards,\nPedro Brasil\n\n2008/5/23 <r-sig-epi-request at stat.math.ethz.ch>:\n\n> Send R-sig-Epi mailing list submissions to\n>        r-sig-epi at stat.math.ethz.ch\n>\n> To subscribe or unsubscribe via the World Wide Web, visit\n>        https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n> or, via email, send a message with subject or body 'help' to\n>        r-sig-epi-request at stat.math.ethz.ch\n>\n> You can reach the person managing the list at\n>        r-sig-epi-owner at stat.math.ethz.ch\n>\n> When replying, please edit your Subject line so it is more specific\n> than \"Re: Contents of R-sig-Epi digest...\"\n>\n>\n> Today's Topics:\n>\n>   1. lists and data frame (Henrik Kallberg)\n>   2. I solved the problem (Henrik Kallberg)\n>\n>\n> ----------------------------------------------------------------------\n>\n> Message: 1\n> Date: Thu, 22 May 2008 12:44:32 +0200\n> From: Henrik Kallberg <Henrik.Kallberg at ki.se>\n> Subject: [R-sig-Epi] lists and data frame\n> To: r-sig-epi at stat.math.ethz.ch\n> Message-ID: <fe92f6ee179c.179cfe92f6ee at ki.se>\n> Content-Type: text/plain\n>\n> Dear All!\n> I would like to create a data frame based on multiple lists (based on\n> returns from a function). I have tried a lot of diffrent ways but I have not\n> managed to create a single data frame based on many lists. Here's some\n> pseudcode to explain:\n>\n> Function........\n> all<-data.frame(name, var1, var2 )\n> return(all)\n> }\n> dspec<-c()\n> for(i in 1:z){\n> dspec[i]<-list(function(data,i,case,rsp))\n> }\n> I want to have ONE data frame (now I have a large list \"dspec\" with\n> different lists) with the variable names from the function.\n> ´Best regards Henrik Källberg\n>\n>        [[alternative HTML version deleted]]\n>\n>\n>\n> ------------------------------\n>\n> Message: 2\n> Date: Thu, 22 May 2008 14:15:06 +0200\n> From: Henrik Kallberg <Henrik.Kallberg at ki.se>\n> Subject: [R-sig-Epi] I solved the problem\n> To: r-sig-epi at stat.math.ethz.ch\n> Message-ID: <fa5e8aaf3392.3392fa5e8aaf at ki.se>\n> Content-Type: text/plain\n>\n> Hi again!\n> I managed to find an solution to my problem. So, dont bother the earlier\n> question regarding lists and data frames.\n> Best regards Henrik Källberg\n>\n>        [[alternative HTML version deleted]]\n>\n>\n>\n> ------------------------------\n>\n> _______________________________________________\n> R-sig-Epi mailing list\n> R-sig-Epi at stat.math.ethz.ch\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n>\n> End of R-sig-Epi Digest, Vol 25, Issue 6\n> ****************************************\n>\n\n\n\n-- \nAbraço forte e que a força esteja com você,\nPedro Emmanuel\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Maybe if you post your own solution might give light for future doubts!\nbest regards,\nPedro Brasil\n\n2008/5/23 <r-sig-epi-request at stat.math.ethz.ch>:\n\n> Send R-sig-Epi mailing list submissions to\n> ",
       "thread_id": "thread-ce269de2b378",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080524/3dc34da4/attachment.pl"
+      ]
     },
     {
       "id": "msg-1edacb419235",
@@ -159,11 +171,14 @@
       "subject_clean": "Help os test accuracy design!",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080527/7702cb40/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080527/7702cb40/attachment.pl>",
+      "body_plain": "Hi R users friends,\n\nI come now asking for sugestions on a particular problem on a study desing\nand analysis for a diagnostic strategy. Last year I started project which\nits intent is to validate a combination of signs and symptoms and history of\nexposure for a particular tropical disease. After reviewing some strategies\nfor analysis I decided to use the most simple one such as sensitivity and\nspecificity and more coplex one such as a combined nomogram and a decision\ntree (probably cart) and possibly a neural network. This project started and\nstill recruting patients.\n\nlast week, a collegue of mine, which works wiht urinary tract infection\nfollowing patients with spinal cord injure ask my help to develop a similar\nproject. To validate a combination of signs symptom and a few coplementary\nlab tests which can most predict the presence or absence of urinary tract\ninfection on these patients. However, the analysis approach of a decision\ntree and nomogram may not work well due to two problmes. At start a most\ncrucial problem... what would be a good gold standart if urine culture may\nshow only colonization but not infection? Well, so far I thought that a\nbayesian approach may workout fine. Any other sugestions?\n\nAnother crucial problem is that these patients with spinal chord injure and\nneurogenic bladder have lots UTI a year. And that can be a lot different\nfrom patient to patient (some have 2 and some have 12 infections a year)\ndepending of the amount of urine rettained in bladder.\n\nIf we include patients everytime they have a suspicious UTI then a patient\nwith a more severe rettention would be included more often and most likely\nhis (or her) signs and symptoms would be overestimated for UTI prediction!\n\nIf we include only one suspicius episode of each patients then the worst\nproblem of theses patients, which is repeated UTI over time, might not be\nworked out as good as it should.\n\nIf I have to choose between one of these, I would choose the first one\ntrying to incorporate in the analysis the number of past UTI (in the last\nsix months for example). However Im not shure which would be the best\nanalysis strategies, perhaps the bayesian approach, even if Im not that\nfamiliar with it, would be the most appropriate! Any suggestions here?\n\nBest regards to all,\n-- \nAbraço forte e que a força esteja com você,\nPedro Emmanuel\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi R users friends,\n\nI come now asking for sugestions on a particular problem on a study desing\nand analysis for a diagnostic strategy. Last year I started project which\nits intent is to validate a co",
       "thread_id": "thread-1edacb419235",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080527/7702cb40/attachment.pl"
+      ]
     },
     {
       "id": "msg-e50b20d6078c",

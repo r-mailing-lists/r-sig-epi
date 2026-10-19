@@ -13,11 +13,14 @@
       "subject_clean": "Sampling from regression data on the basis of smallest absolute residuals",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080409/979ea777/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080409/979ea777/attachment.pl",
+      "body_plain": "Hi Everyone,\n   \n  I am an R novice. i want to pick from the 30 regression fitted residuals data those 20 observation that has smallest absolute residuals and run OLS on the selected 20 data and got residuals for all 30 observations from the fitted model based on those 20 observations and want to select again 20 observations that has smallest  residuals..... and so on. i have used these codes\n  ...........................\n  a<- rank(abs(resid))\n  which(a %in% c(1:20))\n  sub<- which(a %in% c(1:20))\n  lm(formula.original, data = original.data, subset = sub)\n  ..................................................\n  How  to do it repeatedly?  may be i need a loop for this if i am right, that select 20 out of 30 observation that has smallest absolute residuals and run OLS on it?\n   \n  Thanking in anticipation\n  Dost \n\n __________________________________________________\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi Everyone,\n   \n  I am an R novice. i want to pick from the 30 regression fitted residuals data those 20 observation that has smallest absolute residuals and run OLS on the selected 20 data and got r",
       "thread_id": "thread-b8768c33ba2b",
       "thread_depth": 0,
-      "month": "2008-04"
+      "month": "2008-04",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080409/979ea777/attachment.pl"
+      ]
     },
     {
       "id": "msg-92ac171c52a3",
@@ -29,11 +32,14 @@
       "subject_clean": "mode of a character variable",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080411/184689c2/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080411/184689c2/attachment.pl",
+      "body_plain": "Dear All!\nI have tried to find a function for searching for the most common character set within a variable. I have not found a solution though. Maybe any smarthead out there could enlight me. To describe what i'm after the metacode looks like this:\nvar\nA A\nA A\nC C\nG G\ncm<-FindModeChar(var)\ncm\nA A\nBest regards Henrik\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All!\nI have tried to find a function for searching for the most common character set within a variable. I have not found a solution though. Maybe any smarthead out there could enlight me. To desc",
       "thread_id": "thread-92ac171c52a3",
       "thread_depth": 0,
-      "month": "2008-04"
+      "month": "2008-04",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080411/184689c2/attachment.pl"
+      ]
     },
     {
       "id": "msg-0103a06d4187",
@@ -63,11 +69,14 @@
       "subject_clean": "AIC values from Icens function",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080415/3d631a5b/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080415/3d631a5b/attachment.pl",
+      "body_plain": "Hi,\nI am using the Icens function in the Epi package and was wondering if anyone\nknows if the deviance values for the result (Icens.obj$cov$deviance or\nIcens.obj$rates$deviance) are reliable.  I'd like to use AIC for model\nbuilding, but I don't know if the method of iteratively fitting results in\naccurate AIC values.  Any ideas?\nThanks,\nSummer\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi,\nI am using the Icens function in the Epi package and was wondering if anyone\nknows if the deviance values for the result (Icens.obj$cov$deviance or\nIcens.obj$rates$deviance) are reliable.  I'd lik",
       "thread_id": "thread-d6a82200f6d2",
       "thread_depth": 0,
-      "month": "2008-04"
+      "month": "2008-04",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080415/3d631a5b/attachment.pl"
+      ]
     },
     {
       "id": "msg-183279f76270",
@@ -79,11 +88,14 @@
       "subject_clean": "Help non-conformable array",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080417/1a221067/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080417/1a221067/attachment.pl",
+      "body_plain": "Hi!\nI have tried to work out how add two arrays that are non-conformable. I'm stuck. Is there anyone who can help me? (some meta code is shown below)\narray1\nas    bs\n12   14\narray2\nas\n14\narray3=array1+array2 (this is what I want to do)\nBest Henrik Källberg\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi!\nI have tried to work out how add two arrays that are non-conformable. I'm stuck. Is there anyone who can help me? (some meta code is shown below)\narray1\nas    bs\n12   14\narray2\nas\n14\narray3=array1",
       "thread_id": "thread-183279f76270",
       "thread_depth": 0,
-      "month": "2008-04"
+      "month": "2008-04",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080417/1a221067/attachment.pl"
+      ]
     }
   ],
   "threads": [

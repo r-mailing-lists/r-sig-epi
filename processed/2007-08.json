@@ -13,11 +13,14 @@
       "subject_clean": "memory over load?",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070802/6d93c818/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070802/6d93c818/attachment.pl",
+      "body_plain": "I have been running logistic regression on R and am getting memory\noverload issues. Is there a way to clear out the memory without\nrestarting R so that I can save my work? I have tried already rm(model1)\nto remove the work from the first model so that I can run the second,\nbut it doesn't clear out enough memory.\n\n \n\nThanks.\n\n \n\nLynn D. Disney, Ph.D., J.D., M.P.H.\n\nResearch Analyst\n\n \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I have been running logistic regression on R and am getting memory\noverload issues. Is there a way to clear out the memory without\nrestarting R so that I can save my work? I have tried already rm(mode",
       "thread_id": "thread-bcef2a728d93",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070802/6d93c818/attachment.pl"
+      ]
     },
     {
       "id": "msg-a0e50a1b4b1d",
@@ -265,11 +268,14 @@
       "subject_clean": "Could it be possible to set up an international group to develop a specific Epi package?",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070821/4d828147/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070821/4d828147/attachment.pl",
+      "body_plain": "Dear friends,\n  It seems that the development of epidemiological package is not that\ngood.  Could it be possible to set up an international group to develop a\nspecific Epi package? Spatial Analysis Laboratory (SAL) in the Department of\nGeography at the University of Illinois (www.sal.uiuc.edu) had done well on\nspatial data analysis, may we do the similar thing on the field of\nepidemiology?\n  We may need a leader.\n\n-- \nWith Kind Regards,\n\noooO:::::::::\n(..):::::::::\n:\\.(:::Oooo::\n::\\_)::(..)::\n:::::::)./:::\n::::::(_/::::\n:::::::::::::\n[***********************************************************************]\nZhi Jie,Zhang ,PHD\nTel:86-21-54237149\nDept. of Epidemiology,School of Public Health,Fudan University\nAddress:No. 138 Yi Xue Yuan Road,Shanghai,China\nPostcode:200032\nEmail:epistat at gmail.com\nWebsite: www.statABC.com\n[***********************************************************************]\noooO:::::::::\n(..):::::::::\n:\\.(:::Oooo::\n::\\_)::(..)::\n:::::::)./:::\n::::::(_/::::\n:::::::::::::\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear friends,\n  It seems that the development of epidemiological package is not that\ngood.  Could it be possible to set up an international group to develop a\nspecific Epi package? Spatial Analysis La",
       "thread_id": "thread-37e1505c312f",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070821/4d828147/attachment.pl"
+      ]
     },
     {
       "id": "msg-550380613885",
@@ -297,11 +303,14 @@
       "subject_clean": "Could it be possible to set up an international group to develop a specific Epi package?",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070822/2940cca8/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070822/2940cca8/attachment.pl",
+      "body_plain": "Dear Dr. Zhang and Dr. Carstensen:\n\n \n\nIf you would like me to assist you in this or any other R package for\nepidemiology, let me know. \n\n \n\nBest regards.\n\n \n\nMitchell\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear Dr. Zhang and Dr. Carstensen:\n\n \n\nIf you would like me to assist you in this or any other R package for\nepidemiology, let me know. \n\n \n\nBest regards.\n\n \n\nMitchell\n\n\n\t[[alternative HTML version de",
       "thread_id": "thread-b12bdd842223",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070822/2940cca8/attachment.pl"
+      ]
     }
   ],
   "threads": [

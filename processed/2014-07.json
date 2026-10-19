@@ -13,11 +13,14 @@
       "subject_clean": "block randomization",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140704/a6f874b2/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140704/a6f874b2/attachment.pl>",
+      "body_plain": "Dear all, \nI am using randomization. \nit's small sample i have 80 patients in two arms (40 in each arm).\nand stratified by 3 variable age(yes/No), surgery(Yes/No), kps(Yes No)\nwith 8 block of 10 \n\n I am not sure , what i did it correct. \nplease advice me. \n\nthanks very much \nSug\n\n##------------------------------------#\n##  Randomization Stratified by       #\n##  Age 18: Yes/No                    #\n##  Surgery: Yes/No                   #\n##  KPS>70: Yes/No                    #\n##------------------------------------# \n## N=80                               #\n## Block size= 10                     #          \n## Equal treatment group within block #\n##------------------------------------#\n\nlibrary(blockrand)\nAge_y <- blockrand(n=80, id.prefix=\"Yes\", block.prefix=\"Yes\",stratum=\"Age>18\",block.sizes=c(10,10),uneq.beg=FALSE, uneq.mid=FALSE)\nAge_N <- blockrand(n=80, id.prefix=\"No\", block.prefix=\"No\",stratum=\"Age<=18\",block.sizes = c(10,10),uneq.beg=FALSE, uneq.mid=FALSE)\nAge     <- rbind(Age_y,Age_N)\n\nSur_Y   <- blockrand(n=80, id.prefix=\"Yes\", block.prefix=\"Yes\",stratum=\"Sur_Yes\",block.sizes = c(10,10),uneq.beg=FALSE, uneq.mid=FALSE)\nSur_N   <- blockrand(n=80, id.prefix=\"No\", block.prefix=\"No\",stratum=\"Sur_No\",block.sizes = c(10,10),uneq.beg=FALSE, uneq.mid=FALSE)\nSurgery <- rbind(Sur_Y,Sur_N)\n \nKPS_y <- blockrand(n=80, id.prefix=\"Yes\", block.prefix=\"Yes\",stratum=\"KPS>70\",block.sizes =c(10,10),uneq.beg=FALSE, uneq.mid=FALSE)\nKPS_n <- blockrand(n=80, id.prefix=\"No\", block.prefix=\"No\",stratum=\"KPS<=70\",block.sizes = c(10,10),uneq.beg=FALSE, uneq.mid=FALSE)\nKPS<- rbind(KPS_y,KPS_n)\n \nmy.study <- cbind (Age,Surgery,KPS)\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all, \nI am using randomization. \nit's small sample i have 80 patients in two arms (40 in each arm).\nand stratified by 3 variable age(yes/No), surgery(Yes/No), kps(Yes No)\nwith 8 block of 10 \n\n I ",
       "thread_id": "thread-06ae47b1e0e8",
       "thread_depth": 0,
-      "month": "2014-07"
+      "month": "2014-07",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140704/a6f874b2/attachment.pl"
+      ]
     },
     {
       "id": "msg-88f0bb3d0fee",

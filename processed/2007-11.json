@@ -13,11 +13,14 @@
       "subject_clean": "Data.Frame Desaggregation",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071104/dac015af/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071104/dac015af/attachment.pl",
+      "body_plain": "Hi Listers,\n\nI am trying to transform the data.frame above in a more detailed data.frame... I checked a example at the website, but I didn't understand at all.\n                    \ndata.frame(x = with(df1, rep(x, m)))\nWhat does the df1 means...\n\nMy data looks like this...\n    Y  m   X1    X2\n  1   3   3 12.0   0.8\n  2   1   4   4.1  67.5\n  3   1   3  2.4   12.4\n  4   2   2 11.2    7.7\n\nMy object is to obtain this...\n     Y  m   X1    X2\n 1   1  . 12.0    0.8\n 1   1  . 12.0    0.8\n 1   1  . 12.0    0.8\n 2   1  .  4.1   67.5\n 2   0  .  4.1   67.5\n 2   0  .  4.1   67.5\n 2   0  .  4.1   67.5\n 3   1  .  2.4   12.4\n3   0  .  2.4   12.4\n 3   0  .  2.4   12.4\n 4   1  . 11.2    7.7\n 4   1  . 11.2    7.7\n\n Thanks in advance,\n\nRibeiro\n\n\n       \n---------------------------------\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi Listers,\n\nI am trying to transform the data.frame above in a more detailed data.frame... I checked a example at the website, but I didn't understand at all.\n                    \ndata.frame(x = with",
       "thread_id": "thread-fb2d4c095d98",
       "thread_depth": 0,
-      "month": "2007-11"
+      "month": "2007-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071104/dac015af/attachment.pl"
+      ]
     },
     {
       "id": "msg-cb8ad6a09938",

@@ -13,11 +13,14 @@
       "subject_clean": "Linear excess relative risk modelling in R",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120111/484ac288/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120111/484ac288/attachment.pl>",
+      "body_plain": "Dear List,\n\n\n\nI am attempting to carry out linear excess relative risk modelling for the\npurposes of a nested case-control study of nuclear industry workers.\n\n\n\nThe majority of similar analyses in the literature have been carried out\nusing EPICURE, SAS or STATA, or have been implemented directly in FORTRAN.\nFor a number of reasons, it would be preferable for me to carry out the\nanalysis in R, but I am having difficulty finding an appropriate R\npackage.\n\n\n\nMany thanks in advance for any advice on this matter,\n\n\n\nJames Grellier\n\n\n\nJames Grellier PhD\n\nCREAL-Centre for Research in Environmental Epidemiology\nParc de Recerca Biomèdica de Barcelona (despatx 183.01.A)\nDoctor Aiguader, 88 | 08003 Barcelona\n\n\n\nTel. +34 932 147 345\njgrellier at creal.cat\n\n <http://www.creal.cat/> www.creal.cat\n\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear List,\n\n\n\nI am attempting to carry out linear excess relative risk modelling for the\npurposes of a nested case-control study of nuclear industry workers.\n\n\n\nThe majority of similar analyses in the",
       "thread_id": "thread-ddeda4469479",
       "thread_depth": 0,
-      "month": "2012-01"
+      "month": "2012-01",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120111/484ac288/attachment.pl"
+      ]
     },
     {
       "id": "msg-9fc0fcfac4b5",
@@ -31,11 +34,14 @@
       "references": [
         "<mailman.5.1326366002.15797.r-sig-epi@r-project.org>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120112/bec03b18/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120112/bec03b18/attachment.pl>",
+      "body_plain": "Taking a look at task views on survival analysis here:\n\nhttp://finzi.psych.upenn.edu/views/Survival.html\n\nit seems the package timereg may do what you want.\n\nAbraço forte e que a força esteja com você,\n\nDr. Pedro Emmanuel A. A. do Brasil\nInstituto de Pesquisa Clínica Evandro Chagas\nFundação Oswaldo Cruz\nRio de Janeiro - Brasil\nAv. Brasil 4365,\nCEP 21040-360,\nTel 55 21 3865-9648\nemail: pedro.brasil at ipec.fiocruz.br\nemail: emmanuel.brasil at gmail.com\n\n---Apoio aos softwares livres\nwww.zotero.org - gerenciamento de referências bibliográficas.\nwww.broffice.org ou www.libreoffice.org - textos, planilhas ou\napresentações.\nwww.epidata.dk - entrada de dados.\nwww.r-project.org - análise de dados.\nwww.ubuntu.com - sistema operacional\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Taking a look at task views on survival analysis here:\n\nhttp://finzi.psych.upenn.edu/views/Survival.html\n\nit seems the package timereg may do what you want.\n\nAbraço forte e que a força esteja com você",
       "thread_id": "thread-9fc0fcfac4b5",
       "thread_depth": 0,
-      "month": "2012-01"
+      "month": "2012-01",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120112/bec03b18/attachment.pl"
+      ]
     }
   ],
   "threads": [

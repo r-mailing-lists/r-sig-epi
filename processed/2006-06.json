@@ -63,11 +63,14 @@
       "subject_clean": "Propensite score question",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060622/4b109896/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060622/4b109896/attachment.pl",
+      "body_plain": "Hello All,\n\n \n\nI participated in a pharmacoepi workshop recently, where they discussed the propensity scores.\n\nI used once in health claim analysis, but does anyone have more info on it?\n\nThanks in advance.\n\n \n\nBeatrix Foldi\n\nBeatrix.Foldi at uth.tmc.edu\n\n \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello All,\n\n \n\nI participated in a pharmacoepi workshop recently, where they discussed the propensity scores.\n\nI used once in health claim analysis, but does anyone have more info on it?\n\nThanks in ad",
       "thread_id": "thread-ae5a9c881cb5",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060622/4b109896/attachment.pl"
+      ]
     },
     {
       "id": "msg-655f27055646",

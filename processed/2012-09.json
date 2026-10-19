@@ -13,11 +13,14 @@
       "subject_clean": "Testing causal diagrams",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120906/f9ce2f32/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120906/f9ce2f32/attachment.pl>",
+      "body_plain": "R friends,\n\nBefore coming to this post I did take a look at Rothman's book and Sklo's\nbook, but not very iluminating so far.\n\nRecently I was challenged with a problem of causal diagrams.\n\nA partner o mine came with a dataset with more then 1500 observations and\nmore then 1500 variables.\n\nTrying to organize the ideas on how and what to explore we came to a point\nwhere we were drawing causal diagrams such as:\n\nA -------> B ------> Outcome\n|          ^          ^\n|          |          |\nD -------> C ----------\n\nIm not able to draw the diagram we came to, but it looks like it has at\nleast 3 stages and some variables may come into more then one stage\nsimultaneously. And also it seems that at least one variable is outside the\ndiagram and directly related to the outcome.\n\nLooking at this diagram it does not seem reasonable to me the a multinomial\nor a logitic regression may represent such an idea.\n\nSo my guess is that y = x1B1 + .... + xnBn may not reasonably represent the\ndiagram above.\n\nAt this point I thought that a neural network could work fine as one\ntheoretical argument often seen at the neural networks text is that it may\nreasonably approximate any function.\n\nSo the question is: how to statistically test a diagram such as the above?\n\nAlso, looking forward for any comment and perhaps suggestions for further\nreading on this topic.\n\nKind regards,\n\nDr. Pedro Emmanuel A. A. do Brasil\nCurriculum Lattes:  http://lattes.cnpq.br/6597654894290806\nInstituto de Pesquisa Clínica Evandro Chagas\nFundação Oswaldo Cruz\nRio de Janeiro - Brasil\nAv. Brasil 4365,\nCEP 21040-360,\nTel 55 21 3865-9648\nemail: pedro.brasil at ipec.fiocruz.br\nemail: emmanuel.brasil at gmail.com\n\n---Apoio aos softwares livres\nwww.zotero.org - gerenciamento de referências bibliográficas.\nwww.broffice.org ou www.libreoffice.org - textos, planilhas ou\napresentações.\nwww.epidata.dk - entrada de dados.\nwww.r-project.org - análise de dados.\nwww.ubuntu.com - sistema operacional\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "R friends,\n\nBefore coming to this post I did take a look at Rothman's book and Sklo's\nbook, but not very iluminating so far.\n\nRecently I was challenged with a problem of causal diagrams.\n\nA partner o ",
       "thread_id": "thread-f64da6522436",
       "thread_depth": 0,
-      "month": "2012-09"
+      "month": "2012-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120906/f9ce2f32/attachment.pl"
+      ]
     }
   ],
   "threads": [
