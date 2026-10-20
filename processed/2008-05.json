@@ -208,11 +208,14 @@
       "references": [
         "<ba8c09910805292346m1a00d61drc0b10a0b512091ca@mail.gmail.com>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: no disponible\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080530/8a1ab431/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: no disponible\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080530/8a1ab431/attachment.pl>",
+      "body_plain": "Hello Lauri,\n\nIf you write \"> methods(xtable)\", xtable.stat.table is not included, thus it must be included but I have not found howto...\n\nBut, if you use:\n> a.latex <- latexVerbatim(a)\n\nFunction latexVerbatim \"executes the object's print method, capturing the output for a file inside a LaTeX verbatim environment\" (as says in the help).\n\nWhile someone finds a better solution, I hope it can help you.\n\nCheers,\nAlbert\n\n\n\nAlbert Sanchez-Niubo\nDrug abuse epidemiology \nIMIM-Hospital del Mar \nParc de Recerca Biomèdica de Barcelona \nc/ Doctor Aiguader, 88 | 08003 Barcelona \nasanchez at imim.es \nwww.imim.es\n\n\n\n> Date: Fri, 30 May 2008 09:46:57 +0300\n> From: lauri.nikkinen at iki.fi\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] stat.table object into latex\n> \n> R users,\n> \n> Is there a way to convert stat.table (library(Epi)) object into latex\n> table? I have tried xtable from (xtable package) and latex (Hmisc\n> package) with no success.\n> \n> Example code:\n> \n> install.packages(\"Epi\")\n> library(Epi)\n> install.packages(\"Hmisc\")\n> library(Hmisc)\n> install.packages(\"xtable\")\n> library(xtable)\n> \n> a <- stat.table(index=list(wool,tension),\n>                 contents=list(count(),mean(breaks),percent (wool)),\n>                 data=warpbreaks)\n> a\n> a.latex <- xtable(a)\n> Error in UseMethod(\"xtable\") : no applicable method for \"xtable\"\n> a.latex <- latex(a)\n> Error in x[, j] : incorrect number of dimensions\n> \n> Best,\n> Lauri\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n_________________________________________________________________\nLa vida de los famosos al desnudo en MSN Entretenimiento\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello Lauri,\n\nIf you write \"> methods(xtable)\", xtable.stat.table is not included, thus it must be included but I have not found howto...\n\nBut, if you use:\n> a.latex <- latexVerbatim(a)\n\nFunction late",
       "thread_id": "thread-e50b20d6078c",
       "thread_depth": 1,
-      "month": "2008-05"
+      "month": "2008-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080530/8a1ab431/attachment.pl"
+      ]
     },
     {
       "id": "msg-c62192102e76",

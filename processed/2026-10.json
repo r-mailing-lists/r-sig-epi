@@ -98,6 +98,22 @@
       "thread_id": "thread-8f50331a1148",
       "thread_depth": 0,
       "month": "2026-10"
+    },
+    {
+      "id": "msg-13fda3273e87",
+      "message_id": "<K159izePREK8kplZiAcdMQ@geopod-ismtpd-6>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-10-19T14:00:01Z",
+      "subject": "[R-sig-Epi] Large Language Models for epidemiology",
+      "subject_clean": "Large Language Models for epidemiology",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - A practical account of how generative AI produces and limits research outputs. Understanding Large Language Models is a seminar livestreaming October 22 with Peter Gruber (Faculty of Economics, USI Universit? della Svizzera Italiana). Assess tokenization, context limits, and stochastic output when considering AI support for epidemiological analysis. Epidemiology teams can use these concepts to judge suitable tasks in R workflows, research writing, and data analysis. Attention to known sources of failure helps researchers weigh generated results before using them in their work.\n\nDetails and registration: https://instats.org/seminar/understanding-large-language-models\nFull details are available on the Instats seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - A practical account of how generative AI produces and limits research outputs. Understanding Large Language Models is a seminar livestreaming October 22 with Pete",
+      "thread_id": "thread-13fda3273e87",
+      "thread_depth": 0,
+      "month": "2026-10"
     }
   ],
   "threads": [
@@ -166,6 +182,17 @@
       "started": "2026-10-16T14:00:05Z",
       "last_reply": "2026-10-16T14:00:05Z",
       "root_message_id": "msg-8f50331a1148"
+    },
+    {
+      "id": "thread-13fda3273e87",
+      "subject": "Large Language Models for epidemiology",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-10-19T14:00:01Z",
+      "last_reply": "2026-10-19T14:00:01Z",
+      "root_message_id": "msg-13fda3273e87"
     }
   ]
 }
