@@ -114,6 +114,22 @@
       "thread_id": "thread-13fda3273e87",
       "thread_depth": 0,
       "month": "2026-10"
+    },
+    {
+      "id": "msg-65263371e401",
+      "message_id": "<1792484741.41933453@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-10-20T08:25:41Z",
+      "subject": "[R-sig-Epi] Advanced R Workflows: Tidyverse, Quarto, GitHub & AI",
+      "subject_clean": "Advanced R Workflows: Tidyverse, Quarto, GitHub & AI",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nTake your coding skills to the next level with Beyond Beginner R: Advancing Your Coding Skills, taking place online from 27?30 October.\nCourse website: [ https://www.physalia-courses.org/courses-workshops/course47/ ]( https://www.physalia-courses.org/courses-workshops/course47/ )\nOver four days, you?ll learn how to build cleaner, more reproducible and maintainable R workflows, covering:\n\nAdvanced tidyverse, functions and iteration\n\nPublication-quality visualisation with ggplot2\n\nReproducible reporting with Quarto\n\nCollaboration and version control with GitHub\n\nAI-assisted programming, including agentic workflows and code validation\nIf you are ready to move beyond simply ?getting R to work? and start building robust, collaborative and reproducible workflows, this course is for you.\nBest regards,\nCarlo\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nTake your coding skills to the next level with Beyond Beginner R: Advancing Your Coding Skills, taking place online from 27?30 October.\nCourse website: [ https://www.physalia-courses.org/cou",
+      "thread_id": "thread-65263371e401",
+      "thread_depth": 0,
+      "month": "2026-10"
     }
   ],
   "threads": [
@@ -193,6 +209,17 @@
       "started": "2026-10-19T14:00:01Z",
       "last_reply": "2026-10-19T14:00:01Z",
       "root_message_id": "msg-13fda3273e87"
+    },
+    {
+      "id": "thread-65263371e401",
+      "subject": "Advanced R Workflows: Tidyverse, Quarto, GitHub & AI",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-10-20T08:25:41Z",
+      "last_reply": "2026-10-20T08:25:41Z",
+      "root_message_id": "msg-65263371e401"
     }
   ]
 }
