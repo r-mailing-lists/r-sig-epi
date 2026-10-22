@@ -17,7 +17,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nCell-level evidence can add resolution to population health questions. Single Cell Data Analysis 2.0 led by Nikolay Oskolkov (Lund University) is now available as an on-demand",
       "thread_id": "thread-65a582b7f4eb",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000655.html"
     },
     {
       "id": "msg-cb0b30d9c263",
@@ -33,7 +34,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nRepeated observations require attention to correlation, missingness, and clustered study structures. Longitudinal Analysis in Biostatistics led by Md Tuhin Sheikh (Biostatisti",
       "thread_id": "thread-cb0b30d9c263",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000656.html"
     },
     {
       "id": "msg-72baefc56d05",
@@ -45,11 +47,12 @@
       "subject_clean": "Cell and Gene Therapy: Design, Estimands, Operations, and AI - livestream seminar",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Cell and Gene Therapy: Design, Estimands, Operations, and AI <https://instats.org/seminar/cell-and-gene-therapy-design-estimands-o>, livestreaming October 6 and sponsored by the American Statistical Association?s Cell and Gene Therapy Scientific Working Group. As cell and gene therapies rapidly reshape biomedical innovation, this seminar provides PhD students, academic researchers, and applied scientists with a coherent framework for evaluating complex interventions across translational research, clinical development, and regulatory evidence generation. Drawing on expertise associated with the American Statistical Association?s Cell and Gene Therapy Scientific Working Group, the workshop examines core design and analysis challenges, including single-arm and randomized trials, dose finding, historical borrowing, estimands, operational considerations, and the production of credible, publishable evidence in settings with limited samples and heterogeneous populations. The seminar also considers the growing role of artificial intelligence in cell and gene therapy development, helping participants understand how emerging computational tools may influence discovery, decision support, evidence synthesis, reproducibility, and interpretation in this fast-moving field.\n\nSign up today <https://instats.org//seminar/cell-and-gene-therapy-design-estimands-o> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_plain": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Cell and Gene Therapy: Design, Estimands, Operations, and AI <https://instats.org/seminar/cell-and-gene-therapy-design-estimands-o>, livestreaming October 6 and sponsored by the American Statistical Association’s Cell and Gene Therapy Scientific Working Group. As cell and gene therapies rapidly reshape biomedical innovation, this seminar provides PhD students, academic researchers, and applied scientists with a coherent framework for evaluating complex interventions across translational research, clinical development, and regulatory evidence generation. Drawing on expertise associated with the American Statistical Association’s Cell and Gene Therapy Scientific Working Group, the workshop examines core design and analysis challenges, including single-arm and randomized trials, dose finding, historical borrowing, estimands, operational considerations, and the production of credible, publishable evidence in settings with limited samples and heterogeneous populations. The seminar also considers the growing role of artificial intelligence in cell and gene therapy development, helping participants understand how emerging computational tools may influence discovery, decision support, evidence synthesis, reproducibility, and interpretation in this fast-moving field.\n\nSign up today <https://instats.org//seminar/cell-and-gene-therapy-design-estimands-o> to secure your spot, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
       "body_snippet": "Hi everyone\n\nInstats is excited to offer a 1-day seminar, Cell and Gene Therapy: Design, Estimands, Operations, and AI <https://instats.org/seminar/cell-and-gene-therapy-design-estimands-o>, livestrea",
       "thread_id": "thread-72baefc56d05",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000657.html"
     },
     {
       "id": "msg-3e7439c197d5",
@@ -65,7 +68,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Transparent preparation helps epidemiological analyses remain interpretable from data to display. Tidy Data, Visualisation, and AI is a 2-day seminar livestreamin",
       "thread_id": "thread-3e7439c197d5",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000658.html"
     },
     {
       "id": "msg-cb2bb6bc8b13",
@@ -81,7 +85,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nCell-level evidence can add biological detail to population health research. Single Cell Data Analysis 3.0 is a seminar livestreaming October 20, led by Nikolay Oskolkov (Lund",
       "thread_id": "thread-cb2bb6bc8b13",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000659.html"
     },
     {
       "id": "msg-b1d185e6dc7d",
@@ -97,7 +102,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nEpidemiologic data often contain nonlinear patterns, seasonal variation, and correlated outcomes. Gaussian Processes with PyMC and LLMs led by Chris Fonnesbeck (PyMC Labs and ",
       "thread_id": "thread-b1d185e6dc7d",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000660.html"
     },
     {
       "id": "msg-09b07e9edbb6",
@@ -113,7 +119,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Reproducible epidemiological analysis benefits from explicit checks on computational assistance. Verifiable AI for Academic Research is a 2-day seminar livestream",
       "thread_id": "thread-09b07e9edbb6",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000661.html"
     },
     {
       "id": "msg-5465f596932d",
@@ -129,7 +136,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Support reproducible decisions across demanding epidemiological analyses. Building AI Research Teams is a 2-day seminar livestreaming September 23 and 25 with Mic",
       "thread_id": "thread-5465f596932d",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000662.html"
     },
     {
       "id": "msg-cc8148c6461a",
@@ -145,7 +153,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Sound epidemiological analysis begins with a defensible link between design and evidence. No-Code Statistical Inference is a 2-day seminar livestreaming September",
       "thread_id": "thread-cc8148c6461a",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000663.html"
     },
     {
       "id": "msg-5e8a6eb85d0b",
@@ -161,7 +170,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Careful measurement supports interpretable evidence from population health surveys. Measuring Latent Variables with Questionnaires is a 2-day seminar livestreamin",
       "thread_id": "thread-5e8a6eb85d0b",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000664.html"
     },
     {
       "id": "msg-f72e470cbc3e",
@@ -177,7 +187,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Apply measurement and causal modeling tools to complex population health data. Structural Equation Modeling with AI is a 2-day seminar livestreaming September 30 ",
       "thread_id": "thread-f72e470cbc3e",
       "thread_depth": 0,
-      "month": "2026-09"
+      "month": "2026-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-September/000665.html"
     }
   ],
   "threads": [
