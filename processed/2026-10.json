@@ -130,6 +130,22 @@
       "thread_id": "thread-65263371e401",
       "thread_depth": 0,
       "month": "2026-10"
+    },
+    {
+      "id": "msg-fa1e386a673e",
+      "message_id": "<Ndz-g9sqTJ-3Pt--rTp8PQ@geopod-ismtpd-5>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-10-21T14:01:14Z",
+      "subject": "[R-sig-Epi] Local LLMs for Epidemiological Research",
+      "subject_clean": "Local LLMs for Epidemiological Research",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Research teams handling health data need clear choices about computational environments. Local LLMs: Private, Free, and Reproducible is a seminar livestreaming October 26 with Peter Gruber (Faculty of Economics, USI Universit? della Svizzera Italiana). Local model installation, model selection, and Python access can support epidemiological analysis without sending sensitive material to external services. Participants examine quantization, context length, hardware requirements, and tools for connecting models to research workflows. The resulting setup can be documented alongside R-based analyses and revisited during revisions or replication work.\n\nDetails and registration: https://instats.org/seminar/local-llms-private-free-and-reproducible\nFull details are available on the Instats seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Research teams handling health data need clear choices about computational environments. Local LLMs: Private, Free, and Reproducible is a seminar livestreaming Oc",
+      "thread_id": "thread-fa1e386a673e",
+      "thread_depth": 0,
+      "month": "2026-10"
     }
   ],
   "threads": [
@@ -220,6 +236,17 @@
       "started": "2026-10-20T08:25:41Z",
       "last_reply": "2026-10-20T08:25:41Z",
       "root_message_id": "msg-65263371e401"
+    },
+    {
+      "id": "thread-fa1e386a673e",
+      "subject": "Local LLMs for Epidemiological Research",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-10-21T14:01:14Z",
+      "last_reply": "2026-10-21T14:01:14Z",
+      "root_message_id": "msg-fa1e386a673e"
     }
   ]
 }

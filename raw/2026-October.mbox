@@ -199,3 +199,25 @@ mobile: +49 17645230846
 	[[alternative HTML version deleted]]
 
 
+From mzyphur m@iii@g oii i@st@ts@org  Wed Oct 21 16:01:14 2026
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Wed, 21 Oct 2026 14:01:14 +0000 (UTC)
+Subject: [R-sig-Epi] Local LLMs for Epidemiological Research
+Message-ID: <Ndz-g9sqTJ-3Pt--rTp8PQ@geopod-ismtpd-5>
+
+Hello R-SIG-EPI members
+
+A reminder - Research teams handling health data need clear choices about computational environments. Local LLMs: Private, Free, and Reproducible is a seminar livestreaming October 26 with Peter Gruber (Faculty of Economics, USI Universit? della Svizzera Italiana). Local model installation, model selection, and Python access can support epidemiological analysis without sending sensitive material to external services. Participants examine quantization, context length, hardware requirements, and tools for connecting models to research workflows. The resulting setup can be documented alongside R-based analyses and revisited during revisions or replication work.
+
+Details and registration: https://instats.org/seminar/local-llms-private-free-and-reproducible
+Full details are available on the Instats seminar page.
+
+
+Best wishes
+
+Michael Zyphur
+Director and Co-founder
+Instats | instats.org
+	[[alternative HTML version deleted]]
+
+
