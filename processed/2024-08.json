@@ -17,7 +17,8 @@
       "body_snippet": "Hi everyone\n\nInstats is offering a new 1-day workshop on Dimension Reduction Methods for\nComplex Datasets\n<https://instats.org/seminar/dimension-reduction-methods-for-life-sciences-2494>\nby professor ",
       "thread_id": "thread-8c97eb60bdcc",
       "thread_depth": 0,
-      "month": "2024-08"
+      "month": "2024-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-August/000374.html"
     },
     {
       "id": "msg-c44cff43eaa6",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi everyone\n\nInstats is offering a new 3-day seminar on the Analysis of DNA Methylation\nby professor Aline Muyle, running September 18 - 20. This three-day\nworkshop provides comprehensive training in ",
       "thread_id": "thread-c44cff43eaa6",
       "thread_depth": 0,
-      "month": "2024-08"
+      "month": "2024-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-August/000375.html"
     },
     {
       "id": "msg-17f9dc293c2c",
@@ -51,7 +53,8 @@
       "body_snippet": "Hi everyone\n\nApologies, the link in my previous email was incorrect, the correct link is\nas follows:\n\nhttps://instats.org/seminar/analysis-of-dna-methylation2\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nIn",
       "thread_id": "thread-c44cff43eaa6",
       "thread_depth": 1,
-      "month": "2024-08"
+      "month": "2024-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-August/000376.html"
     },
     {
       "id": "msg-1a20c01d5f14",
@@ -67,7 +70,8 @@
       "body_snippet": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240820/96c20474/attachment.html>",
       "thread_id": "thread-1a20c01d5f14",
       "thread_depth": 0,
-      "month": "2024-08"
+      "month": "2024-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-August/000377.html"
     },
     {
       "id": "msg-ebb020d81b53",
@@ -83,7 +87,8 @@
       "body_snippet": "Is there a package in R for fitting a marginal structural model with a time\nvarying exposure?\n\nJames Meyer",
       "thread_id": "thread-ebb020d81b53",
       "thread_depth": 0,
-      "month": "2024-08"
+      "month": "2024-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-August/000378.html"
     },
     {
       "id": "msg-357826f03150",
@@ -99,7 +104,8 @@
       "body_snippet": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240821/61017186/attachment.html>",
       "thread_id": "thread-357826f03150",
       "thread_depth": 0,
-      "month": "2024-08"
+      "month": "2024-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-August/000379.html"
     },
     {
       "id": "msg-6e41a25ff8a6",
@@ -115,7 +121,8 @@
       "body_snippet": "An HTML attachment was scrubbed...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20240827/4a4ec131/attachment.html>",
       "thread_id": "thread-6e41a25ff8a6",
       "thread_depth": 0,
-      "month": "2024-08"
+      "month": "2024-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-August/000380.html"
     }
   ],
   "threads": [

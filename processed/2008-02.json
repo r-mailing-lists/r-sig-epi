@@ -18,6 +18,7 @@
       "thread_id": "thread-91a1e61b4b2f",
       "thread_depth": 0,
       "month": "2008-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-February/000107.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080207/40a2f424/attachment.pl"
       ]
@@ -39,6 +40,7 @@
       "thread_id": "thread-1ae1fb6b0d55",
       "thread_depth": 0,
       "month": "2008-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-February/000108.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080212/66f2408f/attachment.pl"
       ]
@@ -57,7 +59,8 @@
       "body_snippet": "You can have a look at the Icens() function. But that will give you\nestimates of a piecewise constant hazard. You will then have to\ntransform this to the survival function.\n___________________________",
       "thread_id": "thread-91a1e61b4b2f",
       "thread_depth": 1,
-      "month": "2008-02"
+      "month": "2008-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-February/000109.html"
     },
     {
       "id": "msg-61a564326cf0",
@@ -73,7 +76,8 @@
       "body_snippet": "Course in\n \nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R\n\n============================================\n\nTartu, Estonia, Wednesday 28 May to Monday 2 June 2008.\n\nAimed at young statisticians and epidem",
       "thread_id": "thread-61a564326cf0",
       "thread_depth": 0,
-      "month": "2008-02"
+      "month": "2008-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-February/000110.html"
     },
     {
       "id": "msg-5db4ea06ab5f",
@@ -89,7 +93,8 @@
       "body_snippet": "Hello,\n\nI am a physician and a novice in R.\n\nI am trying to calculate sensitivity, specificity,\npositive predictive and negative predictive values. I\ncould do that using the package caret. However, I ",
       "thread_id": "thread-5db4ea06ab5f",
       "thread_depth": 0,
-      "month": "2008-02"
+      "month": "2008-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-February/000111.html"
     },
     {
       "id": "msg-495f5cc19c25",
@@ -105,7 +110,8 @@
       "body_snippet": "The sensitivity, specificity and predictive values are just proportions,\nso yoiu can use the function binom.test() to get exact confidence\nconfidence intervals.\n\nBest,\nBendix \n\n> -----Original Message",
       "thread_id": "thread-5db4ea06ab5f",
       "thread_depth": 1,
-      "month": "2008-02"
+      "month": "2008-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-February/000112.html"
     }
   ],
   "threads": [

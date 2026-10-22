@@ -17,7 +17,8 @@
       "body_snippet": "?I have simulated the SIR model  with the following reactions\nI[i] + S[j]  -> I[i] +I[j]\nI[i] + S[i]  -> 2*I[i]\n\nI have the row data having the matrix with \"i\"  being the home RTO and \"j\"\nbeing the RT",
       "thread_id": "thread-6a90c0e0f5ce",
       "thread_depth": 0,
-      "month": "2016-09"
+      "month": "2016-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2016-September/000333.html"
     }
   ],
   "threads": [

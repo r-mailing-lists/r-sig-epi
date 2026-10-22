@@ -18,6 +18,7 @@
       "thread_id": "thread-5efca06f1cb8",
       "thread_depth": 0,
       "month": "2010-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-June/000207.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100615/614895e2/attachment.pl"
       ]
@@ -36,7 +37,8 @@
       "body_snippet": "? stato filtrato un testo allegato il cui set di caratteri non era\nindicato...\nNome: non disponibile\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100616/fad90863/attachment.pl>",
       "thread_id": "thread-6ffa622668ce",
       "thread_depth": 0,
-      "month": "2010-06"
+      "month": "2010-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-June/000208.html"
     },
     {
       "id": "msg-60894b54043d",
@@ -55,6 +57,7 @@
       "thread_id": "thread-60894b54043d",
       "thread_depth": 0,
       "month": "2010-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-June/000209.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100617/6e5bfc4d/attachment.pl"
       ]
@@ -74,6 +77,7 @@
       "thread_id": "thread-360cadf5f2cd",
       "thread_depth": 0,
       "month": "2010-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-June/000210.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100623/52328d64/attachment.pl"
       ]
@@ -93,6 +97,7 @@
       "thread_id": "thread-5c60e8c3d793",
       "thread_depth": 0,
       "month": "2010-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-June/000211.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100624/58d6a381/attachment.pl"
       ]
@@ -114,6 +119,7 @@
       "thread_id": "thread-5c60e8c3d793",
       "thread_depth": 1,
       "month": "2010-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-June/000212.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100624/f02f37ef/attachment.pl"
       ]
@@ -133,6 +139,7 @@
       "thread_id": "thread-ee87fc1791a4",
       "thread_depth": 0,
       "month": "2010-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-June/000213.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100628/acc62320/attachment.pl"
       ]

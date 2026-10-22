@@ -17,7 +17,8 @@
       "body_snippet": "I wanna to do multiple comparison test for proportions, could someone\ntell me how in R, thank you!",
       "thread_id": "thread-6355c95fa5e3",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-June/000011.html"
     },
     {
       "id": "msg-cf02d7aefbf2",
@@ -29,11 +30,12 @@
       "subject_clean": "Out of the office",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "T?m? viesti on luotu automaattisesti.\nOlen poissa ty?paikalta 7.6 - 13.6 ja luen viestit vasta palattuani.\n\nThis message has been generated automatically.\nI'm not present and I'll read your message after my return. \n\nt.Harri Sinkko",
-      "body_snippet": "T?m? viesti on luotu automaattisesti.\nOlen poissa ty?paikalta 7.6 - 13.6 ja luen viestit vasta palattuani.\n\nThis message has been generated automatically.\nI'm not present and I'll read your message af",
+      "body_plain": "Tämä viesti on luotu automaattisesti.\nOlen poissa työpaikalta 7.6 - 13.6 ja luen viestit vasta palattuani.\n\nThis message has been generated automatically.\nI'm not present and I'll read your message after my return. \n\nt.Harri Sinkko",
+      "body_snippet": "Tämä viesti on luotu automaattisesti.\nOlen poissa työpaikalta 7.6 - 13.6 ja luen viestit vasta palattuani.\n\nThis message has been generated automatically.\nI'm not present and I'll read your message af",
       "thread_id": "thread-cf02d7aefbf2",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-June/000012.html"
     },
     {
       "id": "msg-e0ee4d867ce1",
@@ -51,7 +53,8 @@
       "body_snippet": "xingwang ye wrote:\n> I wanna to do multiple comparison test for proportions, could someone\n> tell me how in R, thank you!\n> \n> _______________________________________________\n> R-sig-Epi at stat.math.",
       "thread_id": "thread-6355c95fa5e3",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-June/000013.html"
     },
     {
       "id": "msg-ae5a9c881cb5",
@@ -68,6 +71,7 @@
       "thread_id": "thread-ae5a9c881cb5",
       "thread_depth": 0,
       "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-June/000014.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060622/4b109896/attachment.pl"
       ]
@@ -88,7 +92,8 @@
       "body_snippet": "Hi Beatrix,\n\nThe seminal paper on propensity scores and their use was \n\nPaul R. Rosenbaum and Donald B. Rubin (1983). The central role of the propensity\nscore in observational studies for causal effec",
       "thread_id": "thread-ae5a9c881cb5",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-June/000015.html"
     },
     {
       "id": "msg-924fcf67b946",
@@ -104,7 +109,8 @@
       "body_snippet": "Esa,\n\n \n\nThanks for your reply. It seems we attended to the same Seattle-seminar?:-)\n\nI don't have their ppt, but requested. Until that I thought will play with it a little bit.\n\nFound in the meantime",
       "thread_id": "thread-924fcf67b946",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-June/000016.html"
     },
     {
       "id": "msg-cbf7d77dd668",
@@ -122,7 +128,8 @@
       "body_snippet": "Foldi, Beatrix wrote:\n> Hello All,\n> \n>  \n> \n> I participated in a pharmacoepi workshop recently, where they discussed the propensity scores.\n> \n> I used once in health claim analysis, but does anyone",
       "thread_id": "thread-ae5a9c881cb5",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-June/000017.html"
     },
     {
       "id": "msg-12134a6a1f8c",
@@ -136,11 +143,12 @@
       "references": [
         "<DDE644DA72721B448193AF07C0E1C26926A359@UTHEVS5.mail.uthouston.edu>"
       ],
-      "body_plain": "Dear all, I need to perform a Levene?s test for homogeneity of variances in\nR (levene.test {car}). I installed a package \"car\" but, when I load it, two\nerrors are reported:  1. Error in lazyLoadDBfetch(key, datafile, compressed,\nenvhook) : ReadItem: unknown type 241 2. Error: package/namespace load\nfailed for 'car' If anyone has encountered this problem before I would be\nhappy to hear a solution.Thanks in anticipation,Mayelin",
-      "body_snippet": "Dear all, I need to perform a Levene?s test for homogeneity of variances in\nR (levene.test {car}). I installed a package \"car\" but, when I load it, two\nerrors are reported:  1. Error in lazyLoadDBfetc",
+      "body_plain": "Dear all, I need to perform a Levene´s test for homogeneity of variances in\nR (levene.test {car}). I installed a package \"car\" but, when I load it, two\nerrors are reported:  1. Error in lazyLoadDBfetch(key, datafile, compressed,\nenvhook) : ReadItem: unknown type 241 2. Error: package/namespace load\nfailed for 'car' If anyone has encountered this problem before I would be\nhappy to hear a solution.Thanks in anticipation,Mayelin",
+      "body_snippet": "Dear all, I need to perform a Levene´s test for homogeneity of variances in\nR (levene.test {car}). I installed a package \"car\" but, when I load it, two\nerrors are reported:  1. Error in lazyLoadDBfetc",
       "thread_id": "thread-924fcf67b946",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-June/000018.html"
     },
     {
       "id": "msg-5de924420e28",

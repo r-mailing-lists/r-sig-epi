@@ -17,7 +17,8 @@
       "body_snippet": "Hi everyone\n\nLast chance to sign up for our new 1-day seminar Python for R Users <https://instats.org/seminar/python-for-r-users2>, running Nov 13 with professor Rebecca Barter from the Division of Ep",
       "thread_id": "thread-e65df9077e0a",
       "thread_depth": 0,
-      "month": "2024-11"
+      "month": "2024-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-November/000390.html"
     },
     {
       "id": "msg-f6cf898423cd",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi everyone\n\nLast chance for the 1-day seminar on Single Cell Data Analysis in R and Python <https://instats.org/seminar/single-cell-data-analysis2>, running Nov 26 with professor Nikolay Oskolkov. Si",
       "thread_id": "thread-f6cf898423cd",
       "thread_depth": 0,
-      "month": "2024-11"
+      "month": "2024-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-November/000391.html"
     }
   ],
   "threads": [

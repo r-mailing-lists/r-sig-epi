@@ -18,6 +18,7 @@
       "thread_id": "thread-70bfc6cb36ef",
       "thread_depth": 0,
       "month": "2009-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-November/000174.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/8e1b86ae/attachment.pl"
       ]
@@ -39,6 +40,7 @@
       "thread_id": "thread-dbd287b1fcca",
       "thread_depth": 0,
       "month": "2009-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-November/000175.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091110/805f1315/attachment.pl"
       ]
@@ -59,7 +61,8 @@
       "body_snippet": "On Nov 9, 2009, at 11:15 PM, Jens Levy wrote:\n\n> I am interested in evaluating whether or not the joint effect of two\n> independent variables on an outcome are additive. I want to be able  \n> to give\n",
       "thread_id": "thread-70bfc6cb36ef",
       "thread_depth": 1,
-      "month": "2009-11"
+      "month": "2009-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-November/000176.html"
     },
     {
       "id": "msg-cb95908cdb99",
@@ -75,7 +78,8 @@
       "body_snippet": "I am somewhat new to R although using and liking already.  I am curious if there are any probabilistic packages similar in function to others such and Link King (http://www.the-link-king.com/).  I am ",
       "thread_id": "thread-cb95908cdb99",
       "thread_depth": 0,
-      "month": "2009-11"
+      "month": "2009-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-November/000177.html"
     },
     {
       "id": "msg-34f81d2490ab",
@@ -93,7 +97,8 @@
       "body_snippet": "On Wed, 2009-11-18 at 10:18 -0800, Dagan A WRIGHT wrote:\n> I am somewhat new to R although using and liking already.  I am curious if there are any probabilistic packages similar in function to others",
       "thread_id": "thread-cb95908cdb99",
       "thread_depth": 1,
-      "month": "2009-11"
+      "month": "2009-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-November/000178.html"
     }
   ],
   "threads": [

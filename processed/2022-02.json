@@ -17,7 +17,8 @@
       "body_snippet": "I am new in using R, and I need to run a multilevel analysis (two-phase\ndesign on two levels) using Cox frailty survival model on a survey data\n(Nigeria Demographic and Health Survey Data).\n\nMy proble",
       "thread_id": "thread-97c547bfeab6",
       "thread_depth": 0,
-      "month": "2022-02"
+      "month": "2022-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2022-February/000364.html"
     }
   ],
   "threads": [

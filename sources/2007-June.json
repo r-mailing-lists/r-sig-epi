@@ -1,0 +1,13 @@
+{
+  "period": "2007-June",
+  "articles": [
+    "000041",
+    null
+  ],
+  "fixes": {
+    "000041": "?ö"
+  },
+  "rejected": {
+    "000042": "466C83C9020000EE00003BA5@valhall.syh.fi"
+  }
+}

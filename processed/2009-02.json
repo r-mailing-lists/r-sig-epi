@@ -17,7 +17,8 @@
       "body_snippet": "Since 1.0.7, the pervious version on CRAN, the following changes has appeared:\n\nChanges in 1.0.10\n\no Fixed parse errors in documentation.\n\nChanges in 1.0.9\n\no Thanks to Mike Murphy, Professor of Demog",
       "thread_id": "thread-91cee8280d18",
       "thread_depth": 0,
-      "month": "2009-02"
+      "month": "2009-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-February/000165.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Dear all,\nthe latest version of Epi, version 1.1.71 is now avialble on CRAN.\nbest regards,\nBendix Carstesen,\nmaintainer\n\nThe changes since 1.1.60 (the previous version on CRAN was 1.1.67) are:\n\nChange",
       "thread_id": "thread-491bc9f4f848",
       "thread_depth": 0,
-      "month": "2015-09"
+      "month": "2015-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2015-September/000323.html"
     }
   ],
   "threads": [

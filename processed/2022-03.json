@@ -17,7 +17,8 @@
       "body_snippet": "I hope that this email finds everyone well.  I am a new R user and I am\nwriting to ask if anyone may be able to provide some statistical expertise:\n\nI am running logistic regression models using the S",
       "thread_id": "thread-e830296c53b4",
       "thread_depth": 0,
-      "month": "2022-03"
+      "month": "2022-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2022-March/000365.html"
     },
     {
       "id": "msg-9af5be5aa289",
@@ -35,7 +36,8 @@
       "body_snippet": "Not my area of expertise really, but offhand: If summary.svyglm wants a df argument, so probably does confint.svyglm. \n\nQuick check says that it has one, except that it is called ddf=...\n\nIt takes qui",
       "thread_id": "thread-e830296c53b4",
       "thread_depth": 1,
-      "month": "2022-03"
+      "month": "2022-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2022-March/000366.html"
     }
   ],
   "threads": [

@@ -13,11 +13,12 @@
       "subject_clean": "Probability of falling incidence",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi everybody.\n\nBelow are the incidence numbers for  end-stage renal disease in the\nHelsinki region for the past five years.\n\nThe following question has arisen:\n\nWhat is the probability  that the decreased  incidence for 2006\nis due to random variablilty and not caused by any systematic effect?\n\n2002   75\n2003   73\n2004   69\n2005   65\n2006   28\n\nAre there any solutions available in R?\n\nVery thankful for your answers\n\nRalf Finne\nSvenska yrkesh?skolan \nVasa Finland",
+      "body_plain": "Hi everybody.\n\nBelow are the incidence numbers for  end-stage renal disease in the\nHelsinki region for the past five years.\n\nThe following question has arisen:\n\nWhat is the probability  that the decreased  incidence for 2006\nis due to random variablilty and not caused by any systematic effect?\n\n2002   75\n2003   73\n2004   69\n2005   65\n2006   28\n\nAre there any solutions available in R?\n\nVery thankful for your answers\n\nRalf Finne\nSvenska yrkeshöskolan \nVasa Finland",
       "body_snippet": "Hi everybody.\n\nBelow are the incidence numbers for  end-stage renal disease in the\nHelsinki region for the past five years.\n\nThe following question has arisen:\n\nWhat is the probability  that the decre",
       "thread_id": "thread-8bc9fefd9f54",
       "thread_depth": 0,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-October/000078.html"
     },
     {
       "id": "msg-8483cee40253",
@@ -33,7 +34,8 @@
       "body_snippet": "> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne\n> Sent: Wednesday, October 03, 2007 9:24 AM\n> To:",
       "thread_id": "thread-8bc9fefd9f54",
       "thread_depth": 1,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-October/000079.html"
     },
     {
       "id": "msg-08611c201ea6",
@@ -45,11 +47,12 @@
       "subject_clean": "Probability of falling incidence",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi again!\nSome more details are obviously needed.\nI have some more data:\nYear\tIncidence number\n1980\t28\n1981\t17\n1982\t14\n1983\t26\n1984\t32\n1985\t41\n1986\t42\n1987\t44\n1988\t43\n1989\t50\n1990\t37\n1991\t45\n1992\t48\n1993\t65\n1994\t44\n1995\t64\n1996\t69\n1997\t87\n1998\t74\n1999\t70\n2000\t72\n2001\t67\n2002\t75\n2003\t73\n2004\t69\n2005\t65\n2006\t28\nThe sampling situation is as follows:\nAll cases out of a population of around one million persons\nare recorded.  Tre rise in the beginning is probly due to an \nincreasing number of diabetes cases.  In the future a falling\ntendency is to be expected, due to better treatment of diabetes.\n\nLooking forward to you responses\n\nRalf\n\nMessage: 2\nDate: Wed, 03 Oct 2007 09:38:54 -0500\nFrom: Kevin Viel <kviel at sfbrgenetics.org>\nSubject: Re: [R-sig-Epi] Probability of falling incidence\nTo: r-sig-epi at stat.math.ethz.ch\nMessage-ID: <001b01c805cb$1fa7f4e0$723a7cce at win.sfbrgenetics.org>\nContent-Type: text/plain; charset=us-ascii\n\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch\n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne\n> Sent: Wednesday, October 03, 2007 9:24 AM\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] Probability of falling incidence\n>\n> Hi everybody.\n>\n> Below are the incidence numbers for  end-stage renal disease\n> in the Helsinki region for the past five years.\n>\n> The following question has arisen:\n>\n> What is the probability  that the decreased  incidence for\n> 2006 is due to random variablilty and not caused by any\n> systematic effect?\n>\n> 2002   75\n> 2003   73\n> 2004   69\n> 2005   65\n> 2006   28\n>\n> Are there any solutions available in R?\n>\n> Very thankful for your answers\n\nRalf,\n\n This is not enough data for us to be able to suggest a test.  We would\nneed to know the study design, with particular emphasis on the\nstatistical\nsampling strategy (stratified, simple random sampling, etc.).  28 cases\nout\nof 1000 p-y is much different from 280 cases out of 10000 p-y, for\ninstance.\n\n Unfortunately, I am only lurker on this list and cannot suggest a\nprocedure in R.\n\n\nHTH,\n\nKevin\n\n\nKevin Viel, PhD\nPost-doctoral fellow\nDepartment of Genetics\nSouthwest Foundation for Biomedical Research\nSan Antonio, TX 78227\n\n\n\n\nHi everybody.\n\nBelow are the incidence numbers for  end-stage renal disease in the\nHelsinki region for the past five years.\n\nThe following question has arisen:\n\nWhat is the probability  that the decreased  incidence for 2006\nis due to random variablilty and not caused by any systematic effect?\n\n2002   75\n2003   73\n2004   69\n2005   65\n2006   28\n\nAre there any solutions available in R?\n\nVery thankful for your answers\n\nRalf Finne\nSvenska yrkesh?skolan \nVasa Finland",
+      "body_plain": "Hi again!\nSome more details are obviously needed.\nI have some more data:\nYear\tIncidence number\n1980\t28\n1981\t17\n1982\t14\n1983\t26\n1984\t32\n1985\t41\n1986\t42\n1987\t44\n1988\t43\n1989\t50\n1990\t37\n1991\t45\n1992\t48\n1993\t65\n1994\t44\n1995\t64\n1996\t69\n1997\t87\n1998\t74\n1999\t70\n2000\t72\n2001\t67\n2002\t75\n2003\t73\n2004\t69\n2005\t65\n2006\t28\nThe sampling situation is as follows:\nAll cases out of a population of around one million persons\nare recorded.  Tre rise in the beginning is probly due to an \nincreasing number of diabetes cases.  In the future a falling\ntendency is to be expected, due to better treatment of diabetes.\n\nLooking forward to you responses\n\nRalf\n\nMessage: 2\nDate: Wed, 03 Oct 2007 09:38:54 -0500\nFrom: Kevin Viel <kviel at sfbrgenetics.org>\nSubject: Re: [R-sig-Epi] Probability of falling incidence\nTo: r-sig-epi at stat.math.ethz.ch\nMessage-ID: <001b01c805cb$1fa7f4e0$723a7cce at win.sfbrgenetics.org>\nContent-Type: text/plain; charset=us-ascii\n\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch\n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of Ralf Finne\n> Sent: Wednesday, October 03, 2007 9:24 AM\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: [R-sig-Epi] Probability of falling incidence\n>\n> Hi everybody.\n>\n> Below are the incidence numbers for  end-stage renal disease\n> in the Helsinki region for the past five years.\n>\n> The following question has arisen:\n>\n> What is the probability  that the decreased  incidence for\n> 2006 is due to random variablilty and not caused by any\n> systematic effect?\n>\n> 2002   75\n> 2003   73\n> 2004   69\n> 2005   65\n> 2006   28\n>\n> Are there any solutions available in R?\n>\n> Very thankful for your answers\n\nRalf,\n\n This is not enough data for us to be able to suggest a test.  We would\nneed to know the study design, with particular emphasis on the\nstatistical\nsampling strategy (stratified, simple random sampling, etc.).  28 cases\nout\nof 1000 p-y is much different from 280 cases out of 10000 p-y, for\ninstance.\n\n Unfortunately, I am only lurker on this list and cannot suggest a\nprocedure in R.\n\n\nHTH,\n\nKevin\n\n\nKevin Viel, PhD\nPost-doctoral fellow\nDepartment of Genetics\nSouthwest Foundation for Biomedical Research\nSan Antonio, TX 78227\n\n\n\n\nHi everybody.\n\nBelow are the incidence numbers for  end-stage renal disease in the\nHelsinki region for the past five years.\n\nThe following question has arisen:\n\nWhat is the probability  that the decreased  incidence for 2006\nis due to random variablilty and not caused by any systematic effect?\n\n2002   75\n2003   73\n2004   69\n2005   65\n2006   28\n\nAre there any solutions available in R?\n\nVery thankful for your answers\n\nRalf Finne\nSvenska yrkeshöskolan \nVasa Finland",
       "body_snippet": "Hi again!\nSome more details are obviously needed.\nI have some more data:\nYear\tIncidence number\n1980\t28\n1981\t17\n1982\t14\n1983\t26\n1984\t32\n1985\t41\n1986\t42\n1987\t44\n1988\t43\n1989\t50\n1990\t37\n1991\t45\n1992\t48\n1",
       "thread_id": "thread-08611c201ea6",
       "thread_depth": 0,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-October/000080.html"
     },
     {
       "id": "msg-ee3ab8a52a90",
@@ -81,7 +84,8 @@
       "body_snippet": "Could I found variance estimators in R program for two lists??\n\nThanks,\n\nNilza Nunes da Silva\nDept.of Epidemiology-USP-Brazil.",
       "thread_id": "thread-28a47d373e6b",
       "thread_depth": 0,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-October/000082.html"
     },
     {
       "id": "msg-f8a69b4dca4e",
@@ -97,7 +101,8 @@
       "body_snippet": "I am not quite sure what you mean, but have a look at:\n\n?lapply\n\nBest\nBendix  \n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.et",
       "thread_id": "thread-28a47d373e6b",
       "thread_depth": 1,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-October/000083.html"
     },
     {
       "id": "msg-4dd2eef5ee9b",
@@ -149,6 +154,7 @@
       "thread_id": "thread-8333774a8109",
       "thread_depth": 0,
       "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-October/000086.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071015/4341a89e/attachment.pl"
       ]
@@ -167,7 +173,8 @@
       "body_snippet": "Pedro,\n\nThe major part of evaluation of senitivity and specificity and\npredictive values is computation of probabilities and their c.i.s.\n\nThe formulae in \"epibasix\" are asymtotic, and give horrendous",
       "thread_id": "thread-8333774a8109",
       "thread_depth": 1,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-October/000087.html"
     }
   ],
   "threads": [

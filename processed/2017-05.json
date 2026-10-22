@@ -17,7 +17,8 @@
       "body_snippet": "Dear colleagues,\n\n \n\nWe have created LCMATE (Latent Class Models for the Accuracy of TEsts), a\nmailing list for people that are interested in the development and\napplication of latent class models for",
       "thread_id": "thread-08c63a5df91b",
       "thread_depth": 0,
-      "month": "2017-05"
+      "month": "2017-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2017-May/000337.html"
     },
     {
       "id": "msg-ee01c88fc3a9",
@@ -35,7 +36,8 @@
       "body_snippet": "Dear all,\nI am glad to be part of the list.\n\nI am collaborating with academics in the States from the Harvard Medical School evaluating the performance (diagnosis accuracy) of a new biomarker for the ",
       "thread_id": "thread-ee01c88fc3a9",
       "thread_depth": 0,
-      "month": "2017-05"
+      "month": "2017-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2017-May/000338.html"
     },
     {
       "id": "msg-83d8b917b8fb",
@@ -51,7 +53,8 @@
       "body_snippet": "good morning,\nI'm not sure how to set the \"type\" argument correctly in the \"Surv\"\nfunction (\"survival\" package) for my data.\nIn our survival study, a group of oysters is checked at irregular time\ninte",
       "thread_id": "thread-83d8b917b8fb",
       "thread_depth": 0,
-      "month": "2017-05"
+      "month": "2017-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2017-May/000339.html"
     }
   ],
   "threads": [

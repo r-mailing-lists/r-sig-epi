@@ -17,7 +17,8 @@
       "body_snippet": "The latest update of Epi, 1.0.12, is now avaialble at CRAN.\n\nA few extra features for the APC-function have been added, and some incompatibilities\nwith the new syntax for survfit have been fixed.\n\nThe",
       "thread_id": "thread-37e2e46f2fa1",
       "thread_depth": 0,
-      "month": "2009-04"
+      "month": "2009-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-April/000168.html"
     }
   ],
   "threads": [

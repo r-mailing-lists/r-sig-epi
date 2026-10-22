@@ -18,6 +18,7 @@
       "thread_id": "thread-efbb8d7298d7",
       "thread_depth": 0,
       "month": "2007-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-July/000043.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070717/ed68599c/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "This is not really an epi question.  Also, please read the posting guide \nwhich tells you to provide a reproducible example.\n\nAnyhow, I think this may do what you want:\n\ndatasorted <- data[order(data$",
       "thread_id": "thread-efbb8d7298d7",
       "thread_depth": 1,
-      "month": "2007-07"
+      "month": "2007-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-July/000044.html"
     },
     {
       "id": "msg-c9126643c090",
@@ -56,7 +58,8 @@
       "body_snippet": "oeps, I found a typo in my previous email just after hitting the send \nbutton :-(\n\nSee update below:\n\ndatasorted <- data[order(data$ID, data$date, decreasing=TRUE),]\n\nfirstobs<- datasorted[!duplicated",
       "thread_id": "thread-efbb8d7298d7",
       "thread_depth": 1,
-      "month": "2007-07"
+      "month": "2007-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-July/000045.html"
     },
     {
       "id": "msg-4737fd1b3f97",
@@ -73,6 +76,7 @@
       "thread_id": "thread-4737fd1b3f97",
       "thread_depth": 0,
       "month": "2007-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-July/000046.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070718/0e9752d8/attachment.pl"
       ]
@@ -93,7 +97,8 @@
       "body_snippet": "On Wed, 2007-07-18 at 16:54 +0300, Matere, Crispin (ILRI - ICRAF) wrote:\n> I am requesting any one to show me how to do an analysis of molecular\n> variance in R suing haplotype data through an example",
       "thread_id": "thread-4737fd1b3f97",
       "thread_depth": 1,
-      "month": "2007-07"
+      "month": "2007-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-July/000047.html"
     },
     {
       "id": "msg-a17d458f3f85",
@@ -110,6 +115,7 @@
       "thread_id": "thread-a17d458f3f85",
       "thread_depth": 0,
       "month": "2007-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-July/000048.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070725/2210d5b2/attachment.pl"
       ]
@@ -130,7 +136,8 @@
       "body_snippet": "Em Qua 25 Jul 2007, Lynn Disney escreveu:\n> I need to create dummy variables, for an ID when 3 conditions exist. I\n> am having problems figuring out how to do this. For example, I want\n> variablea=1 a",
       "thread_id": "thread-a17d458f3f85",
       "thread_depth": 1,
-      "month": "2007-07"
+      "month": "2007-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-July/000049.html"
     },
     {
       "id": "msg-55b1aa2a27c4",

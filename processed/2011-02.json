@@ -17,7 +17,8 @@
       "body_snippet": "Dear Group,\nI am just a beginner in Epidemiology, epi-statistics and this group hence, in advance\nI apologize if I ask trivial question.\n\nI would like to ask how is it possible to calculate from GAM (",
       "thread_id": "thread-9e10fcd0982d",
       "thread_depth": 0,
-      "month": "2011-02"
+      "month": "2011-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-February/000247.html"
     },
     {
       "id": "msg-b6fd44c42081",
@@ -35,7 +36,8 @@
       "body_snippet": "In the paper:\n\n@article{Carstensen:Plummer:2010:JSSOBK:v38i06,\n  author =\t\"Bendix Carstensen and Martyn Plummer\",\n  title =\t\"Using Lexis Objects for Multi-State Models in R\",\n  journal =\t\"Journal of S",
       "thread_id": "thread-9e10fcd0982d",
       "thread_depth": 1,
-      "month": "2011-02"
+      "month": "2011-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-February/000248.html"
     },
     {
       "id": "msg-4be58c43875b",
@@ -54,6 +56,7 @@
       "thread_id": "thread-4be58c43875b",
       "thread_depth": 0,
       "month": "2011-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-February/000249.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110210/d7675ac3/attachment.pl"
       ]
@@ -73,6 +76,7 @@
       "thread_id": "thread-24dd91de3177",
       "thread_depth": 0,
       "month": "2011-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-February/000250.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110216/f3ea8e6f/attachment.pl"
       ]
@@ -94,6 +98,7 @@
       "thread_id": "thread-be257ae3c61a",
       "thread_depth": 0,
       "month": "2011-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-February/000251.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110217/f31f9f0b/attachment.pl"
       ]

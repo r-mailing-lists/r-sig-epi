@@ -19,7 +19,8 @@
       "body_snippet": "Hi Diego\n\n>How can I add an argument like missing=T that show NA's and missing=F that\n>exclude Na's??\n\nHere's one solution: \n\n\nfreq<-function(x, missing=F){\n\nFrecuencia <- table(x,exclude=NULL, useNA=",
       "thread_id": "thread-f365604ee280",
       "thread_depth": 0,
-      "month": "2010-12"
+      "month": "2010-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-December/000240.html"
     }
   ],
   "threads": [

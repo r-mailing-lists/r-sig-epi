@@ -18,6 +18,7 @@
       "thread_id": "thread-e1d8a9789cce",
       "thread_depth": 0,
       "month": "2009-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-October/000171.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091015/28b937f4/attachment.pl"
       ]
@@ -32,11 +33,12 @@
       "subject_clean": "R:  Sample size for diagnostic test",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear Rahul,\nsensitivity and specificity are just proportion and thus it should not be hard\nto calculate the sample size needed in your case. Note also that sensitivity\nand specificity don't depend (at least in theory) on the prevalence of disease.\n\nRSiteSearch(\"proportion sample size\")\n \nwill suggest you more than one function to calculate the sample size for a single \nproportion under different assummptions.\nUnder the assumption of independence and using the asymptotic (\"normal\") approximation\nyou could use a simple function like this one:\n\nsampl.size.prop<-function (p, d, conf.lev=0.95, N=NULL){#N is for a finite population\n    if (any(c(d, p, conf.lev) > 1) || any(c(d, p, conf.lev, N) < 0)) \n        stop(\"Error: proportions cannot exceed 1 or be negative\")\n    z <- qnorm(1 - ((1 - conf.lev)/2))\n    n <- (z^2 * p * (1 - p))/d^2\n    if (is.null(N)) \n        return(ceiling(n))\n    else return(ceiling(n/(1 + n/N))) }\n\nsampl.size.prop(0.8, 0.025)\nsampl.size.prop(0.8, 0.05)\n#not shure if you need a 5% coverage or plus/minus 5%\n\nStefano\n\n-----Messaggio originale-----\nDa: r-sig-epi-bounces at stat.math.ethz.ch\n[mailto:r-sig-epi-bounces at stat.math.ethz.ch]Per conto di Rahul Shidhaye\nInviato: Friday, October 16, 2009 4:19 AM\nA: r-sig-epi at stat.math.ethz.ch\nOggetto: [R-sig-Epi] Sample size for diagnostic test\n\n\n\nHello,\n?\nI wish to calculate sample size for?a disgnostic test. prevalence of the disorder is around 5% and expected sensitivity and specificity is 80%. We wish to have a precision of 5% in sensitivity and specificity.\n\nDr. Rahul Shidhaye\n\n\n      \n\t[[alternative HTML version deleted]]\n\n\nRispetta l'ambiente: Se non ti ? necessario, non stampare questa mail.\n\n\n\"Le informazioni contenute nel presente messaggio di posta elettronica e in ogni suo allegato sono da considerarsi riservate e il destinatario della email ? l'unico autorizzato\nad usarle, copiarle e, sotto la propria responsabilit?, divulgarle. Chiunque riceva questo messaggio per errore senza esserne il destinatario deve immediatamente rinviarlo\nal mittente cancellando l'originale. Eventuali dati personali e sensibili contenuti nel presente messaggio e/o suoi allegati vanno trattati nel rispetto della normativa \nin materia di privacy ( DLGS n.196/'03)\".",
+      "body_plain": "Dear Rahul,\nsensitivity and specificity are just proportion and thus it should not be hard\nto calculate the sample size needed in your case. Note also that sensitivity\nand specificity don't depend (at least in theory) on the prevalence of disease.\n\nRSiteSearch(\"proportion sample size\")\n \nwill suggest you more than one function to calculate the sample size for a single \nproportion under different assummptions.\nUnder the assumption of independence and using the asymptotic (\"normal\") approximation\nyou could use a simple function like this one:\n\nsampl.size.prop<-function (p, d, conf.lev=0.95, N=NULL){#N is for a finite population\n    if (any(c(d, p, conf.lev) > 1) || any(c(d, p, conf.lev, N) < 0)) \n        stop(\"Error: proportions cannot exceed 1 or be negative\")\n    z <- qnorm(1 - ((1 - conf.lev)/2))\n    n <- (z^2 * p * (1 - p))/d^2\n    if (is.null(N)) \n        return(ceiling(n))\n    else return(ceiling(n/(1 + n/N))) }\n\nsampl.size.prop(0.8, 0.025)\nsampl.size.prop(0.8, 0.05)\n#not shure if you need a 5% coverage or plus/minus 5%\n\nStefano\n\n-----Messaggio originale-----\nDa: r-sig-epi-bounces at stat.math.ethz.ch\n[mailto:r-sig-epi-bounces at stat.math.ethz.ch]Per conto di Rahul Shidhaye\nInviato: Friday, October 16, 2009 4:19 AM\nA: r-sig-epi at stat.math.ethz.ch\nOggetto: [R-sig-Epi] Sample size for diagnostic test\n\n\n\nHello,\n \nI wish to calculate sample size for a disgnostic test. prevalence of the disorder is around 5% and expected sensitivity and specificity is 80%. We wish to have a precision of 5% in sensitivity and specificity.\n\nDr. Rahul Shidhaye\n\n\n      \n\t[[alternative HTML version deleted]]\n\n\nRispetta l'ambiente: Se non ti è necessario, non stampare questa mail.\n\n\n\"Le informazioni contenute nel presente messaggio di posta elettronica e in ogni suo allegato sono da considerarsi riservate e il destinatario della email è l'unico autorizzato\nad usarle, copiarle e, sotto la propria responsabilità, divulgarle. Chiunque riceva questo messaggio per errore senza esserne il destinatario deve immediatamente rinviarlo\nal mittente cancellando l'originale. Eventuali dati personali e sensibili contenuti nel presente messaggio e/o suoi allegati vanno trattati nel rispetto della normativa \nin materia di privacy ( DLGS n.196/'03)\".",
       "body_snippet": "Dear Rahul,\nsensitivity and specificity are just proportion and thus it should not be hard\nto calculate the sample size needed in your case. Note also that sensitivity\nand specificity don't depend (at",
       "thread_id": "thread-5d88d54f5def",
       "thread_depth": 0,
-      "month": "2009-10"
+      "month": "2009-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-October/000172.html"
     },
     {
       "id": "msg-03d5426dbe90",
@@ -55,6 +57,7 @@
       "thread_id": "thread-03d5426dbe90",
       "thread_depth": 0,
       "month": "2009-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-October/000173.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20091016/ab85ef41/attachment.pl"
       ]

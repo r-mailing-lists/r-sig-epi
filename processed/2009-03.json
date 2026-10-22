@@ -17,7 +17,8 @@
       "body_snippet": "Dear listers,\n\nI was very impressed by the paper of prof. Carstensen on Stat in Med.\n2007; 26:3018-3045 about Age-period-cohort models.\nIn the paper (p. 3036) the annotated R file with Danish testis d",
       "thread_id": "thread-82281cc769cb",
       "thread_depth": 0,
-      "month": "2009-03"
+      "month": "2009-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-March/000166.html"
     },
     {
       "id": "msg-6dca99109e65",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear Enzo,\nthere have been some problems with the Biostat homepage redirecting to another url while converting everything to lower case, so that things were unavailable.\n\nI have fixed things now, so t",
       "thread_id": "thread-82281cc769cb",
       "thread_depth": 1,
-      "month": "2009-03"
+      "month": "2009-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-March/000167.html"
     }
   ],
   "threads": [

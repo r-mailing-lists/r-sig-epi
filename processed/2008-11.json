@@ -17,7 +17,8 @@
       "body_snippet": "Hi,\n\nI was wondering if anyone would find having a Task View (see\nhttp://cran.r-project.org/web/views/ ) for Epidemiology desireable or\nuseful?\n\nI currently co-maintain the Genetics Task View and woul",
       "thread_id": "thread-43517e4b3f85",
       "thread_depth": 0,
-      "month": "2008-11"
+      "month": "2008-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-November/000146.html"
     },
     {
       "id": "msg-b03c84bcb230",
@@ -33,7 +34,8 @@
       "body_snippet": "Neil,\nthis would be a very welcome initiative.\n\nYou could argue that most of the survival stuff belongs here too, but a link to the Task View for survival would suffice.\n\nAdditional topics:\n\nMultistat",
       "thread_id": "thread-43517e4b3f85",
       "thread_depth": 1,
-      "month": "2008-11"
+      "month": "2008-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-November/000147.html"
     },
     {
       "id": "msg-3976d2e0fae4",
@@ -49,7 +51,8 @@
       "body_snippet": "Thanks to all who have responded both on the list and directly.\n\nIt seems that an Epidemiology Task View would be useful and a number\nof suggestions have already been made.  Incorporating and expandin",
       "thread_id": "thread-3976d2e0fae4",
       "thread_depth": 0,
-      "month": "2008-11"
+      "month": "2008-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-November/000148.html"
     },
     {
       "id": "msg-105bacebae7b",
@@ -67,7 +70,8 @@
       "body_snippet": "On Fri, 2008-11-21 at 11:14 +0000, Neil Shephard wrote:\n> Thanks to all who have responded both on the list and directly.\n> \n> It seems that an Epidemiology Task View would be useful and a number\n> of",
       "thread_id": "thread-3976d2e0fae4",
       "thread_depth": 1,
-      "month": "2008-11"
+      "month": "2008-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-November/000149.html"
     },
     {
       "id": "msg-46983787946c",
@@ -83,7 +87,8 @@
       "body_snippet": "Dear EpidemiRogists;\n\n\" ... this I now have the following categories with suggested  \npackages...\n\nCase-Control : Epi, epiR epibasic, epicalc, epitools\nCohort : Epi epiR, epibasic epicalc epitools\nInc",
       "thread_id": "thread-46983787946c",
       "thread_depth": 0,
-      "month": "2008-11"
+      "month": "2008-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-November/000150.html"
     },
     {
       "id": "msg-6637ba007996",
@@ -99,7 +104,8 @@
       "body_snippet": "In the Epi package is a function ROC.\nBendix \n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch \n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of \n> David Wins",
       "thread_id": "thread-46983787946c",
       "thread_depth": 1,
-      "month": "2008-11"
+      "month": "2008-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-November/000151.html"
     },
     {
       "id": "msg-be14893c16d4",
@@ -117,7 +123,8 @@
       "body_snippet": "Thanks, Bendix;\n\nI haven't been involved in teaching R and so have not gone looking for  \nstuff I don't use. I think my suggestion to add links to functions or  \npackages with ability to create ROC cu",
       "thread_id": "thread-46983787946c",
       "thread_depth": 2,
-      "month": "2008-11"
+      "month": "2008-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-November/000152.html"
     },
     {
       "id": "msg-cdee100f1362",
@@ -133,7 +140,8 @@
       "body_snippet": "David,\n\nI do not think an epidemiology task view should put so much emphasis on a historically outdated procedure as MH, particularly since the reason that it is outdated is the advent of computing fa",
       "thread_id": "thread-46983787946c",
       "thread_depth": 3,
-      "month": "2008-11"
+      "month": "2008-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-November/000153.html"
     },
     {
       "id": "msg-b80341d5683e",
@@ -151,7 +159,8 @@
       "body_snippet": "On Sun, 2008-11-23 at 23:51 -0500, David Winsemius wrote:\n> Dear EpidemiRogists;\n> \n> \" ... this I now have the following categories with suggested  \n> packages...\n> \n> Case-Control : Epi, epiR epibas",
       "thread_id": "thread-46983787946c",
       "thread_depth": 1,
-      "month": "2008-11"
+      "month": "2008-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-November/000154.html"
     }
   ],
   "threads": [

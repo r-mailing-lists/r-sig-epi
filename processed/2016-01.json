@@ -17,7 +17,8 @@
       "body_snippet": "Dear list members,\nWe have just released Epi 2.0 on CRAN, so you should be able to upgrade.\n\nMoreover, the traditional SPE course in Tartu, Estonia have now been fixed to the dates\nFri 17th - Wed 22nd",
       "thread_id": "thread-1a883eb64856",
       "thread_depth": 0,
-      "month": "2016-01"
+      "month": "2016-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2016-January/000327.html"
     }
   ],
   "threads": [

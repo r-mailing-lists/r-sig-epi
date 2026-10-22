@@ -18,6 +18,7 @@
       "thread_id": "thread-e0d1c6c6fab5",
       "thread_depth": 0,
       "month": "2009-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-January/000155.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20090107/14716f46/attachment.pl"
       ]
@@ -36,7 +37,8 @@
       "body_snippet": "Hi Amy,\nyou probaly already have visited:\nhttp://www.codeproject.com/KB/cs/JalaliCalendar.aspx\nwhere the Iranian guy Homam Hosseini provides a discussion of the conversion, and some C code to do it.\n\n",
       "thread_id": "thread-e0d1c6c6fab5",
       "thread_depth": 1,
-      "month": "2009-01"
+      "month": "2009-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-January/000156.html"
     },
     {
       "id": "msg-69a6bdb0abf9",
@@ -56,6 +58,7 @@
       "thread_id": "thread-e0d1c6c6fab5",
       "thread_depth": 2,
       "month": "2009-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-January/000157.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20090107/5f3c2aa7/attachment.pl"
       ]
@@ -74,7 +77,8 @@
       "body_snippet": "I already sent this request off to inquire with Peter Dalgard and Martyn Plummer from the R-core team, and got this back from Peter:\n \n> -----Original Message-----\n> From: Peter Dalgaard [mailto:P.Dal",
       "thread_id": "thread-e0d1c6c6fab5",
       "thread_depth": 3,
-      "month": "2009-01"
+      "month": "2009-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-January/000158.html"
     },
     {
       "id": "msg-d43bc945808c",
@@ -90,7 +94,8 @@
       "body_snippet": "-----Original Message-----\nFrom: Amy Mikhail [mailto:amy.mikhail at googlemail.com] \nSent: 7. januar 2009 14:33\nTo: BXC (Bendix Carstensen)\nSubject: Re: [R-sig-Epi] Converting dates from the Persian c",
       "thread_id": "thread-d43bc945808c",
       "thread_depth": 0,
-      "month": "2009-01"
+      "month": "2009-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-January/000159.html"
     },
     {
       "id": "msg-335aec5ac7bc",
@@ -108,7 +113,8 @@
       "body_snippet": "BXC (Bendix Carstensen) wrote:\n>  \n> \n> -----Original Message-----\n> From: Amy Mikhail [mailto:amy.mikhail at googlemail.com] \n> Sent: 7. januar 2009 14:33\n> To: BXC (Bendix Carstensen)\n> Subject: Re:",
       "thread_id": "thread-d43bc945808c",
       "thread_depth": 1,
-      "month": "2009-01"
+      "month": "2009-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-January/000160.html"
     },
     {
       "id": "msg-aba7708d706f",
@@ -124,7 +130,8 @@
       "body_snippet": "I looked at the C code from Project Pluto that Hosseini references, and wrote R wrappers for it.  The C and R code are at\n  http://faculty.washington.edu/tlumley/calendars\n\nI haven't turned it into a ",
       "thread_id": "thread-e0d1c6c6fab5",
       "thread_depth": 2,
-      "month": "2009-01"
+      "month": "2009-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-January/000161.html"
     },
     {
       "id": "msg-fb933e70b140",
@@ -144,6 +151,7 @@
       "thread_id": "thread-e0d1c6c6fab5",
       "thread_depth": 3,
       "month": "2009-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-January/000162.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20090107/2ac9a709/attachment.pl"
       ]
@@ -162,7 +170,8 @@
       "body_snippet": "On Wed, 7 Jan 2009, Amy Mikhail wrote:\n\n\n> Forgive my ignorance on this, I have windows XP, so how do I get started -\n> have not sourced code before in R so do I just copy all the files in the\n> below",
       "thread_id": "thread-e0d1c6c6fab5",
       "thread_depth": 4,
-      "month": "2009-01"
+      "month": "2009-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-January/000163.html"
     },
     {
       "id": "msg-ce65163ce507",
@@ -182,6 +191,7 @@
       "thread_id": "thread-e0d1c6c6fab5",
       "thread_depth": 5,
       "month": "2009-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2009-January/000164.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20090108/35f33f3e/attachment.pl"
       ]

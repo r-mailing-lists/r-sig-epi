@@ -1,0 +1,24 @@
+{
+  "period": "2007-October",
+  "articles": [
+    "000078",
+    "000079",
+    "000080",
+    null,
+    "000082",
+    "000083",
+    null,
+    null,
+    "000086",
+    "000087"
+  ],
+  "fixes": {
+    "000078": "??ö",
+    "000080": "????ö"
+  },
+  "rejected": {
+    "000081": "mailman.3.1191492001.22435.r-sig-epi@stat.math.ethz.ch",
+    "000084": "mailman.1.1191578401.13731.r-sig-epi@stat.math.ethz.ch",
+    "000085": "AEEFKNHKDADBAKMPJLPLCEJDCHAA.ifellows@ucsd.edu"
+  }
+}

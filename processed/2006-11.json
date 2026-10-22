@@ -18,6 +18,7 @@
       "thread_id": "thread-ebb1d776283b",
       "thread_depth": 0,
       "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-November/000027.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061106/e4c1e59f/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "Seyed Reza Jafarzadeh wrote:\n> Hi,\n> \n> Is there any package or code to compare and display correlated ROC curves in\n> R?\n> \n> Thanks,\n> Reza\n\nThere are ways to compare ROC areas.  This will not have ",
       "thread_id": "thread-ebb1d776283b",
       "thread_depth": 1,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-November/000029.html"
     },
     {
       "id": "msg-bd6de1814172",
@@ -56,7 +58,8 @@
       "body_snippet": "On Mon, 2006-11-06 at 12:29 -0800, Seyed Reza Jafarzadeh wrote:\n> Hi,\n> \n> Is there any package or code to compare and display correlated ROC curves in\n> R?\n> \n> Thanks,\n> Reza\n> \n\nA nonparametric met",
       "thread_id": "thread-ebb1d776283b",
       "thread_depth": 1,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-November/000028.html"
     },
     {
       "id": "msg-edd05dabd771",
@@ -72,7 +75,8 @@
       "body_snippet": "Hi,\n\nApologies for the slightly off-topic post but I'm seeking advise on\nhow to analyse a set of data I've encountered.\n\nThis is not my choice of study design, its something I'm being asked\nto help a ",
       "thread_id": "thread-edd05dabd771",
       "thread_depth": 0,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-November/000030.html"
     },
     {
       "id": "msg-c3584c5ecd99",
@@ -91,6 +95,7 @@
       "thread_id": "thread-edd05dabd771",
       "thread_depth": 1,
       "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-November/000031.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20061121/568eadf2/attachment.pl"
       ]
@@ -109,7 +114,8 @@
       "body_snippet": "HI,\n\nI seek some advice on the use of latent models in sexuality. Can someone \nhelp me? Specific R packages?\n\nthanks,\n\nWilfred",
       "thread_id": "thread-05c82da5bd20",
       "thread_depth": 0,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-November/000032.html"
     },
     {
       "id": "msg-f81e1787898b",
@@ -128,7 +134,8 @@
       "body_snippet": "Hi,\nas a learned form epidemiology, the product of a \"case-control\" study is \nan exposure-odds ratio. Its components are a numerator of case series \n(exposure odds among incident cases of a disease) a",
       "thread_id": "thread-edd05dabd771",
       "thread_depth": 2,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-November/000033.html"
     },
     {
       "id": "msg-8d601c8b8820",
@@ -147,7 +154,8 @@
       "body_snippet": "Thanks to all who have replied so far.  Its been a while since I did\nanything similar to this (my normal area is statistical genetics), but\nits good to refresh these things every now and again.\n\nThe r",
       "thread_id": "thread-8d601c8b8820",
       "thread_depth": 0,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-November/000034.html"
     }
   ],
   "threads": [

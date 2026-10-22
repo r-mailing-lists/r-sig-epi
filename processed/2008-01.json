@@ -18,6 +18,7 @@
       "thread_id": "thread-020e858c4e8a",
       "thread_depth": 0,
       "month": "2008-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-January/000101.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080104/6a86942b/attachment.pl"
       ]
@@ -36,7 +37,8 @@
       "body_snippet": "Dear R-sig-Epi list,\n\nWe have now made a major update of the Epi package, to version 1.0.7.\nIt has just appeared on CRAN.\n\nFor a few days the version 1.0.5 was there, but there were grave bugs\nin spli",
       "thread_id": "thread-24eca6315186",
       "thread_depth": 0,
-      "month": "2008-01"
+      "month": "2008-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-January/000102.html"
     },
     {
       "id": "msg-b3ae9b94835c",
@@ -54,7 +56,8 @@
       "body_snippet": "BXC (Bendix Carstensen) wrote:\n> Note that the old Lexis()-function (by David Clayton) is dead. It is\n> still in the package, but now under the name W.Lexis(). Its\n> functionality, splitting follow-up",
       "thread_id": "thread-24eca6315186",
       "thread_depth": 1,
-      "month": "2008-01"
+      "month": "2008-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-January/000103.html"
     },
     {
       "id": "msg-b59a54db4f94",
@@ -71,6 +74,7 @@
       "thread_id": "thread-b59a54db4f94",
       "thread_depth": 0,
       "month": "2008-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-January/000104.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080118/1fa6a38a/attachment.pl"
       ]
@@ -89,7 +93,8 @@
       "body_snippet": "Can you suggest me how to compare to survival analysis:\none made with the Cox regression and the other with the \nrandomSurvivalForest?\nPlease send me also an exemple of possible commands in R.\nThanks\n",
       "thread_id": "thread-03f24df99af3",
       "thread_depth": 0,
-      "month": "2008-01"
+      "month": "2008-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-January/000105.html"
     },
     {
       "id": "msg-0fe14420cd2d",
@@ -106,6 +111,7 @@
       "thread_id": "thread-0fe14420cd2d",
       "thread_depth": 0,
       "month": "2008-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-January/000106.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080130/26522ced/attachment.pl"
       ]

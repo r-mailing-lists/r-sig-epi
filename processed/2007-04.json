@@ -17,7 +17,8 @@
       "body_snippet": "Hi all,\n\nNew to R and this list and hoping to get some helpful suggestions from \nR-users.\n\nWondered if users have experience with time series analysis methods for \nirregular (in time) data?  I have ac",
       "thread_id": "thread-770982b517b5",
       "thread_depth": 0,
-      "month": "2007-04"
+      "month": "2007-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-April/000039.html"
     },
     {
       "id": "msg-3a6aaa34b653",
@@ -34,6 +35,7 @@
       "thread_id": "thread-3a6aaa34b653",
       "thread_depth": 0,
       "month": "2007-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-April/000040.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070411/06f74be7/attachment.pl"
       ]

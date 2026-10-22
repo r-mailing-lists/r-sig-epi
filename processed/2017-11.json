@@ -17,7 +17,8 @@
       "body_snippet": "Hello everyone,\n\n\nI am doing a survival analysis at the moment. I want to make an AFT model in R. I have fitted the following model:\n\nfit1 <- survreg(Surv(TimeVentilator, event) ~ (age + sex + mutatio",
       "thread_id": "thread-362c97c5dbf5",
       "thread_depth": 0,
-      "month": "2017-11"
+      "month": "2017-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2017-November/000342.html"
     }
   ],
   "threads": [

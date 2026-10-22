@@ -17,7 +17,8 @@
       "body_snippet": "I have a question concerning a non parametric estimator for left truncated\nand right censored data. I see that the function\n\n\nsurvfit(Surv(time1, time2, status) ~ group, data=mydata)\n\n  (where time1= ",
       "thread_id": "thread-51be6708ad3a",
       "thread_depth": 0,
-      "month": "2005-11"
+      "month": "2005-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2005-November/000000.html"
     },
     {
       "id": "msg-6203c5c9c90c",
@@ -35,7 +36,8 @@
       "body_snippet": "On Fri, 11 Nov 2005, Martina Gandini wrote:\n\n> I have a question concerning a non parametric estimator for left truncated\n> and right censored data. I see that the function\n>\n>\n> survfit(Surv(time1, t",
       "thread_id": "thread-51be6708ad3a",
       "thread_depth": 1,
-      "month": "2005-11"
+      "month": "2005-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2005-November/000001.html"
     },
     {
       "id": "msg-489be85a1ae4",
@@ -55,6 +57,7 @@
       "thread_id": "thread-51be6708ad3a",
       "thread_depth": 2,
       "month": "2005-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2005-November/000002.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20051129/c9c1099e/attachment.pl"
       ]
@@ -73,7 +76,8 @@
       "body_snippet": "You are looking for plot types \"s\" and \"S\", try for example:\n\nx<-1:10 \ny<-rnorm(10)\n\nplot( x, y, pch=16 )\nlines(x,y,type=\"s\")\n\nplot( x, y, pch=16 )\nlines(x,y,type=\"S\")\n\n----------------------\nBendix C",
       "thread_id": "thread-f4ffcd18c993",
       "thread_depth": 0,
-      "month": "2005-11"
+      "month": "2005-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2005-November/000003.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Colleagues,\n\nQuestion:\nHow do YOU create multi-page publication ready tables that can still\nbe shared and potentially edited by coworkers who don't use LaTeX? I'm\nspecifically looking for a solution t",
       "thread_id": "thread-056789d5bc37",
       "thread_depth": 0,
-      "month": "2012-07"
+      "month": "2012-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2012-July/000274.html"
     },
     {
       "id": "msg-fa9bfc7b2be5",
@@ -34,6 +35,7 @@
       "thread_id": "thread-fa9bfc7b2be5",
       "thread_depth": 0,
       "month": "2012-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2012-July/000275.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20120730/eb8babe8/attachment.pl"
       ]

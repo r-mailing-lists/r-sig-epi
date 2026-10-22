@@ -17,7 +17,8 @@
       "body_snippet": "Hello,\n\nI am trying to compute the relative survival curves for a cohort of cancer\npatients that I have data on. I have been trying to use some of the\nelements of the relsurv package and have gotten t",
       "thread_id": "thread-02c7dc69d2df",
       "thread_depth": 0,
-      "month": "2015-11"
+      "month": "2015-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2015-November/000324.html"
     },
     {
       "id": "msg-20d6aed2e5cf",
@@ -35,7 +36,8 @@
       "body_snippet": "Hey Josh,\n\nuse |summary| to get estimates for specific times. E.g.:\n\n|data(slopop) data(rdata) #calculate the relative survival curve #note \nthat the variable year is given in days since 01.01.1960 an",
       "thread_id": "thread-02c7dc69d2df",
       "thread_depth": 1,
-      "month": "2015-11"
+      "month": "2015-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2015-November/000325.html"
     }
   ],
   "threads": [

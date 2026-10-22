@@ -17,7 +17,8 @@
       "body_snippet": "Hi,\n\n(first of all: sorry for my english...)\n\nI need to plot some pie charts on a map (one over each region) but I don't\nknow how to use two colomns from a data.frame as text: can you help me to\nuse t",
       "thread_id": "thread-dbc2f077fbeb",
       "thread_depth": 0,
-      "month": "2014-09"
+      "month": "2014-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2014-September/000307.html"
     }
   ],
   "threads": [

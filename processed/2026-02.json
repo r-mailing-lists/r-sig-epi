@@ -17,7 +17,8 @@
       "body_snippet": "Dear all,\n \nWant to learn how to analyze and interpret network data using R?\n \nJoin us this May for the 3rd edition of the Introduction to Network Analysis in R.\n \nCourse dates: 4th?7th May 2026\nForma",
       "thread_id": "thread-d33dbfefe213",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000553.html"
     },
     {
       "id": "msg-cae03bf98cd9",
@@ -33,7 +34,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Clustering High-Dimensional Data 2.0 livestreaming February 6 with Nikolay Oskolkov (Group Leader (PI) at LIOS). This seminar on Clusteri",
       "thread_id": "thread-cae03bf98cd9",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000554.html"
     },
     {
       "id": "msg-c543a47015a5",
@@ -49,7 +51,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nInstats is offering a new 1-day seminar Nonresponse in Social Surveys (Free Seminar) livestreaming February 25, led by Fran?ois Marshall (Statistics Canada). This seminar addr",
       "thread_id": "thread-c543a47015a5",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000555.html"
     },
     {
       "id": "msg-cece5d6958db",
@@ -65,7 +68,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Tree-Based Models for Addressing Nonresponse (Free Seminar) livestreaming February 10 with Avi Feller (Department of Statistics). This se",
       "thread_id": "thread-cece5d6958db",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000556.html"
     },
     {
       "id": "msg-32241c23e791",
@@ -77,11 +81,12 @@
       "subject_clean": "Generalised Linear Models in R course",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear all,\nThere are still seats left for the Physalia course on Generalised Linear Models in R course!\nIf you want to master GLMs as a unified and flexible tool for data analysis, this is the course for you. Don?t miss out!\n \nCheck it out here: [ https://www.physalia-courses.org/courses-workshops/glm-in-r-1/ ]( https://www.physalia-courses.org/courses-workshops/glm-in-r-1/ )\n \nFeel free to share this with anyone interested!\nBest regards, Carlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_plain": "Dear all,\nThere are still seats left for the Physalia course on Generalised Linear Models in R course!\nIf you want to master GLMs as a unified and flexible tool for data analysis, this is the course for you. Don’t miss out!\n \nCheck it out here: [ https://www.physalia-courses.org/courses-workshops/glm-in-r-1/ ]( https://www.physalia-courses.org/courses-workshops/glm-in-r-1/ )\n \nFeel free to share this with anyone interested!\nBest regards, Carlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
       "body_snippet": "Dear all,\nThere are still seats left for the Physalia course on Generalised Linear Models in R course!\nIf you want to master GLMs as a unified and flexible tool for data analysis, this is the course f",
       "thread_id": "thread-32241c23e791",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000557.html"
     },
     {
       "id": "msg-d87354382bcb",
@@ -97,7 +102,8 @@
       "body_snippet": "Hi everyone\n\nInstats is excited to announce the launch of two new free AI tools for researchers, Research Assistant and Pathways, available now at instats.org. <https://instats.org/> Both tools are ca",
       "thread_id": "thread-d87354382bcb",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000558.html"
     },
     {
       "id": "msg-9c2eb01357e5",
@@ -113,7 +119,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Exploratory Analysis of Complex Datasets with ChatGPT 2.0 livestreaming February 12 with Nikolay Oskolkov (Group Leader (PI) at LIOS). Th",
       "thread_id": "thread-9c2eb01357e5",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000559.html"
     },
     {
       "id": "msg-01d82044167a",
@@ -129,7 +136,8 @@
       "body_snippet": "Dear all,\nWe are pleased to announce our online course ?Fundamentals of Biostatistics with R?, taking place 13?17 April.\n \nThis 5-day course provides a practical introduction to statistical methods fo",
       "thread_id": "thread-01d82044167a",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000560.html"
     },
     {
       "id": "msg-8a5c2e673f01",
@@ -145,7 +153,8 @@
       "body_snippet": "Dear all,\nWe are pleased to announce our upcoming online course, Bayesian Causal Networks in R, taking place from 7?11 September.\n \nBayesian causal networks are a powerful approach to explore complex ",
       "thread_id": "thread-8a5c2e673f01",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000561.html"
     },
     {
       "id": "msg-fcc0168b63df",
@@ -161,7 +170,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 2-day seminar Multilevel Modeling in R livestreaming February 26?27 with Scott Colwell (University of Guelph and Enablytics). This seminar offers a rig",
       "thread_id": "thread-fcc0168b63df",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000562.html"
     },
     {
       "id": "msg-ffc3fddbeeb6",
@@ -177,7 +187,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Introduction to Bioinformatics for Genomics (Free Seminar) livestreaming February 16 with Estefania Mancini (Josep Carreras Leukaemia Res",
       "thread_id": "thread-ffc3fddbeeb6",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000563.html"
     },
     {
       "id": "msg-2805295c42e3",
@@ -193,7 +204,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Generative AI for Statistical Science (Free Seminar) livestreaming March 3 with Lei Ding (Department of Statistics, University of Manitob",
       "thread_id": "thread-2805295c42e3",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000564.html"
     },
     {
       "id": "msg-8e9cfaab5514",
@@ -209,7 +221,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 3-day seminar Data Analysis in R Using Tidyverse livestreaming February 24?26 with Ari Lamstein (American Statistical Association). This seminar offers",
       "thread_id": "thread-8e9cfaab5514",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000565.html"
     },
     {
       "id": "msg-5756de263ace",
@@ -225,7 +238,8 @@
       "body_snippet": "Dear all,\n\nOnly a few seats remain for our online course ?Using R as a GIS: Mapping and Spatial Operations in R? (2?6 March)!\n \nLearn to import, map, and analyze spatial data in R, perform vector and ",
       "thread_id": "thread-5756de263ace",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000566.html"
     },
     {
       "id": "msg-b4b9a26adc8d",
@@ -241,7 +255,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 2-day seminar Structural Equation Modeling in R livestreaming February 23?24 with Scott Colwell (University of Guelph and Enablytics). Structural Equat",
       "thread_id": "thread-b4b9a26adc8d",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000567.html"
     },
     {
       "id": "msg-4c712fedf71e",
@@ -257,7 +272,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 2-day seminar Introduction to Survey Design livestreaming February 26?27 with Adam Berinsky (MIT Political Experiments Research Lab, Massachusetts Inst",
       "thread_id": "thread-4c712fedf71e",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000568.html"
     },
     {
       "id": "msg-119266190ad9",
@@ -273,7 +289,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nInstats is offering a new 4-day seminar Agentic Data Analytics: Automating Research Workflows livestreaming March 24?27, led by Peter Gruber (Faculty of Economics, USI Univers",
       "thread_id": "thread-119266190ad9",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000569.html"
     },
     {
       "id": "msg-3c13f5e4f886",
@@ -289,7 +306,8 @@
       "body_snippet": "Dear all,\nwe are pleased to announce the online course ?Interactive Maps with R?, taking place on 13?14 May.\n \nThis hands-on course introduces participants to creating and customizing interactive maps",
       "thread_id": "thread-3c13f5e4f886",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-February/000570.html"
     }
   ],
   "threads": [

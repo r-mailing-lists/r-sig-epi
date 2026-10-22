@@ -17,7 +17,8 @@
       "body_snippet": "I'm doing a survival analysis of a temperature treatment on 3 different\nsexual cross types of corals. I have a data set of 628 observations with\nunequal number of samples (see table below). I would li",
       "thread_id": "thread-c825bb4c2dd7",
       "thread_depth": 0,
-      "month": "2019-08"
+      "month": "2019-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2019-August/000353.html"
     }
   ],
   "threads": [

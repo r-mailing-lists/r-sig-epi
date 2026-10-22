@@ -17,7 +17,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nDiscover how to effectively analyze time-to-event data and enhance your epidemiological research skills. Introduction to Survival and Time-to-Event Data Analysis is a 2-day se",
       "thread_id": "thread-cc7b3d146336",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000608.html"
     },
     {
       "id": "msg-c9af2a3ed8c9",
@@ -33,7 +34,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers a unique opportunity to enhance your quantitative research skills. Exploratory Multivariate Analysis in R is a 2-day seminar livestreaming Ma",
       "thread_id": "thread-c9af2a3ed8c9",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000609.html"
     },
     {
       "id": "msg-92fcf86c1128",
@@ -49,7 +51,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover how to apply advanced phylogenetic comparative methods to your research questions. Modelling and Mapping Trait Evolution is a 2-day seminar livestreamin",
       "thread_id": "thread-92fcf86c1128",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000610.html"
     },
     {
       "id": "msg-f4ea05107243",
@@ -65,7 +68,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - We invite you to explore contemporary strategies for robust multivariable regression modeling in your research. Regression Modeling Strategies is a 2-day seminar",
       "thread_id": "thread-f4ea05107243",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000611.html"
     },
     {
       "id": "msg-c521b132330f",
@@ -81,7 +85,8 @@
       "body_snippet": "Dear all,\nIf you are interested in learning how to create and customizse interactive maps in R, you can still join us for this 2-day online course: [ https://www.physalia-courses.org/courses-workshops",
       "thread_id": "thread-c521b132330f",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000612.html"
     },
     {
       "id": "msg-233f6412dd41",
@@ -97,7 +102,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers a comprehensive introduction to statistical computing and regression analysis. Introduction to R, Regression, and the rms Package is a 2-day ",
       "thread_id": "thread-233f6412dd41",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000613.html"
     },
     {
       "id": "msg-f8e250bd60c6",
@@ -113,7 +119,8 @@
       "body_snippet": "Dear all,\nWant to learn how to analyse real-world data with R?\nJoin our online course ?Dealing with Messy Data in R: Data Cleaning and Visualisation? taking place on 13?15 July.\n \nIn this hands-on cou",
       "thread_id": "thread-f8e250bd60c6",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000614.html"
     },
     {
       "id": "msg-ad29cca827ab",
@@ -129,7 +136,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Explore methods for extracting and transforming web-based data into robust inputs for your empirical studies. Web Scraping and Data Collection is a 2-day seminar",
       "thread_id": "thread-ad29cca827ab",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000615.html"
     },
     {
       "id": "msg-1a7c7317f109",
@@ -145,7 +153,8 @@
       "body_snippet": "Dear all,\n \nWe are pleased to announce the upcoming online course ?Bayesian Methods for Biomedical Data Science?, taking place from November 30 to December 4.\n \nCourse website: [ https://www.physalia-",
       "thread_id": "thread-1a7c7317f109",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000616.html"
     },
     {
       "id": "msg-403edd552635",
@@ -161,7 +170,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nDiscover how to enhance your research efficiency and rigor through advanced AI-assisted methods for literature synthesis. AI-Assisted Systematic Reviews and Meta-Analysis is a",
       "thread_id": "thread-403edd552635",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000617.html"
     },
     {
       "id": "msg-e69a88dc06bc",
@@ -177,7 +187,8 @@
       "body_snippet": "Dear all,\nWe are pleased to announce our upcoming online course: Bayesian Causal Networks in R\n \n \nDates: 7?11 September  -3?6 PM (Berlin time)\n \nCourse website: [ https://www.physalia-courses.org/cou",
       "thread_id": "thread-e69a88dc06bc",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000618.html"
     },
     {
       "id": "msg-ae5a3989b6cd",
@@ -193,7 +204,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This upcoming opportunity will enhance your skills in analyzing complex event data. Introduction to Survival and Time-to-Event Data Analysis is a 2-day seminar l",
       "thread_id": "thread-ae5a3989b6cd",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000619.html"
     },
     {
       "id": "msg-0d1cf2a8a7bd",
@@ -209,7 +221,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nThis upcoming seminar offers a valuable opportunity to enhance your quantitative research skills. Practical Meta-Analysis for Beginners is a 2-day seminar livestreaming June 2",
       "thread_id": "thread-0d1cf2a8a7bd",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000620.html"
     },
     {
       "id": "msg-351ba584caaa",
@@ -225,7 +238,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover advanced computational methods for dissecting cellular heterogeneity in your research projects. Single Cell Data Analysis 3.0 is a 2-day seminar livestr",
       "thread_id": "thread-351ba584caaa",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000621.html"
     },
     {
       "id": "msg-657c831e8bb7",
@@ -241,7 +255,8 @@
       "body_snippet": "Dear all,\n \nReproducibility is one of the biggest challenges in modern data science and computational research ? and one of the most valuable skills you can develop.\n \nWe are happy to announce our upc",
       "thread_id": "thread-657c831e8bb7",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000622.html"
     },
     {
       "id": "msg-32fee62489d6",
@@ -257,7 +272,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover how to effectively analyze complex datasets and extract meaningful insights for your research. Clustering High-Dimensional Data 3.0 is a 2-day seminar l",
       "thread_id": "thread-32fee62489d6",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000623.html"
     },
     {
       "id": "msg-e95ae226f601",
@@ -273,7 +289,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Are you looking to transition beyond standard chat prompts to build more rigorous, reproducible research workflows? AI Agents for Researchers is a 2-day seminar ",
       "thread_id": "thread-e95ae226f601",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000624.html"
     },
     {
       "id": "msg-fbe05e00c6dd",
@@ -289,7 +306,8 @@
       "body_snippet": "Dear all,\nyesterday we concluded the Generalised Linear Models in R course: [ https://www.physalia-courses.org/courses-workshops/glm-in-r-1/ ]( https://www.physalia-courses.org/courses-workshops/glm-i",
       "thread_id": "thread-fbe05e00c6dd",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000625.html"
     },
     {
       "id": "msg-90a8fb863e38",
@@ -305,7 +323,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nEnhance your statistical toolkit with advanced modeling techniques for complex observational data. Latent Variable Mixture Models is a 2-day seminar livestreaming July 6?7, le",
       "thread_id": "thread-90a8fb863e38",
       "thread_depth": 0,
-      "month": "2026-05"
+      "month": "2026-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-May/000626.html"
     }
   ],
   "threads": [

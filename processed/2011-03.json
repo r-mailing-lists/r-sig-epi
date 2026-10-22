@@ -17,7 +17,8 @@
       "body_snippet": "Hi,\n\nI am trying to access object which is variable of a dataset using\nstring.? For that I am trying to convert a string to the object name\nin the following code. But unfortunately it looks something ",
       "thread_id": "thread-3dff22c5ddb3",
       "thread_depth": 0,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-March/000252.html"
     },
     {
       "id": "msg-9a1742015442",
@@ -35,7 +36,8 @@
       "body_snippet": "get() looks in the search path, so you can put data 1 there using attach():\n\n> data1<- data.frame(x=c(1:4), y=rep(1,4))\n> attach(data1)\n> gvars<- c(\"x\", \"y\")\n> get( gvars[1] )\n[1] 1 2 3 4\n> get( gvars",
       "thread_id": "thread-3dff22c5ddb3",
       "thread_depth": 1,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-March/000253.html"
     },
     {
       "id": "msg-cb2ddd8470d9",
@@ -54,7 +56,8 @@
       "body_snippet": "On Mar 18, 2011, at 3:19 AM, BXC (Bendix Carstensen) wrote:\n\n> get() looks in the search path, so you can put data 1 there using  \n> attach():\n>\n>> data1<- data.frame(x=c(1:4), y=rep(1,4))\n>> attach(d",
       "thread_id": "thread-3dff22c5ddb3",
       "thread_depth": 2,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-March/000254.html"
     },
     {
       "id": "msg-bacdc2e52fe0",
@@ -73,7 +76,8 @@
       "body_snippet": "Hi,\n\nThanks to David and Bendix for giving me the solution. I would like to\nextend my question little bit further. I am trying to execute\nfollowing code:\n\ndata1<- data.frame(x=c(1:4), y=rep(1:4))\ngvar",
       "thread_id": "thread-3dff22c5ddb3",
       "thread_depth": 2,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-March/000255.html"
     },
     {
       "id": "msg-68f809ff2295",
@@ -93,7 +97,8 @@
       "body_snippet": "Hi, \n\n try changing rep(1:4) to rep(1,4)\n\nOn Fri, 18 Mar 2011, Madan Gopal Kundu wrote:\n\nHi,\n\nThanks to David and Bendix for giving me the solution. I would like to\nextend my question little bit furth",
       "thread_id": "thread-3dff22c5ddb3",
       "thread_depth": 3,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-March/000256.html"
     },
     {
       "id": "msg-60fa5f83e0e6",
@@ -113,7 +118,8 @@
       "body_snippet": "On Mar 18, 2011, at 16:18 , Madan Gopal Kundu wrote:\n\n> Hi,\n> \n> Thanks to David and Bendix for giving me the solution. I would like to\n> extend my question little bit further. I am trying to execute\n",
       "thread_id": "thread-3dff22c5ddb3",
       "thread_depth": 3,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-March/000257.html"
     },
     {
       "id": "msg-ffbb3d925133",
@@ -133,7 +139,8 @@
       "body_snippet": "On Mar 18, 2011, at 11:18 AM, Madan Gopal Kundu wrote:\n\n> Hi,\n>\n> Thanks to David and Bendix for giving me the solution. I would like to\n> extend my question little bit further. I am trying to execute",
       "thread_id": "thread-3dff22c5ddb3",
       "thread_depth": 3,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-March/000258.html"
     },
     {
       "id": "msg-b1bf168de78a",
@@ -154,7 +161,8 @@
       "body_snippet": "Thanks a lot for your help. Yeah it was a mistake from my end only.\n\nRegards\nMadan Gopal Kundu\nOn Fri, Mar 18, 2011 at 1:19 PM, David Winsemius <dwinsemius at comcast.net> wrote:\n>\n> On Mar 18, 2011, ",
       "thread_id": "thread-3dff22c5ddb3",
       "thread_depth": 4,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-March/000259.html"
     },
     {
       "id": "msg-138690cdacaf",
@@ -172,7 +180,8 @@
       "body_snippet": "? stato filtrato un testo allegato il cui set di caratteri non era\nindicato...\nNome: non disponibile\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110322/c4488f08/attachment.pl>",
       "thread_id": "thread-138690cdacaf",
       "thread_depth": 0,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-March/000260.html"
     },
     {
       "id": "msg-914545102768",
@@ -189,6 +198,7 @@
       "thread_id": "thread-914545102768",
       "thread_depth": 0,
       "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2011-March/000261.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20110330/e306b4e6/attachment.pl"
       ]

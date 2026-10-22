@@ -19,7 +19,8 @@
       "body_snippet": "HI All,I am trying to simulate a AFT Weibull model in R using a log-linear mod\nlog(Y)=?0+?1X1+?2X2+cW\n\n\nWhere W is a extreme value distribution. My R code is below. I can not understand why the interc",
       "thread_id": "thread-bc6c3daa0a56",
       "thread_depth": 0,
-      "month": "2022-10"
+      "month": "2022-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2022-October/000368.html"
     },
     {
       "id": "msg-3164399d0f68",
@@ -38,7 +39,8 @@
       "body_snippet": ">From ?survival::survreg.distributions, we find that the CDF for an extreme value distribution is defined as F=1-e^{-e^t}, whereas ?extRemes::revd gives G(x) = exp(-exp((x - location)/scale)) (or F=e^",
       "thread_id": "thread-bc6c3daa0a56",
       "thread_depth": 1,
-      "month": "2022-10"
+      "month": "2022-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2022-October/000369.html"
     }
   ],
   "threads": [

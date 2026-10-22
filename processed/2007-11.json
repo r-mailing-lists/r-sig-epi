@@ -18,6 +18,7 @@
       "thread_id": "thread-fb2d4c095d98",
       "thread_depth": 0,
       "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-November/000088.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071104/dac015af/attachment.pl"
       ]
@@ -70,7 +71,8 @@
       "body_snippet": "#Hello,\n\n#I have a data.frame similar to this:\n\nlibrary(Epi)\nAye <- sample( c(\"Yes\",\"Si\",\"Oui\"), 177, replace=TRUE )\nBee <- sample( c(\"Hum\",\"Buzz\"), 177, replace=TRUE )\nSea <- sample( c(\"White\",\"Black",
       "thread_id": "thread-f96ba5aec4f4",
       "thread_depth": 0,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-November/000091.html"
     },
     {
       "id": "msg-714ae3f1865f",
@@ -86,7 +88,8 @@
       "body_snippet": "The key to this buried in the exclude= argument to factor() !\nSee the help page for factor:\n\n?factor\n\nThis will work:\n\nstat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)),\ndata=temp)\n\nBes",
       "thread_id": "thread-f96ba5aec4f4",
       "thread_depth": 1,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-November/000092.html"
     },
     {
       "id": "msg-1f7bc91c095b",
@@ -105,7 +108,8 @@
       "body_snippet": "Thanks Bendix,\n\nNow when I type:\n\n> stat.table(factor(Sea,exclude=NULL), list(count(), percent(Sea)), data=temp)\n\nI get:\n-----------------------------\nNA      count() percent(Sea)\n--------------------",
       "thread_id": "thread-f96ba5aec4f4",
       "thread_depth": 2,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-November/000093.html"
     },
     {
       "id": "msg-96d50c18e140",
@@ -125,7 +129,8 @@
       "body_snippet": "Sorry, I got it:\n\nstat.table(factor(Sea,exclude=NULL), list(count(), percent(factor(Sea,\nexclude=NULL))), data=temp)\n\nBest regards,\nLauri\n\n2007/11/6, Lauri Nikkinen <lauri.nikkinen at iki.fi>:\n> Thank",
       "thread_id": "thread-f96ba5aec4f4",
       "thread_depth": 3,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-November/000094.html"
     },
     {
       "id": "msg-750d7e419753",
@@ -141,7 +146,8 @@
       "body_snippet": "or:\n stat.table(zz<-factor(Sea,exclude=NULL), list(\"N\"=count(),\n\"%\"=percent(zz)), data=temp) \n\n> -----Original Message-----\n> From: lauri.nikkinen at gmail.com \n> [mailto:lauri.nikkinen at gmail.com] ",
       "thread_id": "thread-f96ba5aec4f4",
       "thread_depth": 4,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-November/000095.html"
     },
     {
       "id": "msg-2c4e980d42cb",
@@ -159,7 +165,8 @@
       "body_snippet": "Is it possible to make publication quality tables in R? \n\nR Hoskins\nOlympia, WA",
       "thread_id": "thread-2c4e980d42cb",
       "thread_depth": 0,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-November/000096.html"
     },
     {
       "id": "msg-9c270bc1e996",
@@ -178,7 +185,8 @@
       "body_snippet": "The short answer is \"Yes\".\n\nThe slightly longer answer is to load the fortunes package and do:\n> fortune(109)\n\nThe longer and more useful answers depend on what you mean by\n\"publication quality\" and w",
       "thread_id": "thread-2c4e980d42cb",
       "thread_depth": 1,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-November/000098.html"
     },
     {
       "id": "msg-b42702926acb",
@@ -194,7 +202,8 @@
       "body_snippet": "In a word, yes.  But its more complicated than it first appears, since\n\"publication quailty\" is rather ambiguous and is dependent upon the\nsoftware that you are using to write your publications.\n\nTo m",
       "thread_id": "thread-b42702926acb",
       "thread_depth": 0,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-November/000097.html"
     },
     {
       "id": "msg-8bdea5bdb7e4",
@@ -206,11 +215,12 @@
       "subject_clean": "Diagnostic tests metanalisis",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hello friends of R list,\n\nIm trying for a while to adapt a function develped in SAS and published in \"\nJ.B. Reitsma et al. / Journal of Clinical Epidemiology 58 (2005) 982?990\",\nwich is a bivariate approch to meta-analysis of diagnotic tests.\n\nSince Im not a statistics or R expert, neither I have any SAS knowledge, Im\nhaving a hard time trying to do so.\n\nThere is an appendix at the original txt with some step by step on how to do\nit but Im stuck on a more advanced stuff which I cant find a solution.\n\nIn a step it is mentioned a Van Houwelingen approach wich I dont know what\nit is, and so I can work it out. Also there a REML approach which I could\nnot find in any library so far.\n\nThis is the function so far....\n\nbivar<-function(TP,FP,FN,TN){\n\n        # find a way to sum 0.5 to each null cell\n\n       Se<-TP/(TP+FN)\n       Sp<-TN/(TN+FP)\n       logSe<-log(Se/(1-Se))\n       logSp<-log(Sp/(1-Sp))\n       vlogSe<-1/(Se*(1-Se)*(TP+FN))\n       vlogSp<-1/(Sp*(1-Sp)*(TN+FP))\n       bsvlogSp<-0\n       cblog<-0\n       bsvlogSp<-0\n       sdata<-rbind(bsvlogSp,cblog,bsvlogSp,vlogSe,vlogSp)\n\nthis is the SAS sintax available at the original text.....\n\n/*\nUse the Proc Mixed module in SAS is used to set up the bivariate model. We\napply the approach of Van Houwelingen et al\nto incorporate both the within and between study variance, more details and\nexplanations can be found there.{van Houwelingen,\n2002 #2} Use the restricted maximum likelihood estimation (REML) method in\nestimating the model\n*/\nproc mixed data=bi_meta method=reml cl ; /* option cl will give confidence\nintervals */\n/* study_id and modality are categorical variables */\nclass study_id modality;\n/* model statement: asking for different estimates of mean sensitivity and\nspecificity for each modality, provide large value\nfor degrees of freedom to obtain p-values based on normal distribution\nrather than the t-distribution (=default in SAS) */\nmodel logit \u0003 dis*modality non_dis*modality / noint cl df=1000, 1000, 1000,\n1000, 1000, 1000;\n/* random effects for logit sensitivity and specificity with possible\ncorrelation (UN=unstructured covariance structure) */\nrandom dis non_dis / subject=study_id type=un ;\n/* use the repeat statement to define different within-study variances for\nsens and spec in each study */\nrepeated / group=rec;\n/* name the file holding the all the (co)variances parameters, keep the\nwithin-study variance constant */\nparms / parmsdata=cov hold=4 to 91;\n/* use contrast statement for testing specific hypotheses */\n/* testing for differences in sensitivities */\ncontrast 'CT_sens vs LAG_sens' dis*modality 1 -1 0 / df=1000 ;\ncontrast 'CT_sens vs MRI_sens' dis*modality 1 0 -1/ df=1000 ;\ncontrast 'LAG_sens vs MRI_sens' dis*modality 0 1 -1/ df=1000 ;\n/* testing for differences in specificities */\ncontrast 'CT_spec vs LAG_spec' non_dis*modality 1 -1 0 / df=1000 ;\ncontrast 'CT_spec vs MRI_spec' non_dis*modality 1 0 -1/ df=1000 ;\ncontrast 'LAG_spec vs MRI_spec' non_dis*modality 0 1 -1/ df=1000 ;\n/* testing for differences in DOR */\ncontrast 'CT_odds vs LAG_odds ' dis*modality 1 -1 0 non_dis* modality 1 -1 0\n/ df=1000 ;\ncontrast 'CT_odds vs MRI_odds ' dis* modality 1 0 -1 non_dis* modality 1 0\n-1 / df=1000 ;\ncontrast 'LAG_odds vs MRI_odds ' dis* modality 0 1 -1 non_dis* modality 0 1\n-1 / df=1000 ;\nrun;\n\nattached there is a dataset...\n\nIf anyone could give me a hand or any tip, it would most welcome!\n\nBest regards to all,\n\n-- \nAbra?o forte e que a for?a esteja com voc?,\nPedro Emmanuel\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071118/525c96f6/attachment.html \n-------------- next part --------------\nAn embedded and charset-unspecified text was scrubbed...\nName: metadiag_bivar.txt\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071118/525c96f6/attachment.txt",
-      "body_snippet": "Hello friends of R list,\n\nIm trying for a while to adapt a function develped in SAS and published in \"\nJ.B. Reitsma et al. / Journal of Clinical Epidemiology 58 (2005) 982?990\",\nwich is a bivariate ap",
+      "body_plain": "Hello friends of R list,\n\nIm trying for a while to adapt a function develped in SAS and published in \"\nJ.B. Reitsma et al. / Journal of Clinical Epidemiology 58 (2005) 982–990\",\nwich is a bivariate approch to meta-analysis of diagnotic tests.\n\nSince Im not a statistics or R expert, neither I have any SAS knowledge, Im\nhaving a hard time trying to do so.\n\nThere is an appendix at the original txt with some step by step on how to do\nit but Im stuck on a more advanced stuff which I cant find a solution.\n\nIn a step it is mentioned a Van Houwelingen approach wich I dont know what\nit is, and so I can work it out. Also there a REML approach which I could\nnot find in any library so far.\n\nThis is the function so far....\n\nbivar<-function(TP,FP,FN,TN){\n\n        # find a way to sum 0.5 to each null cell\n\n       Se<-TP/(TP+FN)\n       Sp<-TN/(TN+FP)\n       logSe<-log(Se/(1-Se))\n       logSp<-log(Sp/(1-Sp))\n       vlogSe<-1/(Se*(1-Se)*(TP+FN))\n       vlogSp<-1/(Sp*(1-Sp)*(TN+FP))\n       bsvlogSp<-0\n       cblog<-0\n       bsvlogSp<-0\n       sdata<-rbind(bsvlogSp,cblog,bsvlogSp,vlogSe,vlogSp)\n\nthis is the SAS sintax available at the original text.....\n\n/*\nUse the Proc Mixed module in SAS is used to set up the bivariate model. We\napply the approach of Van Houwelingen et al\nto incorporate both the within and between study variance, more details and\nexplanations can be found there.{van Houwelingen,\n2002 #2} Use the restricted maximum likelihood estimation (REML) method in\nestimating the model\n*/\nproc mixed data=bi_meta method=reml cl ; /* option cl will give confidence\nintervals */\n/* study_id and modality are categorical variables */\nclass study_id modality;\n/* model statement: asking for different estimates of mean sensitivity and\nspecificity for each modality, provide large value\nfor degrees of freedom to obtain p-values based on normal distribution\nrather than the t-distribution (=default in SAS) */\nmodel logit \u0003 dis*modality non_dis*modality / noint cl df=1000, 1000, 1000,\n1000, 1000, 1000;\n/* random effects for logit sensitivity and specificity with possible\ncorrelation (UN=unstructured covariance structure) */\nrandom dis non_dis / subject=study_id type=un ;\n/* use the repeat statement to define different within-study variances for\nsens and spec in each study */\nrepeated / group=rec;\n/* name the file holding the all the (co)variances parameters, keep the\nwithin-study variance constant */\nparms / parmsdata=cov hold=4 to 91;\n/* use contrast statement for testing specific hypotheses */\n/* testing for differences in sensitivities */\ncontrast 'CT_sens vs LAG_sens' dis*modality 1 -1 0 / df=1000 ;\ncontrast 'CT_sens vs MRI_sens' dis*modality 1 0 -1/ df=1000 ;\ncontrast 'LAG_sens vs MRI_sens' dis*modality 0 1 -1/ df=1000 ;\n/* testing for differences in specificities */\ncontrast 'CT_spec vs LAG_spec' non_dis*modality 1 -1 0 / df=1000 ;\ncontrast 'CT_spec vs MRI_spec' non_dis*modality 1 0 -1/ df=1000 ;\ncontrast 'LAG_spec vs MRI_spec' non_dis*modality 0 1 -1/ df=1000 ;\n/* testing for differences in DOR */\ncontrast 'CT_odds vs LAG_odds ' dis*modality 1 -1 0 non_dis* modality 1 -1 0\n/ df=1000 ;\ncontrast 'CT_odds vs MRI_odds ' dis* modality 1 0 -1 non_dis* modality 1 0\n-1 / df=1000 ;\ncontrast 'LAG_odds vs MRI_odds ' dis* modality 0 1 -1 non_dis* modality 0 1\n-1 / df=1000 ;\nrun;\n\nattached there is a dataset...\n\nIf anyone could give me a hand or any tip, it would most welcome!\n\nBest regards to all,\n\n-- \nAbraço forte e que a força esteja com você,\nPedro Emmanuel\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071118/525c96f6/attachment.html \n-------------- next part --------------\nAn embedded and charset-unspecified text was scrubbed...\nName: metadiag_bivar.txt\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20071118/525c96f6/attachment.txt",
+      "body_snippet": "Hello friends of R list,\n\nIm trying for a while to adapt a function develped in SAS and published in \"\nJ.B. Reitsma et al. / Journal of Clinical Epidemiology 58 (2005) 982–990\",\nwich is a bivariate ap",
       "thread_id": "thread-8bdea5bdb7e4",
       "thread_depth": 0,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-November/000099.html"
     }
   ],
   "threads": [

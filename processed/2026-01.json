@@ -17,7 +17,8 @@
       "body_snippet": "Dear all,\nstart the new year by building strong foundations in  statistics with R!\n \nOur online course  \"Introduction to Statistics in R\" will take place on 19?22 January and is designed for complete ",
       "thread_id": "thread-9de1adf49761",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000542.html"
     },
     {
       "id": "msg-c33b4155c880",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi everyone\n\nLast chance to join our 1-day seminar Peer Reviewing and Editing Journals livestreaming January 8 with Carlton Fong (Department of Curriculum and Instruction, Texas State University). Thi",
       "thread_id": "thread-c33b4155c880",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000543.html"
     },
     {
       "id": "msg-cc01edcaf17b",
@@ -49,7 +51,8 @@
       "body_snippet": "Hi everyone\n\nLast chance to join our 1-day seminar Statistical Analysis of Social Network Data livestreaming January 15 with Tianxi Li (School of Statistics, University of Minnesota). This seminar on ",
       "thread_id": "thread-cc01edcaf17b",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000544.html"
     },
     {
       "id": "msg-a69a03e86b2e",
@@ -65,7 +68,8 @@
       "body_snippet": "Dear all,\nWe are pleased to announce the upcoming Physalia online course Using R as a GIS: Mapping and Spatial Operations in R, scheduled for 2 to 6 March.\n \n \nCourse website: [ https://www.physalia-c",
       "thread_id": "thread-a69a03e86b2e",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000545.html"
     },
     {
       "id": "msg-19c34f6f4791",
@@ -81,7 +85,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Machine Learning for Computational Biology 2.0 livestreaming January 13 with Nikolay Oskolkov (Group Leader (PI) at LIOS). This workshop ",
       "thread_id": "thread-19c34f6f4791",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000546.html"
     },
     {
       "id": "msg-b7eba40a0e5a",
@@ -97,7 +102,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 4-day seminar Causal Inference with AI and Machine Learning livestreaming January 30?February 2 with Jason Anastasopoulos (School of Public and Interna",
       "thread_id": "thread-b7eba40a0e5a",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000547.html"
     },
     {
       "id": "msg-2bdcc145c0c7",
@@ -109,11 +115,12 @@
       "subject_clean": "Online Course: Fundamentals of Biostatistics with R — April 2026",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear r-sig-epi community,\n \nAre you applying R in medical or biomedical research and want to deepen your understanding of biostatistics?\nAre you looking to strengthen your data analysis skills and improve reproducibility in your workflows?\n \nWe invite you to join our Fundamentals of Biostatistics with R course, offered online from 13?17 April.\n \nThis five-day course offers a practical introduction to core statistical methods essential for medical and biomedical data analysis. Through hands-on sessions in R, you?ll learn to explore, analyse, and interpret datasets, focusing on applying appropriate tests, regression models, survival analysis, and reproducible reporting.\n \nCourse highlights:\n\nClear explanation of key biostatistical concepts\n\nHands-on coding using R for data visualisation and statistical tests\n\nLinear and logistic regression, hypothesis testing, survival analysis\n\nEmphasis on reproducibility and transparent reporting in R\n \nFind more details and register here: [ https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ]( https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ) \n\n\nBest regards,\nCarlo \n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\t[[alternative HTML version deleted]]",
+      "body_plain": "Dear r-sig-epi community,\n \nAre you applying R in medical or biomedical research and want to deepen your understanding of biostatistics?\nAre you looking to strengthen your data analysis skills and improve reproducibility in your workflows?\n \nWe invite you to join our Fundamentals of Biostatistics with R course, offered online from 13–17 April.\n \nThis five-day course offers a practical introduction to core statistical methods essential for medical and biomedical data analysis. Through hands-on sessions in R, you’ll learn to explore, analyse, and interpret datasets, focusing on applying appropriate tests, regression models, survival analysis, and reproducible reporting.\n \nCourse highlights:\n\nClear explanation of key biostatistical concepts\n\nHands-on coding using R for data visualisation and statistical tests\n\nLinear and logistic regression, hypothesis testing, survival analysis\n\nEmphasis on reproducibility and transparent reporting in R\n \nFind more details and register here: [ https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ]( https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ) \n\n\nBest regards,\nCarlo \n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\t[[alternative HTML version deleted]]",
       "body_snippet": "Dear r-sig-epi community,\n \nAre you applying R in medical or biomedical research and want to deepen your understanding of biostatistics?\nAre you looking to strengthen your data analysis skills and imp",
       "thread_id": "thread-2bdcc145c0c7",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000548.html"
     },
     {
       "id": "msg-fe00b2fc125e",
@@ -125,11 +132,12 @@
       "subject_clean": "Learn Machine Learning with R & tidymodels (16–20 Feb)",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Good morning all,\nAre you interested in mastering machine learning for biological data?\nThere are a few seats left for our online course \"Introduction to Machine Learning with R\" (16?20 February).\nBiology today generates complex multivariate data from multi-omics studies (genomics, proteomics, metabolomics, transcriptomics). Machine learning is a powerful tool to help analyze and interpret this data, alongside classical statistics.\nIn this course, you?ll get hands-on experience with multivariate methods and machine learning algorithms applied to biological datasets ? including practical training using the tidyverse-friendly tidymodels framework.\n \nCourse programme (all sessions 2?7 pm Berlin time):\n\nML basics and tidy ML with tidymodels\n\nSupervised learning: regression, classification, model selection\n\nOverfitting, resampling, model tuning\n\nTree-based methods: Random Forest, Boosting\n\nUnsupervised learning: PCA, UMAP, Self-Organizing Maps\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/course43/ ]( https://www.physalia-courses.org/courses-workshops/course43/ ) \n \nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
-      "body_snippet": "Good morning all,\nAre you interested in mastering machine learning for biological data?\nThere are a few seats left for our online course \"Introduction to Machine Learning with R\" (16?20 February).\nBio",
+      "body_plain": "Good morning all,\nAre you interested in mastering machine learning for biological data?\nThere are a few seats left for our online course \"Introduction to Machine Learning with R\" (16–20 February).\nBiology today generates complex multivariate data from multi-omics studies (genomics, proteomics, metabolomics, transcriptomics). Machine learning is a powerful tool to help analyze and interpret this data, alongside classical statistics.\nIn this course, you’ll get hands-on experience with multivariate methods and machine learning algorithms applied to biological datasets — including practical training using the tidyverse-friendly tidymodels framework.\n \nCourse programme (all sessions 2–7 pm Berlin time):\n\nML basics and tidy ML with tidymodels\n\nSupervised learning: regression, classification, model selection\n\nOverfitting, resampling, model tuning\n\nTree-based methods: Random Forest, Boosting\n\nUnsupervised learning: PCA, UMAP, Self-Organizing Maps\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/course43/ ]( https://www.physalia-courses.org/courses-workshops/course43/ ) \n \nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Good morning all,\nAre you interested in mastering machine learning for biological data?\nThere are a few seats left for our online course \"Introduction to Machine Learning with R\" (16–20 February).\nBio",
       "thread_id": "thread-fe00b2fc125e",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000549.html"
     },
     {
       "id": "msg-332c80016f17",
@@ -141,11 +149,12 @@
       "subject_clean": "2-day online course - Mastering Quarto CLI: From Authoring to Publishing - 5-6 February",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear all,\nAre you ready to discover the full potential of Quarto for creating sophisticated, reproducible documents and interactive publications?\n \nJoin us for Mastering Quarto CLI: From Authoring to Publishing, a 2-day online workshop designed to take you from beginner to confident Quarto user!\n \nCourse Dates: 5th?6th February \n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/intro-to-quarto/ ]( https://www.physalia-courses.org/courses-workshops/intro-to-quarto/ ) \n\n\nIn this comprehensive workshop, you will:\n\nLearn how to install and set up Quarto and its command-line interface\n\nMaster Markdown fundamentals and Quarto-specific authoring features\n\nIntegrate R, Python, and Julia code seamlessly into your documents\n\nExplore advanced project structures, theming, and multi-format publishing\n\nGain skills to publish your work professionally on platforms like GitHub Pages and Quarto Pub\nWhether you?re a data scientist, researcher, or technical writer, this course will equip you with the tools and knowledge to produce polished, reproducible, and dynamic publications.\n \nIf you have any questions or need assistance, feel free to reach out.\nBest regards, Carlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_plain": "Dear all,\nAre you ready to discover the full potential of Quarto for creating sophisticated, reproducible documents and interactive publications?\n \nJoin us for Mastering Quarto CLI: From Authoring to Publishing, a 2-day online workshop designed to take you from beginner to confident Quarto user!\n \nCourse Dates: 5th–6th February \n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/intro-to-quarto/ ]( https://www.physalia-courses.org/courses-workshops/intro-to-quarto/ ) \n\n\nIn this comprehensive workshop, you will:\n\nLearn how to install and set up Quarto and its command-line interface\n\nMaster Markdown fundamentals and Quarto-specific authoring features\n\nIntegrate R, Python, and Julia code seamlessly into your documents\n\nExplore advanced project structures, theming, and multi-format publishing\n\nGain skills to publish your work professionally on platforms like GitHub Pages and Quarto Pub\nWhether you’re a data scientist, researcher, or technical writer, this course will equip you with the tools and knowledge to produce polished, reproducible, and dynamic publications.\n \nIf you have any questions or need assistance, feel free to reach out.\nBest regards, Carlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
       "body_snippet": "Dear all,\nAre you ready to discover the full potential of Quarto for creating sophisticated, reproducible documents and interactive publications?\n \nJoin us for Mastering Quarto CLI: From Authoring to ",
       "thread_id": "thread-332c80016f17",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000550.html"
     },
     {
       "id": "msg-e247ce6ea002",
@@ -161,7 +170,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 3-day seminar Foundations of Statistical Models and Linear Regression livestreaming February 3?5 with Centre for Applied Statistics Courses (CASC) (Uni",
       "thread_id": "thread-e247ce6ea002",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000551.html"
     },
     {
       "id": "msg-20ffe0604213",
@@ -177,7 +187,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 31-day seminar Introduction to Mixed Methods Research: From Theory to Practice 2.0 livestreaming February 9?March 11 with Sergi Fabregues (Department o",
       "thread_id": "thread-20ffe0604213",
       "thread_depth": 0,
-      "month": "2026-01"
+      "month": "2026-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-January/000552.html"
     }
   ],
   "threads": [

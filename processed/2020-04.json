@@ -17,7 +17,8 @@
       "body_snippet": "Hi,\nI have a question about the r package Epi.  I used the following code:\nrc <- ROC(form = data$event ~ data$continuous, plot=\"ROC\")\nI used this code and want to find out the optimum cutoff of my con",
       "thread_id": "thread-2b9fbf7ba3e1",
       "thread_depth": 0,
-      "month": "2020-04"
+      "month": "2020-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2020-April/000354.html"
     }
   ],
   "threads": [

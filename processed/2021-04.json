@@ -17,7 +17,8 @@
       "body_snippet": "Hi friends,\n\nHi friends,\n\nI need to identify medicines names in a data set.\nI have a list of antibiotic names and I need to identify those names in a\nsample.\n\nWhen the name of the medicine is simple, ",
       "thread_id": "thread-9946d3183544",
       "thread_depth": 0,
-      "month": "2021-04"
+      "month": "2021-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2021-April/000356.html"
     },
     {
       "id": "msg-c63fe9a21e0e",
@@ -35,7 +36,8 @@
       "body_snippet": "Not sure there is a ready-made solution for you, but you should definitely take a look at \"Denomina??o Comum Brasileira\", the official names for them on Brazil: https://www.gov.br/anvisa/pt-br/assunto",
       "thread_id": "thread-9946d3183544",
       "thread_depth": 1,
-      "month": "2021-04"
+      "month": "2021-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2021-April/000357.html"
     },
     {
       "id": "msg-881074d71b75",
@@ -57,7 +59,8 @@
       "body_snippet": "Hi Gianpaolo,\n\nIt works now, thank you!\n\nBut it is not what I need exactly.\nI will explain better.\n\nYour solution is good. To identify what is antibiotic and for this my\nsolution solved too:\n\n########",
       "thread_id": "thread-881074d71b75",
       "thread_depth": 0,
-      "month": "2021-04"
+      "month": "2021-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2021-April/000358.html"
     },
     {
       "id": "msg-26346819e137",
@@ -80,7 +83,8 @@
       "body_snippet": "A simple solution is to use text analysis package such as quanteda\n\nrequire(quanteda)\n\ndrug_dictionary <- as.dictionary(data.frame(word = toupper(patterns),\nsentiment = patterns))\ncorpus(df$name) %>% ",
       "thread_id": "thread-881074d71b75",
       "thread_depth": 1,
-      "month": "2021-04"
+      "month": "2021-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2021-April/000359.html"
     }
   ],
   "threads": [

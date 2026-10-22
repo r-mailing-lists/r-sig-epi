@@ -17,7 +17,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance to join our 1-day seminar Deep Learning for Complex Datasets with AI 3.0 livestreaming March 2 with Nikolay Oskolkov (Group Leader (PI) at LIOS). This seminar expl",
       "thread_id": "thread-2646cb3dc805",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000571.html"
     },
     {
       "id": "msg-863bcbe269da",
@@ -29,11 +30,12 @@
       "subject_clean": "Bayesian Modelling Using R & INLA - Dr Virgilio Gómez-Rubio",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Advance your statistical modelling skills with our live online course *Bayesian\nModelling Using R & INLA (BMIN04)*.\n\nhttps://prstats.org/course/bayesian-modelling-using-r-inla-bmin04/\n\nInstructor - Dr Virgilio G?mez-Rubio, a lead expert in the application of\nINLA and the author of 'Bayesian Inference with INLA'.\n\nThis applied training provides a practical introduction to Bayesian\ninference using the Integrated Nested Laplace Approximation (INLA)\nframework in R. Participants will learn both conceptual foundations and\nhands-on implementation of Bayesian models for complex data structures,\nwith workflows suitable for spatial, temporal, and hierarchical analyses.\n\nThe course covers:\n\n   -\n\n   Bayesian fundamentals and interpretation\n   -\n\n   Specification and fitting of Bayesian models in R using INLA\n   -\n\n   Model selection, comparison, and diagnostics\n   -\n\n   Handling spatial, temporal, and spatio-temporal data\n   -\n\n   Hierarchical and mixed-effects modelling in a Bayesian framework\n   -\n\n   Practical strategies for reproducible Bayesian workflows\n\nDelivered live online, this course offers direct interaction with the\ninstructor, opportunities to ask questions about your own data, and\nstructured guidance through practical examples. All participants receive\ncourse materials, example code, and post-course support.\n\n*Course details*\nDates: 4-8 May 2026\nDuration: 5 days (approximately 7 hours per day)\nFormat: Live online\nFee: ?500\n\nThis course is suitable for postgraduate students, researchers, analysts,\nand professionals interested in applying Bayesian methods to real data\nusing R and INLA.\n\nFull details and registration:\nhttps://prstats.org/course/bayesian-modelling-using-r-inla-bmin04/\nEmail oliver at prstats.org with any questions\n\n-- \nOliver Hooker PhD.\nPR stats\n\n\t[[alternative HTML version deleted]]",
+      "body_plain": "Advance your statistical modelling skills with our live online course *Bayesian\nModelling Using R & INLA (BMIN04)*.\n\nhttps://prstats.org/course/bayesian-modelling-using-r-inla-bmin04/\n\nInstructor - Dr Virgilio Gómez-Rubio, a lead expert in the application of\nINLA and the author of 'Bayesian Inference with INLA'.\n\nThis applied training provides a practical introduction to Bayesian\ninference using the Integrated Nested Laplace Approximation (INLA)\nframework in R. Participants will learn both conceptual foundations and\nhands-on implementation of Bayesian models for complex data structures,\nwith workflows suitable for spatial, temporal, and hierarchical analyses.\n\nThe course covers:\n\n   -\n\n   Bayesian fundamentals and interpretation\n   -\n\n   Specification and fitting of Bayesian models in R using INLA\n   -\n\n   Model selection, comparison, and diagnostics\n   -\n\n   Handling spatial, temporal, and spatio-temporal data\n   -\n\n   Hierarchical and mixed-effects modelling in a Bayesian framework\n   -\n\n   Practical strategies for reproducible Bayesian workflows\n\nDelivered live online, this course offers direct interaction with the\ninstructor, opportunities to ask questions about your own data, and\nstructured guidance through practical examples. All participants receive\ncourse materials, example code, and post-course support.\n\n*Course details*\nDates: 4-8 May 2026\nDuration: 5 days (approximately 7 hours per day)\nFormat: Live online\nFee: £500\n\nThis course is suitable for postgraduate students, researchers, analysts,\nand professionals interested in applying Bayesian methods to real data\nusing R and INLA.\n\nFull details and registration:\nhttps://prstats.org/course/bayesian-modelling-using-r-inla-bmin04/\nEmail oliver at prstats.org with any questions\n\n-- \nOliver Hooker PhD.\nPR stats\n\n\t[[alternative HTML version deleted]]",
       "body_snippet": "Advance your statistical modelling skills with our live online course *Bayesian\nModelling Using R & INLA (BMIN04)*.\n\nhttps://prstats.org/course/bayesian-modelling-using-r-inla-bmin04/\n\nInstructor - Dr",
       "thread_id": "thread-863bcbe269da",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000572.html"
     },
     {
       "id": "msg-36ce8144b755",
@@ -49,7 +51,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nInstats is offering a new 1-day seminar Deep Learning for Complex Datasets with AI 3.0 livestreaming March 25, led by Nikolay Oskolkov (Group Leader (PI) at LIOS). This semina",
       "thread_id": "thread-36ce8144b755",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000573.html"
     },
     {
       "id": "msg-795953950cf6",
@@ -65,7 +68,8 @@
       "body_snippet": "Develop advanced Bayesian modelling skills in our live online course *Bayesian\nStatistical Modelling with Stan and brms (BMSB01)*.\n\nThis hands-on workshop provides a comprehensive introduction to Baye",
       "thread_id": "thread-795953950cf6",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000574.html"
     },
     {
       "id": "msg-57cd23047414",
@@ -81,7 +85,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nThis seminar provides practical skills to elevate the rigor and reliability of your empirical studies. Introduction to Survey Design is a 2-day seminar livestreaming April 20?",
       "thread_id": "thread-57cd23047414",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000575.html"
     },
     {
       "id": "msg-f566948e5112",
@@ -97,7 +102,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This seminar will equip you with robust methods for analyzing within-person processes in your research. Analyzing Intensive Longitudinal Data 2.0 is a 2-day semi",
       "thread_id": "thread-f566948e5112",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000576.html"
     },
     {
       "id": "msg-2cd5861c641b",
@@ -109,11 +115,12 @@
       "subject_clean": "(Online Course) Fundamentals of Biostatistics with R - 13–17 April",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear all,\n \nAre youunning clinical studies, epidemiology projects, or biostatistical analyses?but want stronger statistical foundations? \n \nWe are pleased to announce the upcoming Physalia online course Fundamentals of Biostatistics with R, taking place 13?17 April.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ]( https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ) \n \n\nThis 5-day course provides a practical introduction to the core statistical concepts and methods used in medical and biomedical research. Through hands-on exercises in R, participants will learn how to explore datasets, choose appropriate statistical tests, and correctly interpret results.\n\nTopics include:\n\n1 - Descriptive statistics and data visualization\n\n2 - Probability and confidence intervals\n\n3 - Hypothesis testing (t-tests, ANOVA, non-parametric tests)\n\n4 - Categorical data analysis and regression models\n\n5 - Logistic regression and survival analysis\n\n6 - Reproducible statistical workflows for research publications\n\nThe course is ideal for researchers, clinicians, and students who want to strengthen their statistical foundations and improve their data analysis skills using R.\n\n\nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
-      "body_snippet": "Dear all,\n \nAre youunning clinical studies, epidemiology projects, or biostatistical analyses?but want stronger statistical foundations? \n \nWe are pleased to announce the upcoming Physalia online cour",
+      "body_plain": "Dear all,\n \nAre youunning clinical studies, epidemiology projects, or biostatistical analyses—but want stronger statistical foundations? \n \nWe are pleased to announce the upcoming Physalia online course Fundamentals of Biostatistics with R, taking place 13–17 April.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ]( https://www.physalia-courses.org/courses-workshops/biostats-in-r/ ) \n \n\nThis 5-day course provides a practical introduction to the core statistical concepts and methods used in medical and biomedical research. Through hands-on exercises in R, participants will learn how to explore datasets, choose appropriate statistical tests, and correctly interpret results.\n\nTopics include:\n\n1 - Descriptive statistics and data visualization\n\n2 - Probability and confidence intervals\n\n3 - Hypothesis testing (t-tests, ANOVA, non-parametric tests)\n\n4 - Categorical data analysis and regression models\n\n5 - Logistic regression and survival analysis\n\n6 - Reproducible statistical workflows for research publications\n\nThe course is ideal for researchers, clinicians, and students who want to strengthen their statistical foundations and improve their data analysis skills using R.\n\n\nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n \nAre youunning clinical studies, epidemiology projects, or biostatistical analyses—but want stronger statistical foundations? \n \nWe are pleased to announce the upcoming Physalia online cour",
       "thread_id": "thread-2cd5861c641b",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000577.html"
     },
     {
       "id": "msg-7fb6fd4d1bc2",
@@ -129,7 +136,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Explore rigorous AI-integrated workflows to modernize your approach to evidence synthesis. AI for Systematic Reviews is a 2-day seminar livestreaming March 11?12",
       "thread_id": "thread-7fb6fd4d1bc2",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000578.html"
     },
     {
       "id": "msg-0f8a89871f86",
@@ -145,7 +153,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Accurate and reproducible processing of RNA-seq data is fundamental for advanced statistical analysis in your field. RNA-seq: From FASTQ to Counts is a 2-day sem",
       "thread_id": "thread-0f8a89871f86",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000579.html"
     },
     {
       "id": "msg-523845a21e50",
@@ -161,7 +170,8 @@
       "body_snippet": "Dear all,\nWe would like to inform you that only a few seats remain available for our upcoming online workshop: Integrating Large Language Model Tools into R Workflows\n \nCourse website: [ https://www.p",
       "thread_id": "thread-523845a21e50",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000580.html"
     },
     {
       "id": "msg-e78b38dcedf4",
@@ -177,7 +187,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This seminar explores innovative methods to automate complex data tasks and accelerate your research findings. Agentic Data Analytics: Automating Research Workfl",
       "thread_id": "thread-e78b38dcedf4",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000581.html"
     },
     {
       "id": "msg-2cf42e8aedad",
@@ -189,11 +200,12 @@
       "subject_clean": "(Online course) Network Analysis in R - 4–7 May",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear all,\nWe?re excited to announce our upcoming online course: Network Analysis in R, taking place 4?7 May.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/network-analysis-in-r/ ]( https://www.physalia-courses.org/courses-workshops/network-analysis-in-r/ )\n \nThis 4-day course guides participants through the full workflow of network analysis in R?from creating and exploring network objects, calculating statistics, detecting clusters, and statistical modeling, to advanced network visualization. Each day blends theory with hands-on live coding, giving you practical experience you can immediately apply to your research.\n \nThe course is designed for researchers with intermediate R skills and an interest in analysing networks in the life sciences?or any field where networks are relevant.\n \nFor those interested in systems biology applications, we also offer a companion course on Network Analysis in Systems Biology with R/Bioconductor: [ https://www.physalia-courses.org/courses-workshops/network-in-systems-biology/ ]( https://www.physalia-courses.org/courses-workshops/network-in-systems-biology/ ) \n \nBest regards, Carlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
-      "body_snippet": "Dear all,\nWe?re excited to announce our upcoming online course: Network Analysis in R, taking place 4?7 May.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/network-analysis-in-",
+      "body_plain": "Dear all,\nWe’re excited to announce our upcoming online course: Network Analysis in R, taking place 4–7 May.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/network-analysis-in-r/ ]( https://www.physalia-courses.org/courses-workshops/network-analysis-in-r/ )\n \nThis 4-day course guides participants through the full workflow of network analysis in R—from creating and exploring network objects, calculating statistics, detecting clusters, and statistical modeling, to advanced network visualization. Each day blends theory with hands-on live coding, giving you practical experience you can immediately apply to your research.\n \nThe course is designed for researchers with intermediate R skills and an interest in analysing networks in the life sciences—or any field where networks are relevant.\n \nFor those interested in systems biology applications, we also offer a companion course on Network Analysis in Systems Biology with R/Bioconductor: [ https://www.physalia-courses.org/courses-workshops/network-in-systems-biology/ ]( https://www.physalia-courses.org/courses-workshops/network-in-systems-biology/ ) \n \nBest regards, Carlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nWe’re excited to announce our upcoming online course: Network Analysis in R, taking place 4–7 May.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/network-analysis-in-",
       "thread_id": "thread-2cf42e8aedad",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000582.html"
     },
     {
       "id": "msg-27cce813d192",
@@ -209,7 +221,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Explore new methods for AI-driven clinical reasoning and diagnostic support. AI for Clinical Reasoning and Diagnosis (Free Seminar) is a 2-day seminar livestream",
       "thread_id": "thread-27cce813d192",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000583.html"
     },
     {
       "id": "msg-456c17287b38",
@@ -225,7 +238,8 @@
       "body_snippet": "Dear all,\n \nDo you already have some experience with species distribution modeling and want to learn a modern, powerful method to take your analyses further?\n \nJoin our online course, Species Distribu",
       "thread_id": "thread-456c17287b38",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000584.html"
     },
     {
       "id": "msg-3f71a41b985a",
@@ -241,7 +255,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover powerful R programming techniques for advanced statistical analysis and machine learning in your research. R Programming for Statistics and Machine Lear",
       "thread_id": "thread-3f71a41b985a",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000585.html"
     },
     {
       "id": "msg-8dab7f291d11",
@@ -257,7 +272,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers a comprehensive introduction to conducting and interpreting meta-analyses effectively. Practical Meta-Analysis for Beginners is a 2-day semin",
       "thread_id": "thread-8dab7f291d11",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000586.html"
     },
     {
       "id": "msg-4b34db4a0122",
@@ -273,7 +289,8 @@
       "body_snippet": "Dear all,\n \nWe are excited to announce our upcoming online course: Network Analysis in R, taking place from 4?7 May.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/network-anal",
       "thread_id": "thread-4b34db4a0122",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000587.html"
     },
     {
       "id": "msg-52c374c3af35",
@@ -289,7 +306,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover essential strategies for professional development and research impact in today's evolving STEMM landscape. Careers in STEMM: What No One Tells ECRs (Fre",
       "thread_id": "thread-52c374c3af35",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000588.html"
     },
     {
       "id": "msg-30bb3c908790",
@@ -305,7 +323,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nDiscover advanced methods to enhance your survey research and strengthen your empirical findings. Advanced Survey Design is a 2-day seminar livestreaming April 27?28, led by A",
       "thread_id": "thread-30bb3c908790",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000589.html"
     },
     {
       "id": "msg-e7a28e19758e",
@@ -321,7 +340,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover how agentic AI coding can transform your computational research workflows and enhance reproducibility. Agentic AI Coding for Computational Scientists is",
       "thread_id": "thread-e7a28e19758e",
       "thread_depth": 0,
-      "month": "2026-03"
+      "month": "2026-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-March/000590.html"
     }
   ],
   "threads": [

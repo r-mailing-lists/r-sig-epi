@@ -1,0 +1,19 @@
+{
+  "period": "2007-July",
+  "articles": [
+    "000043",
+    "000044",
+    "000045",
+    "000046",
+    "000047",
+    "000048",
+    "000049",
+    null,
+    null
+  ],
+  "fixes": {},
+  "rejected": {
+    "000050": "1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local",
+    "000051": "mailman.13.1185444014.21813.r-sig-epi@stat.math.ethz.ch"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "period": "2006-July",
+  "articles": [
+    "000021",
+    null
+  ],
+  "fixes": {
+    "000021": "?íóè"
+  },
+  "rejected": {
+    "000022": "mailman.13.1153562404.16192.r-sig-epi@stat.math.ethz.ch"
+  }
+}

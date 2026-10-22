@@ -18,6 +18,7 @@
       "thread_id": "thread-7325e4e62726",
       "thread_depth": 0,
       "month": "2007-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-September/000070.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070904/eb8f4359/attachment.pl"
       ]
@@ -36,7 +37,8 @@
       "body_snippet": "Een ingesloten tekst met niet-gespecificeerde tekenset is\nvan het bericht gescrubt ...\nNaam: niet beschikbaar\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070925/5b2d0630/attachment.pl",
       "thread_id": "thread-c36cfab963e5",
       "thread_depth": 0,
-      "month": "2007-09"
+      "month": "2007-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-September/000071.html"
     },
     {
       "id": "msg-cfdb03dd153b",
@@ -70,7 +72,8 @@
       "body_snippet": "Good afternoon R-users!\nI have a question about survival analysis.\nI have a set of data for which I calculate non parametric survival\nfunction using the classical Kaplan-Meier estimation.\n\nData are in",
       "thread_id": "thread-babca5a026b5",
       "thread_depth": 0,
-      "month": "2007-09"
+      "month": "2007-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-September/000073.html"
     },
     {
       "id": "msg-6586b44f2641",
@@ -105,6 +108,7 @@
       "thread_id": "thread-54b1a6efdb45",
       "thread_depth": 0,
       "month": "2007-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-September/000075.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070927/81fe61d3/attachment.pl"
       ]
@@ -123,7 +127,8 @@
       "body_snippet": "Are you referring to numerical derivatives?\nBest,\nBendix Carstensen\n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\n",
       "thread_id": "thread-54b1a6efdb45",
       "thread_depth": 1,
-      "month": "2007-09"
+      "month": "2007-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-September/000076.html"
     },
     {
       "id": "msg-862cf2740a7b",
@@ -141,7 +146,8 @@
       "body_snippet": "You may want to look at the Ryacas package.  This uses and outside\ntoolset to do the work, but in this case I think that is the better\napproach.\n\n-- \nGregory (Greg) L. Snow Ph.D.\nStatistical Data Cent",
       "thread_id": "thread-54b1a6efdb45",
       "thread_depth": 1,
-      "month": "2007-09"
+      "month": "2007-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-September/000077.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Dear All\nI am using survey package in R for my design based analysis.\nI want to do zero inflated analysis for my count data with many zero\nvalues.\nPlease advice how can I run Zero inflated Poisson reg",
       "thread_id": "thread-63157a8514ea",
       "thread_depth": 0,
-      "month": "2015-05"
+      "month": "2015-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2015-May/000321.html"
     },
     {
       "id": "msg-c841aa4b6a79",
@@ -35,7 +36,8 @@
       "body_snippet": "Dear Mohd,check this help pageR Data Analysis Examples: Zero-Inflated Poisson Regression\n\n| ? |\n| ? |  | ? | ? | ? | ? | ? |\n| R Data Analysis Examples: Zero-Inflated Poisson Regressi...R Data Analysi",
       "thread_id": "thread-63157a8514ea",
       "thread_depth": 1,
-      "month": "2015-05"
+      "month": "2015-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2015-May/000322.html"
     }
   ],
   "threads": [

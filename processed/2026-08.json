@@ -17,7 +17,8 @@
       "body_snippet": "Hi everyone\n\nInstats is excited to offer a 2-day seminar, SEM in R and Mplus with AI <https://instats.org/seminar/sem-in-r-and-mplus-with-ai>, running August 13?14. This practice-oriented workshop int",
       "thread_id": "thread-150cd0ffb710",
       "thread_depth": 0,
-      "month": "2026-08"
+      "month": "2026-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-August/000646.html"
     },
     {
       "id": "msg-5f31acd7fe33",
@@ -33,7 +34,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Sound epidemiologic evidence begins by specifying the comparison a study can support. Data Can Deceive: Causal Roadmaps is a seminar livestreaming August 5 with R",
       "thread_id": "thread-5f31acd7fe33",
       "thread_depth": 0,
-      "month": "2026-08"
+      "month": "2026-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-August/000647.html"
     },
     {
       "id": "msg-734597002c6c",
@@ -45,11 +47,12 @@
       "subject_clean": "Spatial Statistics in R for Epidemiology",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hello R-SIG-EPI members\n\nPlace and time can shape the patterns visible in epidemiological data. Spatial Statistics in R led by Nick Bearman (University College London and Geospatial Training Solutions) is now available as an on-demand streaming seminar. Analyse geographically referenced epidemiological data using GeoDa and R, from exploratory displays to spatial regression. Interpret spatial autocorrelation with Moran?s I and Local Indicators of Spatial Association to investigate geographic patterning. Apply clustering measures and space-time regression techniques when studying relationships across places and periods.\n\nCourse details: https://instats.org/seminar/spatial-statistics-in-r-1\nFurther information is available on the Instats course page.\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_plain": "Hello R-SIG-EPI members\n\nPlace and time can shape the patterns visible in epidemiological data. Spatial Statistics in R led by Nick Bearman (University College London and Geospatial Training Solutions) is now available as an on-demand streaming seminar. Analyse geographically referenced epidemiological data using GeoDa and R, from exploratory displays to spatial regression. Interpret spatial autocorrelation with Moran’s I and Local Indicators of Spatial Association to investigate geographic patterning. Apply clustering measures and space-time regression techniques when studying relationships across places and periods.\n\nCourse details: https://instats.org/seminar/spatial-statistics-in-r-1\nFurther information is available on the Instats course page.\n\n\nBest wishes\n\nMichael Zyphur\nProfessor and Director\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
       "body_snippet": "Hello R-SIG-EPI members\n\nPlace and time can shape the patterns visible in epidemiological data. Spatial Statistics in R led by Nick Bearman (University College London and Geospatial Training Solutions",
       "thread_id": "thread-734597002c6c",
       "thread_depth": 0,
-      "month": "2026-08"
+      "month": "2026-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-August/000648.html"
     },
     {
       "id": "msg-98a3a15bfe63",
@@ -65,7 +68,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Place-based patterns are often central to interpreting epidemiological evidence. Introduction to Spatial Data and R as a GIS 2.0 is a 2-day seminar livestreaming ",
       "thread_id": "thread-98a3a15bfe63",
       "thread_depth": 0,
-      "month": "2026-08"
+      "month": "2026-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-August/000649.html"
     },
     {
       "id": "msg-63ccce90829d",
@@ -81,7 +85,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nGeographic context can alter how epidemiological patterns are assembled, compared, and interpreted. Advanced R for Spatial Analysis led by Nick Bearman (University College Lon",
       "thread_id": "thread-63ccce90829d",
       "thread_depth": 0,
-      "month": "2026-08"
+      "month": "2026-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-August/000650.html"
     },
     {
       "id": "msg-da21f260a3d0",
@@ -97,7 +102,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Reusable analytical tools can make epidemiological work easier to check and collaborate on. R Package Development (Free Seminar) is a seminar livestreaming August",
       "thread_id": "thread-da21f260a3d0",
       "thread_depth": 0,
-      "month": "2026-08"
+      "month": "2026-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-August/000651.html"
     },
     {
       "id": "msg-730957e28315",
@@ -113,7 +119,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nHigh-dimensional epidemiological data can be difficult to explore without losing meaningful structure. Dimensionality Reduction with UMAP and Beyond 2.0 led by Nikolay Oskolko",
       "thread_id": "thread-730957e28315",
       "thread_depth": 0,
-      "month": "2026-08"
+      "month": "2026-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-August/000652.html"
     },
     {
       "id": "msg-9305352cdb08",
@@ -129,7 +136,8 @@
       "body_snippet": "Hello?everyone\n\nI'm sharing a new open-access resource that you may find useful: The Institutional AI Readiness Pack <https://instats.org/publications/the-institutional-ai-readiness-pack> and its acco",
       "thread_id": "thread-9305352cdb08",
       "thread_depth": 0,
-      "month": "2026-08"
+      "month": "2026-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-August/000653.html"
     },
     {
       "id": "msg-d17ed2028609",
@@ -145,7 +153,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological genetic evidence depends on linking analytical assumptions to defensible interpretations. Advanced Statistical Methods for Genetic Association Stu",
       "thread_id": "thread-d17ed2028609",
       "thread_depth": 0,
-      "month": "2026-08"
+      "month": "2026-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-August/000654.html"
     }
   ],
   "threads": [

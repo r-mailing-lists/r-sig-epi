@@ -17,7 +17,8 @@
       "body_snippet": "Hi, this is the first time I send a mail, and thanks in advance.\n\nI am eager to obtain the R code for propensity score analysis. Previously, I used SAS for this, but I converted to R these days since ",
       "thread_id": "thread-b8768bb09c97",
       "thread_depth": 0,
-      "month": "2014-11"
+      "month": "2014-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2014-November/000308.html"
     },
     {
       "id": "msg-ba45fdf32aaf",
@@ -35,7 +36,8 @@
       "body_snippet": "On Nov 20, 2014, at 3:54 PM, Ting Zhang wrote:\n\n> Hi, this is the first time I send a mail, and thanks in advance.\n> \n> I am eager to obtain the R code for propensity score analysis. Previously, I use",
       "thread_id": "thread-b8768bb09c97",
       "thread_depth": 1,
-      "month": "2014-11"
+      "month": "2014-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2014-November/000309.html"
     }
   ],
   "threads": [

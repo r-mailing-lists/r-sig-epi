@@ -18,6 +18,7 @@
       "thread_id": "thread-bcef2a728d93",
       "thread_depth": 0,
       "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000052.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070802/6d93c818/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "This is not an epi question.  You may want to place it into the general \nlist.\nIf you were to do that, I would have pointed you to gc()  :-)\n\nRegards,\n\nFrancisco\n\nLynn Disney wrote:\n> I have been runn",
       "thread_id": "thread-bcef2a728d93",
       "thread_depth": 1,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000053.html"
     },
     {
       "id": "msg-9fb483c69242",
@@ -58,7 +60,8 @@
       "body_snippet": "Hi Lynn,\n\nYou are posting to the Epi Special Interest Group list in R (R-Sig-Epi). \n  This is a list to post specific question about epidemiological \nanalysis using R.  If you have a general question ",
       "thread_id": "thread-9fb483c69242",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000054.html"
     },
     {
       "id": "msg-61f59bc0a4be",
@@ -74,7 +77,8 @@
       "body_snippet": "On Thu, 2 Aug 2007, FZ wrote:\n\n> This is not an epi question.  You may want to place it into the general\n> list.\n> If you were to do that, I would have pointed you to gc()  :-)\n\nAnd more people would ",
       "thread_id": "thread-bcef2a728d93",
       "thread_depth": 2,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000055.html"
     },
     {
       "id": "msg-e146d822d799",
@@ -92,7 +96,8 @@
       "body_snippet": "Hi Thomas,\n\nMy experience in memory management in R is very limited so I am sure you \nare right, but how do you then explain the following behavior starting \nwith a fresh session?\n\nmemory.size()# 12,0",
       "thread_id": "thread-bcef2a728d93",
       "thread_depth": 3,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000056.html"
     },
     {
       "id": "msg-63937919216a",
@@ -108,7 +113,8 @@
       "body_snippet": "On Thu, 2 Aug 2007, FZ wrote:\n\n> Hi Thomas,\n>\n> My experience in memory management in R is very limited so I am sure you are \n> right, but how do you then explain the following behavior starting with ",
       "thread_id": "thread-bcef2a728d93",
       "thread_depth": 4,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000057.html"
     },
     {
       "id": "msg-abf4d682341a",
@@ -126,7 +132,8 @@
       "body_snippet": "Thanks for your reply Thomas.  I do understand that is the case once R \nruns out of memory. I did not know about the three levels of garbage \ncollection though, thanks for pointing that out (I read th",
       "thread_id": "thread-bcef2a728d93",
       "thread_depth": 5,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000058.html"
     },
     {
       "id": "msg-38190e8a256d",
@@ -142,7 +149,8 @@
       "body_snippet": "I fit a lognormal model to survival data using survreg.  I am confused about the output, because I do not know how to interprete the\n\"scale.\" The output is:\n\nCall:\nsurvreg(formula = surv1 ~ p$score, d",
       "thread_id": "thread-38190e8a256d",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000059.html"
     },
     {
       "id": "msg-21db8f9e591e",
@@ -158,7 +166,8 @@
       "body_snippet": "Hi Mariana,\n\nThe log(scale)=0.40546 output means that if you want to get the scale,\nthen, you compute the exponential of the coefficients 0.40546 and the\nanswer will be 1.5\nThe sclae for the standard ",
       "thread_id": "thread-21db8f9e591e",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000060.html"
     },
     {
       "id": "msg-3e635a8509a0",
@@ -176,7 +185,8 @@
       "body_snippet": "On Mon, 6 Aug 2007, Lazarus Mramba wrote:\n\n> Hi Mariana,\n>\n> The log(scale)=0.40546 output means that if you want to get the scale,\n> then, you compute the exponential of the coefficients 0.40546 and ",
       "thread_id": "thread-21db8f9e591e",
       "thread_depth": 1,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000061.html"
     },
     {
       "id": "msg-b3e7f91205ad",
@@ -192,7 +202,8 @@
       "body_snippet": "Een ingesloten tekst met niet-gespecificeerde tekenset is\nvan het bericht gescrubt ...\nNaam: niet beschikbaar\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070807/9448e270/attachment.pl",
       "thread_id": "thread-b3e7f91205ad",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000062.html"
     },
     {
       "id": "msg-999575764487",
@@ -208,7 +219,8 @@
       "body_snippet": "Een ingesloten tekst met niet-gespecificeerde tekenset is\nvan het bericht gescrubt ...\nNaam: niet beschikbaar\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070808/f731af08/attachment.pl",
       "thread_id": "thread-999575764487",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000063.html"
     },
     {
       "id": "msg-0b1be159741d",
@@ -224,7 +236,8 @@
       "body_snippet": "Een ingesloten tekst met niet-gespecificeerde tekenset is\nvan het bericht gescrubt ...\nNaam: niet beschikbaar\nUrl: https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070813/75d235b1/attachment.pl",
       "thread_id": "thread-0b1be159741d",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000064.html"
     },
     {
       "id": "msg-1ae99ad5ce91",
@@ -240,7 +253,8 @@
       "body_snippet": "Hello\nI am new to this group and I was wondering if there isn't a more \ntraditional way to access it, as with newsgroups from Usenet.\n\nThanks in advance\nMarcelo",
       "thread_id": "thread-1ae99ad5ce91",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000065.html"
     },
     {
       "id": "msg-038413124bba",
@@ -256,7 +270,8 @@
       "body_snippet": "No, the only way to acces this list is by sending an e-mail to:\n\nr-sig-epi at stat.math.ethz.ch\n\nYou can browse the postings to the list at\nhttps://stat.ethz.ch/pipermail/r-sig-epi/\n\nBest\nBendix\n_____",
       "thread_id": "thread-1ae99ad5ce91",
       "thread_depth": 1,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000066.html"
     },
     {
       "id": "msg-37e1505c312f",
@@ -273,6 +288,7 @@
       "thread_id": "thread-37e1505c312f",
       "thread_depth": 0,
       "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000067.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070821/4d828147/attachment.pl"
       ]
@@ -291,7 +307,8 @@
       "body_snippet": "Dear Zhang Zhi Jie,\n\nThe development of an Epi package is actually working quite well, see\nwww.biostat.ku.dk/~bxc/Epi, and for the epitools package see\nhttp://www.epitools.net/\n\nThe former which I am ",
       "thread_id": "thread-37e1505c312f",
       "thread_depth": 1,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000068.html"
     },
     {
       "id": "msg-b12bdd842223",
@@ -308,6 +325,7 @@
       "thread_id": "thread-b12bdd842223",
       "thread_depth": 0,
       "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-August/000069.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070822/2940cca8/attachment.pl"
       ]

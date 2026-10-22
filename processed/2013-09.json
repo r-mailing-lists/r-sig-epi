@@ -17,7 +17,8 @@
       "body_snippet": "hi, dear friend , i am dealing with a survival data for cancer. a variable progression doesn't satisfy PH assumption, i have tried the paramatric survival models, but they did not fit very well. at la",
       "thread_id": "thread-744cdfcd76cf",
       "thread_depth": 0,
-      "month": "2013-09"
+      "month": "2013-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2013-September/000294.html"
     },
     {
       "id": "msg-56c83c10f254",
@@ -36,6 +37,7 @@
       "thread_id": "thread-56c83c10f254",
       "thread_depth": 0,
       "month": "2013-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2013-September/000295.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130909/6c7e299c/attachment.pl"
       ]
@@ -57,6 +59,7 @@
       "thread_id": "thread-8bf61f43d6cd",
       "thread_depth": 0,
       "month": "2013-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2013-September/000296.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130910/b9ea9bec/attachment.pl"
       ]

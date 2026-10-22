@@ -18,6 +18,7 @@
       "thread_id": "thread-f522a8bf15b7",
       "thread_depth": 0,
       "month": "2008-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-March/000113.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080303/d95b317d/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "I am not a physician, but most of the people who ask me for confidence\nintervals on sensitivity and specificity are.\n\nMy prefered approach (not the only one), is to use the Bayesian interval\nusing a u",
       "thread_id": "thread-a3d271ed0052",
       "thread_depth": 0,
-      "month": "2008-03"
+      "month": "2008-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-March/000114.html"
     },
     {
       "id": "msg-c3797ee0b30b",
@@ -54,7 +56,8 @@
       "body_snippet": "The 'epicentre' package (see the link on http://epicentre.massey.ac.nz/) has\na function (epi.tests) that returns point estimates and confidence intervals\non true and apparent prevalence, sensitivity, ",
       "thread_id": "thread-c3797ee0b30b",
       "thread_depth": 0,
-      "month": "2008-03"
+      "month": "2008-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-March/000115.html"
     },
     {
       "id": "msg-fa0c3bdcd2c6",
@@ -70,7 +73,8 @@
       "body_snippet": "All of the examples cited in this discussion assume that a single sample\nof subjects is taken from a population and then classified as disease\npositive or negative, using the reference test. When this",
       "thread_id": "thread-fa0c3bdcd2c6",
       "thread_depth": 0,
-      "month": "2008-03"
+      "month": "2008-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-March/000116.html"
     },
     {
       "id": "msg-651049c90074",
@@ -88,7 +92,8 @@
       "body_snippet": "Hi,\n\nA good way to circumvent many of the aforementioned limitations is to  \nresort to non-parametrical ordinary boostrapping whereby you re-sample  \nyour dataset B times (B is typically greater than ",
       "thread_id": "thread-fa0c3bdcd2c6",
       "thread_depth": 1,
-      "month": "2008-03"
+      "month": "2008-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-March/000117.html"
     },
     {
       "id": "msg-efd64df3c17e",
@@ -105,6 +110,7 @@
       "thread_id": "thread-efd64df3c17e",
       "thread_depth": 0,
       "month": "2008-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-March/000118.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080326/788bfa3c/attachment.pl"
       ]
@@ -124,6 +130,7 @@
       "thread_id": "thread-1193989dc000",
       "thread_depth": 0,
       "month": "2008-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-March/000119.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080328/1b99b9f4/attachment.pl"
       ]

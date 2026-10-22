@@ -17,7 +17,8 @@
       "body_snippet": "I have uploaded version 0.6 of the Epi package to CRAN, where it \nwill be available soon. \n\nThe package homepage is:\nhttp://www.pubhealth.ku.dk/~bxc/Epi/\n\nA few bugs have been corrected.\nBelow is a li",
       "thread_id": "thread-d1b2ccd62b8c",
       "thread_depth": 0,
-      "month": "2006-04"
+      "month": "2006-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-April/000009.html"
     },
     {
       "id": "msg-6c10e6ac49f7",
@@ -29,11 +30,12 @@
       "subject_clean": "Comparaison de tableaux de fréquences",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Bonjour ? tous,\n\nJ'?ssaye de comparer des tables de fr?quences, d?duites de la fonction \"table\", ne repr?sentant pas les fr?quences des m?mes classes. Quelqu'un connaitrais-t-il une fonction existante pour ce traitment, ma foi, r?alisable.\n\nPersonnellement j'explore la piste consistant ? incorporer les classes manquantes des diff?rentes tables avec des valeurs de fr?quences nulles.\n\n\nBien ? vous,\n\n\nY.\n\n\n    \nLevy Ya?r\nTel: 0476/75.47.25\nyairlbe at yahoo.com\nRue Gretry 1\n2018 Anvers",
-      "body_snippet": "Bonjour ? tous,\n\nJ'?ssaye de comparer des tables de fr?quences, d?duites de la fonction \"table\", ne repr?sentant pas les fr?quences des m?mes classes. Quelqu'un connaitrais-t-il une fonction existante",
+      "body_plain": "Bonjour à tous,\n\nJ'éssaye de comparer des tables de fréquences, déduites de la fonction \"table\", ne représentant pas les fréquences des mêmes classes. Quelqu'un connaitrais-t-il une fonction existante pour ce traitment, ma foi, réalisable.\n\nPersonnellement j'explore la piste consistant à incorporer les classes manquantes des différentes tables avec des valeurs de fréquences nulles.\n\n\nBien à vous,\n\n\nY.\n\n\n    \nLevy Yaïr\nTel: 0476/75.47.25\nyairlbe at yahoo.com\nRue Gretry 1\n2018 Anvers",
+      "body_snippet": "Bonjour à tous,\n\nJ'éssaye de comparer des tables de fréquences, déduites de la fonction \"table\", ne représentant pas les fréquences des mêmes classes. Quelqu'un connaitrais-t-il une fonction existante",
       "thread_id": "thread-6c10e6ac49f7",
       "thread_depth": 0,
-      "month": "2006-04"
+      "month": "2006-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-April/000010.html"
     }
   ],
   "threads": [

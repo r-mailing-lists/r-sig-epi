@@ -17,7 +17,8 @@
       "body_snippet": "Hi,\n\nI try to calculate confidence intervals for SMRs using the pois.exact\n()-function from the package \"epitools\". But I have some troubble with the\nNAs. How can I remove the NAs out of my analysis? ",
       "thread_id": "thread-e6f002a4e285",
       "thread_depth": 0,
-      "month": "2010-08"
+      "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-August/000216.html"
     },
     {
       "id": "msg-86b8db506134",
@@ -35,7 +36,8 @@
       "body_snippet": "On Aug 11, 2010, at 4:53 AM, Dorothea Kirchner wrote:\n\n> Hi,\n>\n> I try to calculate confidence intervals for SMRs using the pois.exact\n> ()-function from the package \"epitools\". But I have some troubb",
       "thread_id": "thread-e6f002a4e285",
       "thread_depth": 1,
-      "month": "2010-08"
+      "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-August/000217.html"
     },
     {
       "id": "msg-b3235de3b9ed",
@@ -54,6 +56,7 @@
       "thread_id": "thread-b3235de3b9ed",
       "thread_depth": 0,
       "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-August/000218.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100811/8b165127/attachment.pl"
       ]
@@ -73,6 +76,7 @@
       "thread_id": "thread-ac685dc3a22c",
       "thread_depth": 0,
       "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-August/000219.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100817/9f56e1df/attachment.pl"
       ]
@@ -93,7 +97,8 @@
       "body_snippet": "You would not use a Poisson distribution, you would use a binomial, since the number of positives is not in (0,\\inf) but in (0,broilers).\n\nSo you would de a random-effects logistic regression.\nI guess",
       "thread_id": "thread-ac685dc3a22c",
       "thread_depth": 1,
-      "month": "2010-08"
+      "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-August/000220.html"
     },
     {
       "id": "msg-c69bd697330f",
@@ -111,7 +116,8 @@
       "body_snippet": "Hi Will,\n\n> -----Original Message-----\n> From: epitools at yahoogroups.com \n> [mailto:epitools at yahoogroups.com] On Behalf Of wleephd\n> Sent: 25. august 2010 21:23\n> To: epitools at yahoogroups.com\n",
       "thread_id": "thread-c69bd697330f",
       "thread_depth": 0,
-      "month": "2010-08"
+      "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-August/000221.html"
     },
     {
       "id": "msg-3380a82b635e",
@@ -130,7 +136,8 @@
       "body_snippet": "Incidentally a colleague of mine pointed out that you might be after a RISK difference, i.e. a difference of proportions.\n\nSame trick:\n\nD <- c(15,28) # Numerator\nN <- c(22,61) # Denominator\n\n# Hand ca",
       "thread_id": "thread-c69bd697330f",
       "thread_depth": 1,
-      "month": "2010-08"
+      "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-August/000222.html"
     }
   ],
   "threads": [

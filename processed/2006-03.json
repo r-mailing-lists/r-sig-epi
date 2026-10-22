@@ -18,6 +18,7 @@
       "thread_id": "thread-4810f19c6964",
       "thread_depth": 0,
       "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-March/000007.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20060302/12d5da0b/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "On Thu, 2006-03-02 at 11:34 +0100, Henrik Kallberg wrote:\n> Hi all!\n> I've a question for which I have found no answer. I want to create a function that contains the glm function as a kind of subfunct",
       "thread_id": "thread-4810f19c6964",
       "thread_depth": 1,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-March/000008.html"
     }
   ],
   "threads": [

@@ -18,6 +18,7 @@
       "thread_id": "thread-1ef085128bda",
       "thread_depth": 0,
       "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-February/000184.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/bde72d73/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "On Feb 1, 2010, at 4:10 PM, Amy Mikhail wrote:\n\n> Dear R epidemiologists,\n>\n> I have been trying to find the simplest possible way to:\n>\n> (a) Create contingency tables,\n\n?xtabs\n\n> (b) Perform a chi s",
       "thread_id": "thread-1ef085128bda",
       "thread_depth": 1,
-      "month": "2010-02"
+      "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-February/000185.html"
     },
     {
       "id": "msg-d207446d59f7",
@@ -55,6 +57,7 @@
       "thread_id": "thread-d207446d59f7",
       "thread_depth": 0,
       "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-February/000186.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/8cd5f710/attachment.pl"
       ]
@@ -77,6 +80,7 @@
       "thread_id": "thread-1ef085128bda",
       "thread_depth": 2,
       "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-February/000187.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/75339279/attachment.pl"
       ]
@@ -97,7 +101,8 @@
       "body_snippet": "Amy Mikhail wrote:\n> Dear R epidemiologists,\n> \n> The package help for the above function states:\n> \n> Arguments X A 2x2 matrix, with Gold Standard Class A and B in the columns\n> and Comparison Method",
       "thread_id": "thread-d207446d59f7",
       "thread_depth": 1,
-      "month": "2010-02"
+      "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-February/000188.html"
     },
     {
       "id": "msg-afe8f5265011",
@@ -117,6 +122,7 @@
       "thread_id": "thread-d207446d59f7",
       "thread_depth": 2,
       "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-February/000189.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/de5de9a7/attachment.pl"
       ]
@@ -140,6 +146,7 @@
       "thread_id": "thread-1ef085128bda",
       "thread_depth": 3,
       "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-February/000190.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100201/3ddfa73f/attachment.pl"
       ]
@@ -162,7 +169,8 @@
       "body_snippet": "Amy Mikhail wrote:\n> Dear Peter,\n> \n> Many thanks for your reply.  Unfortunately I don't have access to the \n> reference book.\n> \n> However it looks to me like the gold standard should be in the rows ",
       "thread_id": "thread-d207446d59f7",
       "thread_depth": 3,
-      "month": "2010-02"
+      "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-February/000191.html"
     },
     {
       "id": "msg-38536869cdd3",
@@ -181,6 +189,7 @@
       "thread_id": "thread-38536869cdd3",
       "thread_depth": 0,
       "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-February/000192.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100202/8b9737f5/attachment.pl"
       ]

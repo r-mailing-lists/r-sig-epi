@@ -18,6 +18,7 @@
       "thread_id": "thread-06ae47b1e0e8",
       "thread_depth": 0,
       "month": "2014-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2014-July/000302.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140704/a6f874b2/attachment.pl"
       ]
@@ -36,7 +37,8 @@
       "body_snippet": "Dear all,\n\nIs it possible to use the Epi package to fit APC models with\nadditional covariates? I've used other approaches, but really enjoy\nthe convenience functions for visualisation in Epi, and so i",
       "thread_id": "thread-88f0bb3d0fee",
       "thread_depth": 0,
-      "month": "2014-07"
+      "month": "2014-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2014-July/000303.html"
     },
     {
       "id": "msg-1d579d10c2ce",
@@ -54,7 +56,8 @@
       "body_snippet": "Unfortunately this is not implemented in the apc.fit function.\n\nThe whole machinery relies on a projection of the columns of model matrix:\n\nSuppose you have natural spline effects for A, P and C=P-A, ",
       "thread_id": "thread-88f0bb3d0fee",
       "thread_depth": 1,
-      "month": "2014-07"
+      "month": "2014-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2014-July/000304.html"
     }
   ],
   "threads": [

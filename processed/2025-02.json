@@ -17,7 +17,8 @@
       "body_snippet": "Hi everyone\n\nInstats is pleased to be offering the 3-day seminar Using ChatGPT for Advanced Data Analysis 4.0, running twice: February 10 - 12 (for Europe/Asia time zones) <https://instats.org/seminar",
       "thread_id": "thread-f0dfca3775a9",
       "thread_depth": 0,
-      "month": "2025-02"
+      "month": "2025-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2025-February/000412.html"
     },
     {
       "id": "msg-ad1a801d4365",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi everyone\n\nLast chance to register for the 3-day seminar by professor Tom Snijders on Longitudinal Social Network Analysis <https://instats.org/seminar/1732809540961x971352386278611700?accessoff=tru",
       "thread_id": "thread-ad1a801d4365",
       "thread_depth": 0,
-      "month": "2025-02"
+      "month": "2025-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2025-February/000413.html"
     },
     {
       "id": "msg-f76226f80847",
@@ -45,11 +47,12 @@
       "subject_clean": "Online course: Machine Learning and AI for Researchers",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi everyone\n\nInstats is excited to offer two new seminars on machine learning and AI for researchers: Machine Learning and AI for Researchers in R <https://instats.org/seminar/machine-learning-and-ai-for-researchers-6> with Dr Giovanni Cerulli, running February 20?21, and Machine Learning and AI in Python <https://instats.org/seminar/machine-learning-in-practice-hands-on-w2> with Dr Kimberly Fessel, running February 27?28. These seminars provide comprehensive, hands-on training in state-of-the-art machine learning algorithms and AI applications using two of the most popular programming environments. Designed for academics, researchers, and professionals, the sessions combine theoretical insights with practical exercises to help you harness the power of data science in your research?whether you work in R or Python. The seminars are crucial for ecologists and others in the life sciences and natural sciences who are increasingly expected to understand and use machine learning and AI tools that allow valid prediction and explainability of results.\n\nSign up for both today <https://instats.org/structuredcourse/machine-learning-and-ai-for-researchers-2> and get an automatic 10% discount on these excellent seminars, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats:?Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
+      "body_plain": "Hi everyone\n\nInstats is excited to offer two new seminars on machine learning and AI for researchers: Machine Learning and AI for Researchers in R <https://instats.org/seminar/machine-learning-and-ai-for-researchers-6> with Dr Giovanni Cerulli, running February 20–21, and Machine Learning and AI in Python <https://instats.org/seminar/machine-learning-in-practice-hands-on-w2> with Dr Kimberly Fessel, running February 27–28. These seminars provide comprehensive, hands-on training in state-of-the-art machine learning algorithms and AI applications using two of the most popular programming environments. Designed for academics, researchers, and professionals, the sessions combine theoretical insights with practical exercises to help you harness the power of data science in your research—whether you work in R or Python. The seminars are crucial for ecologists and others in the life sciences and natural sciences who are increasingly expected to understand and use machine learning and AI tools that allow valid prediction and explainability of results.\n\nSign up for both today <https://instats.org/structuredcourse/machine-learning-and-ai-for-researchers-2> and get an automatic 10% discount on these excellent seminars, and feel free to share this opportunity with colleagues and students who might benefit!\n\n\nBest wishes\n\nMichael Zyphur\nDirector\nInstitute for Statistical and Data Science\ninstats.org <http://instats.org>\n\nFollow Instats: Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n\t[[alternative HTML version deleted]]",
       "body_snippet": "Hi everyone\n\nInstats is excited to offer two new seminars on machine learning and AI for researchers: Machine Learning and AI for Researchers in R <https://instats.org/seminar/machine-learning-and-ai-",
       "thread_id": "thread-f76226f80847",
       "thread_depth": 0,
-      "month": "2025-02"
+      "month": "2025-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2025-February/000414.html"
     },
     {
       "id": "msg-93f12f9bff23",
@@ -65,7 +68,8 @@
       "body_snippet": "Hi everyone\n\nLast chance to register for the new seminar on Statistical Methods for Adaptive Treatment Strategies <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> using R, runnin",
       "thread_id": "thread-93f12f9bff23",
       "thread_depth": 0,
-      "month": "2025-02"
+      "month": "2025-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2025-February/000415.html"
     },
     {
       "id": "msg-981933c1c9b0",
@@ -79,11 +83,12 @@
       "references": [
         "<deZirUHcROWdToIi6mFOLg@geopod-ismtpd-0>"
       ],
-      "body_plain": "Hello,\n\nI would like to unsubscribe from this newsletter.\n\n> Le 20 f?vr. 2025 ? 06:50, Michael Zyphur via R-sig-Epi <r-sig-epi at r-project.org> a ?crit :\n> \n> ?Hi everyone\n> \n> Last chance to register for the new seminar on Statistical Methods for Adaptive Treatment Strategies <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> using R, running on February 24. Led by Professor Erica Moodie, President of the Statistical Society of Canada, this seminar provides an excellent opportunity to learn cutting-edge statistical methods for designing and analyzing adaptive treatment strategies, which are increasingly used in personalized medicine and dynamic decision-making. Participants will explore key topics such as dynamic treatment regimes, sequential multiple assignment randomized trials (SMART), and statistical modeling techniques tailored for adaptive interventions - applicable in both human and animal populations. With a focus on practical applications, the seminar equips attendees with the tools needed to implement these methods in their research or clinical practice.\n> \n> Sign up today <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> to secure your spot and please feel free to share this opportunity with colleagues and students who might benefit.\n> \n> \n> Best wishes\n> \n> Michael Zyphur\n> Director\n> Institute for Statistical and Data Science\n> instats.org <http://instats.org>\n> \n> Follow Instats: Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n>    [[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi",
-      "body_snippet": "Hello,\n\nI would like to unsubscribe from this newsletter.\n\n> Le 20 f?vr. 2025 ? 06:50, Michael Zyphur via R-sig-Epi <r-sig-epi at r-project.org> a ?crit :\n> \n> ?Hi everyone\n> \n> Last chance to registe",
+      "body_plain": "Hello,\n\nI would like to unsubscribe from this newsletter.\n\n> Le 20 févr. 2025 à 06:50, Michael Zyphur via R-sig-Epi <r-sig-epi at r-project.org> a écrit :\n> \n> ﻿Hi everyone\n> \n> Last chance to register for the new seminar on Statistical Methods for Adaptive Treatment Strategies <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> using R, running on February 24. Led by Professor Erica Moodie, President of the Statistical Society of Canada, this seminar provides an excellent opportunity to learn cutting-edge statistical methods for designing and analyzing adaptive treatment strategies, which are increasingly used in personalized medicine and dynamic decision-making. Participants will explore key topics such as dynamic treatment regimes, sequential multiple assignment randomized trials (SMART), and statistical modeling techniques tailored for adaptive interventions - applicable in both human and animal populations. With a focus on practical applications, the seminar equips attendees with the tools needed to implement these methods in their research or clinical practice.\n> \n> Sign up today <https://instats.org/seminar/statistical-methods-for-adaptive-treatme> to secure your spot and please feel free to share this opportunity with colleagues and students who might benefit.\n> \n> \n> Best wishes\n> \n> Michael Zyphur\n> Director\n> Institute for Statistical and Data Science\n> instats.org <http://instats.org>\n> \n> Follow Instats: Bluesky <https://bsky.app/profile/instats.bsky.social>_Linkedin <https://linkedin.com/company/instats1>_Facebook <https://www.facebook.com/InstatsTraining/>\n>    [[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-sig-Epi at r-project.org mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi",
+      "body_snippet": "Hello,\n\nI would like to unsubscribe from this newsletter.\n\n> Le 20 févr. 2025 à 06:50, Michael Zyphur via R-sig-Epi <r-sig-epi at r-project.org> a écrit :\n> \n> ﻿Hi everyone\n> \n> Last chance to registe",
       "thread_id": "thread-93f12f9bff23",
       "thread_depth": 1,
-      "month": "2025-02"
+      "month": "2025-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2025-February/000416.html"
     }
   ],
   "threads": [

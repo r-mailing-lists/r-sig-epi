@@ -18,6 +18,7 @@
       "thread_id": "thread-e69579210017",
       "thread_depth": 0,
       "month": "2010-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-November/000234.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101127/a750e98c/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "It sounds as if you are looking for something like\n\nnewvar <- as.numeric(var1==\"yes\")\n\nor\n\nnewvar <- as.numeric(var1==1)\n\ndepending on whether var1 is numeric or character.\n\nBest regards,\nBendix Carst",
       "thread_id": "thread-e69579210017",
       "thread_depth": 1,
-      "month": "2010-11"
+      "month": "2010-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-November/000235.html"
     },
     {
       "id": "msg-fe4befb1538e",
@@ -60,7 +62,8 @@
       "body_snippet": "Dear Khan,\nI am afraid that the help list is not an online-course.\nThe questions you ask are too general for this forum, they would be suitable for a teacher at an appropriate course in epidemidologic",
       "thread_id": "thread-fe4befb1538e",
       "thread_depth": 0,
-      "month": "2010-11"
+      "month": "2010-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-November/000236.html"
     },
     {
       "id": "msg-4b4e4ad1d7b0",

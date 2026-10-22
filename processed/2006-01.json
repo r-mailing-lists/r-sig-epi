@@ -17,7 +17,8 @@
       "body_snippet": "Course in\nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R\n============================================\nTartu, Estonia, Thursday 8  - Tuesday 13 June 2006\n\nThe course is aimed at epidemiologists and stati",
       "thread_id": "thread-e2c514838f0e",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-January/000004.html"
     },
     {
       "id": "msg-ec198397f568",
@@ -33,7 +34,8 @@
       "body_snippet": "informazioni su metodi non classici di identificazione di clustering bayesiani",
       "thread_id": "thread-ec198397f568",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-January/000005.html"
     }
   ],
   "threads": [

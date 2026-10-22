@@ -17,7 +17,8 @@
       "body_snippet": "The Epi package have just been updated to 1.1.44, and is now on CRAN,\nhttp://cran.r-project.org/web/packages/Epi/index.html\n\n- a bug in ROC have been fixed. Now the AUC is computed correctly.\n- the fu",
       "thread_id": "thread-4606f2348293",
       "thread_depth": 0,
-      "month": "2013-02"
+      "month": "2013-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2013-February/000283.html"
     },
     {
       "id": "msg-e351c6ad8785",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear List Member,\nFirstly, apologies if you've received this request via multiple lists, this is just a brief announcement and request for help re. R and High Performance Computing.\n\nOver the past 3 y",
       "thread_id": "thread-e351c6ad8785",
       "thread_depth": 0,
-      "month": "2013-02"
+      "month": "2013-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2013-February/000284.html"
     },
     {
       "id": "msg-15cded38fdc5",
@@ -49,7 +51,8 @@
       "body_snippet": "Course in:\nSTATISTICAL PRACTICE IN EPIDEMIOLOGY USING R  \n\nIARC, Lyon, Fance, Thursday 23 to Wednesday 29 May 2013.\n\nhttp://BendixCarstensen.com/SPE \n\nThe course is intended for epidemiologists and st",
       "thread_id": "thread-15cded38fdc5",
       "thread_depth": 0,
-      "month": "2013-02"
+      "month": "2013-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2013-February/000285.html"
     },
     {
       "id": "msg-388d059d4535",
@@ -66,6 +69,7 @@
       "thread_id": "thread-388d059d4535",
       "thread_depth": 0,
       "month": "2013-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2013-February/000286.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20130225/2c9fc66b/attachment.pl"
       ]
@@ -84,7 +88,8 @@
       "body_snippet": "Hi Dimitis,\nYou have a typo in the definition of the cohR Lexis object:\n\nIt should be   \"age = doz-dob\" ,  that is doz instead of doe.\nNo need to call the timescale \"age1\" either, it just produces tro",
       "thread_id": "thread-e74c5dd44b47",
       "thread_depth": 0,
-      "month": "2013-02"
+      "month": "2013-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2013-February/000287.html"
     },
     {
       "id": "msg-6300e8f16337",
@@ -100,7 +105,8 @@
       "body_snippet": "Begins Friday (no charge)\nThe Evolution of Regression: An Upcoming Webinar Series\n(Hands-on Component)\n\nRegistration: http://bit.ly/salford-systems-regression-webinar-series\n\nRegression is one of the ",
       "thread_id": "thread-6300e8f16337",
       "thread_depth": 0,
-      "month": "2013-02"
+      "month": "2013-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2013-February/000288.html"
     }
   ],
   "threads": [

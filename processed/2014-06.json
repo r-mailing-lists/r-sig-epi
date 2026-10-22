@@ -18,6 +18,7 @@
       "thread_id": "thread-a6e3d687f026",
       "thread_depth": 0,
       "month": "2014-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2014-June/000300.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20140624/c26f12fe/attachment.pl"
       ]
@@ -36,7 +37,8 @@
       "body_snippet": "Dear list members,\n\nThere is now a new version of the Epi package on CRAN, version 1.1.65, replacing 1.1.49. There have been quite a bit of changes and fixed since last version on CRAN, see below. Non",
       "thread_id": "thread-cd32f58f96d2",
       "thread_depth": 0,
-      "month": "2014-06"
+      "month": "2014-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2014-June/000301.html"
     }
   ],
   "threads": [

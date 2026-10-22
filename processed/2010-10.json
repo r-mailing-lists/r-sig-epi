@@ -18,6 +18,7 @@
       "thread_id": "thread-40890bad76c1",
       "thread_depth": 0,
       "month": "2010-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-October/000227.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101008/82c7bd2e/attachment.pl"
       ]
@@ -36,7 +37,8 @@
       "body_snippet": "Dear list,\n\nThis is a somewhat off-topic question as I don't have a specific issue\nwith an R-function, but rather seek advice on how to proceed with my\nanalyses.\n\nI have survival data on approximately",
       "thread_id": "thread-a89032dc6a3c",
       "thread_depth": 0,
-      "month": "2010-10"
+      "month": "2010-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-October/000228.html"
     },
     {
       "id": "msg-2a39b019a0db",
@@ -53,6 +55,7 @@
       "thread_id": "thread-2a39b019a0db",
       "thread_depth": 0,
       "month": "2010-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-October/000229.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/b219e746/attachment.pl"
       ]
@@ -74,6 +77,7 @@
       "thread_id": "thread-1910ee1ac0c4",
       "thread_depth": 0,
       "month": "2010-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-October/000230.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101027/1d1b1b84/attachment.pl"
       ]
@@ -92,7 +96,8 @@
       "body_snippet": "To someone who could help me:\n\nI am a PhD student, working in the Novosibirsk University, Russia. I\nam now using glm() function to do logistic regression analysis.\nI cannot understand how the chosen r",
       "thread_id": "thread-33804c21bfb5",
       "thread_depth": 0,
-      "month": "2010-10"
+      "month": "2010-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-October/000231.html"
     },
     {
       "id": "msg-773ece0c3b65",
@@ -110,7 +115,8 @@
       "body_snippet": "You presumably have your genotype variable coded as a factor; check by saying:\n\n> str( gentp )\n\n(or whatever your variable is called)\n \nThe default in glm is to use the first level as reference. But y",
       "thread_id": "thread-33804c21bfb5",
       "thread_depth": 1,
-      "month": "2010-10"
+      "month": "2010-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-October/000232.html"
     },
     {
       "id": "msg-67be78c735d9",
@@ -129,6 +135,7 @@
       "thread_id": "thread-33804c21bfb5",
       "thread_depth": 1,
       "month": "2010-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-October/000233.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20101028/c8259810/attachment.pl"
       ]

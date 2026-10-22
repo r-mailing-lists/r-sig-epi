@@ -18,6 +18,7 @@
       "thread_id": "thread-b8768c33ba2b",
       "thread_depth": 0,
       "month": "2008-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-April/000122.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080409/979ea777/attachment.pl"
       ]
@@ -37,6 +38,7 @@
       "thread_id": "thread-92ac171c52a3",
       "thread_depth": 0,
       "month": "2008-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-April/000123.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080411/184689c2/attachment.pl"
       ]
@@ -57,7 +59,8 @@
       "body_snippet": "Henrik Kallberg wrote:\n> Dear All!\n> I have tried to find a function for searching for the most common character set within a variable. I have not found a solution though. Maybe any smarthead out ther",
       "thread_id": "thread-92ac171c52a3",
       "thread_depth": 1,
-      "month": "2008-04"
+      "month": "2008-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-April/000124.html"
     },
     {
       "id": "msg-d6a82200f6d2",
@@ -74,6 +77,7 @@
       "thread_id": "thread-d6a82200f6d2",
       "thread_depth": 0,
       "month": "2008-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-April/000125.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080415/3d631a5b/attachment.pl"
       ]
@@ -93,6 +97,7 @@
       "thread_id": "thread-183279f76270",
       "thread_depth": 0,
       "month": "2008-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-April/000126.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080417/1a221067/attachment.pl"
       ]

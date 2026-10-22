@@ -17,7 +17,8 @@
       "body_snippet": "#goal: Do Arjas plot. In particular, reproduce figure 11.15 in Klein \nMoeschberger survival analysis (1997).\nlibrary(survival);\nlibrary(KMsurv);\ndata(bmt)\n#143 bone marrow patients\n#goal: reproduce fi",
       "thread_id": "thread-50b1db01ad66",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000127.html"
     },
     {
       "id": "msg-99e1e5df6bbc",
@@ -33,7 +34,8 @@
       "body_snippet": "The Epi package has been updated to version 1.0.8, and is now avilable\non CRAN.\n\nBest regards,\nBendix Carstensen\npackage maintainer.\n______________________________________________\n\nBendix Carstensen\nS",
       "thread_id": "thread-99e1e5df6bbc",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000128.html"
     },
     {
       "id": "msg-9e376b2002b7",
@@ -49,7 +51,8 @@
       "body_snippet": "Goodmorning,\nI'm looking for a package that can help me to calculate the most\nprobable number for a series of diluition.\nCan you help me?\nThat you\nRiccardo Rasera\n\n------------------------------------",
       "thread_id": "thread-9e376b2002b7",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000129.html"
     },
     {
       "id": "msg-5c02bb6cb2ea",
@@ -65,7 +68,8 @@
       "body_snippet": "Goodmorning,\nI'm looking for a package that can help me to calculate the most\nprobable number for a series of diluition.\nCan you help me?\nThank's you\nRiccardo Rasera\n\n---------------------------------",
       "thread_id": "thread-5c02bb6cb2ea",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000130.html"
     },
     {
       "id": "msg-0dc7e8e333d3",
@@ -81,7 +85,8 @@
       "body_snippet": "Hi,\n\ndoes anyone know a good reference guide/book/howto on how to study\nin a proper way:\n\"characterize variability in local epidemics using data such as age,\ngender, country of birth, country of infec",
       "thread_id": "thread-0dc7e8e333d3",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000131.html"
     },
     {
       "id": "msg-4433fa66cfe6",
@@ -98,6 +103,7 @@
       "thread_id": "thread-4433fa66cfe6",
       "thread_depth": 0,
       "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000132.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080521/abce766b/attachment.pl"
       ]
@@ -117,6 +123,7 @@
       "thread_id": "thread-638b7ee45cd5",
       "thread_depth": 0,
       "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000133.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/c0f9bf20/attachment.pl"
       ]
@@ -136,6 +143,7 @@
       "thread_id": "thread-aa1fd7f0a3b4",
       "thread_depth": 0,
       "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000134.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080522/51c6f656/attachment.pl"
       ]
@@ -157,6 +165,7 @@
       "thread_id": "thread-ce269de2b378",
       "thread_depth": 0,
       "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000135.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080524/3dc34da4/attachment.pl"
       ]
@@ -176,6 +185,7 @@
       "thread_id": "thread-1edacb419235",
       "thread_depth": 0,
       "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000136.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080527/7702cb40/attachment.pl"
       ]
@@ -194,7 +204,8 @@
       "body_snippet": "R users,\n\nIs there a way to convert stat.table (library(Epi)) object into latex\ntable? I have tried xtable from (xtable package) and latex (Hmisc\npackage) with no success.\n\nExample code:\n\ninstall.pack",
       "thread_id": "thread-e50b20d6078c",
       "thread_depth": 0,
-      "month": "2008-05"
+      "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000137.html"
     },
     {
       "id": "msg-e0c47f2ee8e6",
@@ -213,6 +224,7 @@
       "thread_id": "thread-e50b20d6078c",
       "thread_depth": 1,
       "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000138.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080530/8a1ab431/attachment.pl"
       ]
@@ -230,11 +242,12 @@
         "<ba8c09910805292346m1a00d61drc0b10a0b512091ca@mail.gmail.com>",
         "<BLU124-W256F9876B4D61DEA222259A5BE0@phx.gbl>"
       ],
-      "body_plain": "I haven't thought about this before, but you are quite right: there\nshould be an xtable method for stat.table objects. I will make one\nand hopefully this will be in the next release of Epi.\n\nMartyn\n\nQuoting albert sanchez niubo <albynew at hotmail.com>:\n\n>\n> Hello Lauri,\n>\n> If you write \"> methods(xtable)\", xtable.stat.table is not included, thus it\n> must be included but I have not found howto...\n>\n> But, if you use:\n> > a.latex <- latexVerbatim(a)\n>\n> Function latexVerbatim \"executes the object's print method, capturing the\n> output for a file inside a LaTeX verbatim environment\" (as says in the help).\n>\n> While someone finds a better solution, I hope it can help you.\n>\n> Cheers,\n> Albert\n>\n>\n>\n> Albert Sanchez-Niubo\n> Drug abuse epidemiology\n> IMIM-Hospital del Mar\n> Parc de Recerca Biom?dica de Barcelona\n> c/ Doctor Aiguader, 88 | 08003 Barcelona\n> asanchez at imim.es\n> www.imim.es\n>\n>\n>\n> > Date: Fri, 30 May 2008 09:46:57 +0300\n> > From: lauri.nikkinen at iki.fi\n> > To: r-sig-epi at stat.math.ethz.ch\n> > Subject: [R-sig-Epi] stat.table object into latex\n> >\n> > R users,\n> >\n> > Is there a way to convert stat.table (library(Epi)) object into latex\n> > table? I have tried xtable from (xtable package) and latex (Hmisc\n> > package) with no success.\n> >\n> > Example code:\n> >\n> > install.packages(\"Epi\")\n> > library(Epi)\n> > install.packages(\"Hmisc\")\n> > library(Hmisc)\n> > install.packages(\"xtable\")\n> > library(xtable)\n> >\n> > a <- stat.table(index=list(wool,tension),\n> >                 contents=list(count(),mean(breaks),percent (wool)),\n> >                 data=warpbreaks)\n> > a\n> > a.latex <- xtable(a)\n> > Error in UseMethod(\"xtable\") : no applicable method for \"xtable\"\n> > a.latex <- latex(a)\n> > Error in x[, j] : incorrect number of dimensions\n> >\n> > Best,\n> > Lauri\n> >\n> > _______________________________________________\n> > R-sig-Epi at stat.math.ethz.ch mailing list\n> > https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n> _________________________________________________________________\n> La vida de los famosos al desnudo en MSN Entretenimiento\n>\n> \t[[alternative HTML version deleted]]\n>\n>\n\n\n\n-----------------------------------------------------------------------\nThis message and its attachments are strictly confidenti...{{dropped:8}}",
+      "body_plain": "I haven't thought about this before, but you are quite right: there\nshould be an xtable method for stat.table objects. I will make one\nand hopefully this will be in the next release of Epi.\n\nMartyn\n\nQuoting albert sanchez niubo <albynew at hotmail.com>:\n\n>\n> Hello Lauri,\n>\n> If you write \"> methods(xtable)\", xtable.stat.table is not included, thus it\n> must be included but I have not found howto...\n>\n> But, if you use:\n> > a.latex <- latexVerbatim(a)\n>\n> Function latexVerbatim \"executes the object's print method, capturing the\n> output for a file inside a LaTeX verbatim environment\" (as says in the help).\n>\n> While someone finds a better solution, I hope it can help you.\n>\n> Cheers,\n> Albert\n>\n>\n>\n> Albert Sanchez-Niubo\n> Drug abuse epidemiology\n> IMIM-Hospital del Mar\n> Parc de Recerca Biomèdica de Barcelona\n> c/ Doctor Aiguader, 88 | 08003 Barcelona\n> asanchez at imim.es\n> www.imim.es\n>\n>\n>\n> > Date: Fri, 30 May 2008 09:46:57 +0300\n> > From: lauri.nikkinen at iki.fi\n> > To: r-sig-epi at stat.math.ethz.ch\n> > Subject: [R-sig-Epi] stat.table object into latex\n> >\n> > R users,\n> >\n> > Is there a way to convert stat.table (library(Epi)) object into latex\n> > table? I have tried xtable from (xtable package) and latex (Hmisc\n> > package) with no success.\n> >\n> > Example code:\n> >\n> > install.packages(\"Epi\")\n> > library(Epi)\n> > install.packages(\"Hmisc\")\n> > library(Hmisc)\n> > install.packages(\"xtable\")\n> > library(xtable)\n> >\n> > a <- stat.table(index=list(wool,tension),\n> >                 contents=list(count(),mean(breaks),percent (wool)),\n> >                 data=warpbreaks)\n> > a\n> > a.latex <- xtable(a)\n> > Error in UseMethod(\"xtable\") : no applicable method for \"xtable\"\n> > a.latex <- latex(a)\n> > Error in x[, j] : incorrect number of dimensions\n> >\n> > Best,\n> > Lauri\n> >\n> > _______________________________________________\n> > R-sig-Epi at stat.math.ethz.ch mailing list\n> > https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n>\n> _________________________________________________________________\n> La vida de los famosos al desnudo en MSN Entretenimiento\n>\n> \t[[alternative HTML version deleted]]\n>\n>\n\n\n\n-----------------------------------------------------------------------\nThis message and its attachments are strictly confidenti...{{dropped:8}}",
       "body_snippet": "I haven't thought about this before, but you are quite right: there\nshould be an xtable method for stat.table objects. I will make one\nand hopefully this will be in the next release of Epi.\n\nMartyn\n\nQ",
       "thread_id": "thread-e50b20d6078c",
       "thread_depth": 2,
-      "month": "2008-05"
+      "month": "2008-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-May/000139.html"
     }
   ],
   "threads": [

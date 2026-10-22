@@ -17,7 +17,8 @@
       "body_snippet": "Philippe,\n\nThe machinery to use is to split follow-up time so finely that you can safely assume that rates are constant in each interval, and then just stuff it all into a Poisson model. This allows y",
       "thread_id": "thread-c69c3cb7a692",
       "thread_depth": 0,
-      "month": "2008-07"
+      "month": "2008-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-July/000140.html"
     }
   ],
   "threads": [

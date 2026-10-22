@@ -17,7 +17,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This seminar offers valuable insights into robust methods for improving your data analysis and survey estimations. Bregman Projection for Calibration Estimation ",
       "thread_id": "thread-651ef467f173",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000591.html"
     },
     {
       "id": "msg-df2a5d875762",
@@ -33,7 +34,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - We invite you to explore an upcoming seminar on advanced analytical techniques relevant to your research. Machine Learning for Computational Biology 3.0 is a 2-d",
       "thread_id": "thread-df2a5d875762",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000592.html"
     },
     {
       "id": "msg-029b76dec77d",
@@ -49,7 +51,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Explore how recent advancements can transform your approach to complex data analysis and causal inquiry. Causal Inference with LLMs is a 2-day seminar livestream",
       "thread_id": "thread-029b76dec77d",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000593.html"
     },
     {
       "id": "msg-4eb36349d7d6",
@@ -65,7 +68,8 @@
       "body_snippet": "Dear all,\nit is still possible to join us for the upcoming online course, Fundamentals of Biostatistics with R, taking place from 13?17 April.\n \nCourse website: [ https://www.physalia-courses.org/cour",
       "thread_id": "thread-4eb36349d7d6",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000594.html"
     },
     {
       "id": "msg-8ac7a8a0fb84",
@@ -81,7 +85,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover best practices for managing data analysis projects effectively and ensuring high-quality outcomes. Project Quality and Management for Statisticians and ",
       "thread_id": "thread-8ac7a8a0fb84",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000595.html"
     },
     {
       "id": "msg-6995720d4c73",
@@ -97,7 +102,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Explore practical, statistically rigorous RNA-seq workflows to advance your genomic investigations. RNA-seq: From Counts to Conclusions is a 2-day seminar livest",
       "thread_id": "thread-6995720d4c73",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000596.html"
     },
     {
       "id": "msg-cbb1a8d3853f",
@@ -113,7 +119,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nThis seminar will equip you with advanced strategies to strengthen your empirical modeling and analysis practices. Regression Modeling Strategies is a 2-day seminar livestream",
       "thread_id": "thread-cbb1a8d3853f",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000597.html"
     },
     {
       "id": "msg-f40d6fbf8f3e",
@@ -129,7 +136,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - This workshop offers practical skills for integrating cutting-edge AI tools into your qualitative research workflows using R. AI-Powered Qualitative Analysis in ",
       "thread_id": "thread-f40d6fbf8f3e",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000598.html"
     },
     {
       "id": "msg-d94a229b1ec5",
@@ -141,11 +149,12 @@
       "subject_clean": "(Online course) Handling Missing Data in R - 22–24 April",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear all,\n\nWe have just a few seats left for our upcoming online course ?Handling Missing Data in R?, taking place on 22?24 April (3?6 PM Berlin time).\n \nMissing data are a common challenge in real-world analyses, and handling them correctly is essential to avoid bias and ensure robust results. In this course, you will learn how to diagnose missingness (MCAR, MAR, MNAR), explore patterns in your data, and apply both traditional and modern imputation methods in R?including multiple imputation (MICE), regression approaches, and advanced algorithms such as EM and Soft Impute.\n \nBy the end of the course, you?ll be able to confidently choose and implement appropriate strategies for handling missing data in your own research.\n \n \nMore details and registration: [ https://www.physalia-courses.org/courses-workshops/missing-data-with-r/ ]( https://www.physalia-courses.org/courses-workshops/missing-data-with-r/ ) \n \n \nBest regards,\nCarlo\n \n \n \n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\t[[alternative HTML version deleted]]",
-      "body_snippet": "Dear all,\n\nWe have just a few seats left for our upcoming online course ?Handling Missing Data in R?, taking place on 22?24 April (3?6 PM Berlin time).\n \nMissing data are a common challenge in real-wo",
+      "body_plain": "Dear all,\n\nWe have just a few seats left for our upcoming online course “Handling Missing Data in R”, taking place on 22–24 April (3–6 PM Berlin time).\n \nMissing data are a common challenge in real-world analyses, and handling them correctly is essential to avoid bias and ensure robust results. In this course, you will learn how to diagnose missingness (MCAR, MAR, MNAR), explore patterns in your data, and apply both traditional and modern imputation methods in R—including multiple imputation (MICE), regression approaches, and advanced algorithms such as EM and Soft Impute.\n \nBy the end of the course, you’ll be able to confidently choose and implement appropriate strategies for handling missing data in your own research.\n \n \nMore details and registration: [ https://www.physalia-courses.org/courses-workshops/missing-data-with-r/ ]( https://www.physalia-courses.org/courses-workshops/missing-data-with-r/ ) \n \n \nBest regards,\nCarlo\n \n \n \n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n\nWe have just a few seats left for our upcoming online course “Handling Missing Data in R”, taking place on 22–24 April (3–6 PM Berlin time).\n \nMissing data are a common challenge in real-wo",
       "thread_id": "thread-d94a229b1ec5",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000599.html"
     },
     {
       "id": "msg-6bc43d8f5231",
@@ -161,7 +170,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nDiscover how to systematically collect and transform web-based information for your research endeavors. Web Scraping and Data Collection is a 2-day seminar livestreaming May 1",
       "thread_id": "thread-6bc43d8f5231",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000600.html"
     },
     {
       "id": "msg-12e00e646d45",
@@ -173,11 +183,12 @@
       "subject_clean": "Bayesian modelling and evolutionary analysis using RevBayes - online, 21-24 April",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear all,\nWe have just a few seats left for our upcoming online course:\nA hands-on course in Bayesian modelling and evolutionary analysis using RevBayes\n\nDates: 21?24 April \n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/bayesian-phylogenetics/ ]( https://www.physalia-courses.org/courses-workshops/bayesian-phylogenetics/ )\n \n \n \nThis course offers an in-depth introduction to Bayesian inference and MCMC methods for phylogenetic analysis, with a strong focus on hands-on learning using RevBayes. Across four interactive days, participants will learn how to build and interpret models of lineage diversification, biogeographic history, and evolutionary processes using real datasets.\n \n \nTopics include:\nFoundations of Bayesian inference and probabilistic graphical models\nBiogeographic modelling (including DEC and stochastic mapping)\nComparative biogeography (Bayesian Island Biogeography)\nDiversification analyses within birth?death frameworks\n \n \n \nFeel free to reach out if you have any questions.\n \nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
-      "body_snippet": "Dear all,\nWe have just a few seats left for our upcoming online course:\nA hands-on course in Bayesian modelling and evolutionary analysis using RevBayes\n\nDates: 21?24 April \n \nCourse website: [ https:",
+      "body_plain": "Dear all,\nWe have just a few seats left for our upcoming online course:\nA hands-on course in Bayesian modelling and evolutionary analysis using RevBayes\n\nDates: 21–24 April \n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/bayesian-phylogenetics/ ]( https://www.physalia-courses.org/courses-workshops/bayesian-phylogenetics/ )\n \n \n \nThis course offers an in-depth introduction to Bayesian inference and MCMC methods for phylogenetic analysis, with a strong focus on hands-on learning using RevBayes. Across four interactive days, participants will learn how to build and interpret models of lineage diversification, biogeographic history, and evolutionary processes using real datasets.\n \n \nTopics include:\nFoundations of Bayesian inference and probabilistic graphical models\nBiogeographic modelling (including DEC and stochastic mapping)\nComparative biogeography (Bayesian Island Biogeography)\nDiversification analyses within birth–death frameworks\n \n \n \nFeel free to reach out if you have any questions.\n \nBest regards,\nCarlo\n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nWe have just a few seats left for our upcoming online course:\nA hands-on course in Bayesian modelling and evolutionary analysis using RevBayes\n\nDates: 21–24 April \n \nCourse website: [ https:",
       "thread_id": "thread-12e00e646d45",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000601.html"
     },
     {
       "id": "msg-c01474f25120",
@@ -193,7 +204,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover new computational methods to analyze complex microbial and host data. Computational Genomics for Microbial Traits (Free Seminar) is a 2-day seminar live",
       "thread_id": "thread-c01474f25120",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000602.html"
     },
     {
       "id": "msg-8347a83c1644",
@@ -209,7 +221,8 @@
       "body_snippet": "Dear all,\nWe would like to inform you that only a few seats remain for our upcoming online course ?Network Analysis in R?, taking place 4?7 May.\n \nThis course provides a comprehensive introduction to ",
       "thread_id": "thread-8347a83c1644",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000603.html"
     },
     {
       "id": "msg-1844216b18fd",
@@ -225,7 +238,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover how new computational genomics approaches can enhance your epidemiological research. Computational Genomics for Microbial Traits (Free Seminar) is a 2-d",
       "thread_id": "thread-1844216b18fd",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000604.html"
     },
     {
       "id": "msg-5ecc8c631ca5",
@@ -241,7 +255,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nThis seminar will equip you with powerful tools to analyze and interpret complex research data. Exploratory Analysis of Complex Datasets with ChatGPT 3.0 is a 2-day seminar li",
       "thread_id": "thread-5ecc8c631ca5",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000605.html"
     },
     {
       "id": "msg-ffee6d4b6aaa",
@@ -257,7 +272,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover advanced techniques for simplifying and interpreting your high-dimensional research data. Dimension Reduction for Complex Datasets 2.0 is a 2-day semina",
       "thread_id": "thread-ffee6d4b6aaa",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000606.html"
     },
     {
       "id": "msg-9bd16fa8b665",
@@ -273,7 +289,8 @@
       "body_snippet": "Hello R-SIG-EPI members\n\nLast chance - Discover how to integrate advanced AI capabilities into your R-based research workflows for enhanced automation. AI Multi-Agent Workflows in R is a 2-day seminar",
       "thread_id": "thread-9bd16fa8b665",
       "thread_depth": 0,
-      "month": "2026-04"
+      "month": "2026-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-April/000607.html"
     }
   ],
   "threads": [

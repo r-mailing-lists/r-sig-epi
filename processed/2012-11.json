@@ -17,7 +17,8 @@
       "body_snippet": "Dear all,\nAn updated version, 1.1.40, of Epi is now available on CRAN.\n\nA number of small bugs have been fixed; the main amendments are:\n\neffx now allows RR for binary data (via the log-link for binom",
       "thread_id": "thread-24d03176fc98",
       "thread_depth": 0,
-      "month": "2012-11"
+      "month": "2012-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2012-November/000278.html"
     }
   ],
   "threads": [

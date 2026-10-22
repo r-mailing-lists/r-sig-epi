@@ -17,7 +17,8 @@
       "body_snippet": "Hello All,\n\nI have another question regarding using the relsurv package. I am trying to\nrun a log-rank test to compare across the strata in my relative survival\nplots. So far I am able to compute rela",
       "thread_id": "thread-de6e86f42ed2",
       "thread_depth": 0,
-      "month": "2015-12"
+      "month": "2015-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2015-December/000326.html"
     }
   ],
   "threads": [

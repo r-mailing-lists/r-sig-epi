@@ -18,6 +18,7 @@
       "thread_id": "thread-6853a2d2ddfd",
       "thread_depth": 0,
       "month": "2008-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-September/000142.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/f6afc1fe/attachment.pl"
       ]
@@ -39,6 +40,7 @@
       "thread_id": "thread-6853a2d2ddfd",
       "thread_depth": 1,
       "month": "2008-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-September/000143.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080905/4b93628d/attachment.pl"
       ]
@@ -53,11 +55,12 @@
       "subject_clean": "Paired by exposure",
       "in_reply_to": "<a37cfb5a0809050701t7bbdf235m4a3844791fd6c765@mail.gmail.com>",
       "references": [],
-      "body_plain": "This is not what we would call a paired design, because you are not pairing the OUTCOME, but the EXPOSURE.\n\nYou are merely taking a sample of the exposed and a sample of the non-exposed, and making sure that they have the same distribution of age at entry / date of birth / date of entry --- which one(s)?\n\nEstimating mortality (morbidity?) in each of the two groups and the rate-ratio between them is just a straight-forward cohort analysis, either using a Poisson-model or a Cox-model. You will have to consider what time-scale you use for the description, though. And you must be sure that you are not using any of the follow-up information in your selection of persons to enter the study.\n\nBest regards,\nBendix Carstensen\n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch\n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of\n> Pedro Emmanuel Alvarenga Americano do Brasil\n> Sent: 5. september 2008 16:01\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: Re: [R-sig-Epi] Paired by exposure\n>\n> >\n> > Dear R friens,\n> >\n> > I will start a project this month wiht a partner which is\n> disigned as\n> > a quasi-experiment. We are interrested in estimate risk\n> raios and rate\n> > ratios, possibly survival analysis. Everything is registered at\n> > medical charts form the last 22 yaers. So everythig is\n> retorspective.\n> > However, due to a efficiency matters, we dicided to select the\n> > non-exposed matching to the exposed. So for every paciente\n> that took\n> > this paticular medicine, we intend ot match one that did\n> not take, and\n> > start the follow-up in the same year and has no more than\n> 10 years older than the exposed.\n> >\n> > I have looked up for more recent things than those I have\n> in Klienbaum\n> > and Rothman but it seems that the very good old friend\n> ajusted MH for\n> > the pair is the recomended.\n> >\n> > Does anyone have other sugestions? Does any knows a package or\n> > functions to run paired risk or rate analysis?\n> >\n>\n>    Best regards\n>\n> >\n> > --\n> > Abra?o forte e que a for?a esteja com voc?, Pedro Emmanuel\n> >\n>\n>         [[alternative HTML version deleted]]\n>\n>",
+      "body_plain": "This is not what we would call a paired design, because you are not pairing the OUTCOME, but the EXPOSURE.\n\nYou are merely taking a sample of the exposed and a sample of the non-exposed, and making sure that they have the same distribution of age at entry / date of birth / date of entry --- which one(s)?\n\nEstimating mortality (morbidity?) in each of the two groups and the rate-ratio between them is just a straight-forward cohort analysis, either using a Poisson-model or a Cox-model. You will have to consider what time-scale you use for the description, though. And you must be sure that you are not using any of the follow-up information in your selection of persons to enter the study.\n\nBest regards,\nBendix Carstensen\n______________________________________________\n\nBendix Carstensen\nSenior Statistician\nSteno Diabetes Center\nNiels Steensens Vej 2-4\nDK-2820 Gentofte\nDenmark\n+45 44 43 87 38 (direct)\n+45 30 75 87 38 (mobile)\nbxc at steno.dk   http://www.biostat.ku.dk/~bxc\n\n> -----Original Message-----\n> From: r-sig-epi-bounces at stat.math.ethz.ch\n> [mailto:r-sig-epi-bounces at stat.math.ethz.ch] On Behalf Of\n> Pedro Emmanuel Alvarenga Americano do Brasil\n> Sent: 5. september 2008 16:01\n> To: r-sig-epi at stat.math.ethz.ch\n> Subject: Re: [R-sig-Epi] Paired by exposure\n>\n> >\n> > Dear R friens,\n> >\n> > I will start a project this month wiht a partner which is\n> disigned as\n> > a quasi-experiment. We are interrested in estimate risk\n> raios and rate\n> > ratios, possibly survival analysis. Everything is registered at\n> > medical charts form the last 22 yaers. So everythig is\n> retorspective.\n> > However, due to a efficiency matters, we dicided to select the\n> > non-exposed matching to the exposed. So for every paciente\n> that took\n> > this paticular medicine, we intend ot match one that did\n> not take, and\n> > start the follow-up in the same year and has no more than\n> 10 years older than the exposed.\n> >\n> > I have looked up for more recent things than those I have\n> in Klienbaum\n> > and Rothman but it seems that the very good old friend\n> ajusted MH for\n> > the pair is the recomended.\n> >\n> > Does anyone have other sugestions? Does any knows a package or\n> > functions to run paired risk or rate analysis?\n> >\n>\n>    Best regards\n>\n> >\n> > --\n> > Abraço forte e que a força esteja com você, Pedro Emmanuel\n> >\n>\n>         [[alternative HTML version deleted]]\n>\n>",
       "body_snippet": "This is not what we would call a paired design, because you are not pairing the OUTCOME, but the EXPOSURE.\n\nYou are merely taking a sample of the exposed and a sample of the non-exposed, and making su",
       "thread_id": "thread-6853a2d2ddfd",
       "thread_depth": 2,
-      "month": "2008-09"
+      "month": "2008-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-September/000144.html"
     },
     {
       "id": "msg-22b55901dcc6",
@@ -74,6 +77,7 @@
       "thread_id": "thread-22b55901dcc6",
       "thread_depth": 0,
       "month": "2008-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2008-September/000145.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20080917/c5f17b42/attachment.pl"
       ]

@@ -13,11 +13,12 @@
       "subject_clean": "Age-period-cohort models for lung cancer mortality rates",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "GeleiraHello!\nI work at National Cancer Institute, Brazil and I'm interested on fit age-period-cohort models for lung cancer mortality rates.\nI'm using the Epi package, but I have a problem. There is over-dispersion on my data. How can I deal with this problem? Some one can suggest a solution?\nThanks\n--\nMirian Carvalho de Souza\nInstituto Nacional de C?ncer/MS\n\n-------------- Pr?xima Parte ----------\nUm anexo em HTML foi limpo...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100519/86338b9b/attachment.html>\n-------------- Pr?xima Parte ----------\nUm anexo n?o-texto foi limpo...\nNome: n?o dispon?vel\nTipo: image/jpeg\nTamanho: 2743 bytes\nDescri??o: n?o dispon?vel\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100519/86338b9b/attachment.jpe>",
+      "body_plain": "GeleiraHello!\nI work at National Cancer Institute, Brazil and I'm interested on fit age-period-cohort models for lung cancer mortality rates.\nI'm using the Epi package, but I have a problem. There is over-dispersion on my data. How can I deal with this problem? Some one can suggest a solution?\nThanks\n--\nMirian Carvalho de Souza\nInstituto Nacional de Câncer/MS\n\n-------------- Pr?xima Parte ----------\nUm anexo em HTML foi limpo...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100519/86338b9b/attachment.html>\n-------------- Pr?xima Parte ----------\nUm anexo n?o-texto foi limpo...\nNome: n?o dispon?vel\nTipo: image/jpeg\nTamanho: 2743 bytes\nDescri??o: n?o dispon?vel\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100519/86338b9b/attachment.jpe>",
       "body_snippet": "GeleiraHello!\nI work at National Cancer Institute, Brazil and I'm interested on fit age-period-cohort models for lung cancer mortality rates.\nI'm using the Epi package, but I have a problem. There is ",
       "thread_id": "thread-d0ba4363023f",
       "thread_depth": 0,
-      "month": "2010-05"
+      "month": "2010-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-May/000199.html"
     },
     {
       "id": "msg-7c7431f68c84",
@@ -31,11 +32,12 @@
       "references": [
         "<mailman.1.1274349601.23867.r-sig-epi@stat.math.ethz.ch>"
       ],
-      "body_plain": "Ol? Mirian,\n\nAre you using Poisson models with an offset?  I've never tried this  \nwith the Epi package so giving us some sample code and sample data  \nstructure would help.\n\nBut if you simply use glm, one way to account for over-dispersion is  \nby specifying family=quasipoisson.  It maximizes the quasilikelihood  \nrather than the likelihood (don't ask me the maths of this, maybe  \nstart with the Wikipedia...).\n\nAnother approach might be hierarchical modelling but we'd need to know  \nyour data structure.\n\nCheers.\n\nDavid Evans\n-----------------\nEpidemiologist, Kappa Sant?\n\n\n>\n> Message: 1\n> Date: Wed, 19 May 2010 10:10:58 -0300\n> From: \"Mirian Carvalho de Souza\" <miriancs at inca.gov.br>\n> To: <bxc at steno.dk>\n> Cc: r-sig-epi at stat.math.ethz.ch, Mirian Gmail <miriancs99 at gmail.com>\n> Subject: [R-sig-Epi] Age-period-cohort models for lung cancer\n> \tmortality rates\n> Message-ID: <E587D8FA5FB8444EBC572547CAFEA18B at inca.local>\n> Content-Type: text/plain; charset=\"iso-8859-1\"\n>\n> GeleiraHello!\n> I work at National Cancer Institute, Brazil and I'm interested on  \n> fit age-period-cohort models for lung cancer mortality rates.\n> I'm using the Epi package, but I have a problem. There is over- \n> dispersion on my data. How can I deal with this problem? Some one  \n> can suggest a solution?\n> Thanks\n> --\n> Mirian Carvalho de Souza\n> Instituto Nacional de C?ncer/MS",
-      "body_snippet": "Ol? Mirian,\n\nAre you using Poisson models with an offset?  I've never tried this  \nwith the Epi package so giving us some sample code and sample data  \nstructure would help.\n\nBut if you simply use glm",
+      "body_plain": "Olà Mirian,\n\nAre you using Poisson models with an offset?  I've never tried this  \nwith the Epi package so giving us some sample code and sample data  \nstructure would help.\n\nBut if you simply use glm, one way to account for over-dispersion is  \nby specifying family=quasipoisson.  It maximizes the quasilikelihood  \nrather than the likelihood (don't ask me the maths of this, maybe  \nstart with the Wikipedia...).\n\nAnother approach might be hierarchical modelling but we'd need to know  \nyour data structure.\n\nCheers.\n\nDavid Evans\n-----------------\nEpidemiologist, Kappa Santé\n\n\n>\n> Message: 1\n> Date: Wed, 19 May 2010 10:10:58 -0300\n> From: \"Mirian Carvalho de Souza\" <miriancs at inca.gov.br>\n> To: <bxc at steno.dk>\n> Cc: r-sig-epi at stat.math.ethz.ch, Mirian Gmail <miriancs99 at gmail.com>\n> Subject: [R-sig-Epi] Age-period-cohort models for lung cancer\n> \tmortality rates\n> Message-ID: <E587D8FA5FB8444EBC572547CAFEA18B at inca.local>\n> Content-Type: text/plain; charset=\"iso-8859-1\"\n>\n> GeleiraHello!\n> I work at National Cancer Institute, Brazil and I'm interested on  \n> fit age-period-cohort models for lung cancer mortality rates.\n> I'm using the Epi package, but I have a problem. There is over- \n> dispersion on my data. How can I deal with this problem? Some one  \n> can suggest a solution?\n> Thanks\n> --\n> Mirian Carvalho de Souza\n> Instituto Nacional de C?ncer/MS",
+      "body_snippet": "Olà Mirian,\n\nAre you using Poisson models with an offset?  I've never tried this  \nwith the Epi package so giving us some sample code and sample data  \nstructure would help.\n\nBut if you simply use glm",
       "thread_id": "thread-7c7431f68c84",
       "thread_depth": 0,
-      "month": "2010-05"
+      "month": "2010-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-May/000200.html"
     },
     {
       "id": "msg-c187c9d4e8ae",
@@ -51,7 +53,8 @@
       "body_snippet": "Trying to separatey correlate the regions of HIV-1's gp120 \nwith neutralization data. I have comparison matrixes for \nthe sequences and cross-clade neutralization data. My guess\nis that analyzing in t",
       "thread_id": "thread-c187c9d4e8ae",
       "thread_depth": 0,
-      "month": "2010-05"
+      "month": "2010-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-May/000201.html"
     },
     {
       "id": "msg-6b30c4ef7767",
@@ -67,7 +70,8 @@
       "body_snippet": "Dear Steven,\n\nYou find the classical Factor Analysis in\nfactanal in the package \"stats\".\n\nFA is found also in other packages.\n\nIf you want Confirmative Factor Analysis\nyou find it as a subset of sem i",
       "thread_id": "thread-6b30c4ef7767",
       "thread_depth": 0,
-      "month": "2010-05"
+      "month": "2010-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-May/000202.html"
     },
     {
       "id": "msg-e66f3f32ad90",
@@ -86,6 +90,7 @@
       "thread_id": "thread-e66f3f32ad90",
       "thread_depth": 0,
       "month": "2010-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-May/000203.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100525/fc4f8788/attachment.pl"
       ]
@@ -104,7 +109,8 @@
       "body_snippet": "Um anexo em HTML foi limpo...\nURL: <https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100525/429a8d9c/attachment.html>",
       "thread_id": "thread-ba7ecf14204a",
       "thread_depth": 0,
-      "month": "2010-05"
+      "month": "2010-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-May/000204.html"
     },
     {
       "id": "msg-381d07a089ae",
@@ -125,6 +131,7 @@
       "thread_id": "thread-381d07a089ae",
       "thread_depth": 0,
       "month": "2010-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-May/000205.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20100525/63223dc4/attachment.pl"
       ]
@@ -143,7 +150,8 @@
       "body_snippet": "Geleira\nOi David!\nI'm using Poisson models.\nI studied the help files of Epi package, and I didn't find a solution for \noverdispersion.\nI've checked and the data has overdispersion for 1-year classes a",
       "thread_id": "thread-66c8789f272c",
       "thread_depth": 0,
-      "month": "2010-05"
+      "month": "2010-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2010-May/000206.html"
     }
   ],
   "threads": [

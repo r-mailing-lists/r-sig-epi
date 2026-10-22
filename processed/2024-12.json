@@ -17,7 +17,8 @@
       "body_snippet": "Hi everyone\n\nInstats is pleased to be co-hosting a free seminar Introduction to Git <https://instats.org/seminar/introduction-to-git-free-seminar2>, running Dec 10th. Git is the quintessential version",
       "thread_id": "thread-4472ff801a2b",
       "thread_depth": 0,
-      "month": "2024-12"
+      "month": "2024-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-December/000392.html"
     },
     {
       "id": "msg-aef61feb7f6a",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi everyone\n\nInstats is pleased to be offering a new 1-day seminar on Principles of Data Visualization <https://instats.org/seminar/principles-of-data-visualization3>, running Dec 18 by professor Dani",
       "thread_id": "thread-aef61feb7f6a",
       "thread_depth": 0,
-      "month": "2024-12"
+      "month": "2024-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-December/000393.html"
     },
     {
       "id": "msg-fe0eb8b8c68c",
@@ -49,7 +51,8 @@
       "body_snippet": "Hi everyone\n\nInstats is offering a new 4-day workshop on Bayesian Spatial and Spatio-Temporal Health Modeling in R <https://instats.org/seminar/bayesian-spatial-and-spatio-temporal-mod2>, running Jan ",
       "thread_id": "thread-fe0eb8b8c68c",
       "thread_depth": 0,
-      "month": "2024-12"
+      "month": "2024-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-December/000394.html"
     },
     {
       "id": "msg-0a926cf0f536",
@@ -65,7 +68,8 @@
       "body_snippet": "Hi everyone\n\nInstats is offering two new 4-day seminars on Meta-Analysis: Introductory and Advanced <https://instats.org/structuredcourse/meta-analysis-introductory-and-advanced2>, running Jan 13 - 16",
       "thread_id": "thread-0a926cf0f536",
       "thread_depth": 0,
-      "month": "2024-12"
+      "month": "2024-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-December/000395.html"
     },
     {
       "id": "msg-9b771d5b28a3",
@@ -81,7 +85,8 @@
       "body_snippet": "ONLINE COURSE ? Species Distribution Modelling With Bayesian Statistics\nUsing R (SDMB06)\n\nhttps://www.prstats.org/course/online-course-species-distribution-modelling-with-bayesian-statistics-using-r-s",
       "thread_id": "thread-9b771d5b28a3",
       "thread_depth": 0,
-      "month": "2024-12"
+      "month": "2024-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2024-December/000396.html"
     }
   ],
   "threads": [

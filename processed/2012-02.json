@@ -19,7 +19,8 @@
       "body_snippet": "Dear friends,\n\n1-I have B.I value (Dependent variable).\n2-I have land cover types in the form of % area against each B.I (that was\nclipped through buffer for each B.I ). Buffer was put by considering ",
       "thread_id": "thread-482e31030610",
       "thread_depth": 0,
-      "month": "2012-02"
+      "month": "2012-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2012-February/000267.html"
     },
     {
       "id": "msg-913add6ecd3e",
@@ -38,7 +39,8 @@
       "body_snippet": "Dear Malik Arshad,\nthis list is a list for asking questions and advice relating to the Epi-package and  broader epidemiological questions related to that.\n\nIt is NOT for asking help to solve assignmen",
       "thread_id": "thread-482e31030610",
       "thread_depth": 1,
-      "month": "2012-02"
+      "month": "2012-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2012-February/000268.html"
     }
   ],
   "threads": [
