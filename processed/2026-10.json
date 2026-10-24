@@ -155,6 +155,23 @@
       "thread_depth": 0,
       "month": "2026-10",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-October/000674.html"
+    },
+    {
+      "id": "msg-d87d293714ed",
+      "message_id": "<IKqCZ-2QR8aZQnkKCoxOsw@geopod-ismtpd-4>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-10-23T14:06:15Z",
+      "subject": "[R-sig-Epi] Spatial Statistics in R for Epidemiology",
+      "subject_clean": "Spatial Statistics in R for Epidemiology",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Bring principled spatial inference to geographically referenced epidemiological data. Applied Spatial Statistics Using R is a 2-day seminar livestreaming October 26 and November 6 with Arnab Hazra (Indian Institute of Technology Kanpur) and Suman Majumder (Indian Statistical Institute). Spatial dependence assessment, variogram modelling, and kriging in R can strengthen analyses of geographically indexed disease data. Participants can examine autocorrelation, fit spatial regression models, and quantify predictive uncertainty rather than treating nearby observations as independent. These methods can support transparent epidemiological inference, mapped risk estimates, and clear reporting for public health research.\n\nDetails and registration: https://instats.org/seminar/applied-spatial-statistics-using-r\nThe seminar page includes the full schedule and registration details.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Bring principled spatial inference to geographically referenced epidemiological data. Applied Spatial Statistics Using R is a 2-day seminar livestreaming October ",
+      "thread_id": "thread-d87d293714ed",
+      "thread_depth": 0,
+      "month": "2026-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-October/000675.html"
     }
   ],
   "threads": [
@@ -256,6 +273,17 @@
       "started": "2026-10-21T14:01:14Z",
       "last_reply": "2026-10-21T14:01:14Z",
       "root_message_id": "msg-fa1e386a673e"
+    },
+    {
+      "id": "thread-d87d293714ed",
+      "subject": "Spatial Statistics in R for Epidemiology",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-10-23T14:06:15Z",
+      "last_reply": "2026-10-23T14:06:15Z",
+      "root_message_id": "msg-d87d293714ed"
     }
   ]
 }
