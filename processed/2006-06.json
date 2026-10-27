@@ -163,11 +163,12 @@
         "<DDE644DA72721B448193AF07C0E1C26926A359@UTHEVS5.mail.uthouston.edu>",
         "<001c01c69b8d$0c127cb0$260c050a@biometria>"
       ],
-      "body_plain": "Mayelin Mirabal Sosa wrote:\n> Dear all, I need to perform a Levene?s test for homogeneity of variances in\n> R (levene.test {car}). I installed a package \"car\" but, when I load it, two\n> errors are reported:  1. Error in lazyLoadDBfetch(key, datafile, compressed,\n> envhook) : ReadItem: unknown type 241 2. Error: package/namespace load\n> failed for 'car' If anyone has encountered this problem before I would be\n> happy to hear a solution.Thanks in anticipation,Mayelin\n\nI think you have a better probability of receiving an answer quickly if\nyou post your question to the general R-help list, but please read the\n'R posting guide\" at http://www.r-project.org/posting-guide.html and\nfollow its recommendations precisely. If you do that, you are very\nlikely to get a friendly and very helpful reply very quickly. However,\nif you ignore the posting guide recommendations you will probably\nreceive a curt and irritated reply which may not answer your question.\nIn particular, be sure to specify your computer's operating system and\nthe version of R and the car package you are using.\n\nTim C",
-      "body_snippet": "Mayelin Mirabal Sosa wrote:\n> Dear all, I need to perform a Levene?s test for homogeneity of variances in\n> R (levene.test {car}). I installed a package \"car\" but, when I load it, two\n> errors are rep",
+      "body_plain": "Mayelin Mirabal Sosa wrote:\n> Dear all, I need to perform a Levene´s test for homogeneity of variances in\n> R (levene.test {car}). I installed a package \"car\" but, when I load it, two\n> errors are reported:  1. Error in lazyLoadDBfetch(key, datafile, compressed,\n> envhook) : ReadItem: unknown type 241 2. Error: package/namespace load\n> failed for 'car' If anyone has encountered this problem before I would be\n> happy to hear a solution.Thanks in anticipation,Mayelin\n\nI think you have a better probability of receiving an answer quickly if\nyou post your question to the general R-help list, but please read the\n'R posting guide\" at http://www.r-project.org/posting-guide.html and\nfollow its recommendations precisely. If you do that, you are very\nlikely to get a friendly and very helpful reply very quickly. However,\nif you ignore the posting guide recommendations you will probably\nreceive a curt and irritated reply which may not answer your question.\nIn particular, be sure to specify your computer's operating system and\nthe version of R and the car package you are using.\n\nTim C",
+      "body_snippet": "Mayelin Mirabal Sosa wrote:\n> Dear all, I need to perform a Levene´s test for homogeneity of variances in\n> R (levene.test {car}). I installed a package \"car\" but, when I load it, two\n> errors are rep",
       "thread_id": "thread-924fcf67b946",
       "thread_depth": 2,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-June/000020.html"
     },
     {
       "id": "msg-63fbf700ae1c",
@@ -182,11 +183,12 @@
         "<DDE644DA72721B448193AF07C0E1C26926A359@UTHEVS5.mail.uthouston.edu>",
         "<001c01c69b8d$0c127cb0$260c050a@biometria>"
       ],
-      "body_plain": "Mayelin Mirabal Sosa wrote:\n> Dear all, I need to perform a Levene?s test for homogeneity of variances in\n> R (levene.test {car}). I installed a package \"car\" but, when I load it, two\n> errors are reported:  1. Error in lazyLoadDBfetch(key, datafile, compressed,\n> envhook) : ReadItem: unknown type 241 2. Error: package/namespace load\n> failed for 'car' If anyone has encountered this problem before I would be\n> happy to hear a solution.Thanks in anticipation,Mayelin\n\nI think you have a better probability of receiving an answer quickly if\nyou post your question to the general R-help list, but please read the\n'R posting guide\" at http://www.r-project.org/posting-guide.html and\nfollow its recommendations precisely. If you do that, you are very\nlikely to get a friendly and very helpful reply very quickly. However,\nif you ignore the posting guide recommendations you will probably\nreceive a curt and irritated reply which may not answer your question.\nIn particular, be sure to specify your computer's operating system and\nthe version of R and the car package you are using.\n\nTim C",
-      "body_snippet": "Mayelin Mirabal Sosa wrote:\n> Dear all, I need to perform a Levene?s test for homogeneity of variances in\n> R (levene.test {car}). I installed a package \"car\" but, when I load it, two\n> errors are rep",
+      "body_plain": "Mayelin Mirabal Sosa wrote:\n> Dear all, I need to perform a Levene´s test for homogeneity of variances in\n> R (levene.test {car}). I installed a package \"car\" but, when I load it, two\n> errors are reported:  1. Error in lazyLoadDBfetch(key, datafile, compressed,\n> envhook) : ReadItem: unknown type 241 2. Error: package/namespace load\n> failed for 'car' If anyone has encountered this problem before I would be\n> happy to hear a solution.Thanks in anticipation,Mayelin\n\nI think you have a better probability of receiving an answer quickly if\nyou post your question to the general R-help list, but please read the\n'R posting guide\" at http://www.r-project.org/posting-guide.html and\nfollow its recommendations precisely. If you do that, you are very\nlikely to get a friendly and very helpful reply very quickly. However,\nif you ignore the posting guide recommendations you will probably\nreceive a curt and irritated reply which may not answer your question.\nIn particular, be sure to specify your computer's operating system and\nthe version of R and the car package you are using.\n\nTim C",
+      "body_snippet": "Mayelin Mirabal Sosa wrote:\n> Dear all, I need to perform a Levene´s test for homogeneity of variances in\n> R (levene.test {car}). I installed a package \"car\" but, when I load it, two\n> errors are rep",
       "thread_id": "thread-924fcf67b946",
       "thread_depth": 2,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2006-June/000019.html"
     }
   ],
   "threads": [

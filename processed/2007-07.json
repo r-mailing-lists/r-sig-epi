@@ -151,11 +151,12 @@
       "references": [
         "<1B80C974ABFB23429A403B6667FE84C7B0EAAA@seiumain.SEIU.local>"
       ],
-      "body_plain": "A Dimecres 25 Juliol 2007 21:34, Lynn Disney va escriure:\n> I need to create dummy variables, for an ID when 3 conditions exist. I\n> am having problems figuring out how to do this. For example, I want\n> variablea=1 and variableb=1 and variablec=1 and then have variableD\n> turned into a 1 when these conditions are true and 0 when any one of\n> them are false.\n\nMy easy way with a variable (YEAR) with 5 values (2002-2006):\n\nany2002 <- ifelse(YEAR==2002,1,0)\nany2003 <- ifelse(YEAR==2003,1,0)\nany2004 <- ifelse(YEAR==2004,1,0)\nany2005 <- ifelse(YEAR==2005,1,0)\nany2006 <- ifelse(YEAR==2006,1,0)\n\nRegards\n\n\n\n>\n>\n>\n> Suggestions?\n>\n>\n>\n> Lynn D. Disney, Ph.D., J.D., M.P.H.\n>\n>\n>\n>\n> \t[[alternative HTML version deleted]]\n>\n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n-- \n\n\n\"Coda vez m?s el periodismo es un invertario de obviedades y de chismes\"\nJos? Vidal-Beneyto, La derechizaci?n del mundo / 4, El Pais 21-04-07 pag 8",
+      "body_plain": "A Dimecres 25 Juliol 2007 21:34, Lynn Disney va escriure:\n> I need to create dummy variables, for an ID when 3 conditions exist. I\n> am having problems figuring out how to do this. For example, I want\n> variablea=1 and variableb=1 and variablec=1 and then have variableD\n> turned into a 1 when these conditions are true and 0 when any one of\n> them are false.\n\nMy easy way with a variable (YEAR) with 5 values (2002-2006):\n\nany2002 <- ifelse(YEAR==2002,1,0)\nany2003 <- ifelse(YEAR==2003,1,0)\nany2004 <- ifelse(YEAR==2004,1,0)\nany2005 <- ifelse(YEAR==2005,1,0)\nany2006 <- ifelse(YEAR==2006,1,0)\n\nRegards\n\n\n\n>\n>\n>\n> Suggestions?\n>\n>\n>\n> Lynn D. Disney, Ph.D., J.D., M.P.H.\n>\n>\n>\n>\n> \t[[alternative HTML version deleted]]\n>\n> _______________________________________________\n> R-sig-Epi at stat.math.ethz.ch mailing list\n> https://stat.ethz.ch/mailman/listinfo/r-sig-epi\n\n-- \n\n\n\"Coda vez más el periodismo es un invertario de obviedades y de chismes\"\nJosé Vidal-Beneyto, La derechización del mundo / 4, El Pais 21-04-07 pag 8",
       "body_snippet": "A Dimecres 25 Juliol 2007 21:34, Lynn Disney va escriure:\n> I need to create dummy variables, for an ID when 3 conditions exist. I\n> am having problems figuring out how to do this. For example, I want",
       "thread_id": "thread-a17d458f3f85",
       "thread_depth": 1,
-      "month": "2007-07"
+      "month": "2007-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-July/000050.html"
     },
     {
       "id": "msg-7ca5c7cd2149",
@@ -169,11 +170,12 @@
       "references": [
         "<mailman.13.1185444014.21813.r-sig-epi@stat.math.ethz.ch>"
       ],
-      "body_plain": "Un texte encapsul? et encod? dans un jeu de caract?res inconnu a ?t? nettoy?...\nNom : non disponible\nUrl : https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070726/d5d42d76/attachment.pl",
-      "body_snippet": "Un texte encapsul? et encod? dans un jeu de caract?res inconnu a ?t? nettoy?...\nNom : non disponible\nUrl : https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070726/d5d42d76/attachment.pl",
+      "body_plain": "Un texte encapsulé et encodé dans un jeu de caractères inconnu a été nettoyé...\nNom : non disponible\nUrl : https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070726/d5d42d76/attachment.pl",
+      "body_snippet": "Un texte encapsulé et encodé dans un jeu de caractères inconnu a été nettoyé...\nNom : non disponible\nUrl : https://stat.ethz.ch/pipermail/r-sig-epi/attachments/20070726/d5d42d76/attachment.pl",
       "thread_id": "thread-7ca5c7cd2149",
       "thread_depth": 0,
-      "month": "2007-07"
+      "month": "2007-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-July/000051.html"
     }
   ],
   "threads": [

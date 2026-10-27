@@ -68,7 +68,8 @@
       "body_snippet": "-----Original Message-----\nFrom: r-sig-epi-bounces at stat.math.ethz.ch\n[mailto:r-sig-epi-bounces at stat.math.ethz.ch]On Behalf Of\nr-sig-epi-request at stat.math.ethz.ch\nSent: Thursday, October 04, 2",
       "thread_id": "thread-ee3ab8a52a90",
       "thread_depth": 0,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-October/000081.html"
     },
     {
       "id": "msg-28a47d373e6b",
@@ -118,7 +119,8 @@
       "body_snippet": "Hi Ralf,\n\nI found your problem interesting, so here is my take:\n\nIf you are just interested in the last year compared with the previous 4,\nthen the answer in my last post would suffice. If you are int",
       "thread_id": "thread-4dd2eef5ee9b",
       "thread_depth": 0,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-October/000084.html"
     },
     {
       "id": "msg-b78908564d76",
@@ -137,7 +139,8 @@
       "body_snippet": "Ralf and Ian\n\nYou could try an overdispersion model, an example being\n\n###\nrate<-c(28,17,14,26,32,41,42,44,43,50,37,45,48,65,44,64,69,87,74,70,72,6\n7,75\n,73,69,65,28)\nyear<-0:26\nscatter.smooth(year,ra",
       "thread_id": "thread-4dd2eef5ee9b",
       "thread_depth": 1,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2007-October/000085.html"
     },
     {
       "id": "msg-8333774a8109",
