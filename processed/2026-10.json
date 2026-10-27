@@ -172,6 +172,23 @@
       "thread_depth": 0,
       "month": "2026-10",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-October/000675.html"
+    },
+    {
+      "id": "msg-70a6ebed98ed",
+      "message_id": "<Bhn19HQlSWuiAwshWdb0ig@geopod-ismtpd-1>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-10-26T14:00:39Z",
+      "subject": "[R-sig-Epi] Modern causal inference methods in R",
+      "subject_clean": "Modern causal inference methods in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Develop clearer grounds for causal claims in epidemiological analyses. Modern Causal Inference Methods (Europe/UK) is a seminar livestreaming October 28 with Michael Zyphur (Instats | instats.org). R workflows for matching, inverse probability weighting, g-computation, and doubly robust estimation support careful analysis of epidemiological data. Participants assess balance, overlap, treatment effect heterogeneity, and the assumptions behind causal estimates. The material can be applied to observational studies, administrative records, and health datasets where interventions were not randomly assigned.\n\nDetails and registration: https://instats.org/seminar/modern-causal-inference-methods-europeuk\nPlease circulate this reminder if it is relevant to colleagues or students.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Develop clearer grounds for causal claims in epidemiological analyses. Modern Causal Inference Methods (Europe/UK) is a seminar livestreaming October 28 with Mich",
+      "thread_id": "thread-70a6ebed98ed",
+      "thread_depth": 0,
+      "month": "2026-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-October/000676.html"
     }
   ],
   "threads": [
@@ -284,6 +301,17 @@
       "started": "2026-10-23T14:06:15Z",
       "last_reply": "2026-10-23T14:06:15Z",
       "root_message_id": "msg-d87d293714ed"
+    },
+    {
+      "id": "thread-70a6ebed98ed",
+      "subject": "Modern causal inference methods in R",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-10-26T14:00:39Z",
+      "last_reply": "2026-10-26T14:00:39Z",
+      "root_message_id": "msg-70a6ebed98ed"
     }
   ]
 }
