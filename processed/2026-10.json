@@ -189,6 +189,23 @@
       "thread_depth": 0,
       "month": "2026-10",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-October/000676.html"
+    },
+    {
+      "id": "msg-0861bb0b16eb",
+      "message_id": "<H_YdYu-GSvyv_vhyswWx7w@geopod-ismtpd-2>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-10-29T14:01:12Z",
+      "subject": "[R-sig-Epi] Build an AI research agent",
+      "subject_clean": "Build an AI research agent",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Reliable epidemiological analysis depends on decisions that remain visible to the researcher. Build Your Own AI Research Agent is a 2-day seminar livestreaming October 29?30 with Leonid Chindelevitch (School of Public Health, Imperial College London). Research agent design includes specifying tasks and setting boundaries for automated workflows. Epidemiologists using R can apply these principles when considering assistance with data handling and documentation. Demonstrations address how researchers can check intermediate results and retain control over analysis.\n\nDetails and registration: https://instats.org/seminar/build-your-own-ai-research-agent\nPlease circulate this reminder if it is relevant to colleagues or students.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Reliable epidemiological analysis depends on decisions that remain visible to the researcher. Build Your Own AI Research Agent is a 2-day seminar livestreaming Oc",
+      "thread_id": "thread-0861bb0b16eb",
+      "thread_depth": 0,
+      "month": "2026-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-October/000677.html"
     }
   ],
   "threads": [
@@ -312,6 +329,17 @@
       "started": "2026-10-26T14:00:39Z",
       "last_reply": "2026-10-26T14:00:39Z",
       "root_message_id": "msg-70a6ebed98ed"
+    },
+    {
+      "id": "thread-0861bb0b16eb",
+      "subject": "Build an AI research agent",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-10-29T14:01:12Z",
+      "last_reply": "2026-10-29T14:01:12Z",
+      "root_message_id": "msg-0861bb0b16eb"
     }
   ]
 }
