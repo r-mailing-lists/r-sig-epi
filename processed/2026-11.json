@@ -1,0 +1,37 @@
+{
+  "list": "r-sig-epi",
+  "description": "",
+  "month": "2026-11",
+  "messages": [
+    {
+      "id": "msg-448f93da7920",
+      "message_id": "<A2H_t4LtRCeVF1JigeJUvw@geopod-ismtpd-8>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-11-02T15:01:44Z",
+      "subject": "[R-sig-Epi] Reminder: Seminal Ideas & Controversies in Statistics",
+      "subject_clean": "Reminder: Seminal Ideas & Controversies in Statistics",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Analytical choices in epidemiology carry assumptions that deserve attention alongside the code used. Seminal Ideas & Controversies in Statistics: A Short Course is a 2-day seminar livestreaming November 3?4 with Roderick Little (Department of Biostatistics, University of Michigan). Likelihood inference and generalized estimating equations offer different approaches to analysing correlated data. Epidemiologists using R can draw on the comparison when choosing and explaining methods for longitudinal studies. The discussion of probability sampling and randomized trials also connects statistical inference with study design.\n\nDetails and registration: https://instats.org/seminar/seminal-ideas-and-controversies-in-stati-2\nThe seminar page includes the full schedule and registration details.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Analytical choices in epidemiology carry assumptions that deserve attention alongside the code used. Seminal Ideas & Controversies in Statistics: A Short Course i",
+      "thread_id": "thread-448f93da7920",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000678.html"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-448f93da7920",
+      "subject": "Reminder: Seminal Ideas & Controversies in Statistics",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-11-02T15:01:44Z",
+      "last_reply": "2026-11-02T15:01:44Z",
+      "root_message_id": "msg-448f93da7920"
+    }
+  ]
+}
