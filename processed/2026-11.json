@@ -36,6 +36,23 @@
       "thread_depth": 0,
       "month": "2026-11",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000679.html"
+    },
+    {
+      "id": "msg-26265a1ebf5b",
+      "message_id": "<X9eEfmY0QIa2um4lDogNLw@geopod-ismtpd-4>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-11-04T15:01:49Z",
+      "subject": "[R-sig-Epi] AI Agents for Reliable Research",
+      "subject_clean": "AI Agents for Reliable Research",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Researchers can retain scientific judgment while assigning bounded analytical tasks to AI agents. Harnessing AI Agents for Reliable Research is a seminar livestreaming November 4 with Hadi Fariborzi (Bissett School of Business, Mount Royal University, Calgary). Build agent workflows with fixed evaluation criteria and stopping rules to support reproducible analysis. Epidemiological researchers using R can apply validation checks to pipelines that rerun from raw data. Decision logs and concise output summaries make the steps easier to inspect.\n\nDetails and registration: https://instats.org/seminar/harnessing-ai-agents-for-reliable-resear\nThe seminar page includes the full schedule and registration details.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Researchers can retain scientific judgment while assigning bounded analytical tasks to AI agents. Harnessing AI Agents for Reliable Research is a seminar livestre",
+      "thread_id": "thread-26265a1ebf5b",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000680.html"
     }
   ],
   "threads": [
@@ -60,6 +77,17 @@
       "started": "2026-11-03T15:53:19Z",
       "last_reply": "2026-11-03T15:53:19Z",
       "root_message_id": "msg-51403664fd29"
+    },
+    {
+      "id": "thread-26265a1ebf5b",
+      "subject": "AI Agents for Reliable Research",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-11-04T15:01:49Z",
+      "last_reply": "2026-11-04T15:01:49Z",
+      "root_message_id": "msg-26265a1ebf5b"
     }
   ]
 }
