@@ -53,6 +53,40 @@
       "thread_depth": 0,
       "month": "2026-11",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000680.html"
+    },
+    {
+      "id": "msg-b21fe13eb543",
+      "message_id": "<pj-lX-3GQP-5ZaCPsVXUHQ@geopod-ismtpd-0>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-11-05T15:04:04Z",
+      "subject": "[R-sig-Epi] Data-Driven Methods for Deploying AI",
+      "subject_clean": "Data-Driven Methods for Deploying AI",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Reliable measurement matters when research moves from controlled settings into everyday environments. Data-Driven Methods for Deploying AI is a seminar livestreaming November 6 with Manish Chauhan (School of Physics, Engineering and Technology, University of York). Statistical divergence measures can quantify differences between simulated and observed data when evaluating AI systems. Epidemiological researchers can apply these diagnostics to wearable sensor data and assess how measurement error affects deployment. Bayesian estimation and uncertainty quantification offer ways to support inference when observations are sparse or corrupted.\n\nDetails and registration: https://instats.org/seminar/data-driven-methods-for-deploying-ai-1\nFull details are available on the Instats seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Reliable measurement matters when research moves from controlled settings into everyday environments. Data-Driven Methods for Deploying AI is a seminar livestream",
+      "thread_id": "thread-b21fe13eb543",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000681.html"
+    },
+    {
+      "id": "msg-33987dd2a96a",
+      "message_id": "<1793892713.647921433@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-11-05T15:31:53Z",
+      "subject": "[R-sig-Epi] online course - Markov and Hidden Markov Models in R",
+      "subject_clean": "online course - Markov and Hidden Markov Models in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nWould you like to learn how to analyse longitudinal data using Markov and Hidden Markov models?\n \nJoin our online course Markov and Hidden Markov Models in R, taking place on 19?22 January 2027.\n \nThe course introduces the theoretical foundations of Markov and Hidden Markov models, with a strong focus on practical applications. Through interactive sessions and hands-on exercises in R using the LMest package, you will learn how to specify, estimate and interpret these models, including extensions with covariates and applications to continuous, categorical and incomplete longitudinal data.\n \nBy the end of the course, you will be able to:\n\nUnderstand the fundamentals of discrete latent variable models.\n\nEstimate Markov and Hidden Markov models for continuous and categorical longitudinal data, including datasets with missing values.\n\nPerform model selection and assess parameter uncertainty using bootstrap procedures.\n \nCourse website: [ https://www.physalia-courses.org/courses-workshops/markov-and-hidden-markov-models-with-applications-in-r/ ]( https://www.physalia-courses.org/courses-workshops/markov-and-hidden-markov-models-with-applications-in-r/ ) \n \n \nBest wishes,\nCarlo\n \n \n \n\n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\nWould you like to learn how to analyse longitudinal data using Markov and Hidden Markov models?\n \nJoin our online course Markov and Hidden Markov Models in R, taking place on 19?22 January 2",
+      "thread_id": "thread-33987dd2a96a",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000682.html"
     }
   ],
   "threads": [
@@ -88,6 +122,28 @@
       "started": "2026-11-04T15:01:49Z",
       "last_reply": "2026-11-04T15:01:49Z",
       "root_message_id": "msg-26265a1ebf5b"
+    },
+    {
+      "id": "thread-b21fe13eb543",
+      "subject": "Data-Driven Methods for Deploying AI",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-11-05T15:04:04Z",
+      "last_reply": "2026-11-05T15:04:04Z",
+      "root_message_id": "msg-b21fe13eb543"
+    },
+    {
+      "id": "thread-33987dd2a96a",
+      "subject": "online course - Markov and Hidden Markov Models in R",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-11-05T15:31:53Z",
+      "last_reply": "2026-11-05T15:31:53Z",
+      "root_message_id": "msg-33987dd2a96a"
     }
   ]
 }

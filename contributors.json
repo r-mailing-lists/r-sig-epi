@@ -3,13 +3,25 @@
     "name": "mzyphur m@iii@g oii i@st@ts@org",
     "slug": "mzyphur-m-iii-g-oii-i-st-ts-org",
     "emailHash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
-    "messageCount": 169,
+    "messageCount": 170,
     "firstDate": "2024-08-20T08:20:01Z",
-    "lastDate": "2026-11-04T15:01:49Z",
+    "lastDate": "2026-11-05T15:04:04Z",
     "yearlyActivity": {
       "2024": 17,
       "2025": 50,
-      "2026": 102
+      "2026": 103
+    }
+  },
+  {
+    "name": "i@io m@iii@g oii phys@ii@-courses@org",
+    "slug": "i-io-m-iii-g-oii-phys-ii-courses-org",
+    "emailHash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+    "messageCount": 55,
+    "firstDate": "2025-07-01T09:18:49Z",
+    "lastDate": "2026-11-05T15:31:53Z",
+    "yearlyActivity": {
+      "2025": 23,
+      "2026": 32
     }
   },
   {
@@ -32,18 +44,6 @@
       "2014": 2,
       "2015": 1,
       "2016": 1
-    }
-  },
-  {
-    "name": "i@io m@iii@g oii phys@ii@-courses@org",
-    "slug": "i-io-m-iii-g-oii-phys-ii-courses-org",
-    "emailHash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
-    "messageCount": 54,
-    "firstDate": "2025-07-01T09:18:49Z",
-    "lastDate": "2026-10-20T08:25:41Z",
-    "yearlyActivity": {
-      "2025": 23,
-      "2026": 31
     }
   },
   {
