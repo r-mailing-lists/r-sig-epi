@@ -87,6 +87,23 @@
       "thread_depth": 0,
       "month": "2026-11",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000682.html"
+    },
+    {
+      "id": "msg-e72e8575ba45",
+      "message_id": "<jrGvmPlsRuuXzvxFhTqBDg@geopod-ismtpd-canary-0>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-11-09T15:03:49Z",
+      "subject": "[R-sig-Epi] Geographic and Intersectional Momentary Assessment",
+      "subject_clean": "Geographic and Intersectional Momentary Assessment",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Repeated observations can bring geographic context into studies of health inequality. Geographic, Intersectional Ecological Momentary Assessment is a 2-day seminar livestreaming November 11?12 with Stephanie Cook (New York University). Multilevel models for GPS-linked ecological momentary assessment can help epidemiologists examine how health experiences vary across places and people. An annotated R workflow uses simulated data to separate momentary exposure from persistent differences between individuals through person-mean centering. Participants also examine structural measures of neighborhood disadvantage and the limits of causal interpretation.\n\nDetails and registration: https://instats.org/seminar/geographic-intersectional-ecological-mom\nFurther information is available on the seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Repeated observations can bring geographic context into studies of health inequality. Geographic, Intersectional Ecological Momentary Assessment is a 2-day semina",
+      "thread_id": "thread-e72e8575ba45",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000683.html"
     }
   ],
   "threads": [
@@ -144,6 +161,17 @@
       "started": "2026-11-05T15:31:53Z",
       "last_reply": "2026-11-05T15:31:53Z",
       "root_message_id": "msg-33987dd2a96a"
+    },
+    {
+      "id": "thread-e72e8575ba45",
+      "subject": "Geographic and Intersectional Momentary Assessment",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-11-09T15:03:49Z",
+      "last_reply": "2026-11-09T15:03:49Z",
+      "root_message_id": "msg-e72e8575ba45"
     }
   ]
 }
