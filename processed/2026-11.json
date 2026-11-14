@@ -121,6 +121,23 @@
       "thread_depth": 0,
       "month": "2026-11",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000684.html"
+    },
+    {
+      "id": "msg-cc13175e37fa",
+      "message_id": "<9NPaYZMNQuC4MmW3m4PWcg@geopod-ismtpd-4>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-11-13T15:03:54Z",
+      "subject": "[R-sig-Epi] Applied Deep Learning for Epidemiological Research",
+      "subject_clean": "Applied Deep Learning for Epidemiological Research",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological analysis often requires careful choices about how to represent complex data. Applied Deep Learning for Scientific Research is a seminar livestreaming November 16 with Nikolay Oskolkov (Lund University). Autoencoders offer a way to reduce the dimensionality of complex biological data. Epidemiological researchers using R can consider these methods alongside the seminar's treatment of model evaluation and uncertainty when analyzing their own datasets. Practical examples also cover data integration and applications in personalized medicine.\n\nDetails and registration: https://instats.org/seminar/applied-deep-learning-for-scientific-res\nFurther information is available on the seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological analysis often requires careful choices about how to represent complex data. Applied Deep Learning for Scientific Research is a seminar livestream",
+      "thread_id": "thread-cc13175e37fa",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000685.html"
     }
   ],
   "threads": [
@@ -200,6 +217,17 @@
       "started": "2026-11-11T15:03:51Z",
       "last_reply": "2026-11-11T15:03:51Z",
       "root_message_id": "msg-e4900e63f3a3"
+    },
+    {
+      "id": "thread-cc13175e37fa",
+      "subject": "Applied Deep Learning for Epidemiological Research",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-11-13T15:03:54Z",
+      "last_reply": "2026-11-13T15:03:54Z",
+      "root_message_id": "msg-cc13175e37fa"
     }
   ]
 }
