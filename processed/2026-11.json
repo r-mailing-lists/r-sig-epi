@@ -138,6 +138,23 @@
       "thread_depth": 0,
       "month": "2026-11",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000685.html"
+    },
+    {
+      "id": "msg-6dd6efbfec91",
+      "message_id": "<yZCvyrgYQBW1vsTVGC6xiQ@geopod-ismtpd-5>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-11-16T15:05:34Z",
+      "subject": "[R-sig-Epi] Multilevel Modeling for Longitudinal Epidemiology",
+      "subject_clean": "Multilevel Modeling for Longitudinal Epidemiology",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nEpidemiological studies often follow the same units across multiple observations. Multilevel Modeling & Longitudinal Data Analysis is a 2-day seminar livestreaming December 2 and 4, led by Vikas Agrawal (Davis College of Business & Technology, Jacksonville University). Mixed-effects models in R can help epidemiologists distinguish change within units from differences between them. The seminar covers intraclass correlation and variance components for interpreting clustered observations. Participants can also model trajectories and examine how predictors interact with time.\n\nDetails and registration: https://instats.org/seminar/multilevel-modeling-and-longitudinal-dat\nThe seminar page includes the full schedule and registration details.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nEpidemiological studies often follow the same units across multiple observations. Multilevel Modeling & Longitudinal Data Analysis is a 2-day seminar livestreaming December 2 ",
+      "thread_id": "thread-6dd6efbfec91",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000686.html"
     }
   ],
   "threads": [
@@ -228,6 +245,17 @@
       "started": "2026-11-13T15:03:54Z",
       "last_reply": "2026-11-13T15:03:54Z",
       "root_message_id": "msg-cc13175e37fa"
+    },
+    {
+      "id": "thread-6dd6efbfec91",
+      "subject": "Multilevel Modeling for Longitudinal Epidemiology",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-11-16T15:05:34Z",
+      "last_reply": "2026-11-16T15:05:34Z",
+      "root_message_id": "msg-6dd6efbfec91"
     }
   ]
 }
