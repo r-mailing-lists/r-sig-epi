@@ -155,6 +155,23 @@
       "thread_depth": 0,
       "month": "2026-11",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000686.html"
+    },
+    {
+      "id": "msg-897946c7a74e",
+      "message_id": "<XqeVjfOLQCi7MnnzJYX_nQ@geopod-ismtpd-6>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-11-18T15:05:37Z",
+      "subject": "[R-sig-Epi] Networks in Social Science with RStudio",
+      "subject_clean": "Networks in Social Science with RStudio",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Patterns of connection can add context to epidemiological analyses of social relationships. Networks in Social Science is a seminar livestreaming November 26 with Antonio Zinilli (National Research Council of Italy (CNR)). Centrality measures and network visualisation can help researchers interpret patterns in relational data using RStudio. Epidemiologists can apply these methods when studying connections among actors in their research. An introduction to exponential random graph models extends the discussion to network formation and dependence.\n\nDetails and registration: https://instats.org/seminar/networks-in-social-science\nFull details are available on the Instats seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Patterns of connection can add context to epidemiological analyses of social relationships. Networks in Social Science is a seminar livestreaming November 26 with",
+      "thread_id": "thread-897946c7a74e",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000687.html"
     }
   ],
   "threads": [
@@ -256,6 +273,17 @@
       "started": "2026-11-16T15:05:34Z",
       "last_reply": "2026-11-16T15:05:34Z",
       "root_message_id": "msg-6dd6efbfec91"
+    },
+    {
+      "id": "thread-897946c7a74e",
+      "subject": "Networks in Social Science with RStudio",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-11-18T15:05:37Z",
+      "last_reply": "2026-11-18T15:05:37Z",
+      "root_message_id": "msg-897946c7a74e"
     }
   ]
 }
