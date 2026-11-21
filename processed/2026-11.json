@@ -189,6 +189,23 @@
       "thread_depth": 0,
       "month": "2026-11",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000688.html"
+    },
+    {
+      "id": "msg-c5700f328ec4",
+      "message_id": "<LfwrQQJ9QZON8zO5TN7-5A@geopod-ismtpd-8>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-11-20T15:05:41Z",
+      "subject": "[R-sig-Epi] Hospital Episode Statistics in R",
+      "subject_clean": "Hospital Episode Statistics in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Administrative hospital records offer epidemiologists a source of evidence for research and public health. Introduction to Hospital Episode Statistics is a 2-day seminar livestreaming November 26?27 with Ofran Almossawi (Great Ormond Street Institute of Child Health, University College London), Helen Blake (Department of Population, Policy & Practice, University College London), Matthew Jay (Family Law & Health Research Group, UCL), Eliazar Luna (Department of Population, Policy & Practice, University College London), Rocio Mendez Pineda (UCL Great Ormond Street Institute of Child Health, University College London), Selina Nath (Department of Population, Policy & Practice, University College London), Vincent Nguyen (Institute of Healthcare and Epidemiology, University College London), and Joachim Tan (NIHR Great Ormond Street Hospital Biomedical Research Centre, University College London). Learn to clean, manage, and analyse Hospital Episode Statistics data using R, with practical exercises based on simulated records. The seminar examines how the data are collected and coded, including sources of inconsistency and potential bias. Epidemiologists can apply these skills to assess the suitability of hospital records for research while protecting individual confidentiality.\n\nDetails and registration: https://instats.org/seminar/introduction-to-hospital-episode-statist-2\nThe seminar page includes the full schedule and registration details.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Administrative hospital records offer epidemiologists a source of evidence for research and public health. Introduction to Hospital Episode Statistics is a 2-day ",
+      "thread_id": "thread-c5700f328ec4",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000689.html"
     }
   ],
   "threads": [
@@ -312,6 +329,17 @@
       "started": "2026-11-20T02:04:09Z",
       "last_reply": "2026-11-20T02:04:09Z",
       "root_message_id": "msg-fbadd6f266db"
+    },
+    {
+      "id": "thread-c5700f328ec4",
+      "subject": "Hospital Episode Statistics in R",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-11-20T15:05:41Z",
+      "last_reply": "2026-11-20T15:05:41Z",
+      "root_message_id": "msg-c5700f328ec4"
     }
   ]
 }
