@@ -206,6 +206,23 @@
       "thread_depth": 0,
       "month": "2026-11",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000689.html"
+    },
+    {
+      "id": "msg-bdab9e8bc549",
+      "message_id": "<1795452752.696113986@webmail.jimdo.com>",
+      "from_name": "i@io m@iii@g oii phys@ii@-courses@org",
+      "from_email_hash": "ca8ae7fca04226cbf7116003b962efbd86b9ffdf6a68e1a8cee80f656f89cb9c",
+      "date": "2026-11-23T16:52:32Z",
+      "subject": "[R-sig-Epi] Course online:  Bayesian Methods for Biomedical Data Science  -  30 November – 4 December",
+      "subject_clean": "Course online:  Bayesian Methods for Biomedical Data Science  -  30 November – 4 December",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nInterested in mastering Bayesian methods for biomedical research and AI?\n \nOnly a few seats remain for our online course, Bayesian Methods for Biomedical Data Science, taking place 30 November ? 4 December 2026.\n \nOver five half-days, you'll gain practical experience with Bayesian inference, MCMC, hierarchical models, variational inference and Bayesian multimodal data integration, combining expert-led lectures with hands-on exercises.\n \nFormat: Online\nTime: 2:00?6:00 pm (Berlin time)\n \n \nFind out more and secure your seat: [ https://www.physalia-courses.org/courses-workshops/bayesian-in-compgen/ ]( https://www.physalia-courses.org/courses-workshops/bayesian-in-compgen/ )\n \n \nBest regards,\n \nCarlo\n \n \n--------------------\n\nCarlo Pecoraro, Ph.D\n\n\nPhysalia-courses DIRECTOR\n\ninfo at physalia-courses.org\n\nmobile: +49 17645230846\n\n[ Bluesky ]( https://bsky.app/profile/physaliacourses.bsky.social ) [ Linkedin ]( https://www.linkedin.com/in/physalia-courses-a64418127/ )\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n\nInterested in mastering Bayesian methods for biomedical research and AI?\n \nOnly a few seats remain for our online course, Bayesian Methods for Biomedical Data Science, taking place 30 Novem",
+      "thread_id": "thread-bdab9e8bc549",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000690.html"
     }
   ],
   "threads": [
@@ -340,6 +357,17 @@
       "started": "2026-11-20T15:05:41Z",
       "last_reply": "2026-11-20T15:05:41Z",
       "root_message_id": "msg-c5700f328ec4"
+    },
+    {
+      "id": "thread-bdab9e8bc549",
+      "subject": "Course online:  Bayesian Methods for Biomedical Data Science  -  30 November – 4 December",
+      "message_count": 1,
+      "participants": [
+        "i@io m@iii@g oii phys@ii@-courses@org"
+      ],
+      "started": "2026-11-23T16:52:32Z",
+      "last_reply": "2026-11-23T16:52:32Z",
+      "root_message_id": "msg-bdab9e8bc549"
     }
   ]
 }
