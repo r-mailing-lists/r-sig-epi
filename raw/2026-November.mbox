@@ -364,3 +364,25 @@ mobile: +49 17645230846
 	[[alternative HTML version deleted]]
 
 
+From mzyphur m@iii@g oii i@st@ts@org  Tue Nov 24 16:04:44 2026
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Tue, 24 Nov 2026 15:04:44 +0000 (UTC)
+Subject: [R-sig-Epi] High-Performance Statistical Computing for Epidemiology
+Message-ID: <-BEp9Dh0T-24VrSvtxkn6A@geopod-ismtpd-7>
+
+Hello R-SIG-EPI members
+
+A reminder - Computational demands can shape the methods available for analysing epidemiological data in R. Introduction to High-Performance Statistical Computing (Free Seminar) is a seminar livestreaming November 30 with Sameh Abdulah (King Abdullah University) and Mary Lai Salva?a (University of Connecticut). High-performance statistical computing brings scalable algorithms and computing architectures to statistical analysis. Epidemiologists working with computationally intensive models can use its principles to assess whether multicore or GPU approaches suit their workloads. The course also considers how mixed precision affects numerical accuracy and statistical conclusions.
+
+Details and registration: https://instats.org/seminar/introduction-to-high-performance-statist
+Further information is available on the seminar page.
+
+
+Best wishes
+
+Michael Zyphur
+Director and Co-founder
+Instats | instats.org | instats.ai
+	[[alternative HTML version deleted]]
+
+

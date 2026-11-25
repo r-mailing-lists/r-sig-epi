@@ -223,6 +223,23 @@
       "thread_depth": 0,
       "month": "2026-11",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000690.html"
+    },
+    {
+      "id": "msg-e29ccb6fd721",
+      "message_id": "<-BEp9Dh0T-24VrSvtxkn6A@geopod-ismtpd-7>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-11-24T15:04:44Z",
+      "subject": "[R-sig-Epi] High-Performance Statistical Computing for Epidemiology",
+      "subject_clean": "High-Performance Statistical Computing for Epidemiology",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Computational demands can shape the methods available for analysing epidemiological data in R. Introduction to High-Performance Statistical Computing (Free Seminar) is a seminar livestreaming November 30 with Sameh Abdulah (King Abdullah University) and Mary Lai Salva?a (University of Connecticut). High-performance statistical computing brings scalable algorithms and computing architectures to statistical analysis. Epidemiologists working with computationally intensive models can use its principles to assess whether multicore or GPU approaches suit their workloads. The course also considers how mixed precision affects numerical accuracy and statistical conclusions.\n\nDetails and registration: https://instats.org/seminar/introduction-to-high-performance-statist\nFurther information is available on the seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org | instats.ai\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Computational demands can shape the methods available for analysing epidemiological data in R. Introduction to High-Performance Statistical Computing (Free Semina",
+      "thread_id": "thread-e29ccb6fd721",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000691.html"
     }
   ],
   "threads": [
@@ -368,6 +385,17 @@
       "started": "2026-11-23T16:52:32Z",
       "last_reply": "2026-11-23T16:52:32Z",
       "root_message_id": "msg-bdab9e8bc549"
+    },
+    {
+      "id": "thread-e29ccb6fd721",
+      "subject": "High-Performance Statistical Computing for Epidemiology",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-11-24T15:04:44Z",
+      "last_reply": "2026-11-24T15:04:44Z",
+      "root_message_id": "msg-e29ccb6fd721"
     }
   ]
 }
