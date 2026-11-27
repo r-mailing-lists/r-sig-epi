@@ -240,6 +240,23 @@
       "thread_depth": 0,
       "month": "2026-11",
       "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000691.html"
+    },
+    {
+      "id": "msg-4dd67f14eb2f",
+      "message_id": "<v-9krziaR36SW8k8S1k9og@geopod-ismtpd-1>",
+      "from_name": "mzyphur m@iii@g oii i@st@ts@org",
+      "from_email_hash": "252b54e096b1cc2b7cae76e00ed703f3596525227cfc47687b655cf5c7e64f69",
+      "date": "2026-11-26T15:06:29Z",
+      "subject": "[R-sig-Epi] Rare Events in Logistic Regression",
+      "subject_clean": "Rare Events in Logistic Regression",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological analyses often require careful decisions when relatively few events are observed. Logistic Regression: Separation & Rare Events is a 2-day seminar livestreaming December 1?2 with Hassan Doosti (School of Mathematical and Physical Sciences, Macquarie University). Assess rare events and low event counts when fitting logistic models to epidemiological data. Researchers using R can apply the diagnostic workflow to detect separation and consider bias-reduced estimation. The seminar also distinguishes case-control sampling from estimation remedies for sparse data.\n\nDetails and registration: https://instats.org/seminar/logistic-regression-separation-and-rare\nFurther information is available on the seminar page.\n\n\nBest wishes\n\nMichael Zyphur\nDirector and Co-founder\nInstats | instats.org | instats.ai\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hello R-SIG-EPI members\n\nA reminder - Epidemiological analyses often require careful decisions when relatively few events are observed. Logistic Regression: Separation & Rare Events is a 2-day seminar",
+      "thread_id": "thread-4dd67f14eb2f",
+      "thread_depth": 0,
+      "month": "2026-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-epi/2026-November/000692.html"
     }
   ],
   "threads": [
@@ -396,6 +413,17 @@
       "started": "2026-11-24T15:04:44Z",
       "last_reply": "2026-11-24T15:04:44Z",
       "root_message_id": "msg-e29ccb6fd721"
+    },
+    {
+      "id": "thread-4dd67f14eb2f",
+      "subject": "Rare Events in Logistic Regression",
+      "message_count": 1,
+      "participants": [
+        "mzyphur m@iii@g oii i@st@ts@org"
+      ],
+      "started": "2026-11-26T15:06:29Z",
+      "last_reply": "2026-11-26T15:06:29Z",
+      "root_message_id": "msg-4dd67f14eb2f"
     }
   ]
 }

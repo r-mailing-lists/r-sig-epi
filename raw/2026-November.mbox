@@ -386,3 +386,25 @@ Instats | instats.org | instats.ai
 	[[alternative HTML version deleted]]
 
 
+From mzyphur m@iii@g oii i@st@ts@org  Thu Nov 26 16:06:29 2026
+From: mzyphur m@iii@g oii i@st@ts@org (mzyphur m@iii@g oii i@st@ts@org)
+Date: Thu, 26 Nov 2026 15:06:29 +0000 (UTC)
+Subject: [R-sig-Epi] Rare Events in Logistic Regression
+Message-ID: <v-9krziaR36SW8k8S1k9og@geopod-ismtpd-1>
+
+Hello R-SIG-EPI members
+
+A reminder - Epidemiological analyses often require careful decisions when relatively few events are observed. Logistic Regression: Separation & Rare Events is a 2-day seminar livestreaming December 1?2 with Hassan Doosti (School of Mathematical and Physical Sciences, Macquarie University). Assess rare events and low event counts when fitting logistic models to epidemiological data. Researchers using R can apply the diagnostic workflow to detect separation and consider bias-reduced estimation. The seminar also distinguishes case-control sampling from estimation remedies for sparse data.
+
+Details and registration: https://instats.org/seminar/logistic-regression-separation-and-rare
+Further information is available on the seminar page.
+
+
+Best wishes
+
+Michael Zyphur
+Director and Co-founder
+Instats | instats.org | instats.ai
+	[[alternative HTML version deleted]]
+
+
